@@ -1,0 +1,357 @@
+# ************************************************************;;;;;;;;;;;;;;;;;;;;
+# Executed: 09/08/2016 09:55 customer : Rackpeople ApS (K4533456510);;;;;;;;;;;;;;;;;;;;
+# ************************************************************;;;;;;;;;;;;;;;;;;;;
+id;time;subscriber;aprefix;destination;invoice group;prefix;pbx;direction;volume/time(secs);price;free;forward;servingnetwork;reason;billed;;;;;
+455937299;21-08-2015 10:58;31107422884;Netherlands;4526120798;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;127;2,3;no;0;;0;yes;0,2;2,1;;230;0
+455938125;21-08-2015 11:01;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;543;4,63;no;0;;0;yes;0,2;4,43;;463;0
+456883751;24-08-2015 17:44;31107422884;Netherlands;4526120798;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;62;1,22;no;0;;0;yes;0,2;1,02;;122;0
+456884168;24-08-2015 17:50;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;1064;8,89;no;0;;0;yes;0,2;8,69;;889;0
+457685915;26-08-2015 09:37;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;754;6,36;no;0;;0;yes;0,2;6,16;;636;0
+457740356;26-08-2015 13:22;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;1610;13,35;no;0;;0;yes;0,2;13,15;;1335;0
+458234279;27-08-2015 14:03;31107422884;Netherlands;45107422884;Opkaldsforsøg;Unanswered Call;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+458234346;27-08-2015 14:04;31107422884;Netherlands;45107422884;Opkaldsforsøg;Unanswered Call;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+458234396;27-08-2015 14:04;31107422884;Netherlands;45107422885;Opkaldsforsøg;Unanswered Call;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+458234453;27-08-2015 14:04;31107422884;Netherlands;45107422885;Opkaldsforsøg;Unanswered Call;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+458241678;27-08-2015 14:32;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+458260183;27-08-2015 15:49;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;10;0,28;no;0;;0;yes;0,2;0,08;;28;0
+460039435;01-09-2015 15:37;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;11;0,29;no;0;;0;yes;0,2;0,09;;29;0
+461477774;04-09-2015 15:24;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;8;0,27;no;0;;0;yes;0,2;0,07;;27;0
+462688991;08-09-2015 08:17;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;12;0,3;no;0;;0;yes;0,2;0,1;;30;0
+464106091;11-09-2015 08:17;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;10;0,28;no;0;;0;yes;0,2;0,08;;28;0
+465080080;15-09-2015 16:50;31107422885;Netherlands;4526136326;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+465080197;15-09-2015 16:51;31107422885;Netherlands;4525781825;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+466961535;18-09-2015 15:46;31107422885;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+466961556;18-09-2015 15:46;31107422885;Netherlands;4526154170;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+466962333;18-09-2015 15:52;31107422885;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;752;6,34;no;0;;0;yes;0,2;6,14;;634;0
+466965817;18-09-2015 16:19;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471969076;21-09-2015 09:16;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;380;3,3;no;0;;0;yes;0,2;3,1;;330;0
+471973295;21-09-2015 09:34;31107422885;Netherlands;31882992030;Udland;Netherlands;rackpeoplehq-;ip-pstn;374;3,25;no;0;;0;yes;0,2;3,05;;325;0
+471985179;21-09-2015 10:20;31107422884;Netherlands;31628881214;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;463;19,11;no;0;;0;yes;0,2;18,91;;1911;0
+471986778;21-09-2015 10:26;31107422885;Netherlands;31882992030;Udland;Netherlands;rackpeoplehq-;ip-pstn;11;0,29;no;0;;0;yes;0,2;0,09;;29;0
+471987064;21-09-2015 10:27;31107422885;Netherlands;31882992030;Udland;Netherlands;rackpeoplehq-;ip-pstn;663;5,61;no;0;;0;yes;0,2;5,41;;561;0
+471990482;21-09-2015 10:39;31107422885;Netherlands;31882992030;Udland;Netherlands;rackpeoplehq-;ip-pstn;614;5,21;no;0;;0;yes;0,2;5,01;;521;0
+472023618;21-09-2015 12:51;31107422884;Netherlands;31314343307;Udland;Netherlands;rackpeoplehq-;ip-pstn;31;0,45;no;0;;0;yes;0,2;0,25;;45;0
+472023812;21-09-2015 12:52;31107422884;Netherlands;31627232099;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;40;1,83;no;0;;0;yes;0,2;1,63;;183;0
+472025523;21-09-2015 12:58;31107422884;Netherlands;31624878871;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;56;2,49;no;0;;0;yes;0,2;2,29;;249;0
+472062947;21-09-2015 15:23;31107422885;Netherlands;31207884230;Udland;Netherlands;rackpeoplehq-;ip-pstn;306;2,7;no;0;;0;yes;0,2;2,5;;270;0
+472067263;21-09-2015 15:40;31107422885;Netherlands;31206269782;Udland;Netherlands;rackpeoplehq-;ip-pstn;29;0,44;no;0;;0;yes;0,2;0,24;;44;0
+472070073;21-09-2015 15:53;31107422885;Netherlands;31206764999;Udland;Netherlands;rackpeoplehq-;ip-pstn;129;1,25;no;0;;0;yes;0,2;1,05;;125;0
+472073394;21-09-2015 16:09;31107422885;Netherlands;31880078500;Udland;Netherlands;rackpeoplehq-;ip-pstn;196;1,8;no;0;;0;yes;0,2;1,6;;180;0
+472083158;21-09-2015 17:19;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472083190;21-09-2015 17:20;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;514;4,4;no;0;;0;yes;0,2;4,2;;440;0
+471061841;23-09-2015 11:13;31107422885;Netherlands;31206150062;Udland;Netherlands;rackpeoplehq-;ip-pstn;124;1,21;no;0;;0;yes;0,2;1,01;;121;0
+471064680;23-09-2015 11:24;31107422885;Netherlands;31206159155;Udland;Netherlands;rackpeoplehq-;ip-pstn;604;5,13;no;0;;0;yes;0,2;4,93;;513;0
+471072420;23-09-2015 11:56;31107422885;Netherlands;31202170790;Udland;Netherlands;rackpeoplehq-;ip-pstn;106;1,07;no;0;;0;yes;0,2;0,87;;107;0
+471710998;24-09-2015 10:34;31107422885;Netherlands;31206159155;Udland;Netherlands;rackpeoplehq-;ip-pstn;455;3,92;no;0;;0;yes;0,2;3,72;;392;0
+471785502;24-09-2015 15:57;31107422884;Netherlands;31062480013;Udland;Netherlands;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471785629;24-09-2015 15:57;31107422884;Netherlands;31624800113;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471785730;24-09-2015 15:58;31107422884;Netherlands;31624800113;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471785761;24-09-2015 15:58;31107422884;Netherlands;31624800113;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;470;19,39;no;0;;0;yes;0,2;19,19;;1939;0
+471598587;25-09-2015 11:11;31107422885;Netherlands;31712032089;Udland;Netherlands;rackpeoplehq-;ip-pstn;9;0,27;no;0;;0;yes;0,2;0,07;;27;0
+471328052;28-09-2015 10:20;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;4040;33,19;no;0;;0;yes;0,2;32,99;;3319;0
+471375972;28-09-2015 13:27;31107422885;Netherlands;31703133020;Udland;Netherlands;rackpeoplehq-;ip-pstn;179;1,66;no;0;;0;yes;0,2;1,46;;166;0
+471165200;29-09-2015 08:53;4533456539;Danmark Fastnet;4570103103;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;170;0,46;no;0;;0;yes;0,2;0,26;;46;0
+471166099;29-09-2015 08:57;4533456539;Danmark Fastnet;4531789197;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;249;4,31;no;0;;0;yes;0,2;4,11;;431;0
+471168090;29-09-2015 09:06;4533456546;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;6;0,3;no;0;;0;yes;0,2;0,1;;30;0
+471168211;29-09-2015 09:07;4533456546;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1106;18,45;no;0;;0;yes;0,2;18,25;;1845;0
+471172507;29-09-2015 09:27;4533456546;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;77;0,32;no;0;;0;yes;0,2;0,12;;32;0
+471172839;29-09-2015 09:28;4533456533;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;16;0,46;no;0;;0;yes;0,2;0,26;;46;0
+471175342;29-09-2015 09:39;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471175441;29-09-2015 09:39;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471176345;29-09-2015 09:43;4533456544;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;16;0,46;no;0;;0;yes;0,2;0,26;;46;0
+471181257;29-09-2015 10:03;4533456549;Danmark Fastnet;4548785000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;203;0,5;no;0;;0;yes;0,2;0,3;;50;0
+471184424;29-09-2015 10:15;4533456549;Danmark Fastnet;4533122902;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;93;0,34;no;0;;0;yes;0,2;0,14;;34;0
+471184897;29-09-2015 10:16;4533456549;Danmark Fastnet;4539662121;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;49;0,27;no;0;;0;yes;0,2;0,07;;27;0
+471185511;29-09-2015 10:18;4533456549;Danmark Fastnet;4557666000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;77;0,32;no;0;;0;yes;0,2;0,12;;32;0
+471187496;29-09-2015 10:26;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471189313;29-09-2015 10:32;4533456518;Danmark Fastnet;4531382858;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;22;0,56;no;0;;0;yes;0,2;0,36;;56;0
+471189580;29-09-2015 10:33;4533456518;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;21;0,55;no;0;;0;yes;0,2;0,35;;55;0
+471194433;29-09-2015 10:51;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471194467;29-09-2015 10:51;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;195;3,42;no;0;;0;yes;0,2;3,22;;342;0
+471194706;29-09-2015 10:52;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471196862;29-09-2015 10:59;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;16;0,46;no;0;;0;yes;0,2;0,26;;46;0
+471196965;29-09-2015 11:00;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471197073;29-09-2015 11:00;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471197191;29-09-2015 11:00;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471199786;29-09-2015 11:10;4533456512;Danmark Fastnet;4561338309;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471200918;29-09-2015 11:14;4533456549;Danmark Fastnet;4540260053;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;19;0,51;no;0;;0;yes;0,2;0,31;;51;0
+471201051;29-09-2015 11:14;4533456549;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;66;1,29;no;0;;0;yes;0,2;1,09;;129;0
+471201419;29-09-2015 11:16;4533456514;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;83;1,57;no;0;;0;yes;0,2;1,37;;157;0
+471205347;29-09-2015 11:30;4533456512;Danmark Fastnet;4531361041;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;32;0,73;no;0;;0;yes;0,2;0,53;;73;0
+471208737;29-09-2015 11:43;4533456516;Danmark Fastnet;4531382858;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471212707;29-09-2015 12:00;4533456519;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;14;0,43;no;0;;0;yes;0,2;0,23;;43;0
+471213747;29-09-2015 12:05;4533456523;Danmark Fastnet;4533302264;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;33;0,25;no;0;;0;yes;0,2;0,05;;25;0
+471213926;29-09-2015 12:06;4533456523;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;20;0,53;no;0;;0;yes;0,2;0,33;;53;0
+471214325;29-09-2015 12:08;4533456523;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;12;0,4;no;0;;0;yes;0,2;0,2;;40;0
+471214420;29-09-2015 12:08;4533456523;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;12;0,4;no;0;;0;yes;0,2;0,2;;40;0
+471214643;29-09-2015 12:10;4533456523;Danmark Fastnet;4533302264;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;13;0,22;no;0;;0;yes;0,2;0,02;;22;0
+471218074;29-09-2015 12:28;4533456512;Danmark Fastnet;4531361041;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;17;0,48;no;0;;0;yes;0,2;0,28;;48;0
+471233809;29-09-2015 13:34;4533456523;Danmark Fastnet;4533302264;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471235311;29-09-2015 13:40;4533456512;Danmark Fastnet;4521699537;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;31;0,71;no;0;;0;yes;0,2;0,51;;71;0
+471238093;29-09-2015 13:51;4533456512;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;356;0,73;no;0;;0;yes;0,2;0,53;;73;0
+471239468;29-09-2015 13:57;4533456546;Danmark Fastnet;4588380004;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;853;1,48;no;0;;0;yes;0,2;1,28;;148;0
+471243506;29-09-2015 14:13;4533456519;Danmark Fastnet;4521844944;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;24;0,6;no;0;;0;yes;0,2;0,4;;60;0
+471243706;29-09-2015 14:14;4533456519;Danmark Fastnet;4533424307;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;196;0,49;no;0;;0;yes;0,2;0,29;;49;0
+471253367;29-09-2015 14:52;4533456524;Danmark Fastnet;4541379701;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;45;0,94;no;0;;0;yes;0,2;0,74;;94;0
+471259777;29-09-2015 15:19;4533456533;Danmark Fastnet;4570245001;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;304;0,66;no;0;;0;yes;0,2;0,46;;66;0
+471261841;29-09-2015 15:28;4533456523;Danmark Fastnet;4572198389;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;8;0,21;no;0;;0;yes;0,2;0,01;;21;0
+471262037;29-09-2015 15:28;4533456523;Danmark Fastnet;4570102545;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;8;0,21;no;0;;0;yes;0,2;0,01;;21;0
+471264545;29-09-2015 15:39;4533456512;Danmark Fastnet;4526185226;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471264684;29-09-2015 15:40;4533456512;Danmark Fastnet;4570233470;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;11;0,22;no;0;;0;yes;0,2;0,02;;22;0
+471265561;29-09-2015 15:43;4533456533;Danmark Fastnet;4539641949;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;156;0,43;no;0;;0;yes;0,2;0,23;;43;0
+471266019;29-09-2015 15:45;4533456524;Danmark Fastnet;4541379701;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;793;13,28;no;0;;0;yes;0,2;13,08;;1328;0
+471272671;29-09-2015 16:20;4533456546;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;29;0,68;no;0;;0;yes;0,2;0,48;;68;0
+471275151;29-09-2015 16:37;31107422885;Netherlands;4524850358;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;25;0,61;no;0;;0;yes;0,2;0,41;;61;0
+471451298;30-09-2015 09:01;4533456512;Danmark Fastnet;4541624048;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;177;3,12;no;0;;0;yes;0,2;2,92;;312;0
+471453353;30-09-2015 09:10;4533456519;Danmark Fastnet;4521352921;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;202;3,53;no;0;;0;yes;0,2;3,33;;353;0
+471457437;30-09-2015 09:28;31107422884;Netherlands;31615869682;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;39;1,79;no;0;;0;yes;0,2;1,59;;179;0
+471457719;30-09-2015 09:29;31107422884;Netherlands;31615869682;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471457973;30-09-2015 09:30;31107422884;Netherlands;31615869682;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;402;16,62;no;0;;0;yes;0,2;16,42;;1662;0
+471463039;30-09-2015 09:50;31107422885;Netherlands;31647130170;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471463971;30-09-2015 09:54;31107422885;Netherlands;31205309100;Udland;Netherlands;rackpeoplehq-;ip-pstn;97;0,99;no;0;;0;yes;0,2;0,79;;99;0
+471467044;30-09-2015 10:06;31107422885;Netherlands;31206701947;Udland;Netherlands;rackpeoplehq-;ip-pstn;162;1,52;no;0;;0;yes;0,2;1,32;;152;0
+471469862;30-09-2015 10:16;31107422885;Netherlands;31204201702;Udland;Netherlands;rackpeoplehq-;ip-pstn;104;1,05;no;0;;0;yes;0,2;0,85;;105;0
+471470164;30-09-2015 10:17;4533456524;Danmark Fastnet;4527525570;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;71;1,37;no;0;;0;yes;0,2;1,17;;137;0
+471472019;30-09-2015 10:24;31107422885;Netherlands;31207884230;Udland;Netherlands;rackpeoplehq-;ip-pstn;173;1,61;no;0;;0;yes;0,2;1,41;;161;0
+471474195;30-09-2015 10:32;4533456524;Danmark Fastnet;4531673691;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;761;12,76;no;0;;0;yes;0,2;12,56;;1276;0
+471475137;30-09-2015 10:35;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;1434;11,91;no;0;;0;yes;0,2;11,71;;1191;0
+471476432;30-09-2015 10:40;31107422885;Netherlands;31206764999;Udland;Netherlands;rackpeoplehq-;ip-pstn;121;1,19;no;0;;0;yes;0,2;0,99;;119;0
+471478851;30-09-2015 10:49;31107422885;Netherlands;31206269782;Udland;Netherlands;rackpeoplehq-;ip-pstn;67;0,75;no;0;;0;yes;0,2;0,55;;75;0
+471479669;30-09-2015 10:52;4533456546;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;5;0,28;no;0;;0;yes;0,2;0,08;;28;0
+471481499;30-09-2015 10:59;31107422885;Netherlands;31204286868;Udland;Netherlands;rackpeoplehq-;ip-pstn;204;1,87;no;0;;0;yes;0,2;1,67;;187;0
+471484611;30-09-2015 11:10;31107422885;Netherlands;31208461404;Udland;Netherlands;rackpeoplehq-;ip-pstn;772;6,5;no;0;;0;yes;0,2;6,3;;650;0
+471488328;30-09-2015 11:24;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;38;0,51;no;0;;0;yes;0,2;0,31;;51;0
+471488487;30-09-2015 11:25;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471488864;30-09-2015 11:26;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471489883;30-09-2015 11:30;4533456524;Danmark Fastnet;4570107879;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;304;0,66;no;0;;0;yes;0,2;0,46;;66;0
+471490988;30-09-2015 11:34;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;28;0,66;no;0;;0;yes;0,2;0,46;;66;0
+471491001;30-09-2015 11:34;31107422885;Netherlands;31205309666;Udland;Netherlands;rackpeoplehq-;ip-pstn;68;0,76;no;0;;0;yes;0,2;0,56;;76;0
+471491187;30-09-2015 11:35;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;39;0,84;no;0;;0;yes;0,2;0,64;;84;0
+471491392;30-09-2015 11:35;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471491620;30-09-2015 11:36;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;76;1,45;no;0;;0;yes;0,2;1,25;;145;0
+471492710;30-09-2015 11:41;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;113;2,06;no;0;;0;yes;0,2;1,86;;206;0
+471492894;30-09-2015 11:41;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;11;0,38;no;0;;0;yes;0,2;0,18;;38;0
+471493283;30-09-2015 11:43;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471494139;30-09-2015 11:46;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471495097;30-09-2015 11:50;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471495530;30-09-2015 11:51;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471495779;30-09-2015 11:52;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471496658;30-09-2015 11:55;4533456516;Danmark Fastnet;4531382858;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471496989;30-09-2015 11:56;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;69;1,34;no;0;;0;yes;0,2;1,14;;134;0
+471498208;30-09-2015 12:00;4533456514;Danmark Fastnet;4530620633;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;35;0,78;no;0;;0;yes;0,2;0,58;;78;0
+471501969;30-09-2015 12:17;4533456524;Danmark Fastnet;4520783238;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1057;17,64;no;0;;0;yes;0,2;17,44;;1764;0
+471516139;30-09-2015 13:18;4533456524;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471516355;30-09-2015 13:19;4533456524;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;79;1,5;no;0;;0;yes;0,2;1,3;;150;0
+471516641;30-09-2015 13:20;4533456514;Danmark Fastnet;4533302946;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;59;0,29;no;0;;0;yes;0,2;0,09;;29;0
+471516836;30-09-2015 13:20;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471516858;30-09-2015 13:21;4533456524;Danmark Fastnet;4533424423;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;943;1,61;no;0;;0;yes;0,2;1,41;;161;0
+471517490;30-09-2015 13:23;4533456514;Danmark Fastnet;4533300654;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;159;0,44;no;0;;0;yes;0,2;0,24;;44;0
+471517837;30-09-2015 13:24;4533456549;Danmark Fastnet;4533424423;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471519196;30-09-2015 13:29;4533456519;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;9;0,35;no;0;;0;yes;0,2;0,15;;35;0
+471520696;30-09-2015 13:35;4533456522;Danmark Fastnet;4522606657;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;87;1,64;no;0;;0;yes;0,2;1,44;;164;0
+471520758;30-09-2015 13:35;4533456515;Danmark Fastnet;4580404040;Danmark 80 nummer;Danmark Frinummer;rackpeoplehq-;ip-pstn;15;0;no;0;;0;no;0;0;;0;0
+471520801;30-09-2015 13:35;4533456549;Danmark Fastnet;4543668888;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;397;0,8;no;0;;0;yes;0,2;0,6;;80;0
+471523224;30-09-2015 13:45;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471524110;30-09-2015 13:48;4533456512;Danmark Fastnet;4528768401;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;327;5,6;no;0;;0;yes;0,2;5,4;;560;0
+471526931;30-09-2015 13:59;4533456514;Danmark Fastnet;4522205497;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;130;2,35;no;0;;0;yes;0,2;2,15;;235;0
+471530945;30-09-2015 14:15;4533456519;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;89;1,67;no;0;;0;yes;0,2;1,47;;167;0
+471532746;30-09-2015 14:22;4533456519;Danmark Fastnet;4533151060;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;79;0,32;no;0;;0;yes;0,2;0,12;;32;0
+471537504;30-09-2015 14:40;4533456512;Danmark Fastnet;4528768401;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1302;21,68;no;0;;0;yes;0,2;21,48;;2168;0
+471538634;30-09-2015 14:45;4533456524;Danmark Fastnet;4531673691;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;14;0,43;no;0;;0;yes;0,2;0,23;;43;0
+471540091;30-09-2015 14:50;4533456549;Danmark Fastnet;4570117744;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;160;0,44;no;0;;0;yes;0,2;0,24;;44;0
+471541460;30-09-2015 14:56;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471542020;30-09-2015 14:58;4533456522;Danmark Fastnet;4521269980;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;34;0,76;no;0;;0;yes;0,2;0,56;;76;0
+471545036;30-09-2015 15:10;4533456549;Danmark Fastnet;4572102030;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;133;0,4;no;0;;0;yes;0,2;0,2;;40;0
+471549987;30-09-2015 15:30;4533456522;Danmark Fastnet;4521269980;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;12;0,4;no;0;;0;yes;0,2;0,2;;40;0
+471550178;30-09-2015 15:31;4533456524;Danmark Fastnet;4533111307;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;60;0,29;no;0;;0;yes;0,2;0,09;;29;0
+471550480;30-09-2015 15:32;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+471550795;30-09-2015 15:34;4533456524;Danmark Fastnet;4533934411;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;31;0,25;no;0;;0;yes;0,2;0,05;;25;0
+471550955;30-09-2015 15:35;4533456549;Danmark Fastnet;4522205497;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;72;1,39;no;0;;0;yes;0,2;1,19;;139;0
+471550962;30-09-2015 15:35;4533456524;Danmark Fastnet;4533934411;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;36;0,25;no;0;;0;yes;0,2;0,05;;25;0
+471551321;30-09-2015 15:36;4533456522;Danmark Fastnet;4521269980;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;7;0,32;no;0;;0;yes;0,2;0,12;;32;0
+472807914;30-09-2015 15:56;4533456546;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;27;0,65;no;0;;0;yes;0,2;0,45;;65;0
+472813673;30-09-2015 16:29;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472673189;01-10-2015 08:03;4533456514;Danmark Fastnet;4530620633;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;41;0,88;no;0;;0;yes;0,2;0,68;;88;0
+472680209;01-10-2015 08:45;4533456514;Danmark Fastnet;4596107560;Danmark;Denmark Fastnet;rackpeoplehq-;ip-pstn;124;0,39;no;0;;0;yes;0,2;0,19;;39;0
+472681255;01-10-2015 08:51;4533456514;Danmark Fastnet;4522699663;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;167;2,96;no;0;;0;yes;0,2;2,76;;296;0
+472682335;01-10-2015 08:56;4533456514;Danmark Fastnet;4522699014;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;25;0,61;no;0;;0;yes;0,2;0,41;;61;0
+472683874;01-10-2015 09:03;4533456534;Danmark Fastnet;4526154170;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472685117;01-10-2015 09:09;4533456534;Danmark Fastnet;4531311279;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472687156;01-10-2015 09:19;4533456534;Danmark Fastnet;4531311279;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472689211;01-10-2015 09:28;4533456549;Danmark Fastnet;4557666000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;149;0,42;no;0;;0;yes;0,2;0,22;;42;0
+472692914;01-10-2015 09:43;4533456534;Danmark Fastnet;4550591423;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;13;0,41;no;0;;0;yes;0,2;0,21;;41;0
+472693348;01-10-2015 09:45;4533456524;Danmark Fastnet;4541264915;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472693780;01-10-2015 09:47;4533456522;Danmark Fastnet;4555466402;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;172;0,46;no;0;;0;yes;0,2;0,26;;46;0
+472693890;01-10-2015 09:48;4533456524;Danmark Fastnet;4541264915;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;18;0,5;no;0;;0;yes;0,2;0,3;;50;0
+472694078;01-10-2015 09:49;4533456524;Danmark Fastnet;4541264915;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;63;1,24;no;0;;0;yes;0,2;1,04;;124;0
+472704830;01-10-2015 10:31;4533456514;Danmark Fastnet;4522205497;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;34;0,76;no;0;;0;yes;0,2;0,56;;76;0
+472712582;01-10-2015 11:00;4533456514;Danmark Fastnet;4530620633;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472724807;01-10-2015 11:46;4533456549;Danmark Fastnet;4540260053;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;29;0,68;no;0;;0;yes;0,2;0,48;;68;0
+472725159;01-10-2015 11:48;4533456533;Danmark Fastnet;4570703030;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;224;0,54;no;0;;0;yes;0,2;0,34;;54;0
+472725859;01-10-2015 11:50;4533456546;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;8;0,21;no;0;;0;yes;0,2;0,01;;21;0
+472725966;01-10-2015 11:51;4533456546;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;11;0,22;no;0;;0;yes;0,2;0,02;;22;0
+472727035;01-10-2015 11:55;4533456546;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;268;0,6;no;0;;0;yes;0,2;0,4;;60;0
+472731901;01-10-2015 12:18;4533456523;Danmark Fastnet;4533389235;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;37;0,26;no;0;;0;yes;0,2;0,06;;26;0
+472732082;01-10-2015 12:19;4533456522;Danmark Fastnet;4545863173;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;17;0,23;no;0;;0;yes;0,2;0,03;;23;0
+472741122;01-10-2015 13:02;4533456524;Danmark Fastnet;4527525570;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;339;5,79;no;0;;0;yes;0,2;5,59;;579;0
+472742851;01-10-2015 13:09;4533456524;Danmark Fastnet;4522200467;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;41;0,88;no;0;;0;yes;0,2;0,68;;88;0
+472742943;01-10-2015 13:09;4533456523;Danmark Fastnet;4541379717;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;170;3,01;no;0;;0;yes;0,2;2,81;;301;0
+472743946;01-10-2015 13:13;4533456523;Danmark Fastnet;4533389235;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;369;0,75;no;0;;0;yes;0,2;0,55;;75;0
+472751244;01-10-2015 13:42;4533456519;Danmark Fastnet;4530462040;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;31;0,71;no;0;;0;yes;0,2;0,51;;71;0
+472751409;01-10-2015 13:43;4533456519;Danmark Fastnet;4522544467;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;40;0,86;no;0;;0;yes;0,2;0,66;;86;0
+472751816;01-10-2015 13:44;4533456519;Danmark Fastnet;4570207225;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;143;0,41;no;0;;0;yes;0,2;0,21;;41;0
+472752709;01-10-2015 13:47;4533456524;Danmark Fastnet;4531673691;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;38;0,83;no;0;;0;yes;0,2;0,63;;83;0
+472755888;01-10-2015 14:00;4533456546;Danmark Fastnet;4540260053;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;91;1,7;no;0;;0;yes;0,2;1,5;;170;0
+472759639;01-10-2015 14:15;4533456512;Danmark Fastnet;4533375112;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;254;0,58;no;0;;0;yes;0,2;0,38;;58;0
+472760235;01-10-2015 14:18;4533456522;Danmark Fastnet;4545863173;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;16;0,22;no;0;;0;yes;0,2;0,02;;22;0
+472760493;01-10-2015 14:19;4533456522;Danmark Fastnet;4545863173;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;15;0,22;no;0;;0;yes;0,2;0,02;;22;0
+472761440;01-10-2015 14:23;4533456522;Danmark Fastnet;4545863173;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;16;0,22;no;0;;0;yes;0,2;0,02;;22;0
+472761532;01-10-2015 14:23;4533456523;Danmark Fastnet;4533302264;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;8;0,21;no;0;;0;yes;0,2;0,01;;21;0
+472761755;01-10-2015 14:24;4533456512;Danmark Fastnet;4522140110;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;326;5,58;no;0;;0;yes;0,2;5,38;;558;0
+472773113;01-10-2015 15:11;4533456533;Danmark Fastnet;4570703030;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;733;1,3;no;0;;0;yes;0,2;1,1;;130;0
+472775445;01-10-2015 15:21;4533456549;Danmark Fastnet;4558160553;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;120;0,38;no;0;;0;yes;0,2;0,18;;38;0
+472777516;01-10-2015 15:30;4533456523;Danmark Fastnet;4523469302;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472777634;01-10-2015 15:31;4533456523;Danmark Fastnet;4523469302;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;9;0,35;no;0;;0;yes;0,2;0,15;;35;0
+472777718;01-10-2015 15:31;4533456523;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472777818;01-10-2015 15:31;4533456523;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;13;0,41;no;0;;0;yes;0,2;0,21;;41;0
+472778084;01-10-2015 15:33;4533456523;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472778114;01-10-2015 15:33;4533456523;Danmark Fastnet;4523469302;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;27;0,65;no;0;;0;yes;0,2;0,45;;65;0
+472785378;01-10-2015 16:09;4533456523;Danmark Fastnet;4533389235;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;52;0,28;no;0;;0;yes;0,2;0,08;;28;0
+472791040;01-10-2015 16:48;4533456512;Danmark Fastnet;4637215360;Udland;Sweden;rackpeoplehq-;ip-pstn;397;1,85;no;0;;0;yes;0,2;1,65;;185;0
+472792350;01-10-2015 16:59;31107422885;Netherlands;31654233585;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472792434;01-10-2015 17:00;31107422885;Netherlands;31653519628;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;1629;66,72;no;0;;0;yes;0,2;66,52;;6672;0
+472797297;01-10-2015 17:52;4533456516;Danmark Fastnet;4558520358;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1143;1,91;no;0;;0;yes;0,2;1,71;;191;0
+472798600;01-10-2015 18:11;4533456516;Danmark Fastnet;4520841734;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;26;0,63;no;0;;0;yes;0,2;0,43;;63;0
+472798629;01-10-2015 18:12;4533456516;Danmark Fastnet;4531382858;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+472802610;01-10-2015 19:46;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473174468;02-10-2015 07:50;4533456514;Danmark Fastnet;4530620633;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;47;0,98;no;0;;0;yes;0,2;0,78;;98;0
+473177467;02-10-2015 08:14;4533456514;Danmark Fastnet;4572544382;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;31;0,25;no;0;;0;yes;0,2;0,05;;25;0
+473183881;02-10-2015 08:53;4533456523;Danmark Fastnet;4543303313;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;722;1,28;no;0;;0;yes;0,2;1,08;;128;0
+473185783;02-10-2015 09:02;4533456519;Danmark Fastnet;4570107288;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;337;0,71;no;0;;0;yes;0,2;0,51;;71;0
+473185801;02-10-2015 09:02;4533456549;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;110;0,37;no;0;;0;yes;0,2;0,17;;37;0
+473186343;02-10-2015 09:05;4533456524;Danmark Fastnet;4541379701;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1878;31,19;no;0;;0;yes;0,2;30,99;;3119;0
+473186853;02-10-2015 09:07;4533456534;Danmark Fastnet;4526276502;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;39;0,84;no;0;;0;yes;0,2;0,64;;84;0
+473188901;02-10-2015 09:16;4533456549;Danmark Fastnet;4570117744;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;531;1;no;0;;0;yes;0,2;0,8;;100;0
+473191717;02-10-2015 09:30;4533456533;Danmark Fastnet;4570222111;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;136;0,4;no;0;;0;yes;0,2;0,2;;40;0
+473193746;02-10-2015 09:39;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473201903;02-10-2015 10:13;4533456519;Danmark Fastnet;4563127000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;152;0,43;no;0;;0;yes;0,2;0,23;;43;0
+473208701;02-10-2015 10:40;4533456514;Danmark Fastnet;4572544382;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;66;0,3;no;0;;0;yes;0,2;0,1;;30;0
+473215115;02-10-2015 11:03;4533456519;Danmark Fastnet;4533133713;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;11;0,22;no;0;;0;yes;0,2;0,02;;22;0
+473218069;02-10-2015 11:14;4533456523;Danmark Fastnet;4543575101;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;55;0,28;no;0;;0;yes;0,2;0,08;;28;0
+473218281;02-10-2015 11:15;4533456519;Danmark Fastnet;4533697000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;234;0,55;no;0;;0;yes;0,2;0,35;;55;0
+473218648;02-10-2015 11:16;4533456523;Danmark Fastnet;4570102545;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;132;0,4;no;0;;0;yes;0,2;0,2;;40;0
+473219346;02-10-2015 11:19;4533456523;Danmark Fastnet;4543575101;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;184;0,48;no;0;;0;yes;0,2;0,28;;48;0
+473225527;02-10-2015 11:43;4533456523;Danmark Fastnet;4533302264;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473225598;02-10-2015 11:43;4533456523;Danmark Fastnet;4523297809;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473226283;02-10-2015 11:46;4533456523;Danmark Fastnet;4533302264;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;10;0,22;no;0;;0;yes;0,2;0,02;;22;0
+473229099;02-10-2015 11:57;4533456523;Danmark Fastnet;4570128064;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;200;0,5;no;0;;0;yes;0,2;0,3;;50;0
+473233492;02-10-2015 12:18;4533456546;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;816;13,66;no;0;;0;yes;0,2;13,46;;1366;0
+473245497;02-10-2015 13:13;4533456546;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;20;0,53;no;0;;0;yes;0,2;0,33;;53;0
+473245908;02-10-2015 13:15;4533456546;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;318;5,45;no;0;;0;yes;0,2;5,25;;545;0
+473246542;02-10-2015 13:18;4533456514;Danmark Fastnet;4524754580;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;49;1,01;no;0;;0;yes;0,2;0,81;;101;0
+473247478;02-10-2015 13:22;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473249690;02-10-2015 13:32;4533456534;Danmark Fastnet;4531311279;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;13;0,22;no;0;;0;yes;0,2;0,02;;22;0
+473252294;02-10-2015 13:43;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;28;0,66;no;0;;0;yes;0,2;0,46;;66;0
+473257177;02-10-2015 14:05;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473257818;02-10-2015 14:08;4533456514;Danmark Fastnet;298237420;Udland Mobil;Faroe Islands - Mobile;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473258399;02-10-2015 14:11;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;6;0,3;no;0;;0;yes;0,2;0,1;;30;0
+473268067;02-10-2015 14:59;4533456522;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473269492;02-10-2015 15:08;4533456522;Danmark Fastnet;4555466402;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473269639;02-10-2015 15:09;4533456522;Danmark Fastnet;4570333333;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;102;0,35;no;0;;0;yes;0,2;0,15;;35;0
+473269983;02-10-2015 15:11;4533456516;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473271805;02-10-2015 15:22;4533456523;Danmark Fastnet;4551272627;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;644;10,83;no;0;;0;yes;0,2;10,63;;1083;0
+473274375;02-10-2015 15:38;4533456512;Danmark Fastnet;4529991619;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+473276751;02-10-2015 15:55;4533456514;Danmark Fastnet;4528768401;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;27;0,65;no;0;;0;yes;0,2;0,45;;65;0
+473277375;02-10-2015 16:00;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;3220;26,5;no;0;;0;yes;0,2;26,3;;2650;0
+473277949;02-10-2015 16:04;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;32;0,73;no;0;;0;yes;0,2;0,53;;73;0
+473557702;03-10-2015 11:14;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;62;1,22;no;0;;0;yes;0,2;1,02;;122;0
+474063980;05-10-2015 08:23;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474068153;05-10-2015 08:45;4533456519;Danmark Fastnet;4533305170;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;90;0,34;no;0;;0;yes;0,2;0,14;;34;0
+474071006;05-10-2015 08:59;4533456519;Danmark Fastnet;4539176870;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;160;0,44;no;0;;0;yes;0,2;0,24;;44;0
+474086500;05-10-2015 10:03;4533456512;Danmark Fastnet;4533374905;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;24;0,24;no;0;;0;yes;0,2;0,04;;24;0
+474087364;05-10-2015 10:06;4533456549;Danmark Fastnet;4570212024;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;617;1,13;no;0;;0;yes;0,2;0,93;;113;0
+474091244;05-10-2015 10:20;4533456524;Danmark Fastnet;4527525570;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;36;0,79;no;0;;0;yes;0,2;0,59;;79;0
+474092703;05-10-2015 10:26;4533456512;Danmark Fastnet;4637274850;Udland;Sweden;rackpeoplehq-;ip-pstn;110;0,66;no;0;;0;yes;0,2;0,46;;66;0
+474093766;05-10-2015 10:30;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474095663;05-10-2015 10:37;4533456524;Danmark Fastnet;4540436294;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;19;0,51;no;0;;0;yes;0,2;0,31;;51;0
+474095785;05-10-2015 10:38;4533456524;Danmark Fastnet;4540436294;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;28;0,66;no;0;;0;yes;0,2;0,46;;66;0
+474096173;05-10-2015 10:39;4533456543;Danmark Fastnet;4541429317;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474104470;05-10-2015 11:09;4533456524;Danmark Fastnet;4576201445;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474105076;05-10-2015 11:11;4533456524;Danmark Fastnet;4575922800;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;1128;1,89;no;0;;0;yes;0,2;1,69;;189;0
+474107693;05-10-2015 11:21;4533456519;Danmark Fastnet;4533424307;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;27;0,24;no;0;;0;yes;0,2;0,04;;24;0
+474108108;05-10-2015 11:23;4533456519;Danmark Fastnet;4521844944;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;27;0,65;no;0;;0;yes;0,2;0,45;;65;0
+474112122;05-10-2015 11:38;4533456512;Danmark Fastnet;4571999822;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;71;1,37;no;0;;0;yes;0,2;1,17;;137;0
+474115625;05-10-2015 11:52;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;192;3,37;no;0;;0;yes;0,2;3,17;;337;0
+474120722;05-10-2015 12:14;4533456512;Danmark Fastnet;4571999822;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;4;0,27;no;0;;0;yes;0,2;0,07;;27;0
+474121457;05-10-2015 12:18;4533456519;Danmark Fastnet;4,97113E+12;Udland;Germany;rackpeoplehq-;ip-pstn;369;3,21;no;0;;0;yes;0,2;3,01;;321;0
+474129755;05-10-2015 12:56;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;9;0,35;no;0;;0;yes;0,2;0,15;;35;0
+474135543;05-10-2015 13:18;4533456519;Danmark Fastnet;4533122902;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;95;0,34;no;0;;0;yes;0,2;0,14;;34;0
+474137098;05-10-2015 13:24;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;1338;11,13;no;0;;0;yes;0,2;10,93;;1113;0
+474138593;05-10-2015 13:30;4533456546;Danmark Fastnet;4570709090;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;2;0,2;no;0;;0;yes;0,2;0;;20;0
+474138690;05-10-2015 13:31;4533456546;Danmark Fastnet;4570709090;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;56;0,28;no;0;;0;yes;0,2;0,08;;28;0
+474139331;05-10-2015 13:33;4533456546;Danmark Fastnet;4540260053;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;18;0,5;no;0;;0;yes;0,2;0,3;;50;0
+474139635;05-10-2015 13:34;4533456523;Danmark Fastnet;4530563491;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1233;20,54;no;0;;0;yes;0,2;20,34;;2054;0
+474144954;05-10-2015 13:55;31107422884;Netherlands;31653101152;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;4;0,36;no;0;;0;yes;0,2;0,16;;36;0
+474145179;05-10-2015 13:56;31107422884;Netherlands;31653101152;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;6;0,45;no;0;;0;yes;0,2;0,25;;45;0
+474145275;05-10-2015 13:57;31107422884;Netherlands;31063913131;Udland;Netherlands;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474145365;05-10-2015 13:57;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;19;0,36;no;0;;0;yes;0,2;0,16;;36;0
+474146366;05-10-2015 14:01;31107422884;Netherlands;31628881214;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;127;5,39;no;0;;0;yes;0,2;5,19;;539;0
+474154737;05-10-2015 14:34;4533456546;Danmark Fastnet;4570709090;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;243;0,56;no;0;;0;yes;0,2;0,36;;56;0
+474156203;05-10-2015 14:39;31107422885;Netherlands;31206693096;Udland;Netherlands;rackpeoplehq-;ip-pstn;231;2,09;no;0;;0;yes;0,2;1,89;;209;0
+474158705;05-10-2015 14:50;31107422885;Netherlands;31205987626;Udland;Netherlands;rackpeoplehq-;ip-pstn;32;0,46;no;0;;0;yes;0,2;0,26;;46;0
+474159954;05-10-2015 14:55;31107422885;Netherlands;31881000200;Udland;Netherlands;rackpeoplehq-;ip-pstn;110;1,1;no;0;;0;yes;0,2;0,9;;110;0
+474160515;05-10-2015 14:57;4533456522;Danmark Fastnet;4540459561;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;44;0,93;no;0;;0;yes;0,2;0,73;;93;0
+474161166;05-10-2015 14:59;31107422885;Netherlands;31647130170;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;2273;93,01;no;0;;0;yes;0,2;92,81;;9301;0
+474163950;05-10-2015 15:11;4533456546;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;27;0,65;no;0;;0;yes;0,2;0,45;;65;0
+474172933;05-10-2015 15:50;4533456512;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;922;1,58;no;0;;0;yes;0,2;1,38;;158;0
+474175279;05-10-2015 16:02;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;31;0,71;no;0;;0;yes;0,2;0,51;;71;0
+474177019;05-10-2015 16:13;4533456512;Danmark Fastnet;4586327171;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;132;0,4;no;0;;0;yes;0,2;0,2;;40;0
+474179256;05-10-2015 16:27;4533456542;Danmark Fastnet;4533320320;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;47;0,27;no;0;;0;yes;0,2;0,07;;27;0
+474179417;05-10-2015 16:28;4533456542;Danmark Fastnet;41227101890;Udland;Switzerland;rackpeoplehq-;ip-pstn;62;0,71;no;0;;0;yes;0,2;0,51;;71;0
+474182953;05-10-2015 16:56;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;31;0,71;no;0;;0;yes;0,2;0,51;;71;0
+474504769;06-10-2015 08:30;4533456546;Danmark Fastnet;4540260053;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;177;3,12;no;0;;0;yes;0,2;2,92;;312;0
+474509246;06-10-2015 08:52;4533456519;Danmark Fastnet;4533122902;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;31;0,25;no;0;;0;yes;0,2;0,05;;25;0
+474511076;06-10-2015 09:01;4533456546;Danmark Fastnet;4533927564;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474514823;06-10-2015 09:17;31107422885;Netherlands;32497511262;Udland Mobil;Belgium-Mobile;rackpeoplehq-;ip-pstn;1563;51;no;0;;0;yes;0,2;50,8;;5100;0
+474516020;06-10-2015 09:22;31107422884;Netherlands;31639131131;Udland;Netherlands;rackpeoplehq-;ip-pstn;204;1,87;no;0;;0;yes;0,2;1,67;;187;0
+474516702;06-10-2015 09:26;4533456524;Danmark Fastnet;4533217181;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474520899;06-10-2015 09:43;4533456522;Danmark Fastnet;4520140638;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;84;1,59;no;0;;0;yes;0,2;1,39;;159;0
+474524158;06-10-2015 09:57;4533456522;Danmark Fastnet;4522606657;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;49;1,01;no;0;;0;yes;0,2;0,81;;101;0
+474534696;06-10-2015 10:37;31107422885;Netherlands;31334223510;Udland;Netherlands;rackpeoplehq-;ip-pstn;410;3,55;no;0;;0;yes;0,2;3,35;;355;0
+474535620;06-10-2015 10:40;4533456524;Danmark Fastnet;4533389000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;67;0,3;no;0;;0;yes;0,2;0,1;;30;0
+474544561;06-10-2015 11:14;4533456524;Danmark Fastnet;4533389000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;271;0,61;no;0;;0;yes;0,2;0,41;;61;0
+474549206;06-10-2015 11:31;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474553170;06-10-2015 11:47;4533456519;Danmark Fastnet;4532533031;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474553242;06-10-2015 11:47;4533456519;Danmark Fastnet;4532533031;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474554796;06-10-2015 11:53;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;32;0,73;no;0;;0;yes;0,2;0,53;;73;0
+474562092;06-10-2015 12:27;4533456522;Danmark Fastnet;4576411717;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;221;0,53;no;0;;0;yes;0,2;0,33;;53;0
+474569744;06-10-2015 13:00;4533456512;Danmark Fastnet;4528768401;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474571109;06-10-2015 13:05;4533456512;Danmark Fastnet;4586327171;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;156;0,43;no;0;;0;yes;0,2;0,23;;43;0
+474571885;06-10-2015 13:08;4533456516;Danmark Fastnet;4531382858;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474572813;06-10-2015 13:12;4533456522;Danmark Fastnet;4576411717;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;189;0,48;no;0;;0;yes;0,2;0,28;;48;0
+474573706;06-10-2015 13:16;4533456512;Danmark Fastnet;4533753636;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;167;0,45;no;0;;0;yes;0,2;0,25;;45;0
+474573776;06-10-2015 13:16;4533456524;Danmark Fastnet;4570107879;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;23;0,23;no;0;;0;yes;0,2;0,03;;23;0
+474573901;06-10-2015 13:17;4533456524;Danmark Fastnet;4570107879;Danmark 70 nummer;Danmark 70 nummer;rackpeoplehq-;ip-pstn;183;0,47;no;0;;0;yes;0,2;0,27;;47;0
+474574166;06-10-2015 13:18;4533456542;Danmark Fastnet;4520307879;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;187;3,29;no;0;;0;yes;0,2;3,09;;329;0
+474577729;06-10-2015 13:32;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474579380;06-10-2015 13:38;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474580315;06-10-2015 13:42;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474588029;06-10-2015 14:12;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474588272;06-10-2015 14:13;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474589347;06-10-2015 14:18;4533456514;Danmark Fastnet;4527121787;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;196;3,43;no;0;;0;yes;0,2;3,23;;343;0
+474594448;06-10-2015 14:37;4533456514;Danmark Fastnet;4527121787;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;100;1,85;no;0;;0;yes;0,2;1,65;;185;0
+474596523;06-10-2015 14:45;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474596553;06-10-2015 14:45;4533456512;Danmark Fastnet;4588887000;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;618;1,13;no;0;;0;yes;0,2;0,93;;113;0
+474597034;06-10-2015 14:47;4533456514;Danmark Fastnet;4520422636;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474598985;06-10-2015 14:54;4533456524;Danmark Fastnet;4575922800;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;260;0,59;no;0;;0;yes;0,2;0,39;;59;0
+474600759;06-10-2015 15:01;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474602413;06-10-2015 15:07;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474611319;06-10-2015 15:43;4533456512;Danmark Fastnet;4520234723;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474611438;06-10-2015 15:44;4533456512;Danmark Fastnet;4560391704;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;1048;17,49;no;0;;0;yes;0,2;17,29;;1749;0
+474614498;06-10-2015 15:59;4533456514;Danmark Fastnet;4572544352;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;66;0,3;no;0;;0;yes;0,2;0,1;;30;0
+474625256;06-10-2015 17:18;31107422885;Netherlands;31647117095;Udland Mobil;Netherlands-Mobile;rackpeoplehq-;ip-pstn;203;8,49;no;0;;0;yes;0,2;8,29;;849;0
+474989292;07-10-2015 08:45;4533456546;Danmark Fastnet;4559573491;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;634;1,15;no;0;;0;yes;0,2;0,95;;115;0
+474996435;07-10-2015 09:19;4533456549;Danmark Fastnet;4540260054;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;248;4,29;no;0;;0;yes;0,2;4,09;;429;0
+474998604;07-10-2015 09:28;4533456546;Danmark Fastnet;4533927564;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+474998756;07-10-2015 09:29;4533456546;Danmark Fastnet;4533927564;Danmark;Danmark Fastnet;rackpeoplehq-;ip-pstn;0;0,2;no;0;;0;yes;0,2;0;;20;0
+475000699;07-10-2015 09:38;4533456524;Danmark Fastnet;4527525570;Danmark Mobil;Danmark Mobil;rackpeoplehq-;ip-pstn;32;0,73;no;0;;0;yes;0,2;0,53;;73;0

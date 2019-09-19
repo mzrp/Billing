@@ -1,0 +1,521 @@
+{
+    "clients": [
+        {
+            "client": {
+                "result": "success",
+                "userid": 504,
+                "id": 504,
+                "firstname": "Peter Ingemann",
+                "lastname": "Bentsen",
+                "fullname": "Peter Ingemann Bentsen",
+                "companyname": "Ingemann &amp; Partnere ApS",
+                "email": "504@tmp.rackpeople.dk",
+                "address1": "Granbakken 51",
+                "address2": "",
+                "city": "Hiller\u00f8d",
+                "fullstate": "DK",
+                "state": "DK",
+                "postcode": "3400",
+                "countrycode": "DK",
+                "country": "DK",
+                "phonenumber": "24 86 14 01",
+                "password": "46c1633457d2e254d62a71d969252572:(mb#L",
+                "statecode": "DK",
+                "countryname": "Denmark",
+                "phonecc": 45,
+                "phonenumberformatted": "+45.24861401",
+                "billingcid": 0,
+                "notes": "13\/8 -15 Peter har lovet at afdrage med kr. 500,00 f\u00f8rste afdrag pr. d.d. n\u00e6ste i sept. Fremtidige fak. betales p\u00e5 normal vis ifgl. aftale m LTP. NE",
+                "twofaenabled": false,
+                "currency": 1,
+                "defaultgateway": "epay",
+                "cctype": "",
+                "cclastfour": "",
+                "securityqid": 0,
+                "securityqans": "",
+                "groupid": 13,
+                "status": "Active",
+                "credit": "0.00",
+                "taxexempt": false,
+                "latefeeoveride": false,
+                "overideduenotices": false,
+                "separateinvoices": false,
+                "disableautocc": false,
+                "emailoptout": false,
+                "overrideautoclose": false,
+                "language": "",
+                "lastlogin": "Date: 22\/10\/2015 09:10<br>IP Address: 93.160.20.69<br>Host: ",
+                "customfields1": "31878756",
+                "customfields": [
+                    {
+                        "id": "42",
+                        "value": "31878756"
+                    },
+                    {
+                        "id": "47",
+                        "value": ""
+                    },
+                    {
+                        "id": "66",
+                        "value": ""
+                    },
+                    {
+                        "id": "74",
+                        "value": "Google"
+                    },
+                    {
+                        "id": "4",
+                        "value": "15138"
+                    },
+                    {
+                        "id": "5",
+                        "value": ""
+                    },
+                    {
+                        "id": "6",
+                        "value": "on"
+                    }
+                ],
+                "customfields2": "",
+                "customfields3": "",
+                "customfields4": "Google",
+                "customfields5": "15138",
+                "customfields6": "",
+                "customfields7": "on",
+                "currency_code": "DKK"
+            },
+            "invoices": []
+        },
+        {
+            "client": {
+                "result": "success",
+                "userid": 548,
+                "id": 548,
+                "firstname": "Kent",
+                "lastname": "Jakobsen",
+                "fullname": "Kent Jakobsen",
+                "companyname": "Dantelo ApS",
+                "email": "548@tmp.rackpeople.dk",
+                "address1": "Algade 43",
+                "address2": "",
+                "city": "",
+                "fullstate": "Roskilde",
+                "state": "Roskilde",
+                "postcode": "4000",
+                "countrycode": "DK",
+                "country": "DK",
+                "phonenumber": " +4570227787 ",
+                "password": "e277645ecab2412ecc00faa1669db28d:T#TSI",
+                "statecode": "Roskilde",
+                "countryname": "Denmark",
+                "phonecc": 45,
+                "phonenumberformatted": "+45.4570227787",
+                "billingcid": 0,
+                "notes": "Afventer svar p\u00e5 rykker fra Lasse til Dantelo",
+                "twofaenabled": false,
+                "currency": 1,
+                "defaultgateway": "",
+                "cctype": "",
+                "cclastfour": "",
+                "securityqid": 0,
+                "securityqans": "",
+                "groupid": 13,
+                "status": "Active",
+                "credit": "0.00",
+                "taxexempt": false,
+                "latefeeoveride": false,
+                "overideduenotices": false,
+                "separateinvoices": false,
+                "disableautocc": false,
+                "emailoptout": false,
+                "overrideautoclose": false,
+                "language": "",
+                "lastlogin": "Date: 18\/02\/2015 12:20<br>IP Address: 152.115.93.230<br>Host: ",
+                "customfields1": "32677304",
+                "customfields": [
+                    {
+                        "id": "42",
+                        "value": "32677304"
+                    },
+                    {
+                        "id": "47",
+                        "value": ""
+                    },
+                    {
+                        "id": "66",
+                        "value": ""
+                    },
+                    {
+                        "id": "74",
+                        "value": "Google"
+                    },
+                    {
+                        "id": "4",
+                        "value": ""
+                    },
+                    {
+                        "id": "5",
+                        "value": ""
+                    },
+                    {
+                        "id": "6",
+                        "value": ""
+                    }
+                ],
+                "customfields2": "",
+                "customfields3": "",
+                "customfields4": "Google",
+                "customfields5": "",
+                "customfields6": "",
+                "customfields7": "",
+                "currency_code": "DKK"
+            },
+            "invoices": []
+        },
+        {
+            "client": {
+                "result": "success",
+                "userid": 497,
+                "id": 497,
+                "firstname": "Claus",
+                "lastname": "Jarrels",
+                "fullname": "Claus Jarrels",
+                "companyname": "INHOST ApS",
+                "email": "497@tmp.rackpeople.dk",
+                "address1": "Tj\u00e6rebyvej 4",
+                "address2": "",
+                "city": "Haslev",
+                "fullstate": "",
+                "state": "",
+                "postcode": "4690",
+                "countrycode": "DK",
+                "country": "DK",
+                "phonenumber": "29991616",
+                "password": "1b43b556514193ac58fa94b4bc01b0ae:OwrV#",
+                "statecode": "",
+                "countryname": "Denmark",
+                "phonecc": 45,
+                "phonenumberformatted": "+45.29991616",
+                "billingcid": 0,
+                "notes": "",
+                "twofaenabled": false,
+                "currency": 1,
+                "defaultgateway": "banktransfer",
+                "cctype": "",
+                "cclastfour": "",
+                "securityqid": 0,
+                "securityqans": "",
+                "groupid": 13,
+                "status": "Active",
+                "credit": "0.00",
+                "taxexempt": false,
+                "latefeeoveride": false,
+                "overideduenotices": false,
+                "separateinvoices": false,
+                "disableautocc": false,
+                "emailoptout": false,
+                "overrideautoclose": false,
+                "language": "",
+                "lastlogin": "Date: 30\/04\/2013 16:16<br>IP Address: 5.103.179.175<br>Host: ",
+                "customfields1": "26742390",
+                "customfields": [
+                    {
+                        "id": "42",
+                        "value": "26742390"
+                    },
+                    {
+                        "id": "47",
+                        "value": ""
+                    },
+                    {
+                        "id": "66",
+                        "value": ""
+                    },
+                    {
+                        "id": "74",
+                        "value": "Google"
+                    },
+                    {
+                        "id": "4",
+                        "value": "7984"
+                    },
+                    {
+                        "id": "5",
+                        "value": ""
+                    },
+                    {
+                        "id": "6",
+                        "value": ""
+                    }
+                ],
+                "customfields2": "",
+                "customfields3": "",
+                "customfields4": "Google",
+                "customfields5": "7984",
+                "customfields6": "",
+                "customfields7": "",
+                "currency_code": "DKK"
+            },
+            "invoices": []
+        },
+        {
+            "client": {
+                "result": "success",
+                "userid": 622,
+                "id": 622,
+                "firstname": "Jesper",
+                "lastname": "Langvad",
+                "fullname": "Jesper Langvad",
+                "companyname": "J\u00d8RN LANGVAD A\/S, ARKITEKTER M.A.A",
+                "email": "622@tmp.rackpeople.dk",
+                "address1": "Gammel Hovedgade 10F",
+                "address2": "",
+                "city": "H\u00f8rsholm",
+                "fullstate": "Copenhagen",
+                "state": "Copenhagen",
+                "postcode": "2970",
+                "countrycode": "DK",
+                "country": "DK",
+                "phonenumber": "45864116",
+                "password": "e186aad26b69cfdb6fa5813459991958:vlTPG",
+                "statecode": "Copenhagen",
+                "countryname": "Denmark",
+                "phonecc": 45,
+                "phonenumberformatted": "+45.45864116",
+                "billingcid": 0,
+                "notes": "",
+                "twofaenabled": false,
+                "currency": 1,
+                "defaultgateway": "banktransfer",
+                "cctype": "",
+                "cclastfour": "",
+                "securityqid": 0,
+                "securityqans": "",
+                "groupid": 13,
+                "status": "Active",
+                "credit": "0.00",
+                "taxexempt": false,
+                "latefeeoveride": false,
+                "overideduenotices": false,
+                "separateinvoices": false,
+                "disableautocc": false,
+                "emailoptout": false,
+                "overrideautoclose": false,
+                "language": "",
+                "lastlogin": "No Login Logged",
+                "customfields1": "77213813",
+                "customfields": [
+                    {
+                        "id": "42",
+                        "value": "77213813"
+                    },
+                    {
+                        "id": "47",
+                        "value": ""
+                    },
+                    {
+                        "id": "66",
+                        "value": ""
+                    },
+                    {
+                        "id": "74",
+                        "value": "Other"
+                    },
+                    {
+                        "id": "4",
+                        "value": ""
+                    },
+                    {
+                        "id": "5",
+                        "value": ""
+                    },
+                    {
+                        "id": "6",
+                        "value": ""
+                    }
+                ],
+                "customfields2": "",
+                "customfields3": "",
+                "customfields4": "Other",
+                "customfields5": "",
+                "customfields6": "",
+                "customfields7": "",
+                "currency_code": "DKK"
+            },
+            "invoices": []
+        },
+        {
+            "client": {
+                "result": "success",
+                "userid": 564,
+                "id": 564,
+                "firstname": "Christoffer ",
+                "lastname": "Lanstorp",
+                "fullname": "Christoffer  Lanstorp",
+                "companyname": "Timelog A\/S",
+                "email": "564@tmp.rackpeople.dk",
+                "address1": "Alhambravej 5",
+                "address2": "",
+                "city": "Frederiksberg",
+                "fullstate": "",
+                "state": "",
+                "postcode": "1826",
+                "countrycode": "DK",
+                "country": "DK",
+                "phonenumber": "70200645",
+                "password": "292eaf238aa956d5e4abff8f5faa1686:MtcRp",
+                "statecode": "",
+                "countryname": "Denmark",
+                "phonecc": 45,
+                "phonenumberformatted": "+45.70200645",
+                "billingcid": 0,
+                "notes": "19\/11 2015 - Payment reminders er sl\u00e5et fra d.d. da det volder bogholderiet store vanskeligheder og medf\u00f8rer mange fejlindbetalinger - aftalt med Winnie Ihnstadt og NE.",
+                "twofaenabled": false,
+                "currency": 1,
+                "defaultgateway": "epay",
+                "cctype": "",
+                "cclastfour": "",
+                "securityqid": 0,
+                "securityqans": "",
+                "groupid": 13,
+                "status": "Active",
+                "credit": "3.00",
+                "taxexempt": false,
+                "latefeeoveride": true,
+                "overideduenotices": true,
+                "separateinvoices": false,
+                "disableautocc": false,
+                "emailoptout": false,
+                "overrideautoclose": false,
+                "language": "",
+                "lastlogin": "No Login Logged",
+                "customfields1": "25896939",
+                "customfields": [
+                    {
+                        "id": "42",
+                        "value": "25896939"
+                    },
+                    {
+                        "id": "47",
+                        "value": ""
+                    },
+                    {
+                        "id": "66",
+                        "value": ""
+                    },
+                    {
+                        "id": "74",
+                        "value": "Google"
+                    },
+                    {
+                        "id": "4",
+                        "value": ""
+                    },
+                    {
+                        "id": "5",
+                        "value": ""
+                    },
+                    {
+                        "id": "6",
+                        "value": ""
+                    }
+                ],
+                "customfields2": "",
+                "customfields3": "",
+                "customfields4": "Google",
+                "customfields5": "",
+                "customfields6": "",
+                "customfields7": "",
+                "currency_code": "DKK"
+            },
+            "invoices": []
+        },
+        {
+            "client": {
+                "result": "success",
+                "userid": 392,
+                "id": 392,
+                "firstname": "Carsten",
+                "lastname": "Polmann",
+                "fullname": "Carsten Polmann",
+                "companyname": "H+H International A\/S",
+                "email": "392@tmp.rackpeople.dk",
+                "address1": "Dampf\u00e6rgevej 3, 3.sal",
+                "address2": "",
+                "city": "K\u00f8benhavn \u00d8",
+                "fullstate": "",
+                "state": "",
+                "postcode": "2100",
+                "countrycode": "DK",
+                "country": "DK",
+                "phonenumber": "+4535270200",
+                "password": "d6d3480d51a2265f89a2dc250840e4d9:#CDx)",
+                "statecode": "",
+                "countryname": "Denmark",
+                "phonecc": 45,
+                "phonenumberformatted": "+45.4535270200",
+                "billingcid": 0,
+                "notes": "",
+                "twofaenabled": false,
+                "currency": 1,
+                "defaultgateway": "banktransfer",
+                "cctype": "",
+                "cclastfour": "",
+                "securityqid": 0,
+                "securityqans": "",
+                "groupid": 0,
+                "status": "Active",
+                "credit": "0.00",
+                "taxexempt": false,
+                "latefeeoveride": true,
+                "overideduenotices": true,
+                "separateinvoices": false,
+                "disableautocc": false,
+                "emailoptout": false,
+                "overrideautoclose": false,
+                "language": "",
+                "lastlogin": "Date: 04\/05\/2015 13:10<br>IP Address: 188.120.95.186<br>Host: ",
+                "customfields1": "49619812",
+                "customfields": [
+                    {
+                        "id": "42",
+                        "value": "49619812"
+                    },
+                    {
+                        "id": "47",
+                        "value": ""
+                    },
+                    {
+                        "id": "66",
+                        "value": "month + 30 days"
+                    },
+                    {
+                        "id": "74",
+                        "value": "Google"
+                    },
+                    {
+                        "id": "4",
+                        "value": "15133"
+                    },
+                    {
+                        "id": "5",
+                        "value": ""
+                    },
+                    {
+                        "id": "6",
+                        "value": "on"
+                    }
+                ],
+                "customfields2": "",
+                "customfields3": "month + 30 days",
+                "customfields4": "Google",
+                "customfields5": "15133",
+                "customfields6": "",
+                "customfields7": "on",
+                "currency_code": "DKK"
+            },
+            "invoices": []
+        }
+    ],
+    "duration": "380 seconds"
+}

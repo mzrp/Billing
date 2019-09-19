@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://nav.gowingu.net:8091/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://nav.gowingu.net:8091/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="https://nav.gowingu.net:8091/">
+      <s:element name="GetTimeLogData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sVATNos" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sInvoiceStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndYear" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTimeLogDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTimeLogDataResult" type="tns:strRPNAVConnectWS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="strRPNAVConnectWS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sResultDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sResultCustomers" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sResultInvoices" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sResultInvoiceLines" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="GetTimeLogDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTimeLogData" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTimeLogDataResponse" />
+  </wsdl:message>
+  <wsdl:portType name="RPNAVConnectWSSoap">
+    <wsdl:operation name="GetTimeLogData">
+      <wsdl:input message="tns:GetTimeLogDataSoapIn" />
+      <wsdl:output message="tns:GetTimeLogDataSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="RPNAVConnectWSSoap" type="tns:RPNAVConnectWSSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTimeLogData">
+      <soap:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RPNAVConnectWSSoap12" type="tns:RPNAVConnectWSSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetTimeLogData">
+      <soap12:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="RPNAVConnectWS">
+    <wsdl:port name="RPNAVConnectWSSoap" binding="tns:RPNAVConnectWSSoap">
+      <soap:address location="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RPNAVConnectWSSoap12" binding="tns:RPNAVConnectWSSoap12">
+      <soap12:address location="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

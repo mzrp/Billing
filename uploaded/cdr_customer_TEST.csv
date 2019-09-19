@@ -1,0 +1,365 @@
+id,time,subscriber,aprefix,destination,invoice group,prefix,pbx,direction,volume/time(secs),price,free,forward,servingnetwork,reason,billed,,
+538143414,4/1/2016 8:29,4578792926,Danmark Fastnet,4540765007,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538143666,4/1/2016 8:31,4721984022,Norway,4751890876,Udland,Norway,firebrand-,ip-pstn,1052,4.58,no,0,,0,no,0.2,4.38
+538143737,4/1/2016 8:31,4578792926,Danmark Fastnet,4551377115,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,289,4.97,no,0,,0,no,0.2,4.77
+538144706,4/1/2016 8:36,46840838262,Sweden,4647681000,Udland,Sweden,firebrand-,ip-pstn,173,0.92,no,0,,0,no,0.2,0.72
+538144943,4/1/2016 8:37,4578772916,Danmark Fastnet,4560409022,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,35,0.78,no,0,,0,no,0.2,0.58
+538145116,4/1/2016 8:38,4578772913,Danmark Fastnet,4530482945,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538145581,4/1/2016 8:41,4578792926,Danmark Fastnet,4536383107,Danmark,Danmark Fastnet,firebrand-,ip-pstn,197,0.5,no,0,,0,no,0.2,0.3
+538145825,4/1/2016 8:42,4578772916,Danmark Fastnet,4527224980,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,29,0.68,no,0,,0,no,0.2,0.48
+538145965,4/1/2016 8:43,4578772916,Danmark Fastnet,4525293919,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,27,0.65,no,0,,0,no,0.2,0.45
+538146131,4/1/2016 8:44,4578772916,Danmark Fastnet,4560297864,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,8,0.33,no,0,,0,no,0.2,0.13
+538146206,4/1/2016 8:44,46840838263,Sweden,46734467494,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,39,1.47,no,0,,0,no,0.2,1.27
+538146296,4/1/2016 8:45,4578772913,Danmark Fastnet,4539484818,Danmark,Danmark Fastnet,firebrand-,ip-pstn,8,0.21,no,0,,0,no,0.2,0.01
+538146320,4/1/2016 8:45,4578772916,Danmark Fastnet,4551271584,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538146545,4/1/2016 8:46,4578772916,Danmark Fastnet,4530102493,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,31,0.71,no,0,,0,no,0.2,0.51
+538146616,4/1/2016 8:47,4578772918,Danmark Fastnet,4520403684,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538146893,4/1/2016 8:48,4578772916,Danmark Fastnet,4541377987,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538147468,4/1/2016 8:51,4578792926,Danmark Fastnet,4551377115,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,166,2.94,no,0,,0,no,0.2,2.74
+538147601,4/1/2016 8:52,4578772916,Danmark Fastnet,4560614138,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538147774,4/1/2016 8:53,4578772913,Danmark Fastnet,4539484818,Danmark,Danmark Fastnet,firebrand-,ip-pstn,3,0.2,no,0,,0,no,0.2,0
+538147880,4/1/2016 8:53,4578772916,Danmark Fastnet,4520495073,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,7,0.32,no,0,,0,no,0.2,0.12
+538148251,4/1/2016 8:55,4578772916,Danmark Fastnet,4521674350,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,28,0.66,no,0,,0,no,0.2,0.46
+538148354,4/1/2016 8:56,46840838262,Sweden,46733356505,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538148520,4/1/2016 8:57,46840838262,Sweden,46853685000,Udland,Sweden,firebrand-,ip-pstn,58,0.44,no,0,,0,no,0.2,0.24
+538148553,4/1/2016 8:57,4578772916,Danmark Fastnet,4545650399,Danmark,Danmark Fastnet,firebrand-,ip-pstn,129,0.39,no,0,,0,no,0.2,0.19
+538148693,4/1/2016 8:58,4578772918,Danmark Fastnet,4521729597,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538149053,4/1/2016 8:59,46840838263,Sweden,46736409208,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,37,1.4,no,0,,0,no,0.2,1.2
+538149056,4/1/2016 8:59,4578772918,Danmark Fastnet,4570244242,Danmark 70 nummer,Danmark 70 nummer,firebrand-,ip-pstn,68,0.3,no,0,,0,no,0.2,0.1
+538149217,4/1/2016 9:00,4578772916,Danmark Fastnet,4531187666,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,34,0.76,no,0,,0,no,0.2,0.56
+538149239,4/1/2016 9:00,46840836384,Sweden,46706688226,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538149360,4/1/2016 9:01,4578772918,Danmark Fastnet,4530754902,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,346,5.91,no,0,,0,no,0.2,5.71
+538149382,4/1/2016 9:01,46840838263,Sweden,46703691223,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,38,1.44,no,0,,0,no,0.2,1.24
+538149511,4/1/2016 9:01,4578772916,Danmark Fastnet,4531316841,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538149541,4/1/2016 9:01,46840836389,Sweden,46734382272,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,29,1.14,no,0,,0,no,0.2,0.94
+538149607,4/1/2016 9:02,4578772916,Danmark Fastnet,4531316841,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,36,0.79,no,0,,0,no,0.2,0.59
+538149689,4/1/2016 9:02,46840836389,Sweden,46705611440,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,37,1.4,no,0,,0,no,0.2,1.2
+538149703,4/1/2016 9:02,46840836384,Sweden,46105563242,Udland,Sweden,firebrand-,ip-pstn,372,1.75,no,0,,0,no,0.2,1.55
+538149898,4/1/2016 9:03,4578772916,Danmark Fastnet,4540647598,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,42,0.89,no,0,,0,no,0.2,0.69
+538150064,4/1/2016 9:04,46840836389,Sweden,4636324534,Udland,Sweden,firebrand-,ip-pstn,28,0.32,no,0,,0,no,0.2,0.12
+538150106,4/1/2016 9:04,4721984022,Norway,4792407273,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,46,1.35,no,0,,0,no,0.2,1.15
+538150276,4/1/2016 9:05,4578772916,Danmark Fastnet,4576303445,Danmark,Danmark Fastnet,firebrand-,ip-pstn,39,0.26,no,0,,0,no,0.2,0.06
+538150438,4/1/2016 9:06,46840836389,Sweden,4636326560,Udland,Sweden,firebrand-,ip-pstn,5,0.22,no,0,,0,no,0.2,0.02
+538150489,4/1/2016 9:06,4578772916,Danmark Fastnet,4520588687,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,8,0.33,no,0,,0,no,0.2,0.13
+538150541,4/1/2016 9:06,4721984022,Norway,4741289900,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538150550,4/1/2016 9:06,4578772916,Danmark Fastnet,4596848141,Danmark,Denmark Fastnet,firebrand-,ip-pstn,8,0.21,no,0,,0,no,0.2,0.01
+538150610,4/1/2016 9:06,4578772916,Danmark Fastnet,4596848484,Danmark,Denmark Fastnet,firebrand-,ip-pstn,33,0.25,no,0,,0,no,0.2,0.05
+538150613,4/1/2016 9:06,46840836389,Sweden,46708240928,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,2487,81.03,no,0,,0,no,0.2,80.83
+538150636,4/1/2016 9:07,46840838263,Sweden,4618566800,Udland,Sweden,firebrand-,ip-pstn,147,0.81,no,0,,0,no,0.2,0.61
+538150675,4/1/2016 9:07,4578772916,Danmark Fastnet,45611870701,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538150918,4/1/2016 9:08,4721984022,Norway,4746824632,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,1003,25.28,no,0,,0,no,0.2,25.08
+538150965,4/1/2016 9:08,4578772916,Danmark Fastnet,4541782218,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538151209,4/1/2016 9:09,4578772916,Danmark Fastnet,4529848084,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,90,1.69,no,0,,0,no,0.2,1.49
+538151470,4/1/2016 9:10,4578772918,Danmark Fastnet,4530799576,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538151633,4/1/2016 9:11,4578792926,Danmark Fastnet,4540611728,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,138,2.48,no,0,,0,no,0.2,2.28
+538151764,4/1/2016 9:12,4578772922,Danmark Fastnet,4575602850,Danmark,Danmark Fastnet,firebrand-,ip-pstn,29,0.24,no,0,,0,no,0.2,0.04
+538151920,4/1/2016 9:12,4578772913,Danmark Fastnet,4525438855,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538151998,4/1/2016 9:13,4578772916,Danmark Fastnet,4553550323,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,37,0.81,no,0,,0,no,0.2,0.61
+538152186,4/1/2016 9:14,4578772922,Danmark Fastnet,4575602850,Danmark,Danmark Fastnet,firebrand-,ip-pstn,26,0.24,no,0,,0,no,0.2,0.04
+538152460,4/1/2016 9:15,46840836384,Sweden,46723295979,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,1642,53.57,no,0,,0,no,0.2,53.37
+538152642,4/1/2016 9:16,46840838263,Sweden,46729757050,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,45,1.66,no,0,,0,no,0.2,1.46
+538152649,4/1/2016 9:16,4578772922,Danmark Fastnet,4575602850,Danmark,Danmark Fastnet,firebrand-,ip-pstn,8,0.21,no,0,,0,no,0.2,0.01
+538152707,4/1/2016 9:16,4578772916,Danmark Fastnet,4540185640,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,255,4.41,no,0,,0,no,0.2,4.21
+538152732,4/1/2016 9:16,4533456549,Danmark Fastnet,4546470464,Danmark,Danmark Fastnet,rackpeoplehq-,ip-pstn,97,0.35,no,0,,0,no,0.2,0.15
+538152841,4/1/2016 9:17,46840838262,Sweden,4631660000,Udland,Sweden,firebrand-,ip-pstn,101,0.62,no,0,,0,no,0.2,0.42
+538152846,4/1/2016 9:17,4578772918,Danmark Fastnet,4525247685,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538153056,4/1/2016 9:18,4578772918,Danmark Fastnet,4540916087,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538153341,4/1/2016 9:19,4578772918,Danmark Fastnet,4570244242,Danmark 70 nummer,Danmark 70 nummer,firebrand-,ip-pstn,43,0.26,no,0,,0,no,0.2,0.06
+538153338,4/1/2016 9:19,46840838262,Sweden,4631590000,Udland,Sweden,firebrand-,ip-pstn,371,1.75,no,0,,0,no,0.2,1.55
+538153532,4/1/2016 9:20,4578772918,Danmark Fastnet,4530754553,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,29,0.68,no,0,,0,no,0.2,0.48
+538153598,4/1/2016 9:20,46840838263,Sweden,46709633768,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,74,2.61,no,0,,0,no,0.2,2.41
+538153914,4/1/2016 9:21,4578772913,Danmark Fastnet,4561661012,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538154013,4/1/2016 9:21,4578772913,Danmark Fastnet,4531233138,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538154069,4/1/2016 9:22,4578792926,Danmark Fastnet,4528403173,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,991,16.55,no,0,,0,no,0.2,16.35
+538154111,4/1/2016 9:22,4578772916,Danmark Fastnet,4520304925,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,473,8,no,0,,0,no,0.2,7.8
+538154369,4/1/2016 9:23,4578772922,Danmark Fastnet,4544857000,Danmark,Danmark Fastnet,firebrand-,ip-pstn,281,0.62,no,0,,0,no,0.2,0.42
+538154469,4/1/2016 9:23,46840838263,Sweden,46707117711,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,38,1.44,no,0,,0,no,0.2,1.24
+538154510,4/1/2016 9:24,4578772918,Danmark Fastnet,4521640159,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,12,0.4,no,0,,0,no,0.2,0.2
+538155049,4/1/2016 9:26,4578772918,Danmark Fastnet,4553878444,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,38,0.83,no,0,,0,no,0.2,0.63
+538155268,4/1/2016 9:27,4578772918,Danmark Fastnet,4520403684,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538156650,4/1/2016 9:32,4533456534,Danmark Fastnet,4574379672,Danmark,Danmark Fastnet,rackpeoplehq-,ip-pstn,30,0.25,no,0,,0,no,0.2,0.05
+538156970,4/1/2016 9:34,46840838263,Sweden,46186113235,Udland,Sweden,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538157293,4/1/2016 9:35,4721984022,Norway,4797044209,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,18,0.65,no,0,,0,no,0.2,0.45
+538157498,4/1/2016 9:36,4578772922,Danmark Fastnet,4529117671,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,152,2.71,no,0,,0,no,0.2,2.51
+538157717,4/1/2016 9:37,4578772916,Danmark Fastnet,4561187071,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,52,1.06,no,0,,0,no,0.2,0.86
+538157723,4/1/2016 9:37,4721984022,Norway,4790606575,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,36,1.1,no,0,,0,no,0.2,0.9
+538158200,4/1/2016 9:39,4578772917,Danmark Fastnet,4524689098,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,393,6.68,no,0,,0,no,0.2,6.48
+538158543,4/1/2016 9:40,4721984022,Norway,4799628333,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538158688,4/1/2016 9:41,46840838263,Sweden,46774451515,Udland,Sweden,firebrand-,ip-pstn,47,0.4,no,0,,0,no,0.2,0.2
+538159158,4/1/2016 9:43,4721984022,Norway,4740455890,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,35,1.08,no,0,,0,no,0.2,0.88
+538159241,4/1/2016 9:43,4578772916,Danmark Fastnet,4560881234,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,122,2.21,no,0,,0,no,0.2,2.01
+538159657,4/1/2016 9:44,4721984022,Norway,4747074796,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538159739,4/1/2016 9:45,46840838263,Sweden,46705918023,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538159979,4/1/2016 9:46,46840838263,Sweden,46735027312,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,51,1.86,no,0,,0,no,0.2,1.66
+538160519,4/1/2016 9:48,4578772913,Danmark Fastnet,4539484818,Danmark,Danmark Fastnet,firebrand-,ip-pstn,3,0.2,no,0,,0,no,0.2,0
+538161400,4/1/2016 9:51,4578772913,Danmark Fastnet,4561661012,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,100,1.85,no,0,,0,no,0.2,1.65
+538161644,4/1/2016 9:52,4721984022,Norway,4790236451,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,40,1.2,no,0,,0,no,0.2,1
+538161973,4/1/2016 9:53,4578792926,Danmark Fastnet,4551800800,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,27,0.65,no,0,,0,no,0.2,0.45
+538162101,4/1/2016 9:54,4721984022,Norway,4793093030,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,33,1.03,no,0,,0,no,0.2,0.83
+538162335,4/1/2016 9:55,4578792926,Danmark Fastnet,4558194020,Danmark,Danmark Fastnet,firebrand-,ip-pstn,50,0.28,no,0,,0,no,0.2,0.08
+538162485,4/1/2016 9:55,4578792926,Danmark Fastnet,4540186474,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,8,0.33,no,0,,0,no,0.2,0.13
+538162833,4/1/2016 9:57,4578792926,Danmark Fastnet,4535448733,Danmark,Danmark Fastnet,firebrand-,ip-pstn,56,0.28,no,0,,0,no,0.2,0.08
+538163220,4/1/2016 9:58,4721984022,Norway,4799206018,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,35,1.08,no,0,,0,no,0.2,0.88
+538163523,4/1/2016 9:59,46840836384,Sweden,4635179123,Udland,Sweden,firebrand-,ip-pstn,30,0.33,no,0,,0,no,0.2,0.13
+538163611,4/1/2016 9:59,4578792926,Danmark Fastnet,4522229051,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,190,3.34,no,0,,0,no,0.2,3.14
+538163650,4/1/2016 9:59,4578772916,Danmark Fastnet,4541377987,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,76,1.45,no,0,,0,no,0.2,1.25
+538163930,4/1/2016 10:00,46840836384,Sweden,46768066064,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,26,1.05,no,0,,0,no,0.2,0.85
+538164021,4/1/2016 10:01,46840836389,Sweden,46317543310,Udland,Sweden,firebrand-,ip-pstn,11,0.25,no,0,,0,no,0.2,0.05
+538164216,4/1/2016 10:01,46840836384,Sweden,46104749626,Udland,Sweden,firebrand-,ip-pstn,621,2.79,no,0,,0,no,0.2,2.59
+538164730,4/1/2016 10:03,4721984022,Norway,4798683862,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,37,1.13,no,0,,0,no,0.2,0.93
+538165146,4/1/2016 10:05,4533456523,Danmark Fastnet,4526173401,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,123,2.23,no,0,,0,no,0.2,2.03
+538165483,4/1/2016 10:06,46840836385,Sweden,4.42033E+11,Udland,United Kingdom,firebrand-,ip-pstn,76,0.82,no,0,,0,no,0.2,0.62
+538165945,4/1/2016 10:07,4721984022,Norway,4798234330,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538166124,4/1/2016 10:08,46840836389,Sweden,46317543310,Udland,Sweden,firebrand-,ip-pstn,10,0.24,no,0,,0,no,0.2,0.04
+538166360,4/1/2016 10:09,46840836389,Sweden,46317543310,Udland,Sweden,firebrand-,ip-pstn,14,0.26,no,0,,0,no,0.2,0.06
+538166479,4/1/2016 10:09,4578792926,Danmark Fastnet,4551890000,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538166785,4/1/2016 10:10,4721984022,Norway,4799090456,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538166993,4/1/2016 10:11,4533456524,Danmark Fastnet,4520820825,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538167027,4/1/2016 10:11,4578772917,Danmark Fastnet,4552147435,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538167133,4/1/2016 10:12,46840836389,Sweden,46317543310,Udland,Sweden,firebrand-,ip-pstn,664,2.97,no,0,,0,no,0.2,2.77
+538167516,4/1/2016 10:13,4578772917,Danmark Fastnet,4531247119,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538167667,4/1/2016 10:14,46840836385,Sweden,46776622077,Udland,Sweden,firebrand-,ip-pstn,583,2.63,no,0,,0,no,0.2,2.43
+538167787,4/1/2016 10:14,4578792926,Danmark Fastnet,4540593271,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538167945,4/1/2016 10:15,4578792926,Danmark Fastnet,4550493271,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538168179,4/1/2016 10:16,4533456524,Danmark Fastnet,4520820825,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,53,1.07,no,0,,0,no,0.2,0.87
+538168200,4/1/2016 10:16,4578792926,Danmark Fastnet,4561710808,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,39,0.84,no,0,,0,no,0.2,0.64
+538168219,4/1/2016 10:16,4578772917,Danmark Fastnet,4521499590,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,21,0.55,no,0,,0,no,0.2,0.35
+538168284,4/1/2016 10:16,4721984022,Norway,4795200010,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538168490,4/1/2016 10:17,4578792926,Danmark Fastnet,4551890000,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,38,0.83,no,0,,0,no,0.2,0.63
+538168815,4/1/2016 10:18,4721984022,Norway,4790989785,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,463,11.78,no,0,,0,no,0.2,11.58
+538168852,4/1/2016 10:18,4533456549,Danmark Fastnet,4546470464,Danmark,Danmark Fastnet,rackpeoplehq-,ip-pstn,240,0.56,no,0,,0,no,0.2,0.36
+538169227,4/1/2016 10:19,4533456534,Danmark Fastnet,4574379672,Danmark,Danmark Fastnet,rackpeoplehq-,ip-pstn,729,1.29,no,0,,0,no,0.2,1.09
+538169632,4/1/2016 10:20,4578772917,Danmark Fastnet,4521999335,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538169688,4/1/2016 10:21,4578792926,Danmark Fastnet,4551267999,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538170048,4/1/2016 10:22,4578792926,Danmark Fastnet,4560507385,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,114,2.08,no,0,,0,no,0.2,1.88
+538170124,4/1/2016 10:22,4578772917,Danmark Fastnet,4551177372,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538170146,4/1/2016 10:22,46840836386,Sweden,4.48E+11,Udland,United Kingdom,firebrand-,ip-pstn,474,4.07,no,0,,0,no,0.2,3.87
+538170571,4/1/2016 10:24,46840838263,Sweden,46760019872,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,104,3.58,no,0,,0,no,0.2,3.38
+538170586,4/1/2016 10:24,46840836385,Sweden,46776622077,Udland,Sweden,firebrand-,ip-pstn,367,1.73,no,0,,0,no,0.2,1.53
+538170606,4/1/2016 10:24,4578772917,Danmark Fastnet,4560149984,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538170715,4/1/2016 10:24,46840836384,Sweden,46703878200,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,32,1.24,no,0,,0,no,0.2,1.04
+538170787,4/1/2016 10:24,4578772918,Danmark Fastnet,4530791425,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,56,1.12,no,0,,0,no,0.2,0.92
+538170912,4/1/2016 10:25,4578792926,Danmark Fastnet,4578798000,Danmark,Danmark Fastnet,firebrand-,ip-pstn,87,0.33,no,0,,0,no,0.2,0.13
+538170985,4/1/2016 10:25,4578772917,Danmark Fastnet,4526375773,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538170990,4/1/2016 10:25,4533456549,Danmark Fastnet,4558522411,Danmark,Danmark Fastnet,rackpeoplehq-,ip-pstn,330,0.7,no,0,,0,no,0.2,0.5
+538171122,4/1/2016 10:25,46840838263,Sweden,46760019868,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,208,6.96,no,0,,0,no,0.2,6.76
+538171165,4/1/2016 10:26,4721984022,Norway,4790606575,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,40,1.2,no,0,,0,no,0.2,1
+538171202,4/1/2016 10:26,4533456522,Danmark Fastnet,4529200410,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,339,5.79,no,0,,0,no,0.2,5.59
+538171302,4/1/2016 10:26,4578792926,Danmark Fastnet,4529219391,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,128,2.31,no,0,,0,no,0.2,2.11
+538171422,4/1/2016 10:26,46840836384,Sweden,3.58506E+11,Udland Mobil,Finland-Mobile,firebrand-,ip-pstn,286,9.5,no,0,,0,no,0.2,9.3
+538171551,4/1/2016 10:27,4721984022,Norway,4793085514,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,30,0.95,no,0,,0,no,0.2,0.75
+538171808,4/1/2016 10:28,4721984022,Norway,4791591950,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,41,1.23,no,0,,0,no,0.2,1.03
+538172263,4/1/2016 10:29,4721984022,Norway,4740467520,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,46,1.35,no,0,,0,no,0.2,1.15
+538172671,4/1/2016 10:31,4721984022,Norway,4745421152,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,35,1.08,no,0,,0,no,0.2,0.88
+538173087,4/1/2016 10:32,4721984022,Norway,4795797541,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,247,6.38,no,0,,0,no,0.2,6.18
+538173286,4/1/2016 10:33,4578772918,Danmark Fastnet,4521729597,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538173560,4/1/2016 10:34,4578772918,Danmark Fastnet,4540626205,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538173973,4/1/2016 10:35,4578792926,Danmark Fastnet,4525453173,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538174078,4/1/2016 10:35,4578772918,Danmark Fastnet,4526784840,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,67,1.31,no,0,,0,no,0.2,1.11
+538174085,4/1/2016 10:35,4578772916,Danmark Fastnet,4570707440,Danmark 70 nummer,Danmark 70 nummer,firebrand-,ip-pstn,67,0.3,no,0,,0,no,0.2,0.1
+538174161,4/1/2016 10:36,4578772917,Danmark Fastnet,4530579787,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,18,0.5,no,0,,0,no,0.2,0.3
+538174217,4/1/2016 10:36,4578792926,Danmark Fastnet,298212261,Udland Mobil,Faroe Islands - Mobile,firebrand-,ip-pstn,158,6.92,no,0,,0,no,0.2,6.72
+538174819,4/1/2016 10:38,4578772916,Danmark Fastnet,48668892831,Udland Mobil,Poland-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538174854,4/1/2016 10:38,4721984022,Norway,4798228134,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,44,1.3,no,0,,0,no,0.2,1.1
+538174955,4/1/2016 10:38,4578772917,Danmark Fastnet,4523716717,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538175143,4/1/2016 10:39,46840836389,Sweden,46733566642,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,640,21,no,0,,0,no,0.2,20.8
+538175165,4/1/2016 10:39,4578772916,Danmark Fastnet,4542140484,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538175211,4/1/2016 10:39,4578772917,Danmark Fastnet,4523716717,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538175326,4/1/2016 10:40,46840836385,Sweden,46435779051,Udland,Sweden,firebrand-,ip-pstn,93,0.59,no,0,,0,no,0.2,0.39
+538175382,4/1/2016 10:40,4721984022,Norway,4747477103,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,35,1.08,no,0,,0,no,0.2,0.88
+538175590,4/1/2016 10:41,4578772916,Danmark Fastnet,4529700243,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,257,4.44,no,0,,0,no,0.2,4.24
+538175657,4/1/2016 10:41,46840838263,Sweden,468206600,Udland,Sweden,firebrand-,ip-pstn,13,0.25,no,0,,0,no,0.2,0.05
+538175733,4/1/2016 10:41,4578772917,Danmark Fastnet,4529634815,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,13,0.41,no,0,,0,no,0.2,0.21
+538175968,4/1/2016 10:42,4578772917,Danmark Fastnet,4531626331,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538175992,4/1/2016 10:42,4721984022,Norway,4797702275,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,216,5.6,no,0,,0,no,0.2,5.4
+538176341,4/1/2016 10:43,4578772917,Danmark Fastnet,4576646464,Danmark,Danmark Fastnet,firebrand-,ip-pstn,132,0.4,no,0,,0,no,0.2,0.2
+538176990,4/1/2016 10:46,4578772916,Danmark Fastnet,3544581208,Udland,Iceland,firebrand-,ip-pstn,28,0.43,no,0,,0,no,0.2,0.23
+538177073,4/1/2016 10:46,4578772916,Danmark Fastnet,3545593000,Udland,Iceland,firebrand-,ip-pstn,9,0.27,no,0,,0,no,0.2,0.07
+538177367,4/1/2016 10:47,4578772916,Danmark Fastnet,4543439990,Danmark,Danmark Fastnet,firebrand-,ip-pstn,33,0.25,no,0,,0,no,0.2,0.05
+538177883,4/1/2016 10:49,4578772913,Danmark Fastnet,4530482945,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,49,1.01,no,0,,0,no,0.2,0.81
+538177929,4/1/2016 10:49,4578772916,Danmark Fastnet,4570707440,Danmark 70 nummer,Danmark 70 nummer,firebrand-,ip-pstn,14,0.22,no,0,,0,no,0.2,0.02
+538178158,4/1/2016 10:50,4578792926,Danmark Fastnet,4581665692,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538178418,4/1/2016 10:50,4578792926,Danmark Fastnet,4550596017,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538178520,4/1/2016 10:51,4578772917,Danmark Fastnet,4520282852,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,104,1.92,no,0,,0,no,0.2,1.72
+538178812,4/1/2016 10:52,4578792926,Danmark Fastnet,4561714847,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,11,0.38,no,0,,0,no,0.2,0.18
+538179397,4/1/2016 10:54,4533456549,Danmark Fastnet,4540760616,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,206,3.6,no,0,,0,no,0.2,3.4
+538179412,4/1/2016 10:54,4578792926,Danmark Fastnet,4553500294,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,29,0.68,no,0,,0,no,0.2,0.48
+538179433,4/1/2016 10:54,31107422884,Netherlands,31653593988,Udland Mobil,Netherlands-Mobile,rackpeoplehq-,ip-pstn,24,1.18,no,0,,0,yes,0.2,0.98
+538179535,4/1/2016 10:54,46840838263,Sweden,46708236550,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,12,0.59,no,0,,0,no,0.2,0.39
+538179869,4/1/2016 10:55,46840838263,Sweden,46702030953,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538179872,4/1/2016 10:55,4578792926,Danmark Fastnet,299342000,Udland,Greenland,firebrand-,ip-pstn,75,4.98,no,0,,0,no,0.2,4.78
+538179999,4/1/2016 10:56,4533456524,Danmark Fastnet,4520820825,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,12,0.4,no,0,,0,no,0.2,0.2
+538180001,4/1/2016 10:56,4721984022,Norway,4791591950,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,16,0.6,no,0,,0,no,0.2,0.4
+538180073,4/1/2016 10:56,4578772918,Danmark Fastnet,4541730251,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,709,11.9,no,0,,0,no,0.2,11.7
+538180127,4/1/2016 10:56,4533456524,Danmark Fastnet,4520820825,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,663,11.14,no,0,,0,no,0.2,10.94
+538180417,4/1/2016 10:57,4578772917,Danmark Fastnet,4540330561,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538180508,4/1/2016 10:58,4533456516,Danmark Fastnet,4531382858,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538180608,4/1/2016 10:58,4578792926,Danmark Fastnet,4570208044,Danmark 70 nummer,Danmark 70 nummer,firebrand-,ip-pstn,33,0.25,no,0,,0,no,0.2,0.05
+538180652,4/1/2016 10:58,4578772917,Danmark Fastnet,4561683929,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,22,0.56,no,0,,0,no,0.2,0.36
+538180727,4/1/2016 10:58,4721984022,Norway,4795260832,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,205,5.33,no,0,,0,no,0.2,5.13
+538180788,4/1/2016 10:58,4578792926,Danmark Fastnet,4540456376,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,5,0.28,no,0,,0,no,0.2,0.08
+538180937,4/1/2016 10:59,4578772917,Danmark Fastnet,4560472909,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,24,0.6,no,0,,0,no,0.2,0.4
+538181247,4/1/2016 11:00,4578792926,Danmark Fastnet,4540456376,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,104,1.92,no,0,,0,no,0.2,1.72
+538181337,4/1/2016 11:00,4578772917,Danmark Fastnet,4541668504,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,87,1.64,no,0,,0,no,0.2,1.44
+538181770,4/1/2016 11:02,46840836389,Sweden,46705542789,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,41,1.53,no,0,,0,no,0.2,1.33
+538181858,4/1/2016 11:02,4578772917,Danmark Fastnet,4522401664,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538182039,4/1/2016 11:03,4533456514,Danmark Fastnet,4520422636,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538182090,4/1/2016 11:03,4578772913,Danmark Fastnet,4539484818,Danmark,Danmark Fastnet,firebrand-,ip-pstn,3,0.2,no,0,,0,no,0.2,0
+538182284,4/1/2016 11:03,4578772917,Danmark Fastnet,4561620277,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,78,1.49,no,0,,0,no,0.2,1.29
+538182403,4/1/2016 11:04,46840836384,Sweden,46768429174,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,33,1.27,no,0,,0,no,0.2,1.07
+538182587,4/1/2016 11:05,46840836384,Sweden,46317768241,Udland,Sweden,firebrand-,ip-pstn,38,0.36,no,0,,0,no,0.2,0.16
+538182596,4/1/2016 11:05,4578772913,Danmark Fastnet,4523969419,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,488,8.25,no,0,,0,no,0.2,8.05
+538182651,4/1/2016 11:05,4578772914,Danmark Fastnet,4528693707,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538182749,4/1/2016 11:05,46840836389,Sweden,46705542789,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,37,1.4,no,0,,0,no,0.2,1.2
+538182850,4/1/2016 11:06,4578772914,Danmark Fastnet,4528693707,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538183087,4/1/2016 11:06,4578772914,Danmark Fastnet,4528693707,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538183177,4/1/2016 11:07,46840836389,Sweden,46455736218,Udland,Sweden,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538183260,4/1/2016 11:07,46840838263,Sweden,46705335022,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,35,1.34,no,0,,0,no,0.2,1.14
+538183317,4/1/2016 11:07,4721984022,Norway,4793237804,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,30,0.95,no,0,,0,no,0.2,0.75
+538183576,4/1/2016 11:08,46840836389,Sweden,46455736221,Udland,Sweden,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538183653,4/1/2016 11:08,46840836384,Sweden,46768105179,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538183713,4/1/2016 11:08,4578772914,Danmark Fastnet,4530115851,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,17,0.48,no,0,,0,no,0.2,0.28
+538183767,4/1/2016 11:09,46840838263,Sweden,46706145116,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,47,1.73,no,0,,0,no,0.2,1.53
+538183769,4/1/2016 11:09,4578772914,Danmark Fastnet,4528693707,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,59,1.17,no,0,,0,no,0.2,0.97
+538183990,4/1/2016 11:09,4578772918,Danmark Fastnet,4529234804,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,14,0.43,no,0,,0,no,0.2,0.23
+538184052,4/1/2016 11:10,4721984022,Norway,4792016394,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,29,0.93,no,0,,0,no,0.2,0.73
+538184152,4/1/2016 11:10,4578792926,Danmark Fastnet,4540456376,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,64,1.26,no,0,,0,no,0.2,1.06
+538184250,4/1/2016 11:10,46840838263,Sweden,46703390978,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,94,3.26,no,0,,0,no,0.2,3.06
+538184338,4/1/2016 11:11,46840838262,Sweden,46722415540,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538184408,4/1/2016 11:11,46840836384,Sweden,46738667857,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538184499,4/1/2016 11:11,46840836384,Sweden,46738667856,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,12,0.59,no,0,,0,no,0.2,0.39
+538184549,4/1/2016 11:11,4578772917,Danmark Fastnet,4529138320,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538184670,4/1/2016 11:12,4721984022,Norway,4791148415,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,48,1.4,no,0,,0,no,0.2,1.2
+538185064,4/1/2016 11:13,46840838263,Sweden,46703789467,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,69,2.44,no,0,,0,no,0.2,2.24
+538185066,4/1/2016 11:13,4721984022,Norway,4799519332,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,27,0.88,no,0,,0,no,0.2,0.68
+538185162,4/1/2016 11:14,46840836386,Sweden,4.48E+11,Udland,United Kingdom,firebrand-,ip-pstn,29,0.44,no,0,,0,no,0.2,0.24
+538185304,4/1/2016 11:14,46840836384,Sweden,46734020040,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538185379,4/1/2016 11:14,4578772859,Danmark Fastnet,4530108873,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,81,1.54,no,0,,0,no,0.2,1.34
+538185555,4/1/2016 11:15,4578772917,Danmark Fastnet,4521497516,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538185554,4/1/2016 11:15,4578772918,Danmark Fastnet,4523369129,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,30,0.7,no,0,,0,no,0.2,0.5
+538185614,4/1/2016 11:15,46840836384,Sweden,46708359695,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538185766,4/1/2016 11:16,46840838262,Sweden,46733356505,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538185777,4/1/2016 11:16,46840836386,Sweden,4.47501E+11,Udland,United Kingdom,firebrand-,ip-pstn,661,5.6,no,0,,0,no,0.2,5.4
+538185804,4/1/2016 11:16,4578792926,Danmark Fastnet,4522173664,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,98,1.82,no,0,,0,no,0.2,1.62
+538186055,4/1/2016 11:17,4721984022,Norway,4790075606,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,81,2.23,no,0,,0,no,0.2,2.03
+538186078,4/1/2016 11:17,46840836389,Sweden,46705542789,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,42,1.57,no,0,,0,no,0.2,1.37
+538186079,4/1/2016 11:17,46840836384,Sweden,3.58451E+11,Udland Mobil,Finland-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538186154,4/1/2016 11:17,46840836385,Sweden,4642193885,Udland,Sweden,firebrand-,ip-pstn,109,0.65,no,0,,0,no,0.2,0.45
+538186159,4/1/2016 11:17,4578772918,Danmark Fastnet,4560888012,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,33,0.74,no,0,,0,no,0.2,0.54
+538186349,4/1/2016 11:18,4578772859,Danmark Fastnet,4543429601,Danmark,Danmark Fastnet,firebrand-,ip-pstn,91,0.34,no,0,,0,no,0.2,0.14
+538186626,4/1/2016 11:19,4578772915,Danmark Fastnet,4543669090,Danmark,Danmark Fastnet,firebrand-,ip-pstn,953,1.63,no,0,,0,no,0.2,1.43
+538186685,4/1/2016 11:19,4721984022,Norway,4790606201,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,306,7.85,no,0,,0,no,0.2,7.65
+538186972,4/1/2016 11:20,4578772913,Danmark Fastnet,4528292193,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,172,3.04,no,0,,0,no,0.2,2.84
+538187104,4/1/2016 11:20,46840838263,Sweden,46707551622,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,29,1.14,no,0,,0,no,0.2,0.94
+538187139,4/1/2016 11:20,46840836384,Sweden,46707333756,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,3,0.3,no,0,,0,no,0.2,0.1
+538187331,4/1/2016 11:21,46840836384,Sweden,46701906431,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538187480,4/1/2016 11:22,46840838263,Sweden,46703429493,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538187555,4/1/2016 11:22,46840838263,Sweden,4636126264,Udland,Sweden,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538187848,4/1/2016 11:23,4578792926,Danmark Fastnet,4561618106,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,125,2.26,no,0,,0,no,0.2,2.06
+538187947,4/1/2016 11:23,46840836389,Sweden,46705542789,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,40,1.5,no,0,,0,no,0.2,1.3
+538188160,4/1/2016 11:24,46840836384,Sweden,46729221696,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,16,0.72,no,0,,0,no,0.2,0.52
+538188174,4/1/2016 11:24,4578772917,Danmark Fastnet,4523969610,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,60,1.19,no,0,,0,no,0.2,0.99
+538188341,4/1/2016 11:25,46840838263,Sweden,4636126264,Udland,Sweden,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538188574,4/1/2016 11:25,4533456549,Danmark Fastnet,4533317377,Danmark,Danmark Fastnet,rackpeoplehq-,ip-pstn,136,0.4,no,0,,0,no,0.2,0.2
+538188739,4/1/2016 11:26,46840836389,Sweden,46108787609,Udland,Sweden,firebrand-,ip-pstn,34,0.34,no,0,,0,no,0.2,0.14
+538188917,4/1/2016 11:27,4721984022,Norway,4747278661,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,34,1.05,no,0,,0,no,0.2,0.85
+538189357,4/1/2016 11:28,4721984022,Norway,4799222866,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,76,2.1,no,0,,0,no,0.2,1.9
+538189419,4/1/2016 11:28,46840836389,Sweden,4651126706,Udland,Sweden,firebrand-,ip-pstn,20,0.28,no,0,,0,no,0.2,0.08
+538190031,4/1/2016 11:30,4578772916,Danmark Fastnet,299347862,Udland,Greenland,firebrand-,ip-pstn,16,1.22,no,0,,0,no,0.2,1.02
+538190501,4/1/2016 11:32,4578772916,Danmark Fastnet,4530375614,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,103,1.9,no,0,,0,no,0.2,1.7
+538190609,4/1/2016 11:32,4578792926,Danmark Fastnet,4551439790,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,27,0.65,no,0,,0,no,0.2,0.45
+538190831,4/1/2016 11:33,4533456549,Danmark Fastnet,4570125000,Danmark 70 nummer,Danmark 70 nummer,rackpeoplehq-,ip-pstn,230,0.55,no,0,,0,no,0.2,0.35
+538190911,4/1/2016 11:34,46840838263,Sweden,46766536476,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,152,5.14,no,0,,0,no,0.2,4.94
+538191075,4/1/2016 11:34,4578792926,Danmark Fastnet,4541111779,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,15,0.45,no,0,,0,no,0.2,0.25
+538191106,4/1/2016 11:34,46840836386,Sweden,4642193800,Udland,Sweden,firebrand-,ip-pstn,110,0.66,no,0,,0,no,0.2,0.46
+538191159,4/1/2016 11:34,4578792926,Danmark Fastnet,4524607888,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,94,1.75,no,0,,0,no,0.2,1.55
+538191225,4/1/2016 11:35,4578772916,Danmark Fastnet,4522702130,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,39,0.84,no,0,,0,no,0.2,0.64
+538191313,4/1/2016 11:35,4721984022,Norway,4746779000,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,19,0.68,no,0,,0,no,0.2,0.48
+538191332,4/1/2016 11:35,46840836384,Sweden,46737836396,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,144,4.88,no,0,,0,no,0.2,4.68
+538191499,4/1/2016 11:36,4578772916,Danmark Fastnet,4520588687,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,9,0.35,no,0,,0,no,0.2,0.15
+538191685,4/1/2016 11:36,4578772916,Danmark Fastnet,4596848141,Danmark,Denmark Fastnet,firebrand-,ip-pstn,11,0.22,no,0,,0,no,0.2,0.02
+538191751,4/1/2016 11:36,4578772916,Danmark Fastnet,4596848484,Danmark,Denmark Fastnet,firebrand-,ip-pstn,39,0.26,no,0,,0,no,0.2,0.06
+538192077,4/1/2016 11:38,4721984022,Norway,4798226551,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,33,1.03,no,0,,0,no,0.2,0.83
+538192117,4/1/2016 11:38,4578772916,Danmark Fastnet,4541770794,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,33,0.74,no,0,,0,no,0.2,0.54
+538192171,4/1/2016 11:38,4578772859,Danmark Fastnet,4527416600,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,122,2.21,no,0,,0,no,0.2,2.01
+538192210,4/1/2016 11:38,4578792926,Danmark Fastnet,4520476899,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538192401,4/1/2016 11:39,46840836384,Sweden,46700026282,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,103,3.55,no,0,,0,no,0.2,3.35
+538192456,4/1/2016 11:39,4578792926,Danmark Fastnet,4529486670,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,43,0.91,no,0,,0,no,0.2,0.71
+538192502,4/1/2016 11:39,4578792926,Danmark Fastnet,4544882953,Danmark,Danmark Fastnet,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538192749,4/1/2016 11:40,4578772916,Danmark Fastnet,4528982083,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538192751,4/1/2016 11:40,4578792926,Danmark Fastnet,4544882900,Danmark,Danmark Fastnet,firebrand-,ip-pstn,92,0.34,no,0,,0,no,0.2,0.14
+538192890,4/1/2016 11:41,4578772918,Danmark Fastnet,4529238216,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,88,1.65,no,0,,0,no,0.2,1.45
+538193045,4/1/2016 11:41,4578772916,Danmark Fastnet,4528804384,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,28,0.66,no,0,,0,no,0.2,0.46
+538193228,4/1/2016 11:42,46840836389,Sweden,46705542789,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,39,1.47,no,0,,0,no,0.2,1.27
+538193443,4/1/2016 11:43,4578772916,Danmark Fastnet,4529690425,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538193488,4/1/2016 11:43,4578772859,Danmark Fastnet,4525798866,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,204,3.57,no,0,,0,no,0.2,3.37
+538193569,4/1/2016 11:43,4578792926,Danmark Fastnet,4599408057,Danmark,Denmark Fastnet,firebrand-,ip-pstn,30,0.25,no,0,,0,no,0.2,0.05
+538193669,4/1/2016 11:43,4578772916,Danmark Fastnet,4527100267,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,89,1.67,no,0,,0,no,0.2,1.47
+538193790,4/1/2016 11:44,4578792926,Danmark Fastnet,4599409739,Danmark,Denmark Fastnet,firebrand-,ip-pstn,38,0.26,no,0,,0,no,0.2,0.06
+538193955,4/1/2016 11:45,4578772918,Danmark Fastnet,4523337713,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,19,0.51,no,0,,0,no,0.2,0.31
+538194174,4/1/2016 11:45,4578772916,Danmark Fastnet,4548797811,Danmark,Danmark Fastnet,firebrand-,ip-pstn,19,0.23,no,0,,0,no,0.2,0.03
+538194205,4/1/2016 11:45,4578772916,Danmark Fastnet,4548797811,Danmark,Danmark Fastnet,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538194302,4/1/2016 11:46,4578772916,Danmark Fastnet,4548797811,Danmark,Danmark Fastnet,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538195129,4/1/2016 11:49,46840836389,Sweden,46852486572,Udland,Sweden,firebrand-,ip-pstn,520,2.37,no,0,,0,no,0.2,2.17
+538195568,4/1/2016 11:51,4578772917,Danmark Fastnet,4524467362,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,35,0.78,no,0,,0,no,0.2,0.58
+538196409,4/1/2016 11:54,4578772917,Danmark Fastnet,4552303087,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538196606,4/1/2016 11:55,4578772859,Danmark Fastnet,4531430904,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,644,10.83,no,0,,0,no,0.2,10.63
+538196818,4/1/2016 11:55,4578772917,Danmark Fastnet,4520750406,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538197212,4/1/2016 11:57,4578772917,Danmark Fastnet,4531102858,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,58,1.16,no,0,,0,no,0.2,0.96
+538205112,4/1/2016 12:30,4533456523,Danmark Fastnet,4523317003,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538205133,4/1/2016 12:30,4533456523,Danmark Fastnet,4523297809,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538207093,4/1/2016 12:39,4578792926,Danmark Fastnet,4520412263,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,464,7.86,no,0,,0,no,0.2,7.66
+538207580,4/1/2016 12:41,4721984022,Norway,4790600200,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,39,1.18,no,0,,0,no,0.2,0.98
+538207622,4/1/2016 12:41,4578772913,Danmark Fastnet,4540813605,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538207765,4/1/2016 12:42,4578772917,Danmark Fastnet,4531247119,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538207855,4/1/2016 12:43,4721984022,Norway,4799553100,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,34,1.05,no,0,,0,no,0.2,0.85
+538207982,4/1/2016 12:43,4578772917,Danmark Fastnet,4524689098,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,201,3.52,no,0,,0,no,0.2,3.32
+538208191,4/1/2016 12:44,4578772918,Danmark Fastnet,4530791425,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,33,0.74,no,0,,0,no,0.2,0.54
+538208332,4/1/2016 12:44,4721984022,Norway,4790174898,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538208459,4/1/2016 12:45,4578772918,Danmark Fastnet,4521729597,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,227,3.95,no,0,,0,no,0.2,3.75
+538208588,4/1/2016 12:46,4578772916,Danmark Fastnet,4560409022,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,34,0.76,no,0,,0,no,0.2,0.56
+538208990,4/1/2016 12:47,4578772916,Danmark Fastnet,4527224980,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,8,0.33,no,0,,0,no,0.2,0.13
+538209109,4/1/2016 12:48,4578772916,Danmark Fastnet,4525293919,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,32,0.73,no,0,,0,no,0.2,0.53
+538209291,4/1/2016 12:48,4578772916,Danmark Fastnet,4551271584,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,25,0.61,no,0,,0,no,0.2,0.41
+538209577,4/1/2016 12:50,4721984022,Norway,4793691395,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,39,1.18,no,0,,0,no,0.2,0.98
+538209585,4/1/2016 12:50,4578772916,Danmark Fastnet,4530102493,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,28,0.66,no,0,,0,no,0.2,0.46
+538209924,4/1/2016 12:51,4533456523,Danmark Fastnet,4597125695,Danmark,Denmark Fastnet,rackpeoplehq-,ip-pstn,174,0.46,no,0,,0,no,0.2,0.26
+538210028,4/1/2016 12:51,4578792926,Danmark Fastnet,4527297217,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,40,0.86,no,0,,0,no,0.2,0.66
+538210378,4/1/2016 12:53,31107422885,Netherlands,4523608489,Danmark Mobil,Danmark Mobil,rackpeoplehq-,ip-pstn,52,1.06,no,0,,0,yes,0.2,0.86
+538210465,4/1/2016 12:53,4578772916,Danmark Fastnet,4543439990,Danmark,Danmark Fastnet,firebrand-,ip-pstn,64,0.3,no,0,,0,no,0.2,0.1
+538210470,4/1/2016 12:53,4578772918,Danmark Fastnet,4521451342,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,40,0.86,no,0,,0,no,0.2,0.66
+538210476,4/1/2016 12:53,4578792926,Danmark Fastnet,4521498547,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,61,1.21,no,0,,0,no,0.2,1.01
+538210954,4/1/2016 12:55,4578772916,Danmark Fastnet,4560614138,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538211010,4/1/2016 12:55,4578792926,Danmark Fastnet,299348650,Udland,Greenland,firebrand-,ip-pstn,740,47.31,no,0,,0,no,0.2,47.11
+538211169,4/1/2016 12:56,4578772916,Danmark Fastnet,4520495073,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,4,0.27,no,0,,0,no,0.2,0.07
+538211534,4/1/2016 12:57,4578772916,Danmark Fastnet,4521674350,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,17,0.48,no,0,,0,no,0.2,0.28
+538211737,4/1/2016 12:58,4578772916,Danmark Fastnet,4545650399,Danmark,Danmark Fastnet,firebrand-,ip-pstn,129,0.39,no,0,,0,no,0.2,0.19
+538211924,4/1/2016 12:59,4578772918,Danmark Fastnet,4529249897,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538211989,4/1/2016 12:59,4578772913,Danmark Fastnet,4539484818,Danmark,Danmark Fastnet,firebrand-,ip-pstn,3,0.2,no,0,,0,no,0.2,0
+538212102,4/1/2016 13:00,4721984022,Norway,4795934472,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,36,1.1,no,0,,0,no,0.2,0.9
+538212136,4/1/2016 13:00,4578772918,Danmark Fastnet,4522107180,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,26,0.63,no,0,,0,no,0.2,0.43
+538212337,4/1/2016 13:00,4721984022,Norway,4790037822,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,210,5.45,no,0,,0,no,0.2,5.25
+538212551,4/1/2016 13:01,4578772916,Danmark Fastnet,299347862,Udland,Greenland,firebrand-,ip-pstn,18,1.35,no,0,,0,no,0.2,1.15
+538212678,4/1/2016 13:02,4578772916,Danmark Fastnet,299701234,Udland,Greenland,firebrand-,ip-pstn,95,6.25,no,0,,0,no,0.2,6.05
+538213076,4/1/2016 13:03,4578772916,Danmark Fastnet,4531187666,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,36,0.79,no,0,,0,no,0.2,0.59
+538213183,4/1/2016 13:04,4578772913,Danmark Fastnet,4539484800,Danmark,Danmark Fastnet,firebrand-,ip-pstn,43,0.26,no,0,,0,no,0.2,0.06
+538213344,4/1/2016 13:04,4578772918,Danmark Fastnet,4551597297,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,186,3.27,no,0,,0,no,0.2,3.07
+538213350,4/1/2016 13:04,4578772918,Danmark Fastnet,4563159194,Danmark,Danmark Fastnet,firebrand-,ip-pstn,13,0.22,no,0,,0,no,0.2,0.02
+538213354,4/1/2016 13:04,4578772916,Danmark Fastnet,4531316841,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,44,0.93,no,0,,0,no,0.2,0.73
+538213440,4/1/2016 13:05,4578772913,Danmark Fastnet,4539484818,Danmark,Danmark Fastnet,firebrand-,ip-pstn,3,0.2,no,0,,0,no,0.2,0
+538213546,4/1/2016 13:05,46840836384,Sweden,46709974853,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,30,1.18,no,0,,0,no,0.2,0.98
+538213709,4/1/2016 13:06,46840836384,Sweden,46705564211,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538213745,4/1/2016 13:06,4578772916,Danmark Fastnet,4540647598,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,40,0.86,no,0,,0,no,0.2,0.66
+538213782,4/1/2016 13:06,4578772913,Danmark Fastnet,4530482945,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,50,1.03,no,0,,0,no,0.2,0.83
+538213948,4/1/2016 13:07,4578772916,Danmark Fastnet,4576303445,Danmark,Danmark Fastnet,firebrand-,ip-pstn,41,0.26,no,0,,0,no,0.2,0.06
+538214086,4/1/2016 13:07,4578772913,Danmark Fastnet,4531386556,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,43,0.91,no,0,,0,no,0.2,0.71
+538214187,4/1/2016 13:08,46840836384,Sweden,46733590212,Udland Mobil,Sweden-Mobile,firebrand-,ip-pstn,342,11.32,no,0,,0,no,0.2,11.12
+538214188,4/1/2016 13:08,4578772918,Danmark Fastnet,4520532804,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,161,2.86,no,0,,0,no,0.2,2.66
+538214197,4/1/2016 13:08,4578772916,Danmark Fastnet,4520588687,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,15,0.45,no,0,,0,no,0.2,0.25
+538214202,4/1/2016 13:08,4578772916,Danmark Fastnet,4596848141,Danmark,Denmark Fastnet,firebrand-,ip-pstn,13,0.22,no,0,,0,no,0.2,0.02
+538214303,4/1/2016 13:08,4578772916,Danmark Fastnet,4596848484,Danmark,Denmark Fastnet,firebrand-,ip-pstn,9,0.21,no,0,,0,no,0.2,0.01
+538214531,4/1/2016 13:09,4721984022,Norway,4794888245,Udland Mobil,Norway-Mobile,firebrand-,ip-pstn,0,0.2,no,0,,0,no,0.2,0
+538214532,4/1/2016 13:09,4578772916,Danmark Fastnet,4541782218,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,23,0.58,no,0,,0,no,0.2,0.38
+538214659,4/1/2016 13:10,4578772916,Danmark Fastnet,4553550323,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,20,0.53,no,0,,0,no,0.2,0.33
+538214908,4/1/2016 13:11,4578772916,Danmark Fastnet,48668892831,Udland Mobil,Poland-Mobile,firebrand-,ip-pstn,47,1.93,no,0,,0,no,0.2,1.73
+538215082,4/1/2016 13:11,4578772918,Danmark Fastnet,4530791425,Danmark Mobil,Danmark Mobil,firebrand-,ip-pstn,115,2.1,no,0,,0,no,0.2,1.9
