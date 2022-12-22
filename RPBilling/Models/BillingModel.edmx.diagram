@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="cf222597820641ad8a5673642927749d" Name="Diagram1">
+        <EntityTypeShape EntityType="BillingModel.Product" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="BillingModel.Subscription" Width="1.5" PointX="2.75" PointY="0.75" IsExpanded="true" />
+        <AssociationConnector Association="BillingModel.FK_BelongsTo_BillingSubscription" />
+        <EntityTypeShape EntityType="BillingModel.TeleAgreement" Width="1.5" PointX="0.75" PointY="4.75" />
+        <EntityTypeShape EntityType="BillingModel.TeleNumberSeries" Width="1.5" PointX="2.75" PointY="4.75" />
+        <EntityTypeShape EntityType="BillingModel.Audit" Width="1.5" PointX="5.375" PointY="0.75" />
+        <EntityTypeShape EntityType="BillingModel.TeleProduct" Width="1.5" PointX="4.75" PointY="4.75" />
+        <AssociationConnector Association="BillingModel.FK_TeleNumberSeries_TeleAgreements" />
+        <AssociationConnector Association="BillingModel.FK_TeleProducts_BelongsTo_TeleNumberSeries" />
+        <EntityTypeShape EntityType="BillingModel.TeleBillingImport" Width="1.5" PointX="6.75" PointY="4.75" />
+        </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

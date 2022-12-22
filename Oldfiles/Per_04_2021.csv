@@ -1,0 +1,225 @@
+Customer,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+CTGlobal,Files - Files - LRS - New 4/1/2021-4/30/2021  April   ,0,0.015,6.3218,0.00,6.00,0.09,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,0.05,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,1.45,0.0196,6.3218,14.08,6.00,0.11,1.57,0.12
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S30 LRS - EU North - New  4/1/2021-4/30/2021  April   ,220.06,40.96,6.3218,1.00,6.00,233.31,233.32,13.26
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S0 - New  4/1/2021-4/30/2021  April   ,232.76,0.4839,6.3218,89.54,6.00,2.76,246.80,14.04
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S2 - New  4/1/2021-4/30/2021  April   ,767.21,2.42,6.3218,59.00,6.00,13.78,813.27,46.06
+CTGlobal,Traffic Manager - Traffic Manager - Traffic View - New  4/1/2021-4/30/2021  April   ,0.69,2,6.3218,0.07,6.00,11.39,0.77,0.08
+CTGlobal,Traffic Manager - Traffic Manager - Azure Endpoint - New  4/1/2021-4/30/2021  April   ,5.56,0.36,6.3218,2.90,6.00,2.05,5.95,0.39
+CTGlobal,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - New  4/1/2021-4/30/2021  April   ,1547.57,0.1,6.3218,2880.00,6.00,0.57,1640.43,92.86
+CTGlobal,Azure Monitor - Azure Monitor - Alerts - New 4/1/2021-4/30/2021  April   ,4.1,0.1,6.3218,7.70,6.00,0.57,4.38,0.28
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S0 - Secondary Active - New  4/1/2021-4/30/2021  April   ,77.94,0.4839,6.3218,30.00,6.00,2.76,82.69,4.75
+CTGlobal,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,50.06,0.045,6.3218,207.21,6.00,0.26,53.11,3.05
+CTGlobal,Tables - Tables - GRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.87,6.00,0.00,0.00,0.00
+CTGlobal,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.054,6.3218,0.00,6.00,0.31,0.00,0.00
+CTGlobal,Files - Files - LRS - New 4/1/2021-4/30/2021  April   ,0,0.0015,6.3218,0.00,6.00,0.01,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Tables - Tables - RA-GRS - New 4/1/2021-4/30/2021  April   ,0,0.075,6.3218,0.01,6.00,0.43,0.00,0.00
+CTGlobal,SignalR - SignalR - New 4/1/2021-4/30/2021  April   ,0,0,6.3218,67.62,6.00,0.00,0.00,0.00
+CTGlobal,Queues - Queues - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Azure App Service Shared Plan - Azure App Service Shared Plan - New  4/1/2021-4/30/2021  April   ,50.25,0.013,6.3218,720.00,6.00,0.07,53.31,3.06
+CTGlobal,Azure Defender for SQL - Azure Defender for SQL - Standard - New  4/1/2021-4/30/2021  April   ,77.94,15,6.3218,0.97,6.00,85.44,82.68,4.74
+CTGlobal,Azure Pipelines - Azure Pipelines - Microsoft-hosted CI/CD - New  4/1/2021-4/30/2021  April   ,623.96,40,6.3218,2.90,6.00,227.84,661.46,37.50
+CTGlobal,Traffic Manager - Traffic Manager - Azure Endpoint - New  4/1/2021-4/30/2021  April   ,0.12,0.54,6.3218,0.07,6.00,2.14,0.15,0.03
+CTGlobal,Logic Apps - Logic Apps - Consumption - New 4/1/2021-4/30/2021  April   ,0.12,0.12,6.3218,0.24,6.00,0.68,0.17,0.05
+CTGlobal,Azure Repos and Boards (Basic) - Azure Repos and Boards (Basic) - New  4/1/2021-4/30/2021  April   ,62.39,6,6.3218,1.94,6.00,34.18,66.15,3.76
+CTGlobal,Logic Apps - Logic Apps - Consumption - New 4/1/2021-4/30/2021  April   ,28.7,0.000125,6.3218,42800.00,6.00,0.00,30.47,1.77
+CTGlobal,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,59.42,0.087,6.3218,127.12,6.00,0.50,62.99,3.57
+CTGlobal,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P3 v2 - EU West - New  4/1/2021-4/30/2021  April   ,6190.3,0.8,6.3218,1440.00,6.00,4.56,6561.72,371.42
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU West - New  4/1/2021-4/30/2021  April   ,617.51,2.99,6.3218,38.44,6.00,17.03,654.62,37.11
+CTGlobal,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,1.77,6.00,0.00,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - New  4/1/2021-4/30/2021  April   ,0,0.02,6.3218,0.00,6.00,0.11,0.00,0.00
+CTGlobal,Logic Apps - Logic Apps - Consumption - New 4/1/2021-4/30/2021  April   ,0,0.000025,6.3218,17.00,6.00,0.00,0.00,0.00
+CTGlobal,Queues - Queues - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.024,6.3218,0.03,6.00,0.14,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU North - New  4/1/2021-4/30/2021  April   ,0,2.76,6.3218,0.50,6.00,0.00,0.00,0.00
+CTGlobal,Process Automation - Process Automation - Basic - New  4/1/2021-4/30/2021  April   ,0,0.002,6.3218,20.80,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.0043,6.3218,0.04,6.00,0.02,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU West - New  4/1/2021-4/30/2021  April   ,0,2.99,6.3218,5.00,6.00,0.00,0.00,0.00
+CTGlobal,Azure App Service Free Plan - Azure App Service Free Plan - F1 - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,24.84,6.00,0.00,0.00,0.00
+CTGlobal,Azure Monitor - Azure Monitor - Alerts - New 4/1/2021-4/30/2021  April   ,0,0.1,6.3218,10.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.054,6.3218,0.03,6.00,0.31,0.01,0.01
+CTGlobal,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,5.00,6.00,0.00,0.00,0.00
+CTGlobal,Azure Monitor - Azure Monitor - Emails - New 4/1/2021-4/30/2021  April   ,0,0.00002,6.3218,347.00,6.00,0.00,0.00,0.00
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S10 LRS - EU North - New  4/1/2021-4/30/2021  April   ,31.6,5.888,6.3218,1.00,6.00,33.54,33.54,1.94
+CTGlobal,SQL Database - LTR Backup Storage - SQL Database - LTR Backup Storage - RA-GRS - EU West - New  4/1/2021-4/30/2021  April   ,25.66,0.0595,6.3218,80.43,6.00,0.34,27.26,1.60
+CTGlobal,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,21.62,6.00,0.00,0.04,0.04
+CTGlobal,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Azure App Service Free Plan - Azure App Service Free Plan - F1 - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,10.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.0043,6.3218,0.07,6.00,0.02,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.054,6.3218,0.01,110.00,0.61,0.01,0.01
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.01,6.3218,0.03,110.00,0.11,0.00,0.00
+Kiltin,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.04,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.00,110.00,0.51,0.00,0.00
+Kiltin,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0,6.3218,164.75,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.02,110.00,0.00,0.00,0.00
+Kiltin,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,5.00,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - New  4/1/2021-4/30/2021  April   ,85.72,0.1,6.3218,159.58,110.00,1.13,180.08,94.36
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - New  4/1/2021-4/30/2021  April   ,0.44,0.01,6.3218,8.63,110.00,0.11,0.97,0.53
+Kiltin,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,2.27,0.087,6.3218,5.00,110.00,0.98,4.91,2.64
+Kiltin,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,7.39,0.0043,6.3218,322.46,110.00,0.05,15.65,8.26
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - New  4/1/2021-4/30/2021  April   ,12.58,0.01,6.3218,234.53,110.00,0.11,26.47,13.89
+Kiltin,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.06,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.44,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.01,110.00,0.00,0.00,0.00
+prebenandersen.dk,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.44,30.00,0.00,0.00,0.00
+prebenandersen.dk,Backup - Backup - Azure VM and on-premises Server - New  4/1/2021-4/30/2021  April   ,129.97,10,6.3218,2.42,30.00,69.86,169.01,39.04
+prebenandersen.dk,Backup - Backup - Standard - New 4/1/2021-4/30/2021  April   ,113.72,0.0224,6.3218,945.24,30.00,0.16,147.91,34.19
+prebenandersen.dk,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,0,0.022,6.3218,0.03,30.00,0.15,0.00,0.00
+prebenandersen.dk,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.14,30.00,0.35,0.05,0.05
+prebenandersen.dk,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.06,30.00,0.35,0.02,0.02
+prebenandersen.dk,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.00,30.00,0.31,0.00,0.00
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.05,0.00,0.27,0.01,0.01
+Rackepeople Consulting ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.44,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.40,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,3.05,0.00,0.00,0.01,0.01
+Rackepeople Consulting ApS,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,5.00,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0,6.3218,3184.97,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.01,0.00,0.24,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.95,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.07,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,0,0.004,6.3218,0.99,0.00,0.02,0.02,0.02
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,38.12,0.004,6.3218,1775.00,0.00,0.02,38.15,0.03
+Rackepeople Consulting ApS,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,8.66,0.087,6.3218,18.62,0.00,0.47,8.70,0.04
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,1774.9,0.022,6.3218,15014.40,0.00,0.12,1774.97,0.07
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - New  4/1/2021-4/30/2021  April   ,266.77,0.05,6.3218,992.97,0.00,0.27,266.79,0.02
+PureteQ A/S,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,4.44,6.25,0.00,0.00,0.00
+PureteQ A/S,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.44,6.25,0.00,0.00,0.00
+PureteQ A/S,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - New  4/1/2021-4/30/2021  April   ,0,0.02,6.3218,0.01,6.25,0.11,0.00,0.00
+PureteQ A/S,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.07,6.25,0.00,0.00,0.00
+PureteQ A/S,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,8.91,6.25,0.00,0.02,0.02
+PureteQ A/S,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,4.39,6.25,0.00,0.01,0.01
+PureteQ A/S,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.01,6.25,0.26,0.00,0.00
+PureteQ A/S,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.01,6.25,0.26,0.00,0.00
+PureteQ A/S,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.10,6.25,0.00,0.00,0.00
+PureteQ A/S,Standard HDD Managed Disks - Standard HDD Managed Disks - S30 LRS - EU North - New  4/1/2021-4/30/2021  April   ,220.06,40.96,6.3218,1.00,6.25,233.86,233.87,13.81
+PureteQ A/S,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0.12,0.00036,6.3218,77.31,6.25,0.00,0.16,0.04
+PureteQ A/S,Virtual Machines BS Series - Virtual Machines BS Series - B2s - EU North - New  4/1/2021-4/30/2021  April   ,174.03,0.045,6.3218,719.90,6.25,0.26,184.96,10.93
+PureteQ A/S,IP Addresses - IP Addresses - Basic - New 4/1/2021-4/30/2021  April   ,15.42,0.004,6.3218,720.00,6.25,0.02,16.44,1.02
+PureteQ A/S,Standard HDD Managed Disks - Standard HDD Managed Disks - S10 LRS - EU North - New  4/1/2021-4/30/2021  April   ,31.6,5.888,6.3218,1.00,6.25,33.62,33.62,2.02
+PureteQ A/S,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - New  4/1/2021-4/30/2021  April   ,1.89,0.0005,6.3218,717.56,6.25,0.00,2.05,0.16
+BLS Capital Management,SQL Server Standard - SQL Server Standard - 1-4 vCPU VM - New  4/1/2021-4/30/2021  April   ,1544.73,0.4,6.3218,718.68,65.00,3.55,2548.83,1004.10
+BLS Capital Management,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - New  4/1/2021-4/30/2021  April   ,0.31,0.0005,6.3218,132.87,65.00,0.00,0.59,0.28
+BLS Capital Management,IP Addresses - IP Addresses - Basic - New 4/1/2021-4/30/2021  April   ,26.99,0.0036,6.3218,1396.00,65.00,0.03,44.56,17.57
+BLS Capital Management,Backup - Backup - Standard - New 4/1/2021-4/30/2021  April   ,59.29,0.0448,6.3218,246.53,65.00,0.40,97.93,38.64
+BLS Capital Management,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU West - New  4/1/2021-4/30/2021  April   ,8.21,1.536,6.3218,1.00,65.00,13.62,13.62,5.41
+BLS Capital Management,IP Addresses - IP Addresses - Basic - New 4/1/2021-4/30/2021  April   ,15.29,0.004,6.3218,714.00,65.00,0.04,25.32,10.03
+BLS Capital Management,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0.12,0.00036,6.3218,77.19,65.00,0.00,0.25,0.13
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E10 LRS - EU West - New  4/1/2021-4/30/2021  April   ,51.58,9.6,6.3218,1.00,65.00,85.12,85.12,33.54
+BLS Capital Management,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - New  4/1/2021-4/30/2021  April   ,577.74,0.15,6.3218,716.80,65.00,1.33,953.31,375.57
+BLS Capital Management,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication v2 - EU West - New  4/1/2021-4/30/2021  April   ,2.65,0.02,6.3218,24.76,65.00,0.18,4.39,1.74
+BLS Capital Management,Files - Files - LRS - New 4/1/2021-4/30/2021  April   ,1.58,0.06,6.3218,5.00,65.00,0.53,2.66,1.08
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - RA-GRS - EU West - New  4/1/2021-4/30/2021  April   ,0.5,0.075,6.3218,1.38,65.00,0.66,0.92,0.42
+BLS Capital Management,VPN Standard Gateway - VPN Standard Gateway - New 4/1/2021-4/30/2021  April   ,310.14,0.19,6.3218,303.83,65.00,1.68,511.84,201.70
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - New  4/1/2021-4/30/2021  April   ,11.5,0.002,6.3218,1072.36,65.00,0.02,19.02,7.52
+BLS Capital Management,Virtual Machines Av2 Series Windows - Virtual Machines Av2 Series Windows - A4 v2 - EU West - New  4/1/2021-4/30/2021  April   ,1058.14,0.274,6.3218,718.68,65.00,2.43,1745.95,687.81
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E30 LRS - EU West - New  4/1/2021-4/30/2021  April   ,412.68,76.8,6.3218,1.00,65.00,680.93,680.99,268.31
+BLS Capital Management,Virtual Machines BS Series - Virtual Machines BS Series - B2s - EU West - New  4/1/2021-4/30/2021  April   ,185.67,0.048,6.3218,719.88,65.00,0.43,306.37,120.70
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - New  4/1/2021-4/30/2021  April   ,1.77,0.0043,6.3218,77.22,65.00,0.04,2.94,1.17
+BLS Capital Management,Backup - Backup - Azure VM and on-premises Server - New  4/1/2021-4/30/2021  April   ,51.96,10,6.3218,0.97,65.00,88.66,85.80,33.84
+BLS Capital Management,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,0.06,65.00,0.00,0.00,0.00
+BLS Capital Management,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,0.63,65.00,0.00,0.00,0.00
+BLS Capital Management,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - New  4/1/2021-4/30/2021  April   ,0,0.02,6.3218,0.04,65.00,0.18,0.01,0.01
+BLS Capital Management,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,8.63,65.00,0.00,0.03,0.03
+BLS Capital Management,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,4.31,65.00,0.00,0.01,0.01
+BLS Capital Management,Tables - Tables - GRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.87,65.00,0.00,0.00,0.00
+BLS Capital Management,Tables - Tables - RA-GRS - New 4/1/2021-4/30/2021  April   ,0,0.075,6.3218,0.01,65.00,0.66,0.01,0.01
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - GRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.00054,6.3218,4.32,65.00,0.00,0.02,0.02
+BLS Capital Management,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,65.00,0.00,0.00,0.00
+BLS Capital Management,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.88,65.00,0.00,0.00,0.00
+BLS Capital Management,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,65.00,0.00,0.00,0.00
+BLS Capital Management,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.16,65.00,0.00,0.00,0.00
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - New  4/1/2021-4/30/2021  April   ,0,0.00054,6.3218,8.64,65.00,0.00,0.04,0.04
+BLS Capital Management,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.01,65.00,0.40,0.00,0.00
+AVS Danmark,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0,6.3218,3.24,22.00,0.00,0.00,0.00
+AVS Danmark,Tabeller - Tabeller - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.11,22.00,0.00,0.00,0.00
+AVS Danmark,Tabeller - Tabeller - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,1.81,22.00,0.00,0.00,0.00
+AVS Danmark,Plan til Azure App Service Gratis - Plan til Azure App Service Gratis - F1 - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,0.97,22.00,0.00,0.00,0.00
+AVS Danmark,Båndbredde mellem områder - Båndbredde mellem områder - Mellem kontinenter - Interkontinental - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.26,22.00,0.00,0.00,0.00
+AVS Danmark,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,5.00,22.00,0.00,0.00,0.00
+AVS Danmark,Premium-filer - Premium-filer - LRS - Det vestlige Europa - New  4/1/2021-4/30/2021  April   ,103.17,0.192,6.3218,100.00,22.00,1.26,125.87,22.70
+AVS Danmark,Files - Files - LRS - New 4/1/2021-4/30/2021  April   ,1.58,0.06,6.3218,5.00,22.00,0.39,1.97,0.39
+AVS Danmark,Azure Defender for SQL - Azure Defender for SQL - Standard - New  4/1/2021-4/30/2021  April   ,77.94,15,6.3218,0.97,22.00,98.34,95.16,17.22
+AVS Danmark,VPN Gateway - VPN Gateway - VpnGw1 - New 4/1/2021-4/30/2021  April   ,723.15,0.19,6.3218,708.33,22.00,1.25,882.29,159.14
+AVS Danmark,Plan til Azure App Service Standard - Plan til Azure App Service Standard - S1 - New  4/1/2021-4/30/2021  April   ,386.89,0.1,6.3218,720.00,22.00,0.66,472.01,85.12
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,1.26,0.004,6.3218,59.25,22.00,0.03,1.55,0.29
+AVS Danmark,Virtual Machines i Dav4-serien - Virtual Machines i Dav4-serien - D4a v4 - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,827.77,0.214,6.3218,719.90,22.00,1.40,1009.96,182.19
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,13.97,0.05,6.3218,52.18,22.00,0.33,17.10,3.13
+AVS Danmark,Tabeller - Tabeller - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,22.00,0.00,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,0,0.004,6.3218,0.05,22.00,0.03,0.00,0.00
+AVS Danmark,Tabeller - Tabeller - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.04,22.00,0.00,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,0.01,22.00,0.33,0.00,0.00
+AVS Danmark,SQL Database; enkeltstående Standard - SQL Database; enkeltstående Standard – S0 - New  4/1/2021-4/30/2021  April   ,77.94,0.4839,6.3218,30.00,22.00,3.17,95.17,17.23
+AVS Danmark,Backup - Backup - Azure VM og server i det lokale miljø - New  4/1/2021-4/30/2021  April   ,51.96,10,6.3218,0.97,22.00,65.56,63.44,11.48
+AVS Danmark,Backup - Backup - Standard - New 4/1/2021-4/30/2021  April   ,335.49,0.0448,6.3218,1393.71,22.00,0.29,409.33,73.84
+AVS Danmark,Premium SSD-administrerede diske - Premium SSD-administrerede diske - P6 - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,109.68,10.207,6.3218,2.00,22.00,66.91,133.84,24.16
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,358,0.022,6.3218,3028.49,22.00,0.14,436.79,78.79
+AVS Danmark,SQL Database; enkeltstående Standard - SQL Database; enkeltstående Standard – S2 - New  4/1/2021-4/30/2021  April   ,390.11,2.42,6.3218,30.00,22.00,15.86,475.94,85.83
+AVS Danmark,Båndbredde mellem områder - Båndbredde mellem områder - På kontinenter - Europa - New  4/1/2021-4/30/2021  April   ,0.63,0.02,6.3218,6.09,22.00,0.13,0.80,0.17
+AVS Danmark,IP-adresser - IP-adresser - Standard - New 4/1/2021-4/30/2021  April   ,19.34,0.005,6.3218,720.00,22.00,0.03,23.60,4.26
+AVS Danmark,Premium SSD-administrerede diske - Premium SSD-administrerede diske - P10 - Det nordlige Europa - New  4/1/2021-4/30/2021  April   ,105.89,19.71,6.3218,1.00,22.00,129.21,129.22,23.33
+AVS Danmark,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,1.7,0.087,6.3218,3.77,22.00,0.57,2.15,0.45
+AVS Danmark,Azure Hybrid Benefit til SQL Server - Azure Hybrid Benefit til SQL Server - Standard-udgave - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,719.90,22.00,0.00,0.00,0.00
+AVS Danmark,Tabeller - Tabeller - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.01,22.00,0.30,0.00,0.00
+AVS Danmark,Tabeller - Tabeller - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.04,22.00,0.00,0.00,0.00
+GoWingu ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,10.00,0.00,0.00,0.00,0.00
+GoWingu ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.00,0.00,0.24,0.00,0.00
+GoWingu ApS,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.44,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,4.52,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,1.81,0.00,0.00,0.00,0.00
+GoWingu ApS,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,5.00,0.00,0.00,0.00,0.00
+GoWingu ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - New  4/1/2021-4/30/2021  April   ,0,2.76,6.3218,0.77,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.21,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.01,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure Database for MySQL Single Server - Backup Storage - Azure Database for MySQL Single Server - Backup Storage - LRS - EU North - New  4/1/2021-4/30/2021  April   ,20.73,0.11,6.3218,35.08,0.00,0.59,20.74,0.01
+GoWingu ApS,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,21.81,0.087,6.3218,46.66,0.00,0.47,21.81,0.00
+GoWingu ApS,SQL Database - LTR Backup Storage - SQL Database - LTR Backup Storage - RA-GRS - EU North - New  4/1/2021-4/30/2021  April   ,0.06,0.055,6.3218,0.25,0.00,0.30,0.07,0.01
+GoWingu ApS,SQL Database Single Standard - SQL Database Single Standard - S0 - New  4/1/2021-4/30/2021  April   ,155.95,0.4839,6.3218,60.00,0.00,2.60,156.02,0.07
+GoWingu ApS,Azure Database for MySQL Single Server Basic - Storage - Azure Database for MySQL Single Server Basic - Storage - EU North - New  4/1/2021-4/30/2021  April   ,5.68,0.11,6.3218,9.68,0.00,0.59,5.72,0.04
+GoWingu ApS,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P1 v2 - EU North - New  4/1/2021-4/30/2021  April   ,773.78,0.2,6.3218,720.00,0.00,1.07,773.79,0.01
+GoWingu ApS,Azure Database for MySQL Single Server Basic - Compute Gen5 - Azure Database for MySQL Single Server Basic - Compute Gen5 - 1 vCore - EU North - New  4/1/2021-4/30/2021  April   ,140.78,0.0364,6.3218,720.00,0.00,0.20,140.83,0.05
+GoWingu ApS,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,17.06,0.024,6.3218,132.83,0.00,0.13,17.13,0.07
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - New  4/1/2021-4/30/2021  April   ,0,0.05,6.3218,4.71,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0.087,6.3218,5.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0.06,0.00036,6.3218,58.49,0.00,0.00,0.11,0.05
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - Snapshots ZRS - EU West - New  4/1/2021-4/30/2021  April   ,1.89,0.05,6.3218,7.14,0.00,0.27,1.92,0.03
+SBC-Teams GoWingu,IP Addresses - IP Addresses - Standard - New 4/1/2021-4/30/2021  April   ,272.34,0.005,6.3218,10137.00,0.00,0.03,272.36,0.02
+SBC-Teams GoWingu,Virtual Network Peering - Virtual Network Peering - New  4/1/2021-4/30/2021  April   ,4.04,0.01,6.3218,76.20,0.00,0.05,4.09,0.05
+SBC-Teams GoWingu,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - EU West - New  4/1/2021-4/30/2021  April   ,12.89,2.4,6.3218,1.00,0.00,12.90,12.90,0.01
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - New  4/1/2021-4/30/2021  April   ,1.32,0.0005,6.3218,502.70,0.00,0.00,1.35,0.03
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D1 v2 - EU West - New  4/1/2021-4/30/2021  April   ,262.6,0.0679,6.3218,719.87,0.00,0.36,262.65,0.05
+SBC-Teams GoWingu,VPN Gateway - VPN Gateway - Basic - New 4/1/2021-4/30/2021  April   ,133.76,0.036,6.3218,691.58,0.00,0.19,133.78,0.02
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU West - New  4/1/2021-4/30/2021  April   ,49.49,1.536,6.3218,6.00,0.00,8.25,49.53,0.04
+SBC-Teams GoWingu,Backup - Backup - Standard - New 4/1/2021-4/30/2021  April   ,0.94,0.0448,6.3218,3.96,0.00,0.24,0.95,0.01
+SBC-Teams GoWingu,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,3.14,0.00,0.00,0.01,0.01
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,21.68,0.087,6.3218,46.41,0.00,0.47,21.70,0.02
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S6 LRS - EU West - New  4/1/2021-4/30/2021  April   ,48.48,3.008,6.3218,3.00,0.00,16.16,48.49,0.01
+SBC-Teams GoWingu,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - New  4/1/2021-4/30/2021  April   ,7.08,0.002,6.3218,661.53,0.00,0.01,7.11,0.03
+SBC-Teams GoWingu,Premium SSD Managed Disks - Premium SSD Managed Disks - P20 - EU West - New  4/1/2021-4/30/2021  April   ,432.79,80.54,6.3218,1.00,0.00,432.78,432.82,0.03
+SBC-Teams GoWingu,Load Balancer - Load Balancer - New 4/1/2021-4/30/2021  April   ,193.44,0.025,6.3218,1440.00,0.00,0.13,193.45,0.01
+SBC-Teams GoWingu,Premium SSD Managed Disks - Premium SSD Managed Disks - P4 - EU West - New  4/1/2021-4/30/2021  April   ,93.56,5.8072,6.3218,3.00,0.00,31.21,93.62,0.06
+SBC-Teams GoWingu,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - New  4/1/2021-4/30/2021  April   ,577.74,0.15,6.3218,716.80,0.00,0.81,577.76,0.02
+SBC-Teams GoWingu,Bandwidth - Bandwidth - New 4/1/2021-4/30/2021  April   ,0,0,6.3218,0.10,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,0.46,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Azure App Service Free Plan - Azure App Service Free Plan - F1 - New  4/1/2021-4/30/2021  April   ,0,0,6.3218,1.94,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - New  4/1/2021-4/30/2021  April   ,0.88,0.00036,6.3218,464.12,0.00,0.00,0.90,0.02
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - New  4/1/2021-4/30/2021  April   ,1.95,0.02,6.3218,18.82,0.00,0.11,2.02,0.07
+SBC-Teams GoWingu,Load Balancer - Load Balancer - New 4/1/2021-4/30/2021  April   ,425.58,0.01,6.3218,7920.00,0.00,0.05,425.58,0.00
+SBC-Teams GoWingu,Load Balancer - Load Balancer - New 4/1/2021-4/30/2021  April   ,1.13,0.005,6.3218,44.67,0.00,0.03,1.20,0.07
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - Snapshots LRS - EU West - New  4/1/2021-4/30/2021  April   ,0.06,0.05,6.3218,0.32,0.00,0.27,0.09,0.03
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D3 v2 - EU West - New  4/1/2021-4/30/2021  April   ,4208.99,0.272,6.3218,2879.72,0.00,1.46,4208.99,0.00
+SBC-Teams GoWingu,Virtual Network Peering - Virtual Network Peering - New  4/1/2021-4/30/2021  April   ,3.79,0.01,6.3218,70.61,0.00,0.05,3.79,0.00
+SBC-Teams GoWingu,Backup - Backup - Azure VM and on-premises Server - New  4/1/2021-4/30/2021  April   ,25.98,10,6.3218,0.48,0.00,53.74,26.00,0.02
+SBC-Teams GoWingu,Virtual Machines BS Series - Virtual Machines BS Series - B1ms - EU West - New  4/1/2021-4/30/2021  April   ,92.8,0.024,6.3218,719.95,0.00,0.13,92.85,0.05
+SBC-Teams GoWingu,IP Addresses - IP Addresses - Basic - New 4/1/2021-4/30/2021  April   ,41.72,0.0036,6.3218,2160.00,0.00,0.02,41.78,0.06
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.00036,6.3218,27.91,0.00,0.00,0.05,0.05
+SBC-Teams GoWingu,Tables - Tables - LRS - New 4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.03,0.00,0.24,0.01,0.01
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - New  4/1/2021-4/30/2021  April   ,0,0.045,6.3218,0.01,0.00,0.24,0.00,0.00
+Langvad Arkitekter,Backup - Backup - Azure VM og server i det lokale miljø - New  4/1/2021-4/30/2021  April   ,207.98,10,6.3218,3.87,25.00,67.17,260.01,52.03
+Langvad Arkitekter,Backup - Backup - Standard - New 4/1/2021-4/30/2021  April   ,344.47,0.0448,6.3218,1431.07,25.00,0.30,430.63,86.16

@@ -1,0 +1,46 @@
+Customer,CustomerNo,Description,Quantity,Unit Price
+SBC-Teams GoWingu,00000000,Bandwidth Inter-Region - Bandwidth Inter-Region - ,48.86,6.41
+SBC-Teams GoWingu,00000000,Load Balancer - Load Balancer - new ,8184.00,537.15
+SBC-Teams GoWingu,00000000,Backup - Backup - Standard - EU West - new ,4.09,1.20
+SBC-Teams GoWingu,00000000,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+SBC-Teams GoWingu,00000000,Premium SSD Managed Disks - Premium SSD Managed ,3.00,114.34
+SBC-Teams GoWingu,00000000,Virtual Machines BS Series - Virtual Machines BS ,743.95,117.19
+SBC-Teams GoWingu,00000000,Rtn Preference: MGN - Rtn Preference: MGN - new ,19.51,11.14
+SBC-Teams GoWingu,00000000,Rtn Preference: MGN - Rtn Preference: MGN - new ,100.00,0.00
+SBC-Teams GoWingu,00000000,Standard Page Blob - Standard Page Blob - LRS - ,67.71,0.16
+SBC-Teams GoWingu,00000000,Load Balancer - Load Balancer - new ,1488.00,244.16
+SBC-Teams GoWingu,00000000,Premium SSD Managed Disks - Premium SSD Managed ,1.00,528.59
+SBC-Teams GoWingu,00000000,Bandwidth Inter-Region - Bandwidth Inter-Region - ,9.07,2.98
+SBC-Teams GoWingu,00000000,Standard HDD Managed Disks - Standard HDD Managed ,6.00,60.48
+SBC-Teams GoWingu,00000000,General Block Blob - General Block Blob - LRS - ,1.36,0.00
+SBC-Teams GoWingu,00000000,Backup - Backup - Azure VM - EU West - new ,0.50,32.82
+SBC-Teams GoWingu,00000000,Standard Page Blob - Standard Page Blob - LRS - ,31.04,0.07
+SBC-Teams GoWingu,00000000,VPN Gateway - VPN Gateway - Basic - new ,744.00,175.80
+SBC-Teams GoWingu,00000000,Files - Files - LRS - new ,0.01,0.00
+SBC-Teams GoWingu,00000000,Virtual Machines RI - Virtual Machines RI - new ,2977.45,0.00
+SBC-Teams GoWingu,00000000,Files - Files - LRS - new ,0.02,0.00
+SBC-Teams GoWingu,00000000,Virtual Network Peering - Virtual Network Peering ,966.89,63.46
+SBC-Teams GoWingu,00000000,Standard Page Blob - Standard Page Blob - LRS - ,0.05,0.02
+SBC-Teams GoWingu,00000000,Standard SSD Managed Disks - Standard SSD Managed ,1037.34,13.62
+SBC-Teams GoWingu,00000000,Tables - Tables - LRS - new ,0.03,0.01
+SBC-Teams GoWingu,00000000,Azure App Service Free Plan - Azure App Service ,2.00,0.00
+SBC-Teams GoWingu,00000000,Standard SSD Managed Disks - Standard SSD Managed ,1.00,15.75
+SBC-Teams GoWingu,00000000,Azure Active Directory Domain Services - Azure ,743.79,732.28
+SBC-Teams GoWingu,00000000,General Block Blob - General Block Blob - LRS - ,479.91,1.13
+SBC-Teams GoWingu,00000000,Standard HDD Managed Disks - Standard HDD Managed ,7.14,2.34
+SBC-Teams GoWingu,00000000,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.09,0.00
+SBC-Teams GoWingu,00000000,Files - Files - LRS - new ,0.02,0.00
+SBC-Teams GoWingu,00000000,Standard SSD Managed Disks - Standard SSD Managed ,1.00,31.50
+SBC-Teams GoWingu,00000000,Tables - Tables - LRS - new ,3.17,0.01
+SBC-Teams GoWingu,00000000,Virtual Machines Dv2 Series - Virtual Machines Dv2 ,741.40,330.41
+SBC-Teams GoWingu,00000000,IP Addresses - IP Addresses - Standard IPv4 - new ,10416.00,341.82
+SBC-Teams GoWingu,00000000,Standard Page Blob - Standard Page Blob - LRS - ,0.00,0.00
+SBC-Teams GoWingu,00000000,Load Balancer - Load Balancer - new ,91.09,2.99
+SBC-Teams GoWingu,00000000,Standard HDD Managed Disks - Standard HDD Managed ,3.00,59.22
+SBC-Teams GoWingu,00000000,Network Watcher - Network Watcher - new ,1.00,0.00
+SBC-Teams GoWingu,00000000,Standard HDD Managed Disks - Standard HDD Managed ,1145.31,3.76
+SBC-Teams GoWingu,00000000,Standard HDD Managed Disks - Standard HDD Managed ,1.55,0.51
+SBC-Teams GoWingu,00000000,IP Addresses - IP Addresses - Basic IPv4 - new ,1488.00,35.16
+SBC-Teams GoWingu,00000000,Virtual Network Peering - Virtual Network Peering ,817.78,53.67
+SBC-Teams GoWingu,00000000,Bandwidth Inter-Region - Bandwidth Inter-Region - ,5.00,0.00
+SBC-Teams GoWingu,00000000,Virtual Machines DSv2 Series - Reserved VM ,4.00,2415.66

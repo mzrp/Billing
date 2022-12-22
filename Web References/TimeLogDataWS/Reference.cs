@@ -23,13 +23,23 @@ namespace RPNAVConnect.TimeLogDataWS {
     
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2046.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     [System.Web.Services.WebServiceBindingAttribute(Name="RPNAVConnectWSSoap", Namespace="https://nav.gowingu.net:8091/")]
     public partial class RPNAVConnectWS : System.Web.Services.Protocols.SoapHttpClientProtocol {
         
+        private System.Threading.SendOrPostCallback GetCredentialsOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback GetTimeLogCustomersDataOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback GetTimeLogAllInvoicesDataOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback GetTimeLogAllInvoicesNoProjectsDataOperationCompleted;
+        
         private System.Threading.SendOrPostCallback GetTimeLogDataOperationCompleted;
+        
+        private System.Threading.SendOrPostCallback GetTimeLogData_OldOperationCompleted;
         
         private bool useDefaultCredentialsSetExplicitly;
         
@@ -70,7 +80,150 @@ namespace RPNAVConnect.TimeLogDataWS {
         }
         
         /// <remarks/>
+        public event GetCredentialsCompletedEventHandler GetCredentialsCompleted;
+        
+        /// <remarks/>
+        public event GetTimeLogCustomersDataCompletedEventHandler GetTimeLogCustomersDataCompleted;
+        
+        /// <remarks/>
+        public event GetTimeLogAllInvoicesDataCompletedEventHandler GetTimeLogAllInvoicesDataCompleted;
+        
+        /// <remarks/>
+        public event GetTimeLogAllInvoicesNoProjectsDataCompletedEventHandler GetTimeLogAllInvoicesNoProjectsDataCompleted;
+        
+        /// <remarks/>
         public event GetTimeLogDataCompletedEventHandler GetTimeLogDataCompleted;
+        
+        /// <remarks/>
+        public event GetTimeLogData_OldCompletedEventHandler GetTimeLogData_OldCompleted;
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://nav.gowingu.net:8091/GetCredentials", RequestNamespace="https://nav.gowingu.net:8091/", ResponseNamespace="https://nav.gowingu.net:8091/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public string GetCredentials() {
+            object[] results = this.Invoke("GetCredentials", new object[0]);
+            return ((string)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetCredentialsAsync() {
+            this.GetCredentialsAsync(null);
+        }
+        
+        /// <remarks/>
+        public void GetCredentialsAsync(object userState) {
+            if ((this.GetCredentialsOperationCompleted == null)) {
+                this.GetCredentialsOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetCredentialsOperationCompleted);
+            }
+            this.InvokeAsync("GetCredentials", new object[0], this.GetCredentialsOperationCompleted, userState);
+        }
+        
+        private void OnGetCredentialsOperationCompleted(object arg) {
+            if ((this.GetCredentialsCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetCredentialsCompleted(this, new GetCredentialsCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://nav.gowingu.net:8091/GetTimeLogCustomersData", RequestNamespace="https://nav.gowingu.net:8091/", ResponseNamespace="https://nav.gowingu.net:8091/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public strRPNAVConnectWS GetTimeLogCustomersData() {
+            object[] results = this.Invoke("GetTimeLogCustomersData", new object[0]);
+            return ((strRPNAVConnectWS)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogCustomersDataAsync() {
+            this.GetTimeLogCustomersDataAsync(null);
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogCustomersDataAsync(object userState) {
+            if ((this.GetTimeLogCustomersDataOperationCompleted == null)) {
+                this.GetTimeLogCustomersDataOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetTimeLogCustomersDataOperationCompleted);
+            }
+            this.InvokeAsync("GetTimeLogCustomersData", new object[0], this.GetTimeLogCustomersDataOperationCompleted, userState);
+        }
+        
+        private void OnGetTimeLogCustomersDataOperationCompleted(object arg) {
+            if ((this.GetTimeLogCustomersDataCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetTimeLogCustomersDataCompleted(this, new GetTimeLogCustomersDataCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://nav.gowingu.net:8091/GetTimeLogAllInvoicesData", RequestNamespace="https://nav.gowingu.net:8091/", ResponseNamespace="https://nav.gowingu.net:8091/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public strRPNAVConnectWS GetTimeLogAllInvoicesData(string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear) {
+            object[] results = this.Invoke("GetTimeLogAllInvoicesData", new object[] {
+                        sInvoiceStatus,
+                        sStartMonth,
+                        sStartYear,
+                        sEndMonth,
+                        sEndYear});
+            return ((strRPNAVConnectWS)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogAllInvoicesDataAsync(string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear) {
+            this.GetTimeLogAllInvoicesDataAsync(sInvoiceStatus, sStartMonth, sStartYear, sEndMonth, sEndYear, null);
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogAllInvoicesDataAsync(string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear, object userState) {
+            if ((this.GetTimeLogAllInvoicesDataOperationCompleted == null)) {
+                this.GetTimeLogAllInvoicesDataOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetTimeLogAllInvoicesDataOperationCompleted);
+            }
+            this.InvokeAsync("GetTimeLogAllInvoicesData", new object[] {
+                        sInvoiceStatus,
+                        sStartMonth,
+                        sStartYear,
+                        sEndMonth,
+                        sEndYear}, this.GetTimeLogAllInvoicesDataOperationCompleted, userState);
+        }
+        
+        private void OnGetTimeLogAllInvoicesDataOperationCompleted(object arg) {
+            if ((this.GetTimeLogAllInvoicesDataCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetTimeLogAllInvoicesDataCompleted(this, new GetTimeLogAllInvoicesDataCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://nav.gowingu.net:8091/GetTimeLogAllInvoicesNoProjectsData", RequestNamespace="https://nav.gowingu.net:8091/", ResponseNamespace="https://nav.gowingu.net:8091/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public strRPNAVConnectWS GetTimeLogAllInvoicesNoProjectsData(string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear) {
+            object[] results = this.Invoke("GetTimeLogAllInvoicesNoProjectsData", new object[] {
+                        sInvoiceStatus,
+                        sStartMonth,
+                        sStartYear,
+                        sEndMonth,
+                        sEndYear});
+            return ((strRPNAVConnectWS)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogAllInvoicesNoProjectsDataAsync(string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear) {
+            this.GetTimeLogAllInvoicesNoProjectsDataAsync(sInvoiceStatus, sStartMonth, sStartYear, sEndMonth, sEndYear, null);
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogAllInvoicesNoProjectsDataAsync(string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear, object userState) {
+            if ((this.GetTimeLogAllInvoicesNoProjectsDataOperationCompleted == null)) {
+                this.GetTimeLogAllInvoicesNoProjectsDataOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetTimeLogAllInvoicesNoProjectsDataOperationCompleted);
+            }
+            this.InvokeAsync("GetTimeLogAllInvoicesNoProjectsData", new object[] {
+                        sInvoiceStatus,
+                        sStartMonth,
+                        sStartYear,
+                        sEndMonth,
+                        sEndYear}, this.GetTimeLogAllInvoicesNoProjectsDataOperationCompleted, userState);
+        }
+        
+        private void OnGetTimeLogAllInvoicesNoProjectsDataOperationCompleted(object arg) {
+            if ((this.GetTimeLogAllInvoicesNoProjectsDataCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetTimeLogAllInvoicesNoProjectsDataCompleted(this, new GetTimeLogAllInvoicesNoProjectsDataCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
         
         /// <remarks/>
         [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://nav.gowingu.net:8091/GetTimeLogData", RequestNamespace="https://nav.gowingu.net:8091/", ResponseNamespace="https://nav.gowingu.net:8091/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
@@ -112,6 +265,45 @@ namespace RPNAVConnect.TimeLogDataWS {
         }
         
         /// <remarks/>
+        [System.Web.Services.Protocols.SoapDocumentMethodAttribute("https://nav.gowingu.net:8091/GetTimeLogData_Old", RequestNamespace="https://nav.gowingu.net:8091/", ResponseNamespace="https://nav.gowingu.net:8091/", Use=System.Web.Services.Description.SoapBindingUse.Literal, ParameterStyle=System.Web.Services.Protocols.SoapParameterStyle.Wrapped)]
+        public strRPNAVConnectWS GetTimeLogData_Old(string sVATNos, string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear) {
+            object[] results = this.Invoke("GetTimeLogData_Old", new object[] {
+                        sVATNos,
+                        sInvoiceStatus,
+                        sStartMonth,
+                        sStartYear,
+                        sEndMonth,
+                        sEndYear});
+            return ((strRPNAVConnectWS)(results[0]));
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogData_OldAsync(string sVATNos, string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear) {
+            this.GetTimeLogData_OldAsync(sVATNos, sInvoiceStatus, sStartMonth, sStartYear, sEndMonth, sEndYear, null);
+        }
+        
+        /// <remarks/>
+        public void GetTimeLogData_OldAsync(string sVATNos, string sInvoiceStatus, string sStartMonth, string sStartYear, string sEndMonth, string sEndYear, object userState) {
+            if ((this.GetTimeLogData_OldOperationCompleted == null)) {
+                this.GetTimeLogData_OldOperationCompleted = new System.Threading.SendOrPostCallback(this.OnGetTimeLogData_OldOperationCompleted);
+            }
+            this.InvokeAsync("GetTimeLogData_Old", new object[] {
+                        sVATNos,
+                        sInvoiceStatus,
+                        sStartMonth,
+                        sStartYear,
+                        sEndMonth,
+                        sEndYear}, this.GetTimeLogData_OldOperationCompleted, userState);
+        }
+        
+        private void OnGetTimeLogData_OldOperationCompleted(object arg) {
+            if ((this.GetTimeLogData_OldCompleted != null)) {
+                System.Web.Services.Protocols.InvokeCompletedEventArgs invokeArgs = ((System.Web.Services.Protocols.InvokeCompletedEventArgs)(arg));
+                this.GetTimeLogData_OldCompleted(this, new GetTimeLogData_OldCompletedEventArgs(invokeArgs.Results, invokeArgs.Error, invokeArgs.Cancelled, invokeArgs.UserState));
+            }
+        }
+        
+        /// <remarks/>
         public new void CancelAsync(object userState) {
             base.CancelAsync(userState);
         }
@@ -131,7 +323,7 @@ namespace RPNAVConnect.TimeLogDataWS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.7.2102.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Xml", "4.8.4161.0")]
     [System.SerializableAttribute()]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
@@ -188,11 +380,115 @@ namespace RPNAVConnect.TimeLogDataWS {
     }
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2046.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    public delegate void GetCredentialsCompletedEventHandler(object sender, GetCredentialsCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetCredentialsCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetCredentialsCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public string Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((string)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    public delegate void GetTimeLogCustomersDataCompletedEventHandler(object sender, GetTimeLogCustomersDataCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetTimeLogCustomersDataCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetTimeLogCustomersDataCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public strRPNAVConnectWS Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((strRPNAVConnectWS)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    public delegate void GetTimeLogAllInvoicesDataCompletedEventHandler(object sender, GetTimeLogAllInvoicesDataCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetTimeLogAllInvoicesDataCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetTimeLogAllInvoicesDataCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public strRPNAVConnectWS Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((strRPNAVConnectWS)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    public delegate void GetTimeLogAllInvoicesNoProjectsDataCompletedEventHandler(object sender, GetTimeLogAllInvoicesNoProjectsDataCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetTimeLogAllInvoicesNoProjectsDataCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetTimeLogAllInvoicesNoProjectsDataCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public strRPNAVConnectWS Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((strRPNAVConnectWS)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
     public delegate void GetTimeLogDataCompletedEventHandler(object sender, GetTimeLogDataCompletedEventArgs e);
     
     /// <remarks/>
-    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.7.2046.0")]
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.ComponentModel.DesignerCategoryAttribute("code")]
     public partial class GetTimeLogDataCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
@@ -200,6 +496,32 @@ namespace RPNAVConnect.TimeLogDataWS {
         private object[] results;
         
         internal GetTimeLogDataCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
+                base(exception, cancelled, userState) {
+            this.results = results;
+        }
+        
+        /// <remarks/>
+        public strRPNAVConnectWS Result {
+            get {
+                this.RaiseExceptionIfNecessary();
+                return ((strRPNAVConnectWS)(this.results[0]));
+            }
+        }
+    }
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    public delegate void GetTimeLogData_OldCompletedEventHandler(object sender, GetTimeLogData_OldCompletedEventArgs e);
+    
+    /// <remarks/>
+    [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Web.Services", "4.8.4161.0")]
+    [System.Diagnostics.DebuggerStepThroughAttribute()]
+    [System.ComponentModel.DesignerCategoryAttribute("code")]
+    public partial class GetTimeLogData_OldCompletedEventArgs : System.ComponentModel.AsyncCompletedEventArgs {
+        
+        private object[] results;
+        
+        internal GetTimeLogData_OldCompletedEventArgs(object[] results, System.Exception exception, bool cancelled, object userState) : 
                 base(exception, cancelled, userState) {
             this.results = results;
         }

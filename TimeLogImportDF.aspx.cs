@@ -52,7 +52,14 @@ namespace RPNAVConnect
             PushingDataL.Text = "<p style='height:15px;'>&nbsp;</p>";
 
             TimeLogDataWS.RPNAVConnectWS wsRPNAVConnectWS = new TimeLogDataWS.RPNAVConnectWS();
+            wsRPNAVConnectWS.Timeout = 5400000;
             wsRPNAVConnectWS.UseDefaultCredentials = true;
+
+            TLInfoLabel.Text = "TimeLog Web Service URL: ";
+            TLInfoLabel.Text += ConfigurationManager.AppSettings["TLWSURL"].ToString();
+            TLInfoLabel.Text += "<br />";
+            TLInfoLabel.Text += wsRPNAVConnectWS.GetCredentials();
+
             string sVATNos = VATNoTB.Text;
             if (sVATNos == "") sVATNos = "n/a";
             stRPNAVConnectWS = wsRPNAVConnectWS.GetTimeLogData(sVATNos, InvoiceStatusTB.Text, StartMonthTB.Text, StartYearTB.Text, EndMonthTB.Text, EndYearTB.Text);
@@ -212,9 +219,10 @@ namespace RPNAVConnect
 
                                                                     // description
                                                                     sInvoiceLineDescToPrint = sLineDescription;
+                                                                    string sProductNo = "&nbsp;ProductNo: " + sResultInvoiceLine.Split(',')[16].Replace("\"", "").Replace("╬", ",");
                                                                     TimeLogDataL.Text += "<tr>";
                                                                     TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
-                                                                    TimeLogDataL.Text += "<td style='width:55%;'>&nbsp;" + sInvoiceLineDescToPrint + "&nbsp;</td>";
+                                                                    TimeLogDataL.Text += "<td style='width:55%;'>&nbsp;" + sInvoiceLineDescToPrint + "&nbsp;<br />" + sProductNo + " &nbsp;</td>";
                                                                     TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
                                                                     TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
                                                                     TimeLogDataL.Text += "</tr>";
@@ -322,9 +330,10 @@ namespace RPNAVConnect
 
                                                                             // description
                                                                             sInvoiceLineDescToPrint = item.Value;
+                                                                            string sProductNo = "&nbsp;ProductNo: " + sResultInvoiceLine.Split(',')[16].Replace("\"", "").Replace("╬", ",");
                                                                             TimeLogDataL.Text += "<tr>";
                                                                             TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
-                                                                            TimeLogDataL.Text += "<td style='width:55%;'>&nbsp;" + sInvoiceLineDescToPrint + "&nbsp;</td>";
+                                                                            TimeLogDataL.Text += "<td style='width:55%;'>&nbsp;" + sInvoiceLineDescToPrint + "&nbsp;<br />" + sProductNo + "&nbsp;</td>";
                                                                             TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
                                                                             TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
                                                                             TimeLogDataL.Text += "</tr>";
@@ -334,9 +343,10 @@ namespace RPNAVConnect
                                                                         {
                                                                             // description
                                                                             sInvoiceLineDescToPrint = item.Value;
+                                                                            string sProductNo = "&nbsp;ProductNo: " + sResultInvoiceLine.Split(',')[16].Replace("\"", "").Replace("╬", ",");
                                                                             TimeLogDataL.Text += "<tr>";
                                                                             TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
-                                                                            TimeLogDataL.Text += "<td style='width:55%;'>&nbsp;" + sInvoiceLineDescToPrint + "&nbsp;</td>";
+                                                                            TimeLogDataL.Text += "<td style='width:55%;'>&nbsp;" + sInvoiceLineDescToPrint + "&nbsp;<br />" + sProductNo + "&nbsp;</td>";
                                                                             TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
                                                                             TimeLogDataL.Text += "<td style='width:15%;'>&nbsp;</td>";
                                                                             TimeLogDataL.Text += "</tr>";
@@ -428,6 +438,7 @@ namespace RPNAVConnect
             string sResultMessage = "";
             string sMissedCustomers = "";
             string sProblematicCustomers = "";
+            PushingDataLErrorData.Text = "";
 
             try
             {
@@ -480,7 +491,7 @@ namespace RPNAVConnect
                                 // searh filter for the customer
                                 List<CustomerInfo2_Filter> filterArray = new List<CustomerInfo2_Filter>();
                                 CustomerInfo2_Filter nameFilter = new CustomerInfo2_Filter();
-                                nameFilter.Field = CustomerInfo2_Fields.No;
+                                nameFilter.Field = CustomerInfo2_Fields.No; 
                                 nameFilter.Criteria = sResultCustomer.Split(',')[3].Replace("\"", "").Replace("╬", ",");
                                 filterArray.Add(nameFilter);
 
@@ -709,15 +720,14 @@ namespace RPNAVConnect
                                                                             invoiceLine.No = "500";
                                                                         }
 
-                                                                        string sInvoiceLineNo = "";
-                                                                        string sProjectTypeName = "";
+                                                                        string sProductNo = "";
                                                                         try
                                                                         {
-                                                                            sInvoiceLineNo = sResultInvoiceLine.Split(',')[15].Replace("╬", ",").Replace("\"", "").ToLower();
-                                                                            sProjectTypeName = sResultInvoiceLine.Split(',')[16].Replace("╬", ",").Replace("\"", "").ToLower();
-                                                                            if (sProjectTypeName == "600") invoiceLine.No = "600";
-                                                                            if (sProjectTypeName == "605") invoiceLine.No = "605";
-                                                                            if (sProjectTypeName == "610") invoiceLine.No = "610";
+                                                                            sProductNo = sResultInvoiceLine.Split(',')[16].Replace("╬", ",").Replace("\"", "").ToLower();
+                                                                            if (sProductNo == "600") invoiceLine.No = "600";
+                                                                            if (sProductNo == "605") invoiceLine.No = "605";
+                                                                            if (sProductNo == "610") invoiceLine.No = "610";
+                                                                            if (sProductNo == "700") invoiceLine.No = "700";
                                                                         }
                                                                         catch (Exception ex)
                                                                         {
@@ -1089,7 +1099,7 @@ namespace RPNAVConnect
         {
             bool bResult = false;
 
-            string strSqlQuery = "SELECT l.[id] FROM [RPNAVConnect].[dbo].[Log]as l WHERE l.[refid] = " + sInvoiceTimeLogId;
+            string strSqlQuery = "SELECT l.[id] FROM [RPNAVConnect].[dbo].[Log] as l WHERE l.[refid] = " + sInvoiceTimeLogId;
             System.Data.OleDb.OleDbDataReader oleReader;
             System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(strSqlQuery, dbConn);
             oleReader = cmd.ExecuteReader();
@@ -1120,6 +1130,7 @@ namespace RPNAVConnect
             {
                 ex.ToString();
                 bResult = false;
+                //PushingDataLErrorData.Text += filter[0].Criteria + " ::: " + ex.ToString();
             }
 
             return bResult;

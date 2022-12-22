@@ -1,0 +1,425 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+  <!-- EF Runtime content -->
+  <edmx:Runtime>
+    <!-- SSDL content -->
+    <edmx:StorageModels>
+    <Schema Namespace="BillingModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+        <EntityType Name="Audits">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="ObjectType" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="ObjectId" Type="bigint" Nullable="false" />
+          <Property Name="Description" Type="text" Nullable="false" />
+          <Property Name="Created" Type="datetime2" Precision="7" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BillingProducts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="BillingSubscriptionId" Type="int" Nullable="false" />
+          <Property Name="NavProductNumber" Type="nvarchar" MaxLength="10" />
+          <Property Name="Description" Type="nvarchar" MaxLength="255" />
+          <Property Name="UnitType" Type="nvarchar" MaxLength="10" />
+          <Property Name="UnitAmount" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="UnitPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="NavPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="BillingSubscriptions">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="Description" Type="text" />
+          <Property Name="NavCustomerId" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="BillingCycle" Type="nvarchar" MaxLength="30" Nullable="false" />
+          <Property Name="FirstInvoice" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="NextInvoice" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="NavCustomerName" Type="nvarchar" MaxLength="255" />
+          <Property Name="Deleted" Type="datetime2" Precision="7" />
+          <Property Name="PaymentTerms" Type="int" />
+          <Property Name="AdditionalText" Type="text" />
+        </EntityType>
+        <EntityType Name="TeleAgreements">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="NavCustomerId" Type="nvarchar" MaxLength="20" Nullable="false" />
+          <Property Name="NavCustomerName" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Deleted" Type="datetime2" Precision="7" />
+        </EntityType>
+        <EntityType Name="TeleBillingImport">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="VendorId" Type="bigint" Nullable="false" />
+          <Property Name="Number" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="Destination" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="DestinationType" Type="int" Nullable="false" />
+          <Property Name="NumberOfCalls" Type="bigint" Nullable="false" />
+          <Property Name="DurationOfCalls" Type="bigint" Nullable="false" />
+          <Property Name="Imported" Type="datetime2" Precision="7" Nullable="false" />
+          <Property Name="SentToNAV" Type="datetime2" Precision="7" />
+        </EntityType>
+        <EntityType Name="TeleNumberSeries">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TeleAgreementId" Type="bigint" Nullable="false" />
+          <Property Name="Numbers" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="255" />
+        </EntityType>
+        <EntityType Name="TeleProducts">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="bigint" StoreGeneratedPattern="Identity" Nullable="false" />
+          <Property Name="TeleNumberSeriesId" Type="bigint" Nullable="false" />
+          <Property Name="NavProductNumber" Type="nvarchar" MaxLength="50" Nullable="false" />
+          <Property Name="NavProductPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="Description" Type="nvarchar" MaxLength="255" Nullable="false" />
+          <Property Name="Prefix" Type="nvarchar" MaxLength="25" Nullable="false" />
+          <Property Name="DestinationType" Type="smallint" Nullable="false" />
+          <Property Name="UnitType" Type="nvarchar" MaxLength="100" Nullable="false" />
+          <Property Name="UnitPrice" Type="decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="ProductType" Type="smallint" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_BelongsTo_BillingSubscription">
+          <End Role="BillingSubscriptions" Type="Self.BillingSubscriptions" Multiplicity="1" />
+          <End Role="BillingProducts" Type="Self.BillingProducts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="BillingSubscriptions">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="BillingProducts">
+              <PropertyRef Name="BillingSubscriptionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeleNumberSeries_BelongsTo_TeleAgreements">
+          <End Role="TeleAgreements" Type="Self.TeleAgreements" Multiplicity="1" />
+          <End Role="TeleNumberSeries" Type="Self.TeleNumberSeries" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TeleAgreements">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeleNumberSeries">
+              <PropertyRef Name="TeleAgreementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeleProducts_BelongsTo_TeleNumberSeries">
+          <End Role="TeleNumberSeries" Type="Self.TeleNumberSeries" Multiplicity="1" />
+          <End Role="TeleProducts" Type="Self.TeleProducts" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="TeleNumberSeries">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeleProducts">
+              <PropertyRef Name="TeleNumberSeriesId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityContainer Name="BillingModelStoreContainer">
+          <EntitySet Name="Audits" EntityType="Self.Audits" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BillingProducts" EntityType="Self.BillingProducts" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="BillingSubscriptions" EntityType="Self.BillingSubscriptions" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeleAgreements" EntityType="Self.TeleAgreements" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeleBillingImport" EntityType="Self.TeleBillingImport" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeleNumberSeries" EntityType="Self.TeleNumberSeries" Schema="dbo" store:Type="Tables" />
+          <EntitySet Name="TeleProducts" EntityType="Self.TeleProducts" Schema="dbo" store:Type="Tables" />
+          <AssociationSet Name="FK_BelongsTo_BillingSubscription" Association="Self.FK_BelongsTo_BillingSubscription">
+            <End Role="BillingSubscriptions" EntitySet="BillingSubscriptions" />
+            <End Role="BillingProducts" EntitySet="BillingProducts" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeleNumberSeries_BelongsTo_TeleAgreements" Association="Self.FK_TeleNumberSeries_BelongsTo_TeleAgreements">
+            <End Role="TeleAgreements" EntitySet="TeleAgreements" />
+            <End Role="TeleNumberSeries" EntitySet="TeleNumberSeries" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeleProducts_BelongsTo_TeleNumberSeries" Association="Self.FK_TeleProducts_BelongsTo_TeleNumberSeries">
+            <End Role="TeleNumberSeries" EntitySet="TeleNumberSeries" />
+            <End Role="TeleProducts" EntitySet="TeleProducts" />
+          </AssociationSet>
+        </EntityContainer>
+      </Schema></edmx:StorageModels>
+    <!-- CSDL content -->
+    <edmx:ConceptualModels>
+      <Schema Namespace="BillingModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+        <EntityType Name="Product">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="BillingSubscriptionId" Type="Int32" Nullable="false" />
+          <Property Name="NavProductNumber" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="UnitType" Type="String" MaxLength="10" FixedLength="false" Unicode="true" />
+          <Property Name="UnitAmount" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="UnitPrice" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+          <Property Name="NavPrice" Type="Decimal" Precision="18" Scale="2" Nullable="false" />
+        </EntityType>
+        <EntityType Name="Subscription">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int32" Nullable="false" />
+          <Property Name="Description" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="NavCustomerId" Type="String" MaxLength="20" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="BillingCycle" Type="String" MaxLength="30" FixedLength="false" Unicode="true" Nullable="false" />
+          <Property Name="FirstInvoice" Type="DateTime" Precision="7" Nullable="false" />
+          <Property Name="NextInvoice" Type="DateTime" Precision="7" Nullable="false" />
+          <Property Name="NavCustomerName" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Products" Relationship="BillingModel.FK_BelongsTo_BillingSubscription" FromRole="Subscription" ToRole="Product" />
+          <Property Name="Deleted" Type="DateTime" Precision="7" />
+          <Property Name="PaymentTerms" Type="Int32" />
+          <Property Name="AdditionalText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+        </EntityType>
+        <EntityContainer Name="BillingEntities" annotation:LazyLoadingEnabled="true">
+          <EntitySet Name="Products" EntityType="BillingModel.Product" />
+          <EntitySet Name="Subscriptions" EntityType="BillingModel.Subscription" />
+          <AssociationSet Name="FK_BelongsTo_BillingSubscription" Association="BillingModel.FK_BelongsTo_BillingSubscription">
+            <End Role="Subscription" EntitySet="Subscriptions" />
+            <End Role="Product" EntitySet="Products" />
+          </AssociationSet>
+          <EntitySet Name="TeleAgreements" EntityType="BillingModel.TeleAgreement" />
+          <EntitySet Name="TeleNumberSeries" EntityType="BillingModel.TeleNumberSeries" />
+          <EntitySet Name="Audits" EntityType="BillingModel.Audit" />
+          <EntitySet Name="TeleProducts" EntityType="BillingModel.TeleProduct" />
+          <AssociationSet Name="FK_TeleNumberSeries_TeleAgreements" Association="BillingModel.FK_TeleNumberSeries_TeleAgreements">
+            <End Role="TeleAgreement" EntitySet="TeleAgreements" />
+            <End Role="TeleNumberSeries" EntitySet="TeleNumberSeries" />
+          </AssociationSet>
+          <AssociationSet Name="FK_TeleProducts_BelongsTo_TeleNumberSeries" Association="BillingModel.FK_TeleProducts_BelongsTo_TeleNumberSeries">
+            <End Role="TeleNumberSeries" EntitySet="TeleNumberSeries" />
+            <End Role="TeleProduct" EntitySet="TeleProducts" />
+          </AssociationSet>
+          <EntitySet Name="TeleBillingImport" EntityType="BillingModel.TeleBillingImport" />
+          </EntityContainer>
+        <Association Name="FK_BelongsTo_BillingSubscription">
+          <End Type="BillingModel.Subscription" Role="Subscription" Multiplicity="1" />
+          <End Type="BillingModel.Product" Role="Product" Multiplicity="*" />
+          <ReferentialConstraint>
+            <Principal Role="Subscription">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="Product">
+              <PropertyRef Name="BillingSubscriptionId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TeleAgreement">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="NavCustomerId" Type="String" Nullable="false" MaxLength="20" FixedLength="false" Unicode="true" />
+          <Property Name="NavCustomerName" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Deleted" Type="DateTime" Precision="7" />
+          <NavigationProperty Name="Numbers" Relationship="BillingModel.FK_TeleNumberSeries_TeleAgreements" FromRole="TeleAgreement" ToRole="TeleNumberSeries" />
+        </EntityType>
+        <EntityType Name="TeleNumberSeries">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TeleAgreementId" Type="Int64" Nullable="false" />
+          <Property Name="Numbers" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Description" Type="String" MaxLength="255" FixedLength="false" Unicode="true" />
+          <NavigationProperty Name="Products" Relationship="BillingModel.FK_TeleProducts_BelongsTo_TeleNumberSeries" FromRole="TeleNumberSeries" ToRole="TeleProduct" />
+        </EntityType>
+        <EntityType Name="Audit">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="ObjectType" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="ObjectId" Type="Int64" Nullable="false" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="Max" FixedLength="false" Unicode="false" />
+          <Property Name="Created" Type="DateTime" Nullable="false" Precision="7" />
+        </EntityType>
+        <EntityType Name="TeleProduct">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="TeleNumberSeriesId" Type="Int64" Nullable="false" />
+          <Property Name="NavProductNumber" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="NavProductPrice" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="Description" Type="String" Nullable="false" MaxLength="255" FixedLength="false" Unicode="true" />
+          <Property Name="Prefix" Type="String" Nullable="false" MaxLength="25" FixedLength="false" Unicode="true" />
+          <Property Name="UnitType" Type="String" Nullable="false" MaxLength="100" FixedLength="false" Unicode="true" />
+          <Property Name="UnitPrice" Type="Decimal" Nullable="false" Precision="18" Scale="2" />
+          <Property Name="DestinationType" Type="Int16" Nullable="false" />
+          <Property Name="ProductType" Type="Int16" Nullable="false" />
+        </EntityType>
+        <Association Name="FK_TeleNumberSeries_TeleAgreements">
+          <End Type="BillingModel.TeleAgreement" Role="TeleAgreement" Multiplicity="1" />
+          <End Type="BillingModel.TeleNumberSeries" Role="TeleNumberSeries" Multiplicity="*" >
+          </End>
+          <ReferentialConstraint>
+            <Principal Role="TeleAgreement">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeleNumberSeries">
+              <PropertyRef Name="TeleAgreementId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <Association Name="FK_TeleProducts_BelongsTo_TeleNumberSeries">
+          <End Type="BillingModel.TeleNumberSeries" Role="TeleNumberSeries" Multiplicity="1" />
+          <End Type="BillingModel.TeleProduct" Role="TeleProduct" Multiplicity="*" >
+          </End>
+          <ReferentialConstraint>
+            <Principal Role="TeleNumberSeries">
+              <PropertyRef Name="Id" />
+            </Principal>
+            <Dependent Role="TeleProduct">
+              <PropertyRef Name="TeleNumberSeriesId" />
+            </Dependent>
+          </ReferentialConstraint>
+        </Association>
+        <EntityType Name="TeleBillingImport">
+          <Key>
+            <PropertyRef Name="Id" />
+          </Key>
+          <Property Name="Id" Type="Int64" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+          <Property Name="Number" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="Destination" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="true" />
+          <Property Name="DestinationType" Type="Int32" Nullable="false" />
+          <Property Name="NumberOfCalls" Type="Int64" Nullable="false" />
+          <Property Name="DurationOfCalls" Type="Int64" Nullable="false" />
+          <Property Name="Imported" Type="DateTime" Nullable="false" Precision="7" />
+          <Property Name="SentToNAV" Type="DateTime" Precision="7" />
+          <Property Name="VendorId" Type="Int64" Nullable="false" />
+        </EntityType>
+        </Schema>
+    </edmx:ConceptualModels>
+    <!-- C-S mapping content -->
+    <edmx:Mappings>
+      <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+        <EntityContainerMapping StorageEntityContainer="BillingModelStoreContainer" CdmEntityContainer="BillingEntities">
+          <EntitySetMapping Name="Products">
+            <EntityTypeMapping TypeName="BillingModel.Product">
+              <MappingFragment StoreEntitySet="BillingProducts">
+                <ScalarProperty Name="NavPrice" ColumnName="NavPrice" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="BillingSubscriptionId" ColumnName="BillingSubscriptionId" />
+                <ScalarProperty Name="NavProductNumber" ColumnName="NavProductNumber" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+                <ScalarProperty Name="UnitAmount" ColumnName="UnitAmount" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Subscriptions">
+            <EntityTypeMapping TypeName="BillingModel.Subscription">
+              <MappingFragment StoreEntitySet="BillingSubscriptions">
+                <ScalarProperty Name="AdditionalText" ColumnName="AdditionalText" />
+                <ScalarProperty Name="PaymentTerms" ColumnName="PaymentTerms" />
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="NavCustomerId" ColumnName="NavCustomerId" />
+                <ScalarProperty Name="BillingCycle" ColumnName="BillingCycle" />
+                <ScalarProperty Name="FirstInvoice" ColumnName="FirstInvoice" />
+                <ScalarProperty Name="NextInvoice" ColumnName="NextInvoice" />
+                <ScalarProperty Name="NavCustomerName" ColumnName="NavCustomerName" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TeleAgreements">
+            <EntityTypeMapping TypeName="BillingModel.TeleAgreement">
+              <MappingFragment StoreEntitySet="TeleAgreements">
+                <ScalarProperty Name="Deleted" ColumnName="Deleted" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="NavCustomerName" ColumnName="NavCustomerName" />
+                <ScalarProperty Name="NavCustomerId" ColumnName="NavCustomerId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TeleNumberSeries">
+            <EntityTypeMapping TypeName="BillingModel.TeleNumberSeries">
+              <MappingFragment StoreEntitySet="TeleNumberSeries">
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="Numbers" ColumnName="Numbers" />
+                <ScalarProperty Name="TeleAgreementId" ColumnName="TeleAgreementId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="Audits">
+            <EntityTypeMapping TypeName="BillingModel.Audit">
+              <MappingFragment StoreEntitySet="Audits">
+                <ScalarProperty Name="Created" ColumnName="Created" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="ObjectId" ColumnName="ObjectId" />
+                <ScalarProperty Name="ObjectType" ColumnName="ObjectType" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TeleProducts">
+            <EntityTypeMapping TypeName="BillingModel.TeleProduct">
+              <MappingFragment StoreEntitySet="TeleProducts">
+                <ScalarProperty Name="ProductType" ColumnName="ProductType" />
+                <ScalarProperty Name="DestinationType" ColumnName="DestinationType" />
+                <ScalarProperty Name="UnitPrice" ColumnName="UnitPrice" />
+                <ScalarProperty Name="UnitType" ColumnName="UnitType" />
+                <ScalarProperty Name="Prefix" ColumnName="Prefix" />
+                <ScalarProperty Name="Description" ColumnName="Description" />
+                <ScalarProperty Name="NavProductPrice" ColumnName="NavProductPrice" />
+                <ScalarProperty Name="NavProductNumber" ColumnName="NavProductNumber" />
+                <ScalarProperty Name="TeleNumberSeriesId" ColumnName="TeleNumberSeriesId" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          <EntitySetMapping Name="TeleBillingImport">
+            <EntityTypeMapping TypeName="BillingModel.TeleBillingImport">
+              <MappingFragment StoreEntitySet="TeleBillingImport">
+                <ScalarProperty Name="VendorId" ColumnName="VendorId" />
+                <ScalarProperty Name="SentToNAV" ColumnName="SentToNAV" />
+                <ScalarProperty Name="Imported" ColumnName="Imported" />
+                <ScalarProperty Name="DurationOfCalls" ColumnName="DurationOfCalls" />
+                <ScalarProperty Name="NumberOfCalls" ColumnName="NumberOfCalls" />
+                <ScalarProperty Name="DestinationType" ColumnName="DestinationType" />
+                <ScalarProperty Name="Destination" ColumnName="Destination" />
+                <ScalarProperty Name="Number" ColumnName="Number" />
+                <ScalarProperty Name="Id" ColumnName="Id" />
+              </MappingFragment>
+            </EntityTypeMapping>
+          </EntitySetMapping>
+          </EntityContainerMapping>
+      </Mapping>
+    </edmx:Mappings>
+  </edmx:Runtime>
+  <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <Connection>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="MetadataArtifactProcessing" Value="EmbedInOutputAssembly" />
+      </DesignerInfoPropertySet>
+    </Connection>
+    <Options>
+      <DesignerInfoPropertySet>
+        <DesignerProperty Name="ValidateOnBuild" Value="true" />
+        <DesignerProperty Name="EnablePluralization" Value="false" />
+        <DesignerProperty Name="IncludeForeignKeysInModel" Value="true" />
+        <DesignerProperty Name="UseLegacyProvider" Value="false" />
+        <DesignerProperty Name="CodeGenerationStrategy" Value="None" />
+      </DesignerInfoPropertySet>
+    </Options>
+    <!-- Diagram content (shape and connector positions) -->
+    <Diagrams></Diagrams>
+  </Designer>
+</edmx:Edmx>

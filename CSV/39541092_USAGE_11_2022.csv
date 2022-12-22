@@ -1,0 +1,56 @@
+Customer,CustomerNo,Description,Quantity,Unit Price
+CTGlobal,39541092,Standard HDD Managed Disks - Standard HDD Managed ,1.00,277.25
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,25.40,3.37
+CTGlobal,39541092,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.00,0.00
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,Files - Files - LRS - new ,0.00,0.00
+CTGlobal,39541092,SQL Database - LTR Backup Storage - SQL Database - ,55.56,22.37
+CTGlobal,39541092,Tables - Tables - LRS - new ,207.22,63.11
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,SignalR - SignalR - new ,90.00,980.72
+CTGlobal,39541092,SQL Database Single Standard - SQL Database Single ,90.00,294.76
+CTGlobal,39541092,Azure App Service Shared Plan - Azure App Service ,720.00,63.35
+CTGlobal,39541092,Azure App Service Free Plan - Azure App Service ,10.00,0.00
+CTGlobal,39541092,Storage - Bandwidth - Storage - Bandwidth - ,0.00,0.00
+CTGlobal,39541092,Azure App Service Free Plan - Azure App Service ,20.97,0.00
+CTGlobal,39541092,Azure Monitor - Azure Monitor - Alerts - new ,10.00,0.00
+CTGlobal,39541092,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.50,0.00
+CTGlobal,39541092,Key Vault - Key Vault - Premium - new ,0.03,0.01
+CTGlobal,39541092,Tables - Tables - RA-GRS - new ,0.01,0.00
+CTGlobal,39541092,Azure App Service Standard Plan - Azure App ,2160.00,1461.94
+CTGlobal,39541092,Key Vault - Key Vault - Standard - new ,0.00,0.00
+CTGlobal,39541092,Rtn Preference: MGN - Rtn Preference: MGN - new ,100.00,0.00
+CTGlobal,39541092,Tables - Tables - GRS - new ,0.87,0.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,21.65,0.05
+CTGlobal,39541092,Tables - Tables - LRS - new ,2.63,0.01
+CTGlobal,39541092,Standard HDD Managed Disks - Standard HDD Managed ,1.00,39.85
+CTGlobal,39541092,Logic Apps - Logic Apps - Consumption - new ,42860.00,36.26
+CTGlobal,39541092,Microsoft Defender for SQL - Microsoft Defender ,0.97,98.25
+CTGlobal,39541092,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.00,0.00
+CTGlobal,39541092,SQL Database Single Standard - SQL Database Single ,60.00,982.75
+CTGlobal,39541092,Azure Monitor - Azure Monitor - Alerts - new ,7.40,5.01
+CTGlobal,39541092,Standard HDD Managed Disks - Standard HDD Managed ,1.00,10.40
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,Rtn Preference: MGN - Rtn Preference: MGN - new ,206.82,121.78
+CTGlobal,39541092,Storage - Bandwidth - Storage - Bandwidth - ,0.05,0.00
+CTGlobal,39541092,Logic Apps - Logic Apps - Consumption - new ,0.30,0.24
+CTGlobal,39541092,Files - Files - LRS - new ,5.00,2.03
+CTGlobal,39541092,Azure Monitor - Azure Monitor - Emails - new ,12.00,0.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.08,0.00
+CTGlobal,39541092,Log Analytics - Log Analytics - Pay-as-you-go - EU ,31.38,635.00
+CTGlobal,39541092,Process Automation - Process Automation - Basic - ,101.40,0.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.01,0.00
+CTGlobal,39541092,Traffic Manager - Traffic Manager - Azure Endpoint ,1.87,4.56
+CTGlobal,39541092,Azure Pipelines - Azure Pipelines - ,2.90,785.99
+CTGlobal,39541092,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+CTGlobal,39541092,Traffic Manager - Traffic Manager - Azure Endpoint ,0.07,0.25
+CTGlobal,39541092,Azure App Service Premium v2 Plan - Azure App ,1440.00,7797.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.03,0.00
+CTGlobal,39541092,SQL Database Single Standard - SQL Database Single ,30.00,982.48
+CTGlobal,39541092,SignalR - SignalR - new ,60.00,0.00
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.04,0.01
+CTGlobal,39541092,Traffic Manager - Traffic Manager - Traffic View - ,0.07,0.89
+CTGlobal,39541092,Logic Apps - Logic Apps - Consumption - new ,8.00,0.00
+CTGlobal,39541092,Azure Repos and Boards (Basic) - Azure Repos and ,1.71,69.43
+CTGlobal,39541092,Files - Files - GRS - new ,0.00,0.00

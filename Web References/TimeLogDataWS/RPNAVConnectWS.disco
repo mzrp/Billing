@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
-  <contractRef ref="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx?wsdl" docRef="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
-  <soap address="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" xmlns:q1="https://nav.gowingu.net:8091/" binding="q1:RPNAVConnectWSSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
-  <soap address="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" xmlns:q2="https://nav.gowingu.net:8091/" binding="q2:RPNAVConnectWSSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <contractRef ref="http://localhost:55069/RPNAVConnectWS.asmx?wsdl" docRef="http://localhost:55069/RPNAVConnectWS.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://localhost:55069/RPNAVConnectWS.asmx" xmlns:q1="https://nav.gowingu.net:8091/" binding="q1:RPNAVConnectWSSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://localhost:55069/RPNAVConnectWS.asmx" xmlns:q2="https://nav.gowingu.net:8091/" binding="q2:RPNAVConnectWSSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
 </discovery>

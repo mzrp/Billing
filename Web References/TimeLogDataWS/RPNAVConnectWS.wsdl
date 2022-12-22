@@ -1,7 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://nav.gowingu.net:8091/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://nav.gowingu.net:8091/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="https://nav.gowingu.net:8091/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="https://nav.gowingu.net:8091/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
   <wsdl:types>
     <s:schema elementFormDefault="qualified" targetNamespace="https://nav.gowingu.net:8091/">
+      <s:element name="GetCredentials">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetCredentialsResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetCredentialsResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTimeLogCustomersData">
+        <s:complexType />
+      </s:element>
+      <s:element name="GetTimeLogCustomersDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTimeLogCustomersDataResult" type="tns:strRPNAVConnectWS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="strRPNAVConnectWS">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="sResultDesc" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sResultCustomers" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sResultInvoices" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="sResultInvoiceLines" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetTimeLogAllInvoicesData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sInvoiceStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndYear" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTimeLogAllInvoicesDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTimeLogAllInvoicesDataResult" type="tns:strRPNAVConnectWS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTimeLogAllInvoicesNoProjectsData">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sInvoiceStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndYear" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTimeLogAllInvoicesNoProjectsDataResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTimeLogAllInvoicesNoProjectsDataResult" type="tns:strRPNAVConnectWS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
       <s:element name="GetTimeLogData">
         <s:complexType>
           <s:sequence>
@@ -21,32 +85,292 @@
           </s:sequence>
         </s:complexType>
       </s:element>
-      <s:complexType name="strRPNAVConnectWS">
-        <s:sequence>
-          <s:element minOccurs="0" maxOccurs="1" name="sResultDesc" type="s:string" />
-          <s:element minOccurs="0" maxOccurs="1" name="sResultCustomers" type="s:string" />
-          <s:element minOccurs="0" maxOccurs="1" name="sResultInvoices" type="s:string" />
-          <s:element minOccurs="0" maxOccurs="1" name="sResultInvoiceLines" type="s:string" />
-        </s:sequence>
-      </s:complexType>
+      <s:element name="GetTimeLogData_Old">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="sVATNos" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sInvoiceStatus" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sStartYear" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndMonth" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="sEndYear" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetTimeLogData_OldResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="1" maxOccurs="1" name="GetTimeLogData_OldResult" type="tns:strRPNAVConnectWS" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="strRPNAVConnectWS" type="tns:strRPNAVConnectWS" />
     </s:schema>
   </wsdl:types>
+  <wsdl:message name="GetCredentialsSoapIn">
+    <wsdl:part name="parameters" element="tns:GetCredentials" />
+  </wsdl:message>
+  <wsdl:message name="GetCredentialsSoapOut">
+    <wsdl:part name="parameters" element="tns:GetCredentialsResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogCustomersDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTimeLogCustomersData" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogCustomersDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTimeLogCustomersDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTimeLogAllInvoicesData" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTimeLogAllInvoicesDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesNoProjectsDataSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTimeLogAllInvoicesNoProjectsData" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesNoProjectsDataSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTimeLogAllInvoicesNoProjectsDataResponse" />
+  </wsdl:message>
   <wsdl:message name="GetTimeLogDataSoapIn">
     <wsdl:part name="parameters" element="tns:GetTimeLogData" />
   </wsdl:message>
   <wsdl:message name="GetTimeLogDataSoapOut">
     <wsdl:part name="parameters" element="tns:GetTimeLogDataResponse" />
   </wsdl:message>
+  <wsdl:message name="GetTimeLogData_OldSoapIn">
+    <wsdl:part name="parameters" element="tns:GetTimeLogData_Old" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogData_OldSoapOut">
+    <wsdl:part name="parameters" element="tns:GetTimeLogData_OldResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetCredentialsHttpGetIn" />
+  <wsdl:message name="GetCredentialsHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogCustomersDataHttpGetIn" />
+  <wsdl:message name="GetTimeLogCustomersDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesDataHttpGetIn">
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesNoProjectsDataHttpGetIn">
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesNoProjectsDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogDataHttpGetIn">
+    <wsdl:part name="sVATNos" type="s:string" />
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogDataHttpGetOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogData_OldHttpGetIn">
+    <wsdl:part name="sVATNos" type="s:string" />
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogData_OldHttpGetOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetCredentialsHttpPostIn" />
+  <wsdl:message name="GetCredentialsHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogCustomersDataHttpPostIn" />
+  <wsdl:message name="GetTimeLogCustomersDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesDataHttpPostIn">
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesNoProjectsDataHttpPostIn">
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogAllInvoicesNoProjectsDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogDataHttpPostIn">
+    <wsdl:part name="sVATNos" type="s:string" />
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogDataHttpPostOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogData_OldHttpPostIn">
+    <wsdl:part name="sVATNos" type="s:string" />
+    <wsdl:part name="sInvoiceStatus" type="s:string" />
+    <wsdl:part name="sStartMonth" type="s:string" />
+    <wsdl:part name="sStartYear" type="s:string" />
+    <wsdl:part name="sEndMonth" type="s:string" />
+    <wsdl:part name="sEndYear" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetTimeLogData_OldHttpPostOut">
+    <wsdl:part name="Body" element="tns:strRPNAVConnectWS" />
+  </wsdl:message>
   <wsdl:portType name="RPNAVConnectWSSoap">
+    <wsdl:operation name="GetCredentials">
+      <wsdl:input message="tns:GetCredentialsSoapIn" />
+      <wsdl:output message="tns:GetCredentialsSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <wsdl:input message="tns:GetTimeLogCustomersDataSoapIn" />
+      <wsdl:output message="tns:GetTimeLogCustomersDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <wsdl:input message="tns:GetTimeLogAllInvoicesDataSoapIn" />
+      <wsdl:output message="tns:GetTimeLogAllInvoicesDataSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <wsdl:input message="tns:GetTimeLogAllInvoicesNoProjectsDataSoapIn" />
+      <wsdl:output message="tns:GetTimeLogAllInvoicesNoProjectsDataSoapOut" />
+    </wsdl:operation>
     <wsdl:operation name="GetTimeLogData">
       <wsdl:input message="tns:GetTimeLogDataSoapIn" />
       <wsdl:output message="tns:GetTimeLogDataSoapOut" />
     </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <wsdl:input message="tns:GetTimeLogData_OldSoapIn" />
+      <wsdl:output message="tns:GetTimeLogData_OldSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RPNAVConnectWSHttpGet">
+    <wsdl:operation name="GetCredentials">
+      <wsdl:input message="tns:GetCredentialsHttpGetIn" />
+      <wsdl:output message="tns:GetCredentialsHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <wsdl:input message="tns:GetTimeLogCustomersDataHttpGetIn" />
+      <wsdl:output message="tns:GetTimeLogCustomersDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <wsdl:input message="tns:GetTimeLogAllInvoicesDataHttpGetIn" />
+      <wsdl:output message="tns:GetTimeLogAllInvoicesDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <wsdl:input message="tns:GetTimeLogAllInvoicesNoProjectsDataHttpGetIn" />
+      <wsdl:output message="tns:GetTimeLogAllInvoicesNoProjectsDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData">
+      <wsdl:input message="tns:GetTimeLogDataHttpGetIn" />
+      <wsdl:output message="tns:GetTimeLogDataHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <wsdl:input message="tns:GetTimeLogData_OldHttpGetIn" />
+      <wsdl:output message="tns:GetTimeLogData_OldHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="RPNAVConnectWSHttpPost">
+    <wsdl:operation name="GetCredentials">
+      <wsdl:input message="tns:GetCredentialsHttpPostIn" />
+      <wsdl:output message="tns:GetCredentialsHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <wsdl:input message="tns:GetTimeLogCustomersDataHttpPostIn" />
+      <wsdl:output message="tns:GetTimeLogCustomersDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <wsdl:input message="tns:GetTimeLogAllInvoicesDataHttpPostIn" />
+      <wsdl:output message="tns:GetTimeLogAllInvoicesDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <wsdl:input message="tns:GetTimeLogAllInvoicesNoProjectsDataHttpPostIn" />
+      <wsdl:output message="tns:GetTimeLogAllInvoicesNoProjectsDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData">
+      <wsdl:input message="tns:GetTimeLogDataHttpPostIn" />
+      <wsdl:output message="tns:GetTimeLogDataHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <wsdl:input message="tns:GetTimeLogData_OldHttpPostIn" />
+      <wsdl:output message="tns:GetTimeLogData_OldHttpPostOut" />
+    </wsdl:operation>
   </wsdl:portType>
   <wsdl:binding name="RPNAVConnectWSSoap" type="tns:RPNAVConnectWSSoap">
     <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCredentials">
+      <soap:operation soapAction="https://nav.gowingu.net:8091/GetCredentials" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <soap:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogCustomersData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <soap:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogAllInvoicesData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <soap:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogAllInvoicesNoProjectsData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetTimeLogData">
       <soap:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogData" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <soap:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogData_Old" style="document" />
       <wsdl:input>
         <soap:body use="literal" />
       </wsdl:input>
@@ -57,6 +381,42 @@
   </wsdl:binding>
   <wsdl:binding name="RPNAVConnectWSSoap12" type="tns:RPNAVConnectWSSoap">
     <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetCredentials">
+      <soap12:operation soapAction="https://nav.gowingu.net:8091/GetCredentials" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <soap12:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogCustomersData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <soap12:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogAllInvoicesData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <soap12:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogAllInvoicesNoProjectsData" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
     <wsdl:operation name="GetTimeLogData">
       <soap12:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogData" style="document" />
       <wsdl:input>
@@ -66,13 +426,142 @@
         <soap12:body use="literal" />
       </wsdl:output>
     </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <soap12:operation soapAction="https://nav.gowingu.net:8091/GetTimeLogData_Old" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RPNAVConnectWSHttpGet" type="tns:RPNAVConnectWSHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="GetCredentials">
+      <http:operation location="/GetCredentials" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <http:operation location="/GetTimeLogCustomersData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <http:operation location="/GetTimeLogAllInvoicesData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <http:operation location="/GetTimeLogAllInvoicesNoProjectsData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData">
+      <http:operation location="/GetTimeLogData" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <http:operation location="/GetTimeLogData_Old" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="RPNAVConnectWSHttpPost" type="tns:RPNAVConnectWSHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="GetCredentials">
+      <http:operation location="/GetCredentials" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogCustomersData">
+      <http:operation location="/GetTimeLogCustomersData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesData">
+      <http:operation location="/GetTimeLogAllInvoicesData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogAllInvoicesNoProjectsData">
+      <http:operation location="/GetTimeLogAllInvoicesNoProjectsData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData">
+      <http:operation location="/GetTimeLogData" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetTimeLogData_Old">
+      <http:operation location="/GetTimeLogData_Old" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
   </wsdl:binding>
   <wsdl:service name="RPNAVConnectWS">
     <wsdl:port name="RPNAVConnectWSSoap" binding="tns:RPNAVConnectWSSoap">
-      <soap:address location="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" />
+      <soap:address location="http://localhost:55069/RPNAVConnectWS.asmx" />
     </wsdl:port>
     <wsdl:port name="RPNAVConnectWSSoap12" binding="tns:RPNAVConnectWSSoap12">
-      <soap12:address location="https://nav.gowingu.net:8091/RPNAVConnectWS.asmx" />
+      <soap12:address location="http://localhost:55069/RPNAVConnectWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RPNAVConnectWSHttpGet" binding="tns:RPNAVConnectWSHttpGet">
+      <http:address location="http://localhost:55069/RPNAVConnectWS.asmx" />
+    </wsdl:port>
+    <wsdl:port name="RPNAVConnectWSHttpPost" binding="tns:RPNAVConnectWSHttpPost">
+      <http:address location="http://localhost:55069/RPNAVConnectWS.asmx" />
     </wsdl:port>
   </wsdl:service>
 </wsdl:definitions>

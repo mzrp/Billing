@@ -1,0 +1,58 @@
+Customer,CustomerNo,Description,Quantity,Unit Price
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.04,0.01
+CTGlobal,39541092,Rtn Preference: MGN - Rtn Preference: MGN - new ,193.05,117.95
+CTGlobal,39541092,Standard HDD Managed Disks - Standard HDD Managed ,1.00,287.64
+CTGlobal,39541092,SQL Database Single Standard - SQL Database Single ,37.63,639.45
+CTGlobal,39541092,Key Vault - Key Vault - Premium - new ,0.02,0.00
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,Azure App Service Premium v2 Plan - Azure App ,1488.00,8360.04
+CTGlobal,39541092,Microsoft Defender for SQL - Microsoft Defender ,1.00,105.34
+CTGlobal,39541092,Logic Apps - Logic Apps - Consumption - new ,19.00,0.00
+CTGlobal,39541092,Tables - Tables - LRS - new ,2.72,0.01
+CTGlobal,39541092,Traffic Manager - Traffic Manager - Traffic View - ,0.07,0.91
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.02,0.00
+CTGlobal,39541092,Standard Page Blob - Standard Page Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,SignalR - SignalR - new ,93.00,1051.54
+CTGlobal,39541092,Storage - Bandwidth - Storage - Bandwidth - ,0.05,0.00
+CTGlobal,39541092,Tables - Tables - GRS - new ,0.90,0.00
+CTGlobal,39541092,Logic Apps - Logic Apps - Consumption - new ,44338.00,38.92
+CTGlobal,39541092,Key Vault - Key Vault - Standard - new ,0.00,0.00
+CTGlobal,39541092,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.52,0.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.07,0.00
+CTGlobal,39541092,Files - Files - GRS - new ,0.00,0.00
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,Queues - Queues - LRS - new ,0.00,0.00
+CTGlobal,39541092,Log Analytics - Log Analytics - Pay-as-you-go - EU ,34.95,733.79
+CTGlobal,39541092,Standard HDD Managed Disks - Standard HDD Managed ,1.00,10.79
+CTGlobal,39541092,Azure Monitor - Azure Monitor - Alerts - new ,10.00,0.00
+CTGlobal,39541092,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+CTGlobal,39541092,Azure Repos and Boards (Basic) - Azure Repos and ,2.00,84.27
+CTGlobal,39541092,Azure App Service Free Plan - Azure App Service ,22.00,0.00
+CTGlobal,39541092,Azure Pipelines - Azure Pipelines - ,3.00,842.75
+CTGlobal,39541092,Traffic Manager - Traffic Manager - Azure Endpoint ,2.00,5.06
+CTGlobal,39541092,SQL Database - LTR Backup Storage - SQL Database - ,52.15,21.79
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,39541092,Files - Files - LRS - new ,0.00,0.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,25.41,3.50
+CTGlobal,39541092,Standard HDD Managed Disks - Standard HDD Managed ,1.00,41.35
+CTGlobal,39541092,SQL Database Single Standard - SQL Database Single ,93.92,319.16
+CTGlobal,39541092,Azure App Service Shared Plan - Azure App Service ,744.00,67.93
+CTGlobal,39541092,SignalR - SignalR - new ,62.00,0.00
+CTGlobal,39541092,Process Automation - Process Automation - Basic - ,90.68,0.00
+CTGlobal,39541092,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.00,0.00
+CTGlobal,39541092,Files - Files - LRS - new ,5.00,2.11
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+CTGlobal,39541092,Rtn Preference: MGN - Rtn Preference: MGN - new ,100.00,0.00
+CTGlobal,39541092,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.00,0.00
+CTGlobal,39541092,Azure Monitor - Azure Monitor - Alerts - new ,8.22,5.77
+CTGlobal,39541092,Storage - Bandwidth - Storage - Bandwidth - ,0.00,0.00
+CTGlobal,39541092,Logic Apps - Logic Apps - Consumption - new ,0.30,0.25
+CTGlobal,39541092,Tables - Tables - LRS - new ,207.23,65.49
+CTGlobal,39541092,SQL Database Single Standard - SQL Database Single ,31.00,1053.43
+CTGlobal,39541092,General Block Blob - General Block Blob - LRS - ,22.39,0.06
+CTGlobal,39541092,Azure App Service Free Plan - Azure App Service ,10.00,0.00
+CTGlobal,39541092,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+CTGlobal,39541092,Azure App Service Standard Plan - Azure App ,2232.00,1567.51
+CTGlobal,39541092,Traffic Manager - Traffic Manager - Azure Endpoint ,0.07,0.27
+CTGlobal,39541092,Azure Monitor - Azure Monitor - Emails - new ,22.00,0.00
+CTGlobal,39541092,Tables - Tables - RA-GRS - new ,0.01,0.00

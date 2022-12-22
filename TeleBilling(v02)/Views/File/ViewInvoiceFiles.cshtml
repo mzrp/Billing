@@ -1,0 +1,188 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.CSVFile>
+
+@{
+    ViewBag.Title = "InvoiceFiles";
+
+    //string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=ZMILAN11\\SQLEXPRESS;Integrated Security=SSPI;";
+    string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=mssql01;Integrated Security=SSPI;";
+    System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
+    dbConn.Open();
+
+    bool GetItemCount(string sCSVFileId, string sYesNo)
+    {
+        bool bResult = false;
+
+        try
+        {
+            string strSqlQuery = "SELECT Top 1 [RPBilled] FROM [TeleBillingDB].[dbo].[InvoiceRecordsSet] WHERE [CSVFileId] = " + sCSVFileId + " AND [RPBilled] = '" + sYesNo + "'";
+
+            System.Data.OleDb.OleDbDataReader oleReader;
+            System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(strSqlQuery, dbConn);
+            oleReader = cmd.ExecuteReader();
+            if (oleReader.Read())
+            {
+                if (!oleReader.IsDBNull(0))
+                {
+                    bResult = true;
+                }
+            }
+            oleReader.Close();
+        }
+        catch (Exception ex)
+        {
+            bResult = false;
+        }
+
+        return bResult;
+    }
+
+}
+
+@*<h4>
+        View All  @ViewBag.fileType
+    </h4>
+
+    <table class="table-condensed">
+        <tr>
+            @if (ViewBag.fileType == "InvoiceRecords")
+            {
+                ViewBag.fileType="";
+                <th>
+                    <a href="@Url.Action("UploadCsvFile", "File", new { @ViewBag.fileType } )" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Upload Invoice File</a>
+                </th>
+            }
+            else if (ViewBag.ZoneRecord == "ZoneRecords")
+            {
+                ViewBag.fileType = "";
+                <th>
+                    <a href="@Url.Action("UploadCsvFile", "File", new { ViewBag.fileType } )" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Upload Zone File</a>
+                </th>
+            }
+        </tr>
+        <tr></tr>
+
+    </table>*@
+
+
+@*@if (Model != null)
+    {*@
+<table class="table">
+    <tr>
+        <th>
+            <a href="@Url.Action("UploadCsvFile", "File", new { fileType = "InvoiceFile" })" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Upload Invoice File</a>
+        </th>
+    </tr>
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Date)
+        </th>
+        <th>
+            @Html.DisplayName("User")
+        </th>
+        <th>
+            @Html.DisplayName("Supplier")
+        </th>
+        <th>
+            @Html.DisplayName("Type")
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        bool bItemRPBilledNo = false;
+        bool bItemRPBilledYes = false;
+
+        bItemRPBilledNo = GetItemCount(item.Id.ToString(), "No");
+        bItemRPBilledYes = GetItemCount(item.Id.ToString(), "Yes");
+
+        /*
+        var vItemRPBilledYes = item.InvoiceRecords.FirstOrDefault(x => x.RPBilled == "Yes");
+        var vItemRPBilledNo = item.InvoiceRecords.FirstOrDefault(x => x.RPBilled == "No");
+
+        if (vItemRPBilledYes != null)
+        {
+            bItemRPBilledYes = true;
+        }
+
+        if (vItemRPBilledNo != null)
+        {
+            bItemRPBilledNo = true;
+        }
+        */
+
+        //var vItemRPBilledNo = item.InvoiceRecords.Where(x => x.RPBilled == "No").ToList();
+        //var vItemRPBilledYes = item.InvoiceRecords.Where(x => x.RPBilled == "Yes").ToList();
+
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Date)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.User.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Supplier.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Type.Name)
+            </td>
+            <td>
+
+                @if (bItemRPBilledNo == true)
+                {
+                    <a href="@Url.Action("BillCsvFile", "File", new { fileId = item.Id })" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-export "></i> Fakturere</a>
+                }
+
+                @if (bItemRPBilledNo == true)
+                {
+                    <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFile" })" class="btn btn-warning btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                }
+
+                @if (bItemRPBilledYes == true)
+                {
+                    <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFileAlreadyDone" })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                }
+
+                @if (bItemRPBilledNo == true)
+                {
+                    <a href="@Url.Action("DeleteCsvFile", "File", new { fileId = item.Id, fileType = "InvoiceFile" })" class="btn btn-danger btn-sm">Delete <i class="glyphicon glyphicon-trash"></i></a>
+                }
+
+                @*@Html.ActionLink("Fakturere", "BillCsvFile", new { fileId = item.Id })
+                    @Html.ActionLink("Details", "ViewFilesDetails", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = ViewBag.fileType }) |
+                    @Html.ActionLink("Delete", "DeleteCsvFile", new { fileId = item.Id, fileType = ViewBag.fileType })*@
+            </td>
+        </tr>
+    }
+
+</table>
+
+@*}
+    else
+    {
+        <h4>No file found in DB!!!</h4>
+    }*@
+
+@{
+    dbConn.Close();
+}
+
+
+    @if (ViewBag.Message != null)
+    {
+
+        <script type="text/javascript">
+        window.onload = function () {
+            alert("@ViewBag.Message");
+        };
+        </script>
+    }
+
+

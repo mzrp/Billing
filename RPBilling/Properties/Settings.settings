@@ -1,0 +1,15 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="RackPeople.BillingAPI.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BillingAPI_NAVCustomerInfoRef_CustomerInfo2_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nav.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/Page/CustomerInfo2?tenant=rackpeople</Value>
+    </Setting>
+    <Setting Name="BillingAPI_NAVProductService_Vareoversigt_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nav.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/Page/Vareoversigt?tenant=rackpeople</Value>
+    </Setting>
+    <Setting Name="RackPeople_BillingAPI_NAVSalesInvoiceService_SalesInvoice_Service_Service" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">https://nav.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/Page/SalesInvoice_Service?tenant=rackpeople</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

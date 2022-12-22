@@ -1,0 +1,17 @@
+<%@ page language="C#" %>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>RP Billing</title>
+
+    <script runat="server">
+    </script>
+  </head>
+  <body>
+    <div id="root">
+    </div>
+    <asp:TextBox ID="TextBox1" Runat="server"/>
+  </body>
+</html>

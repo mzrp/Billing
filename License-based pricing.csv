@@ -1,0 +1,831 @@
+﻿A/C/D/U,Valid-From Date,Valid To Date,Offer Display Name,Offer ID,License Agreement Type,Purchase Unit,Secondary License Type,End Customer Type,List Price,ERP Price,Material
+ADD,20200401,99991231,Dynamics 365 Business Central Database Capacity,808e03a8-e655-4471-8384-a2d021f1ea0c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,176.2,251.7,1OZ-00002
+ADD,20200401,99991231,Dynamics 365 Business Central Database Capacity (Nonprofit Staff Pricing),7c19c0d2-6c3b-472e-9d40-6ddbe5636c2b,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,90.6,100.7,1OZ-00003
+ADD,20200401,99991231,Dynamics 365 Business Central Database Capacity for Faculty,2567ee5c-23ab-4488-9e7b-08b54521a6f4,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,96.9,138.5,1P1-00002
+ADD,20200401,99991231,Dynamics 365 Business Central Database Capacity for Students,91f39f68-ccc4-4c88-8cde-c4cfb54899b0,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,70.5,100.7,1P1-00003
+ADD,20200401,99991231,Dynamics 365 Call Intelligence AddOn for Faculty,9d9aa164-1ac8-4d6c-9f1e-cb6173673f95,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,9912.1,13216.1,RNT-00003
+ADD,20200401,99991231,IoT Intelligence Additional Machines,c3135f36-2fc3-4548-8c78-85efde24d69e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1101.3,1573.4,UTY-00002
+ADD,20200401,99991231,IoT Intelligence Additional Machines (36 mo),a2601608-8ac1-40a4-b803-8354594265a1,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1101.3,1573.4,UTY-00003
+ADD,20200401,99991231,IoT Intelligence Additional Machines for Faculty,9097d4af-cbd2-4e04-a8f7-c99dc2967a90,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,605.7,865.3,UTZ-00002
+ADD,20200401,99991231,IoT Intelligence Additional Machines for Students,8bfbe09a-5257-4996-a42d-e5bd3877acf2,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,440.5,629.3,UTZ-00003
+ADD,20200401,99991231,IoT Intelligence Scenario,72f7ac4e-8c8e-4d9a-8e16-d04156cd8c97,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,6608.1,9440.1,UTW-00002
+ADD,20200401,99991231,IoT Intelligence Scenario (36 mo),d5a39592-5546-4627-b4f0-75301f70f4a4,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,6608.1,9440.1,UTW-00003
+ADD,20200401,99991231,IoT Intelligence Scenario for Faculty,f420fd9d-5bca-4b4f-bb1c-85d6766552ae,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,3634.4,5192.1,UTX-00002
+ADD,20200401,99991231,IoT Intelligence Scenario for Students,3626a879-c1b2-451d-8c14-12470812bbfe,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,2643.2,3776,UTX-00003
+ADD,20200401,99991231,Microsoft 365 A5 eDiscovery and Audit for faculty,5d7c0030-c2e9-4a8c-bed3-5a6dbf1e4449,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,8.56,10.7,1CH-00006
+ADD,20200401,99991231,Microsoft 365 A5 eDiscovery and Audit for students,6c6e2e9c-2156-4f7c-9c78-f94393b750fe,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,7.05,8.81,1CH-00007
+ADD,20200401,99991231,Microsoft 365 A5 Information Protection and Governance for faculty,0514821c-f7d8-41fc-8c94-59e59d3d6034,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,10.07,12.59,1CD-00006
+ADD,20200401,99991231,Microsoft 365 A5 Information Protection and Governance for students,a91941ff-79a2-4476-a064-c5a6922e0bbd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,8.06,10.07,1CD-00007
+ADD,20200401,99991231,Microsoft 365 A5 Insider Risk Management for faculty,2ed867d7-fd08-474f-8353-502b500d1c9b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,8.56,10.7,1CG-00006
+ADD,20200401,99991231,Microsoft 365 A5 Insider Risk Management for students,2ba72571-c0f0-4373-b999-d08cc1bb5edd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,7.05,8.81,1CG-00007
+ADD,20200401,99991231,Microsoft 365 Business Voice (without calling plan),cc69a07c-8c51-457f-bb2a-f21a62d6bede,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,60.42,75.52,PZY-00009
+ADD,20200401,99991231,Microsoft 365 E5 eDiscovery and Audit,b8c46a9e-5585-4c81-bfd8-5e7480b27680,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,30.21,37.76,1CC-00005
+ADD,20200401,99991231,Microsoft 365 E5 eDiscovery and Audit (Nonprofit Staff Pricing),cc4c4da8-f293-40de-a119-a7e07ddbc1b3,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,13.59,13.59,1CC-00006
+ADD,20200401,99991231,Microsoft 365 E5 Information Protection and Governance,98b687f9-7590-48e9-835a-596d9b666cfb,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,35.24,44.05,1C9-00006
+ADD,20200401,99991231,Microsoft 365 E5 Information Protection and Governance (Nonprofit Staff Pricing),ca5708b6-97ba-40a0-b8db-4078634da622,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,15.86,15.86,1C9-00007
+ADD,20200401,99991231,Microsoft 365 E5 Insider Risk Management,853e72bc-69f0-4e06-a7a8-22e477c41bf6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,30.21,37.76,1CB-00005
+ADD,20200401,99991231,Microsoft 365 E5 Insider Risk Management (Nonprofit Staff Pricing),2666bd6a-3969-47c0-a784-62b1b3d3a2c1,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,13.59,13.59,1CB-00006
+ADD,20200401,99991231,Microsoft 365 F1,1ce4a4ba-65f7-49e7-bb28-d92d07d58b86,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,20.14,25.17,1PI-00005
+ADD,20200401,99991231,Microsoft 365 F1 Trial,dd97e36a-f0df-4a9a-b461-625420656511,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,1PI-00006
+ADD,20200401,99991231,Power Automate per user with attended RPA plan,a6d4244b-a98b-4640-b691-a32b4d81b6a1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,188.8,251.7,1O4-00004
+ADD,20200401,99991231,Power Automate unattended RPA add-on,d536d35a-dd81-4e5a-8f58-9bdd2d22a16b,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,708,944,1O8-00004
+CHG,20200401,99991231,Microsoft 365 A5 Compliance for faculty,9f8f1756-f56f-421e-901a-e80e857cadb8,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,14.1,17.62,AAD-50159
+CHG,20200401,99991231,Microsoft 365 A5 Compliance for students,f0f9f37a-539f-4f44-aef6-e37070149499,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,11.58,14.47,AAD-50160
+CHG,20200401,99991231,Microsoft 365 E5 Compliance,320c24f4-6bf4-47cf-98e0-4f235ce09d15,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,50.35,62.93,AAD-41524
+CHG,20200401,99991231,Microsoft 365 E5 Compliance (Nonprofit Staff Pricing),216d8606-b45f-41cf-b02a-ed270b7f246b,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,22.66,25.17,AAD-41523
+DEL,20200401,99991231,Microsoft Power Apps Plan 1 (Qualified Offer),2389eb32-a60d-474a-936c-5feb8ab06aad,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,35.2,44.1,AAA-33898
+DEL,20200401,99991231,Microsoft Power Apps Plan 1 (Qualified Offer) (Nonprofit Staff Pricing),49683d3a-c60d-4fae-aa32-50222ca5dde2,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,15.9,17.6,AAD-39975
+DEL,20200401,99991231,Microsoft Power Apps Plan 1 (Qualified Offer) for Faculty,29292213-53d6-4def-9b72-86f6326a48a6,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,19.4,24.2,AAA-34571
+DEL,20200401,99991231,Microsoft Power Apps Plan 1 (Qualified Offer) for Students,fb0aa8c3-0111-4555-b463-2614c834b5c8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,14.1,17.6,AAA-34572
+DEL,20200401,99991231,Microsoft Power Apps Plan 2 (Qualified Offer),525a468b-18eb-4d4b-b556-02e2699de020,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,201.4,251.7,AAA-33903
+DEL,20200401,99991231,Microsoft Power Apps Plan 2 (Qualified Offer) (Nonprofit Staff Pricing),26366bbe-de86-4d44-aa1d-a421be57e09c,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,90.6,100.7,AAD-39977
+DEL,20200401,99991231,Microsoft Power Apps Plan 2 (Qualified Offer) for Faculty,f0157581-ad19-46d2-9981-bd5a0e9b40fd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,110.8,138.5,AAA-34583
+DEL,20200401,99991231,Microsoft Power Apps Plan 2 (Qualified Offer) for Students,0df87001-8d06-4feb-b105-932300016d05,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,80.6,100.7,AAA-34584
+DEL,20200401,99991231,Microsoft Power Automate Plan 1 (Qualified Offer),3dd9350b-27d6-4501-93a4-c8d107f1de47,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25.2,31.5,AAA-33901
+DEL,20200401,99991231,Microsoft Power Automate Plan 1 (Qualified Offer) (Nonprofit Staff Pricing),12d27489-c09f-421d-9b92-5920d874cd6c,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,11.3,12.6,DNU-00003
+DEL,20200401,99991231,Microsoft Power Automate Plan 1 (Qualified Offer) for Faculty,2369e688-7e9d-4e19-bbac-11186e15bcbf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,13.8,17.3,AAA-33915
+DEL,20200401,99991231,Microsoft Power Automate Plan 1 (Qualified Offer) for Students,ae02e3b5-2a44-4fab-9911-d83963417286,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,10.1,12.6,AAA-33916
+DEL,20200401,99991231,Microsoft Power Automate Plan 2 (Qualified Offer),39a72396-9c43-46e2-8bb9-efef342c8f76,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,75.5,94.4,AAA-33910
+DEL,20200401,99991231,Microsoft Power Automate Plan 2 (Qualified Offer) (Nonprofit Staff Pricing),c48fc10b-6b12-4ff5-bd8b-f9272f59fa4d,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,34,37.8,DNW-00002
+DEL,20200401,99991231,Microsoft Power Automate Plan 2 (Qualified Offer) for Faculty,c3cccd3e-4c79-4c23-a541-52e048dd24f0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,41.5,51.9,AAA-34579
+DEL,20200401,99991231,Microsoft Power Automate Plan 2 (Qualified Offer) for Students,61d37e6f-e2d2-480c-94a3-a8635472d6fd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,30.2,37.8,AAA-34580
+UNC,20200401,99991231,Advanced eDiscovery Storage,1c410588-da3b-4f88-b38f-707eb9de46c0,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,503.47,629.34,AAA-99919
+UNC,20200401,99991231,Advanced eDiscovery Storage for faculty,9e63cfd2-61f9-4c41-964a-2a47bcc39a0d,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,100.69,125.87,AAA-99921
+UNC,20200401,99991231,AI Builder Capacity add-on,7779a4ba-bd21-457c-8b3f-b3baa74fc99c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,2360,3146.7,SDQ-00002
+UNC,20200401,99991231,AI Builder Capacity add-on (Nonprofit Staff Pricing),f18a0553-97a3-4456-9e27-cbf174fd8783,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,1982.4,2202.7,SDQ-00003
+UNC,20200401,99991231,AI Builder Capacity add-on for Faculty,632ed93a-9a93-4b43-9e63-f43497d7ad57,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,1652,2202.7,SDR-00002
+UNC,20200401,99991231,Azure Active Directory Basic for Faculty,7da6cd50-24d3-477f-8848-3fad610535f9,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,0,0,AAA-21016
+UNC,20200401,99991231,Azure Active Directory Basic for Students,afb11d0e-f236-4915-a38a-53153e27c9ff,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-21017
+UNC,20200401,99991231,Azure Active Directory Premium P1,16c9f982-a827-4003-a88e-e75df1927f27,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,30.21,37.76,AAA-11444
+UNC,20200401,99991231,Azure Active Directory Premium P1 (Nonprofit Staff Pricing),4dcde53b-1462-48e9-a7cb-77dc81ad734f,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,8.5,9.4,AAD-26748
+UNC,20200401,99991231,Azure Active Directory Premium P1 for Faculty,3e3e9ccc-cdd4-4c7d-8644-336431f50e2b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,3,3.8,AAA-21014
+UNC,20200401,99991231,Azure Active Directory Premium P1 for Students,2084c385-65b3-4fac-867b-e9a2e1dde635,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,1.51,1.89,AAA-21015
+UNC,20200401,99991231,Azure Active Directory Premium P1 for Students use benefit,4e61b7b8-9e0b-407c-a022-fb268080a11c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAD-22167
+UNC,20200401,99991231,Azure Active Directory Premium P2,e59159fc-6f67-4599-b3cb-17ff4020f643,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,45.3,56.6,AAA-22368
+UNC,20200401,99991231,Azure Active Directory Premium P2 (Nonprofit Staff Pricing),4beb16b5-63ef-4782-98c5-a6ff73c7272f,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,12.7,14.2,AAD-26750
+UNC,20200401,99991231,Azure Active Directory Premium P2 for Faculty,da22b4b5-e211-4e95-905d-fc24ff5a90a9,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,4.5,5.7,AAA-22369
+UNC,20200401,99991231,Azure Active Directory Premium P2 for Students,190adaa1-f3fc-40d3-94f3-1474ef1629d0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,2.3,2.8,AAA-22370
+UNC,20200401,99991231,Azure Active Directory Premium P2 for Students use benefit,5c923d96-3c69-46ed-84b2-caaa4be1e3f0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAD-22168
+UNC,20200401,99991231,Azure Advanced Threat Protection for Users,a19a625a-6780-4f8f-9a86-85979b7f82d0,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,27.7,34.6,AAD-10001
+UNC,20200401,99991231,Azure Advanced Threat Protection for Users (Nonprofit Staff Pricing),a015a328-45eb-481f-b83e-70d8fa6a984f,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,7.8,8.7,AAD-26753
+UNC,20200401,99991231,Azure Advanced Threat Protection for Users for Faculty,9250dc5f-a50b-4887-bb9a-57a9efead4f8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,5.5,6.9,AAD-10004
+UNC,20200401,99991231,Azure Advanced Threat Protection for Users for Students,a81d31c7-197f-482e-bb0d-87c30bacc123,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,5.5,6.9,AAD-10003
+UNC,20200401,99991231,Azure Information Protection Premium P1,648bf77b-1f0a-4911-8066-caf37d67dc72,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,10.07,12.59,AAA-06234
+UNC,20200401,99991231,Azure Information Protection Premium P1 (Nonprofit Staff Pricing),455413c3-9f18-438f-a359-a4e3c0dd9da2,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,2.8,3.1,AAD-26755
+UNC,20200401,99991231,Azure Information Protection Premium P1 for Faculty,dbf3d646-ff57-461f-910c-f2a922820475,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,2,2.5,AAA-21018
+UNC,20200401,99991231,Azure Information Protection Premium P1 for Students,d4a16afd-1d3f-4761-82cb-408a6dbc0f1f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,1.51,1.89,AAA-21019
+DEL,20200401,99991231,Azure Information Protection Premium P2,0962a210-418f-4d36-ba9c-4f01c673f57c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25.2,31.5,AAA-30406
+DEL,20200401,99991231,Azure Information Protection Premium P2 (Nonprofit Staff Pricing),03c4a7a5-d45d-4a7e-8225-f32c87ab916f,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,7.1,7.9,AAD-26757
+DEL,20200401,99991231,Azure Information Protection Premium P2 for Faculty,d10fa413-a055-4196-b18f-a014908c7208,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,5,6.3,AAA-30407
+DEL,20200401,99991231,Azure Information Protection Premium P2 for Students,edf471ca-1ff8-4378-a057-276ef3b430ba,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,5,6.3,AAA-30408
+UNC,20200401,99991231,Business Apps (free),05933b83-04d1-4ac6-bfcd-dbbbfc834483,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,0,0,AAA-99886
+UNC,20200401,99991231,Chat session for Virtual Agent,ea1bd0f8-d05a-4e61-8b0e-aebf37af4cb5,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2124,2832,RYZ-00003
+UNC,20200401,99991231,Chat session for Virtual Agent (Nonprofit Staff Pricing),98fefc3f-8815-479a-9d0b-f6a95f20cff2,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1784.2,1982.4,RYZ-00002
+UNC,20200401,99991231,Chat session for Virtual Agent for Faculty,319142c5-ccd7-4c9c-aec0-d60f25330f8e,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1486.8,1982.4,RZF-00002
+UNC,20200401,99991231,Common Area Phone,4d8f3b90-29b3-4e7b-b37c-4a435ddef1d9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,40.28,50.35,AAA-99903
+UNC,20200401,99991231,Common Area Phone for faculty,ecb60fd2-bbaa-449f-a458-e9eec9ce08d6,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,15.1,18.88,AAA-99912
+UNC,20200401,99991231,Common Area Phone for students,59b9b348-02a2-40de-90cf-23b76d6616ca,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,11.33,14.16,AAA-99916
+UNC,20200401,99991231,Common Data Service Database Capacity,d31fcbc0-aaf7-48b7-af12-900c05a60594,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,188.8,251.7,AAD-51850
+UNC,20200401,99991231,Common Data Service Database Capacity (Nonprofit Staff Pricing),ff1f51c6-7b45-41dc-96cb-706909f9726a,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,158.6,176.2,AAD-51849
+UNC,20200401,99991231,Common Data Service Database Capacity for Education,cb2ff97f-cdd5-4a14-b655-9f5d0aa58e27,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,132.2,176.2,AAD-51851
+UNC,20200401,99991231,Common Data Service File Capacity,8c52358f-22a4-4e38-be86-730f138c2c1e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,9.4,12.6,AAD-51853
+UNC,20200401,99991231,Common Data Service File Capacity (Nonprofit Staff Pricing),21d50969-539d-4119-9c66-2e1a265df11b,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,7.9,8.8,AAD-51852
+UNC,20200401,99991231,Common Data Service File Capacity for Education,96cf7b37-c213-4626-a613-2f6c75f6b901,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,6.6,8.8,AAD-51854
+UNC,20200401,99991231,Common Data Service Log Capacity,b91d164b-7a81-4398-a2f8-70d5074001c9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,AAD-51856
+UNC,20200401,99991231,Common Data Service Log Capacity (Nonprofit Staff Pricing),ba76cb7a-6bb8-4af5-821b-11e103ca4839,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,39.6,44.1,AAD-51855
+UNC,20200401,99991231,Common Data Service Log Capacity for Education,c2783c39-f49d-4987-b753-fdbaad00ac54,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,33,44.1,AAD-51857
+UNC,20200401,99991231,Dynamics 365 - Additional Database Storage (Qualified Offer),fbf0328a-8b0f-47a6-9483-dc2b36183fce,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,23.6,31.5,AAA-11932
+UNC,20200401,99991231,Dynamics 365 - Additional Database Storage (Qualified Offer) (Nonprofit Staff Pricing),f3781a92-d114-4f33-a820-f942bf4f8831,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,19.8,22,AAD-14484
+UNC,20200401,99991231,Dynamics 365 - Additional Database Storage (Qualified Offer) for Faculty,b12490bb-960c-458b-9a59-8335a6616538,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,16.5,22,AAD-39783
+UNC,20200401,99991231,Dynamics 365 - Additional Non-Production Instance (Qualified Offer),3396e762-af96-42f1-bea4-5c97a1efa94f,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,708,944,AAA-11934
+UNC,20200401,99991231,Dynamics 365 - Additional Non-Production Instance (Qualified Offer) (Nonprofit Staff Pricing),76151cac-a731-4cd0-a3f9-8093af4905e5,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,620.2,689.1,AAD-14485
+UNC,20200401,99991231,Dynamics 365 - Additional Production Instance (Qualified Offer),2bcf9fe8-8b65-4fcf-9240-419203fb8cf4,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2591.3,3455.1,AAA-11933
+UNC,20200401,99991231,Dynamics 365 - Additional Production Instance (Qualified Offer) (Nonprofit Staff Pricing),86ddd424-3645-485c-b89c-0025e6c3b2da,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1274.9,1416.6,AAD-14488
+UNC,20200401,99991231,Dynamics 365 Asset Management Addl Assets,49d50c07-2e9c-44ba-8a8a-682667ff5c8b,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,440.5,629.3,RZY-00003
+UNC,20200401,99991231,Dynamics 365 Asset Management Addl Assets for Faculty,4afd07ff-7e40-46a0-90e7-1806d0ee8313,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,308.4,440.5,RZZ-00003
+UNC,20200401,99991231,Dynamics 365 Business Central Device,5b04b78c-fd36-4cf3-a7a5-3457991c8b79,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,176.2,251.7,L2T-00001
+UNC,20200401,99991231,Dynamics 365 Business Central Device from DPL or Bus Ed (Qualified Offer),a8f4144e-d1d9-48d7-8966-dc6a32d28a30,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,105.7,151,L2T-00002
+UNC,20200401,99991231,Dynamics 365 Business Central Essential,1a90ee13-2cb4-4785-bb0f-542813f00a37,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,308.4,440.5,AAD-11678
+UNC,20200401,99991231,Dynamics 365 Business Central Essential (36 mo),2738e396-9f13-4a67-b0da-4cbbf082ac44,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,308.4,440.5,KZW-00001
+UNC,20200401,99991231,Dynamics 365 Business Central Essential (Nonprofit Staff Pricing),51385505-6308-41d2-aabb-86d69eba47f3,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,158.6,176.2,AAD-20594
+UNC,20200401,99991231,Dynamics 365 Business Central Essential for Faculty,ceedd55e-fc9a-45b1-9001-d6d51f2d4be2,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,169.6,242.3,AAD-20600
+UNC,20200401,99991231,Dynamics 365 Business Central Essential for Students,11feeeaf-cbbb-4498-bf85-6822eb2122ea,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,123.4,176.2,AAD-20601
+UNC,20200401,99991231,Dynamics 365 Business Central Essential from DPL or Bus Ed (Qualified Offer),560fa381-0485-4a44-aad7-7133825b7e36,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,185,264.3,AAD-11682
+UNC,20200401,99991231,Dynamics 365 Business Central External Accountant,88f9eb8a-0636-45e8-a601-553e0a48aa9e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,0,0,AAD-26689
+UNC,20200401,99991231,Dynamics 365 Business Central External Accountant (36 mo),01eb6543-e1fe-40d0-abee-3fb77784434d,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,0,0,DLT-00001
+UNC,20200401,99991231,Dynamics 365 Business Central External Accountant for Faculty,e9df434f-0be9-440b-a06b-0dc0ce93be93,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,0,0,AAA-31203
+UNC,20200401,99991231,Dynamics 365 Business Central External Accountant for Students,d884fc51-643d-4f12-bbf5-a13e9320a950,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-31202
+UNC,20200401,99991231,Dynamics 365 Business Central Premium,30e97275-fad8-48d4-bc0a-81840365c119,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,440.5,629.3,AAD-11679
+UNC,20200401,99991231,Dynamics 365 Business Central Premium (36 mo),ee3b3efe-c74c-4b05-8f90-d95a60049655,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,440.5,629.3,KZX-00001
+UNC,20200401,99991231,Dynamics 365 Business Central Premium (Nonprofit Staff Pricing),56a82199-0fa8-45d5-810f-b2c7d7fa2cba,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,226.6,251.7,AAD-20596
+UNC,20200401,99991231,Dynamics 365 Business Central Premium for Faculty,b023d59e-7451-4817-a52d-749ff3918e83,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,242.3,346.1,AAD-20602
+UNC,20200401,99991231,Dynamics 365 Business Central Premium for Students,844c4b77-dfb5-45c9-aaa4-bf1e70dd73c8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,176.2,251.7,AAD-20603
+UNC,20200401,99991231,Dynamics 365 Business Central Premium from DPL or Bus Ed (Qualified Offer),5f86062e-b7a4-497f-bfcb-2b8899d66651,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,264.3,377.6,AAD-11683
+UNC,20200401,99991231,Dynamics 365 Business Central Premium Trial,eb5bc29f-c744-4d36-8042-68bc11114eda,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAD-18559
+UNC,20200401,99991231,Dynamics 365 Business Central Team Member,f72752c8-3e37-4c9b-a1a0-69e8442068dc,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,35.2,50.3,AAD-11677
+UNC,20200401,99991231,Dynamics 365 Business Central Team Member (36 mo),d2d4dffb-0eba-445f-b84e-40160fac540c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,35.2,50.3,KZV-00001
+UNC,20200401,99991231,Dynamics 365 Business Central Team Member (Nonprofit Staff Pricing),ddeaf912-2bfe-4b4e-877b-e5fa6a6b7583,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,18.1,20.1,AAD-20592
+UNC,20200401,99991231,Dynamics 365 Business Central Team Member for Faculty,bc89c27d-3586-4728-be98-4bb569802ede,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,19.4,27.7,AAD-20598
+UNC,20200401,99991231,Dynamics 365 Business Central Team Member for Students,b1873c69-7198-45e0-b8bf-4fa1d4a6a1ad,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,14.1,20.1,AAD-20599
+UNC,20200401,99991231,Dynamics 365 Business Central Team Member from DPL or Bus Ed (Qualified Offer),1c796fd1-1872-4f51-8224-125e144c9a5b,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,21.1,30.2,AAD-11681
+UNC,20200401,99991231,Dynamics 365 Call Intelligence AddOn,5a6ea924-420e-4160-b852-a75492e3a404,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,14160.2,18880.2,AAD-74709
+UNC,20200401,99991231,Dynamics 365 Call Intelligence AddOn (Nonprofit Staff Pricing),23ea072c-f4bb-46d0-a26e-7a0db8f4067c,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,11894.5,13216.1,AAD-74708
+UNC,20200401,99991231,Dynamics 365 Commerce,79c103c3-35e2-4e1f-81bb-aae69800a3ef,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,793,1132.8,AAA-67182
+UNC,20200401,99991231,Dynamics 365 Commerce (36 mo),4006d678-9515-4cef-a1ed-aa0e41c22c55,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,793,1132.8,GZJ-00006
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer,4c604d4b-7893-4c9d-9d5e-d018e1515bd4,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,SAQ-00003
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer (36 mo),4bac7a4a-d416-43b2-bc0f-7a4c75b5554c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,SAQ-00007
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer),e1a8109d-82f5-428a-8f2a-6c9eb801dd15,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,66.1,94.4,SAQ-00004
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer for Faculty,3e77a031-79a9-4cd7-a7e7-d7dc2987a5c4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,72.7,103.8,SAR-00003
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer for Faculty (Qualified Offer),3f2a5c50-0788-40e4-b79b-3c398c9728bd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,36.3,51.9,SAR-00004
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,c8e9ad4d-ca4e-4787-b478-3b1b209d3377,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,43.6,62.3,SVA-00001
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer for Students,c3909cda-035d-4c9f-909d-9a3fdde4e625,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,52.9,75.5,SAR-00005
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer for Students (Qualified Offer),e17c1172-b1a2-4cc4-a222-5e3d70249df3,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,26.4,37.8,SAR-00006
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,9390652a-3518-46b8-8e55-ae248698e54f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,31.7,45.3,SVA-00002
+UNC,20200401,99991231,Dynamics 365 Commerce Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,1b4642e5-c69a-43ea-b4f6-f29bae46227e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,79.3,113.3,SAS-00003
+UNC,20200401,99991231,Dynamics 365 Commerce for Faculty,83a531ed-e7e8-4b78-94d0-3073d415f347,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,436.1,623,AAA-67184
+UNC,20200401,99991231,Dynamics 365 Commerce for Faculty From SA From VL/DPL,f274d48b-fb43-419c-a78e-eebbec51b6e8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,261.7,373.8,GZM-00002
+UNC,20200401,99991231,Dynamics 365 Commerce for Students,f65ba0cd-dd42-4b7a-8df2-2adcb3c01299,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,317.2,453.1,AAA-67185
+UNC,20200401,99991231,Dynamics 365 Commerce for Students From SA From VL/DPL,8f660fd7-a7ca-4f2d-a241-0dab83b610e5,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,190.3,271.9,GZM-00003
+UNC,20200401,99991231,Dynamics 365 Commerce From SA From VL/DPL,96ff854d-ac7a-4b01-8189-38318271742c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,475.8,679.7,GZL-00004
+UNC,20200401,99991231,Dynamics 365 Customer Engagement Applications Trial,e5cd027e-fa72-4fd3-98ce-751b35e6477a,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,TLM-00001
+UNC,20200401,99991231,Dynamics 365 Customer Insights,663e36bd-0002-44c8-aa60-edc398c30d4a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,7080.1,9440.1,AAD-51859
+UNC,20200401,99991231,Dynamics 365 Customer Insights (Nonprofit Staff Pricing),1652b7a6-4f7b-4434-a336-2bfa71f3aba2,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,2124,2360,AAD-51858
+UNC,20200401,99991231,Dynamics 365 Customer Insights Addnl Profiles,f4f79b1e-122a-42c1-b613-939035460a3c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,4720.1,6293.4,AAD-51862
+UNC,20200401,99991231,Dynamics 365 Customer Insights Addnl Profiles (Nonprofit Staff Pricing),27676e3e-cbc4-4b29-954c-2d3cb796d093,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,3964.8,4405.4,AAD-51861
+UNC,20200401,99991231,Dynamics 365 Customer Insights Addnl Profiles for Education,77e8bce5-aa9e-47d3-ad59-5bd4bb13e5ac,Academic,1 Month(s),ADDON,CLOUD RESELLER EDUCATION,3304,4405.4,AAD-51863
+UNC,20200401,99991231,Dynamics 365 Customer Insights Attach,ca25ca9f-fd18-4e72-84d3-c9e8c98f716c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,4720.1,6293.4,AAD-61651
+UNC,20200401,99991231,Dynamics 365 Customer Insights Attach (Nonprofit Staff Pricing),8a0b610b-cf54-4188-980e-7492926b4c13,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,1416,1573.4,AAD-61650
+UNC,20200401,99991231,Dynamics 365 Customer Insights Attach for Education,9f620def-b8a6-4d1d-9a03-53f874557837,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,2596,3461.4,AAD-61652
+UNC,20200401,99991231,Dynamics 365 Customer Insights for Education,51ba4a74-086e-4033-bc08-56d71fc139c0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,3894,5192.1,AAD-51860
+UNC,20200401,99991231,Dynamics 365 Customer Service Chat,de41684d-661e-46bd-9a45-a7af6106fd87,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,283.2,377.6,AAD-63057
+UNC,20200401,99991231,Dynamics 365 Customer Service Chat (Nonprofit Staff Pricing),c6d70fe7-bb67-4342-a3b3-23faae2d0b63,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,237.9,264.3,AAD-63056
+UNC,20200401,99991231,Dynamics 365 Customer Service Chat for Faculty,621716e7-cfc9-4e8c-9b8c-262b8d8b2212,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,198.2,264.3,AAD-63054
+UNC,20200401,99991231,Dynamics 365 Customer Service Chat for Students,4a7a84db-1982-453e-9caa-ca72606b31cc,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,198.2,264.3,AAD-63055
+UNC,20200401,99991231,Dynamics 365 Customer Service Chatbot session add-on,fe07640e-7875-4f92-9a92-1e517156d04e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,236,314.7,RZQ-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Chatbot session add-on (Nonprofit Staff Pricing),9e71dbad-8aa8-41ac-b488-c205aa1c9f17,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,198.2,220.3,RZQ-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Chatbot session add-on for Faculty,4862c7f5-9d9c-4389-a5d3-a3b08b0f7135,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,165.2,220.3,RZS-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Digital Messaging add-on,c20e5639-da58-4741-bbb2-fa6460ff067c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,354,472,RZL-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Digital Messaging add-on (Nonprofit Staff Pricing),ef29b6b7-4c3c-4183-96ca-11bf85088882,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,297.4,330.4,RZL-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Digital Messaging add-on for Faculty,533e0acf-0093-47da-bb03-920c64cf0e75,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,247.8,330.4,RZM-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Digital Messaging add-on for Students,5925a655-481c-4b16-82c5-588ddb68ba36,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,247.8,330.4,RZM-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise,58cd6573-6784-4467-b2fc-1a06bb874ed6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,AAA-35790
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise (36 mo),8d4b0e68-9ef3-4b1a-b770-9f2d19469d6e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,DDW-00032
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise (Nonprofit Staff Pricing),b27a256c-aa75-4095-bb43-ec25b1fd1236,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,134.5,149.5,AAD-14491
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise (Qualified Offer) (1000 seat minimum requirement),b3bd9735-0d13-4244-ad2d-3dc1ed860cd1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,283.2,377.6,DDW-00028
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise (Qualified Offer) (250 seat minimum requirement),54eb7099-0bfc-40be-b6e9-9064ceaf1dd3,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,377.6,503.5,DDW-00026
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise (Qualified Offer) (500 seat minimum requirement),90721666-ed17-4dc6-aee9-7a6b9390b901,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,440.5,DDW-00027
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer,16b71874-cc11-44db-91cf-56badc7b53cd,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SCC-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer (36 mo),10dd2d47-086c-45eb-ada3-41754e6983c6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SCC-00008
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer (Nonprofit Staff Pricing),f77403da-d1fa-4b3a-a081-b12b274e8942,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,28.3,31.5,SCC-00004
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer) (100 seat minimum requirement),76223816-9efb-4bfd-a761-50703187a265,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,SCC-00005
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer for Faculty,4bea8897-2b56-4614-a25f-675eb4d0d81e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,51.9,69.2,SCG-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,bbc273bd-c7d3-4077-9e33-e13a99236df7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,31.2,41.5,SVF-00001
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer for Students,089b9307-fe82-47fa-9d73-a06ee42f531b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,37.8,50.3,SCG-00004
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,edcd6592-f30a-4b67-8ca2-aaaa02af9c7d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,22.7,30.2,SVF-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,cfa8789f-56d5-4a82-96d8-01aa7e2896dc,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,56.6,75.5,SCH-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Device,56433e2b-3378-4b35-867d-31ebb879deac,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,684.4,912.5,AAA-43232
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise Device (36 mo)​,8250fc9d-c72d-4e9c-8300-673cde603157,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,684.4,912.5,DDW-00031
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise for Faculty,9b97f77a-106a-4039-9f30-08954636d5a7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,246.6,328.8,AAA-35804
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise for Faculty Device,c1267a47-0d56-4305-b975-7ba45e51eb5d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,376.4,501.9,AAA-43234
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise for Faculty From SA From VL/DPL,11a4877c-f62e-4787-ad63-5b61d6455544,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,148,197.3,EAS-00005
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise for Students,3ea6fca5-1502-4ec1-8d87-f65d65f382bf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,179.4,239.1,AAA-35805
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise for Students Device,9c6e2220-643f-41ce-9fcc-b6db3d1a25ec,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,273.8,365,AAA-43235
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise for Students From SA From VL/DPL,4a747ab4-d724-4328-8efa-d8a8f8b0a9e4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,107.6,143.5,EAS-00004
+UNC,20200401,99991231,Dynamics 365 Customer Service Enterprise From SA From VL/DPL,302f003f-c5bf-4c66-b748-0acc40f64391,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,269,358.7,DDY-00004
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights,9a63aebe-0ae1-48ee-a323-62eedcab523f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,354,472,AAD-56952
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights (Nonprofit Staff Pricing),9318c4ea-d785-47f9-9e47-a9e0940b98b2,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,106.2,118,AAD-56951
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights Addnl Cases,e2bfd79c-7ca2-4643-851b-014c4afee1b0,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1180,1573.4,AAD-56956
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights Addnl Cases (Nonprofit Staff Pricing),c9c68e68-3467-4303-867b-5ef5dcec85c4,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,991.2,1101.3,AAD-56955
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights Addnl Cases for Faculty,94b619f4-eb4d-4a41-abcd-d5c99f7cdd92,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,826,1101.3,AAD-56957
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights for Faculty,d1ac49e0-e3bf-4be4-ae37-cb399fc79e21,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,194.7,259.6,AAD-56954
+UNC,20200401,99991231,Dynamics 365 Customer Service Insights for Students,8c5d15e6-fb15-42a4-acf7-a567ad2f579e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,141.6,188.8,AAD-56953
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional,51f99b45-3f92-4ef0-9167-b04709a62106,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,236,314.7,AAD-32938
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional (36 mo),361cf98e-e39c-4e3f-93cc-76e34aefe2fb,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,236,314.7,MET-00006
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional (Nonprofit Staff Pricing),1f797786-6479-4e7c-ad59-9bc27ddac680,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,70.8,78.7,AAD-34800
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer,41791076-9613-40e3-b1c4-7ba8c2c95e60,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SCV-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer (36 mo),b64cfd9a-3d88-4301-8491-5d71c74d9c54,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SCV-00008
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer (Nonprofit Staff Pricing),c3893c15-2c54-4e24-8cc7-de68b904e450,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,28.3,31.5,SCV-00004
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer) (100 seat minimum requirement),3a3b94ad-2c17-4078-bf37-4c432900be5f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,SCV-00005
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer for Faculty,4e01898f-8f8a-451a-be80-f2298cec5170,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,51.9,69.2,SCW-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,6a05dcfd-27bb-4615-b2e2-3b99a02b93ce,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,31.2,41.5,TJY-00001
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer for Students,9c5d580a-2e7e-4613-ab3a-b00b80697e6c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,37.8,50.3,SCW-00004
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,7e6f9e98-9071-42d0-b346-53134e3cb0b4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,22.7,30.2,TJY-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,2a55990d-53e2-4d70-ae90-f7a28521a539,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,56.6,75.5,TJX-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional for Faculty,a81010d7-7859-4f6b-9f29-2e79e2573904,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,129.8,173.1,AAD-32940
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional for Faculty From SA From VL/DPL,22bfe12e-906f-4614-b848-a404150e03db,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,77.9,103.8,MEY-00003
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional for Students,69998fb3-b858-476e-99ba-0d7ba65fe8fb,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,94.4,125.9,AAD-32939
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional for Students From SA From VL/DPL,49891b4a-639c-424f-a91a-0c613eed4466,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,56.6,75.5,MEY-00002
+UNC,20200401,99991231,Dynamics 365 Customer Service Professional From SA From VL/DPL,53df0e9f-13ca-42eb-bbdf-25f5b44ed5b9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,141.6,188.8,MEX-00002
+UNC,20200401,99991231,Dynamics 365 Enterprise Edition - Additional Portal (Qualified Offer),67b82638-fdf8-456b-8d36-32737a3b2a9b,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2360,3146.7,AAA-18154
+UNC,20200401,99991231,Dynamics 365 Enterprise Edition - Additional Portal (Qualified Offer) (Nonprofit Staff Pricing),0cd7c684-3d20-4a11-849a-8c8eea53dfc5,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1529.3,1699.2,AAD-14486
+UNC,20200401,99991231,Dynamics 365 Enterprise Edition - Additional Portal Page Views (Qualified Offer),1e8bbd2f-ad7e-4105-b140-66f475458bb8,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,236,314.7,AAA-18168
+UNC,20200401,99991231,Dynamics 365 Enterprise Edition - Additional Portal Page Views (Qualified Offer) (Nonprofit Staff Pricing),7be75d96-0cef-4a93-99ae-678e34f109a1,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,164.3,182.5,AAD-14487
+UNC,20200401,99991231,Dynamics 365 Field Service,5eb287f2-f34f-4bc8-a8b0-c2e9b23f7430,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,AAA-35792
+UNC,20200401,99991231,Dynamics 365 Field Service - Resource Scheduling Optimization,df67a19b-60bc-4284-9b20-70ca4fa3c16a,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,141.6,188.8,AAA-35802
+UNC,20200401,99991231,Dynamics 365 Field Service - Resource Scheduling Optimization (Nonprofit Staff Pricing),96693d66-601c-4370-854d-478ecb1badf6,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,118.9,132.2,AAD-26759
+UNC,20200401,99991231,Dynamics 365 Field Service (36 mo),95440286-4455-411c-a3f6-2d75c6ccfea3,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,DEH-00020
+UNC,20200401,99991231,Dynamics 365 Field Service (Nonprofit Staff Pricing),2010c1b3-9564-4a74-8a31-a21c29bfe5db,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,134.5,149.5,AAD-34685
+UNC,20200401,99991231,Dynamics 365 Field Service (Qualified Offer) (1000 seat minimum requirement),05d9c319-13ce-4da2-b8b7-395be527f7fa,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,283.2,377.6,DEH-00017
+UNC,20200401,99991231,Dynamics 365 Field Service (Qualified Offer) (250 seat minimum requirement),103b8ea2-117c-41f5-bcf8-b4274eb5a0c4,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,377.6,503.5,DEH-00015
+UNC,20200401,99991231,Dynamics 365 Field Service (Qualified Offer) (500 seat minimum requirement),bae7d5b1-a75a-4142-b04f-e717ca78a753,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,440.5,DEH-00016
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer,fa9d0a71-c3f1-4147-a45e-3f6577901cd6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SCN-00003
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer (36 mo),53fdd8cc-84d8-45fa-ac5f-1f782be617ad,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SCN-00008
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer (Nonprofit Staff Pricing),9c238227-d7a8-43bf-b341-d690db24eb94,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,28.3,31.5,SCN-00004
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer) (100 seat minimum requirement),ce8baf52-8930-4076-813f-64493d758abe,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,SCN-00005
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer for Faculty,2a8ce3ed-d2b3-4d9f-b620-375a9f475479,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,51.9,69.2,SCP-00003
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,8cb3b356-97c6-4fbe-9cfa-276302fabc23,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,31.2,41.5,SVG-00001
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer for Students,21e8c37f-13e6-4e5a-a390-b492f788e196,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,37.8,50.3,SCP-00004
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,2f692236-0eff-4000-85ee-19b07dcb5988,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,22.7,30.2,SVG-00002
+UNC,20200401,99991231,Dynamics 365 Field Service Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,9905f68b-4a7f-44ac-94a2-426d06f32f7a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,56.6,75.5,DEK-00004
+UNC,20200401,99991231,Dynamics 365 Field Service Device,a7fc021e-0eb1-4fdb-ada1-3fe7ddf4e887,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,684.4,912.5,AAA-43236
+UNC,20200401,99991231,Dynamics 365 Field Service for Faculty,41d5856b-9cdc-4194-944d-181517f1268e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,246.6,328.8,AAA-35806
+UNC,20200401,99991231,Dynamics 365 Field Service for Faculty Device,2fec701c-4de9-498a-b104-d9e22a923029,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,376.4,501.9,AAA-43238
+UNC,20200401,99991231,Dynamics 365 Field Service for Faculty From SA From VL/DPL,581fdbba-c2ea-4c9d-b4e0-1e95026feb73,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,148,197.3,ECD-00002
+UNC,20200401,99991231,Dynamics 365 Field Service for Students,6b332b2d-863a-4a18-ad8a-b3d1434c27d9,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,179.4,239.1,AAA-35807
+UNC,20200401,99991231,Dynamics 365 Field Service for Students Device,685760e2-b019-489f-a71d-f647a1626cac,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,273.8,365,AAA-43239
+UNC,20200401,99991231,Dynamics 365 Field Service for Students From SA From VL/DPL,7d100a8c-529b-478e-864f-b4021bddbd1d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,107.6,143.5,ECD-00001
+UNC,20200401,99991231,Dynamics 365 Field Service From SA From VL/DPL,093fff24-f35f-481e-80af-2f51a8e5a7e3,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,269,358.7,DEK-00005
+UNC,20200401,99991231,Dynamics 365 Finance,a43fadf6-c52c-469f-899b-4e7fb0f597d9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,793,1132.8,SFV-00002
+UNC,20200401,99991231,Dynamics 365 Finance (36 mo),7b961339-cca6-42ae-a20f-874e85486d45,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,793,1132.8,SFV-00008
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer,68004972-e469-45e4-bc99-27f69afcbea1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,SAJ-00003
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer (36 mo),d1f87b56-4aac-4cf4-a5a1-2aa106406f9c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,SAJ-00007
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer),bdad5414-c694-4095-be1f-d3d02fd511d8,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,66.1,94.4,SAJ-00004
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer for Faculty,8041e633-0119-4d77-9a50-47541a828d2f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,72.7,103.8,SAK-00003
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer for Faculty (Qualified Offer),7680245a-5e0b-4e00-8888-9bfb0191fb20,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,36.3,51.9,SAK-00004
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,7dc1f2e0-8d2d-4b8f-9795-3a9b905936c1,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,43.6,62.3,SUY-00001
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer for Students,88af9d14-3c1b-4434-9168-296eeaec202d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,52.9,75.5,SAK-00005
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer for Students (Qualified Offer),10e5ae99-4dc7-4b34-8456-08b7ebe72457,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,26.4,37.8,SAK-00006
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,ca6bd88a-9d22-4ff6-aff5-64ba0257c3bb,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,31.7,45.3,SUY-00002
+UNC,20200401,99991231,Dynamics 365 Finance Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,0982c398-75c5-4f24-a13d-f9c837306779,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,79.3,113.3,SAL-00003
+UNC,20200401,99991231,Dynamics 365 Finance for Faculty,46a4a2ef-7eb1-4e2a-8162-a31e0423c5fc,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,436.1,623,SFW-00002
+UNC,20200401,99991231,Dynamics 365 Finance for Faculty From SA From VL/DPL,9b3ebef7-4b74-4f78-90df-d726692e537d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,261.7,373.8,SUW-00001
+UNC,20200401,99991231,Dynamics 365 Finance for Students,0a0e4df8-867f-4f1d-bcc8-7e83808570d7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,317.2,453.1,SFW-00003
+UNC,20200401,99991231,Dynamics 365 Finance for Students From SA From VL/DPL,8de0ee09-f18f-4a36-9356-9ce332c69598,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,190.3,271.9,SUW-00002
+UNC,20200401,99991231,Dynamics 365 Finance From SA From VL/DPL,5b5de5dc-5158-4744-bae0-400b540d15ca,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,475.8,679.7,SFX-00003
+UNC,20200401,99991231,Dynamics 365 Fraud Protection,a41f64b1-8a55-4eb0-9b39-32ee837609b1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47200.5,62934,QJT-00003
+UNC,20200401,99991231,Dynamics 365 Fraud Protection (Nonprofit Staff Pricing),b7743de8-1640-41a0-84b6-1da6e1d4d9db,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,14160.2,15733.5,QJT-00004
+UNC,20200401,99991231,Dynamics 365 Fraud Protection Addl Assessments,ae08d2a7-240e-4777-b3f2-948e0793dc0e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,4720.1,6293.4,RZW-00003
+UNC,20200401,99991231,Dynamics 365 Fraud Protection Addl Assessments (Nonprofit Staff Pricing),867e1e4d-9338-41e8-9b6b-65ee01f3db8d,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,3964.8,4405.4,RZW-00004
+UNC,20200401,99991231,Dynamics 365 Fraud Protection Addl Assessments for Faculty,435a02e8-52a6-4059-b3cd-861c2d48948e,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,3304,4405.4,RZX-00003
+UNC,20200401,99991231,Dynamics 365 Fraud Protection for Faculty,411a81c8-8165-4e06-978b-12dff41f5cff,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,25960.3,34613.7,RZV-00003
+UNC,20200401,99991231,Dynamics 365 Guides,e4aaf3ff-eaeb-463f-9782-8484d0a3b3d5,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,327.3,409.1,PFM-00003
+UNC,20200401,99991231,Dynamics 365 Guides for Faculty,6f4f8817-ed64-48d8-ba76-68c57d7b3f10,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,180,225,RXY-00005
+UNC,20200401,99991231,Dynamics 365 Guides for Faculty Trial,0808242e-ca6a-4d53-a763-81e3ef0a538d,Academic,1 Month(s),TRIAL,CLOUD RESELLER FACULTY,0,0,RXY-00006
+UNC,20200401,99991231,Dynamics 365 Guides for Students,df8d55df-7dd7-49a5-9d6a-813b736fb228,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,130.9,163.6,RXY-00007
+UNC,20200401,99991231,Dynamics 365 Guides for Students Trial,9dc5fb11-41ed-4150-9329-6df2bb256b65,Academic,1 Month(s),TRIAL,CLOUD RESELLER STUDENT,0,0,RXY-00008
+UNC,20200401,99991231,Dynamics 365 Guides Trial,0f1563d7-83f6-4990-a83b-d2a6113d2d75,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,PFM-00004
+UNC,20200401,99991231,Dynamics 365 Human Resources,ade453de-e60a-4ef6-b631-e225cd929e0a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,528.6,755.2,UUF-00006
+UNC,20200401,99991231,Dynamics 365 Human Resources (36 mo),0fd82dd2-f029-49e4-8542-2ec992629a06,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,528.6,755.2,UUF-00007
+UNC,20200401,99991231,Dynamics 365 Human Resources (Nonprofits Pricing),1596fa61-7da1-4263-98f8-b27dfa4cfbb5,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,169.9,188.8,UUF-00008
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer,ed152361-b673-461a-99bf-cbfd35034d1a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,UUH-00003
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer (36 mo),d3c006e3-32f2-4d46-9619-ef2417d2b195,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,UUH-00005
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer (Nonprofits Pricing),8bf0b826-e05b-45aa-9cd1-9a9f742f7731,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,42.5,47.2,UUH-00006
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer (Nonprofits Pricing) (Qualified Offer),f906435d-9dc9-42ba-bea6-2a2b08ca60db,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,21.2,23.6,UUH-00007
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer),55f51906-876a-46c1-84e0-7fea4a8a1ff7,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,66.1,94.4,UUH-00004
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer for Faculty,7ab7bc0b-e137-4bfe-a7b6-26fec475e90c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,72.7,103.8,UUJ-00003
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer for Faculty (Qualified Offer),604ca0a7-b5b5-4183-ac41-ad063fb2d373,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,36.3,51.9,UUJ-00005
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,4f15670a-4da2-48e0-8b3e-feb4f8e51d5e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,43.6,62.3,UUJ-00004
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer for Students,2b44162e-90b3-4c73-9f25-ba5c4b048c60,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,52.9,75.5,UUJ-00006
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer for Students (Qualified Offer),10bb125f-ba2a-42d6-a353-c8428d10610f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,26.4,37.8,UUJ-00008
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,fbeabb6e-da0d-4ef7-98f6-0caf99bc8a1d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,31.7,45.3,UUJ-00007
+UNC,20200401,99991231,Dynamics 365 Human Resources Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,01fd1ed3-ebb9-44e1-b651-0d24097ea59c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,79.3,113.3,UUL-00002
+UNC,20200401,99991231,Dynamics 365 Human Resources for Faculty,daf910cc-20ec-4eb2-ab26-e6fb16ee0ced,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,290.8,415.4,UUG-00006
+UNC,20200401,99991231,Dynamics 365 Human Resources for Faculty From SA From VL/DPL,3902af93-b4f4-4e1f-a5c3-60a534c38c6e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,174.5,249.2,UUG-00007
+UNC,20200401,99991231,Dynamics 365 Human Resources for Students,f3cf1f64-1a96-4a1d-a7cc-5645bb950fd8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,211.5,302.1,UUG-00008
+UNC,20200401,99991231,Dynamics 365 Human Resources for Students From SA From VL/DPL,cc2d12a7-4f94-402b-b1c3-742c8259b245,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,126.9,181.2,UUG-00009
+UNC,20200401,99991231,Dynamics 365 Human Resources From SA From VL/DPL,578b38e3-b80b-4a26-81e5-2e3d0ecdc49b,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,317.2,453.1,UUK-00003
+UNC,20200401,99991231,Dynamics 365 Human Resources Sandbox,be0e5fa6-9953-4116-b34e-67a1b0ef11ac,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,6167.5,8810.8,UUM-00002
+UNC,20200401,99991231,Dynamics 365 Human Resources Sandbox (36 mo),f5695915-9536-40d3-912d-ee4330512bda,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,6167.5,8810.8,UUM-00003
+UNC,20200401,99991231,Dynamics 365 Human Resources Sandbox (Nonprofits Pricing),079ec5ba-d726-4384-95af-62d135c210d2,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1982.4,2202.7,UUM-00004
+UNC,20200401,99991231,Dynamics 365 Human Resources Sandbox for Faculty,69896d87-3d84-4b43-97ed-ea254b742add,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,3392.1,4845.9,UUN-00002
+UNC,20200401,99991231,Dynamics 365 Human Resources Sandbox for Students,302fb6be-dd9c-4d13-8eaf-3d6239ad2383,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,2467,3524.3,UUN-00003
+UNC,20200401,99991231,Dynamics 365 Human Resources Self Service,341a4b82-558b-4641-a6ce-b2bcd07309bb,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,17.6,25.2,UUP-00002
+UNC,20200401,99991231,Dynamics 365 Human Resources Self Service (36 mo),91425cdb-6ed8-48da-8330-68727536f937,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,17.6,25.2,UUP-00003
+UNC,20200401,99991231,Dynamics 365 Human Resources Self Service (Nonprofits Pricing),931acecc-34c3-4f83-913e-c7fdbfd7e2a1,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,5.7,6.3,UUP-00004
+UNC,20200401,99991231,Dynamics 365 Human Resources Self Service for Faculty,04ec80cc-ed3e-4887-8a01-d8d122134690,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,9.7,13.8,UUQ-00002
+UNC,20200401,99991231,Dynamics 365 Human Resources Self Service for Students,34a8866e-06dc-45fe-8c55-8e98b617d9b1,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,7,10.1,UUQ-00003
+UNC,20200401,99991231,Dynamics 365 Layout,ccd262da-6cf3-40ae-a722-1f56441137f0,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,478.3,597.9,AAD-29587
+UNC,20200401,99991231,Dynamics 365 Layout for Faculty,b9292559-cc3e-48ed-8b78-c68d1f6f7cdd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,263.1,328.8,AAD-56919
+UNC,20200401,99991231,Dynamics 365 Layout for Faculty Trial,ee15091e-7f72-41b4-b9b3-ee9bdff37355,Academic,1 Month(s),TRIAL,CLOUD RESELLER FACULTY,0,0,AAD-56925
+UNC,20200401,99991231,Dynamics 365 Layout for Students,a4dd576e-4ec5-4ee3-8de4-cc8a17d87500,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,191.3,239.1,AAD-56920
+UNC,20200401,99991231,Dynamics 365 Layout for Students Trial,9481c42e-94af-4eea-88a2-89a6f931ea8b,Academic,1 Month(s),TRIAL,CLOUD RESELLER STUDENT,0,0,AAD-56926
+UNC,20200401,99991231,Dynamics 365 Layout Trial,2be9d6c5-7c94-458c-9b6a-4824e0310020,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAD-29584
+UNC,20200401,99991231,Dynamics 365 Marketing,29a03361-6ac6-4165-9b7f-c714e7ed6258,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,7080.1,9440.1,AAD-11541
+UNC,20200401,99991231,Dynamics 365 Marketing (Nonprofit Staff Pricing),a88d41f8-9a23-4a6d-8664-8298456f0e1e,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,2124,2360,AAD-34801
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Application,fd780435-9ee0-46cc-a1c8-5bdf0a03e691,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2360,3146.7,AAD-20745
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Application (Nonprofit Staff Pricing),6109a34e-6766-4a46-9f9f-4d0b354426d2,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1982.4,2202.7,AAD-34806
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Application for Faculty,64a56854-6883-49ce-96ac-d80120ae8b55,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1652,2202.7,AAD-20747
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Application for Students,81606dbf-05c9-437a-96d6-e2f1634c4be5,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1652,2202.7,AAD-20748
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Non-Prod Application,4b7c9f3d-a74f-4955-a8ea-fedf3e280403,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1180,1573.4,SDN-00003
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Non-Prod Application (Nonprofit Staff Pricing),80451c87-35ae-4fb6-a377-e49074ef9b11,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,991.2,1101.3,SDN-00004
+UNC,20200401,99991231,Dynamics 365 Marketing Additional Non-Prod Application for Faculty,85650874-8839-4ba0-8129-0e6f3246fb78,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,826,1101.3,SDP-00003
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1,7bf88eaf-f390-40a7-8ed2-4613fb7f9bba,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1180,1573.4,AAD-11550
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 (Nonprofit Staff Pricing),cc73d077-863e-4a22-8e3f-c277755eb42d,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,991.2,1101.3,AAD-38184
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 for CE Plan,59ba8bec-f4db-4100-b20c-a05eb4d7636c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2832,3776,AAD-14646
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 for CE Plan (Nonprofit Staff Pricing),c8d32cc9-a6de-481e-aef5-37a614845e0f,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,2378.9,2643.2,AAD-56950
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 for CE Plan for Faculty,b7a6bf73-4192-4b45-9e82-b1ffd8814890,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1557.6,2076.8,AAD-14651
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 for CE Plan for Students,8f9819d1-456e-42d0-9396-ed0438d8007f,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1132.8,1510.4,AAD-14652
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 for Faculty,bbbb2f8c-df19-462c-bdfb-5edc6bd3d514,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,649,865.3,AAD-11554
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 1 for Students,aeee05af-a7de-4880-9e8a-919401c7e6aa,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,472,629.3,AAD-11555
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 2,79f41ba9-3b82-4a90-a0c6-d17285e70e66,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,7080.1,9440.1,AAD-32911
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 2 (Nonprofit Staff Pricing),ccd6404d-c092-4eb9-af27-8a3e18cfc836,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,5947.3,6608.1,AAD-34819
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 2 for Faculty,316578a0-959b-4c5a-8e4b-e1f0a7c490bd,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,3894,5192.1,AAD-32913
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 2 for Students,f7d33505-b6ae-40ba-a711-bafed8fb722b,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,2832,3776,AAD-32912
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 3,ad661450-aefb-4c7f-a74e-e06d246a922f,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,5900.1,7866.8,AAD-32918
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 3 (Nonprofit Staff Pricing),78f1d294-6dc3-4222-8e67-014346ab4211,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,4956.1,5506.7,AAD-34808
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 3 for Faculty,23910d1e-bcd9-4125-82a2-ebbe75f21622,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,3245,4326.7,AAD-32921
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 3 for Students,e28ec581-d18a-4c1f-bd3e-75f24082a5b2,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,2360,3146.7,AAD-32919
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 4,4c7ace9a-b6b9-4ceb-9bef-57e4eda5adc2,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,3540,4720.1,AAD-32925
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 4 (Nonprofit Staff Pricing),e74daf22-5301-4da7-9759-9b2405bcbf0a,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,2973.6,3304,AAD-34811
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 4 for Faculty,f4cb7b65-10f3-4131-a9ed-625928db1f66,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1947,2596,AAD-32927
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 4 for Students,6e43db5b-5f2c-4617-b735-0a78e84b7a3e,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1416,1888,AAD-32926
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 5,b18b7cec-5eda-4445-90bf-d609059cd554,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2360,3146.7,AAD-32931
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 5 (Nonprofit Staff Pricing),9b35db7c-0dab-4625-b3e7-95dc779a0619,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1982.4,2202.7,AAD-34813
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 5 for Faculty,7e0ebe81-fee6-4f09-b901-eb407ef10497,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1298,1730.7,AAD-32933
+UNC,20200401,99991231,Dynamics 365 Marketing Addnl Contacts Tier 5 for Students,c99cc6f6-3fd9-4215-8aa8-bb0b3fd088a0,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,944,1258.7,AAD-32932
+UNC,20200401,99991231,Dynamics 365 Marketing Attach,c506d0f3-83c5-4939-971a-1270a48480e9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,3540,4720.1,AAD-20754
+UNC,20200401,99991231,Dynamics 365 Marketing Attach (Nonprofit Staff Pricing),8a045d94-fe02-4875-aab8-85e2da44000e,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,1062,1180,AAD-34802
+UNC,20200401,99991231,Dynamics 365 Marketing Attach (Qualified Offer) (From CE Plan with 10 seats minimum),9e5f9ff0-1a3c-4d4b-8269-1fdb1f300102,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,2832,3776,KPH-00004
+UNC,20200401,99991231,Dynamics 365 Marketing Attach for Faculty,3b319394-6c41-42a9-b3e1-b75bfe8c5da2,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,1947,2596,AAD-20756
+UNC,20200401,99991231,Dynamics 365 Marketing Attach for Students,643161bc-f76d-4908-9153-7eeab54c7447,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,1416,1888,AAD-20757
+UNC,20200401,99991231,Dynamics 365 Marketing for Faculty,51795973-17c6-41d5-8af3-d3a3d3773230,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,3894,5192.1,AAD-11545
+UNC,20200401,99991231,Dynamics 365 Marketing for Students,00b75335-3cce-4b08-acd6-2b795f922137,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,2832,3776,AAD-11546
+UNC,20200401,99991231,Dynamics 365 Plan - Operations Additional File Storage (Qualified Offer),466c1866-e335-4277-bfa0-5189c23b951a,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,4.4,6.3,AAA-43635
+UNC,20200401,99991231,Dynamics 365 Plan - Operations Additional File Storage (Qualified Offer) for Faculty,015f6e33-cb92-4e8a-b3e7-946c20dd2e8a,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,2.4,3.5,AAA-43639
+UNC,20200401,99991231,Dynamics 365 Plan - Operations Additional File Storage (Qualified Offer) for Students,6365af7b-d7fa-4f7b-8755-946daf8573fd,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1.76,2.5,AAA-43640
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Additional Database Storage (Qualified Offer),b26aa30c-1de1-4f43-ac81-910442cf5335,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,22,31.5,AAA-43629
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Additional Database Storage (Qualified Offer) for Faculty,a6d9afb1-9782-4db7-a2c7-ef0642b7c096,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,12.1,17.3,AAA-43631
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Additional Database Storage (Qualified Offer) for Students,f934020a-7e3c-4703-8ecb-a193011bb38e,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,8.8,12.6,AAA-43632
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 1:Developer & Test Instance,7c362aff-7c7a-41f1-b6c1-d3406bb74dac,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1872.3,2674.7,AAA-43641
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 1:Developer & Test Instance for Faculty,b8bf0a36-80d1-4fbf-8cf7-1176221651aa,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1029.8,1471.1,AAA-43643
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 2:Standard Acceptance Testing,2ff677d8-e55c-4a9f-ab2d-8774a80bd52d,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,5947.3,8496.1,AAA-43653
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 2:Standard Acceptance Testing for Faculty,347756ec-46d1-43e6-baab-39a6b185239d,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,3271,4672.8,AAA-43623
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 3:Premier Acceptance Testing,7b0cdb70-934a-4592-9008-595c22e9d35a,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,17841.8,25488.3,AAA-43625
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 3:Premier Acceptance Testing for Faculty,ad535433-e845-4d9d-ac9e-859bf6c7667f,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,9813,14018.5,AAA-43627
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 4:Standard Performance Testing,6d5cc8e4-15b8-4297-a7d3-b22aacbb29fb,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,34802.5,49717.9,AAA-35230
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 4:Standard Performance Testing for Faculty,01c354cc-970f-4a64-9da1-582042a12896,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,19141.4,27344.8,AAA-43633
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 5:Premier Performance Testing,2d142966-93c9-45c3-b1fd-ad6c76294dc2,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,52864.6,75520.8,AAA-43645
+UNC,20200401,99991231,Dynamics 365 Plan - Unified Operations Sandbox Tier 5:Premier Performance Testing for Faculty,bb3ce8c3-b9b4-4170-a929-4c5b0b138dc0,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,29075.5,41536.4,AAA-43649
+UNC,20200401,99991231,Dynamics 365 Project Service Automation,df406c18-5deb-4f8b-9af3-0f743fffedc9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,AAA-35796
+UNC,20200401,99991231,Dynamics 365 Project Service Automation (Nonprofit Staff Pricing),a3fb5ee2-be6b-4aa3-8902-a33ff2e2a489,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,134.5,149.5,AAD-34686
+UNC,20200401,99991231,Dynamics 365 Project Service Automation (Qualified Offer) (1000 seat minimum requirement),b5b7f367-1958-4a50-9554-4b86ba73861c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,283.2,377.6,DFV-00010
+UNC,20200401,99991231,Dynamics 365 Project Service Automation (Qualified Offer) (250 seat minimum requirement),f1a2fdb0-5ca8-475d-8ccc-9bb81c033da5,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,377.6,503.5,DFV-00008
+UNC,20200401,99991231,Dynamics 365 Project Service Automation (Qualified Offer) (500 seat minimum requirement),b9756eb9-5199-496f-bb90-3c380e395e8b,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,440.5,DFV-00009
+UNC,20200401,99991231,Dynamics 365 Project Service Automation for Faculty,6b63efaa-6ec5-4a22-a0ed-a275cd515ea2,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,246.6,328.8,AAA-35808
+UNC,20200401,99991231,Dynamics 365 Project Service Automation for Students,05aa9dc1-f354-4691-8dd0-9149c580be98,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,179.4,239.1,AAA-35809
+UNC,20200401,99991231,Dynamics 365 Remote Assist,09788e0b-05cf-47e9-b292-e4f4a34fe15e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,327.3,409.1,AAD-29595
+UNC,20200401,99991231,Dynamics 365 Remote Assist Attach,57e6e033-c16b-4f8a-9cb9-c76bb0c9ce2e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,100.7,125.9,SRG-00003
+UNC,20200401,99991231,Dynamics 365 Remote Assist Attach for Faculty,deb36286-e996-4b13-9c73-6394989e502c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,55.4,69.2,SRH-00005
+UNC,20200401,99991231,Dynamics 365 Remote Assist Attach for Faculty Trial,08b14d22-b25d-47d4-9747-62c61782b901,Academic,1 Month(s),TRIAL,CLOUD RESELLER FACULTY,0,0,SRH-00006
+UNC,20200401,99991231,Dynamics 365 Remote Assist Attach for Students,811466cf-81e6-4d7b-9ff8-652819453fb6,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,40.3,50.3,SRH-00007
+UNC,20200401,99991231,Dynamics 365 Remote Assist Attach for Students Trial,46e8cd70-287e-4e13-854b-a9258301b355,Academic,1 Month(s),TRIAL,CLOUD RESELLER STUDENT,0,0,SRH-00008
+UNC,20200401,99991231,Dynamics 365 Remote Assist for Faculty,c3e6d9c3-5eff-4a1d-9369-dda3f11a7713,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,180,225,AAD-56921
+UNC,20200401,99991231,Dynamics 365 Remote Assist for Faculty Trial,2f6119d8-fb07-45ce-a94d-1f59c4899ee6,Academic,1 Month(s),TRIAL,CLOUD RESELLER FACULTY,0,0,AAD-56922
+UNC,20200401,99991231,Dynamics 365 Remote Assist for Students,ce6ebefa-cbed-4c61-9aa3-f88057bf1fe3,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,130.9,163.6,AAD-56923
+UNC,20200401,99991231,Dynamics 365 Remote Assist for Students Trial,055a91de-9f00-4691-b42e-929d8c5ae413,Academic,1 Month(s),TRIAL,CLOUD RESELLER STUDENT,0,0,AAD-56924
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer,50e9a47a-7b4d-4970-9d90-cae927f53753,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SAT-00003
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer (36 mo),3d727b27-6d45-4632-9dc4-8d673125abee,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SAT-00008
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer (Nonprofit Staff Pricing),b14a4d4f-eae7-4bb2-a748-cacab58f5c6d,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,28.3,31.5,SAT-00004
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer) (100 seat minimum requirement),de9e4fce-5812-43ad-a6a3-2103ce8b49e7,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,SAT-00005
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer for Faculty,6df75c54-9475-468e-b0b5-359519116126,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,51.9,69.2,SAU-00003
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,28f5de73-cbe3-4723-a40c-3269fb803132,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,31.2,41.5,SVD-00001
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer for Students,a8960b8b-3fe5-4349-8ffd-b119696c771f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,37.8,50.3,SAU-00004
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,79d86b88-1fdd-43bd-a6cb-0ba268e44613,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,22.7,30.2,SVD-00002
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,e6cf957e-e3e6-4148-a3e2-aae34738c887,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,56.6,75.5,SAV-00003
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition,e5aeedc5-e2f0-4099-aa45-95802034d7f8,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,AAA-35786
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition (36 mo),13aedff3-04ca-43bd-a889-0ee152c47255,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,448.4,597.9,DGP-00025
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition (Nonprofit Staff Pricing),8817b694-eea3-43f3-9b0b-4dcec5fb9f47,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,134.5,149.5,AAD-14490
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition (Qualified Offer) (1000 seat minimum requirement),5ac82c27-0a46-412a-83c0-47a72acd304a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,283.2,377.6,DGP-00022
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition (Qualified Offer) (250 seat minimum requirement),cc92cf59-840a-446d-944f-1c488af172ab,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,377.6,503.5,DGP-00020
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition (Qualified Offer) (500 seat minimum requirement),227cdcf5-07b4-4d14-9268-16ae116828c5,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,440.5,DGP-00021
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition Device,9fb981e1-9531-402e-875c-c69957137939,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,684.4,912.5,AAA-43226
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition Device (36 mo)​,12f76974-ab7d-4cc4-91ea-3a283ec2eccd,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,684.4,912.5,DGP-00026
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition for Faculty,512f56e6-9f94-4345-8a5b-fb74420c7857,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,246.6,328.8,AAA-35800
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition for Faculty   (Device),c0fadb1c-9940-4405-9c28-2ed7405cb01b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,376.4,501.9,AAA-43230
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition for Faculty From SA From VL/DPL,9e5d1d49-4896-45ff-9759-14bb2bf05ad5,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,148,197.3,EEL-00005
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition for Students,82fd9a89-80aa-4870-a145-ea50564b1a2c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,179.4,239.1,AAA-35801
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition for Students   (Device),f776b4da-d4e3-4f0c-b1d2-d78ebd410a03,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,179.4,239.1,AAA-43231
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition for Students From SA From VL/DPL,6cd61c10-b4db-43cc-b7a0-85e90b861c07,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,107.6,143.5,EEL-00004
+UNC,20200401,99991231,Dynamics 365 Sales Enterprise Edition From SA From VL/DPL,eb91f559-5f48-4495-aebf-9ac0f413d134,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,269,358.7,DGR-00004
+UNC,20200401,99991231,Dynamics 365 Sales Insights,1b828270-9627-4be7-8c8a-58e0be96ee19,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,236,314.7,AAD-32968
+UNC,20200401,99991231,Dynamics 365 Sales Insights (Nonprofit Staff Pricing),0e335f28-6106-4be2-b921-10483796213a,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,70.8,78.7,AAD-34815
+UNC,20200401,99991231,Dynamics 365 Sales Insights for Faculty,43be9290-a2ef-4943-9c62-4de8cfe367bf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,129.8,173.1,AAD-32970
+UNC,20200401,99991231,Dynamics 365 Sales Insights for Students,7a2e775e-6a7b-40f3-a21b-1b3c2e2493f4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,94.4,125.9,AAD-32969
+UNC,20200401,99991231,Dynamics 365 Sales Professional,f28514f0-6516-4ef9-8222-1c605a05d245,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,306.8,409.1,AAD-34788
+UNC,20200401,99991231,Dynamics 365 Sales Professional (36 mo),92281354-3fb1-4894-b040-3f7cfd5d60cc,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,306.8,409.1,NCR-00007
+UNC,20200401,99991231,Dynamics 365 Sales Professional (Nonprofit Staff Pricing),a6b49b8a-38be-4341-b05f-fb54c89d7e21,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,92,102.3,AAD-34797
+UNC,20200401,99991231,Dynamics 365 Sales Professional (SMB Offer),0acf8d18-7b68-483c-abba-411736e6f0dc,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,228.9,305.2,AAD-56949
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer,62ba2336-d7be-4339-9a52-727e7cc7c0fe,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SDG-00003
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer (36 mo),9e4bdc3f-c88f-4f52-8f3f-0ccb6e28ef93,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,125.9,SDG-00008
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer (Nonprofit Staff Pricing),a66ba149-97b4-4cc8-8e39-a01e0478a7f3,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,28.3,31.5,SDG-00004
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer) (100 seat minimum requirement),969c6aa1-3273-41e2-95ed-cf41edde8d3f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,SDG-00005
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer for Faculty,76e6cf04-8975-40eb-8ed6-37f5db93e9a4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,51.9,69.2,SDH-00003
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,c16ea121-f022-4aa8-aec6-323a4022d5bb,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,31.2,41.5,TKJ-00001
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer for Students,e51963b6-7926-455b-8fb0-c651251d7199,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,37.8,50.3,SDH-00004
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,cf0c24ae-afc2-498c-a3ea-a6af9c1d4298,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,22.7,30.2,TKJ-00002
+UNC,20200401,99991231,Dynamics 365 Sales Professional Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,5b4440f5-61f2-4f98-8991-a0048c3facfe,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,56.6,75.5,TKH-00002
+UNC,20200401,99991231,Dynamics 365 Sales Professional for Faculty,45cf3a0b-260f-45d9-ae91-b82217e03612,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,168.7,225,AAD-34790
+UNC,20200401,99991231,Dynamics 365 Sales Professional for Faculty From SA From VL/DPL,cc879452-32bf-4ac0-b8c1-cd16e72b02c7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,101.2,135,NCW-00003
+UNC,20200401,99991231,Dynamics 365 Sales Professional for Students,8bc28c55-52ea-474a-b732-968a1d6056c8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,122.7,163.6,AAD-34789
+UNC,20200401,99991231,Dynamics 365 Sales Professional for Students From SA From VL/DPL,226c3fe7-fc69-49d1-9651-200bd6a4766a,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,73.6,98.2,NCW-00002
+UNC,20200401,99991231,Dynamics 365 Sales Professional From SA From VL/DPL,91b12d57-0c23-47aa-8c2d-5af59861864e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,184.1,245.4,NCV-00002
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management,2f3a9d62-81a9-4613-94f1-681951f40f25,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,793,1132.8,S2R-00002
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management (36 mo),365b57b9-7acf-4d00-aa33-ee8894ccc3d2,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,793,1132.8,S2R-00008
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer,8c4a874c-016a-48ca-9bc6-829b094aa5e2,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,SAM-00003
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer (36 mo),23d4b0ef-b359-4106-af25-522540f789a6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,SAM-00007
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer (Qualified Offer),13d32e13-a1b0-400d-96c0-4eaaa14dced5,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,66.1,94.4,SAM-00004
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer for Faculty,30765aac-4582-4089-bffa-d8f43183f91f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,72.7,103.8,SAN-00003
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer for Faculty (Qualified Offer),e38dd548-3fe8-49aa-8f64-1aa742c50464,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,36.3,51.9,SAN-00004
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer for Faculty From SA From VL/DPL,b6345364-6e7c-4ea9-a9f1-0abeadbf804d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,43.6,62.3,SUZ-00001
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer for Students,779dfffe-1a99-49b3-b2c0-2aee50492e59,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,52.9,75.5,SAN-00005
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer for Students (Qualified Offer),24e78956-210c-439f-9038-c411c0ac2586,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,26.4,37.8,SAN-00006
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer for Students From SA From VL/DPL,e66651f2-77d5-47bc-a253-80800f7072a9,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,31.7,45.3,SUZ-00002
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management Attach to Qualifying Dynamics 365 Base Offer From SA From VL/DPL,9d5c3c7d-7577-4f96-8070-8ed3ebed5d55,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,79.3,113.3,SAP-00003
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management for Faculty,b63c9f45-fcce-41dc-ab62-519c2262efb7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,436.1,623,S3R-00002
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management for Faculty From SA From VL/DPL,6ec90401-d0e3-4b6f-9452-a2cf673a80cc,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,261.7,373.8,SUX-00001
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management for Students,865d13d6-cc8a-4a59-ae93-667cf226199e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,317.2,453.1,S3R-00003
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management for Students From SA From VL/DPL,24289c55-50e7-43b8-904d-2f2c65aba63d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,190.3,271.9,SUX-00002
+UNC,20200401,99991231,Dynamics 365 Supply Chain Management From SA From VL/DPL,12d6b353-4514-4a03-80ee-2cdc5da84ba8,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,475.8,679.7,S7R-00003
+UNC,20200401,99991231,Dynamics 365 Team Members,b2ccb51a-43c2-47d4-92db-dbf14553a185,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,37.8,50.3,AAD-32951
+UNC,20200401,99991231,Dynamics 365 Team Members (36 mo),5fd83ae6-fb47-444c-a34e-b94e7dc260bb,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,37.8,50.3,AAD-39983
+UNC,20200401,99991231,Dynamics 365 Team Members (Nonprofit Staff Pricing),8f9230ec-b3cd-45c3-8a93-1cc02d3a4ea7,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,11.3,12.6,AAD-32954
+UNC,20200401,99991231,Dynamics 365 Team Members for Faculty,23f296d4-8ac5-470a-8dab-87afc211661b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,20.8,27.7,AAD-32953
+UNC,20200401,99991231,Dynamics 365 Team Members for Faculty From SA From VL/DPL,0e3e1cdd-ec8a-4a37-95d4-7a4c29096dca,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,12.5,16.6,MTU-00006
+UNC,20200401,99991231,Dynamics 365 Team Members for Students,346d6b11-83f6-4a2e-bf2d-7cbfc1b64d85,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,15.1,20.1,AAD-32952
+UNC,20200401,99991231,Dynamics 365 Team Members for Students From SA From VL/DPL,125d8c0d-2bf2-4caf-93bd-92542aa43d19,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,9.1,12.1,MTU-00005
+UNC,20200401,99991231,Dynamics 365 Team Members From SA From VL/DPL,eef12e4c-d38d-4a8f-90cf-47313bb033f0,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,22.7,30.2,MTK-00005
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity,6130626e-bee0-4e76-8abb-e919b0ec9483,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,220.3,314.7,AAA-51231
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity (36 mo),1be1f426-22a5-48bc-8ef1-4d38c71bc655,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,220.3,314.7,AAD-39978
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity for Faculty,1ec83327-72dd-481c-acc4-87ab518d5a00,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,121.1,173.1,AAA-51233
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity for Faculty From SA From VL/DPL,25b1159c-51af-41d9-b036-4c21d5d720bb,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,72.7,103.8,AAA-55219
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity for Students,eca4378b-b97e-4f23-ae73-ef01a63293ed,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,88.1,125.9,AAA-51234
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity for Students From SA From VL/DPL,1f3a4274-16bb-44a4-8246-b2cadf7122c1,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,52.9,75.5,AAA-55220
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Activity From SA From VL/DPL,1fd13474-75a5-4c9b-80a2-fd233c346879,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,132.2,188.8,AAA-55215
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Additional Database Storage (Qualified Offer),ad09ac56-f17b-4e23-9af2-de8f91f75fa9,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,22,31.5,AAA-35218
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Additional Database Storage (Qualified Offer) for Faculty,32147dad-57ec-422c-898a-c8a826ea1454,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,12.1,17.3,AAA-35224
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Additional Database Storage (Qualified Offer) for Students,b761739f-daf3-4feb-96cc-98f93dd3e81e,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,8.8,12.6,AAA-35225
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Additional File Storage (Qualified Offer),0e5bfb17-8c11-49a9-865d-05d4f48a0a35,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,4.4,6.3,AAA-35222
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Additional File Storage (Qualified Offer) for Faculty,53cd62df-0727-45a0-863b-d67f5a0a4e07,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,2.4,3.5,AAA-35226
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Additional File Storage (Qualified Offer) for Students,455d3132-8cca-458c-883b-973ccac98b69,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1.76,2.5,AAA-35227
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Database Capacity,a93e9934-bd2d-4022-8a7f-a3217a50cc1d,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,176.2,251.7,AAD-51841
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Database Capacity (Nonprofits Pricing),1d3f4d81-89b9-419e-a880-31b2c50b8d66,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,158.6,176.2,AAD-51840
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Database Capacity for Education,093e3350-b541-4e57-922b-6d2e707c454b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,123.4,176.2,AAD-51842
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device,16e05c5c-b536-42a0-a26e-d920c267d723,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,472,AAA-67236
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device (36 mo),18c18bc2-82b3-49fd-87ab-ba52b2f8f5d8,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,472,AAD-39979
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device for Faculty,e67fe55c-1e6c-47d7-b8b8-9c7d85c778ff,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,181.7,259.6,AAA-67206
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device for Faculty From SA From VL/DPL,6b1fd750-3ebd-45eb-8dcf-98238de9abd5,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,109,155.8,AAA-67210
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device for Students,16fa20c0-cecd-422d-9cb6-dad535d7ee9f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,132.2,188.8,AAA-67207
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device for Students From SA From VL/DPL,4c950dd5-d871-4c9d-9e7f-8113e74fd677,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,79.3,113.3,AAA-67211
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Device From SA From VL/DPL,0068e30e-0734-4be6-a01f-5ff597bb5647,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,198.2,283.2,AAA-67208
+UNC,20200401,99991231,Dynamics 365 Unified Operations - File Capacity,c8dd48d3-9de3-4ecb-9722-587128c7439a,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,8.8,12.6,AAD-51844
+UNC,20200401,99991231,Dynamics 365 Unified Operations - File Capacity (Nonprofits Pricing),dc173a86-285b-444c-881e-3ece531f67da,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,7.9,8.8,AAD-51843
+UNC,20200401,99991231,Dynamics 365 Unified Operations - File Capacity for Education,da270e3a-6a20-43a8-81d2-2ca319f89f8a,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,6.2,8.8,AAD-51845
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Order Lines,1a5311e2-9236-4e7e-ace6-280581658910,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,2202.7,3146.7,AAD-32990
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Order Lines (Nonprofits Pricing),7dd6b78a-3d53-47f8-8a64-bd84609a9a70,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,1982.4,2202.7,AAD-32992
+UNC,20200401,99991231,Dynamics 365 Unified Operations – Order Lines for Education,5c5e5b36-beb4-4192-8bd4-27a8a644443c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,1541.9,2202.7,AAD-32991
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 1:Developer & Test Instance,ddbae3c0-f883-4823-a1e9-4ffa47ab0c5b,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1872.3,2674.7,AAA-35258
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 1:Developer & Test Instance (36 mo),c392df06-06c8-4c15-8051-27a483b07e71,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1872.3,2674.7,DMM-00004
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 1:Developer & Test Instance for Faculty,79aab72c-6da9-462d-afc0-5ed20091610a,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1029.8,1471.1,AAA-35228
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 2:Standard Acceptance Testing,615cbbc1-0b6c-43fa-99c5-ada5a0965500,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,5947.3,8496.1,AAA-35244
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 2:Standard Acceptance Testing (36 mo),4eb61d13-7291-4c8b-abb3-efd9e02ee594,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,5947.3,8496.1,DMR-00004
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 2:Standard Acceptance Testing for Faculty,f2871ea5-b26e-4a13-8d3a-6a1dda820c72,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,3271,4672.8,AAA-35246
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 3:Premier Acceptance Testing,708b4081-1ae3-4d40-99b9-db75470df408,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,17841.8,25488.3,AAA-35232
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 3:Premier Acceptance Testing (36 mo),b0ca8566-f67e-43f0-9c6b-88f0f890173c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,17841.8,25488.3,DMV-00004
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 3:Premier Acceptance Testing for Faculty,76642878-563b-4b30-9c9a-f7049b853743,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,9813,14018.5,AAA-35248
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 4:Standard Performance Testing,04329f1d-1d37-4445-b426-48dd65d14850,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,34802.5,49717.9,AAA-35254
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 4:Standard Performance Testing (36 mo),10612508-9792-46d6-a13f-e117d365d30a,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,34802.5,49717.9,DMZ-00004
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 4:Standard Performance Testing for Faculty,c7bcf2b6-7558-4013-ac24-5f4db30df525,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,19141.4,27344.8,AAA-35256
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 5:Premier Performance Testing,e49012e8-b9d7-44b3-8134-ee84cf160bc9,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,52864.6,75520.8,AAA-35260
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 5:Premier Performance Testing (36 mo),06e0315f-8649-4860-b5dd-e3719912e3b0,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,52864.6,75520.8,DNK-00004
+UNC,20200401,99991231,Dynamics 365 Unified Operations - Sandbox Tier 5:Premier Performance Testing for Faculty,435f5608-fdf6-4413-a0f1-26b7d2c01cbd,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,29075.5,41536.4,AAA-35264
+UNC,20200401,99991231,Dynamics 365 Virtual Agent for Customer Service,7414a9b1-8947-4ac6-9141-793d139e02d1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,5192.1,6922.7,SYU-00002
+UNC,20200401,99991231,Dynamics 365 Virtual Agent for Customer Service (Nonprofit Staff Pricing),d942f636-ea4b-48b5-9449-295ef457aad7,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,1557.6,1730.7,SYU-00003
+UNC,20200401,99991231,Dynamics 365 Virtual Agent for Customer Service for Faculty,6328d88f-c4d3-4bae-8f39-2abe1c91a57b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,2855.6,3807.5,SYV-00002
+UNC,20200401,99991231,Dynamics 365 Virtual Agent for Customer Service User License,1ff89dde-5eb1-4d30-a09b-2c9ba7e25704,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,0,0,SYW-00002
+UNC,20200401,99991231,Dynamics 365 Virtual Agent for Customer Service User License (Nonprofit Staff Pricing),a57342b3-ea7d-4363-90dc-1d06f4cb3ce4,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,0,0,SYW-00005
+UNC,20200401,99991231,Dynamics 365 Virtual Agent for Customer Service User License for Faculty,e23c9019-8bec-4604-8a12-0233503e3b37,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,0,0,SYX-00003
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Basic,217c6817-fa8a-4cdd-b6e8-ab70b3321d0e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,26432.3,37760.4,UVH-00002
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Basic (36 mo),3e9c1b82-4c4a-4804-9ec0-33197d976c00,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,26432.3,37760.4,UVH-00003
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Basic for Faculty,664c2ff4-18ee-4008-b666-c671fb07d5d5,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,14537.8,20768.2,UVJ-00002
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Basic for Students,d1fb7556-64c0-4a54-b5bd-6822d6ab51aa,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,10572.9,15104.2,UVJ-00003
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Premium,a916dde6-4e63-4228-890e-7ab8c2ba4b77,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,162999.1,232855.8,UVM-00002
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Premium (36 mo),b935e768-3ba7-41fb-8402-3c61da1afca2,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,162999.1,232855.8,UVM-00003
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Premium for Faculty,82afc3dc-ec97-4769-aa05-5183c04b5a6c,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,89649.5,128070.7,UVN-00002
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Premium for Students,3b849e19-39cb-4535-84d4-b65e6d78ef8c,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,65199.6,93142.3,UVN-00003
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Standard,1e8ffded-3de0-46a9-af6d-93730e569f3e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,74891.5,106987.8,UVK-00002
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Standard (36 mo),e8d6185d-cc03-4d23-9aae-da99db8ae903,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,74891.5,106987.8,UVK-00003
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Standard for Faculty,0526ed5b-017c-41cd-a65b-e96f571f0197,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,41190.3,58843.3,UVL-00002
+UNC,20200401,99991231,e-Commerce Cloud Scale Unit Standard for Students,66c6946d-cc6a-407f-98e0-34ff7a977d77,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,29956.6,42795.1,UVL-00003
+UNC,20200401,99991231,e-Commerce Ratings and Reviews,f19876c6-9c51-4e32-a630-b89f04779c90,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,3304,4720.1,UVF-00002
+UNC,20200401,99991231,e-Commerce Ratings and Reviews (36 mo),112cea28-052a-4f0c-b11d-4e8e91a9db5b,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,3304,4720.1,UVF-00003
+UNC,20200401,99991231,e-Commerce Ratings and Reviews for Faculty,c634ece6-f9f6-4fc5-823a-2bcddb3ae9de,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1817.2,2596,UVG-00002
+UNC,20200401,99991231,e-Commerce Ratings and Reviews for Students,34765464-c4ed-4cc6-b365-ef7c56499403,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1321.6,1888,UVG-00003
+UNC,20200401,99991231,e-Commerce Recommendations,1819e476-4a74-4edb-8e49-84da11faf3f1,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,13216.1,18880.2,UV5-00002
+UNC,20200401,99991231,e-Commerce Recommendations (36 mo),2d811536-6819-4b48-89a2-ae3574f29a9f,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,13216.1,18880.2,UV5-00003
+UNC,20200401,99991231,e-Commerce Recommendations for Faculty,5e6ea6e5-631c-4d74-a967-14298d7d30ae,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,7268.9,10384.1,UV9-00002
+UNC,20200401,99991231,e-Commerce Recommendations for Students,6a8420ba-7f8a-44f0-9217-184850a5e1b2,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,5286.5,7552.1,UV9-00003
+UNC,20200401,99991231,e-Commerce Tier 1,0efc67b8-c973-4d46-84aa-60c4f8e8f453,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,22026.9,31467,UUR-00002
+UNC,20200401,99991231,e-Commerce Tier 1 (36 mo),4963653b-b92f-4022-a981-22b4201535f1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,22026.9,31467,UUR-00003
+UNC,20200401,99991231,e-Commerce Tier 1 for Faculty,91c5ad34-593e-4d50-8748-e949510a4896,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,12114.8,17306.9,UUS-00002
+UNC,20200401,99991231,e-Commerce Tier 1 for Students,a4a47d74-cd82-48ec-8752-4772db1cba1b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,8810.8,12586.8,UUS-00003
+UNC,20200401,99991231,e-Commerce Tier 1 Overage,442424b2-2ceb-4600-976d-83dbf6cdc09c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,3524.3,5034.7,UUX-00002
+UNC,20200401,99991231,e-Commerce Tier 1 Overage (36 mo),8e146e70-e9b5-45fc-a622-6610a753238f,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,3524.3,5034.7,UUX-00003
+UNC,20200401,99991231,e-Commerce Tier 1 Overage for Faculty,a24b44fa-b383-46ec-8a1d-f76aa6acae10,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1938.4,2769.1,UUY-00002
+UNC,20200401,99991231,e-Commerce Tier 1 Overage for Students,fc15a221-ef98-4862-aae1-cbd07fdbac44,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1409.7,2013.9,UUY-00003
+UNC,20200401,99991231,e-Commerce Tier 2,4826c6a8-aedb-4c9f-a9ed-71a0b3d766ed,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,63878,91254.3,UUT-00002
+UNC,20200401,99991231,e-Commerce Tier 2 (36 mo),bd19bedd-233c-4499-b58a-918b32ea77ed,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,63878,91254.3,UUT-00003
+UNC,20200401,99991231,e-Commerce Tier 2 for Faculty,d5d5f00b-39ab-4666-9414-defc03ab1941,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,35132.9,50189.9,UUU-00002
+UNC,20200401,99991231,e-Commerce Tier 2 for Students,573ef6fd-ce07-4387-9484-0144cf7d7faf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,25551.2,36501.7,UUU-00003
+UNC,20200401,99991231,e-Commerce Tier 2 Overage,926f8783-0a32-4f52-9fd6-de5cde9b91c1,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2973.6,4248,UUZ-00002
+UNC,20200401,99991231,e-Commerce Tier 2 Overage (36 mo),011b44db-6587-402f-9610-5162a24048ae,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2973.6,4248,UUZ-00003
+UNC,20200401,99991231,e-Commerce Tier 2 Overage for Faculty,739b8ee1-5098-49af-8533-69b3bc05114e,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1635.5,2336.4,UV2-00002
+UNC,20200401,99991231,e-Commerce Tier 2 Overage for Students,ae1d7061-f0ea-4cbc-8893-46912fe28419,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1189.5,1699.2,UV2-00003
+UNC,20200401,99991231,e-Commerce Tier 3,afe718e4-9140-40bc-b5fd-2d0a79cc446d,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,136566.8,195095.4,UUV-00002
+UNC,20200401,99991231,e-Commerce Tier 3 (36 mo),f9a80ccc-dd6d-4547-a283-f27fb937be66,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,136566.8,195095.4,UUV-00003
+UNC,20200401,99991231,e-Commerce Tier 3 for Faculty,c42163a8-2b7b-4be3-9a2b-f2ea14e5baee,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,75111.7,107302.5,UUW-00002
+UNC,20200401,99991231,e-Commerce Tier 3 for Students,783d8e73-a3f6-43ac-af61-e742dcc8025e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,54626.7,78038.2,UUW-00003
+UNC,20200401,99991231,e-Commerce Tier 3 Overage,b028521f-c358-4927-babd-a81c93c429bb,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2423,3461.4,UV3-00002
+UNC,20200401,99991231,e-Commerce Tier 3 Overage (36 mo),cb10e838-b614-45b5-b3c6-0bbf46eb2d2e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,2423,3461.4,UV3-00003
+UNC,20200401,99991231,e-Commerce Tier 3 Overage for Faculty,890e50ba-5166-47dd-8e4a-c9c146f844df,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1332.6,1903.8,UV4-00002
+UNC,20200401,99991231,e-Commerce Tier 3 Overage for Students,f6c0362a-964f-4289-9ed2-e50b03aa4434,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,969.2,1384.5,UV4-00003
+UNC,20200401,99991231,Enterprise Mobility + Security A3 for Faculty,0428d817-bbde-4568-b7c6-04e3cff36246,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,8.9,11.1,AAD-41538
+UNC,20200401,99991231,Enterprise Mobility + Security A3 for Students,5bb4000e-15e2-4910-8ff9-276f95027038,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,8.9,11.1,AAD-41539
+UNC,20200401,99991231,Enterprise Mobility + Security A3 for Students use benefit,bac4634f-7b41-40f1-968f-22fa6596ddd5,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAD-22169
+UNC,20200401,99991231,Enterprise Mobility + Security A5 for Faculty,e4392c9b-a8ec-40d9-aca5-083365b7a56f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,14.9,18.6,AAD-41540
+UNC,20200401,99991231,Enterprise Mobility + Security A5 for Students,2a563bb7-8418-4da1-9008-a8764b0765bf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,14.9,18.6,AAD-41541
+UNC,20200401,99991231,Enterprise Mobility + Security A5 for Students use benefit,b49d90ee-f039-496f-aae7-db91a654e6d7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAD-22170
+UNC,20200401,99991231,Enterprise Mobility + Security E3,79c29af7-3cd0-4a6f-b182-a81e31dec84e,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,44.05,55.07,AAA-11427
+UNC,20200401,99991231,Enterprise Mobility + Security E3 (Nonprofit Staff Pricing),e6409072-4dc4-42e8-92c1-a24abed5d524,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,12.5,13.8,AAD-14493
+UNC,20200401,99991231,Enterprise Mobility + Security E5,37402a1d-0c6e-4d49-baae-0e45bd8ecb44,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,74.5,93.1,AAA-28596
+UNC,20200401,99991231,Enterprise Mobility + Security E5 (Nonprofit Staff Pricing),c785e47b-2991-410d-9f78-885750705678,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,21,23.3,AAD-14494
+UNC,20200401,99991231,Enterprise Mobility + Security E5 Trial,ca299dc5-f84a-49a4-bca7-c93adb4d169e,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAA-67294
+UNC,20200401,99991231,Exchange Online (Plan 1),195416c1-3447-423a-b37b-ee59a99a19c4,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,20.14,25.17,AAA-06228
+UNC,20200401,99991231,Exchange Online (Plan 2),2f707c7c-2433-49a5-a437-9ca7cf40d3eb,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,40.28,50.35,AAA-06245
+UNC,20200401,99991231,Exchange Online Archiving for Exchange Online,2828be95-46ba-4f91-b2fd-0bef192ecf60,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,15.1,18.88,AAA-06247
+UNC,20200401,99991231,Exchange Online Archiving for Exchange Online (Nonprofit Staff Pricing),5a5bd617-7b27-41c7-96f0-37d125f7c47b,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,4.25,4.72,AAD-22156
+UNC,20200401,99991231,Exchange Online Archiving for Exchange Server,c082b70a-0e63-47ca-9cf7-5a962a920452,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,15.1,18.88,AAA-43244
+UNC,20200401,99991231,Exchange Online Kiosk,35a36b80-270a-44bf-9290-00545d350866,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,10.07,12.59,AAA-06232
+UNC,20200401,99991231,Exchange Online Protection,d903a2db-bf6f-4434-83f1-21ba44017813,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,5.03,6.29,AAA-06236
+UNC,20200401,99991231,"Flow Additional Runs per 50,000 for Dyn365 (Qualified Offer)",67f0533a-8c6e-4475-97f7-2491e00820c3,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,201.4,251.7,AAA-38341
+UNC,20200401,99991231,"Flow Additional Runs per 50,000 for Dyn365 (Qualified Offer) for Faculty",7b70ef05-6ecb-4efa-a9c8-e22d77d3a8dd,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,110.8,138.5,AAA-38364
+UNC,20200401,99991231,"Flow Additional Runs per 50,000 for Dyn365 (Qualified Offer) for Students",69c7de26-0c0c-4345-861a-7eba79841890,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,80.6,100.7,AAA-38365
+UNC,20200401,99991231,Forms Pro Addl Responses,caff2897-d629-404a-a241-6b360e979609,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,472,629.3,AAD-63072
+UNC,20200401,99991231,Forms Pro Addl Responses (Nonprofit Staff Pricing),c80e523f-2264-4363-9565-3b9bc4fb1a15,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,141.6,157.3,AAD-63071
+UNC,20200401,99991231,Forms Pro Addl Responses for Education,dcaed43c-2699-4fde-9b72-8d68e2b9bbae,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER EDUCATION,259.6,346.1,AAD-63069
+UNC,20200401,99991231,Intune,51e95709-dc35-4780-9040-22278cb7c0e1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,30.21,37.76,AAA-09972
+UNC,20200401,99991231,Intune Extra Storage,ced5f693-2d40-40ae-8848-9809ab1b0ee9,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,12.59,15.73,AAA-09973
+UNC,20200401,99991231,MDATP for Servers,350158a2-f253-4ea3-988e-eef9d1b828cf,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,26.2,32.7,1NZ-00001
+UNC,20200401,99991231,Meeting Room,2c883339-ef9c-4cce-81b8-e5adea60794c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,94.4,94.4,AAD-34773
+UNC,20200401,99991231,Meeting Room for faculty,ed2b2876-acd0-4658-9f0c-a466762d2b43,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,94.4,94.4,AAD-39820
+UNC,20200401,99991231,Meeting Room for students,78c16119-ba39-4932-9d8b-6a2beceb7249,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,94.4,94.4,AAD-39824
+UNC,20200401,99991231,Meeting Room without Audio Conferencing,112a528e-8700-42f0-876e-f02705d506c6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,75.52,94.4,AAD-34778
+UNC,20200401,99991231,Microsoft 365 A3 for faculty,9c584cf1-8326-4ff4-8a23-0a833ddbcab0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,32.37,40.46,AAA-73019
+UNC,20200401,99991231,Microsoft 365 A3 for students,dd3b57a3-5183-4ff8-9e3c-321f4298b58d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,23.92,29.9,AAA-73020
+UNC,20200401,99991231,Microsoft 365 A3 for students use benefit,10d1f071-0c98-4254-8ca3-5bf13d771e3d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73021
+UNC,20200401,99991231,Microsoft 365 A5 for faculty,2a8fd82d-e805-4af8-a156-3befc8316892,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,60.51,75.64,AAA-73040
+UNC,20200401,99991231,Microsoft 365 A5 for students,e315e15c-cae6-430b-bc3f-e43acb481abc,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,45.03,56.29,AAA-73041
+UNC,20200401,99991231,Microsoft 365 A5 for students use benefit,02e65727-4a55-440a-ae7d-f3ccc6ae0eb7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73042
+UNC,20200401,99991231,Microsoft 365 A5 Security for faculty,75882cce-8629-4026-846a-a981682cb3de,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,16.61,20.77,AAD-50150
+UNC,20200401,99991231,Microsoft 365 A5 Security for student use benefits,d6d9fb41-4766-46f9-8dae-4176f78edad5,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,0,0,AAD-50152
+UNC,20200401,99991231,Microsoft 365 A5 Security for students,4688b9b7-2fcf-47bd-a519-3ff492e5a05b,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,14.1,17.62,AAD-50151
+UNC,20200401,99991231,Microsoft 365 A5 without Audio Conferencing for faculty,7e16efcb-382c-43aa-96b6-0547f5014c4b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,60.51,75.64,AAA-73016
+UNC,20200401,99991231,Microsoft 365 A5 without Audio Conferencing for students,8f69e39d-0739-4a4f-897f-6f5da951ae03,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,45.03,56.29,AAA-73017
+UNC,20200401,99991231,Microsoft 365 A5 without Audio Conferencing for students use benefit,b3ef7432-5581-4b45-95bf-3a51b0d7f296,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73018
+UNC,20200401,99991231,Microsoft 365 Audio Conferencing,c94271d8-b431-4a25-a3c5-a57737a1c909,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,25.17,25.17,AAA-13704
+UNC,20200401,99991231,Microsoft 365 Audio Conferencing (Nonprofit Staff Pricing),22355eb0-b6b6-484d-b856-29be1f011300,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,10.07,10.07,AAD-22154
+UNC,20200401,99991231,Microsoft 365 Audio Conferencing for faculty,061391db-34bc-4aca-bf89-bb7c28aca20b,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,9.44,9.44,AAA-22330
+UNC,20200401,99991231,Microsoft 365 Audio Conferencing for India-based Users,0aa62437-b86a-48bd-ae51-85c8dcec5e6d,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,62.93,62.93,TJ7-00017
+UNC,20200401,99991231,Microsoft 365 Audio Conferencing for students,468e089f-8e8d-41f8-a688-8a91d875269a,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,7.11,7.11,AAA-22331
+UNC,20200401,99991231,Microsoft 365 Business,61795cab-2abd-43f6-88e9-c9adae5746e0,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,100.69,125.87,AAA-55233
+UNC,20200401,99991231,Microsoft 365 Business (Nonprofit Staff Pricing),996ee1ba-d999-497b-8985-8e19f7d3334e,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,28.32,31.47,AAA-99942
+UNC,20200401,99991231,Microsoft 365 Business (Nonprofit Staff Pricing) Donation,17791e70-0de3-4c3c-8589-15525f6f04a1,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,0,0,JKH-00008
+UNC,20200401,99991231,Microsoft 365 Business (Nonprofit Staff Pricing) Trial,132243dd-5860-4eff-ad0e-7d56100ea810,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-39987
+UNC,20200401,99991231,Microsoft 365 Business Trial,0fa9d6b6-5923-4b5d-b16e-b7ef0a69e1b7,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAA-97040
+UNC,20200401,99991231,Microsoft 365 Domestic and International Calling Plan,ded34535-507f-4246-8370-f9180318c537,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,151.04,151.04,AAA-13708
+UNC,20200401,99991231,Microsoft 365 Domestic and International Calling Plan for faculty,492b8a14-381c-4536-bf63-bd5785c14734,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,151.04,151.04,AAA-22336
+UNC,20200401,99991231,Microsoft 365 Domestic and International Calling Plan for students,64ed3fb4-9f46-4e8a-b287-7a3662245c37,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,151.04,151.04,AAA-22337
+UNC,20200401,99991231,Microsoft 365 Domestic Calling Plan,0f598efe-f330-4d79-b79f-c9480bb7ce3e,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,75.52,75.52,AAA-13706
+UNC,20200401,99991231,Microsoft 365 Domestic Calling Plan (120 min),40d28d55-0006-4bb0-8f41-37ac05df5dc7,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,37.76,37.76,AAD-11639
+UNC,20200401,99991231,Microsoft 365 Domestic Calling Plan (120 min) for faculty,80fc6c74-cc94-478d-97b0-8455593a5987,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,37.76,37.76,AAD-11640
+UNC,20200401,99991231,Microsoft 365 Domestic Calling Plan (120 min) for students,353d7f89-2e6f-4deb-9145-80f281a782ab,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,37.76,37.76,AAD-11641
+UNC,20200401,99991231,Microsoft 365 Domestic Calling Plan for faculty,5e8853ed-611c-4f9c-af21-540ba351a636,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,75.52,75.52,AAA-22334
+UNC,20200401,99991231,Microsoft 365 Domestic Calling Plan for students,da2034e1-c147-4aae-afab-9c15acf16ea5,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,75.52,75.52,AAA-22335
+UNC,20200401,99991231,Microsoft 365 E3,2b3b8d2d-10aa-4be4-b5fd-7f2feb0c3091,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,187.47,234.34,AAA-35638
+UNC,20200401,99991231,Microsoft 365 E3 (Nonprofit Staff Pricing),f7ad4eaf-f2ef-42dc-b43c-425ce393435c,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,52.73,58.58,AAA-99949
+UNC,20200401,99991231,Microsoft 365 E5 (Nonprofit Staff Pricing),31bedf01-9e57-4ece-a53a-d3656a563931,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,144.38,160.42,AAA-99950
+UNC,20200401,99991231,Microsoft 365 E5 Security,3be5ad69-83e1-4097-aa42-c0127792d108,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,60.42,75.52,AAD-41519
+UNC,20200401,99991231,Microsoft 365 E5 Security (Nonprofit Staff Pricing),69537b5d-6951-4c69-befb-d699cd47585c,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,27.19,30.21,AAD-41518
+UNC,20200401,99991231,Microsoft 365 E5 without Audio Conferencing,db5e0b1c-9cc3-459c-9d08-c61993959fd3,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,320.84,401.05,AAA-35640
+UNC,20200401,99991231,Microsoft 365 E5 without Audio Conferencing (Nonprofit Staff Pricing),b456810a-c414-4e07-98fc-ef74e8175a09,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,144.38,160.42,AAD-18557
+UNC,20200401,99991231,Microsoft 365 F3,3451a3b0-8cda-44a7-bad7-c30be81c4aaa,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,50.35,62.93,AAA-89898
+UNC,20200401,99991231,Microsoft 365 F3 (Nonprofit Staff Pricing),57b722c2-c435-4bfb-9bc8-80509213a13a,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,14.16,15.73,AAD-11626
+UNC,20200401,99991231,Microsoft 365 Phone System,4260988e-990d-479c-ae7b-f01ce8e1bb4d,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,40.28,50.35,AAA-13628
+UNC,20200401,99991231,Microsoft 365 Phone System - Virtual User,8a93d724-50ef-4293-b4f7-b28536dc3101,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,0,0,QE7-00003
+UNC,20200401,99991231,Microsoft 365 Phone System - Virtual User for faculty,373b99e9-51cd-437b-be03-1988a02f025a,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,0,0,RMT-00002
+UNC,20200401,99991231,Microsoft 365 Phone System - Virtual User for students,f5907f82-b2b8-4637-a827-8460f82e5f67,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,0,0,RMT-00005
+UNC,20200401,99991231,Microsoft 365 Phone System - Virtual User Trial,b9a1d576-43fd-464b-8ad9-4b1eafc5db77,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,QE7-00007
+UNC,20200401,99991231,Microsoft 365 Phone System (Nonprofit Staff Pricing),dd08daa2-bc6a-4bc6-a388-ae36118efca0,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,18.12,20.14,AAD-22162
+UNC,20200401,99991231,Microsoft 365 Phone System for faculty,331e4150-94df-4517-8d5c-9346deea7665,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,15.1,18.88,AAA-22338
+UNC,20200401,99991231,Microsoft 365 Phone System for students,40d1eb22-daeb-4e72-80e9-566375a83b55,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,11.33,14.16,AAA-22339
+UNC,20200401,99991231,Microsoft Cloud App Security,dbd10351-5631-4a01-a643-00e8ff14e7b2,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,17.62,22.03,AAA-13818
+UNC,20200401,99991231,Microsoft Cloud App Security (Nonprofit Staff Pricing),e84ff11d-5865-4849-a72e-44f1d299950c,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,5,5.5,AAD-26751
+UNC,20200401,99991231,Microsoft Cloud App Security for Faculty,d5caf83f-045d-4b7d-987c-dd79d5397cb3,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,3.5,4.4,AAA-97022
+UNC,20200401,99991231,Microsoft Cloud App Security for Students,392f9987-0583-4225-8338-f3c015404c4c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,3.5,4.4,AAA-97023
+UNC,20200401,99991231,Microsoft Defender Advanced Threat Protection,e2dcab13-1365-417a-b624-4901e2b252f5,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,26.2,32.7,QLS-00004
+UNC,20200401,99991231,Microsoft Defender Advanced Threat Protection for Education,1a7a1bcc-c7bf-4c6b-b55d-d79a6e3bb3ee,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,12.7,15.9,QLU-00003
+UNC,20200401,99991231,Microsoft Intune (Nonprofit Staff Pricing),d44d04eb-c509-47d0-817e-3939a9656d43,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,8.5,9.4,AAD-26754
+UNC,20200401,99991231,Microsoft Intune Device,a07b0e52-b12f-4298-94fc-5ddd61362bcc,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,10.1,12.6,AAD-38074
+UNC,20200401,99991231,Microsoft Intune for Education for Faculty,249eaae1-50df-42d0-8d69-ca66d53248b6,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,3.4,4.3,AAA-49355
+UNC,20200401,99991231,Microsoft Intune for Education for Students,eb93319f-34eb-45fd-92bf-6c4bdf63120d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,3.4,4.3,AAA-49356
+UNC,20200401,99991231,Microsoft Intune for Education for Students use benefit,786817ae-58ed-4668-994c-c30fa07e18f5,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAD-41542
+UNC,20200401,99991231,Microsoft Kaizala Pro,bef49b0c-5c65-4703-80b9-4d461b58061d,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,7.6,9.5,AAA-51195
+UNC,20200401,99991231,Microsoft Kaizala Pro for faculty,956f1529-3002-4f64-a136-9b1f410b8a6e,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,1.91,2.39,AAA-51201
+UNC,20200401,99991231,Microsoft Kaizala Pro for students,41bb1122-9ab9-4449-8b6a-28a5a6784821,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-51202
+UNC,20200401,99991231,Microsoft MyAnalytics for faculty,2eb59242-162a-40ac-bb17-5b658bf8a9c1,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,7.55,9.44,AAA-22351
+UNC,20200401,99991231,Microsoft MyAnalytics for students,262a0187-2979-4c1e-909c-4c3094238264,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,5.64,7.05,AAA-22352
+UNC,20200401,99991231,Microsoft Social Engagement Additional 10K Posts,145a2b93-3583-4a9a-8564-bcdc20714651,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,472,629.3,AAA-12603
+UNC,20200401,99991231,Microsoft Social Engagement Additional 10K Posts (10 unit min),cbe22a27-20c4-48ad-b8d2-f41644ddc0b2,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,330.4,440.5,AAA-12604
+UNC,20200401,99991231,Microsoft Social Engagement Additional 10K Posts (100 unit min),d91596ff-b990-4a15-a9f0-704b91db2583,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,188.8,251.7,AAA-12605
+UNC,20200401,99991231,Microsoft Social Engagement Additional 10K Posts (Nonprofit Staff Pricing),f8f344ce-d267-4d7a-bd71-317d93e472ec,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,396.5,440.5,AAD-26749
+UNC,20200401,99991231,Microsoft Social Engagement Additional 10K Posts (Nonprofit Staff Pricing) (10 unit min),a9e8b0f6-c36b-4a18-a9bb-58e771ac277a,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,277.5,308.4,AAD-26756
+UNC,20200401,99991231,Microsoft Social Engagement Additional 10K Posts (Nonprofit Staff Pricing) (100 unit min),70390ad7-b194-46f4-98fd-2b38f7da88be,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,158.6,176.2,AAD-26760
+UNC,20200401,99991231,Microsoft Stream Plan 2 for Office 365 Add-On,7a6cf83d-b4e3-4a2d-ad58-70677698b8a4,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,10.07,12.59,AAA-57836
+UNC,20200401,99991231,Microsoft Stream Plan 2 for Office 365 Add-On (Nonprofit Staff Pricing),3ebba4dc-4a35-4de2-888a-2f5b474f8104,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,4.53,5.03,AAD-22157
+UNC,20200401,99991231,Microsoft Stream Plan 2 for Office 365 Add-On for faculty,cbb7a0ff-cbc5-425f-8051-a1b1f981a924,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,2.52,3.15,AAA-57847
+UNC,20200401,99991231,Microsoft Stream Plan 2 for Office 365 Add-On for students,46f7b110-8370-4f99-a713-94a970160a65,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,1.91,2.39,AAA-57848
+UNC,20200401,99991231,Microsoft Stream Storage Add-On (500 GB),43fce491-76d1-4bcc-b709-8a288786dbae,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,503.47,629.34,AAA-57834
+UNC,20200401,99991231,Microsoft Stream Storage Add-On (500 GB) (Nonprofit Staff Pricing),8876a30b-6c3f-4f90-b161-bba6fb6b16cf,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,226.56,251.74,AAD-22158
+UNC,20200401,99991231,Microsoft Stream Storage Add-On (500 GB) for faculty,ae0515cb-3fdf-4148-903f-146223f9d1fe,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,125.87,157.34,AAA-57827
+UNC,20200401,99991231,Microsoft Stream Storage Add-On (500 GB) for students,0a590a70-13fa-4cf4-996e-7c7da8055491,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,75.52,94.4,AAA-57828
+UNC,20200401,99991231,Microsoft Teams Commercial Cloud (User Initiated) Trial,dd3496ba-a49b-4475-9f40-8c333709ef87,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,QES-00001
+UNC,20200401,99991231,Minecraft: Education Edition (per user),ee10cbd2-7a12-45de-be11-0c2c7c6eeeb1,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,2.2,2.7,AAA-43680
+UNC,20200401,99991231,Office 365 A1 for faculty,512e27aa-19d1-4c38-b2cb-5813375c8201,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,0,0,AAA-13710
+UNC,20200401,99991231,Office 365 A1 for students,c60e9cc5-7339-479e-8003-285f6bd195c7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-13711
+UNC,20200401,99991231,Office 365 A3 for faculty,7eb5101b-b893-4d63-92ca-72df3c71fafc,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,19.04,23.8,AAA-70480
+UNC,20200401,99991231,Office 365 A3 for students,1b6263c0-b8fd-4706-98db-89d2ace5c1bf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,14.65,18.31,AAA-70481
+UNC,20200401,99991231,Office 365 A3 for students use benefit,4ac3982a-b9a0-43bb-9639-4585284702be,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-70482
+UNC,20200401,99991231,Office 365 A5 for faculty,8c484fd0-1f3f-44fb-b6d2-26ca107273f6,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,46.87,58.58,AAA-28298
+UNC,20200401,99991231,Office 365 A5 for students,3891169e-2323-45f7-95c2-4497cda23d1c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,35.15,43.94,AAA-28299
+UNC,20200401,99991231,Office 365 A5 for students use benefit,afa66641-7d3c-4e28-88ac-56c9c0d9f676,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73053
+UNC,20200401,99991231,Office 365 A5 without Audio Conferencing for faculty,a5676fc6-38bb-4f91-9618-81a0c9465a6f,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,46.87,58.58,AAA-28294
+UNC,20200401,99991231,Office 365 A5 without Audio Conferencing for students,0126406e-ff5b-448e-affb-6d253c4c720c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,35.15,43.94,AAA-28295
+UNC,20200401,99991231,Office 365 A5 without Audio Conferencing for students use benefit,77abd8d3-fc66-424b-8626-8d216d4ea52b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73055
+DEL,20200401,99991231,Office 365 Advanced Compliance,6b648c1e-f472-46c0-8379-09f50a3315e0,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,40.28,50.35,AAA-13634
+DEL,20200401,99991231,Office 365 Advanced Compliance (Nonprofit Staff Pricing),e6860eee-5288-46ec-811b-d8900785fc90,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,18.12,20.14,AAD-22159
+DEL,20200401,99991231,Office 365 Advanced Compliance for faculty,4d1f0e32-0972-499c-b1fc-673576d54f12,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,12.59,15.73,AAA-22349
+DEL,20200401,99991231,Office 365 Advanced Compliance for students,4d30d083-68d4-454d-9fc0-8fd42281564b,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,10.82,13.53,AAA-22350
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 1),a2706f86-868d-4048-989b-0c69e5c76b63,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,10.07,12.59,AAA-13198
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 1) (Nonprofit Staff Pricing),9b7e5904-c73f-4d26-bc83-ad5b7f21409b,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,4.53,5.03,AAD-22155
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 1) for faculty,a9d8546b-4e19-4d08-b8e2-6814f2c2d8b1,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,7.05,8.81,AAA-22347
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 1) for students,8723dbc7-4782-464f-95d8-7ffe5be9c752,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,3.52,4.41,AAA-22348
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 1) for students use benefit,f1b34991-6b4b-4e77-9126-a42d75eb72c6,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,0,0,AAA-73059
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 2),efe1183a-8fa0-4138-bf0a-5ae271ab6e3c,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,25.17,31.47,AAA-56718
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 2) (Nonprofit Staff Pricing),7d45eccd-b3b5-46cd-981f-4b0ab4597255,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,11.33,12.59,AAD-22161
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 2) for faculty,f8aa0b4e-0799-4149-8dbc-b6105b5b4209,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,11.08,13.85,AAA-51206
+UNC,20200401,99991231,Office 365 Advanced Threat Protection (Plan 2) for students,5fd2b092-f47a-44c2-a79f-b3208bba335b,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,7.55,9.44,AAA-51207
+UNC,20200401,99991231,Office 365 Business,5c9fd4cc-edce-44a8-8e91-07df09744609,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,52.6,65.75,AAA-10635
+UNC,20200401,99991231,Office 365 Business Essentials,bd938f12-058f-4927-bba3-ae36b1d2501c,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25.17,31.47,AAA-10624
+UNC,20200401,99991231,Office 365 Business Essentials (Nonprofit Staff Pricing),5392a891-cf7a-47c2-abf2-e9d131cad575,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,0,0,AAA-99928
+UNC,20200401,99991231,Office 365 Business Premium,031c9e47-4802-4248-838e-778fb1d2cc05,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,62.93,78.67,AAA-10647
+UNC,20200401,99991231,Office 365 Business Premium (Nonprofit Staff Pricing),12fa4fd4-8283-42f1-9876-321c98c74962,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,16.99,18.88,AAA-99930
+UNC,20200401,99991231,Office 365 Business Premium (Nonprofit Staff Pricing) Trial,363d36c2-89d5-40d4-865f-f90895f0959d,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-40006
+UNC,20200401,99991231,Office 365 Business Premium Trial,c0bd2e08-11ac-4836-bdc7-3712e744922f,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAA-97797
+UNC,20200401,99991231,Office 365 Data Loss Prevention,4833683a-1e4a-4816-80cf-25238184b8c4,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,15.1,18.88,AAD-26785
+UNC,20200401,99991231,Office 365 E1,91fd106f-4b2c-4938-95ac-f54f74e9a239,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,40.28,50.35,AAA-06229
+UNC,20200401,99991231,Office 365 E1 (Nonprofit Staff Pricing),83dca3b9-3d6c-4547-8c5f-ba1f69b130f8,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,0,0,AAA-99925
+UNC,20200401,99991231,Office 365 E1 (Nonprofit Staff Pricing) - Volunteer,f94de68e-f907-471f-b8d3-37ebacbe8ff6,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,11.33,12.59,AAD-32714
+UNC,20200401,99991231,Office 365 E1 Trial,c0c1386f-4a95-466b-8974-cefd71414def,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,T6A-00094
+UNC,20200401,99991231,Office 365 E3,796b6b5f-613c-4e24-a17c-eba730d49c02,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,117.17,146.46,AAA-06227
+UNC,20200401,99991231,Office 365 E3 (Nonprofit Staff Pricing),d27f14df-aece-49bd-b769-d4e28a24963e,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,29.66,32.95,AAA-99924
+UNC,20200401,99991231,Office 365 E3 (Nonprofit Staff Pricing) Trial,1a6e8918-d2b2-432d-83a6-68c16c5d408e,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-40010
+UNC,20200401,99991231,Office 365 E3 Trial,32b23c88-949f-4e5b-b500-a87eec676b80,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAA-67274
+UNC,20200401,99991231,Office 365 E5,a044b16a-1861-4308-8086-a3a3b506fac2,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,205.44,256.31,AAA-25267
+UNC,20200401,99991231,Office 365 E5 (Nonprofit Staff Pricing),ce139fe5-8bd5-47ed-a5be-07c286f8b9e0,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,92.27,102.52,AAA-99926
+UNC,20200401,99991231,Office 365 E5 (Nonprofit Staff Pricing) Trial,2f192efe-608a-4c9c-9d19-2b0b70b0962e,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-40011
+UNC,20200401,99991231,Office 365 E5 Trial,64168b63-4bcc-41e0-b5cb-7dc548977620,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAA-67284
+UNC,20200401,99991231,Office 365 E5 without Audio Conferencing,02c07b64-2cd3-4667-b014-561192fc5d1a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,205.04,256.31,AAA-28296
+UNC,20200401,99991231,Office 365 E5 without Audio Conferencing (Nonprofit Staff Pricing),c3897426-9f49-4eaf-9b4d-7d9a1c72aef7,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,92.27,102.52,AAD-38079
+UNC,20200401,99991231,Office 365 E5 without Audio Conferencing Trial,96d36e53-7e42-4ca3-ae96-bd20e3098d8d,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAA-67285
+UNC,20200401,99991231,Office 365 Extra File Storage,53fc25f7-6639-4f78-bb44-3c2dfec3ed40,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,1.01,1.26,AAA-06246
+UNC,20200401,99991231,Office 365 Extra File Storage (Nonprofit Staff Pricing),b4155b38-a577-446c-bd1f-ff567f4c6780,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,1.006944,1.26,AAD-22160
+UNC,20200401,99991231,Office 365 Extra File Storage for faculty,9c460dc3-4470-4ea6-afbd-27769b2ebef4,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,1.01,1.26,AAD-25683
+UNC,20200401,99991231,Office 365 F3,6fbad345-b7de-42a6-b6ab-79b363d0b371,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,20.14,25.17,AAA-06231
+UNC,20200401,99991231,Office 365 F3 (Nonprofit Staff Pricing) - Volunteer,1be45d17-9d72-498d-992c-5868b996c1a1,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,5.66,6.29,AAD-32715
+UNC,20200401,99991231,Office 365 ProPlus,be57ff4c-100c-4f1f-b82d-f1c5ab63a665,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,76.51,95.64,AAA-06244
+UNC,20200401,99991231,Office 365 ProPlus (Nonprofit Staff Pricing),e9251d03-0fe3-42d7-847a-c2fe1c84542e,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,21.52,23.91,AAA-99931
+UNC,20200401,99991231,Office 365 ProPlus (Nonprofit Staff Pricing) Trial,363e3099-5db7-43ff-8f2a-c14557589288,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-40013
+UNC,20200401,99991231,Office 365 ProPlus for faculty,35eb491f-5484-496e-978b-f349eed3c699,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,14.35,17.93,AAA-13714
+UNC,20200401,99991231,Office 365 ProPlus for students,5699c6f3-cc7a-4212-9042-8f85ce30f4e0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,11.16,13.95,AAA-13715
+UNC,20200401,99991231,Office 365 ProPlus for students use benefit,5c25bdb6-b261-4dc2-a60f-a062be73d031,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73057
+UNC,20200401,99991231,OneDrive for Business (Plan 1),90d3615e-aa96-478e-b6ce-8eb1e9a96b4b,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25.17,31.47,AAA-06238
+UNC,20200401,99991231,OneDrive for Business (Plan 2),bf1f6907-1f8e-4f05-b327-4896d1395c15,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,50.35,62.93,AAA-13169
+UNC,20200401,99991231,Power Apps and Power Automate capacity add-on,e1791e24-a789-4e17-b7fa-4a627f8f9088,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,236,314.7,SEW-00003
+UNC,20200401,99991231,Power Apps and Power Automate capacity add-on (Nonprofit Staff Pricing),bb293111-3a10-4cdf-ad80-3afc24f41524,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,198.2,220.3,SEW-00002
+UNC,20200401,99991231,Power Apps and Power Automate capacity add-on for Faculty,c13042ec-74ee-438a-80e7-c9ff71406c9c,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,165.2,220.3,SEX-00002
+UNC,20200401,99991231,Power Apps per app plan,5e1087b6-246b-4503-b88a-b60bdf0b3840,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,47.2,62.9,SEQ-00002
+UNC,20200401,99991231,Power Apps per app plan (Nonprofit Staff Pricing),7458496e-00e9-4e15-b3f7-995be161d2bf,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,14.2,15.7,SEQ-00003
+UNC,20200401,99991231,Power Apps per app plan for Faculty,ba78b3f1-4142-41df-a7d9-b8450370f711,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,26,34.6,SER-00002
+UNC,20200401,99991231,Power Apps per app plan for Students,e1f379e8-cf22-4a7d-97fd-dcf9d62fc132,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,18.9,25.2,SER-00004
+UNC,20200401,99991231,Power Apps per user plan,c52cea5e-b1fd-4f8d-b3a1-8135fb144e78,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,188.8,251.7,SEJ-00003
+UNC,20200401,99991231,Power Apps per user plan (Nonprofit Staff Pricing),17a067a0-8ac7-4c70-8ea6-e69a16e5f463,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,56.6,62.9,SEJ-00004
+UNC,20200401,99991231,Power Apps per user plan for Faculty,bb94a81e-661e-430c-8a7e-41fe0df940ae,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,103.8,138.5,SEK-00002
+UNC,20200401,99991231,Power Apps per user plan for Students,ab638b5e-e058-4ce7-a174-5bbc76504512,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,75.5,100.7,SEK-00003
+UNC,20200401,99991231,Power Apps Portals login capacity add-on,09d13345-8342-4270-acbd-563c5fd619d9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,944,1258.7,SDW-00002
+UNC,20200401,99991231,Power Apps Portals login capacity add-on (Nonprofit Staff Pricing),be0f84aa-4315-46ee-87f7-cfb9d89fde42,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,793,881.1,SDW-00003
+UNC,20200401,99991231,Power Apps Portals login capacity add-on for Faculty,becdef92-fad2-4a26-9895-b2d12a586218,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,660.8,881.1,SDX-00002
+UNC,20200401,99991231,Power Apps Portals login capacity add-on Tier 2 (10 unit min),2f558d61-fe7e-4379-a6df-23a7dce95b00,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,472,629.3,TKP-00002
+UNC,20200401,99991231,Power Apps Portals login capacity add-on Tier 2 (10 unit min) (Nonprofit Staff Pricing),5a539265-c723-4025-a760-e5b60cdadb0b,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,396.5,440.5,TKP-00003
+UNC,20200401,99991231,Power Apps Portals login capacity add-on Tier 2 (10 unit min) for Faculty,14630cc6-93cd-41db-9412-ad528bd7b4d1,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,330.4,440.5,TKQ-00002
+UNC,20200401,99991231,Power Apps Portals login capacity add-on Tier 3 (50 unit min),c192bc67-a299-4e47-bd28-9c0ec43bcfc6,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,330.4,440.5,TKV-00001
+UNC,20200401,99991231,Power Apps Portals login capacity add-on Tier 3 (50 unit min) (Nonprofit Staff Pricing),92dbd7cc-4927-4d60-be8d-e55180d7abb1,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,277.5,308.4,TKV-00002
+UNC,20200401,99991231,Power Apps Portals login capacity add-on Tier 3 (50 unit min) for Faculty,dea59872-beae-4433-af84-5a95d89db997,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,231.3,308.4,TKW-00001
+UNC,20200401,99991231,Power Apps Portals page view capacity add-on,eb3da7ca-a676-415e-8064-039e49edefb9,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,472,629.3,SE5-00003
+UNC,20200401,99991231,Power Apps Portals page view capacity add-on (Nonprofit Staff Pricing),c205104d-f703-4395-9fd8-9f5c401dc035,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,396.5,440.5,SE5-00002
+UNC,20200401,99991231,Power Apps Portals page view capacity add-on for Faculty,08dcbd7c-464b-4ca5-9c83-33ae62661fdf,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,330.4,440.5,SE6-00002
+UNC,20200401,99991231,"Power Automate Additional Runs per 50,000 (Qualified Offer)",38eebb1f-d330-4120-b44d-aae6ccf8d6ae,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,201.4,251.7,AAA-38176
+UNC,20200401,99991231,"Power Automate Additional Runs per 50,000 (Qualified Offer) (Nonprofit Staff Pricing)",e1d2dae8-e3e2-4bc9-9dd1-1792913c8a4e,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,90.6,100.7,F7A-00002
+UNC,20200401,99991231,"Power Automate Additional Runs per 50,000 (Qualified Offer) for Faculty",8f2bd36e-3c37-4cf0-9a80-f4f9e6b767cb,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,110.8,138.5,AAA-38177
+UNC,20200401,99991231,"Power Automate Additional Runs per 50,000 (Qualified Offer) for Students",d753be82-d35b-4012-a3cf-703db48047ea,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,80.6,100.7,AAA-38178
+UNC,20200401,99991231,Power Automate per business process plan,608fc9e1-b714-4add-9362-6cad036fbabf,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,472,629.3,SFJ-00002
+UNC,20200401,99991231,Power Automate per business process plan (Nonprofit Staff Pricing),51122815-8ddd-4cfb-b4a2-05e02b225651,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,141.6,157.3,SFJ-00003
+UNC,20200401,99991231,Power Automate per business process plan for Faculty,62f8b708-d323-4108-aaeb-3ef5fbd4b14a,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,259.6,346.1,SFK-00002
+UNC,20200401,99991231,Power Automate per user plan,80dd3bcb-55da-4e4d-906c-9b11cd0a1ec1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,70.8,94.4,SPU-00003
+UNC,20200401,99991231,Power Automate per user plan (Nonprofit Staff Pricing),ee208072-fff2-4610-9796-92de118b379c,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,21.2,23.6,SPU-00004
+UNC,20200401,99991231,Power Automate per user plan for Faculty,4904821b-aa19-41c1-9674-1d20fe980eb9,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,38.9,51.9,SFQ-00002
+UNC,20200401,99991231,Power Automate per user plan for Students,b5926275-371c-43b9-bac8-45a408a0f0dd,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,28.3,37.8,SFQ-00003
+UNC,20200401,99991231,Power BI Premium EM3 (Nonprofit Staff Pricing),80291b0d-8b10-48e5-9c0e-25e212c3c501,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,5652.7,6280.8,AAD-14495
+UNC,20200401,99991231,Power BI Premium P1,47490014-3ed5-4a67-937e-c7de2422d888,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25148.4,31435.5,AAA-55172
+UNC,20200401,99991231,Power BI Premium P1 (Nonprofit Staff Pricing),56943ffe-ba3f-48d8-9b4a-a9915a065086,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,11316.8,12574.2,AAD-14496
+UNC,20200401,99991231,Power BI Premium P1 for Faculty,4ebcded4-77ce-43c2-a282-644390ba79c7,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,10059.4,12574.2,AAA-55150
+UNC,20200401,99991231,Power BI Premium P1 for Students,3d42385f-10bd-4230-bee1-2189565224b8,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,10059.4,12574.2,AAA-55151
+UNC,20200401,99991231,Power BI Premium P2,4daeed88-7f6e-4210-b7d9-50e0853c9e4f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,50322,62902.5,AAA-55137
+UNC,20200401,99991231,Power BI Premium P2 (Nonprofit Staff Pricing),98947759-4d95-484d-ad08-ace0fcd1efe7,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,22644.9,25161,AAD-14497
+UNC,20200401,99991231,Power BI Premium P2 for Faculty,457b704a-5f90-49e0-be43-1b2124b2dd02,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,20128.8,25161,AAA-55154
+UNC,20200401,99991231,Power BI Premium P2 for Students,cd7967ef-4c48-484c-a539-7dc876d61e88,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,20128.8,25161,AAA-55155
+UNC,20200401,99991231,Power BI Premium P3,30a0221f-6b2d-4c3c-93d9-c76e3b409d1f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,100669.2,125836.5,AAA-55142
+UNC,20200401,99991231,Power BI Premium P3 (Nonprofit Staff Pricing),09af5285-c8a8-4aa9-ab6e-b6aaeb60a76e,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,45301.2,50334.6,AAD-14498
+UNC,20200401,99991231,Power BI Premium P3 for Faculty,cfe79d8a-1948-4b68-b867-e53b771aaea0,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,40267.7,50334.6,AAA-55158
+UNC,20200401,99991231,Power BI Premium P3 for Students,f17c5ab1-86b4-4d0d-9807-478c24576384,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,40267.7,50334.6,AAA-55159
+UNC,20200401,99991231,Power BI Premium P4,771c2453-e28a-47ff-ad72-5e32696f2435,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,201363.6,251704.5,AAD-11493
+UNC,20200401,99991231,Power BI Premium P5,ea1938b1-6307-4749-ac97-37df8ab660ef,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,402752.4,503440.5,AAD-11495
+UNC,20200401,99991231,Power BI Pro,800f4f3b-cfe1-42c1-9cea-675512810488,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,50.35,62.93,AAA-13173
+UNC,20200401,99991231,Power BI Pro (Nonprofit Staff Pricing),cabdfc93-5786-4224-bfd3-35d58f833b35,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,17,18.9,AAD-14499
+UNC,20200401,99991231,Power BI Pro for faculty,98fa9c4d-ef56-4480-86cb-b10d49effa73,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,11.33,14.16,AAA-22340
+UNC,20200401,99991231,Power BI Pro for students,15a38d13-62c6-48a0-a752-aea1627cb00b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,6.29,7.87,AAA-22341
+UNC,20200401,99991231,Power Virtual Agent,49e52fb1-a134-4f49-9346-fd59b53421bc,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,4720.1,6293.4,RYT-00002
+UNC,20200401,99991231,Power Virtual Agent (Nonprofit Staff Pricing),3c47b9e4-1562-4cd6-8675-ccb09a2a2464,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,1416,1573.4,RYT-00003
+UNC,20200401,99991231,Power Virtual Agent for Faculty,f2769835-068a-44ba-b1d1-63752bf26a7b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,2596,3461.4,RYU-00002
+UNC,20200401,99991231,Power Virtual Agent User License,59e76752-1a2c-45fb-a6b2-0f2113e94ab7,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,0,0,SYS-00002
+UNC,20200401,99991231,Power Virtual Agent User License (Nonprofit Staff Pricing),a26c1455-9923-47bb-888d-293418f3d3cd,Charity,1 Month(s),ADDON,CLOUD RESELLER CHARITY,0,0,SYS-00006
+UNC,20200401,99991231,Power Virtual Agent User License for Faculty,157ce909-2b07-4c98-9d99-5e13b46c1ffd,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,0,0,SYT-00003
+UNC,20200401,99991231,Pro Direct Support for Dynamics 365 Unified Operations,09dc6202-bfbb-44fb-9c87-b12c90084010,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,39.6,56.6,AAA-42982
+UNC,20200401,99991231,Pro Direct Support for Dynamics 365 Unified Operations for Faculty,c3b23a21-76e2-46e7-ae4f-60e1bdb96bea,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,21.8,31.2,AAA-42986
+UNC,20200401,99991231,Pro Direct Support for Dynamics 365 Unified Operations for Students,1835808d-06a2-42c5-9f09-82c2e7ed5c72,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,15.9,22.7,AAA-42987
+UNC,20200401,99991231,Project Online Essentials,a4179d30-cc09-49f0-977e-dc2cb70b874f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,35.24,44.05,AAA-10880
+UNC,20200401,99991231,Project Online Essentials (Nonprofit Staff Pricing),9d205dfa-85be-4d4c-a9e1-90a0060fc160,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,15.86,17.62,AAA-99937
+UNC,20200401,99991231,Project Online Essentials for faculty,30c8f784-8eb9-46e6-bf69-a8fae07022e4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,0,0,AAA-73024
+UNC,20200401,99991231,Project Online Essentials for students,ec0a7046-93d5-40e0-bc61-bcb0276c14e4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73025
+UNC,20200401,99991231,Project Plan 1,d83bfd97-d3e5-41b6-866b-05fa30d2102a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,50.35,62.93,TRS-00003
+UNC,20200401,99991231,Project Plan 1 Trial,2449d109-63a2-45d6-8223-c43547148343,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,TRS-00007
+UNC,20200401,99991231,Project Plan 3,a56baa74-d4e3-49fd-b228-ca0b62d08bad,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,151.04,188.8,AAA-25215
+UNC,20200401,99991231,Project Plan 3 (Nonprofit Staff Pricing),10a5330e-4ebc-4041-97a4-1bd3cb3557bb,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,67.97,75.52,AAD-11489
+UNC,20200401,99991231,Project Plan 3 for faculty,a3a8a723-99a2-4129-bc40-046e6768f7a3,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,30.21,37.76,AAA-97096
+UNC,20200401,99991231,Project Plan 3 for students,7754c541-7881-4f61-a3fb-fd2cf6840143,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,22.66,28.32,AAA-97097
+UNC,20200401,99991231,Project Plan 5,d85c8762-22e4-44c0-97fe-27ed3fc4e61a,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,276.91,346.14,AAA-25217
+UNC,20200401,99991231,Project Plan 5 (Nonprofit Staff Pricing),c78388f6-8d97-4ca9-9ae8-0be7d43439cb,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,124.61,138.45,AAA-99939
+UNC,20200401,99991231,Project Plan 5 for faculty,ab1dfb9d-a3a3-465a-b460-1593c005803a,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,55.38,69.23,AAA-97098
+UNC,20200401,99991231,Project Plan 5 for students,f02bef2c-7ee2-41ec-af7f-1f409396c052,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,42.8,53.49,AAA-97099
+UNC,20200401,99991231,SharePoint Online (Plan 1),ff7a4f5b-4973-4241-8c43-80f2be39311d,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25.17,31.47,AAA-06241
+UNC,20200401,99991231,SharePoint Online (Plan 2),69c67983-cf78-4102-83f6-3e5fd246864f,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,50.35,62.93,AAA-06240
+UNC,20200401,99991231,Skype for Business Plus CAL,fc233c3f-25bc-4bba-8984-860ce561af86,Corporate,1 Month(s),ADDON,CLOUD RESELLER CORPORATE,10.07,12.59,AAA-13636
+UNC,20200401,99991231,Skype for Business Plus CAL for faculty,8637b090-a710-44e8-96ec-230e0c7f1e19,Academic,1 Month(s),ADDON,CLOUD RESELLER FACULTY,7.55,9.44,AAA-51203
+UNC,20200401,99991231,Skype for Business Plus CAL for students,17853361-4de9-487f-b897-ac65b9e508a3,Academic,1 Month(s),ADDON,CLOUD RESELLER STUDENT,2.52,3.15,AAA-51204
+UNC,20200401,99991231,Visio Plan 1,3f22d04e-9353-46c1-bf48-b6b0c0a55a66,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,25.17,31.47,AAA-89985
+UNC,20200401,99991231,Visio Plan 1 (Nonprofit Staff Pricing),afd5448d-067c-4f1a-b145-e6dbe171d534,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,11.33,12.59,AAA-99933
+UNC,20200401,99991231,Visio Plan 1 (Nonprofit Staff Pricing) Trial,26817df4-e421-4138-a03a-17078e974dec,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-40014
+UNC,20200401,99991231,Visio Plan 1 for faculty,06312e72-b89a-42ad-bd9a-b13c72b16526,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,5.03,6.29,AAA-89987
+UNC,20200401,99991231,Visio Plan 1 for students,7c1c021e-87d7-454f-bed7-27590555409b,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,3.78,4.72,AAA-89989
+UNC,20200401,99991231,Visio Plan 2,b4d4b7f4-4089-43b6-9c44-de97b760fb11,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,75.52,94.4,AAA-10876
+UNC,20200401,99991231,Visio Plan 2 (Nonprofit Staff Pricing),9309e59f-c199-4a2b-9fd4-bc3ea0adfdea,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,33.98,37.76,AAA-99935
+UNC,20200401,99991231,Visio Plan 2 (Nonprofit Staff Pricing) Trial,93799de4-121a-40f7-93f3-915e3d9d4756,Charity,1 Month(s),TRIAL,CLOUD RESELLER CHARITY,0,0,AAD-40015
+UNC,20200401,99991231,Visio Plan 2 for faculty,0198ee56-db84-4f71-a798-f5a497ce20d6,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,11.08,13.85,AAA-73022
+UNC,20200401,99991231,Visio Plan 2 for students,37b24fc8-36d6-48ff-b7cd-19734aac6095,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,8.56,10.7,AAA-73023
+UNC,20200401,99991231,Windows 10 Enterprise A3 for faculty,bec91cbf-3677-41e3-afb8-bf98db7b9bd4,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,11.1,13.8,AAA-72983
+UNC,20200401,99991231,Windows 10 Enterprise A3 for students,10a0470d-fbd4-4a4c-9075-89af0c24414d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,8.1,10.1,AAA-72984
+UNC,20200401,99991231,Windows 10 Enterprise A3 for students use benefit,8cdbe291-86ee-47ca-8199-dfc107f8a282,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73051
+UNC,20200401,99991231,Windows 10 Enterprise A5 for faculty,eaf7db4c-b6af-403d-a865-ea289b4fa306,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER FACULTY,36.9,46.1,AAA-72985
+UNC,20200401,99991231,Windows 10 Enterprise A5 for student use benefits,4cf9ea2f-7e2e-43fc-8513-190127fc3573,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,0,0,AAA-73052
+UNC,20200401,99991231,Windows 10 Enterprise A5 for students,989e13aa-09c2-4e61-8b9f-0d52bb7ca53d,Academic,1 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,33.4,41.7,AAA-72986
+UNC,20200401,99991231,Windows 10 Enterprise E3,39504991-553b-48c2-bdf4-ea47f93bf784,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,35.2,44.1,AAA-68730
+UNC,20200401,99991231,Windows 10 Enterprise E3 (Nonprofit Staff Pricing),44b9624e-839f-4b0d-ae3e-70a30fbaffdb,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,9.9,11,AAD-11486
+UNC,20200401,99991231,Windows 10 Enterprise E3 Trial,35a40a91-9033-4ca2-b31f-ea6b56894a98,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAD-32756
+UNC,20200401,99991231,Windows 10 Enterprise E3 VDA,4b608b64-3a27-4373-854c-fd33115a8ce1,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,77.1,96.4,AAA-68732
+UNC,20200401,99991231,Windows 10 Enterprise E5,f2c42110-ec7b-4434-b55e-1a9e456ac2f0,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,66.1,80.6,AAA-68731
+UNC,20200401,99991231,Windows 10 Enterprise E5 (Nonprofit Staff Pricing),7dde3332-4f9f-481b-9256-54e34d6f935a,Charity,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CHARITY,21.7,24.2,AAD-11488
+UNC,20200401,99991231,Microsoft 365 E5,8bdbb60b-e526-43e9-92ef-ab760c8e0b72,Corporate,1 Month(s),NON-SPECIFIC,CLOUD RESELLER CORPORATE,321.24,401.05,AAA-35704
+UNC,20200401,99991231,Microsoft 365 A1,778a4dce-0014-4d53-8647-314ef2b091d2,Academic,72 Month(s),NON-SPECIFIC,CLOUD RESELLER STUDENT,126,156,AAA-99945
+UNC,20200401,99991231,Office 365 A1 for faculty (for Device),0757d14e-7c57-456f-8dab-47d164f2ff1f,Academic,72 Month(s),ADDON,CLOUD RESELLER FACULTY,0,0,AAA-99946
+UNC,20200401,99991231,Office 365 A1 for students (for Device),bae285a9-d56b-4384-b02f-38adc61a6f12,Academic,72 Month(s),ADDON,CLOUD RESELLER STUDENT,0,0,AAA-99947
+UNC,20200401,99991231,Dynamics 365 Remote Assist Attach Trial,7ce81df9-f10c-49a3-843d-e9de6fdc779f,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,SRG-00004
+UNC,20200401,99991231,Dynamics 365 Remote Assist Trial,545484f9-1c3e-426d-a387-0aa029146443,Corporate,1 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,AAD-29592
+UNC,20200401,99991231,Dynamics 365 Business Central Device (36 mo),37368025-c585-4597-a27a-f044fea667d6,Corporate,36 Month(s),TRIAL,CLOUD RESELLER CORPORATE,0,0,L2T-00003

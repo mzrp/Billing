@@ -1,0 +1,265 @@
+Customer,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+Hi3G Denmark ApS,Azure plan - Azure plan - new 11/22/2021-12/31/9999  November   ,0,0,6.4154,1.00,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  11/1/2021-11/30/2021  November   ,0,2.76,6.4154,1.50,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.06,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,1.29,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,3.68,15.00,0.00,0.01,0.01
+Hi3G Denmark ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0.64,0.015,6.4154,6.88,15.00,0.09,0.65,0.14
+Hi3G Denmark ApS,Functions - Functions - new 11/1/2021-11/30/2021  November   ,0,0.000016,6.4154,3553.93,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,0.01,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.0015,6.4154,3.07,15.00,0.01,0.03,0.03
+Hi3G Denmark ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,0.54,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.06,6.4154,0.01,15.00,0.38,0.00,0.00
+Hi3G Denmark ApS,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - new  11/1/2021-11/30/2021  November   ,90.69,0.1,6.4154,133.17,15.00,0.63,83.51,10.96
+Hi3G Denmark ApS,Functions - Functions - new 11/1/2021-11/30/2021  November   ,0,0.000002,6.4154,9744.00,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.25,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.01,15.00,0.28,0.00,0.00
+Hi3G Denmark ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,27.30,15.00,0.00,0.06,0.06
+Hi3G Denmark ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0.08,0.0015,6.4154,13.20,15.00,0.01,0.12,0.06
+Hi3G Denmark ApS,SQL Database Single Standard - SQL Database Single Standard - S0 - new  11/1/2021-11/30/2021  November   ,24.85,0.4839,6.4154,7.54,15.00,3.03,22.89,3.01
+GoWingu ApS,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P1 v2 - EU North - new  11/1/2021-11/30/2021  November   ,981.55,0.2,6.4154,720.00,0.00,1.09,785.24,0.00
+GoWingu ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,7.45,0.087,6.4154,12.64,0.00,0.47,6.00,0.04
+GoWingu ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,4.52,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,10.00,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,47.15,0.024,6.4154,288.63,0.00,0.13,37.77,0.05
+GoWingu ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.44,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.01,0.00,0.00,0.00,0.00
+GoWingu ApS,SQL Database Single Standard - SQL Database Single Standard - S0 - new  11/1/2021-11/30/2021  November   ,197.75,0.4839,6.4154,59.96,0.00,2.64,158.22,0.02
+GoWingu ApS,Azure Database for MySQL Single Server Basic - Compute Gen5 - Azure Database for MySQL Single Server Basic - Compute Gen5 - 1 vCore - EU North - new  11/1/2021-11/30/2021  November   ,178.59,0.0364,6.4154,720.00,0.00,0.20,142.91,0.04
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,2.18,0.00,0.00,0.00,0.00
+GoWingu ApS,SQL Database - LTR Backup Storage - SQL Database - LTR Backup Storage - RA-GRS - EU North - new  11/1/2021-11/30/2021  November   ,0.15,0.055,6.4154,0.43,0.00,0.30,0.13,0.01
+GoWingu ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,5.00,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure Database for MySQL Single Server - Backup Storage - Azure Database for MySQL Single Server - Backup Storage - LRS - EU North - new  11/1/2021-11/30/2021  November   ,26.46,0.11,6.4154,35.31,0.00,0.60,21.18,0.01
+GoWingu ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  11/1/2021-11/30/2021  November   ,0,2.76,6.4154,0.76,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.02,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure Database for MySQL Single Server Basic - Storage - Azure Database for MySQL Single Server Basic - Storage - EU North - new  11/1/2021-11/30/2021  November   ,7.21,0.11,6.4154,9.68,0.00,0.60,5.80,0.03
+GoWingu ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.00,0.00,0.25,0.00,0.00
+CTGlobal,Azure Monitor - Azure Monitor - Alerts - new 11/1/2021-11/30/2021  November   ,0,0.1,6.4154,10.00,6.00,0.00,0.00,0.00
+CTGlobal,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,0.05,6.00,0.00,0.00,0.00
+CTGlobal,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,2,0.06,6.4154,5.00,6.00,0.35,1.73,0.13
+CTGlobal,Logic Apps - Logic Apps - Consumption - new 11/1/2021-11/30/2021  November   ,0,0.000025,6.4154,8.00,6.00,0.00,0.00,0.00
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S0 - new  11/1/2021-11/30/2021  November   ,377.23,0.4839,6.4154,114.38,6.00,2.80,319.92,18.14
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU North - new  11/1/2021-11/30/2021  November   ,10.43,1.536,6.4154,1.00,6.00,8.88,8.88,0.54
+CTGlobal,Azure App Service Shared Plan - Azure App Service Shared Plan - new  11/1/2021-11/30/2021  November   ,63.75,0.013,6.4154,720.00,6.00,0.08,54.10,3.10
+CTGlobal,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.024,6.4154,0.03,6.00,0.14,0.00,0.00
+CTGlobal,Process Automation - Process Automation - Basic - new  11/1/2021-11/30/2021  November   ,0,0.002,6.4154,84.92,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,3.29,0.0196,6.4154,25.07,6.00,0.11,2.84,0.21
+CTGlobal,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,10.00,6.00,0.00,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  11/1/2021-11/30/2021  November   ,0,2.76,6.4154,0.50,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.054,6.4154,0.00,6.00,0.31,0.00,0.00
+CTGlobal,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P3 v2 - EU West - new  11/1/2021-11/30/2021  November   ,7852.44,0.8,6.4154,1440.00,6.00,4.62,6658.88,376.93
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.0043,6.4154,0.09,6.00,0.02,0.00,0.00
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S2 - new  11/1/2021-11/30/2021  November   ,493.41,2.42,6.4154,29.92,6.00,13.99,418.48,23.75
+CTGlobal,Traffic Manager - Traffic Manager - Azure Endpoint - new  11/1/2021-11/30/2021  November   ,4.73,0.36,6.4154,1.94,6.00,2.08,4.03,0.25
+CTGlobal,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,21.61,6.00,0.00,0.04,0.04
+CTGlobal,Key Vault - Key Vault - Premium - new 11/1/2021-11/30/2021  November   ,0,0.03,6.4154,0.00,6.00,0.17,0.00,0.00
+CTGlobal,Queues v2 - Queues v2 - GRS - EU West - new 11/1/2021-11/30/2021  November   ,0,0.008,6.4154,0.00,6.00,0.05,0.00,0.00
+CTGlobal,Traffic Manager - Traffic Manager - Traffic View - new  11/1/2021-11/30/2021  November   ,0.95,2,6.4154,0.07,6.00,11.56,0.84,0.08
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S10 LRS - EU North - new  11/1/2021-11/30/2021  November   ,40.09,5.888,6.4154,1.00,6.00,34.03,34.04,1.97
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - 10 DTU - new  11/1/2021-11/30/2021  November   ,5.45,0.4839,6.4154,1.67,6.00,2.80,4.66,0.30
+CTGlobal,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - new  11/1/2021-11/30/2021  November   ,1873.69,0.1,6.4154,2748.83,6.00,0.58,1588.90,89.95
+CTGlobal,Azure Monitor - Azure Monitor - Alerts - new 11/1/2021-11/30/2021  November   ,5.05,0.1,6.4154,7.44,6.00,0.58,4.30,0.26
+CTGlobal,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.0015,6.4154,0.00,6.00,0.01,0.00,0.00
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S30 LRS - EU North - new  11/1/2021-11/30/2021  November   ,279.15,40.96,6.4154,1.00,6.00,236.76,236.78,13.46
+CTGlobal,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,2.19,6.00,0.00,0.00,0.00
+CTGlobal,Azure Pipelines - Azure Pipelines - Microsoft-hosted CI/CD - new  11/1/2021-11/30/2021  November   ,791.49,40,6.4154,2.90,6.00,231.21,671.26,38.07
+CTGlobal,Traffic Manager - Traffic Manager - Azure Endpoint - new  11/1/2021-11/30/2021  November   ,0.24,0.54,6.4154,0.08,6.00,3.12,0.23,0.04
+CTGlobal,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.015,6.4154,0.00,6.00,0.09,0.00,0.00
+CTGlobal,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,63.5,0.045,6.4154,207.21,6.00,0.26,53.90,3.10
+CTGlobal,SignalR - SignalR - new 11/1/2021-11/30/2021  November   ,0,0,6.4154,60.00,6.00,0.00,0.00,0.00
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S3 - new  11/1/2021-11/30/2021  November   ,988.05,4.8387,6.4154,29.96,6.00,27.97,837.91,47.47
+CTGlobal,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,108.25,0.087,6.4154,182.57,6.00,0.50,91.81,5.21
+CTGlobal,Tables - Tables - GRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.87,6.00,0.00,0.00,0.00
+CTGlobal,Tables - Tables - RA-GRS - new 11/1/2021-11/30/2021  November   ,0,0.075,6.4154,0.01,6.00,0.43,0.00,0.00
+CTGlobal,Files - Files - GRS - new 11/1/2021-11/30/2021  November   ,0,0.03,6.4154,0.00,6.00,0.17,0.00,0.00
+CTGlobal,SignalR - SignalR - new 11/1/2021-11/30/2021  November   ,987.65,1.61,6.4154,90.00,6.00,9.31,837.56,47.44
+CTGlobal,Microsoft Defender for SQL - Microsoft Defender for SQL - Standard - new  11/1/2021-11/30/2021  November   ,98.88,15,6.4154,0.97,6.00,86.70,83.91,4.81
+CTGlobal,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  11/1/2021-11/30/2021  November   ,0,0.02,6.4154,0.00,6.00,0.12,0.00,0.00
+CTGlobal,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,24.13,6.00,0.00,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU West - new  11/1/2021-11/30/2021  November   ,10085.96,2.99,6.4154,494.87,6.00,17.28,8552.91,484.14
+CTGlobal,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU West - new  11/1/2021-11/30/2021  November   ,0,2.99,6.4154,5.00,6.00,0.00,0.00,0.00
+CTGlobal,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,5.00,6.00,0.00,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,6.00,0.00,0.00,0.00
+CTGlobal,SQL Database - LTR Backup Storage - SQL Database - LTR Backup Storage - RA-GRS - EU West - new  11/1/2021-11/30/2021  November   ,32.64,0.0595,6.4154,80.50,6.00,0.34,27.69,1.58
+CTGlobal,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Queues - Queues - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.0043,6.4154,0.04,6.00,0.02,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot GRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.108,6.4154,0.00,6.00,0.62,0.00,0.00
+CTGlobal,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication v2 - EU West - new  11/1/2021-11/30/2021  November   ,0,0.02,6.4154,0.00,6.00,0.12,0.00,0.00
+CTGlobal,Logic Apps - Logic Apps - Consumption - new 11/1/2021-11/30/2021  November   ,36.49,0.000125,6.4154,42869.00,6.00,0.00,30.97,1.78
+CTGlobal,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0,6.4154,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Logic Apps - Logic Apps - Consumption - new 11/1/2021-11/30/2021  November   ,0.15,0.12,6.4154,0.26,6.00,0.69,0.18,0.06
+CTGlobal,Azure Monitor - Azure Monitor - Emails - new 11/1/2021-11/30/2021  November   ,0,0.00002,6.4154,110.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.054,6.4154,0.03,6.00,0.31,0.01,0.01
+AVS Danmark,Tabeller - Tabeller - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.12,22.00,0.00,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,22.69,0.05,6.4154,66.70,22.00,0.33,22.19,4.04
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,0,0.05,6.4154,0.09,22.00,0.33,0.03,0.03
+AVS Danmark,Tabeller - Tabeller - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.02,22.00,0.00,0.00,0.00
+AVS Danmark,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0,6.4154,35.01,22.00,0.00,0.00,0.00
+AVS Danmark,Premium SSD-administrerede diske - Premium SSD-administrerede diske-Snapshots -Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,1.44,0.132,6.4154,1.63,22.00,0.88,1.43,0.28
+AVS Danmark,Premium-filer - Premium-filer - LRS - Det vestlige Europa - new  11/1/2021-11/30/2021  November   ,130.86,0.192,6.4154,100.00,22.00,1.28,127.73,23.04
+AVS Danmark,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,5.00,22.00,0.00,0.00,0.00
+AVS Danmark,SQL Database Enkelt Standard - SQL Database Enkelt Standard - S0 - new  11/1/2021-11/30/2021  November   ,98.63,0.4839,6.4154,29.92,22.00,3.22,96.31,17.41
+AVS Danmark,Azure Hybrid Benefit til SQL Server - Azure Hybrid Benefit til SQL Server - Standard-udgave - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,719.95,22.00,0.00,0.00,0.00
+AVS Danmark,SQL Server Developer Edition - SQL Server Developer Edition - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,719.98,22.00,0.00,0.00,0.00
+AVS Danmark,Backup - Backup-Server i det lokale miljø -Det vestlige Europa - new  11/1/2021-11/30/2021  November   ,65.91,10,6.4154,0.97,22.00,66.53,64.38,11.65
+AVS Danmark,Azure App Service gratis plan - Azure App Service gratis plan-F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,0.97,22.00,0.00,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,0,0.004,6.4154,0.07,22.00,0.03,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,1.76,0.004,6.4154,67.39,22.00,0.03,1.79,0.38
+AVS Danmark,IP-adresser - IP-adresser-Standard  - new 11/1/2021-11/30/2021  November   ,24.54,0.005,6.4154,720.00,22.00,0.03,23.95,4.32
+AVS Danmark,Båndbredde mellem områder - Båndbredde mellem områder - På kontinenter - Europa - new  11/1/2021-11/30/2021  November   ,1.2,0.02,6.4154,8.87,22.00,0.13,1.18,0.22
+AVS Danmark,Azure App Service Standard Plan - Azure App Service Standard Plan-S1 - new  11/1/2021-11/30/2021  November   ,490.78,0.1,6.4154,720.00,22.00,0.67,479.00,86.38
+AVS Danmark,Tabeller - Tabeller - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,1.82,22.00,0.00,0.00,0.00
+AVS Danmark,Tabeller - Tabeller - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.01,22.00,0.30,0.00,0.00
+AVS Danmark,Backup - Backup-Standard  - new 11/1/2021-11/30/2021  November   ,450.2,0.0448,6.4154,1474.28,22.00,0.30,439.40,79.24
+AVS Danmark,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,45.7,0.087,6.4154,77.09,22.00,0.58,44.62,8.06
+AVS Danmark,VPN Gateway - VPN Gateway-VpnGw1  - new 11/1/2021-11/30/2021  November   ,932.48,0.19,6.4154,720.00,22.00,1.26,910.10,164.12
+AVS Danmark,SQL Database Enkelt Standard - SQL Database Enkelt Standard - S2 - new  11/1/2021-11/30/2021  November   ,494.86,2.42,6.4154,30.00,22.00,16.10,482.99,87.10
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,678.43,0.022,6.4154,4524.42,22.00,0.15,662.20,119.46
+AVS Danmark,Båndbredde mellem områder - Båndbredde mellem områder - Mellem kontinenter - Interkontinental - new  11/1/2021-11/30/2021  November   ,0,0.05,6.4154,0.23,22.00,0.00,0.00,0.00
+AVS Danmark,Microsoft Defender for SQL - Microsoft Defender for SQL-Standard - new  11/1/2021-11/30/2021  November   ,98.88,15,6.4154,0.97,22.00,99.79,96.57,17.47
+AVS Danmark,IP-adresser - IP-adresser-Basis  - new 11/1/2021-11/30/2021  November   ,19.56,0.004,6.4154,720.00,22.00,0.03,19.16,3.51
+AVS Danmark,Premium SSD-administrerede diske - Premium SSD-administrerede diske-P6 -Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,139.13,10.207,6.4154,2.00,22.00,67.90,135.82,24.52
+AVS Danmark,Premium SSD-administrerede diske - Premium SSD-administrerede diske-P10 -Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,537.36,19.71,6.4154,4.00,22.00,131.13,524.55,94.66
+AVS Danmark,Virtual Machines Dav4-serien - Virtual Machines Dav4-serien - D4a v4 - Det nordlige Europa - new  11/1/2021-11/30/2021  November   ,2100.4,0.214,6.4154,1439.93,22.00,1.42,2050.02,369.70
+AVS Danmark,Tabeller - Tabeller - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.08,22.00,0.00,0.00,0.00
+AVS Danmark,Filer - Filer - LRS - new 11/1/2021-11/30/2021  November   ,2,0.06,6.4154,5.00,22.00,0.40,2.00,0.40
+AVS Danmark,Tabeller - Tabeller - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.05,22.00,0.00,0.00,0.00
+AVS Danmark,Backup - Backup-Azure VM  - new 11/1/2021-11/30/2021  November   ,65.91,10,6.4154,0.97,22.00,66.53,64.38,11.65
+RackPeople ApS,Functions - Functions - new 11/1/2021-11/30/2021  November   ,0,0.000016,6.4154,304160.74,0.00,0.00,0.00,0.00
+RackPeople ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,4.89,0.00,0.00,0.00,0.00
+RackPeople ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0.64,0.0015,6.4154,65.25,0.00,0.01,0.53,0.02
+RackPeople ApS,SQL Database Single Standard - SQL Database Single Standard - S0 - new  11/1/2021-11/30/2021  November   ,98.88,0.4839,6.4154,30.00,0.00,2.64,79.16,0.06
+RackPeople ApS,Service Bus - Service Bus - Hybrid Connections - new  11/1/2021-11/30/2021  November   ,0,1,6.4154,0.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,5.61,0.015,6.4154,55.56,0.00,0.08,4.54,0.05
+RackPeople ApS,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - new  11/1/2021-11/30/2021  November   ,490.94,0.1,6.4154,720.34,0.00,0.55,392.81,0.06
+RackPeople ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,22.47,0.00,0.00,0.04,0.04
+RackPeople ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  11/1/2021-11/30/2021  November   ,0,2.76,6.4154,5.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.06,6.4154,0.04,0.00,0.33,0.01,0.01
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.44,0.00,0.00,0.00,0.00
+RackPeople ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,0.06,0.00,0.00,0.00,0.00
+RackPeople ApS,Functions - Functions - new 11/1/2021-11/30/2021  November   ,0,0.000002,6.4154,53553.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P1 v2 - EU North - new  11/1/2021-11/30/2021  November   ,47.23,0.2,6.4154,34.66,0.00,1.09,37.80,0.02
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0.48,0.00036,6.4154,215.37,0.00,0.00,0.42,0.04
+RackPeople ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,1.68,0.045,6.4154,5.62,0.00,0.25,1.38,0.04
+RackPeople ApS,SQL Database Single Basic - SQL Database Single Basic - B - new  11/1/2021-11/30/2021  November   ,65.84,0.161,6.4154,60.00,0.00,0.88,52.68,0.01
+RackPeople ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  11/1/2021-11/30/2021  November   ,91.74,2.76,6.4154,4.88,0.00,15.05,73.46,0.07
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.024,6.4154,0.24,0.00,0.13,0.03,0.03
+RackPeople ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,7.21,0.00,0.00,0.01,0.01
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,2.21,0.00,0.00,0.00,0.00
+RackPeople ApS,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0.88,0.0015,6.4154,90.10,0.00,0.01,0.74,0.04
+RackPeople ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,1.20,0.00,0.00,0.00,0.00
+RackPeople ApS,Service Bus - Service Bus - Hybrid Connections - new  11/1/2021-11/30/2021  November   ,6.09,0.0134,6.4154,67.43,0.00,0.07,4.93,0.06
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - RA-GRS - EU West - new  11/1/2021-11/30/2021  November   ,0.64,0.075,6.4154,1.38,65.00,0.67,0.93,0.42
+BLS Capital Management,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - new  11/1/2021-11/30/2021  November   ,641.85,0.15,6.4154,627.83,65.00,1.35,847.34,333.86
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - GRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.00054,6.4154,4.32,65.00,0.00,0.02,0.02
+BLS Capital Management,Tables - Tables - GRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.87,65.00,0.00,0.00,0.00
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E30 LRS - EU West - new  11/1/2021-11/30/2021  November   ,523.49,76.8,6.4154,1.00,65.00,691.02,691.07,272.28
+BLS Capital Management,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.01,65.00,0.40,0.00,0.00
+BLS Capital Management,Backup - Backup - Standard - new 11/1/2021-11/30/2021  November   ,99.68,0.0448,6.4154,326.55,65.00,0.40,131.63,51.89
+BLS Capital Management,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,2,0.06,6.4154,5.00,65.00,0.54,2.70,1.10
+BLS Capital Management,IP Addresses - IP Addresses - Basic - new 11/1/2021-11/30/2021  November   ,35.28,0.0036,6.4154,1440.00,65.00,0.03,46.64,18.42
+BLS Capital Management,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU West - new  11/1/2021-11/30/2021  November   ,10.43,1.536,6.4154,1.00,65.00,13.82,13.82,5.48
+BLS Capital Management,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  11/1/2021-11/30/2021  November   ,0,0.02,6.4154,0.02,65.00,0.18,0.00,0.00
+BLS Capital Management,Backup - Backup - On Premises Server - EU West - new  11/1/2021-11/30/2021  November   ,65.91,10,6.4154,0.97,65.00,89.98,87.07,34.34
+BLS Capital Management,Virtual Machines Av2 Series Windows - Virtual Machines Av2 Series Windows - A4 v2 - EU West - new  11/1/2021-11/30/2021  November   ,1344.66,0.274,6.4154,719.97,65.00,2.47,1774.96,699.23
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,2.24,0.0043,6.4154,77.23,65.00,0.04,2.99,1.20
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.00054,6.4154,4.32,65.00,0.00,0.02,0.02
+BLS Capital Management,SQL Server Standard - SQL Server Standard - 1-4 vCPU VM - new  11/1/2021-11/30/2021  November   ,1962.95,0.4,6.4154,719.97,65.00,3.60,2591.19,1020.83
+BLS Capital Management,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,1.74,65.00,0.00,0.00,0.00
+BLS Capital Management,IP Addresses - IP Addresses - Basic - new 11/1/2021-11/30/2021  November   ,19.56,0.004,6.4154,720.00,65.00,0.04,25.91,10.26
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E10 LRS - EU West - new  11/1/2021-11/30/2021  November   ,65.43,9.6,6.4154,1.00,65.00,86.38,86.38,34.04
+BLS Capital Management,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.88,65.00,0.00,0.00,0.00
+BLS Capital Management,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0.15,0.00036,6.4154,77.39,65.00,0.00,0.25,0.13
+BLS Capital Management,Virtual Machines BS Series - Virtual Machines BS Series - B2s - EU West - new  11/1/2021-11/30/2021  November   ,235.53,0.048,6.4154,719.90,65.00,0.43,310.91,122.49
+BLS Capital Management,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.00,65.00,0.00,0.00,0.00
+BLS Capital Management,Standard Page Blob - Standard Page Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,4.32,65.00,0.00,0.01,0.01
+BLS Capital Management,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,0.06,65.00,0.00,0.00,0.00
+BLS Capital Management,Standard Page Blob - Standard Page Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,4.32,65.00,0.00,0.01,0.01
+BLS Capital Management,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  11/1/2021-11/30/2021  November   ,0,0.05,6.4154,0.06,65.00,0.00,0.00,0.00
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - new  11/1/2021-11/30/2021  November   ,14.83,0.002,6.4154,1088.48,65.00,0.02,19.59,7.73
+BLS Capital Management,Tables - Tables - RA-GRS - new 11/1/2021-11/30/2021  November   ,0,0.075,6.4154,0.01,65.00,0.67,0.01,0.01
+BLS Capital Management,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication v2 - EU West - new  11/1/2021-11/30/2021  November   ,3.36,0.02,6.4154,24.76,65.00,0.18,4.46,1.77
+BLS Capital Management,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - new  11/1/2021-11/30/2021  November   ,0.4,0.0005,6.4154,130.46,65.00,0.00,0.59,0.27
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.94,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S6 LRS - EU West - new  11/1/2021-11/30/2021  November   ,61.5,3.008,6.4154,3.00,0.00,16.40,49.21,0.01
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.01,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Premium SSD Managed Disks - Premium SSD Managed Disks - P4 - EU West - new  11/1/2021-11/30/2021  November   ,118.68,5.8072,6.4154,3.00,0.00,31.67,95.01,0.07
+SBC-Teams GoWingu,Load Balancer - Load Balancer - new 11/1/2021-11/30/2021  November   ,539.85,0.01,6.4154,7920.00,0.00,0.05,431.88,0.00
+SBC-Teams GoWingu,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.015,6.4154,0.08,0.00,0.08,0.01,0.01
+SBC-Teams GoWingu,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.03,0.00,0.25,0.01,0.01
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - Snapshots LRS - EU West - new  11/1/2021-11/30/2021  November   ,0.15,0.05,6.4154,0.50,0.00,0.27,0.14,0.02
+SBC-Teams GoWingu,Premium SSD Managed Disks - Premium SSD Managed Disks - P20 - EU West - new  11/1/2021-11/30/2021  November   ,548.99,80.54,6.4154,1.00,0.00,439.19,439.23,0.04
+SBC-Teams GoWingu,Load Balancer - Load Balancer - new 11/1/2021-11/30/2021  November   ,2,0.005,6.4154,59.45,0.00,0.03,1.62,0.02
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  11/1/2021-11/30/2021  November   ,0,0.05,6.4154,5.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  11/1/2021-11/30/2021  November   ,1.11,0.05,6.4154,3.31,0.00,0.27,0.90,0.01
+SBC-Teams GoWingu,Virtual Network Peering - Virtual Network Peering - new  11/1/2021-11/30/2021  November   ,8.09,0.01,6.4154,119.31,0.00,0.05,6.51,0.04
+SBC-Teams GoWingu,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  11/1/2021-11/30/2021  November   ,0,0,6.4154,1.94,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  11/1/2021-11/30/2021  November   ,4.96,0.02,6.4154,36.65,0.00,0.11,4.00,0.03
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,25.59,0.00,0.00,0.05,0.05
+SBC-Teams GoWingu,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - new  11/1/2021-11/30/2021  November   ,641.85,0.15,6.4154,627.83,0.00,0.82,513.54,0.06
+SBC-Teams GoWingu,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.0015,6.4154,0.13,0.00,0.01,0.00,0.00
+SBC-Teams GoWingu,Backup - Backup - Azure VM - new 11/1/2021-11/30/2021  November   ,32.95,10,6.4154,0.48,0.00,54.53,26.39,0.03
+SBC-Teams GoWingu,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,49.79,0.087,6.4154,84.11,0.00,0.47,39.90,0.07
+SBC-Teams GoWingu,IP Addresses - IP Addresses - Standard - new 11/1/2021-11/30/2021  November   ,343.54,0.005,6.4154,10080.00,0.00,0.03,274.84,0.01
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,30.52,0.00,0.00,0.06,0.06
+SBC-Teams GoWingu,Virtual Network Peering - Virtual Network Peering - new  11/1/2021-11/30/2021  November   ,7.45,0.01,6.4154,109.56,0.00,0.05,5.97,0.01
+SBC-Teams GoWingu,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - EU West - new  11/1/2021-11/30/2021  November   ,32.71,2.4,6.4154,2.00,0.00,13.09,26.18,0.01
+SBC-Teams GoWingu,VPN Gateway - VPN Gateway - Basic - new 11/1/2021-11/30/2021  November   ,176.66,0.036,6.4154,720.00,0.00,0.20,141.34,0.01
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D1 v2 - EU West - new  11/1/2021-11/30/2021  November   ,333.19,0.0679,6.4154,719.98,0.00,0.37,266.58,0.03
+SBC-Teams GoWingu,IP Addresses - IP Addresses - Basic - new 11/1/2021-11/30/2021  November   ,52.93,0.0036,6.4154,2160.00,0.00,0.02,42.40,0.06
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - new  11/1/2021-11/30/2021  November   ,2.4,0.0005,6.4154,715.58,0.00,0.00,1.95,0.03
+SBC-Teams GoWingu,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,5.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D3 v2 - EU West - new  11/1/2021-11/30/2021  November   ,5339.21,0.272,6.4154,2879.77,0.00,1.48,4271.39,0.02
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - new  11/1/2021-11/30/2021  November   ,0.88,0.00036,6.4154,387.53,0.00,0.00,0.76,0.06
+SBC-Teams GoWingu,Load Balancer - Load Balancer - new 11/1/2021-11/30/2021  November   ,245.39,0.025,6.4154,1440.00,0.00,0.14,196.31,0.00
+SBC-Teams GoWingu,Virtual Machines BS Series - Virtual Machines BS Series - B1ms - EU West - new  11/1/2021-11/30/2021  November   ,117.71,0.024,6.4154,720.00,0.00,0.13,94.23,0.06
+SBC-Teams GoWingu,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,3.12,0.00,0.00,0.01,0.01
+SBC-Teams GoWingu,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - new  11/1/2021-11/30/2021  November   ,17.24,0.002,6.4154,1270.00,0.00,0.01,13.85,0.06
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - Snapshots ZRS - EU West - new  11/1/2021-11/30/2021  November   ,2.4,0.05,6.4154,7.14,0.00,0.27,1.95,0.03
+SBC-Teams GoWingu,Backup - Backup - Standard - new 11/1/2021-11/30/2021  November   ,1.2,0.0448,6.4154,3.96,0.00,0.24,0.97,0.01
+SBC-Teams GoWingu,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0,6.4154,0.20,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Files - Files - LRS - new 11/1/2021-11/30/2021  November   ,0,0.0015,6.4154,0.04,0.00,0.01,0.00,0.00
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - new  11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.04,0.00,0.25,0.01,0.01
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU West - new  11/1/2021-11/30/2021  November   ,62.79,1.536,6.4154,6.00,0.00,8.38,50.26,0.03
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,0.55,0.05,6.4154,1.70,0.00,0.27,0.46,0.02
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,2513.39,0.022,6.4154,16760.63,0.00,0.12,2010.74,0.03
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,1.82,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0,6.4154,507.63,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,1.92,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.03,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,5.00,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,0,0.004,6.4154,1.12,0.00,0.02,0.02,0.02
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,1.10,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,7.05,0.004,6.4154,259.12,0.00,0.02,5.65,0.01
+Rackepeople Consulting ApS,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,21.56,0.087,6.4154,36.43,0.00,0.47,17.28,0.03
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,76.34,0.05,6.4154,224.05,0.00,0.27,61.09,0.02
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.01,0.00,0.25,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.44,0.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  11/1/2021-11/30/2021  November   ,8.9,0.01,6.4154,131.16,110.00,0.11,15.02,7.90
+Kiltin,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0.087,6.4154,5.00,110.00,0.00,0.00,0.00
+Kiltin,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,88.2,0.087,6.4154,148.84,110.00,1.00,148.28,77.72
+Kiltin,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,5.69,0.0043,6.4154,194.45,110.00,0.05,9.58,5.03
+Kiltin,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.44,110.00,0.00,0.00,0.00
+Kiltin,Bandwidth - Bandwidth - new 11/1/2021-11/30/2021  November   ,0,0,6.4154,195.20,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  11/1/2021-11/30/2021  November   ,17.08,0.01,6.4154,251.21,110.00,0.11,28.77,15.11
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  11/1/2021-11/30/2021  November   ,10.34,0.01,6.4154,152.48,110.00,0.11,17.46,9.19
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  11/1/2021-11/30/2021  November   ,127.58,0.1,6.4154,187.27,110.00,1.15,214.46,112.40
+Kiltin,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.01,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.00,110.00,0.52,0.00,0.00
+Kiltin,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.04,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Hot LRS - EU West - new  11/1/2021-11/30/2021  November   ,0,0.054,6.4154,0.05,110.00,0.62,0.03,0.03
+Kiltin,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.02,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.07,110.00,0.00,0.00,0.00
+Langvad Arkitekter,Backup - Backup-Standard  - new 11/1/2021-11/30/2021  November   ,951.88,0.0448,6.4154,3117.14,25.00,0.31,951.89,190.39
+Langvad Arkitekter,Backup - Backup-Server i det lokale miljø -Det vestlige Europa - new  11/1/2021-11/30/2021  November   ,461.74,10,6.4154,6.77,25.00,68.16,461.75,92.36
+prebenandersen.dk,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.00036,6.4154,0.44,30.00,0.00,0.00,0.00
+prebenandersen.dk,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,0,0.05,6.4154,0.07,30.00,0.35,0.02,0.02
+prebenandersen.dk,Backup - Backup - On Premises Server - EU North - new  11/1/2021-11/30/2021  November   ,164.88,10,6.4154,2.42,30.00,70.89,171.51,39.61
+prebenandersen.dk,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,0,0.05,6.4154,0.14,30.00,0.35,0.05,0.05
+prebenandersen.dk,Blob Storage - Blob Storage - Hot LRS - EU North - new  11/1/2021-11/30/2021  November   ,0,0.022,6.4154,0.01,30.00,0.16,0.00,0.00
+prebenandersen.dk,Tables - Tables - LRS - new 11/1/2021-11/30/2021  November   ,0,0.045,6.4154,0.00,30.00,0.32,0.00,0.00
+prebenandersen.dk,Backup - Backup - Standard - new 11/1/2021-11/30/2021  November   ,184.84,0.0224,6.4154,1210.69,30.00,0.16,192.25,44.38

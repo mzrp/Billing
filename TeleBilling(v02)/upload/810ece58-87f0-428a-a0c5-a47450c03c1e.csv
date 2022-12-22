@@ -1,0 +1,3 @@
+Time Start,Source,CLI,Destination,Duration,Billing Duration,Disconnect Code,Disconnect Reason,Rate,Charged,CDR Type,Country Name,Network Name,Trunk Name
+"2020-10-28 14:16:45","4578755985","4578755985","4542262323","43","43","200","Bye","0.016","0.0114666666666666666700000000000000000000","Local","Denmark","DENMARK MOBILE TELIA","Audiocodes Azure"
+"2020-10-28 14:15:33","4578755985","4578755985","4542262323","0",,"487","Request terminated (Cancel)","0.016","0","Local","Denmark","DENMARK MOBILE TELIA","Audiocodes Azure"

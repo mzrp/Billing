@@ -1,0 +1,211 @@
+﻿@model IEnumerable<TeleBilling_v02_.Models.Agreement>
+
+@{
+    ViewBag.Title = "Agreements";
+
+    string sCurrentUri = @Request.Url.AbsoluteUri;
+    string sCurrentBaseUri = sCurrentUri;
+    if (sCurrentUri.IndexOf("?") != -1) sCurrentBaseUri = sCurrentUri.Substring(0, sCurrentUri.IndexOf("?"));
+    string sCurrentBaseUriParamsRaw = "";
+    if (sCurrentUri.IndexOf("?") != -1) sCurrentBaseUriParamsRaw = sCurrentUri.Substring(sCurrentUri.IndexOf("?") + 1);
+    string[] sCurrentBaseUriParamsArray = sCurrentBaseUriParamsRaw.Split('&');
+
+    string sOldParams = "?";
+}
+
+@foreach (var sParam in sCurrentBaseUriParamsArray)
+{
+    if (sParam == "s=cust") { sOldParams += "&s=cust"; }
+    if (sParam == "s=dt") { sOldParams += "&s=dt"; }
+    if (sParam == "st=all") { sOldParams += "&st=all"; }
+    if (sParam == "st=active") { sOldParams += "&st=active"; }
+    if (sParam == "st=inactive") { sOldParams += "&st=inactive"; }
+}
+
+@{
+    sOldParams = sOldParams.Replace("?&", "?");
+
+    // sort
+    string sNewCustParams = sOldParams;
+    if (sNewCustParams.IndexOf("s=dt") != -1) { sNewCustParams = sNewCustParams.Replace("s=dt", "s=cust"); }
+    if (sNewCustParams.IndexOf("s=cust") == -1) { sNewCustParams += "&s=cust"; }
+
+    string sNewDateParams = sOldParams;
+    if (sNewDateParams.IndexOf("s=cust") != -1) { sNewDateParams = sNewDateParams.Replace("s=cust", "s=dt"); }
+    if (sNewDateParams.IndexOf("s=dt") == -1) { sNewDateParams += "&s=dt"; }
+
+    // filter
+    string sNewAllParams = sOldParams;
+    if (sNewAllParams.IndexOf("st=active") != -1) { sNewAllParams = sNewAllParams.Replace("st=active", "st=all"); }
+    if (sNewAllParams.IndexOf("st=inactive") != -1) { sNewAllParams = sNewAllParams.Replace("st=inactive", "st=all"); }
+    if (sNewAllParams.IndexOf("st=all") == -1) { sNewAllParams += "&st=all"; }
+
+    string sNewActiveParams = sOldParams;
+    if (sNewActiveParams.IndexOf("st=all") != -1) { sNewActiveParams = sNewActiveParams.Replace("st=all", "st=active"); }
+    if (sNewActiveParams.IndexOf("st=inactive") != -1) { sNewActiveParams = sNewActiveParams.Replace("st=inactive", "st=active"); }
+    if (sNewActiveParams.IndexOf("st=active") == -1) { sNewActiveParams += "&st=active"; }
+
+    string sNewInctiveParams = sOldParams;
+    if (sNewInctiveParams.IndexOf("st=all") != -1) { sNewInctiveParams = sNewInctiveParams.Replace("st=all", "st=inactive"); }
+    if (sNewInctiveParams.IndexOf("st=active") != -1) { sNewInctiveParams = sNewInctiveParams.Replace("st=active", "st=inactive"); }
+    if (sNewInctiveParams.IndexOf("st=inactive") == -1) { sNewInctiveParams += "&st=inactive"; }
+}
+
+
+<link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
+
+@*<table class="table-condensed">
+        <tr>
+            <th>
+                <a href="@Url.Action("CreateAgreement", "Agreement")" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Create New Agreement</a>
+            </th>
+        </tr>
+    </table>*@
+
+@*@if (Model.Count() > 0)
+    {*@
+
+@using (Html.BeginForm("ViewAllAgreements", "Agreement", FormMethod.Post, new { enctype = "multipart/form-data" }))
+{
+    <table class="table" id="tblAgreements">
+        <tr>
+            <td>
+                <a href="@Url.Action("CreateAgreement", "Agreement")" class="btn btn-danger btn-block"><i class="glyphicon glyphicon-plus"></i> Create New Agreement</a>
+            </td>
+            <td colspan="9" align="right" valign="bottom">
+                <a href="#" onclick="this.closest('form').submit();return false;">Bulk Update Status</a>&nbsp;&nbsp;&nbsp;&nbsp;
+                <a href="@sCurrentBaseUri@sNewAllParams">All</a>&nbsp;&nbsp;
+                <a href="@sCurrentBaseUri@sNewActiveParams">Active only</a>&nbsp;&nbsp;
+                <a href="@sCurrentBaseUri@sNewInctiveParams">Inactive only</a>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <b>CVR</b>
+            </td>
+            <td>
+                <a href="@sCurrentBaseUri@sNewCustParams"><b>Customer</b></a>
+            </td>
+            <td>
+                <b>Range start</b>
+            </td>
+            <td>
+                <b>Range end</b>
+            </td>
+            <td>
+                <b>@Html.DisplayNameFor(model => model.Description)</b>
+            </td>
+            <td>
+                <b>@Html.DisplayNameFor(model => model.Status)</b>
+            </td>
+            <td>
+                <a href="@sCurrentBaseUri@sNewDateParams"><b>Date</b></a>
+            </td>
+            <td>
+                <b>@Html.DisplayNameFor(model => model.CSVFile.Supplier.Name)</b>
+            </td>
+            <td>
+                <b>@Html.DisplayNameFor(model => model.UserId)</b>
+            </td>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer_cvr)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Customer_name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subscriber_range_start)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Subscriber_range_end)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+
+                    @{
+                        string sChecked = "";
+                        if (item.Status == true) { sChecked = "checked=\"checked\""; }
+                    }
+
+                    <input @sChecked 
+                           class = "toggle-checkbox" 
+                           id="item.Status"
+                           name="item.Status"
+                           type="checkbox"
+                           value=@item.Id />
+
+
+                    @*@Html.DisplayFor(modelItem => item.Status)*@
+                    @*
+                        @Html.CheckBox("item.Status", item.Status, new { htmlAttributes = new { @class = "toggle-checkbox", data_id = item.Id } })
+                        @Html.CheckBoxFor(modelItem => item.Status, new { htmlAttributes = new { @class = "toggle-checkbox", data_id = item.Id } })
+                    *@
+                    @*<input type="checkbox" checked data-toggle="toggle" data-onstyle="danger">*@
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Date)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CSVFile.Supplier.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserId)
+                </td>
+                <td>
+                    <a href="@Url.Action("ViewDetails", "Agreement", new { itemid = -1, agreementId = item.Id })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+
+                    @*<a href="@Url.Action("DeActivateAgreement","Agreement", new {  agreementId = item.Id })" class="btn btn-danger btn-sm">Deactive <i class="glyphicon glyphicon-trash"></i></a>
+                        @Html.ActionLink("Edit", "Edit", new { agreementId = item.Id }) |
+                        @Html.ActionLink("Details", "ViewAgreementDetails", new { agreementId = item.Id }) |
+                        @Html.ActionLink("Deactive", "DeActivateAgreement", new { agreementId = item.Id })*@
+                </td>
+            </tr>
+        }
+
+    </table>
+}
+
+@*}
+    else
+    {
+        <h3>There is no Agreement found!!!!</h3>
+    }*@
+
+<script type="text/javascript">
+    var url = '@Url.Action("UpdateStatus")';
+    $('.toggle-checkbox').click(function () {
+
+        var isChecked = $(this).is(':checked'); //CheckBox checked - True or false
+        var id = $(this).data('id'); //Get the id of that specific checked row
+
+        $.post(url, { id: id, status: isChecked }, function (response) {
+            if (response) {
+                alert("Status changed");
+            }
+        })
+    });
+</script>
+
+<script>
+    $(document).ready(function () {
+        $('.toggle-checkbox').btnSwitch({ //This is the script for toggling
+            Theme: 'Light',
+
+            OnText: "On",
+            OffText: "Off",
+
+            OnValue: true,
+            OffValue: false
+        });
+    });
+</script>
+
+

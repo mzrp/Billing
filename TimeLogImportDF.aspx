@@ -55,6 +55,9 @@
 
                                 <div class="panel-body">
         <div style="margin:10px; padding:10px; border-style: solid; border-width: 0px;">     
+
+            <asp:Label ID="TLInfoLabel" runat="server" Text="Timelog Web Service Information"></asp:Label> 
+            <br /><br />
             
             Please select CVR and date period<br />  <br />      
             
@@ -92,7 +95,8 @@
             <asp:Button ID="DeleteMarkedInvoicesB" runat="server" Text="Delete Marked Invoices" Visible="false" OnClientClick="invokeLoader();" OnClick="DeleteMarkedInvoicesB_Click" Height="58px" Width="286px" /> 
             <br />
             <br />
-            <asp:Label ID="PushingDataL" runat="server" Text=""></asp:Label>                   
+            <asp:Label ID="PushingDataL" runat="server" Text=""></asp:Label>
+            <asp:Label ID="PushingDataLErrorData" runat="server" Text=""></asp:Label>
         </div>
                                 </div>
 
@@ -126,6 +130,7 @@
 
         <!-- Introloader -->
         <script src="jqueryIntroLoader-master/dist/jquery.introLoader.pack.min.js"></script>
+
     </form>
 </body>
 </html>

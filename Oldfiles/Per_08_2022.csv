@@ -1,0 +1,515 @@
+Customer,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+New Co,,0,0.004,7.3561,0.09,n/a,0.03,0.00,0.00
+New Co,,0,0.004,7.3561,0.40,n/a,0.03,0.01,0.01
+New Co,,0,0.087,7.3561,0.21,n/a,0.00,0.00,0.00
+New Co,,4.23,0.004,7.3561,115.11,n/a,0.03,3.39,0.01
+New Co,,0,0.022,7.3561,0.00,n/a,0.16,0.00,0.00
+New Co,,0.64,0.1,7.3561,0.73,n/a,0.74,0.54,0.03
+New Co,,0,0,7.3561,0.18,n/a,0.00,0.00,0.00
+New Co,,0,0.02,7.3561,0.01,n/a,0.15,0.00,0.00
+New Co,,0,0.05,7.3561,0.04,n/a,0.37,0.01,0.01
+New Co,,0,0.045,7.3561,0.00,n/a,0.33,0.00,0.00
+New Co,,22.15,0.018,7.3561,134.34,n/a,0.13,17.79,0.07
+New Co,,0,2.76,7.3561,0.00,n/a,0.00,0.00,0.00
+New Co,,0,0.004,7.3561,0.25,n/a,0.03,0.01,0.01
+New Co,,0,0.000002,7.3561,1.00,n/a,0.00,0.00,0.00
+New Co,,0,0.00036,7.3561,0.59,n/a,0.00,0.00,0.00
+New Co,,0,0.0015,7.3561,1.37,n/a,0.01,0.02,0.02
+New Co,,0,0.06,7.3561,0.00,n/a,0.00,0.00,0.00
+New Co,,0,0.0043,7.3561,0.01,n/a,0.03,0.00,0.00
+New Co,,60.31,0.82,7.3561,8.00,n/a,6.03,48.26,0.01
+New Co,,0,0,7.3561,0.44,n/a,0.00,0.00,0.00
+New Co,,0,0.00036,7.3561,0.01,n/a,0.00,0.00,0.00
+New Co,,0,0,7.3561,0.11,n/a,0.00,0.00,0.00
+New Co,,0.18,1,7.3561,0.02,n/a,7.36,0.17,0.03
+New Co,,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+New Co,,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+New Co,,1.28,0.06,7.3561,2.39,n/a,0.44,1.05,0.03
+New Co,,0,0.00036,7.3561,0.01,n/a,0.00,0.00,0.00
+New Co,,0,0.05,7.3561,0.00,n/a,0.37,0.00,0.00
+New Co,,0.18,0.004,7.3561,6.24,n/a,0.03,0.18,0.04
+New Co,,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+New Co,,0,0.0015,7.3561,0.69,n/a,0.01,0.01,0.01
+New Co,,0,0.000016,7.3561,0.28,n/a,0.00,0.00,0.00
+New Co,,0.09,0.015,7.3561,0.95,n/a,0.11,0.10,0.03
+New Co,,181.08,48.29,1,3.00,n/a,48.29,144.87,0.00
+New Co,,0,0,1,25.00,n/a,0.00,0.00,0.00
+New Co,,0,0,7.3561,1.00,n/a,0.00,0.00,0.00
+Skypecall.me,,0,0.00036,7.3561,0.91,0.00,0.00,0.00,0.00
+Skypecall.me,,104.64,0.018,7.3561,744.00,0.00,0.11,83.74,0.03
+Skypecall.me,,0,0.045,7.3561,0.01,0.00,0.28,0.00,0.00
+Skypecall.me,,0,0.05,7.3561,0.01,0.00,0.00,0.00,0.00
+Skypecall.me,,2323.88,148.68,7.3561,2.00,0.00,929.65,1859.18,0.08
+Skypecall.me,,1805.64,0.155261,7.3561,1488.00,0.00,0.97,1444.55,0.04
+Skypecall.me,,169.36,21.68,7.3561,1.00,0.00,135.56,135.55,0.06
+Skypecall.me,,23.16,0.004,7.3561,743.00,0.00,0.03,18.58,0.05
+Skypecall.me,,0.73,0.005,7.3561,19.78,0.00,0.03,0.62,0.04
+Skypecall.me,,20.86,0.0036,7.3561,743.00,0.00,0.02,16.72,0.03
+Skypecall.me,,0,0.05,7.3561,0.00,0.00,0.31,0.00,0.00
+Skypecall.me,,0,0,7.3561,1.00,0.00,0.00,0.00,0.00
+Skypecall.me,,0,0.004,7.3561,0.00,0.00,0.03,0.00,0.00
+Skypecall.me,,0,0.02,7.3561,0.01,0.00,0.13,0.00,0.00
+Skypecall.me,,0,0.004,7.3561,0.21,0.00,0.03,0.01,0.01
+Skypecall.me,,41.1,0.1265,7.3561,41.60,0.00,0.79,32.90,0.02
+Skypecall.me,,0,0.05,7.3561,0.00,0.00,0.31,0.00,0.00
+Skypecall.me,,0,0,7.3561,0.00,0.00,0.00,0.00,0.00
+Skypecall.me,,1162.54,0.099966,7.3561,1488.00,0.00,0.63,930.08,0.05
+Skypecall.me,,3206.89,0.564,7.3561,727.51,0.00,3.53,2565.57,0.06
+Skypecall.me,,0,0,7.3561,1.00,0.00,0.00,0.00,0.00
+Skypecall.me,,871.96,0.15,7.3561,743.79,0.00,0.94,697.61,0.04
+Skypecall.me,,1232.69,0.212,7.3561,744.00,0.00,1.33,986.22,0.07
+Skypecall.me,,0,2.76,7.3561,0.04,0.00,0.00,0.00,0.00
+Skypecall.me,,0,0.022,7.3561,0.01,0.00,0.14,0.00,0.00
+Skypecall.me,,0,0.087,7.3561,0.01,0.00,0.00,0.00,0.00
+Skypecall.me,,117.24,15,7.3561,1.00,0.00,93.79,93.79,0.00
+Skypecall.me,,57.38,0.005,7.3561,1469.83,0.00,0.03,45.95,0.05
+Skypecall.me,,0,0.004,7.3561,0.03,0.00,0.03,0.00,0.00
+Skypecall.me,,581.49,0.1,7.3561,744.00,0.00,0.63,465.20,0.01
+Skypecall.me,,145.36,0.025,7.3561,744.00,0.00,0.16,116.30,0.01
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D1 v2 - EU West - customerCredit  6/1/2022-6/30/2022  August   ,-1.02,0.0679,6.9453,688.35,0.00,-0.40,-275.92,-275.11
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D3 v2 - EU West - customerCredit  6/1/2022-6/30/2022  August   ,-7.15,0.272,6.9453,11.00,0.00,-1.61,-17.66,-11.94
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,26.82,0.00,0.00,0.06,0.06
+SBC-Teams GoWingu,Virtual Network Peering - Virtual Network Peering - new  8/1/2022-8/31/2022  August   ,17.19,0.01,7.3561,220.85,0.00,0.06,13.81,0.06
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  8/1/2022-8/31/2022  August   ,5.6,0.02,7.3561,36.16,0.00,0.13,4.52,0.04
+SBC-Teams GoWingu,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,2.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Virtual Machines BS Series - Virtual Machines BS Series - B1ms - EU West - new  8/1/2022-8/31/2022  August   ,139.49,0.024,7.3561,743.98,0.00,0.15,111.65,0.06
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  8/1/2022-8/31/2022  August   ,2.56,0.05,7.3561,6.75,0.00,0.31,2.11,0.06
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,1.43,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.03,0.00,0.28,0.01,0.01
+SBC-Teams GoWingu,Premium SSD Managed Disks - Premium SSD Managed Disks - P20 - EU West - new  8/1/2022-8/31/2022  August   ,629.4,80.54,7.3561,1.00,0.00,503.59,503.56,0.04
+SBC-Teams GoWingu,Premium SSD Managed Disks - Premium SSD Managed Disks - P4 - EU West - new  8/1/2022-8/31/2022  August   ,136.09,5.8072,7.3561,3.00,0.00,36.31,108.92,0.05
+SBC-Teams GoWingu,Backup - Backup - Azure VM - EU West - new 8/1/2022-8/31/2022  August   ,38.98,10,7.3561,0.50,0.00,62.53,31.26,0.08
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.04,0.00,0.28,0.01,0.01
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - Snapshots LRS - EU West - new  8/1/2022-8/31/2022  August   ,0.55,0.05,7.3561,1.55,0.00,0.31,0.48,0.04
+SBC-Teams GoWingu,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,3.17,0.00,0.00,0.01,0.01
+SBC-Teams GoWingu,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  8/1/2022-8/31/2022  August   ,0,0.05,7.3561,5.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Backup - Backup - Standard - EU West - new 8/1/2022-8/31/2022  August   ,1.38,0.0448,7.3561,4.09,0.00,0.28,1.15,0.05
+SBC-Teams GoWingu,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0,0.015,7.3561,0.06,0.00,0.09,0.01,0.01
+SBC-Teams GoWingu,Load Balancer - Load Balancer - new 8/1/2022-8/31/2022  August   ,639.61,0.01,7.3561,8184.00,0.00,0.06,511.72,0.03
+SBC-Teams GoWingu,VPN Gateway - VPN Gateway - Basic - new 8/1/2022-8/31/2022  August   ,209.28,0.036,7.3561,744.00,0.00,0.23,167.47,0.05
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D1 v2 - EU West - new  8/1/2022-8/31/2022  August   ,392.9,0.0679,7.3561,740.37,0.00,0.42,314.33,0.01
+SBC-Teams GoWingu,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0,0.0015,7.3561,0.08,0.00,0.01,0.00,0.00
+SBC-Teams GoWingu,Load Balancer - Load Balancer - new 8/1/2022-8/31/2022  August   ,290.74,0.025,7.3561,1488.00,0.00,0.16,232.60,0.01
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU West - new  8/1/2022-8/31/2022  August   ,71.99,1.536,7.3561,6.00,0.00,9.60,57.62,0.03
+SBC-Teams GoWingu,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - new  8/1/2022-8/31/2022  August   ,17.38,0.002,7.3561,1112.71,0.00,0.01,13.91,0.01
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - Snapshots ZRS - EU West - new  8/1/2022-8/31/2022  August   ,2.75,0.05,7.3561,7.14,0.00,0.31,2.23,0.03
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.01,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Standard Page Blob - Standard Page Blob - LRS - new  8/1/2022-8/31/2022  August   ,0.09,0.00036,7.3561,47.49,0.00,0.00,0.11,0.04
+SBC-Teams GoWingu,Virtual Network Peering - Virtual Network Peering - new  8/1/2022-8/31/2022  August   ,20.86,0.01,7.3561,268.23,0.00,0.06,16.77,0.08
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - new  8/1/2022-8/31/2022  August   ,5.24,0.0005,7.3561,1346.41,0.00,0.00,4.21,0.02
+SBC-Teams GoWingu,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - new  8/1/2022-8/31/2022  August   ,871.96,0.15,7.3561,743.79,0.00,0.94,697.61,0.04
+SBC-Teams GoWingu,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,86.78,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,1.1,0.00036,7.3561,400.01,0.00,0.00,0.90,0.02
+SBC-Teams GoWingu,Virtual Machines Dv2 Series - Virtual Machines Dv2 Series - D3 v2 - EU West - new  8/1/2022-8/31/2022  August   ,1,0.272,7.3561,0.50,0.00,1.70,0.85,0.05
+SBC-Teams GoWingu,Standard HDD Managed Disks - Standard HDD Managed Disks - S6 LRS - EU West - new  8/1/2022-8/31/2022  August   ,70.43,3.008,7.3561,3.00,0.00,18.81,56.42,0.08
+SBC-Teams GoWingu,IP Addresses - IP Addresses - Standard IPv4 - new 8/1/2022-8/31/2022  August   ,406.41,0.005,7.3561,10402.00,0.00,0.03,325.20,0.07
+SBC-Teams GoWingu,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0,0.0015,7.3561,0.02,0.00,0.01,0.00,0.00
+SBC-Teams GoWingu,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0,7.3561,0.09,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - EU West - new  8/1/2022-8/31/2022  August   ,37.41,2.4,7.3561,2.00,0.00,15.01,30.01,0.08
+SBC-Teams GoWingu,IP Addresses - IP Addresses - Basic IPv4 - new 8/1/2022-8/31/2022  August   ,20.86,0.0036,7.3561,743.00,0.00,0.02,16.72,0.03
+SBC-Teams GoWingu,Load Balancer - Load Balancer - new 8/1/2022-8/31/2022  August   ,3.58,0.005,7.3561,93.90,0.00,0.03,2.94,0.08
+SBC-Teams GoWingu,Virtual Machines RI - Virtual Machines RI - new 8/1/2022-8/31/2022  August   ,0,0,7.3561,2978.35,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,Virtual Machines DSv2 Series - Reserved VM Instance; Standard_DS3_v2; EU West; 3 Years - cycleCharge  8/7/2022-9/6/2022  August   ,2876.6,78.21,7.3561,4.00,0.00,575.32,2301.28,0.00
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - addQuantity  8/1/2022-8/27/2022  August   ,-390.6,75.52,1,5.00,25.00,-78.11,-390.56,-78.11
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft Teams Rooms Standard - cycleCharge  8/28/2022-9/27/2022  August   ,112.1,94.4,1,1.00,25.0,112.10,112.10,22.42
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 2) - cycleCharge  8/28/2022-9/27/2022  August   ,47.79,40.24,1,1.00,25.00,47.79,47.79,9.56
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - cycleCharge  8/28/2022-9/27/2022  August   ,597.5,50.32,1,10.00,25.0,59.75,597.50,119.50
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,23322,110.8,1,195.00,25.00,119.60,23322.00,4664.40
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - cycleCharge  8/28/2022-9/27/2022  August   ,538.08,75.52,1,6.00,25.0,89.68,538.05,107.61
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - cycleCharge  8/28/2022-9/27/2022  August   ,139.18,117.2,1,1.00,25.00,139.18,139.18,27.84
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 F1 - cycleCharge  8/28/2022-9/27/2022  August   ,13.49,11.36,1,1.00,25.00,13.49,13.49,2.70
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - addQuantity  8/1/2022-8/27/2022  August   ,468.6,75.52,1,6.00,25.0,78.10,468.60,93.72
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - cycleCharge  8/28/2022-9/27/2022  August   ,4109.94,40.24,1,86.00,25.00,47.79,4109.73,821.95
+Grønbech & Sønner,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online Kiosk - cycleCharge  8/28/2022-9/27/2022  August   ,11.98,10.08,1,1.00,25.00,11.98,11.98,2.40
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - addQuantity  8/18/2022-8/27/2022  August   ,-493.12,40.24,1,32.00,12.5,-13.87,-443.88,-49.32
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - addQuantity  8/1/2022-8/27/2022  August   ,-1015.56,75.52,1,13.00,25.00,-78.11,-1015.46,-203.09
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - addQuantity  8/23/2022-8/27/2022  August   ,-38.56,50.32,1,4.00,25.00,-9.64,-38.55,-7.71
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,119.7,20.16,1,5.00,25.00,23.94,119.69,23.94
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,1605.32,10.08,1,134.00,12.5,10.78,1444.19,160.47
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Project Online Essentials - cycleCharge  8/28/2022-9/27/2022  August   ,41.9,35.28,1,1.00,9.00,36.54,36.54,3.02
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,9687.6,110.8,1,81.00,12.5,107.64,8718.84,968.76
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - Virtual User - cycleCharge  8/28/2022-9/27/2022  August   ,0,0,1,5.00,9.00,0.00,0.00,0.00
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Standard - cycleCharge  8/28/2022-9/27/2022  August   ,10391.64,62.96,1,139.00,25.00,74.76,10391.99,2078.40
+Nordic Bioscience,Microsoft 365 Audio Conferencing Adoption Promo - Microsoft 365 Business Voice Adoption Promo - Microsoft 365 Audio Conferencing - cycleCharge  8/28/2022-9/27/2022  August   ,0,15.7,1,30.00,12.5,0.00,0.00,0.00
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft Teams Rooms Standard - cycleCharge  8/28/2022-9/27/2022  August   ,672.6,94.4,1,6.00,25.00,112.10,672.60,134.52
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - cycleCharge  8/28/2022-9/27/2022  August   ,358.5,50.32,1,6.00,12.5,53.78,322.65,35.85
+Nordic Bioscience,Power; Flow; AAD; AI; Intune; MCAS; Defender IN New Commerce Promotional Offer Annual - Enterprise Mobility + Security E5 - cycleCharge  8/28/2022-9/27/2022  August   ,196.66,82.8,1,2.00,9.00,85.74,171.48,14.16
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - addQuantity  8/18/2022-8/27/2022  August   ,508.53,40.24,1,33.00,12.5,13.87,457.75,50.86
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - addQuantity  8/1/2022-8/27/2022  August   ,1093.4,75.52,1,14.00,12.5,70.29,984.06,109.34
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - cycleCharge  8/28/2022-9/27/2022  August   ,1255.52,75.52,1,14.00,12.5,80.71,1129.91,125.55
+Nordic Bioscience,Azure Active Directory Premium P1 - Azure Active Directory Premium P1 - renew  8/3/2022-9/2/2022  August   ,45.36,36.29,1,1.00,12.5,40.83,40.83,4.54
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 2) - cycleCharge  8/28/2022-9/27/2022  August   ,143.37,40.24,1,3.00,12.5,43.01,129.03,14.34
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Common Area Phone - cycleCharge  8/28/2022-9/27/2022  August   ,621.27,40.24,1,13.00,9.00,41.67,541.72,44.73
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E5 - cycleCharge  8/28/2022-9/27/2022  August   ,681.52,286.96,1,2.00,9.00,297.14,594.29,49.07
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - addQuantity  8/23/2022-8/27/2022  August   ,57.84,50.32,1,6.00,12.5,8.67,52.04,5.78
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E3 - cycleCharge  8/28/2022-9/27/2022  August   ,2225.9,187.44,1,10.00,9.00,194.10,1940.96,160.26
+Nordic Bioscience,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - cycleCharge  8/28/2022-9/27/2022  August   ,1577.07,40.24,1,33.00,12.5,43.01,1419.29,157.70
+Nord Tech Industrisystemer,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/8/2022-8/16/2022  August   ,-1085.67,110.8,1,27.00,25.0,-40.21,-1085.74,-217.15
+Nord Tech Industrisystemer,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/8/2022-8/11/2022  August   ,-143,40.24,1,22.00,7.00,-5.56,-122.41,-8.01
+Nord Tech Industrisystemer,Exchange Online (Plan 2) - Exchange Online (Plan 2) - addQuantity  8/9/2022-8/16/2022  August   ,-12.99,40.24,1,1.00,25.00,-12.99,-12.99,-2.60
+Nord Tech Industrisystemer,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  8/17/2022-9/16/2022  August   ,50.3,40.24,1,1.00,25.0,50.30,50.30,10.06
+Nord Tech Industrisystemer,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/8/2022-8/16/2022  August   ,1125.88,110.8,1,28.00,25.0,40.21,1125.95,225.19
+Nord Tech Industrisystemer,Exchange Online (Plan 2) - Exchange Online (Plan 2) - addQuantity  8/9/2022-8/16/2022  August   ,25.96,40.24,1,2.00,25.0,12.98,25.95,5.19
+Nord Tech Industrisystemer,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  8/17/2022-9/16/2022  August   ,3878,110.8,1,28.00,25.0,138.50,3878.00,775.60
+Nord Tech Industrisystemer,Visio Plan 2 - Visio Plan 2 - cycleCharge 8/17/2022-9/16/2022  August   ,94.4,75.52,1,1.00,7.00,80.81,80.81,5.29
+Nord Tech Industrisystemer,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  8/17/2022-9/16/2022  August   ,113.4,30.24,1,3.00,25.00,37.80,113.40,22.68
+Nord Tech Industrisystemer,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  8/12/2022-9/11/2022  August   ,1156.9,40.24,1,23.00,25.0,50.30,1156.90,231.38
+Nord Tech Industrisystemer,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/8/2022-8/11/2022  August   ,149.27,40.24,1,23.00,25.0,6.49,149.21,29.84
+Nord Tech Industrisystemer,Exchange Online (Plan 2) - Exchange Online (Plan 2) - removeQuantity  8/9/2022-8/16/2022  August   ,-25.96,40.24,1,2.00,25.0,-12.98,-25.95,-5.19
+Nord Tech Industrisystemer,Dynamics 365 Business Central Essentials - Dynamics 365 Business Central Essentials - cycleCharge  8/1/2022-8/31/2022  August   ,385.44,308.35,1,1.00,25.0,385.44,385.44,77.09
+Nord Tech Industrisystemer,Exchange Online (Plan 2) - Exchange Online (Plan 2) - removeQuantity  8/9/2022-8/16/2022  August   ,12.98,40.24,1,1.00,25.0,12.98,12.98,2.60
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - addQuantity  8/3/2022-8/23/2022  August   ,-6562.62,110.8,1,81.00,6.25,-68.87,-5578.57,-328.15
+Delfi Technologies A/S,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/1/2022-8/22/2022  August   ,-471.8,132.96,1,4.00,6.25,-100.26,-401.03,-23.59
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/24/2022-9/23/2022  August   ,14471.6,110.8,1,121.00,6.25,101.66,12300.86,723.58
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E3 - cycleCharge  8/23/2022-9/22/2022  August   ,1335.54,187.44,1,6.00,6.25,189.20,1135.20,66.78
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - addQuantity  8/3/2022-8/23/2022  August   ,9804.63,110.8,1,121.00,6.25,68.87,8333.42,490.20
+Delfi Technologies A/S,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  8/23/2022-9/22/2022  August   ,1662,132.96,1,10.00,6.25,141.27,1412.70,83.10
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 F3 - cycleCharge  8/24/2022-9/23/2022  August   ,2246.13,40.24,1,47.00,6.25,40.62,1909.11,112.30
+Delfi Technologies A/S,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/1/2022-8/22/2022  August   ,589.75,132.96,1,5.00,6.25,100.26,501.29,29.49
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - cycleCharge  8/23/2022-9/22/2022  August   ,298.75,50.32,1,5.00,6.25,50.79,253.94,14.94
+Delfi Technologies A/S,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/23/2022-9/22/2022  August   ,23.94,20.16,1,1.00,6.25,20.35,20.35,1.20
+Delfi Technologies A/S,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/3/2022-8/22/2022  August   ,-536.2,132.96,1,5.00,6.25,-91.15,-455.76,-26.81
+Delfi Technologies A/S,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/3/2022-8/22/2022  August   ,1072.3,132.96,1,10.00,6.25,91.14,911.41,53.61
+Klinik Socius,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/9/2022-8/23/2022  August   ,-804.24,110.8,1,12.00,25.00,-67.03,-804.30,-160.86
+Klinik Socius,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  8/9/2022-8/23/2022  August   ,871.13,110.8,1,13.00,25.0,67.01,871.16,174.23
+Klinik Socius,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  8/24/2022-9/23/2022  August   ,1800.5,110.8,1,13.00,25.0,138.50,1800.50,360.10
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/12/2022-8/27/2022  August   ,-1370.6,48.29,1,44.00,25.0,-31.15,-1370.60,-274.12
+Norli Liv og Pension Livsforsikring A/S,Files v2 - Files v2 - Hot GRS - EU West - new 8/1/2022-8/31/2022  August   ,1,0.0541,7.3561,2.50,n/a,0.34,0.85,0.05
+Norli Liv og Pension Livsforsikring A/S,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - new  8/1/2022-8/31/2022  August   ,871.96,0.15,7.3561,743.79,n/a,0.94,697.61,0.04
+Norli Liv og Pension Livsforsikring A/S,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - new  8/1/2022-8/31/2022  August   ,0.28,0.00054,7.3561,76.48,n/a,0.00,0.26,0.04
+Norli Liv og Pension Livsforsikring A/S,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,0.07,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,General Block Blob - General Block Blob - GRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - new  8/1/2022-8/31/2022  August   ,12.78,0.00054,7.3561,3041.39,n/a,0.00,10.27,0.05
+Norli Liv og Pension Livsforsikring A/S,Load Balancer - Load Balancer - new 8/1/2022-8/31/2022  August   ,145.36,0.025,7.3561,744.00,n/a,0.16,116.30,0.01
+Norli Liv og Pension Livsforsikring A/S,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Azure Bastion - Azure Bastion - Basic - new 8/1/2022-8/31/2022  August   ,2209.68,0.19,7.3561,1488.00,n/a,1.19,1767.76,0.02
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.01,n/a,0.28,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Virtual Machines BS Series Windows - Virtual Machines BS Series Windows - B8ms - EU West - new  8/1/2022-8/31/2022  August   ,2418.86,0.416,7.3561,743.97,n/a,2.60,1935.14,0.05
+Norli Liv og Pension Livsforsikring A/S,Azure Bastion - Azure Bastion - Basic - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,0.77,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Premium SSD Managed Disks - Premium SSD Managed Disks - P10 - EU West - new  8/1/2022-8/31/2022  August   ,169.36,21.68,7.3561,1.00,n/a,135.56,135.55,0.06
+Norli Liv og Pension Livsforsikring A/S,Premium SSD Managed Disks - Premium SSD Managed Disks - P30 - EU West - new  8/1/2022-8/31/2022  August   ,2323.88,148.68,7.3561,2.00,n/a,929.65,1859.18,0.08
+Norli Liv og Pension Livsforsikring A/S,Premium SSD Managed Disks - Premium SSD Managed Disks - P15 - EU West - new  8/1/2022-8/31/2022  August   ,326.7,41.811428,7.3561,1.00,n/a,261.43,261.42,0.06
+Norli Liv og Pension Livsforsikring A/S,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.06,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,1.36,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.04,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,IP Addresses - IP Addresses - Standard IPv4 - new 8/1/2022-8/31/2022  August   ,145.09,0.005,7.3561,3715.00,n/a,0.03,116.14,0.07
+Norli Liv og Pension Livsforsikring A/S,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0.64,0.0196,7.3561,4.60,n/a,0.12,0.56,0.05
+Norli Liv og Pension Livsforsikring A/S,IP Addresses - IP Addresses - Basic IPv4 - new 8/1/2022-8/31/2022  August   ,20.86,0.0036,7.3561,743.00,n/a,0.02,16.72,0.03
+Norli Liv og Pension Livsforsikring A/S,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.054,7.3561,0.01,n/a,0.34,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - GRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,2.29,0.06,7.3561,5.00,n/a,0.38,1.88,0.05
+Norli Liv og Pension Livsforsikring A/S,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  8/1/2022-8/31/2022  August   ,0,0.02,7.3561,0.02,n/a,0.13,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.054,7.3561,0.01,n/a,0.34,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,1,0.0043,7.3561,30.11,n/a,0.03,0.81,0.01
+Norli Liv og Pension Livsforsikring A/S,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,0.94,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - new  8/1/2022-8/31/2022  August   ,0.45,0.00054,7.3561,114.51,n/a,0.00,0.39,0.03
+Norli Liv og Pension Livsforsikring A/S,SQL Server Developer Edition - SQL Server Developer Edition - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,613.97,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Blob Storage - Blob Storage - Hot RA-GRS - EU West - new  8/1/2022-8/31/2022  August   ,0.28,0.049,7.3561,0.85,n/a,0.31,0.26,0.04
+Norli Liv og Pension Livsforsikring A/S,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - new  8/1/2022-8/31/2022  August   ,81.55,0.045,7.3561,232.08,n/a,0.28,65.30,0.06
+Norli Liv og Pension Livsforsikring A/S,Load Balancer - Load Balancer - new 8/1/2022-8/31/2022  August   ,0.64,0.005,7.3561,17.41,n/a,0.03,0.54,0.03
+Norli Liv og Pension Livsforsikring A/S,General Block Blob - General Block Blob - GRS - new  8/1/2022-8/31/2022  August   ,0.09,0.048,7.3561,0.32,n/a,0.30,0.09,0.02
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - RA-GRS - new 8/1/2022-8/31/2022  August   ,0,0.075,7.3561,0.01,n/a,0.47,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Virtual Machines Dv3 Series Windows - Virtual Machines Dv3 Series Windows - D2 v3 - EU West - new  8/1/2022-8/31/2022  August   ,1232.69,0.212,7.3561,744.00,n/a,1.33,986.22,0.07
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - GRS - new 8/1/2022-8/31/2022  August   ,0,0.06,7.3561,0.00,n/a,0.38,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Tables - Tables - GRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,1.35,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  8/1/2022-8/31/2022  August   ,0,0.05,7.3561,0.14,n/a,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,1.28,0.0043,7.3561,40.40,n/a,0.03,1.09,0.07
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/12/2022-8/31/2022  August   ,707.31,10.08,1,87.00,25.0,8.13,706.88,141.38
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/12/2022-8/31/2022  August   ,-699.18,10.08,1,86.00,25.0,-8.13,-698.75,-139.75
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/22/2022-8/31/2022  August   ,-358.16,10.08,1,88.00,25.0,-4.06,-357.50,-71.50
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/22/2022-9/11/2022  August   ,-15713.28,210.88,1,88.00,25.0,-178.56,-15713.50,-3142.70
+Norli Liv og Pension Livsforsikring A/S,Windows 365 Enterprise - Windows 365 Enterprise 4 vCPU; 16 GB; 512 GB - cycleCharge  8/12/2022-9/11/2022  August   ,656.46,525.17,1,1.00,25.0,656.46,656.46,131.29
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  8/28/2022-9/27/2022  August   ,2897.28,48.29,1,48.00,25.0,60.36,2897.40,579.48
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/29/2022-9/11/2022  August   ,10952.6,210.88,1,92.00,25.0,119.05,10952.60,2190.52
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/12/2022-8/27/2022  August   ,1432.9,48.29,1,46.00,25.0,31.15,1432.90,286.58
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/22/2022-8/27/2022  August   ,561.12,48.29,1,48.00,25.0,11.69,561.00,112.20
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  8/1/2022-8/31/2022  August   ,1071,10.08,1,85.00,25.0,12.60,1071.00,214.20
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/12/2022-9/11/2022  August   ,-22406,210.88,1,85.00,25.0,-263.60,-22406.00,-4481.20
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - cycleCharge  8/28/2022-9/27/2022  August   ,0,0,1,50.00,25.0,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/12/2022-8/27/2022  August   ,1464.05,48.29,1,47.00,25.0,31.15,1464.05,292.81
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/12/2022-8/27/2022  August   ,-1432.9,48.29,1,46.00,25.0,-31.15,-1432.90,-286.58
+Norli Liv og Pension Livsforsikring A/S,Exchange Online (Plan 1) - Exchange Online (Plan 1) - addQuantity  8/30/2022-9/9/2022  August   ,-44.75,20.16,1,5.00,25.0,-8.95,-44.75,-8.95
+Norli Liv og Pension Livsforsikring A/S,Exchange Online (Plan 1) - Exchange Online (Plan 1) - addQuantity  8/25/2022-9/9/2022  August   ,-52.04,20.16,1,4.00,25.0,-13.01,-52.05,-10.41
+Norli Liv og Pension Livsforsikring A/S,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  8/10/2022-9/9/2022  August   ,100.8,20.16,1,4.00,25.0,25.20,100.80,20.16
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/22/2022-8/31/2022  August   ,361.34,10.08,1,89.00,25.0,4.06,361.56,72.31
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/29/2022-8/31/2022  August   ,-107.69,10.08,1,89.00,25.0,-1.21,-107.91,-21.58
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/29/2022-9/11/2022  August   ,-10593.67,210.88,1,89.00,25.0,-119.04,-10594.34,-2118.87
+Norli Liv og Pension Livsforsikring A/S,Exchange Online (Plan 1) - Exchange Online (Plan 1) - addQuantity  8/25/2022-9/9/2022  August   ,65.05,20.16,1,5.00,25.0,13.01,65.06,13.01
+Norli Liv og Pension Livsforsikring A/S,Exchange Online (Plan 1) - Exchange Online (Plan 1) - addQuantity  8/30/2022-9/9/2022  August   ,53.64,20.16,1,6.00,25.0,8.94,53.63,10.73
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/12/2022-9/11/2022  August   ,22933.2,210.88,1,87.00,25.0,263.60,22933.20,4586.64
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  8/22/2022-8/27/2022  August   ,-548.49,48.29,1,47.00,25.0,-11.68,-548.73,-109.75
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/12/2022-8/31/2022  August   ,715.44,10.08,1,88.00,25.0,8.13,715.00,143.00
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/12/2022-9/11/2022  August   ,23196.8,210.88,1,88.00,25.0,263.60,23196.80,4639.36
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/12/2022-9/11/2022  August   ,-22933.2,210.88,1,87.00,25.0,-263.60,-22933.20,-4586.64
+Norli Liv og Pension Livsforsikring A/S,Windows 365 Enterprise - Windows 365 Enterprise 4 vCPU; 16 GB; 512 GB - addQuantity  8/16/2022-9/11/2022  August   ,1143.52,525.17,1,2.00,25.0,571.76,1143.53,228.71
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 F3 - Microsoft 365 F3 - cycleCharge 8/1/2022-8/31/2022  August   ,201.2,40.24,1,4.00,25.0,50.30,201.20,40.24
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/12/2022-8/31/2022  August   ,699.18,10.08,1,86.00,25.0,8.13,698.75,139.75
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/12/2022-8/31/2022  August   ,-690.2,10.08,1,85.00,25.0,-8.13,-690.63,-138.13
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 8/12/2022-9/11/2022  August   ,22406,210.88,1,85.00,25.0,263.60,22406.00,4481.20
+Norli Liv og Pension Livsforsikring A/S,Power BI Premium Per User - Power BI Premium Per User - cycleCharge  8/12/2022-9/11/2022  August   ,125.9,100.72,1,1.00,25.0,125.90,125.90,25.18
+Norli Liv og Pension Livsforsikring A/S,Microsoft 365 E3 - Microsoft 365 E3 - addQuantity 8/22/2022-9/11/2022  August   ,15891.84,210.88,1,89.00,25.0,178.56,15892.06,3178.41
+Norli Liv og Pension Livsforsikring A/S,Microsoft Teams Rooms Standard - Microsoft Teams Rooms Standard - new  8/10/2022-8/31/2022  August   ,83.74,94.4,1,1.00,25.0,83.74,83.74,16.75
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/12/2022-8/31/2022  August   ,-707.31,10.08,1,87.00,25.0,-8.13,-706.88,-141.38
+Norli Liv og Pension Livsforsikring A/S,Windows 365 Enterprise - Windows 365 Enterprise 4 vCPU; 16 GB; 512 GB - addQuantity  8/16/2022-9/11/2022  August   ,-571.76,525.17,1,1.00,25.0,-571.76,-571.76,-114.35
+Norli Liv og Pension Livsforsikring A/S,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - addQuantity  8/29/2022-8/31/2022  August   ,111.93,10.08,1,91.00,25.0,1.23,111.48,22.30
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E3 - addQuantity  8/3/2022-8/27/2022  August   ,-3769.71,187.44,1,21.00,25.00,-179.51,-3769.76,-753.95
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - cycleCharge  8/28/2022-9/27/2022  August   ,717,50.32,1,12.00,25.0,59.75,717.00,143.40
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft Teams Rooms Standard - cycleCharge  8/28/2022-9/27/2022  August   ,112.1,94.4,1,1.00,25.0,112.10,112.10,22.42
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E3 - cycleCharge  8/28/2022-9/27/2022  August   ,4896.98,210.88,1,22.00,25.0,222.59,4896.93,979.39
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E1 - cycleCharge  8/28/2022-9/27/2022  August   ,47.79,40.24,1,1.00,25.00,47.79,47.79,9.56
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,71.82,20.16,1,3.00,25.00,23.94,71.81,14.36
+CO:PLAY Advokatpartnerselskab,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E3 - addQuantity  8/3/2022-8/27/2022  August   ,3949,210.88,1,22.00,25.0,179.50,3949.00,789.80
+Gammelbys,Microsoft 365 Audio Conferencing Adoption Promo - Microsoft 365 Business Voice Adoption Promo - Microsoft 365 Audio Conferencing - addQuantity  7/29/2022-8/28/2022  August   ,0,15.7,1,14.00,12.5,0.00,0.00,0.00
+Gammelbys,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Apps for business - cycleCharge  8/28/2022-9/27/2022  August   ,62.51,52.64,1,1.00,12.50,56.26,56.26,6.25
+Gammelbys,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  8/28/2022-9/27/2022  August   ,332.4,132.96,1,2.00,12.5,149.58,299.16,33.24
+Gammelbys,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,167.58,20.16,1,7.00,12.50,21.54,150.81,16.76
+Gammelbys,Microsoft 365 Audio Conferencing Adoption Promo - Microsoft 365 Business Voice Adoption Promo - Microsoft 365 Audio Conferencing - cycleCharge  8/29/2022-9/28/2022  August   ,0,15.7,1,15.00,12.5,0.00,0.00,0.00
+Gammelbys,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Basic - cycleCharge  8/28/2022-9/27/2022  August   ,29.93,25.2,1,1.00,12.50,26.93,26.93,2.99
+Gammelbys,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 F3 - cycleCharge  8/28/2022-9/27/2022  August   ,23.94,20.16,1,1.00,12.50,21.54,21.54,2.39
+Gammelbys,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,1674.4,110.8,1,14.00,12.5,107.64,1506.96,167.44
+Gammelbys,Microsoft 365 Audio Conferencing Adoption Promo - Microsoft 365 Business Voice Adoption Promo - Microsoft 365 Audio Conferencing - addQuantity  8/8/2022-8/28/2022  August   ,0,15.7,1,15.00,12.5,0.00,0.00,0.00
+Gammelbys,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - cycleCharge  8/28/2022-9/27/2022  August   ,669.06,40.24,1,14.00,12.5,43.01,602.12,66.90
+CTGlobal,SignalR - SignalR - new 8/1/2022-8/31/2022  August   ,0,0,7.3561,62.00,6.00,0.00,0.00,0.00
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S0 - new  8/1/2022-8/31/2022  August   ,351.71,0.4839,7.3561,93.00,6.00,3.21,298.27,16.90
+CTGlobal,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,22.00,6.00,0.00,0.00,0.00
+CTGlobal,Files - Files - GRS - new 8/1/2022-8/31/2022  August   ,0,0.03,7.3561,0.00,6.00,0.20,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,100.00,6.00,0.00,0.00,0.00
+CTGlobal,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,72.83,0.045,7.3561,207.22,6.00,0.30,61.80,3.54
+CTGlobal,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,2.72,6.00,0.00,0.01,0.01
+CTGlobal,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU West - new  8/1/2022-8/31/2022  August   ,841.25,2.99,7.3561,36.00,6.00,19.82,713.41,40.41
+CTGlobal,Microsoft Defender for SQL - Microsoft Defender for SQL - Standard - new  8/1/2022-8/31/2022  August   ,117.24,15,7.3561,1.00,6.00,99.42,99.42,5.63
+CTGlobal,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  8/1/2022-8/31/2022  August   ,0,0.02,7.3561,0.00,6.00,0.13,0.00,0.00
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  8/1/2022-8/31/2022  August   ,0,2.76,7.3561,0.52,6.00,0.00,0.00,0.00
+CTGlobal,Logic Apps - Logic Apps - Consumption - new 8/1/2022-8/31/2022  August   ,0.28,0.12,7.3561,0.30,6.00,0.80,0.24,0.02
+CTGlobal,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,22.37,6.00,0.00,0.05,0.05
+CTGlobal,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0,7.3561,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.054,7.3561,0.00,6.00,0.36,0.00,0.00
+CTGlobal,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Process Automation - Process Automation - Basic - new  8/1/2022-8/31/2022  August   ,0,0.002,7.3561,79.53,6.00,0.00,0.00,0.00
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S10 LRS - EU North - new  8/1/2022-8/31/2022  August   ,45.98,5.888,7.3561,1.00,6.00,39.02,39.02,2.24
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.0043,7.3561,0.03,6.00,0.03,0.00,0.00
+CTGlobal,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,134.89,0.087,7.3561,198.40,6.00,0.58,114.40,6.49
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S3 - new  8/1/2022-8/31/2022  August   ,1172.28,4.8387,7.3561,31.00,6.00,32.07,994.17,56.35
+CTGlobal,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,2.29,0.06,7.3561,5.00,6.00,0.40,1.99,0.16
+CTGlobal,Traffic Manager - Traffic Manager - Traffic View - new  8/1/2022-8/31/2022  August   ,1,2,7.3561,0.07,6.00,13.26,0.90,0.10
+CTGlobal,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.024,7.3561,0.04,6.00,0.16,0.01,0.01
+CTGlobal,Tables - Tables - GRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.90,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.054,7.3561,0.00,6.00,0.36,0.00,0.00
+CTGlobal,Logic Apps - Logic Apps - Consumption - new 8/1/2022-8/31/2022  August   ,43.3,0.000125,7.3561,44338.00,6.00,0.00,36.73,2.09
+CTGlobal,Azure App Service Shared Plan - Azure App Service Shared Plan - new  8/1/2022-8/31/2022  August   ,75.58,0.013,7.3561,744.00,6.00,0.09,64.10,3.64
+CTGlobal,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,0.05,6.00,0.00,0.00,0.00
+CTGlobal,Tables - Tables - RA-GRS - new 8/1/2022-8/31/2022  August   ,0,0.075,7.3561,0.01,6.00,0.50,0.00,0.00
+CTGlobal,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0,0.0015,7.3561,0.00,6.00,0.01,0.00,0.00
+CTGlobal,Azure Pipelines - Azure Pipelines - Microsoft-hosted CI/CD - new  8/1/2022-8/31/2022  August   ,937.9,40,7.3561,3.00,6.00,265.11,795.34,45.02
+CTGlobal,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,10.00,6.00,0.00,0.00,0.00
+CTGlobal,Queues - Queues - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,6.00,0.00,0.00,0.00
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S30 LRS - EU North - new  8/1/2022-8/31/2022  August   ,320.08,40.96,7.3561,1.00,6.00,271.48,271.46,15.40
+CTGlobal,Traffic Manager - Traffic Manager - Azure Endpoint - new  8/1/2022-8/31/2022  August   ,5.6,0.36,7.3561,2.00,6.00,2.39,4.77,0.29
+CTGlobal,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication v2 - EU West - new  8/1/2022-8/31/2022  August   ,0,0.02,7.3561,0.00,6.00,0.13,0.00,0.00
+CTGlobal,Key Vault - Key Vault - Premium - new 8/1/2022-8/31/2022  August   ,0,0.03,7.3561,0.02,6.00,0.20,0.00,0.00
+CTGlobal,Traffic Manager - Traffic Manager - Azure Endpoint - new  8/1/2022-8/31/2022  August   ,0.28,0.54,7.3561,0.07,6.00,3.58,0.26,0.04
+CTGlobal,Logic Apps - Logic Apps - Consumption - new 8/1/2022-8/31/2022  August   ,0,0.000025,7.3561,8.00,6.00,0.00,0.00,0.00
+CTGlobal,Azure Monitor - Azure Monitor - Emails - new 8/1/2022-8/31/2022  August   ,0,0.00002,7.3561,20.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,3.85,0.0196,7.3561,25.51,6.00,0.13,3.31,0.23
+CTGlobal,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU North - new  8/1/2022-8/31/2022  August   ,11.95,1.536,7.3561,1.00,6.00,10.18,10.18,0.62
+CTGlobal,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P3 v2 - EU West - new  8/1/2022-8/31/2022  August   ,9303.99,0.8,7.3561,1488.00,6.00,5.30,7889.79,446.60
+CTGlobal,SignalR - SignalR - new 8/1/2022-8/31/2022  August   ,1170.26,1.61,7.3561,93.00,6.00,10.67,992.39,56.18
+CTGlobal,SQL Database Single Standard - SQL Database Single Standard - S2 - new  8/1/2022-8/31/2022  August   ,586.28,2.42,7.3561,31.00,6.00,16.04,497.22,28.20
+CTGlobal,SQL Database - LTR Backup Storage - SQL Database - LTR Backup Storage - RA-GRS - EU West - new  8/1/2022-8/31/2022  August   ,23.26,0.0595,7.3561,50.17,6.00,0.39,19.78,1.17
+CTGlobal,Azure Monitor - Azure Monitor - Alerts - new 8/1/2022-8/31/2022  August   ,0,0.1,7.3561,10.00,6.00,0.00,0.00,0.00
+CTGlobal,Azure Monitor - Azure Monitor - Alerts - new 8/1/2022-8/31/2022  August   ,6.25,0.1,7.3561,8.00,6.00,0.66,5.30,0.30
+CTGlobal,Azure Repos and Boards (Basic) - Azure Repos and Boards (Basic) - new  8/1/2022-8/31/2022  August   ,78.61,6,7.3561,1.68,6.00,39.77,66.71,3.82
+CTGlobal,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - new  8/1/2022-8/31/2022  August   ,1744.49,0.1,7.3561,2232.00,6.00,0.66,1479.34,83.75
+CTGlobal,Log Analytics - Log Analytics - Pay-as-you-go - EU West - new  8/1/2022-8/31/2022  August   ,0,2.99,7.3561,5.00,6.00,0.00,0.00,0.00
+CTGlobal,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.0043,7.3561,0.07,6.00,0.03,0.00,0.00
+BLS Capital Management,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,1.37,65.00,0.00,0.01,0.01
+BLS Capital Management,Service Bus - Service Bus - Standard - new 8/1/2022-8/31/2022  August   ,60.59,0.013441,7.3561,577.00,65.00,0.14,80.01,31.54
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - GRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.00054,7.3561,4.46,65.00,0.01,0.02,0.02
+BLS Capital Management,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.00,65.00,0.00,0.00,0.00
+BLS Capital Management,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication - EU West - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,0.06,65.00,0.00,0.00,0.00
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E10 LRS - EU West - new  8/1/2022-8/31/2022  August   ,74.94,9.6,7.3561,1.00,65.00,99.04,99.04,39.09
+BLS Capital Management,Bandwidth Inter-Region - Bandwidth Inter-Region - Inter Continent - Intercontinental - new  8/1/2022-8/31/2022  August   ,0,0.05,7.3561,0.10,65.00,0.00,0.00,0.00
+BLS Capital Management,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,2.29,0.06,7.3561,5.00,65.00,0.62,3.09,1.26
+BLS Capital Management,IP Addresses - IP Addresses - Basic IPv4 - new 8/1/2022-8/31/2022  August   ,23.16,0.004,7.3561,744.00,65.00,0.04,30.70,12.17
+BLS Capital Management,Standard Page Blob - Standard Page Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,4.46,65.00,0.00,0.02,0.02
+BLS Capital Management,Tables - Tables - RA-GRS - new 8/1/2022-8/31/2022  August   ,0,0.075,7.3561,0.01,65.00,0.77,0.01,0.01
+BLS Capital Management,Premium SSD Managed Disks - Premium SSD Managed Disks - P10 - EU West - new  8/1/2022-8/31/2022  August   ,338.84,21.68,7.3561,2.00,65.00,223.67,447.31,176.24
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,11.4,0.054,7.3561,27.21,65.00,0.56,15.16,6.04
+BLS Capital Management,Virtual Machines BS Series - Virtual Machines BS Series - B2s - EU West - new  8/1/2022-8/31/2022  August   ,279.06,0.048,7.3561,743.93,65.00,0.50,368.41,145.16
+BLS Capital Management,Log Analytics - Log Analytics - Pay-as-you-go - EU West - new  8/1/2022-8/31/2022  August   ,0,2.99,7.3561,0.17,65.00,0.00,0.00,0.00
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0.55,0.0196,7.3561,3.98,65.00,0.20,0.81,0.37
+BLS Capital Management,Service Bus - Service Bus - Standard - new 8/1/2022-8/31/2022  August   ,0,0.8,7.3561,0.00,65.00,0.00,0.00,0.00
+BLS Capital Management,Azure Active Directory Domain Services - Azure Active Directory Domain Services - Standard - new  8/1/2022-8/31/2022  August   ,871.96,0.15,7.3561,743.79,65.00,1.55,1151.05,453.48
+BLS Capital Management,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0.18,0.00036,7.3561,79.93,65.00,0.00,0.30,0.16
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,2.66,0.0043,7.3561,79.91,65.00,0.04,3.54,1.41
+BLS Capital Management,SQL Server Standard - SQL Server Standard - 1-4 vCPU VM - new  8/1/2022-8/31/2022  August   ,2325.71,0.4,7.3561,743.93,65.00,4.13,3070.04,1209.47
+BLS Capital Management,Bandwidth Inter-Region - Bandwidth Inter-Region - Intra Continent - Europe - new  8/1/2022-8/31/2022  August   ,0,0.02,7.3561,0.46,65.00,0.21,0.09,0.09
+BLS Capital Management,Virtual Machines Dv2 Series Windows - Virtual Machines Dv2 Series Windows - D2 v2 - EU West - new  8/1/2022-8/31/2022  August   ,3093.33,0.266,7.3561,1487.90,65.00,2.74,4083.25,1608.59
+BLS Capital Management,Tables - Tables - GRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.90,65.00,0.00,0.00,0.00
+BLS Capital Management,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,24.60,65.00,0.00,0.00,0.00
+BLS Capital Management,Backup - Backup - Standard - EU West - new 8/1/2022-8/31/2022  August   ,130.48,0.0448,7.3561,372.73,65.00,0.46,172.27,67.89
+BLS Capital Management,Premium SSD Managed Disks - Premium SSD Managed Disks - P6 - EU West - new  8/1/2022-8/31/2022  August   ,87.71,11.2272,7.3561,1.00,65.00,115.83,115.82,45.65
+BLS Capital Management,Standard Page Blob - Standard Page Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,6.97,65.00,0.00,0.03,0.03
+BLS Capital Management,Storage - Bandwidth - Storage - Bandwidth - Geo-Replication v2 - EU West - new  8/1/2022-8/31/2022  August   ,3.95,0.02,7.3561,25.59,65.00,0.21,5.28,2.12
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E30 LRS - EU West - new  8/1/2022-8/31/2022  August   ,600.16,76.8,7.3561,1.00,65.00,792.34,792.29,312.16
+BLS Capital Management,Backup - Backup - On Premises Server - EU West - new  8/1/2022-8/31/2022  August   ,78.06,10,7.3561,1.00,65.00,103.17,103.17,40.72
+BLS Capital Management,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - new  8/1/2022-8/31/2022  August   ,0.55,0.0005,7.3561,161.32,65.00,0.01,0.83,0.39
+BLS Capital Management,Standard HDD Managed Disks - Standard HDD Managed Disks - S4 LRS - EU West - new  8/1/2022-8/31/2022  August   ,11.95,1.536,7.3561,1.00,65.00,15.85,15.85,6.29
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.00054,7.3561,7.01,65.00,0.01,0.04,0.04
+BLS Capital Management,Standard Page Blob v2 - Standard Page Blob v2 - RA-GRS - EU West - new  8/1/2022-8/31/2022  August   ,0.73,0.075,7.3561,1.38,65.00,0.77,1.07,0.49
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,1.28,0.054,7.3561,3.12,65.00,0.56,1.74,0.72
+BLS Capital Management,Standard SSD Managed Disks - Standard SSD Managed Disks - E4 LRS - new  8/1/2022-8/31/2022  August   ,24.09,0.002,7.3561,1543.83,65.00,0.02,31.86,12.59
+BLS Capital Management,Network Watcher - Network Watcher - new 8/1/2022-8/31/2022  August   ,0,0.5,7.3561,0.45,65.00,0.00,0.00,0.00
+BLS Capital Management,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.0043,7.3561,0.12,65.00,0.04,0.01,0.01
+BLS Capital Management,IP Addresses - IP Addresses - Standard IPv4 - new 8/1/2022-8/31/2022  August   ,58.11,0.005,7.3561,1488.00,65.00,0.05,76.76,30.27
+BLS Capital Management,Virtual Machines Av2 Series Windows - Virtual Machines Av2 Series Windows - A4 v2 - EU West - new  8/1/2022-8/31/2022  August   ,1593.14,0.274,7.3561,743.93,65.00,2.83,2102.98,828.47
+BLS Capital Management,IP Addresses - IP Addresses - Basic IPv4 - new 8/1/2022-8/31/2022  August   ,41.84,0.0036,7.3561,1488.00,65.00,0.04,55.27,21.80
+BLS Capital Management,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.02,65.00,0.46,0.01,0.01
+BLS Capital Management,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  8/18/2022-9/17/2022  August   ,403.2,10.08,1,32.00,25,12.60,403.20,80.64
+BLS Capital Management,Dynamics 365 CRM New Commerce Promotional Offer Annual - Dynamics 365 Sales Enterprise Edition - cycleCharge  8/28/2022-9/27/2022  August   ,532.5,448.43,1,1.00,25.00,532.50,532.50,106.50
+BLS Capital Management,Power Automate per user plan - Power Automate per user plan - renew  8/28/2022-9/27/2022  August   ,106.2,84.96,1,1.00,25,106.20,106.20,21.24
+BLS Capital Management,Microsoft 365 E5 Compliance - Microsoft 365 E5 Compliance - cycleCharge  8/28/2022-9/27/2022  August   ,226.5,60.4,1,3.00,25.00,75.50,226.50,45.30
+BLS Capital Management,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 2) - cycleCharge  8/28/2022-9/27/2022  August   ,669.06,40.24,1,14.00,25.00,47.79,669.03,133.81
+BLS Capital Management,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - cycleCharge  8/28/2022-9/27/2022  August   ,1338.12,40.24,1,28.00,25.00,47.79,1338.05,267.61
+BLS Capital Management,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - Virtual User - cycleCharge  8/28/2022-9/27/2022  August   ,0,0,1,10.00,25.00,0.00,0.00,0.00
+BLS Capital Management,Microsoft 365 Audio Conferencing Adoption Promo - Microsoft 365 Business Voice Adoption Promo - Microsoft 365 Audio Conferencing - cycleCharge  8/28/2022-9/27/2022  August   ,0,15.7,1,32.00,25,0.00,0.00,0.00
+BLS Capital Management,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E3 - cycleCharge  8/28/2022-9/27/2022  August   ,7345.47,210.88,1,33.00,25,222.59,7345.39,1469.08
+RackPeople ApS,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,0.10,0.00,0.00,0.00,0.00
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.26,0.00,0.00,0.00,0.00
+RackPeople ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,7.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Functions - Functions - new 8/1/2022-8/31/2022  August   ,0,0.000016,7.3561,400000.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.61,0.00,0.00,0.00,0.00
+RackPeople ApS,Service Bus - Service Bus - Hybrid Connections - new  8/1/2022-8/31/2022  August   ,155.39,0.0134,7.3561,1484.33,0.00,0.08,124.37,0.06
+RackPeople ApS,Service Bus - Service Bus - Hybrid Connections - new  8/1/2022-8/31/2022  August   ,0,1,7.3561,0.11,0.00,0.00,0.00,0.00
+RackPeople ApS,SQL Database Single Standard - SQL Database Single Standard - S0 - new  8/1/2022-8/31/2022  August   ,117.24,0.4839,7.3561,31.00,0.00,3.03,93.80,0.01
+RackPeople ApS,Service Bus - Service Bus - Standard - new 8/1/2022-8/31/2022  August   ,0,0.8,7.3561,0.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P1 v2 - EU North - new  8/1/2022-8/31/2022  August   ,1162.99,0.2,7.3561,744.00,0.00,1.25,930.40,0.01
+RackPeople ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  8/1/2022-8/31/2022  August   ,0,2.76,7.3561,5.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Functions - Functions - new 8/1/2022-8/31/2022  August   ,0,0.000002,7.3561,42682.00,0.00,0.00,0.00,0.00
+RackPeople ApS,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - new  8/1/2022-8/31/2022  August   ,581.49,0.1,7.3561,744.00,0.00,0.63,465.20,0.01
+RackPeople ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  8/1/2022-8/31/2022  August   ,69.24,2.76,7.3561,3.21,0.00,17.26,55.42,0.03
+RackPeople ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,7.62,0.00,0.00,0.02,0.02
+RackPeople ApS,SQL Database Single Basic - SQL Database Single Basic - B - new  8/1/2022-8/31/2022  August   ,77.96,0.161,7.3561,62.00,0.00,1.01,62.41,0.04
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,2.85,0.00,0.00,0.01,0.01
+RackPeople ApS,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0,0.06,7.3561,0.09,0.00,0.38,0.03,0.03
+RackPeople ApS,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0.45,0.0015,7.3561,41.38,0.00,0.01,0.39,0.03
+RackPeople ApS,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,0.36,0.0015,7.3561,35.67,0.00,0.01,0.33,0.04
+RackPeople ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,3.95,0.045,7.3561,11.50,0.00,0.28,3.24,0.08
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.024,7.3561,0.10,0.00,0.15,0.02,0.02
+RackPeople ApS,Functions - Functions - new 8/1/2022-8/31/2022  August   ,30.43,0.000016,7.3561,243820.84,0.00,0.00,24.39,0.05
+RackPeople ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,25.68,0.00,0.00,0.06,0.06
+RackPeople ApS,Files - Files - LRS - new 8/1/2022-8/31/2022  August   ,3.13,0.015,7.3561,26.99,0.00,0.09,2.53,0.03
+RackPeople ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0.28,0.00036,7.3561,121.84,0.00,0.00,0.27,0.05
+RackPeople ApS,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  8/1/2022-8/31/2022  August   ,553.3,40.24,1,11.00,0.0,40.24,442.64,0.00
+RackPeople ApS,Power BI Premium Per User - Power BI Premium Per User - cycleCharge  8/24/2022-9/23/2022  August   ,125.9,100.72,1,1.00,0.0,100.72,100.72,0.00
+RackPeople ApS,Windows 365 Enterprise - Windows 365 Enterprise 2 vCPU; 4 GB; 128 GB - renew  8/19/2022-9/18/2022  August   ,223.88,179.1,1,1.00,0.0,179.10,179.10,0.00
+AVS Danmark,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.05,22.00,0.00,0.00,0.00
+AVS Danmark,Backup - Backup-Standard -Det vestlige Europa - new  8/1/2022-8/31/2022  August   ,512.53,0.0448,7.3561,1463.77,22.00,0.34,500.24,90.22
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,1.28,0.004,7.3561,43.02,22.00,0.03,1.31,0.29
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,16.64,0.05,7.3561,42.61,22.00,0.38,16.25,2.94
+AVS Danmark,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.01,22.00,0.34,0.00,0.00
+AVS Danmark,Backup - Backup-Azure VM -Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,78.06,10,7.3561,1.00,22.00,76.28,76.28,13.83
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,0,0.004,7.3561,0.04,22.00,0.03,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,0,0.05,7.3561,0.06,22.00,0.38,0.02,0.02
+AVS Danmark,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.03,22.00,0.00,0.00,0.00
+AVS Danmark,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.01,22.00,0.00,0.00,0.00
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det vestlige Europa - new  8/1/2022-8/31/2022  August   ,0,0.0043,7.3561,0.01,22.00,0.03,0.00,0.00
+AVS Danmark,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.08,22.00,0.00,0.00,0.00
+AVS Danmark,Generel blok-blob - Generel blok-blob - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.01,22.00,0.00,0.00,0.00
+AVS Danmark,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,1.36,22.00,0.00,0.00,0.00
+AVS Danmark,VPN Gateway - VPN Gateway-VpnGw1  - new 8/1/2022-8/31/2022  August   ,1104.79,0.19,7.3561,744.00,22.00,1.45,1078.33,194.50
+AVS Danmark,Filer - Filer - LRS - new 8/1/2022-8/31/2022  August   ,2.29,0.06,7.3561,5.00,22.00,0.46,2.29,0.46
+AVS Danmark,Backup - Backup-Server i det lokale miljø -Det vestlige Europa - new  8/1/2022-8/31/2022  August   ,78.06,10,7.3561,1.00,22.00,76.28,76.28,13.83
+AVS Danmark,Premium-filer - Premium-filer - LRS - Det vestlige Europa - new  8/1/2022-8/31/2022  August   ,150.06,0.192,7.3561,100.00,22.00,1.46,146.46,26.41
+AVS Danmark,Blob Storage - Blob Storage - Varm LRS - Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,761.81,0.022,7.3561,4430.90,22.00,0.17,743.60,134.15
+AVS Danmark,Backup - Backup-Standard -Det nordlige Europa - new  8/1/2022-8/31/2022  August   ,19.76,0.0448,7.3561,56.71,22.00,0.34,19.38,3.57
+AVS Danmark,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Standard - cycleCharge  8/28/2022-9/27/2022  August   ,1270.92,62.96,1,17.00,25.00,74.76,1270.96,254.19
+AVS Danmark,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,95.76,20.16,1,4.00,22.00,23.36,93.45,16.85
+AVS Danmark,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - cycleCharge  8/28/2022-9/27/2022  August   ,139.18,117.2,1,1.00,22.00,135.83,135.83,24.49
+AVS Danmark,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Basic - cycleCharge  8/28/2022-9/27/2022  August   ,29.93,25.2,1,1.00,22.00,29.21,29.21,5.27
+AVS Danmark,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,95.76,20.16,1,4.00,22.00,23.36,93.45,16.85
+AVS Danmark,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,239.6,10.08,1,20.00,22.00,11.69,233.75,42.15
+AVS Danmark,Microsoft 365 Business Standard - Microsoft 365 Business Standard - renew  8/28/2022-9/27/2022  August   ,94.44,75.55,1,1.00,22.0,92.17,92.17,16.62
+GoWingu ApS,Azure App Service Premium v2 Plan - Azure App Service Premium v2 Plan - P1 v2 - EU North - new  8/1/2022-8/31/2022  August   ,1162.99,0.2,7.3561,744.00,0.00,1.25,930.40,0.01
+GoWingu ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.00,0.00,0.28,0.00,0.00
+GoWingu ApS,Log Analytics - Log Analytics - Pay-as-you-go - EU North - new  8/1/2022-8/31/2022  August   ,0,2.76,7.3561,0.58,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.03,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure Database for MySQL Single Server Basic - Storage - Azure Database for MySQL Single Server Basic - Storage - EU North - new  8/1/2022-8/31/2022  August   ,8.55,0.11,7.3561,9.99,0.00,0.69,6.87,0.03
+GoWingu ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,5.00,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure Database for MySQL Single Server Basic - Compute Gen5 - Azure Database for MySQL Single Server Basic - Compute Gen5 - 1 vCore - EU North - new  8/1/2022-8/31/2022  August   ,211.3,0.0364,7.3561,743.00,0.00,0.23,169.11,0.07
+GoWingu ApS,SQL Database - LTR Backup Storage - SQL Database - LTR Backup Storage - RA-GRS - EU North - new  8/1/2022-8/31/2022  August   ,0.18,0.055,7.3561,0.57,0.00,0.34,0.20,0.06
+GoWingu ApS,SQL Database Single Standard - SQL Database Single Standard - S0 - new  8/1/2022-8/31/2022  August   ,234.48,0.4839,7.3561,62.00,0.00,3.03,187.59,0.01
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,2.56,0.00,0.00,0.01,0.01
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.01,0.00,0.00,0.00,0.00
+GoWingu ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.45,0.00,0.00,0.00,0.00
+GoWingu ApS,Azure App Service Free Plan - Azure App Service Free Plan - F1 - new  8/1/2022-8/31/2022  August   ,0,0,7.3561,10.00,0.00,0.00,0.00,0.00
+GoWingu ApS,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,14.06,0.00,0.00,0.00,0.00
+GoWingu ApS,General Block Blob - General Block Blob - LRS - new  8/1/2022-8/31/2022  August   ,124.78,0.024,7.3561,665.51,0.00,0.15,99.87,0.05
+GoWingu ApS,Azure Database for MySQL Single Server - Backup Storage - Azure Database for MySQL Single Server - Backup Storage - LRS - EU North - new  8/1/2022-8/31/2022  August   ,29.05,0.11,7.3561,33.89,0.00,0.69,23.31,0.07
+Fonden af 28. maj 1948,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.45,25.0,0.00,0.00,0.00
+Fonden af 28. maj 1948,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.0043,7.3561,0.01,25.0,0.03,0.00,0.00
+Fonden af 28. maj 1948,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.00,25.0,0.35,0.00,0.00
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  8/1/2022-8/31/2022  August   ,0,0.004,7.3561,0.00,0.00,0.03,0.00,0.00
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.45,0.00,0.00,0.00,0.00
+Rackepeople Consulting ApS,Blob Storage - Blob Storage - Hot LRS - EU North - new  8/1/2022-8/31/2022  August   ,2880.91,0.022,7.3561,16754.86,0.00,0.14,2304.78,0.05
+Rackepeople Consulting ApS,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.01,0.00,0.28,0.00,0.00
+Kiltin,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0.087,7.3561,10.84,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.01,7.3561,0.03,110.00,0.13,0.00,0.00
+Kiltin,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.02,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  8/1/2022-8/31/2022  August   ,0.64,0.01,7.3561,9.09,110.00,0.13,1.19,0.68
+Kiltin,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,0,0.054,7.3561,0.05,110.00,0.71,0.04,0.04
+Kiltin,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.45,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Hot LRS - EU West - new  8/1/2022-8/31/2022  August   ,8.83,0.0043,7.3561,262.70,110.00,0.06,14.83,7.77
+Kiltin,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.01,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.03,110.00,0.00,0.00,0.00
+Kiltin,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.00036,7.3561,0.06,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  8/1/2022-8/31/2022  August   ,20.69,0.01,7.3561,265.83,110.00,0.13,34.91,18.36
+Kiltin,Tables - Tables - LRS - new 8/1/2022-8/31/2022  August   ,0,0.045,7.3561,0.00,110.00,0.59,0.00,0.00
+Kiltin,Rtn Preference: MGN - Rtn Preference: MGN - new 8/1/2022-8/31/2022  August   ,0,0,7.3561,269.10,110.00,0.00,0.00,0.00
+Kiltin,Blob Storage - Blob Storage - Cool LRS - EU West - new  8/1/2022-8/31/2022  August   ,196.04,0.1,7.3561,250.85,110.00,1.31,329.38,172.55
+Hi3G Denmark ApS,Azure App Service Standard Plan - Azure App Service Standard Plan - S1 - new  8/1/2022-8/31/2022  August   ,550.41,0.1,7.3561,704.24,15.00,0.72,506.39,66.06
+Atcom Aps,Microsoft 365 E5 - Microsoft 365 E5 - renew 8/28/2022-9/27/2022  August   ,1443.99,385.06,1,3.00,18.75,457.26,1371.78,216.60
+Atcom Aps,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,47.88,20.16,1,2.00,25.00,23.94,47.88,9.58
+Atcom Aps,Microsoft 365 New Commerce Promotional Offer Annual - Visio Plan 2 - cycleCharge  8/28/2022-9/27/2022  August   ,986.48,75.52,1,11.00,25.00,89.68,986.43,197.29
+Atcom Aps,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - renew  8/21/2022-9/20/2022  August   ,0,0,1,5.00,18.75,0.00,0.00,0.00
+Atcom Aps,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 E5 - cycleCharge  8/28/2022-9/27/2022  August   ,4429.88,286.96,1,13.00,25.00,340.76,4429.91,885.98
+Atcom Aps,Visio Plan 2 - Visio Plan 2 - renew 8/28/2022-9/27/2022  August   ,339.84,90.62,1,3.00,18.75,107.61,322.83,50.97
+Personalegruppen A/S,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  8/21/2022-9/20/2022  August   ,4709,110.8,1,34.00,25.0,138.50,4709.00,941.80
+Personalegruppen A/S,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  8/28/2022-9/27/2022  August   ,30.24,24.19,1,1.00,25.0,30.24,30.24,6.05
+GOSH Copenhagen,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  8/28/2022-9/27/2022  August   ,181.08,48.29,1,3.00,6.25,51.31,153.92,9.05
+GOSH Copenhagen,Microsoft 365 New Commerce Promotional Offer Annual - Power BI Pro - cycleCharge  8/28/2022-9/27/2022  August   ,717,50.32,1,12.00,9.00,52.10,625.22,51.62
+GOSH Copenhagen,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Basic - cycleCharge  8/28/2022-9/27/2022  August   ,359.16,25.2,1,12.00,9.00,26.09,313.14,25.86
+GOSH Copenhagen,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  8/28/2022-9/27/2022  August   ,498.6,132.96,1,3.00,6.25,141.27,423.81,24.93
+GOSH Copenhagen,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - cycleCharge  8/28/2022-9/27/2022  August   ,2198.34,40.24,1,46.00,9.00,41.67,1916.85,158.27
+GOSH Copenhagen,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  8/12/2022-9/11/2022  August   ,30.24,24.19,1,1.00,6.25,25.70,25.70,1.51
+GOSH Copenhagen,Microsoft Teams Rooms Standard - Microsoft Teams Rooms Standard - new  8/29/2022-8/31/2022  August   ,22.86,94.4,1,2.00,6.25,9.71,19.42,1.14
+GOSH Copenhagen,Microsoft 365 Audio Conferencing Adoption Promo - Microsoft 365 Business Voice Adoption Promo - Microsoft 365 Audio Conferencing - cycleCharge  8/28/2022-9/27/2022  August   ,0,15.7,1,71.00,6.25,0.00,0.00,0.00
+GOSH Copenhagen,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Standard - cycleCharge  8/28/2022-9/27/2022  August   ,672.84,62.96,1,9.00,9.00,65.19,586.74,48.45
+GOSH Copenhagen,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,5382,100.72,1,45.00,9.00,104.29,4693.10,387.50
+GOSH Copenhagen,Microsoft 365 Business Basic - Microsoft 365 Business Basic - renew  8/28/2022-9/27/2022  August   ,90.72,36.29,1,2.00,6.25,38.56,77.12,4.54
+INTERN A/S,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 F3 - cycleCharge  8/28/2022-9/27/2022  August   ,263.34,20.16,1,11.00,25.00,23.94,263.31,52.66
+INTERN A/S,Microsoft 365 Business Basic - Microsoft 365 Business Basic - renew  8/1/2022-8/31/2022  August   ,136.08,36.29,1,3.00,25.0,45.36,136.09,27.22
+INTERN A/S,Microsoft 365 New Commerce Promotional Offer Annual - Project Plan 3 - cycleCharge  8/28/2022-9/27/2022  August   ,1434.88,151.04,1,8.00,25.0,179.36,1434.90,286.98
+INTERN A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,1674.4,100.72,1,14.00,25.00,119.60,1674.40,334.88
+INTERN A/S,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,23.94,20.16,1,1.00,25.00,23.94,23.94,4.79
+PrimeAssurance AS,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Standard - cycleCharge  8/28/2022-9/27/2022  August   ,74.76,62.96,1,1.00,25.00,74.76,74.76,14.95
+PrimeAssurance AS,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,598,100.72,1,5.00,25.00,119.60,598.00,119.60
+Bendix Transport,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,95.76,20.16,1,4.00,25.00,23.94,95.75,19.15
+Bendix Transport,Microsoft 365 New Commerce Promotional Offer Annual - Enterprise Mobility + Security E3 - cycleCharge  8/28/2022-9/27/2022  August   ,2527.2,53.2,1,40.00,25.00,63.18,2527.00,505.40
+Bendix Transport,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - cycleCharge  8/28/2022-9/27/2022  August   ,5567.2,117.2,1,40.00,25.00,139.18,5567.00,1113.40
+make Rehab A/S,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,598,100.72,1,5.00,25.00,119.60,598.00,119.60
+Langvad Arkitekter,Microsoft 365 New Commerce Promotional Offer Annual - Project Plan 3 - cycleCharge  8/28/2022-9/27/2022  August   ,179.36,151.04,1,1.00,25.00,179.36,179.36,35.87
+Langvad Arkitekter,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Premium - cycleCharge  8/28/2022-9/27/2022  August   ,598,100.72,1,5.00,25.00,119.60,598.00,119.60
+Langvad Arkitekter,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  8/28/2022-9/27/2022  August   ,47.88,20.16,1,2.00,25.00,23.94,47.88,9.58
+RackpeopleTest,Modern Work SMB Promo - Microsoft Teams Essentials (AAD Identity) - Microsoft Teams Essentials (AAD Identity) - cycleCharge  8/12/2022-9/11/2022  August   ,56.7,20.16,1,3.00,0.0,15.12,45.36,0.00
+ZINCKTWICE S.M.B.A.,Microsoft 365 Business Standard - Microsoft 365 Business Standard - addQuantity  8/9/2022-8/31/2022  August   ,291.95,62.96,1,5.00,25.0,58.39,291.94,58.39
+ZINCKTWICE S.M.B.A.,Microsoft 365 Business Standard - Microsoft 365 Business Standard - addQuantity  8/9/2022-8/31/2022  August   ,-175.2,62.96,1,3.00,25.0,-58.40,-175.20,-35.04
+ZINCKTWICE S.M.B.A.,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  8/1/2022-8/31/2022  August   ,236.1,62.96,1,3.00,25.0,78.70,236.10,47.22
+Mads & Vitus,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Business Standard - cycleCharge  8/23/2022-9/22/2022  August   ,373.8,62.96,1,5.00,12.50,67.29,336.43,37.38
+Mads & Vitus,Microsoft 365 New Commerce Promotional Offer Annual - Microsoft 365 Phone System - cycleCharge  8/23/2022-9/22/2022  August   ,191.16,40.24,1,4.00,12.50,43.01,172.04,19.12
+viks,Microsoft 365 Business Standard - Microsoft 365 Business Standard - renew  8/25/2022-9/24/2022  August   ,472.2,75.55,1,5.00,25.0,94.44,472.19,94.44

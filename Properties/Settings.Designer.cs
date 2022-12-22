@@ -12,7 +12,7 @@ namespace RPNAVConnect.Properties {
     
     
     [global::System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "15.5.0.0")]
+    [global::System.CodeDom.Compiler.GeneratedCodeAttribute("Microsoft.VisualStudio.Editors.SettingsDesigner.SettingsSingleFileGenerator", "16.10.0.0")]
     internal sealed partial class Settings : global::System.Configuration.ApplicationSettingsBase {
         
         private static Settings defaultInstance = ((Settings)(global::System.Configuration.ApplicationSettingsBase.Synchronized(new Settings())));
@@ -20,6 +20,26 @@ namespace RPNAVConnect.Properties {
         public static Settings Default {
             get {
                 return defaultInstance;
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("https://controlpanel.gowingu.net/webservices/machpanelservice.asmx")]
+        public string RPNAVConnect_MachPanelWebService_MachPanelService {
+            get {
+                return ((string)(this["RPNAVConnect_MachPanelWebService_MachPanelService"]));
+            }
+        }
+        
+        [global::System.Configuration.ApplicationScopedSettingAttribute()]
+        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
+        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
+        [global::System.Configuration.DefaultSettingValueAttribute("http://localhost:55069/RPNAVConnectWS.asmx")]
+        public string RPNAVConnect_TimeLogDataWS_RPNAVConnectWS {
+            get {
+                return ((string)(this["RPNAVConnect_TimeLogDataWS_RPNAVConnectWS"]));
             }
         }
         
@@ -42,16 +62,6 @@ namespace RPNAVConnect.Properties {
         public string RPNAVConnect_NAVOrdersWS_SalesOrder_Service_Service {
             get {
                 return ((string)(this["RPNAVConnect_NAVOrdersWS_SalesOrder_Service_Service"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://nav.gowingu.net:8091/RPNAVConnectWS.asmx")]
-        public string RPNAVConnect_TimeLogDataWS_RPNAVConnectWS {
-            get {
-                return ((string)(this["RPNAVConnect_TimeLogDataWS_RPNAVConnectWS"]));
             }
         }
         

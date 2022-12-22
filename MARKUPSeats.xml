@@ -1,0 +1,516 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CustomerMarkups>
+  <Customer Id="D87883D1-AECE-48DE-8109-394F3A7E3EC2" Markup="">
+    <Name>Comment</Name>
+    <Markup>
+    </Markup>
+  </Customer>
+  <Customer Id="e01617a8-60ca-4edb-ac4c-a5c533997609" Markup="25.0">
+    <Name>ACI A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="55f9beec-8a64-436d-b7c2-508e485929f8" Markup="25.0">
+    <Name>Acis Consulting ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a51785b0-f24d-4ebb-a939-949227bb8661">
+    <Name>adapterdevelopment</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="7be455f0-25ac-4929-8ea9-9e0cf8ee6cdc">
+    <Name>Advokatfirmaet Krarup</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a6aa5668-af61-4fd8-8731-0f2db54c8947" Markup="25.0">
+    <Name>Alsesi Management Konsult AB</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="b2ac3632-43cf-4480-bd28-0bff4090cae1" Markup="18.75">
+    <Name>Atcom Aps</Name>
+    <Markup>18.75</Markup>
+  </Customer>
+  <Customer Id="34d6ec56-89ce-45f6-8bc8-01424de6a4c7" Markup="22.0">
+    <Name>AVS Danmark</Name>
+    <Markup>22.0</Markup>
+  </Customer>
+  <Customer Id="d4db08d2-7624-4e8f-882b-09386bc9fdc6">
+    <Name>Ballerup Bladet A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="ec1f1937-e9ae-4ce7-8a7a-d766ad025fb2">
+    <Name>Basta Office ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="64c66837-fd23-4792-8b26-0b8a12ed5239" Markup="25.00">
+    <Name>Bendix Transport</Name>
+    <Markup>25.00</Markup>
+  </Customer>
+  <Customer Id="70977ed5-9b85-417d-b6c0-c5b49b3a9b9e">
+    <Name>Betterways</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="73cf05f5-d96d-4925-b9cc-6a5dc40bcbf5">
+    <Name>Birch GM Handel ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="b795875d-7e10-4816-8dbb-c215a70201d0" Markup="25.0">
+    <Name>BLS Capital Management</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="67fa8fce-e34e-4894-a182-59aa5e10853f">
+    <Name>Bo Wildfang</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e64fd580-b64f-4db6-b762-80e65b8d9abb">
+    <Name>BP&amp;CoHolding</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="39a6bac8-2eb8-4d1a-ac31-a295a7c21a97">
+    <Name>CANEA ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="b6909603-e5a8-497d-8fdb-7f10240fdc13" Markup="3">
+    <Name>CTGlobal Cloud Services ApS</Name>
+    <Markup>3</Markup>
+  </Customer>
+  <Customer Id="5e99bbca-61d9-4f9f-98b3-dce52b85a576">
+    <Name>Dansk Arbejdsskadeforsikring Agentur ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="346bb90d-befd-4bb3-90d6-425226a998e4">
+    <Name>Deltaq Management a/s</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8e7caf48-a01d-42a1-a309-09c2f61e6954" Markup="0">
+    <Name>Dummy corp</Name>
+    <Markup>0</Markup>
+  </Customer>
+  <Customer Id="6e84e6ca-3871-45ab-bb3a-944b63563c19">
+    <Name>Evonate ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6b945505-4a83-4ea4-b28c-6910ccdc48ff" Markup="25.0">
+    <Name>Faksemosegaard</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="16199fc4-17f4-4927-9215-49faaffc3faa">
+    <Name>Folkebladet for Glostrup</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="952f40a3-a17b-4c00-9881-5d9e4a7eb39c">
+    <Name>Fonden af 28. maj 1948</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8162953c-5783-4d47-a2df-8d670bce00c6">
+    <Name>Forsyning Helsingør</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="c7286b52-a591-4148-aa86-cb9bbdb74a00">
+    <Name>Gladsaxe Bladet</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="7b62b477-c11e-48fa-a1a1-f50dd448ad9c" Markup="0.0">
+    <Name>GoWingu ApS</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="a82c3173-ccc6-452e-b1ea-b073caf1ea9d">
+    <Name>Grønbech &amp; Sønner</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8bec2ba7-852d-47ab-a79e-7adc2f0fc8ca">
+    <Name>Hoimes advisory</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="94030b93-0abb-4b0c-9998-a05deee93b0b">
+    <Name>Ingemann &amp; Partnere</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="f6145307-90ef-4894-906d-2cb69f51a870">
+    <Name>Inlite</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6dc6356a-18d1-4544-965c-aa04c49bb737">
+    <Name>Integra Advokater I/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e27c3fbf-0c10-40dc-a2fa-2bc482a803e2">
+    <Name>INTERN A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="d863d398-8538-4e94-9203-4550b5f146ba">
+    <Name>Jesper Ziegler</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6e0624bc-7e99-4e3f-bff7-a577f2bd5ac1">
+    <Name>KeepFocus</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="4ff5fd63-d494-42c9-91dd-f2905f6dcd98">
+    <Name>Kiltin</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="83bb7a7b-662b-49a4-8d39-f536f1c3b792">
+    <Name>Langvad Arkitekter</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="747dea75-cf1f-461e-a805-7b497741514a">
+    <Name>Lejerforeningen Fairway House</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="0da9dd2c-0273-424d-94a6-725f5a145df9">
+    <Name>make:net a/s</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="da072080-e4aa-4c80-845b-b4bd760ee5f6">
+    <Name>NORDIC Shipping &amp; Logistics</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="20a293d3-baf7-473d-be5d-b8a6a2654467">
+    <Name>Nordic Venture Partners</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a40bac64-f9be-4e32-a9ab-b7fb0676c917">
+    <Name>Novigo</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="d528973b-1d27-42b1-88fb-de18d22c7732">
+    <Name>Ole Holst</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="7600e0fd-5b2d-4092-92ef-939104a0700a">
+    <Name>P. Vesterholm Rengøring A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="78c786bc-db55-4ad0-a763-c6691320ed6a">
+    <Name>Paludan og Ramsager</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="3df1b0b3-4432-4867-92a0-8f04d0918aa3">
+    <Name>Personalegruppen A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6ee15348-56c6-4ae4-97f5-b4b5f3ada5fa" Markup="0.0">
+    <Name>Petitlilo ApS</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="a6815a69-f24d-4307-b150-46de5acfcc33">
+    <Name>Plustid</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="5a5297e0-2311-4b0b-bdd2-e866cc10c25e" Markup="10.0">
+    <Name>Preben Andersen Vognmands- &amp; Renovationsforretning ApS</Name>
+    <Markup>10.0</Markup>
+  </Customer>
+  <Customer Id="1fd69719-63cd-4aa4-96e3-3bf70301c149">
+    <Name>PrimeAssurance A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="0859e20e-ac4b-48e1-9cd6-a689d47cf655" Markup="0.0">
+    <Name>Rackpeople</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="80b9d8b0-f820-4fb2-bcd0-36e7b52e7784" Markup="0.0">
+    <Name>Rackpeople ApS</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0.0">
+    <Name>RackPeople ApS</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="3f19aad6-a204-4a42-b614-74d0a77ea620" Markup="0.0">
+    <Name>RackpeopleTest</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="6b623733-dd22-411a-a3d4-d8b92bdd545a">
+    <Name>RIP Bogføring</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8b1fbe9f-3553-4acf-b654-b0ccd691c973">
+    <Name>Rønslev ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a990ff53-e52e-4c97-b96e-966512b99dfa" Markup="25">
+    <Name>Safe Online ApS</Name>
+    <Markup>25</Markup>
+  </Customer>
+  <Customer Id="0b409563-744e-405d-802d-401e1ad470ef" Markup="0.0">
+    <Name>SBC-Teams GoWingu</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="b9d2f243-b20e-44ca-aaba-b179b9963fe2" Markup="0.0">
+    <Name>Skypecall.me</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="8663db16-6e34-4afd-87de-a5424d0875f7">
+    <Name>Solrød Vandværk a.m.b.a.</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8c968f4d-6a0e-43ee-acb9-55f5d566b72b">
+    <Name>SOS Manpower ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="23d864ed-1cc7-4e62-8e52-d2daa1bdceee">
+    <Name>sturupraceway</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="9e4c14c7-fdf9-4ac7-8e4c-1ee087c169a3" Markup="0.0">
+    <Name>Styrbordhalse</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="e2363102-bbf1-41ee-a0f5-286dfb513a36">
+    <Name>Svend Erik Larsen</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6e240344-7abc-4189-8dac-d7335a12a5e7">
+    <Name>Synch Advokatpartnerselskab</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="b6832119-839b-4dde-9530-0c477cc1dbf3">
+    <Name>Sytex</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e2378a5a-9ccd-4639-8094-29d8e89a3d97">
+    <Name>TITGEMEYER SKANDINAVIEN A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e6196336-9df4-4801-98fc-5496bffef880">
+    <Name>Unika Byg ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="71946a03-7d10-4ccb-a96c-880e931e72f3">
+    <Name>Vadstrup</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="18f699cf-6e22-4c14-b4b8-484077affbcc" Markup="0.0">
+    <Name>Winhost</Name>
+    <Markup>0.0</Markup>
+  </Customer>
+  <Customer Id="02a77aa4-0260-4b21-9c5d-ab9da3f8cdbf">
+    <Name>Wohlert Arkitekter</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="49e3fede-d822-4fb7-97cf-cd482f9486e8" Markup="25.0">
+    <Name>Zealand Pharma A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="bccb7f4e-377d-4143-be5f-96782a9fba40">
+    <Name>Lolland Forsyning a/s</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="7ba0ecb0-4dca-4b80-82de-7e32b6b61695" Markup="12.5">
+    <Name>Amgros</Name>
+    <Markup>12.5</Markup>
+  </Customer>
+  <Customer Id="dafc63d5-a0f2-4e9d-b31e-fae3a2899dd4">
+    <Name>Jørn Andersen Service</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="5b1edbd4-913b-43b9-8a57-431bc7548684">
+    <Name>Jysk Energi Teknik AS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="80ed74fa-8f44-4a36-9520-c03e719ed98a" Markup="9.00">
+    <Name>Nordic Bioscience</Name>
+    <Markup>9.00</Markup>
+  </Customer>
+  <Customer Id="f6aba9a9-08c9-40e4-a47a-357dea793664" Markup="0">
+    <Name>S4B.dk</Name>
+    <Markup>0</Markup>
+  </Customer>
+  <Customer Id="c2493165-a43b-4972-92b3-7b49bffbd40a" Markup="0">
+    <Name>POC 3 SE</Name>
+    <Markup>0</Markup>
+  </Customer>
+  <Customer Id="ee357b2a-1bf9-42a6-baab-9772d85b28c1">
+    <Name>Projectum Aps</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e806e710-470d-4f01-8271-4a68a749a592">
+    <Name>Iuno</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="1350a8bc-4879-401e-94e0-a14c8047aa30">
+    <Name>Mita-Teknik a/s</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a974bc88-a0e0-49a4-b706-3eb4ea8ca462">
+    <Name>NGF Nature Energy Biogas A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="59560151-20da-4819-b97f-c016db67efa1">
+    <Name>Niels Henrik Rasmussen</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8f5ca11c-c501-4138-943b-d0d82a6b6c02" Markup="6.25">
+    <Name>PureteQ A/S</Name>
+    <Markup>6.25</Markup>
+  </Customer>
+  <Customer Id="352cef72-5672-4582-a668-30ccd2ce8789">
+    <Name>furnipart</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="d3c798bc-bccf-46e0-8b4e-51f10ce25310">
+    <Name>Infare</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="ab3872cf-a307-4a9e-84a2-cc2de5f629ac">
+    <Name>Peter Justesen Company A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="81896f1e-e62c-4499-8f40-b38c78f24495">
+    <Name>Svanehøj Group</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="2c6b6560-31a2-4569-a282-056aea287935">
+    <Name>Bakels Sweden</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="62c5eb46-d129-44dd-91fd-47d9e6a17d69">
+    <Name>Capital Four Management Fondsmæglerselskab A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="50e35583-605c-44fc-924d-9d170de6d7de">
+    <Name>COMM2IG</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e8ac1d3f-5424-46b4-8d41-70769f9abd49">
+    <Name>Readynez A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="38d98bff-e355-4f4b-bf6d-e8aaad720835">
+    <Name>Buck-Arentsen Holding ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a980a661-6969-4f10-8dd3-e57bbffcc853" Markup="12.50">
+    <Name>Mads &amp; Vitus</Name>
+    <Markup>12.50</Markup>
+  </Customer>
+  <Customer Id="1dd91b75-6067-4249-802a-33bb55f62e86" Markup="25">
+    <Name>Nyborg Kommune</Name>
+    <Markup>25</Markup>
+  </Customer>
+  <Customer Id="0f341d83-baf4-42ed-acfa-2749495cfdea" Markup="12.5">
+    <Name>Gammelbys</Name>
+    <Markup>12.5</Markup>
+  </Customer>
+  <Customer Id="fdb6de3c-b534-4577-bf1e-5cd31aab07f1">
+    <Name>Pointwork</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="9a0d67ec-ec77-4eaa-8f31-38908639db58">
+    <Name>Strøm Hansen A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="fef2a33c-2e1b-4a2c-a151-f3b39eae616c">
+    <Name>Klinik Socius</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="9da00977-f4db-4b65-a9c5-1484661a71ee">
+    <Name>MARTINE LIE Interior Concepts ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="7cf52180-c074-4627-97d3-04ab49704118">
+    <Name>North Sea Capital A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="c959cf6c-f015-49bc-8a35-b9a1084f6bd6" Markup="6.25">
+    <Name>Delfi Technologies A/S</Name>
+    <Markup>6.25</Markup>
+  </Customer>
+  <Customer Id="2d535a89-0fcc-43a0-96c9-8f132da2377a" Markup="15">
+    <Name>Hi3G Denmark ApS</Name>
+    <Markup>15</Markup>
+  </Customer>
+  <Customer Id="f75c827c-8b10-4924-972a-443612c21f4d">
+    <Name>Tresor Property A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="3fac7206-4218-4b11-8949-c344246dd5f4">
+    <Name>Assistance datautbildning AB</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="744b84ac-4eae-4885-9f59-9217b999f8b4" Markup="9">
+    <Name>GOSH Copenhagen</Name>
+    <Markup>9</Markup>
+  </Customer>
+  <Customer Id="0b90961b-156b-4552-b0ce-8d0d58d793cf">
+    <Name>NextM2M A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="3db5046b-44aa-45a2-a22c-afc8f063fddc">
+    <Name>Plandent A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="2f0bf2d0-d980-410d-a9fe-2429988a454d">
+    <Name>ZINCKTWICE S.M.B.A.</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="f9a5296a-3dc8-4b47-bcb6-1cf9ea8e06ba">
+    <Name>Ecovis Danmark</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="c0d570cf-c816-424d-aa36-b3880e42e64e">
+    <Name>Noa Noa A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="4d2f8663-043f-4798-8507-84849bbedfda" Markup="7.0">
+    <Name>Nord Tech Industrisystemer</Name>
+    <Markup>7.0</Markup>
+  </Customer>
+  <Customer Id="a78caa36-dde4-48f4-aeab-49f4312b9cc1">
+    <Name>VisitDenmark</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="05818761-2b95-4d9c-8a5d-1590562d237e">
+    <Name>Wise Choice Consulting ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="452dedf8-b7a2-493f-91b9-21568126e9b8">
+    <Name>Elma Instruments</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="62ae78e2-041d-45c1-b485-3e073d3cb1d4">
+    <Name>make Rehab A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="d86dee08-b788-421c-ad23-1cf2c98b74d6">
+    <Name>Advania Danmark A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6844de06-a65a-4fdd-afa1-26df4e5e8a9a">
+    <Name>Leki Aviation</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="26b644f5-2f84-42eb-a814-29456e88624d">
+    <Name>Scandinavian Energy Contractor A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6d51aeef-5f24-4438-962f-fa4688371f2e">
+    <Name>Add-On Products &amp; Add-On Development</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="6f56f40e-9a1f-42c2-99bb-65df97442755">
+    <Name>Elindco</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="b54b00b9-b849-4958-bee7-401397bb84fe">
+    <Name>Forbundshuset</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="0ccae24f-0790-4c6a-a4f7-e6a36673efe4">
+    <Name>SUN-AIR of Scandinavia A/S</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="2a87cbf1-9133-479e-bd3a-fa4e7cd85065">
+    <Name>4D</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="c341c459-eb96-4bfb-a096-6020f5598ce8">
+    <Name>viks</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="de34bd08-db28-470e-87de-c5a5a40f06e8">
+    <Name>Norli Liv og Pension</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+</CustomerMarkups>

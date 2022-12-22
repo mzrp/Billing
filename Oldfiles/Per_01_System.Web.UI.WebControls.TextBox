@@ -1,0 +1,277 @@
+Customer,Description1,Description2,Period,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+Standard Page Blob - Standard Page Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.045,0.045,0.00,0.0,0.29,0.00,0.00
+Virtual Network Peering - Virtual Network Peering,- new ,1/1/2022-1/31/2022,9.99,0.01,0.01,152.47,0.0,0.07,9.99,0.00
+Standard SSD Managed Disks - Standard SSD Managed,Disks - E4 LRS - new ,1/1/2022-1/31/2022,13.18,0.002,0.002,1,005.78,0.0,0.01,13.18,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,0.0,0.29,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0.98,0.00036,0.00036,415.47,0.0,0.00,0.98,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - Snapshots ZRS - EU West - new ,1/1/2022-1/31/2022,2.45,0.05,0.05,7.48,0.0,0.33,2.45,0.00
+VPN Gateway - VPN Gateway - Basic - new,1/1/2022-1/31/2022, January,186.4,0.036,0.036,790.25,0.0,0.24,186.40,0.00
+IP Addresses - IP Addresses - Standard - new,1/1/2022-1/31/2022, January,362.49,0.005,0.005,11,064.85,0.0,0.03,362.49,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0,0.0015,0.0015,0.00,0.0,0.01,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Premium SSD Managed Disks - Premium SSD Managed,Disks - P20 - EU West - new ,1/1/2022-1/31/2022,560.61,80.54,80.54,1.06,0.0,527.71,560.61,0.00
+Standard SSD Managed Disks - Standard SSD Managed,Disks - E4 LRS - EU West - new ,1/1/2022-1/31/2022,33.33,2.4,2.4,2.12,0.0,15.73,33.33,0.00
+Load Balancer - Load Balancer - new,1/1/2022-1/31/2022, January,569.7,0.01,0.01,8,694.92,0.0,0.07,569.70,0.00
+Standard Page Blob - Standard Page Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Load Balancer - Load Balancer - new,1/1/2022-1/31/2022, January,258.96,0.025,0.025,1,580.93,0.0,0.16,258.96,0.00
+Virtual Machines BS Series - Virtual Machines BS,Series - B1ms - EU West - new ,1/1/2022-1/31/2022,125.3,0.024,0.024,796.82,0.0,0.16,125.30,0.00
+Backup - Backup - Azure VM - new,1/1/2022-1/31/2022, January,34.73,10,10,0.53,0.0,65.52,34.73,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,86.49,0.087,0.087,151.73,0.0,0.57,86.49,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S4 LRS - new ,1/1/2022-1/31/2022,3.68,0.0005,0.0005,1,123.30,0.0,0.00,3.68,0.00
+Virtual Machines Dv2 Series - Virtual Machines Dv2,Series - D3 v2 - EU West - new ,1/1/2022-1/31/2022,1211.73,0.272,0.272,679.92,0.0,1.78,1,211.73,0.00
+Bandwidth Inter-Region - Bandwidth Inter-Region -,Inter Continent - Intercontinental - new ,1/1/2022-1/31/2022,3.35,0.05,0.05,10.23,0.0,0.33,3.35,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0,0.0015,0.0015,0.00,0.0,0.01,0.00,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S4 LRS - EU West - new ,1/1/2022-1/31/2022,64.13,1.536,1.536,6.37,0.0,10.06,64.13,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,0.0,0.57,0.00,0.00
+IP Addresses - IP Addresses - Basic - new,1/1/2022-1/31/2022, January,55.85,0.0036,0.0036,2,367.77,0.0,0.02,55.85,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Load Balancer - Load Balancer - new,1/1/2022-1/31/2022, January,2.78,0.005,0.005,84.86,0.0,0.03,2.78,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S6 LRS - EU West - new ,1/1/2022-1/31/2022,62.73,3.008,3.008,3.18,0.0,19.71,62.73,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - Snapshots LRS - EU West - new ,1/1/2022-1/31/2022,0.49,0.05,0.05,1.50,0.0,0.33,0.49,0.00
+Bandwidth Inter-Region - Bandwidth Inter-Region -,Intra Continent - Europe - new ,1/1/2022-1/31/2022,8.51,0.02,0.02,64.94,0.0,0.13,8.51,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0,0.015,0.015,0.00,0.0,0.10,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Azure Active Directory Domain Services - Azure,Active Directory Domain Services - Standard - new ,1/1/2022-1/31/2022,658.73,0.15,0.15,670.25,0.0,0.98,658.73,0.00
+Virtual Network Peering - Virtual Network Peering,- new ,1/1/2022-1/31/2022,10.89,0.01,0.01,166.21,0.0,0.07,10.89,0.00
+Bandwidth Inter-Region - Bandwidth Inter-Region -,Inter Continent - Intercontinental - new ,1/1/2022-1/31/2022,0,0.05,0.05,0.00,0.0,0.33,0.00,0.00
+Standard Page Blob - Standard Page Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Virtual Machines RI - Virtual Machines RI - new,1/1/2022-1/31/2022, January,0,0,0,0.00,0.0,0.00,0.00,0.00
+Backup - Backup - Standard - new,1/1/2022-1/31/2022, January,1.23,0.0448,0.0448,4.19,0.0,0.29,1.23,0.00
+Virtual Machines Dv2 Series - Virtual Machines Dv2,Series - D1 v2 - EU West - new ,1/1/2022-1/31/2022,352.83,0.0679,0.0679,793.08,0.0,0.44,352.83,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0,0,0.00,0.0,0.00,0.00,0.00
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,0.0,0.00,0.00,0.00
+Premium SSD Managed Disks - Premium SSD Managed,Disks - P4 - EU West - new ,1/1/2022-1/31/2022,121.21,5.8072,5.8072,3.19,0.0,38.05,121.21,0.00
+Virtual Machines DSv2 Series - Reserved VM,Instance, Standard_DS3_v2, EU West, 3 Years - new ,1/7/2022-2/6/2022,2562.16,78.21,78.21,5.00,0.0,512.44,2,562.16,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,2559.41,0.022,0.022,17,755.65,0.0,0.14,2,559.41,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,0,0.004,0.004,0.00,0.0,0.03,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,6.46,0.004,0.004,246.49,0.0,0.03,6.46,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,0.56,0.05,0.05,1.71,0.0,0.33,0.56,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,0.0,0.29,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,69.36,0.05,0.05,211.72,0.0,0.33,69.36,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0,0,0.00,0.0,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,0.0,0.57,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,23.34,0.087,0.087,40.95,0.0,0.57,23.34,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Varm LRS - Det,nordlige Europa - new ,1/1/2022-1/31/2022,0,0.004,0.004,0.00,22.0,0.03,0.00,0.00
+Blob Storage - Blob Storage - Varm LRS - Det,nordlige Europa - new ,1/1/2022-1/31/2022,714.99,0.022,0.022,4,960.17,22.0,0.18,872.29,157.30
+IP-adresser - IP-adresser-Standard  - new,1/1/2022-1/31/2022, January,25.88,0.005,0.005,789.98,22.0,0.04,31.57,5.69
+Tabeller - Tabeller - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,22.0,0.00,0.00,0.00
+Backup - Backup-Standard  - new,1/1/2022-1/31/2022, January,465.85,0.0448,0.0448,1,587.04,22.0,0.36,568.34,102.49
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,22.0,0.70,0.00,0.00
+Premium SSD-administrerede diske - Premium,SSD-administrerede diske-P10 -Det nordlige Europa,- new ,548.74,19.71,19.71,4.25,22.0,157.55,669.46,120.72
+Backup - Backup-Server i det lokale miljø -Det,vestlige Europa - new ,1/1/2022-1/31/2022,69.53,10,10,1.06,22.0,79.94,84.83,15.30
+SQL Server Developer Edition - SQL Server,Developer Edition - new ,1/1/2022-1/31/2022,0,0,0,0.00,22.0,0.00,0.00,0.00
+Båndbredde mellem områder - Båndbredde mellem,områder - Mellem kontinenter - Interkontinental -,new ,0,0.05,0.05,0.00,22.0,0.40,0.00,0.00
+Premium SSD-administrerede diske - Premium,SSD-administrerede diske-Snapshots -Det nordlige,Europa - new ,1.39,0.132,0.132,1.61,22.0,1.06,1.70,0.31
+Premium-filer - Premium-filer - LRS - Det vestlige,Europa - new ,1/1/2022-1/31/2022,133.66,0.192,0.192,106.25,22.0,1.53,163.07,29.41
+Backup - Backup-Azure VM  - new,1/1/2022-1/31/2022, January,69.53,10,10,1.06,22.0,79.94,84.83,15.30
+IP-adresser - IP-adresser-Basis  - new,1/1/2022-1/31/2022, January,20.64,0.004,0.004,787.53,22.0,0.03,25.18,4.54
+Båndbredde mellem områder - Båndbredde mellem,områder - På kontinenter - Europa - new ,1/1/2022-1/31/2022,1.23,0.02,0.02,9.39,22.0,0.16,1.50,0.27
+Azure Hybrid Benefit til SQL Server - Azure Hybrid,Benefit til SQL Server - Standard-udgave - new ,1/1/2022-1/31/2022,0,0,0,0.00,22.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Varm LRS - Det,nordlige Europa - new ,1/1/2022-1/31/2022,0,0.05,0.05,0.00,22.0,0.40,0.00,0.00
+Tabeller - Tabeller - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,22.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Varm LRS - Det,nordlige Europa - new ,1/1/2022-1/31/2022,1.71,0.004,0.004,65.25,22.0,0.03,2.09,0.38
+Premium SSD-administrerede diske - Premium,SSD-administrerede diske-P6 -Det nordlige Europa -,new ,142.09,10.207,10.207,2.12,22.0,81.59,173.35,31.26
+Microsoft Defender for SQL - Microsoft Defender,for SQL-Standard - new ,1/1/2022-1/31/2022,104.25,15,15,1.06,22.0,119.90,127.19,22.94
+Virtual Machines Dav4-serien - Virtual Machines,Dav4-serien - D4a v4 - Det nordlige Europa - new ,1/1/2022-1/31/2022,2225.5,0.214,0.214,1,587.21,22.0,1.71,2,715.11,489.61
+Filer - Filer - LRS - new,1/1/2022-1/31/2022, January,2.04,0.06,0.06,5.19,22.0,0.48,2.49,0.45
+Tabeller - Tabeller - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,22.0,0.00,0.00,0.00
+VPN Gateway - VPN Gateway-VpnGw1  - new,1/1/2022-1/31/2022, January,984.04,0.19,0.19,790.46,22.0,1.52,1,200.53,216.49
+Tabeller - Tabeller - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,22.0,0.36,0.00,0.00
+Blob Storage - Blob Storage - Varm LRS - Det,nordlige Europa - new ,1/1/2022-1/31/2022,21.7,0.05,0.05,66.24,22.0,0.40,26.47,4.77
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0,0,0.00,22.0,0.00,0.00,0.00
+SQL Database Enkelt Standard - SQL Database Enkelt,Standard - S2 - new ,1/1/2022-1/31/2022,520.8,2.42,2.42,32.85,22.0,19.34,635.38,114.58
+Tabeller - Tabeller - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,22.0,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,14.9,0.087,0.087,26.14,22.0,0.70,18.18,3.28
+SQL Database Enkelt Standard - SQL Database Enkelt,Standard - S0 - new ,1/1/2022-1/31/2022,104.25,0.4839,0.4839,32.88,22.0,3.87,127.19,22.94
+Tabeller - Tabeller - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,22.0,0.00,0.00,0.00
+Azure App Service Standard Plan - Azure App,Service Standard Plan-S1 - new ,1/1/2022-1/31/2022,517.94,0.1,0.1,790.49,22.0,0.80,631.89,113.95
+Azure App Service gratis plan - Azure App Service,gratis plan-F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,22.0,0.00,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,3.28,0.015,0.015,33.37,n/a,0.10,3.28,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,North - new ,1/1/2022-1/31/2022,67.31,2.76,2.76,3.72,n/a,18.08,67.31,0.00
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,n/a,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,n/a,0.00,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,n/a,0.00,0.00,0.00
+Azure App Service Standard Plan - Azure App,Service Standard Plan - S1 - new ,1/1/2022-1/31/2022,517.94,0.1,0.1,790.49,n/a,0.66,517.94,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,n/a,0.00,0.00,0.00
+Functions - Functions - new,1/1/2022-1/31/2022, January,0,0.000016,0.000016,0.00,n/a,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,n/a,0.57,0.00,0.00
+Functions - Functions - new,1/1/2022-1/31/2022, January,0,0.000002,0.000002,0.00,n/a,0.00,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0.49,0.0015,0.0015,49.86,n/a,0.01,0.49,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,n/a,0.00,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0.24,0.00036,0.00036,101.75,n/a,0.00,0.24,0.00
+SQL Database Single Standard - SQL Database Single,Standard - S0 - new ,1/1/2022-1/31/2022,104.09,0.4839,0.4839,32.83,n/a,3.17,104.09,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,North - new ,1/1/2022-1/31/2022,0,2.76,2.76,0.00,n/a,18.08,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0,0.06,0.06,0.00,n/a,0.39,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,n/a,0.00,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0.08,0.0015,0.0015,8.14,n/a,0.01,0.08,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0.33,0.045,0.045,1.12,n/a,0.29,0.33,0.00
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,5.65,0.0043,0.0043,200.54,110.0,0.06,11.87,6.22
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,0,0.054,0.054,0.00,110.0,0.74,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,110.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Cool LRS - EU West -,new ,1/1/2022-1/31/2022,127.68,0.1,0.1,194.87,110.0,1.38,268.13,140.45
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,110.0,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,110.0,1.20,0.00,0.00
+Blob Storage - Blob Storage - Cool LRS - EU West -,new ,1/1/2022-1/31/2022,17.11,0.01,0.01,261.14,110.0,0.14,35.93,18.82
+Blob Storage - Blob Storage - Cool LRS - EU West -,new ,1/1/2022-1/31/2022,0,0.01,0.01,0.00,110.0,0.14,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,110.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,110.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,110.0,0.62,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,110.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Cool LRS - EU West -,new ,1/1/2022-1/31/2022,0.65,0.01,0.01,9.92,110.0,0.14,1.37,0.72
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0,0,0.00,110.0,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,3.51,0.087,0.087,6.16,110.0,1.20,7.37,3.86
+Bandwidth Inter-Region - Bandwidth Inter-Region -,Intra Continent - Europe - new ,1/1/2022-1/31/2022,0,0.02,0.02,0.00,2.5,0.13,0.00,0.00
+Logic Apps - Logic Apps - Consumption - new,1/1/2022-1/31/2022, January,38.49,0.000125,0.000125,46,995.62,2.5,0.00,39.45,0.96
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,2.5,0.58,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,0,0.054,0.054,0.00,2.5,0.36,0.00,0.00
+Azure Monitor - Azure Monitor - Alerts - new,1/1/2022-1/31/2022, January,0,0.1,0.1,0.00,2.5,0.67,0.00,0.00
+Files - Files - GRS - new,1/1/2022-1/31/2022, January,0,0.03,0.03,0.00,2.5,0.20,0.00,0.00
+Azure Monitor - Azure Monitor - Emails - new,1/1/2022-1/31/2022, January,0,0.00002,0.00002,0.00,2.5,0.00,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,0,0.0043,0.0043,0.00,2.5,0.03,0.00,0.00
+Azure Monitor - Azure Monitor - Alerts - new,1/1/2022-1/31/2022, January,5.48,0.1,0.1,8.36,2.5,0.67,5.62,0.14
+Tables - Tables - GRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,2.5,0.00,0.00,0.00
+Storage - Bandwidth - Storage - Bandwidth -,Geo-Replication - EU West - new ,1/1/2022-1/31/2022,0,0,0,0.00,2.5,0.00,0.00,0.00
+SignalR - SignalR - new,1/1/2022-1/31/2022, January,1042.35,1.61,1.61,98.81,2.5,10.81,1,068.41,26.06
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,2.5,0.00,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,3.35,0.0196,0.0196,26.09,2.5,0.13,3.43,0.08
+Azure App Service Premium v2 Plan - Azure App,Service Premium v2 Plan - P3 v2 - EU West - new ,1/1/2022-1/31/2022,8287.09,0.8,0.8,1,581.00,2.5,5.37,8,494.27,207.18
+Logic Apps - Logic Apps - Consumption - new,1/1/2022-1/31/2022, January,0.16,0.12,0.12,0.20,2.5,0.81,0.16,0.00
+Azure App Service Standard Plan - Azure App,Service Standard Plan - S1 - new ,1/1/2022-1/31/2022,1553.83,0.1,0.1,2,371.50,2.5,0.67,1,592.68,38.85
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,2.5,0.00,0.00,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S4 LRS - EU North - new ,1/1/2022-1/31/2022,10.64,1.536,1.536,1.06,2.5,10.32,10.91,0.27
+SQL Database Single Standard - SQL Database Single,Standard - S2 - new ,1/1/2022-1/31/2022,521.54,2.42,2.42,32.89,2.5,16.25,534.58,13.04
+Traffic Manager - Traffic Manager - Azure Endpoint,- new ,1/1/2022-1/31/2022,4.99,0.36,0.36,2.12,2.5,2.42,5.11,0.12
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,2.5,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,2.5,0.00,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,2.5,0.00,0.00,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,West - new ,1/1/2022-1/31/2022,0,2.99,2.99,0.00,2.5,20.08,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,0,0.054,0.054,0.00,2.5,0.36,0.00,0.00
+Tables - Tables - RA-GRS - new,1/1/2022-1/31/2022, January,0,0.075,0.075,0.00,2.5,0.50,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.024,0.024,0.00,2.5,0.16,0.00,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,West - new ,1/1/2022-1/31/2022,669.7,2.99,2.99,34.18,2.5,20.08,686.44,16.74
+SQL Database Single Standard - SQL Database Single,Standard - S3 - new ,1/1/2022-1/31/2022,1042.76,4.8387,4.8387,32.89,2.5,32.50,1,068.83,26.07
+Traffic Manager - Traffic Manager - Azure Endpoint,- new ,1/1/2022-1/31/2022,0.24,0.54,0.54,0.07,2.5,3.63,0.25,0.01
+Azure Pipelines - Azure Pipelines -,Microsoft-hosted CI/CD - new ,1/1/2022-1/31/2022,835.39,40,40,3.19,2.5,268.64,856.27,20.88
+SQL Database Single Standard - SQL Database Single,Standard - S0 - new ,1/1/2022-1/31/2022,311.71,0.4839,0.4839,98.31,2.5,3.25,319.50,7.79
+Microsoft Defender for SQL - Microsoft Defender,for SQL - Standard - new ,1/1/2022-1/31/2022,104.25,15,15,1.06,2.5,100.74,106.86,2.61
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,2.5,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,161.66,0.087,0.087,283.60,2.5,0.58,165.70,4.04
+Azure App Service Shared Plan - Azure App Service,Shared Plan - new ,1/1/2022-1/31/2022,67.31,0.013,0.013,790.23,2.5,0.09,68.99,1.68
+Logic Apps - Logic Apps - Consumption - new,1/1/2022-1/31/2022, January,0,0.000025,0.000025,0.00,2.5,0.00,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,2.5,0.00,0.00,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,North - new ,1/1/2022-1/31/2022,0,2.76,2.76,0.00,2.5,18.54,0.00,0.00
+SignalR - SignalR - new,1/1/2022-1/31/2022, January,0,0,0,0.00,2.5,0.00,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0,0.0015,0.0015,0.00,2.5,0.01,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,0,0.0043,0.0043,0.00,2.5,0.03,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0,0,0.00,2.5,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,64.86,0.045,0.045,219.98,2.5,0.30,66.48,1.62
+Process Automation - Process Automation - Basic -,new ,1/1/2022-1/31/2022,0,0.002,0.002,0.00,2.5,0.01,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,2.04,0.06,0.06,5.19,2.5,0.40,2.09,0.05
+SQL Database - LTR Backup Storage - SQL Database -,LTR Backup Storage - RA-GRS - EU West - new ,1/1/2022-1/31/2022,26.86,0.0595,0.0595,68.90,2.5,0.40,27.53,0.67
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S30 LRS - EU North - new ,1/1/2022-1/31/2022,285.09,40.96,40.96,1.06,2.5,275.08,292.22,7.13
+Traffic Manager - Traffic Manager - Traffic View -,new ,1/1/2022-1/31/2022,1.06,2,2,0.08,2.5,13.43,1.09,0.03
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S10 LRS - EU North - new ,1/1/2022-1/31/2022,40.95,5.888,5.888,1.06,2.5,39.54,41.97,1.02
+Storage - Bandwidth - Storage - Bandwidth -,Geo-Replication v2 - EU West - new ,1/1/2022-1/31/2022,0,0.02,0.02,0.00,2.5,0.13,0.00,0.00
+Azure App Service Premium v2 Plan - Azure App,Service Premium v2 Plan - P1 v2 - EU North - new ,1/1/2022-1/31/2022,1035.88,0.2,0.2,790.49,0.0,1.31,1,035.88,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,2.13,0.045,0.045,7.22,0.0,0.29,2.13,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0.81,0.0015,0.0015,82.42,0.0,0.01,0.81,0.00
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,0.0,0.00,0.00,0.00
+Service Bus - Service Bus - Standard - new,1/1/2022-1/31/2022, January,0,0.8,0.8,0.00,0.0,5.24,0.00,0.00
+Service Bus - Service Bus - Hybrid Connections -,new ,1/1/2022-1/31/2022,138.65,0.0134,0.0134,1,579.19,0.0,0.09,138.65,0.00
+Azure App Service Standard Plan - Azure App,Service Standard Plan - S1 - new ,1/1/2022-1/31/2022,517.94,0.1,0.1,790.49,0.0,0.66,517.94,0.00
+Service Bus - Service Bus - Hybrid Connections -,new ,1/1/2022-1/31/2022,0,1,1,0.00,0.0,6.55,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,5.48,0.015,0.015,55.76,0.0,0.10,5.48,0.00
+Functions - Functions - new,1/1/2022-1/31/2022, January,0,0.000016,0.000016,0.00,0.0,0.00,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0,0.06,0.06,0.00,0.0,0.39,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,0.65,0.0015,0.0015,66.14,0.0,0.01,0.65,0.00
+Key Vault - Key Vault - Premium - new,1/1/2022-1/31/2022, January,0,0.03,0.03,0.00,0.0,0.20,0.00,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,North - new ,1/1/2022-1/31/2022,102.13,2.76,2.76,5.65,0.0,18.08,102.13,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0.49,0.00036,0.00036,207.74,0.0,0.00,0.49,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,0.0,0.57,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.024,0.024,0.00,0.0,0.16,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,North - new ,1/1/2022-1/31/2022,0,2.76,2.76,0.00,0.0,18.08,0.00,0.00
+SQL Database Single Basic - SQL Database Single,Basic - B - new ,1/1/2022-1/31/2022,69.36,0.161,0.161,65.75,0.0,1.05,69.36,0.00
+SQL Database Single Standard - SQL Database Single,Standard - S0 - new ,1/1/2022-1/31/2022,104.25,0.4839,0.4839,32.88,0.0,3.17,104.25,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Functions - Functions - new,1/1/2022-1/31/2022, January,0,0.000002,0.000002,0.00,0.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Functions - Functions - new,1/1/2022-1/31/2022, January,0,0.000016,0.000016,0.00,0.0,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Log Analytics - Log Analytics - Pay-as-you-go - EU,North - new ,1/1/2022-1/31/2022,0,2.76,2.76,0.00,0.0,18.08,0.00,0.00
+SQL Database - LTR Backup Storage - SQL Database -,LTR Backup Storage - RA-GRS - EU North - new ,1/1/2022-1/31/2022,0.16,0.055,0.055,0.44,0.0,0.36,0.16,0.00
+Azure Database for MySQL Single Server Basic -,Storage - Azure Database for MySQL Single Server,Basic - Storage - EU North - new ,7.61,0.11,0.11,10.56,0.0,0.72,7.61,0.00
+Azure Database for MySQL Single Server - Backup,Storage - Azure Database for MySQL Single Server -,Backup Storage - LRS - EU North - new ,27.03,0.11,0.11,37.50,0.0,0.72,27.03,0.00
+Azure App Service Premium v2 Plan - Azure App,Service Premium v2 Plan - P1 v2 - EU North - new ,1/1/2022-1/31/2022,1035.88,0.2,0.2,790.49,0.0,1.31,1,035.88,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,0.0,0.29,0.00,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,60.6,0.024,0.024,385.37,0.0,0.16,60.60,0.00
+Azure Database for MySQL Single Server Basic -,Compute Gen5 - Azure Database for MySQL Single,Server Basic - Compute Gen5 - 1 vCore - EU North -,188.45,0.0364,0.0364,790.16,0.0,0.24,188.45,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+SQL Database Single Standard - SQL Database Single,Standard - S0 - new ,1/1/2022-1/31/2022,208.44,0.4839,0.4839,65.74,0.0,3.17,208.44,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,0.0,0.57,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,10.06,0.087,0.087,17.65,0.0,0.57,10.06,0.00
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,0.0,0.00,0.00,0.00
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,0.0,0.00,0.00,0.00
+Azure App Service Free Plan - Azure App Service,Free Plan - F1 - new ,1/1/2022-1/31/2022,0,0,0,0.00,0.0,0.00,0.00,0.00
+Backup - Backup - Standard - new,1/1/2022-1/31/2022, January,109.34,0.0448,0.0448,372.50,85,0.54,202.28,92.94
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,85,0.00,0.00,0.00
+Standard SSD Managed Disks - Standard SSD Managed,Disks - E30 LRS - EU West - new ,1/1/2022-1/31/2022,534.56,76.8,76.8,1.06,85,930.92,988.94,454.38
+Virtual Machines BS Series - Virtual Machines BS,Series - B2s - EU West - new ,1/1/2022-1/31/2022,250.94,0.048,0.048,797.90,85,0.58,464.24,213.30
+Standard Page Blob v2 - Standard Page Blob v2 -,LRS - EU West - new ,1/1/2022-1/31/2022,0,0.00054,0.00054,0.00,85,0.01,0.00,0.00
+Files - Files - LRS - new,1/1/2022-1/31/2022, January,2.04,0.06,0.06,5.19,85,0.73,3.77,1.73
+Standard Page Blob v2 - Standard Page Blob v2 -,GRS - EU West - new ,1/1/2022-1/31/2022,0,0.00054,0.00054,0.00,85,0.01,0.00,0.00
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S4 LRS - new ,1/1/2022-1/31/2022,0.4,0.0005,0.0005,122.10,85,0.01,0.74,0.34
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,12.94,0.087,0.087,22.70,85,1.05,23.94,11.00
+Bandwidth Inter-Region - Bandwidth Inter-Region -,Intra Continent - Europe - new ,1/1/2022-1/31/2022,0,0.02,0.02,0.00,85,0.24,0.00,0.00
+SQL Server Standard - SQL Server Standard - 1-4,vCPU VM - new ,1/1/2022-1/31/2022,2018.78,0.4,0.4,770.28,85,4.85,3,734.74,1,715.96
+Standard Page Blob v2 - Standard Page Blob v2 -,RA-GRS - EU West - new ,1/1/2022-1/31/2022,0.65,0.075,0.075,1.32,85,0.91,1.20,0.55
+Storage - Bandwidth - Storage - Bandwidth -,Geo-Replication v2 - EU West - new ,1/1/2022-1/31/2022,3.51,0.02,0.02,26.79,85,0.24,6.49,2.98
+Standard HDD Managed Disks - Standard HDD Managed,Disks - S4 LRS - EU West - new ,1/1/2022-1/31/2022,10.64,1.536,1.536,1.06,85,18.62,19.68,9.04
+Tables - Tables - RA-GRS - new,1/1/2022-1/31/2022, January,0,0.075,0.075,0.00,85,0.91,0.00,0.00
+Backup - Backup - On Premises Server - EU West -,new ,1/1/2022-1/31/2022,69.53,10,10,1.06,85,121.21,128.63,59.10
+Storage - Bandwidth - Storage - Bandwidth -,Geo-Replication - EU West - new ,1/1/2022-1/31/2022,0,0,0,0.00,85,0.00,0.00,0.00
+Bandwidth Inter-Region - Bandwidth Inter-Region -,Inter Continent - Intercontinental - new ,1/1/2022-1/31/2022,0,0.05,0.05,0.00,85,0.61,0.00,0.00
+Bandwidth - Bandwidth - new,1/1/2022-1/31/2022, January,0,0.087,0.087,0.00,85,1.05,0.00,0.00
+IP Addresses - IP Addresses - Basic - new,1/1/2022-1/31/2022, January,37.26,0.0036,0.0036,1,579.65,85,0.04,68.93,31.67
+Standard Page Blob - Standard Page Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,85,0.00,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,85,0.55,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,85,0.00,0.00,0.00
+Azure Active Directory Domain Services - Azure,Active Directory Domain Services - Standard - new ,1/1/2022-1/31/2022,658.73,0.15,0.15,670.25,85,1.82,1,218.65,559.92
+Blob Storage - Blob Storage - Hot LRS - EU West -,new ,1/1/2022-1/31/2022,2.38,0.0043,0.0043,84.47,85,0.05,4.40,2.02
+Virtual Machines Av2 Series Windows - Virtual,Machines Av2 Series Windows - A4 v2 - EU West -,new ,1432.45,0.274,0.274,797.90,85,3.32,2,650.03,1,217.58
+Standard SSD Managed Disks - Standard SSD Managed,Disks - E10 LRS - EU West - new ,1/1/2022-1/31/2022,66.74,9.6,9.6,1.06,85,116.37,123.47,56.73
+IP Addresses - IP Addresses - Basic - new,1/1/2022-1/31/2022, January,20.64,0.004,0.004,787.53,85,0.05,38.18,17.54
+Standard SSD Managed Disks - Standard SSD Managed,Disks - E4 LRS - new ,1/1/2022-1/31/2022,21.45,0.002,0.002,1,636.88,85,0.02,39.68,18.23
+General Block Blob - General Block Blob - LRS -,new ,1/1/2022-1/31/2022,0.16,0.00036,0.00036,67.83,85,0.00,0.30,0.14
+Standard Page Blob - Standard Page Blob - LRS -,new ,1/1/2022-1/31/2022,0,0.00036,0.00036,0.00,85,0.00,0.00,0.00
+Tables - Tables - GRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,85,0.00,0.00,0.00
+Backup - Backup - On Premises Server - EU North -,new ,1/1/2022-1/31/2022,173.95,10,10,2.65,20.0,78.63,208.74,34.79
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,0,0.05,0.05,0.00,20.0,0.39,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,0,0.022,0.022,0.00,20.0,0.17,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.00036,0.00036,0.00,20.0,0.00,0.00,0.00
+Blob Storage - Blob Storage - Hot LRS - EU North -,new ,1/1/2022-1/31/2022,0,0.05,0.05,0.00,20.0,0.39,0.00,0.00
+Tables - Tables - LRS - new,1/1/2022-1/31/2022, January,0,0.045,0.045,0.00,20.0,0.35,0.00,0.00
+Backup - Backup - Standard - new,1/1/2022-1/31/2022, January,183.45,0.0224,0.0224,1,249.94,20.0,0.18,220.14,36.69
+Backup - Backup-Server i det lokale miljø -Det,vestlige Europa - new ,1/1/2022-1/31/2022,398.85,10,10,6.09,25.0,81.90,498.56,99.71
+Backup - Backup-Standard  - new,1/1/2022-1/31/2022, January,1424.43,0.0448,0.0448,4,852.69,25.0,0.37,1,780.54,356.11
+Microsoft Teams Phone Standard - Virtual User -,Microsoft Teams Phone Standard - Virtual User -,addQuantity ,0,0,0,0.00,25.0,0.00,0.00,0.00
+Azure plan - Azure plan - new,1/11/2022-12/31/9999, January,0,0,0,0.00,25.0,0.00,0.00,0.00
+Microsoft Teams Phone Standard - Virtual User -,Microsoft Teams Phone Standard - Virtual User -,addQuantity ,0,0,0,0.00,25.0,0.00,0.00,0.00
+Microsoft Teams Phone Standard - Virtual User -,Microsoft Teams Phone Standard - Virtual User -,addQuantity ,0,0,0,0.00,25.0,0.00,0.00,0.00
+Microsoft 365 Phone System - Virtual User -,Microsoft 365 Phone System - Virtual User -,addQuantity ,0,0,0,0.00,25.0,0.00,0.00,0.00
+Microsoft 365 New Commerce Promotional Offer,Monthly - Microsoft 365 Business Standard -,addQuantity ,314.8,75.55,75.55,4.17,n/a,75.55,314.80,0.00
+Microsoft 365 New Commerce Promotional Offer,Monthly - Microsoft 365 Business Standard -,addQuantity ,-157.4,75.55,75.55,-2.08,n/a,75.55,-157.40,0.00
+Microsoft 365 New Commerce Promotional Offer,Monthly - Microsoft 365 Business Standard - new ,1/25/2022-2/24/2022,157.4,75.55,75.55,2.08,n/a,75.55,157.40,0.00
+Microsoft 365 Business Premium - Microsoft 365,Business Premium - renew ,1/17/2022-2/16/2022,3021.6,120.86,120.86,25.00,n/a,120.86,3,021.60,0.00
+Visio Plan 2 - Visio Plan 2 - renew,1/17/2022-2/16/2022, January,113.28,90.62,90.62,1.25,n/a,90.62,113.28,0.00
+Microsoft 365 Business Basic - Microsoft 365,Business Basic - renew ,1/17/2022-2/16/2022,113.4,30.24,30.24,3.75,n/a,30.24,113.40,0.00
+Microsoft Teams Phone Standard - Microsoft Teams,Phone Standard - renew ,1/12/2022-2/11/2022,1327.92,48.29,48.29,27.50,n/a,48.29,1,327.92,0.00
+Azure plan - Azure plan - new,1/12/2022-12/31/9999, January,0,0,0,0.00,25.0,0.00,0.00,0.00

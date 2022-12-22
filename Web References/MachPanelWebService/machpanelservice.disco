@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="https://controlpanel.gowingu.net/webservices/machpanelservice.asmx?wsdl" docRef="https://controlpanel.gowingu.net/webservices/machpanelservice.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="https://controlpanel.gowingu.net/webservices/machpanelservice.asmx" xmlns:q1="http://machsol.com/" binding="q1:MachPanelServiceSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="https://controlpanel.gowingu.net/webservices/machpanelservice.asmx" xmlns:q2="http://machsol.com/" binding="q2:MachPanelServiceSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

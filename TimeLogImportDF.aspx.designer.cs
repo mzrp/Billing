@@ -7,11 +7,13 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace RPNAVConnect {
-    
-    
-    public partial class TimeLogImportDF {
-        
+namespace RPNAVConnect
+{
+
+
+    public partial class TimeLogImportDF
+    {
+
         /// <summary>
         /// RPNAVConnectForm control.
         /// </summary>
@@ -20,7 +22,16 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.HtmlControls.HtmlForm RPNAVConnectForm;
-        
+
+        /// <summary>
+        /// TLInfoLabel control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label TLInfoLabel;
+
         /// <summary>
         /// VATNoL control.
         /// </summary>
@@ -29,7 +40,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label VATNoL;
-        
+
         /// <summary>
         /// VATNoTB control.
         /// </summary>
@@ -38,7 +49,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox VATNoTB;
-        
+
         /// <summary>
         /// InvoiceStatusL control.
         /// </summary>
@@ -47,7 +58,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label InvoiceStatusL;
-        
+
         /// <summary>
         /// InvoiceStatusTB control.
         /// </summary>
@@ -56,7 +67,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox InvoiceStatusTB;
-        
+
         /// <summary>
         /// StartL control.
         /// </summary>
@@ -65,7 +76,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label StartL;
-        
+
         /// <summary>
         /// StartMonthTB control.
         /// </summary>
@@ -74,7 +85,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox StartMonthTB;
-        
+
         /// <summary>
         /// StartYearTB control.
         /// </summary>
@@ -83,7 +94,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox StartYearTB;
-        
+
         /// <summary>
         /// EndL control.
         /// </summary>
@@ -92,7 +103,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label EndL;
-        
+
         /// <summary>
         /// EndMonthTB control.
         /// </summary>
@@ -101,7 +112,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox EndMonthTB;
-        
+
         /// <summary>
         /// EndYearTB control.
         /// </summary>
@@ -110,7 +121,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.TextBox EndYearTB;
-        
+
         /// <summary>
         /// TimeLogDataB control.
         /// </summary>
@@ -119,7 +130,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button TimeLogDataB;
-        
+
         /// <summary>
         /// TimeLogDataL control.
         /// </summary>
@@ -128,7 +139,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label TimeLogDataL;
-        
+
         /// <summary>
         /// PPSep1 control.
         /// </summary>
@@ -137,7 +148,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PPSep1;
-        
+
         /// <summary>
         /// AllowInvoicesWithoutLinesCB control.
         /// </summary>
@@ -146,7 +157,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.CheckBox AllowInvoicesWithoutLinesCB;
-        
+
         /// <summary>
         /// PPSep2 control.
         /// </summary>
@@ -155,7 +166,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PPSep2;
-        
+
         /// <summary>
         /// PushDataToNavB control.
         /// </summary>
@@ -164,7 +175,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button PushDataToNavB;
-        
+
         /// <summary>
         /// DeleteMarkedInvoicesB control.
         /// </summary>
@@ -173,7 +184,7 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button DeleteMarkedInvoicesB;
-        
+
         /// <summary>
         /// PushingDataL control.
         /// </summary>
@@ -182,5 +193,14 @@ namespace RPNAVConnect {
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label PushingDataL;
+
+        /// <summary>
+        /// PushingDataLErrorData control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label PushingDataLErrorData;
     }
 }

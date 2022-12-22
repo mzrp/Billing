@@ -1,0 +1,49 @@
+<html>
+
+  
+<head>
+    
+<meta charset="utf-8">
+    
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    
+<title>RackPeople Billing</title>
+    
+<meta name="version" content="1.0.0">
+
+    <style>
+        body {
+            overflow: hidden; /* Hide scrollbars */
+        }
+    </style>
+  
+</head>
+  
+
+<body onload="lastScript()">
+  
+  
+<div id="root">
+    
+</div>
+ 
+
+<script src="https://billing.gowingu.net/RPBilling/assets/vendor.js" type="text/javascript"></script>
+    
+<script src="https://billing.gowingu.net/RPBilling/assets/bundle.js" type="text/javascript"></script>
+ 
+
+<script>
+function lastScript() {
+    var vDesc = document.getElementById('subinfodiv');    
+    if ((window.location.href.toLowerCase() == "https://billing.gowingu.net/rpbilling") ||
+        (window.location.href.toLowerCase() == "https://billing.gowingu.net/rpbilling/")){
+        window.location.href = "https://billing.gowingu.net/RPBillingLogin.aspx";
+    }
+}
+</script> 
+
+</body>
+
+</html>
