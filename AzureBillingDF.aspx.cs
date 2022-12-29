@@ -1279,7 +1279,7 @@ namespace RPNAVConnect
                                                     {
                                                         string sButtonId = sCustVatNo;
                                                         AzureBillingDataL.Text += "<td><input id=\"txtCommentCustomer_" + sCustVatNo + "\" type=\"text\" name=\"txtCommentCustomer_" + sCustVatNo + "\" value=\"\" /></td>";
-                                                        AzureBillingDataL.Text += "<td><input id=\"butPushCustomer_" + sCustVatNo + "\" type=\"button\" name=\"butPushCustomer_" + sCustVatNo + "\" value=\"Push to NAV\" onclick=\"__doPostBack('butPushCustomer_" + sCustVatNo + "','')\" /></td>";
+                                                        AzureBillingDataL.Text += "<td><input id=\"butPushCustomer_" + sCustVatNo + "\" type=\"button\" name=\"butPushCustomer_" + sCustVatNo + "\" value=\"Push to BC\" onclick=\"invokeLoader();__doPostBack('butPushCustomer_" + sCustVatNo + "','')\" /></td>";
                                                     }
                                                     AzureBillingDataL.Text += "</tr>";
                                                 }
@@ -1392,7 +1392,7 @@ namespace RPNAVConnect
                                                         {
                                                             PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
 
-                                                            commentLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                            commentLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                             commentLine.lineType = "Item";
                                                             commentLine.lineObjectNumber = "310";
                                                             commentLine.Document_No = "";
@@ -1656,7 +1656,7 @@ namespace RPNAVConnect
                                                                         {
                                                                             PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
 
-                                                                            commentLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                            commentLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                             commentLine.lineType = "Item";
                                                                             commentLine.lineObjectNumber = "310";
                                                                             commentLine.Document_No = "";
@@ -1700,7 +1700,7 @@ namespace RPNAVConnect
                                                                         {
                                                                             PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
 
-                                                                            commentLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                            commentLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                             commentLine.lineType = "Item";
                                                                             commentLine.lineObjectNumber = "310";
                                                                             commentLine.Document_No = "";
@@ -2166,7 +2166,7 @@ namespace RPNAVConnect
                                                                                 // create invoice line
                                                                                 PostSalesInvoiceLine invoiceLine = new PostSalesInvoiceLine();
 
-                                                                                invoiceLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                                invoiceLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                                 invoiceLine.lineType = "Item";
                                                                                 invoiceLine.lineObjectNumber = "310";
 
@@ -2271,7 +2271,7 @@ namespace RPNAVConnect
                                                                                                 {
                                                                                                     PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                                                    extraLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                                                    extraLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                                                     extraLine.lineType = "Item";
                                                                                                     extraLine.lineObjectNumber = "310";
 
@@ -2307,7 +2307,7 @@ namespace RPNAVConnect
 
                                                                                             PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                                            extraLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                                            extraLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                                             extraLine.lineType = "Item";
                                                                                             extraLine.lineObjectNumber = "310";
 
@@ -2336,7 +2336,7 @@ namespace RPNAVConnect
                                                                                     {
                                                                                         PostSalesInvoiceLine extraemptyLine = new PostSalesInvoiceLine();
 
-                                                                                        extraemptyLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                                        extraemptyLine.itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                                         extraemptyLine.lineType = "Item";
                                                                                         extraemptyLine.lineObjectNumber = "310";
                                                                                         extraemptyLine.Document_No = "";
@@ -2739,7 +2739,7 @@ namespace RPNAVConnect
                                                                     }
 
                                                                     // item
-                                                                    order.SalesLines[iOrderLinesCount].itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "065287f4-5987-ed11-9989-0022489d65e3";
 
                                                                     // hardcoded
                                                                     order.SalesLines[iOrderLinesCount].lineType = "Item";
@@ -2758,7 +2758,7 @@ namespace RPNAVConnect
                                                                     iOrderLinesCount++;
 
                                                                     // add comment zero
-                                                                    order.SalesLines[iOrderLinesCount].itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                     order.SalesLines[iOrderLinesCount].lineType = "Item";
                                                                     order.SalesLines[iOrderLinesCount].lineObjectNumber = "310";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
@@ -2767,7 +2767,7 @@ namespace RPNAVConnect
                                                                     iOrderLinesCount++;
 
                                                                     // add comment one
-                                                                    order.SalesLines[iOrderLinesCount].itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                     order.SalesLines[iOrderLinesCount].lineType = "Item";
                                                                     order.SalesLines[iOrderLinesCount].lineObjectNumber = "310";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
@@ -2776,7 +2776,7 @@ namespace RPNAVConnect
                                                                     iOrderLinesCount++;
 
                                                                     // add comment two
-                                                                    order.SalesLines[iOrderLinesCount].itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                     order.SalesLines[iOrderLinesCount].lineType = "Item";
                                                                     order.SalesLines[iOrderLinesCount].lineObjectNumber = "310";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
@@ -2785,7 +2785,7 @@ namespace RPNAVConnect
                                                                     iOrderLinesCount++;
 
                                                                     // add comment three
-                                                                    order.SalesLines[iOrderLinesCount].itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "065287f4-5987-ed11-9989-0022489d65e3";
                                                                     order.SalesLines[iOrderLinesCount].lineType = "Item";
                                                                     order.SalesLines[iOrderLinesCount].lineObjectNumber = "310";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
@@ -2984,6 +2984,7 @@ namespace RPNAVConnect
         private string DoesCustomerExists(string filter)
         {
             string sResult = "n/a";
+            string sCustomerNo = "n/a";
 
             try
             {
@@ -2997,7 +2998,7 @@ namespace RPNAVConnect
 
                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Dev/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=addressLine2 eq '" + filter + "'") as HttpWebRequest;
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-DEV/ODataV4/Company('CRONUS Danmark A/S')/CustomerDetails?$filter=Microsoft_CSP_ID eq '" + filter + "'") as HttpWebRequest;
                 if (webRequestAUTH != null)
                 {
                     webRequestAUTH.Method = "GET";
@@ -3013,12 +3014,12 @@ namespace RPNAVConnect
                         using (var srW = new StreamReader(rW))
                         {
                             var sExportAsJson = srW.ReadToEnd();
-                            var sExport = JsonConvert.DeserializeObject<BCCustomers>(sExportAsJson);
+                            var sExport = JsonConvert.DeserializeObject<ODataV4Customers>(sExportAsJson);
 
                             int iCount = 1;
                             foreach (var cust in sExport.value)
                             {
-                                sResult = cust.number + "ђ" + cust.id;
+                                sCustomerNo = cust.No;
                                 break;
 
                             }
@@ -3031,6 +3032,113 @@ namespace RPNAVConnect
             catch (Exception ex)
             {
                 ex.ToString();
+                sCustomerNo = "n/a";
+                sResult = "n/a";
+            }
+
+            if (sCustomerNo != "n/a")
+            {
+                try
+                {
+                    //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                    ServicePointManager.Expect100Continue = true;
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                           | SecurityProtocolType.Tls11
+                           | SecurityProtocolType.Tls12
+                           | SecurityProtocolType.Ssl3;
+
+                    System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-DEV/ODataV4/Company('CRONUS Danmark A/S')/CustomerDetails?$filter=Microsoft_CSP_ID2 eq '" + filter + "'") as HttpWebRequest;
+                    if (webRequestAUTH != null)
+                    {
+                        webRequestAUTH.Method = "GET";
+                        webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                        webRequestAUTH.ContentType = "application/json";
+                        webRequestAUTH.MediaType = "application/json";
+                        webRequestAUTH.Accept = "application/json";
+
+                        webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
+
+                        using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                        {
+                            using (var srW = new StreamReader(rW))
+                            {
+                                var sExportAsJson = srW.ReadToEnd();
+                                var sExport = JsonConvert.DeserializeObject<ODataV4Customers>(sExportAsJson);
+
+                                int iCount = 1;
+                                foreach (var cust in sExport.value)
+                                {
+                                    sCustomerNo = cust.No;
+                                    break;
+
+                                }
+                            }
+                        }
+
+                        webRequestAUTH = null;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ex.ToString();
+                    sCustomerNo = "n/a";
+                    sResult = "n/a";
+                }
+            }
+
+            if (sCustomerNo != "n/a")
+            {
+            try
+                {
+                    //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                    ServicePointManager.Expect100Continue = true;
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                           | SecurityProtocolType.Tls11
+                           | SecurityProtocolType.Tls12
+                           | SecurityProtocolType.Ssl3;
+
+                    System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Dev/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=number eq '" + sCustomerNo + "'") as HttpWebRequest;
+                    if (webRequestAUTH != null)
+                    {
+                        webRequestAUTH.Method = "GET";
+                        webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                        webRequestAUTH.ContentType = "application/json";
+                        webRequestAUTH.MediaType = "application/json";
+                        webRequestAUTH.Accept = "application/json";
+
+                        webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
+
+                        using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                        {
+                            using (var srW = new StreamReader(rW))
+                            {
+                                var sExportAsJson = srW.ReadToEnd();
+                                var sExport = JsonConvert.DeserializeObject<BCCustomers>(sExportAsJson);
+
+                                int iCount = 1;
+                                foreach (var cust in sExport.value)
+                                {
+                                    sResult = cust.number + "ђ" + cust.id;
+                                    break;
+
+                                }
+                            }
+                        }
+
+                        webRequestAUTH = null;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ex.ToString();
+                    sResult = "n/a";
+                }
             }
 
             return sResult;

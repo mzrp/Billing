@@ -59,13 +59,13 @@
                     <br />
                     <br />
                     <asp:Label ID="InfoDataL" runat="server" Text=""></asp:Label>
+                    <asp:Button ID="GetTokenBtn" runat="server" Text="Authenticate RP Billing" Visible="true" OnClientClick="invokeLoader();" Height="58px" Width="286px" OnClick="GetTokenBtn_Click" /> 
                 </div>
             </div>
 
         </div>
 
         <div id="lastscriptdiv" runat="server"></div>
-
 
         <!-- JS Scripts-->
         <!-- jQuery Js -->

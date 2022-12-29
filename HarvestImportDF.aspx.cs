@@ -1031,7 +1031,7 @@ namespace RPNAVConnect
                                                         {
                                                             PostSalesInvoiceLine invoiceLine = new PostSalesInvoiceLine();
 
-                                                            invoiceLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                            invoiceLine.itemId = "7a60966b-dc81-ed11-9989-000d3adb3941";
                                                             invoiceLine.lineType = "Item";
                                                             invoiceLine.Document_No = "";
 
@@ -1040,6 +1040,7 @@ namespace RPNAVConnect
                                                             if (sResultInvoiceLine.description.ToLower().IndexOf("kørsel") != -1)
                                                             {
                                                                 invoiceLine.lineObjectNumber = "500";
+                                                                invoiceLine.itemId = "d2ab249b-dc81-ed11-9989-000d3adb3941";
                                                             }
 
                                                             string sKind1 = "";
@@ -1054,11 +1055,31 @@ namespace RPNAVConnect
                                                             try
                                                             {
                                                                 sProductNo = sKind1.ToLower();
-                                                                if (sProductNo == "150") invoiceLine.lineObjectNumber = "150";
-                                                                if (sProductNo == "600") invoiceLine.lineObjectNumber = "600";
-                                                                if (sProductNo == "605") invoiceLine.lineObjectNumber = "605";
-                                                                if (sProductNo == "610") invoiceLine.lineObjectNumber = "610";
-                                                                if (sProductNo == "700") invoiceLine.lineObjectNumber = "700";
+                                                                if (sProductNo == "150")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "150";
+                                                                    invoiceLine.itemId = "17ca2b8c-dc81-ed11-9989-000d3adb3941";
+                                                                }
+                                                                if (sProductNo == "600")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "600";
+                                                                    invoiceLine.itemId = "3d3a57a8-dc81-ed11-9989-000d3adb3941";
+                                                                }
+                                                                if (sProductNo == "605")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "605";
+                                                                    invoiceLine.itemId = "3f3a57a8-dc81-ed11-9989-000d3adb3941";
+                                                                }
+                                                                if (sProductNo == "610")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "610";
+                                                                    invoiceLine.itemId = "a3ccd2b3-dc81-ed11-9989-000d3adb3941";
+                                                                }
+                                                                if (sProductNo == "700")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "700";
+                                                                    invoiceLine.itemId = "a5ccd2b3-dc81-ed11-9989-000d3adb3941";
+                                                                }
                                                             }
                                                             catch (Exception ex)
                                                             {

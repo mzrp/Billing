@@ -74,15 +74,18 @@ namespace RPNAVConnect
 
             dbConn.Close();
 
-            InfoDataL.Text += "Token:<br />" + sAuthToken + "<br />";
-            InfoDataL.Text += "Token type:<br />" + sTokenType + "<br />";
-            InfoDataL.Text += "Token expires in:<br />" + lExpiresIn.ToString() + "<br />";
-            InfoDataL.Text += "Token expires at:<br />" + dExpiresAt.ToString() + "<br /><br />";
-            if (bTokenExpired == true)
+            if (sAuthToken != "n/a")
             {
-                InfoDataL.Text += "<font color='red'>Token expired. Please restart RPBilling.</font><br /><br />";
+                InfoDataL.Text = "Token:<br />" + sAuthToken + "<br />";
+                InfoDataL.Text += "Token type:<br />" + sTokenType + "<br />";
+                InfoDataL.Text += "Token expires in:<br />" + lExpiresIn.ToString() + "<br />";
+                InfoDataL.Text += "Token expires at:<br />" + dExpiresAt.ToString() + "<br /><br />";
             }
+        }
 
+        protected void GetTokenBtn_Click(object sender, EventArgs e)
+        {
+            lastscriptdiv.InnerHtml = "<script>parent.location = 'https://billing.gowingu.net/RPBilling/';</script>";
         }
     }
 }

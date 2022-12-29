@@ -82,8 +82,10 @@ namespace RPNAVConnect
                 if (sUserId == "n/a")
                 {
                     // login first
-                    string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                    //string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
                     //string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
+                    string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&response_type=code&scope=https://api.businesscentral.dynamics.com/.default&response_mode=query&state=12345&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                    //string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&response_type=code&scope=https://api.businesscentral.dynamics.com/.default&response_mode=query&state=12345&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
                     lastscriptdiv.InnerHtml = "<script>window.location='" + sLoginUrl + "';</script>";
                 }
                 else
@@ -99,8 +101,10 @@ namespace RPNAVConnect
                     else
                     {
                         // login first
-                        string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                        //string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
                         //string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
+                        string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&response_type=code&scope=https://api.businesscentral.dynamics.com/.default&response_mode=query&state=12345&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                        //string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&response_type=code&scope=https://api.businesscentral.dynamics.com/.default&response_mode=query&state=12345&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
                         lastscriptdiv.InnerHtml = "<script>window.location='" + sLoginUrl + "';</script>";
                     }
                 }
@@ -117,8 +121,10 @@ namespace RPNAVConnect
                         webRequestAUTH.Host = "login.microsoftonline.com";
                         webRequestAUTH.ContentType = "application/x-www-form-urlencoded";
 
-                        string sParams = "code=" + sMSCode + "&client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&scope=https://api.businesscentral.dynamics.com/.default%20offline_access&client_secret=q2H8Q~3jNmeqtG7e7jYnz04ZG4KQ4Wh6WwJ~Ucou&grant_type=authorization_code&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                        //string sParams = "code=" + sMSCode + "&client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&scope=https://api.businesscentral.dynamics.com/.default%20offline_access&client_secret=q2H8Q~3jNmeqtG7e7jYnz04ZG4KQ4Wh6WwJ~Ucou&grant_type=authorization_code&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
                         //string sParams = "code=" + sMSCode + "&client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&scope=https://api.businesscentral.dynamics.com/.default%20offline_access&client_secret=q2H8Q~3jNmeqtG7e7jYnz04ZG4KQ4Wh6WwJ~Ucou&grant_type=authorization_code&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
+                        string sParams = "code=" + sMSCode + "&client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&scope=https://api.businesscentral.dynamics.com/.default%20offline_access&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&grant_type=authorization_code&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                        //string sParams = "code=" + sMSCode + "&client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&scope=https://api.businesscentral.dynamics.com/.default%20offline_access&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&grant_type=authorization_code&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
                         var data = Encoding.ASCII.GetBytes(sParams);
                         webRequestAUTH.ContentLength = data.Length;
 
@@ -162,8 +168,8 @@ namespace RPNAVConnect
                             webRequestAUTHG.Host = "login.microsoftonline.com";
                             webRequestAUTHG.ContentType = "application/x-www-form-urlencoded";
 
-                            string sParamsG = "refresh_token=" + sRefreshToken + "&client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&scope=https://graph.microsoft.com/.default&client_secret=q2H8Q~3jNmeqtG7e7jYnz04ZG4KQ4Wh6WwJ~Ucou&grant_type=refresh_token&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
-                            //string sParamsG = "refresh_token=" + sRefreshToken + "&client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&scope=https://graph.microsoft.com/.default&client_secret=q2H8Q~3jNmeqtG7e7jYnz04ZG4KQ4Wh6WwJ~Ucou&grant_type=refresh_token&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
+                            string sParamsG = "refresh_token=" + sRefreshToken + "&client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&scope=https://graph.microsoft.com/.default&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&grant_type=refresh_token&redirect_uri=https://billing.gowingu.net/RPBillingLogin.aspx";
+                            //string sParamsG = "refresh_token=" + sRefreshToken + "&client_id=9d7b8b42-6e6e-47b3-9965-95be89a6e987&scope=https://graph.microsoft.com/.default&client_secret=g4q8Q~PqkWMvrkWMVXUNm4R2NszPnjeP.sygidsE&grant_type=refresh_token&redirect_uri=http://localhost:57069/RPBillingLogin.aspx";
                             var dataG = Encoding.ASCII.GetBytes(sParamsG);
                             webRequestAUTHG.ContentLength = dataG.Length;
 

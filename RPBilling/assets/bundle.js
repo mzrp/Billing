@@ -2841,7 +2841,7 @@ if (document.getElementById('subinfodiv1')) {
                             className: "side-header side-content bg-white-op"
                         }, c["default"].createElement(b.Link, {
                             className: "h5 text-white",
-                            to: "/"
+                            to: "https://billing.gowingu.net/RPBilling/"
                         }, c["default"].createElement("span", {
                             className: "h4 font-w600"
                         }, c["default"].createElement(g["default"], {
