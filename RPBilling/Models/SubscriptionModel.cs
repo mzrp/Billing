@@ -48,14 +48,14 @@ namespace RackPeople.BillingAPI.Models
             get
             {
                 var offset = this.PaymentTerms.HasValue ? this.PaymentTerms.Value : 30; // 26 
-                var first = this.FirstInvoice.Date; // 2020-02-01 
+                var first = this.FirstInvoice.Date; // 2020-02-01 2022-01-06 
                 var today = DateTime.Today.Date; // 2020-05-06 
 
                 // Calculate the expected period
                 var periode = new DateTime(first.Year, first.Month, first.Day); // 2020-02-01 
 
                 // If the the current invoice date is in the past, we need to go to the next avilable period
-                var nextInvoice = periode.AddDays(-Math.Abs(offset)); // 2020-01-06
+                var nextInvoice = periode.AddDays(-Math.Abs(offset)); // 2020-01-06 2021-12-10
 
                 while (nextInvoice < today)
                 {

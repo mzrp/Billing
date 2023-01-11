@@ -226,7 +226,39 @@ namespace RPNAVConnect
         public DateTime lastModifiedDateTime { get; set; }
     }
 
+    public class GetItems
+    {
+        [JsonProperty("@odata.context")]
+        public string odatacontext { get; set; }
+        public List<GetItem> value { get; set; }
+    }
 
+    public class GetItem
+    {
+        [JsonProperty("@odata.etag")]
+        public string odataetag { get; set; }
+        public string id { get; set; }
+        public string number { get; set; }
+        public string displayName { get; set; }
+        public string type { get; set; }
+        public string itemCategoryId { get; set; }
+        public string itemCategoryCode { get; set; }
+        public bool blocked { get; set; }
+        public string gtin { get; set; }
+        public int inventory { get; set; }
+        public int unitPrice { get; set; }
+        public bool priceIncludesTax { get; set; }
+        public int unitCost { get; set; }
+        public string taxGroupId { get; set; }
+        public string taxGroupCode { get; set; }
+        public string baseUnitOfMeasureId { get; set; }
+        public string baseUnitOfMeasureCode { get; set; }
+        public string generalProductPostingGroupId { get; set; }
+        public string generalProductPostingGroupCode { get; set; }
+        public string inventoryPostingGroupId { get; set; }
+        public string inventoryPostingGroupCode { get; set; }
+        public DateTime lastModifiedDateTime { get; set; }
+    }
 
     public partial class MigratingNAVToBC : System.Web.UI.Page
     {
@@ -238,277 +270,76 @@ namespace RPNAVConnect
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
-            string sAuthToken = "n/a";
-            string sTokenType = "n/a";
-            long lExpiresIn = -1;
+            InfoDataL.Text = "NAV->BC Migration<br /><br />";
 
-            string sMSCode = "n/a";
+            // open db connection
+            string dbPath = ConfigurationManager.AppSettings["dbpath"].ToString();
+            System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
+            dbConn.Open();
+
             try
             {
-                sMSCode = Request.QueryString["code"];
-                if (sMSCode == null)
+                using (var reader = new StreamReader(@"C:\Users\adm_mz\Desktop\BCNewItemsNumbers.csv"))
                 {
-                    sMSCode = "n/a";
+                    while (!reader.EndOfStream)
+                    {
+                        var line = reader.ReadLine();
+
+                        if (line != "")
+                        {
+
+                            var values = line.Split(',');
+
+                            string sBCNo = values[0];
+                            string sNAVNo = values[1];
+
+                            string sResultMessage = "";
+
+                            if (sNAVNo != "")
+                            {
+                                string sUpdateField = "UPDATE [RPNAVConnect].[dbo].[BillingProducts_09012023] SET [NavProductNumber] = '" + sBCNo + "' WHERE [NavProductNumber] = '" + sNAVNo + "'";
+                                sResultMessage = InsertUpdateDatabase(sUpdateField, dbConn);
+                                if (sResultMessage != "DBOK")
+                                {
+                                    sResultMessage += "  ::  " + sUpdateField + "<br />";
+                                }
+                            }
+
+                            InfoDataL.Text += sBCNo + "," + sNAVNo + ", " + sResultMessage + "<br />";
+                        }
+                    }
                 }
             }
             catch (Exception ex)
             {
-                ex.ToString();
-                sMSCode = "n/a";
+                InfoDataL.Text += ex.ToString();
             }
+
+            dbConn.Close();
+        }
+
+        private string InsertUpdateDatabase(string SQL, System.Data.OleDb.OleDbConnection dbConn)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
+            // Get Connection string
+            string sResult = "DBOK";
 
             try
             {
-                sAuthToken = Request.QueryString["token"];
-                if (sAuthToken == null)
-                {
-                    sAuthToken = "n/a";
-                }
+                // Database Object instancing here
+                OleDbCommand OleCommand;
+                OleCommand = new OleDbCommand(SQL, dbConn);
+                OleCommand.ExecuteNonQuery();
             }
             catch (Exception ex)
             {
                 ex.ToString();
-                sAuthToken = "n/a";
+                sResult = ex.ToString();
+                return sResult;
             }
 
-            if (sAuthToken == "n/a")
-            {
-                if (sMSCode == "n/a")
-                {
-                    // login first
-                    string sLoginUrl = "https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/authorize?client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&response_type=code&scope=Files.ReadWrite%20User.Read%20Financials.ReadWrite.All&response_mode=query&state=12345&redirect_uri=http://localhost:57069/MigratingNAVToBC.aspx";
-                    Response.Redirect(sLoginUrl);
-                }
-                else
-                {
-                    try
-                    {
-                        var webRequestAUTH = WebRequest.Create("https://login.microsoftonline.com/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/oauth2/v2.0/token") as HttpWebRequest;
-                        if (webRequestAUTH != null)
-                        {
-                            webRequestAUTH.Method = "POST";
-                            webRequestAUTH.Host = "login.microsoftonline.com";
-                            webRequestAUTH.ContentType = "application/x-www-form-urlencoded";
-
-                            string sParams = "code=" + sMSCode + "&client_id=9df51886-7601-4456-a35f-a80c0e16f4c0&scope=https://api.businesscentral.dynamics.com/.default&client_secret=q2H8Q~3jNmeqtG7e7jYnz04ZG4KQ4Wh6WwJ~Ucou&grant_type=authorization_code&redirect_uri=http://localhost:57069/MigratingNAVToBC.aspx";
-                            var data = Encoding.ASCII.GetBytes(sParams);
-                            webRequestAUTH.ContentLength = data.Length;
-
-                            using (var sW = webRequestAUTH.GetRequestStream())
-                            {
-                                sW.Write(data, 0, data.Length);
-                            }
-
-                            using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
-                            {
-                                using (var srW = new StreamReader(rW))
-                                {
-                                    var sExportAsJson = srW.ReadToEnd();
-                                    var sExport = JsonConvert.DeserializeObject<MsAuthToken>(sExportAsJson);
-
-                                    sAuthToken = sExport.AccessToken;
-                                    sTokenType = sExport.TokenType;
-                                    lExpiresIn = sExport.ExpiresIn;
-
-                                    DateTime AuthTokenExpireIn = DateTime.Now.AddSeconds(lExpiresIn);
-
-                                    InfoDataL.Text += "Token:<br />" + sAuthToken + "<br />";
-                                    InfoDataL.Text += "Token type:<br />" + sTokenType + "<br />";
-                                    InfoDataL.Text += "Token expires in:<br />" + lExpiresIn.ToString() + "<br /><br />";
-                                    InfoDataL.Text += "Relaod page:<br /><a href='http://localhost:57069/MigratingNAVToBC.aspx?token=" + sAuthToken + "'>http://localhost:57069/MigratingNAVToBC.aspx?token=" + sAuthToken + "</a>";
-                                }
-                            }
-
-                            webRequestAUTH = null;
-                        }
-                    }
-                    catch (Exception ex)
-                    {
-                        ex.ToString();
-                    }
-                }
-            }
-            else
-            {
-                // Get NAV customers and import them into BC
-                /*
-                  
-                InfoDataL.Text += "<br /><br />NAV Customers:<br /><br />";
-
-                try
-                {
-                    // get access to NAVDebtor
-                    CustomerInfo2_Service nav = new CustomerInfo2_Service();
-                    nav.UseDefaultCredentials = true;
-                    //nav.Credentials = new NetworkCredential(sNAVLogin, sNAVPassword, sNAVDomain);
-                    nav.Credentials = new NetworkCredential(sNAVLogin, sNAVPassword);
-
-                    // Run the actual search.
-                    CustomerInfo2[] customers = nav.ReadMultiple(null, null, 10000);
-                    int iCount = 1;
-                    foreach (CustomerInfo2 customer in customers)
-                    {
-                        InfoDataL.Text += iCount.ToString() + ". " + customer.Name + ", " + customer.No + ", " + customer.Address + ", " + customer.Country_Region_Code + ", " + customer.City + ", " + customer.Post_Code + ", " + customer.Phone_No + ", " + customer.E_Mail + ", " + customer.Home_Page + ", " + customer.Contact + "<br />";
-                        iCount++;
-
-                        try
-                        {
-                            string sNewGuid = Guid.NewGuid().ToString();
-                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/production/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers") as HttpWebRequest;
-                            if (webRequestAUTH != null)
-                            {
-                                webRequestAUTH.Method = "POST";
-                                webRequestAUTH.Host = "api.businesscentral.dynamics.com";
-                                webRequestAUTH.ContentType = "application/json";
-                                webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
-                                //webRequestAUTH.Headers["If-Match"] = "*";
-
-                                string jsonToSend = "{";
-                                jsonToSend += "\"displayName\": \"" + customer.Name + "\",";
-                                jsonToSend += "\"number\": \"" + customer.No + "\",";
-                                jsonToSend += "\"type\": \"Company\",";
-                                jsonToSend += "\"addressLine1\": \"" + customer.Address + "\",";
-                                jsonToSend += "\"addressLine2\": \"\",";
-                                jsonToSend += "\"city\": \"" + customer.City + "\",";
-                                jsonToSend += "\"state\": \"\",";
-                                jsonToSend += "\"country\": \"" + customer.Country_Region_Code + "\",";
-                                jsonToSend += "\"postalCode\": \"" + customer.Post_Code + "\",";
-                                jsonToSend += "\"phoneNumber\": \"" + customer.Phone_No + "\",";
-                                jsonToSend += "\"email\": \"" + customer.E_Mail + "\",";
-                                jsonToSend += "\"website\": \"\",";
-                                jsonToSend += "\"taxLiable\": true,";
-                                
-                                //jsonToSend += "\"taxAreaId\": \"00000000-0000-0000-0000-000000000000\",";
-                                //jsonToSend += "\"taxRegistrationNumber\": \"\",";
-                                //jsonToSend += "\"currencyId\": \"00000000-0000-0000-0000-000000000000\",";
-                                //jsonToSend += "\"currencyCode\": \"" + customer.Currency_Code + "\",";
-                                //jsonToSend += "\"paymentTermsId\": \"00000000-0000-0000-0000-000000000000\",";
-                                //jsonToSend += "\"shipmentMethodId\": \"00000000-0000-0000-0000-000000000000\",";
-                                //jsonToSend += "\"paymentMethodId\": \"00000000-0000-0000-0000-000000000000\",";
-                                
-                                jsonToSend += "\"blocked\": \" \"";
-                                jsonToSend += "}";
-
-                                byte[] bytes = Encoding.UTF8.GetBytes(jsonToSend);
-                                webRequestAUTH.ContentLength = bytes.Length;
-
-                                Stream requestStream = webRequestAUTH.GetRequestStream();
-                                requestStream.Write(bytes, 0, bytes.Length);
-                                requestStream.Close();
-
-                                using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
-                                {
-                                    using (var srW = new StreamReader(rW))
-                                    {
-                                        var sExportAsJson = srW.ReadToEnd();
-                                        var sExport = JsonConvert.DeserializeObject<BCCustomer>(sExportAsJson);
-
-                                        string sNewCusotmerId = sExport.id;
-                                        string sNewCusotmerName = sExport.displayName;
-                                        string sNewCusotmerNumber = sExport.number;
-
-                                        InfoDataL.Text += "Customer:" + sNewCusotmerId + " (" + sNewCusotmerId + "), Number: " + sNewCusotmerNumber + "<br />";
-                                    }
-                                }
-
-                                webRequestAUTH = null;
-                            }
-                        }
-                        catch (Exception ex)
-                        {
-                            ex.ToString();
-                        }
-
-                        break;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ex.ToString();
-                }
-                */
-
-                // get BC customers for RP Test
-                InfoDataL.Text += "<br /><br />BC Customers:<br /><br />";
-
-                try
-                {
-                    //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
-
-                    ServicePointManager.Expect100Continue = true;
-                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
-                           | SecurityProtocolType.Tls11
-                           | SecurityProtocolType.Tls12
-                           | SecurityProtocolType.Ssl3;
-
-                    System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
-
-                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers") as HttpWebRequest;
-                    if (webRequestAUTH != null)
-                    {
-                        webRequestAUTH.Method = "GET";
-                        webRequestAUTH.Host = "api.businesscentral.dynamics.com";
-                        webRequestAUTH.ContentType = "application/json";
-                        webRequestAUTH.MediaType = "application/json";
-                        webRequestAUTH.Accept = "application/json";
-
-                        webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
-
-                        using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
-                        {
-                            using (var srW = new StreamReader(rW))
-                            {
-                                var sExportAsJson = srW.ReadToEnd();
-                                var sExport = JsonConvert.DeserializeObject<BCCustomers>(sExportAsJson);
-
-                                int iCount = 1;
-                                foreach (var cust in sExport.value)
-                                {
-                                    InfoDataL.Text += iCount.ToString() + ". " + cust.displayName + "<br />";
-                                    iCount++;
-
-                                    /*
-                                    try
-                                    {
-                                        // delete customer
-                                        var webRequestAUTH2 = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers(" + cust.id + ")") as HttpWebRequest;
-                                        if (webRequestAUTH2 != null)
-                                        {
-                                            webRequestAUTH2.Method = "DELETE";
-                                            webRequestAUTH2.Host = "api.businesscentral.dynamics.com";
-                                            webRequestAUTH2.Headers["If-Match"] = "*";
-
-                                            webRequestAUTH2.Headers["Authorization"] = "Bearer " + sAuthToken;
-
-                                            using (var rW2 = webRequestAUTH2.GetResponse().GetResponseStream())
-                                            {
-                                                using (var srW2 = new StreamReader(rW2))
-                                                {
-                                                    var sExportAsJson2 = srW2.ReadToEnd();
-                                                }
-                                            }
-                                        }
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        ex.ToString();
-                                    }
-                                    */
-                                }
-                            }
-                        }
-
-                        webRequestAUTH = null;
-                    }
-                }
-                catch (Exception ex)
-                {
-                    ex.ToString();
-                }
-
-
-
-            }
+            return sResult;
         }
     }
 }

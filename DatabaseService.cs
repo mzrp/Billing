@@ -52,6 +52,7 @@ namespace RPNAVConnect
 
             return sResult;
         }
+
         public bool IsTokenValid(string sUserId)
         {
             bool bResult = false;

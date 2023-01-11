@@ -19,6 +19,7 @@ using System.Globalization;
 
 using System.IO;
 using Newtonsoft.Json;
+using System.Security.Cryptography;
 
 namespace RPNAVConnect
 {
@@ -156,7 +157,7 @@ namespace RPNAVConnect
                 sUserId = "n/a";
             }
 
-            sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
+            //sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
 
             if (sUserId != "n/a")
             {
@@ -512,6 +513,60 @@ namespace RPNAVConnect
             }
         }
 
+        private string GetItemId(string sItemName)
+        {
+            string sResult = "n/a";
+
+            // get itemid and lineobjectnumber
+            try
+            {
+                //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                       | SecurityProtocolType.Tls11
+                       | SecurityProtocolType.Tls12
+                       | SecurityProtocolType.Ssl3;
+
+                System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/items?$filter=number eq '" + sItemName + "'") as HttpWebRequest;
+                if (webRequestAUTH != null)
+                {
+                    webRequestAUTH.Method = "GET";
+                    webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                    webRequestAUTH.ContentType = "application/json";
+                    webRequestAUTH.MediaType = "application/json";
+                    webRequestAUTH.Accept = "application/json";
+
+                    webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
+
+                    using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                    {
+                        using (var srW = new StreamReader(rW))
+                        {
+                            var sExportAsJson = srW.ReadToEnd();
+                            var sExport = JsonConvert.DeserializeObject<GetItems>(sExportAsJson);
+                            foreach (var it in sExport.value)
+                            {
+                                sResult = it.id;
+                                break;
+                            }
+                        }
+                    }
+
+                    webRequestAUTH = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sResult = "n/a";
+            }
+
+            return sResult;
+        } 
+
         protected void PushDataToNavB_Click(object sender, EventArgs e)
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
@@ -709,7 +764,7 @@ namespace RPNAVConnect
                                 try
                                 {
                                     string sNewGuid = Guid.NewGuid().ToString();
-                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/production/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers") as HttpWebRequest;
+                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers") as HttpWebRequest;
                                     if (webRequestAUTH != null)
                                     {
                                         webRequestAUTH.Method = "POST";
@@ -864,7 +919,7 @@ namespace RPNAVConnect
 
                                                             System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Dev/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
                                                             if (webRequestAUTH != null)
                                                             {
                                                                 webRequestAUTH.Method = "POST";
@@ -973,7 +1028,7 @@ namespace RPNAVConnect
 
                                                         System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Dev/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                                                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
                                                         if (webRequestAUTH != null)
                                                         {
                                                             webRequestAUTH.Method = "POST";
@@ -1031,16 +1086,16 @@ namespace RPNAVConnect
                                                         {
                                                             PostSalesInvoiceLine invoiceLine = new PostSalesInvoiceLine();
 
-                                                            invoiceLine.itemId = "7a60966b-dc81-ed11-9989-000d3adb3941";
+                                                            invoiceLine.lineObjectNumber = "1010.000"; // 100
+                                                            invoiceLine.itemId = GetItemId("1010.000");
                                                             invoiceLine.lineType = "Item";
                                                             invoiceLine.Document_No = "";
 
                                                             // type
-                                                            invoiceLine.lineObjectNumber = "100";
                                                             if (sResultInvoiceLine.description.ToLower().IndexOf("kørsel") != -1)
                                                             {
-                                                                invoiceLine.lineObjectNumber = "500";
-                                                                invoiceLine.itemId = "d2ab249b-dc81-ed11-9989-000d3adb3941";
+                                                                invoiceLine.lineObjectNumber = "1010.025"; // 500
+                                                                invoiceLine.itemId = GetItemId("1010.025");
                                                             }
 
                                                             string sKind1 = "";
@@ -1055,30 +1110,25 @@ namespace RPNAVConnect
                                                             try
                                                             {
                                                                 sProductNo = sKind1.ToLower();
-                                                                if (sProductNo == "150")
+                                                                if (sProductNo == "1040.000")
                                                                 {
-                                                                    invoiceLine.lineObjectNumber = "150";
-                                                                    invoiceLine.itemId = "17ca2b8c-dc81-ed11-9989-000d3adb3941";
+                                                                    invoiceLine.lineObjectNumber = "1040.000"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1040.000");
                                                                 }
-                                                                if (sProductNo == "600")
+                                                                if (sProductNo == "1050.030")
                                                                 {
-                                                                    invoiceLine.lineObjectNumber = "600";
-                                                                    invoiceLine.itemId = "3d3a57a8-dc81-ed11-9989-000d3adb3941";
+                                                                    invoiceLine.lineObjectNumber = "1050.030"; // 600
+                                                                    invoiceLine.itemId = GetItemId("1050.030");
                                                                 }
-                                                                if (sProductNo == "605")
+                                                                if (sProductNo == "1050.040")
                                                                 {
-                                                                    invoiceLine.lineObjectNumber = "605";
-                                                                    invoiceLine.itemId = "3f3a57a8-dc81-ed11-9989-000d3adb3941";
+                                                                    invoiceLine.lineObjectNumber = "1050.040"; // 605
+                                                                    invoiceLine.itemId = GetItemId("1050.040");
                                                                 }
-                                                                if (sProductNo == "610")
+                                                                if (sProductNo == "1050.035")
                                                                 {
-                                                                    invoiceLine.lineObjectNumber = "610";
-                                                                    invoiceLine.itemId = "a3ccd2b3-dc81-ed11-9989-000d3adb3941";
-                                                                }
-                                                                if (sProductNo == "700")
-                                                                {
-                                                                    invoiceLine.lineObjectNumber = "700";
-                                                                    invoiceLine.itemId = "a5ccd2b3-dc81-ed11-9989-000d3adb3941";
+                                                                    invoiceLine.lineObjectNumber = "1050.035"; // 610
+                                                                    invoiceLine.itemId = GetItemId("1050.035");
                                                                 }
                                                             }
                                                             catch (Exception ex)
@@ -1314,7 +1364,7 @@ namespace RPNAVConnect
 
                                                                     System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Dev/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                                                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
                                                                     if (webRequestAUTH != null)
                                                                     {
                                                                         webRequestAUTH.Method = "POST";
@@ -1495,7 +1545,7 @@ namespace RPNAVConnect
 
                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Dev/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
                 if (webRequestAUTH != null)
                 {
                     webRequestAUTH.Method = "GET";

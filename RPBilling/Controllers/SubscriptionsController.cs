@@ -94,6 +94,7 @@ namespace RackPeople.BillingAPI.Controllers
 
             // Add each of the new products
             foreach(var product in subscription.Products.Where(p => p.Id == 0)) {
+                product.NavProductNumber = product.NavProductNumber.Substring(0,4) + "." + product.NavProductNumber.Substring(4);
                 org.Products.Add(product);
                 this.Audit(db, org, "added product '{0}: {1}'.", product.NavProductNumber, product.Description);
             }

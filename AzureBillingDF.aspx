@@ -15,7 +15,7 @@
     <!-- Custom Styles-->
     <link href="assets/css/custom-styles2.css" rel="stylesheet" />
     <!-- Google Fonts-->
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' /> 
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' /> 
     <!-- Intro loader -->
     <link rel="stylesheet" href="jqueryIntroLoader-master/dist/css/introLoader.css">
 
@@ -224,6 +224,10 @@
 
         <!-- Introloader -->
         <script src="jqueryIntroLoader-master/dist/jquery.introLoader.pack.min.js"></script>
+
+        <script>
+            //parent.document.body.style.overflow = "hidden";
+        </script>
 
     </form>
 </body>

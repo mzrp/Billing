@@ -141,6 +141,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="assets\bundle.js" />
     <Content Include="Global.asax" />
     <EntityDeploy Include="Models\BillingModel.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
@@ -240,6 +241,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
       <DependentUpon>Settings.settings</DependentUpon>
     </Compile>
+    <Compile Include="Services\BCService.cs" />
     <Compile Include="Services\NAVService.cs" />
     <Compile Include="Services\TeleBillingImportService.cs" />
     <Compile Include="Web References\NAVCustomerService\Reference.cs">

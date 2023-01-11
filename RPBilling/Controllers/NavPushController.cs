@@ -5,15 +5,210 @@ using System.Linq;
 using System.Web.Http;
 using RackPeople.BillingAPI.NAVSalesInvoiceService;
 using System.Net.Mail;
+using Newtonsoft.Json;
+using System.IO;
+using System.Net;
+using System.Text;
+using RackPeople.BillingAPI.Services;
+using System.Web.Configuration;
+using System.Security.Cryptography;
+using System.Globalization;
 
 namespace RackPeople.BillingAPI.Controllers
 {
+    public class PostSalesInvoiceLineResponse
+    {
+        [JsonProperty("@odata.context")]
+        public string odatacontext { get; set; }
+
+        [JsonProperty("@odata.etag")]
+        public string odataetag { get; set; }
+        public string id { get; set; }
+        public string documentId { get; set; }
+        public int sequence { get; set; }
+        public string itemId { get; set; }
+        public string accountId { get; set; }
+        public string lineType { get; set; }
+        public string lineObjectNumber { get; set; }
+        public string description { get; set; }
+        public string unitOfMeasureId { get; set; }
+        public string unitOfMeasureCode { get; set; }
+        public double unitPrice { get; set; }
+        public int quantity { get; set; }
+        public int discountAmount { get; set; }
+        public int discountPercent { get; set; }
+        public bool discountAppliedBeforeTax { get; set; }
+        public double amountExcludingTax { get; set; }
+        public string taxCode { get; set; }
+        public int taxPercent { get; set; }
+        public double totalTaxAmount { get; set; }
+        public double amountIncludingTax { get; set; }
+        public int invoiceDiscountAllocation { get; set; }
+        public double netAmount { get; set; }
+        public double netTaxAmount { get; set; }
+        public double netAmountIncludingTax { get; set; }
+        public string shipmentDate { get; set; }
+        public string itemVariantId { get; set; }
+        public string locationId { get; set; }
+    }
+    
+    public class BillingPostalAddress
+    {
+        public string street { get; set; }
+        public string city { get; set; }
+        public string state { get; set; }
+        public string countryLetterCode { get; set; }
+        public string postalCode { get; set; }
+    }
+
+    public class PostSalesInvoiceResponse
+    {
+        [JsonProperty("@odata.context")]
+        public string odatacontext { get; set; }
+
+        [JsonProperty("@odata.etag")]
+        public string odataetag { get; set; }
+        public string id { get; set; }
+        public string number { get; set; }
+        public string externalDocumentNumber { get; set; }
+        public string invoiceDate { get; set; }
+        public string postingDate { get; set; }
+        public string dueDate { get; set; }
+        public string customerPurchaseOrderReference { get; set; }
+        public string customerId { get; set; }
+        public string contactId { get; set; }
+        public string customerNumber { get; set; }
+        public string customerName { get; set; }
+        public string billToName { get; set; }
+        public string billToCustomerId { get; set; }
+        public string billToCustomerNumber { get; set; }
+        public string shipToName { get; set; }
+        public string shipToContact { get; set; }
+        public string currencyId { get; set; }
+        public string currencyCode { get; set; }
+        public string orderId { get; set; }
+        public string orderNumber { get; set; }
+        public string paymentTermsId { get; set; }
+        public string shipmentMethodId { get; set; }
+        public string salesperson { get; set; }
+        public bool pricesIncludeTax { get; set; }
+        public int remainingAmount { get; set; }
+        public int discountAmount { get; set; }
+        public bool discountAppliedBeforeTax { get; set; }
+        public int totalAmountExcludingTax { get; set; }
+        public int totalTaxAmount { get; set; }
+        public int totalAmountIncludingTax { get; set; }
+        public string status { get; set; }
+        public DateTime lastModifiedDateTime { get; set; }
+        public string phoneNumber { get; set; }
+        public string email { get; set; }
+        public SellingPostalAddress sellingPostalAddress { get; set; }
+        public BillingPostalAddress billingPostalAddress { get; set; }
+        public ShippingPostalAddress shippingPostalAddress { get; set; }
+    }
+
+    public class SellingPostalAddress
+    {
+        public string street { get; set; }
+        public string city { get; set; }
+        public string state { get; set; }
+        public string countryLetterCode { get; set; }
+        public string postalCode { get; set; }
+    }
+
+    public class ShippingPostalAddress
+    {
+        public string street { get; set; }
+        public string city { get; set; }
+        public string state { get; set; }
+        public string countryLetterCode { get; set; }
+        public string postalCode { get; set; }
+    }
+
+
+    public class PostSalesInvoice
+    {
+        public string externalDocumentNumber { get; set; }
+        public string invoiceDate { get; set; }
+        public string postingDate { get; set; }
+        public string customerId { get; set; }
+        public string customerNumber { get; set; }
+        public string billToCustomerId { get; set; }
+        public string billToCustomerNumber { get; set; }
+        public PostSalesInvoiceLine[] SalesLines { get; set; }
+    }
+
+    public class PostSalesInvoiceLine
+    {
+        public string itemId { get; set; }
+        public string lineType { get; set; }
+        public string lineObjectNumber { get; set; }
+        public string description { get; set; }
+        public decimal unitPrice { get; set; }
+        public decimal quantity { get; set; }
+        public string Document_No { get; set; }
+    }
+
+    public class PostSalesInvoiceLineDB
+    {
+        public string no { get; set; }
+        public string itemId { get; set; }
+        public string lineType { get; set; }
+        public string lineObjectNumber { get; set; }
+        public string description { get; set; }
+        public decimal unitPrice { get; set; }
+        public string unitofmeasure { get; set; }
+        public decimal quantity { get; set; }
+        public string Document_No { get; set; }
+        public decimal Line_Discount_Amount { get; set; }
+        public string Type { get; set; }
+        
+    }
+
+    public class GetItems
+    {
+        [JsonProperty("@odata.context")]
+        public string odatacontext { get; set; }
+        public List<GetItem> value { get; set; }
+    }
+
+    public class GetItem
+    {
+        [JsonProperty("@odata.etag")]
+        public string odataetag { get; set; }
+        public string id { get; set; }
+        public string number { get; set; }
+        public string displayName { get; set; }
+        public string type { get; set; }
+        public string itemCategoryId { get; set; }
+        public string itemCategoryCode { get; set; }
+        public bool blocked { get; set; }
+        public string gtin { get; set; }
+        public int inventory { get; set; }
+        public int unitPrice { get; set; }
+        public bool priceIncludesTax { get; set; }
+        public int unitCost { get; set; }
+        public string taxGroupId { get; set; }
+        public string taxGroupCode { get; set; }
+        public string baseUnitOfMeasureId { get; set; }
+        public string baseUnitOfMeasureCode { get; set; }
+        public string generalProductPostingGroupId { get; set; }
+        public string generalProductPostingGroupCode { get; set; }
+        public string inventoryPostingGroupId { get; set; }
+        public string inventoryPostingGroupCode { get; set; }
+        public DateTime lastModifiedDateTime { get; set; }
+    }
+
+
     public class NavPushController : BaseController
     {
         private BillingEntities db = new BillingEntities();
 
-        protected List<Sales_Invoice_Line> GetInvoiceLines(Subscription s, DateTime billingPeriode) {
-            var lines = new List<Sales_Invoice_Line>();
+        protected List<PostSalesInvoiceLineDB> GetInvoiceLines(Subscription s, DateTime billingPeriode) {
+
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
+            var lines = new List<PostSalesInvoiceLineDB>();
 
             // Add subscription period as first line
             var starts = billingPeriode.AddDays(0);
@@ -34,12 +229,12 @@ namespace RackPeople.BillingAPI.Controllers
                     break;
             }
 
-            var period = new Sales_Invoice_Line();
-            period.Type = NAVSalesInvoiceService.Type._blank_;
+            var period = new PostSalesInvoiceLineDB();
+            //period.Type = NAVSalesInvoiceService.Type._blank_;
 
             // Subtract one day before writing
             ends = ends.AddDays(-1);
-            period.Description = String.Format("Periode {0} - {1}", starts.ToShortDateString(), ends.ToShortDateString());
+            period.description = String.Format("Periode {0} - {1}", starts.ToShortDateString(), ends.ToShortDateString());
 
             lines.Add(period);
 
@@ -58,7 +253,7 @@ namespace RackPeople.BillingAPI.Controllers
                 for (int i = 0; i < numberOfLines; i++) {
                     var range = chars.Skip(i * 50).Take(50);
 
-                    var line = new Sales_Invoice_Line();
+                    var line = new PostSalesInvoiceLineDB();
                     
                     if (i == 0) {
                         // If the product contains /md we need to multiple the quantity
@@ -67,13 +262,15 @@ namespace RackPeople.BillingAPI.Controllers
                             amount = p.UnitAmount * s.MonthsInBillingCycle;
                         }
 
-                        line.Type = NAVSalesInvoiceService.Type.Item;
-                        line.No = p.NavProductNumber;
-                        line.Quantity = amount;
-                        line.Unit_Price = p.UnitPrice;
-                        line.Unit_of_Measure = p.UnitType;
-                        line.Description = String.Join("", range);
+                        line.Type = "Item";
+                        line.no = p.NavProductNumber;
+                        line.quantity = amount;
+                        line.unitPrice = p.UnitPrice;
+                        line.unitofmeasure = p.UnitType;
+                        line.description = String.Join("", range);
+                        line.Line_Discount_Amount = 0;
 
+                        /*
                         if (p.NavPrice > p.UnitPrice) {
                             line.Unit_Price = p.NavPrice;
                             line.Line_Discount_Amount = (p.NavPrice - p.UnitPrice) * amount;
@@ -81,12 +278,13 @@ namespace RackPeople.BillingAPI.Controllers
                         else {
                             line.Line_Discount_Amount = 0;
                         }
+                        */
 
                         // If the NavPrice is 0, we need to assign
                     }
                     else {
-                        line.Type = NAVSalesInvoiceService.Type._blank_;
-                        line.Description = String.Join("", range);
+                        line.Type = "_blank_";
+                        line.description = String.Join("", range);
                     }
 
                     lines.Add(line);
@@ -97,9 +295,9 @@ namespace RackPeople.BillingAPI.Controllers
             if (!String.IsNullOrEmpty(s.AdditionalText)) {
                 var textLines = this.SplitIntoLines(s.AdditionalText, 50);
                 foreach(var line in textLines) {
-                    var sil = new Sales_Invoice_Line();
-                    sil.Type = NAVSalesInvoiceService.Type._blank_;
-                    sil.Description = line;
+                    var sil = new PostSalesInvoiceLineDB();
+                    sil.Type = "_blank_";
+                    sil.description = line;
                     lines.Add(sil);
                 }
             }
@@ -148,68 +346,365 @@ namespace RackPeople.BillingAPI.Controllers
             client.Send(msg);
         }
 
-        protected Dictionary<string, object> BillSubscription(Subscription s, DateTime period, SalesInvoice_Service_Service service, bool onPickedDate, bool dryRun) {
+        private string GetCustomer(string filter, string BCToken)
+        {
+            string sResult = "n/aђn/a";
+
+            try
+            {
+                //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                       | SecurityProtocolType.Tls11
+                       | SecurityProtocolType.Tls12
+                       | SecurityProtocolType.Ssl3;
+
+                System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
+                if (webRequestAUTH != null)
+                {
+                    webRequestAUTH.Method = "GET";
+                    webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                    webRequestAUTH.ContentType = "application/json";
+                    webRequestAUTH.MediaType = "application/json";
+                    webRequestAUTH.Accept = "application/json";
+
+                    webRequestAUTH.Headers["Authorization"] = "Bearer " + BCToken;
+
+                    using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                    {
+                        using (var srW = new StreamReader(rW))
+                        {
+                            var sExportAsJson = srW.ReadToEnd();
+                            var sExport = JsonConvert.DeserializeObject<BCCustomers>(sExportAsJson);
+
+                            int iCount = 1;
+                            foreach (var cust in sExport.value)
+                            {
+                                sResult = cust.number + "ђ" + cust.id;
+                                break;
+
+                            }
+                        }
+                    }
+
+                    webRequestAUTH = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sResult = "n/aђn/a";
+            }
+
+            return sResult;
+        }
+
+
+        private string BCCreateInvoice(string sCustomerId, DateTime dtBCPostInvoice, List<PostSalesInvoiceLineDB> lines)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
+            string sLog = "";
+            string sResult = "OK";
+
+            // create invoice now
+            string sNewInvoiceId = "n/a";
+
+            BCService bcs = new BCService();
+
+            string sAuthToken = bcs.GetBCToken();
+            if (sAuthToken != "n/a")
+            {
+                // get customer first
+                string sCustomerData = GetCustomer(sCustomerId, sAuthToken);
+                sLog += "CD:" + sCustomerData + ";";
+
+                if (sCustomerData != "n/aђn/a")
+                {
+                    string sCustomerVATNo = sCustomerData.Split('ђ')[0];
+                    string sCustomerVATId = sCustomerData.Split('ђ')[1];
+
+                    // create order first and create empty order lines
+                    PostSalesInvoice order = new PostSalesInvoice();
+
+                    order.customerNumber = sCustomerVATNo.PadLeft(8, '0');
+                    order.billToCustomerNumber = sCustomerVATNo.PadLeft(8, '0');
+                    order.customerId = sCustomerVATId;
+                    order.billToCustomerId = sCustomerVATId;
+
+                    order.invoiceDate = dtBCPostInvoice.Year.ToString().PadLeft(4, '0') + "-" + dtBCPostInvoice.Month.ToString().PadLeft(2, '0') + "-" + dtBCPostInvoice.Day.ToString().PadLeft(2, '0');
+                    order.postingDate = dtBCPostInvoice.Year.ToString().PadLeft(4, '0') + "-" + dtBCPostInvoice.Month.ToString().PadLeft(2, '0') + "-" + dtBCPostInvoice.Day.ToString().PadLeft(2, '0');
+
+                    try
+                    {
+                        //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                        ServicePointManager.Expect100Continue = true;
+                        ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                               | SecurityProtocolType.Tls11
+                               | SecurityProtocolType.Tls12
+                               | SecurityProtocolType.Ssl3;
+
+                        System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
+                        if (webRequestAUTH != null)
+                        {
+                            webRequestAUTH.Method = "POST";
+                            webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                            webRequestAUTH.ContentType = "application/json";
+                            webRequestAUTH.MediaType = "application/json";
+                            webRequestAUTH.Accept = "application/json";
+
+                            webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
+
+                            string sParams = "{\"externalDocumentNumber\": \"\", \"invoiceDate\": \"" + order.invoiceDate + "\", \"postingDate\": \"" + order.postingDate + "\", \"customerId\": \"" + order.customerId + "\", \"customerNumber\": \"" + order.customerNumber + "\", \"billToCustomerId\": \"" + order.billToCustomerId + "\", \"billToCustomerNumber\": \"" + order.billToCustomerNumber + "\"}";
+                            var data = Encoding.ASCII.GetBytes(sParams);
+                            webRequestAUTH.ContentLength = data.Length;
+
+                            using (var sW = webRequestAUTH.GetRequestStream())
+                            {
+                                sW.Write(data, 0, data.Length);
+                            }
+
+                            using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                            {
+                                using (var srW = new StreamReader(rW))
+                                {
+                                    var sExportAsJson = srW.ReadToEnd();
+                                    var sExport = JsonConvert.DeserializeObject<PostSalesInvoiceResponse>(sExportAsJson);
+                                    if (sExport.id != null)
+                                    {
+                                        if (sExport.id != "")
+                                        {
+                                            sNewInvoiceId = sExport.id;                                            
+                                        }
+                                    }
+                                }
+                            }
+
+                            webRequestAUTH = null;
+                        }
+                    }
+                    catch (Exception ex)
+                    {
+                        ex.ToString();
+                        sNewInvoiceId = "n/a";
+                        sLog += "NIErr:" + ex.ToString() + ";";
+                        sResult = "NOTOK";
+                    }
+                }
+                sLog += "NI:" + sNewInvoiceId + ";";
+
+                if (sNewInvoiceId != "n/a")
+                {
+                    for (var i = 0; i < lines.Count; i++)
+                    {
+                        var line = lines[i];
+
+                        /*
+                        invoice.SalesLines[i].Type = line.Type;
+                        invoice.SalesLines[i].No = line.No;
+                        invoice.SalesLines[i].Quantity = line.Quantity;
+                        invoice.SalesLines[i].Unit_Price = line.Unit_Price;
+                        invoice.SalesLines[i].Unit_of_Measure = line.Unit_of_Measure;
+                        invoice.SalesLines[i].Description = line.Description;
+                        invoice.SalesLines[i].Line_Discount_Amount = line.Line_Discount_Amount;
+                        */
+
+                        PostSalesInvoiceLine ord = new PostSalesInvoiceLine();
+                        ord.quantity = line.quantity;
+                        ord.description = line.description;
+                        if (ord.description.Length > 50)
+                        {
+                            ord.description = ord.description.Substring(0, 50);
+                        }
+                        ord.unitPrice = line.unitPrice;
+                        ord.lineType = "Item";
+                        ord.itemId = "";
+                        ord.lineObjectNumber = "";
+
+                        sLog += "LINo:" + line.no + ";";
+
+                        if (line.no != "")
+                        {
+                            // get itemid and lineobjectnumber
+                            try
+                            {
+                                //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                                ServicePointManager.Expect100Continue = true;
+                                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                                       | SecurityProtocolType.Tls11
+                                       | SecurityProtocolType.Tls12
+                                       | SecurityProtocolType.Ssl3;
+
+                                System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/items?$filter=number eq '" + line.no + "'") as HttpWebRequest;
+                                if (webRequestAUTH != null)
+                                {
+                                    webRequestAUTH.Method = "GET";
+                                    webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                                    webRequestAUTH.ContentType = "application/json";
+                                    webRequestAUTH.MediaType = "application/json";
+                                    webRequestAUTH.Accept = "application/json";
+
+                                    webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
+
+                                    using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                                    {
+                                        using (var srW = new StreamReader(rW))
+                                        {
+                                            var sExportAsJson = srW.ReadToEnd();
+                                            var sExport = JsonConvert.DeserializeObject<GetItems>(sExportAsJson);
+                                            foreach (var it in sExport.value)
+                                            {
+                                                ord.itemId = it.id;
+                                                ord.lineObjectNumber = it.number;
+                                                sLog += "IT:" + ord.itemId + "," + ord.lineObjectNumber + ";";
+                                                break;
+                                            }
+                                        }
+                                    }
+
+                                    webRequestAUTH = null;
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                ex.ToString();
+                                ord.itemId = "";
+                                ord.lineObjectNumber = "";
+                                sLog += "ITErr:" + ex.ToString() + ";";
+                                sResult = "NOTOK";
+                            }
+                        }
+
+                        string sNewInvoiceLineId = "n/a";
+                        try
+                        {
+                            //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                            ServicePointManager.Expect100Continue = true;
+                            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                                   | SecurityProtocolType.Tls11
+                                   | SecurityProtocolType.Tls12
+                                   | SecurityProtocolType.Ssl3;
+
+                            System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                            if (webRequestAUTH != null)
+                            {
+                                webRequestAUTH.Method = "POST";
+                                webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                                webRequestAUTH.ContentType = "application/json";
+                                webRequestAUTH.MediaType = "application/json";
+                                webRequestAUTH.Accept = "application/json";
+
+                                webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
+
+                                string sParams = "{\"description\": \"" + ord.description + "\"}";
+                                if ((ord.itemId != "") && (ord.lineObjectNumber != ""))
+                                {
+                                    sParams = "{\"itemId\": \"" + ord.itemId + "\", \"lineType\": \"" + ord.lineType + "\", \"lineObjectNumber\": \"" + ord.lineObjectNumber + "\", \"description\": \"" + ord.description + "\", \"unitPrice\": " + ord.unitPrice + ", \"quantity\": " + ord.quantity + "}";
+                                }
+
+                                sLog += "ITPar:" + sParams + ";";
+
+                                var data = Encoding.UTF8.GetBytes(sParams);
+                                webRequestAUTH.ContentLength = data.Length;
+                                using (var sW = webRequestAUTH.GetRequestStream())
+                                {
+                                    sW.Write(data, 0, data.Length);
+                                }
+                                using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                                {
+                                    using (var srW = new StreamReader(rW))
+                                    {
+                                        var sExportAsJson = srW.ReadToEnd();
+                                        var sExport = JsonConvert.DeserializeObject<PostSalesInvoiceLineResponse>(sExportAsJson);
+                                        if (sExport.id != null)
+                                        {
+                                            if (sExport.id != "")
+                                            {
+                                                sNewInvoiceLineId = sExport.id;
+                                                sLog += "IL:" + sNewInvoiceLineId + ";";
+                                            }
+                                        }
+                                    }
+                                }
+
+                                webRequestAUTH = null;
+                            }
+                        }
+                        catch (Exception ex)
+                        {
+                            ex.ToString();
+                            sNewInvoiceLineId = "n/a";
+                            sLog += "ILErr:" + ex.ToString() + ";";
+                            sResult = "NOTOK";
+                        }
+
+                    }
+                }
+            }
+
+            return sLog + "ш" + sResult;
+        }
+
+        protected Dictionary<string, object> BillSubscription(Subscription s, DateTime period, bool onPickedDate, bool dryRun) {
             try {
                 // Create a new sales invoice
                 // Based on Milans code, it seems the invoice needs to be created, before we can start adding info
-                var invoice = new SalesInvoice_Service();
+
+                System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
+                string sYourRef = String.Format("RPB #{0}", s.Id);
+                string sResultLog = sYourRef;
+                string sLog = sYourRef;
+
                 if (!dryRun) {
-                    service.Create(ref invoice);
-                }
+                    
+                    DateTime dtBCPostInvoice = DateTime.Now;                    
+                    if (onPickedDate)
+                    {
+                        dtBCPostInvoice = DateTime.Now;
+                    }
+                    else
+                    {
+                        dtBCPostInvoice = s.NextInvoice;
+                    }
 
-                // Update the fields
-                invoice.Sell_to_Customer_No = s.NavCustomerId;
+                    // Create each sales line now
+                    var lines = this.GetInvoiceLines(s, period);
 
-                if (onPickedDate) {
-                    //invoice.Posting_Date = period;
-                    invoice.Posting_Date = DateTime.Now;
-                } else {
-                    invoice.Posting_Date = s.NextInvoice;
-                }
-
-                invoice.Your_Reference = String.Format("RPB #{0}", s.Id);
-                if (!dryRun) {
-                    service.Update(ref invoice);
-                }
-
-                // Create each sales line
-                var lines = this.GetInvoiceLines(s, period);
-
-                // Create the empty line container
-                invoice.SalesLines = new Sales_Invoice_Line[lines.Count];
-                for (var i = 0; i < lines.Count; i++) {
-                    invoice.SalesLines[i] = new Sales_Invoice_Line();
-                }
-                if (!dryRun) {
-                    service.Update(ref invoice);
-                }
-
-                // Update the lines
-                for (var i = 0; i < lines.Count; i++) {
-                    var line = lines[i];
-                    invoice.SalesLines[i].Type = line.Type;
-                    invoice.SalesLines[i].Total_Amount_Incl_VATSpecified = false;
-                    invoice.SalesLines[i].Total_Amount_Excl_VATSpecified = false;
-                    invoice.SalesLines[i].Total_VAT_AmountSpecified = false;
-
-                    invoice.SalesLines[i].No = line.No;
-                    invoice.SalesLines[i].Quantity = line.Quantity;
-                    invoice.SalesLines[i].Unit_Price = line.Unit_Price;
-                    invoice.SalesLines[i].Unit_of_Measure = line.Unit_of_Measure;
-                    invoice.SalesLines[i].Description = line.Description;
-                    invoice.SalesLines[i].Line_Discount_Amount = line.Line_Discount_Amount;
-                }
-                if (!dryRun) {
-                    service.Update(ref invoice);
+                    // cretae invoice now
+                    sLog = BCCreateInvoice(s.NavCustomerId, dtBCPostInvoice, lines);
+                    string[] sLogArray = sLog.Split('ш');
+                    if (sLogArray[1] == "OK")
+                    {
+                        sResultLog = sYourRef;
+                    }
+                    else
+                    {
+                        sResultLog = sYourRef + sLogArray[0];
+                    }
                 }
 
                 // Update the billing cycle
                 //s.UpdateBillingCycle(DateTime.Now);
-                db.Entry(s).State = System.Data.Entity.EntityState.Modified;
+
+                // TESTINV
+                //db.Entry(s).State = System.Data.Entity.EntityState.Modified;
 
                 var dict = new Dictionary<string, object>();
                 dict.Add("success", true);
-                dict.Add("message", String.Format("New invoice to {0} for subscription {1} is ready", s.NavCustomerName, invoice.Your_Reference));
+                dict.Add("message", String.Format("New invoice to {0} for subscription: {1}", s.NavCustomerName, sResultLog));
                 return dict;
             }       
             catch (Exception e) {
@@ -230,13 +725,9 @@ namespace RackPeople.BillingAPI.Controllers
                 return NotFound();
             }
 
-            // Connect to the server
-            var service = new NAVSalesInvoiceService.SalesInvoice_Service_Service();
-            service.Credentials = this.GetNetworkCredentials();
-
             // Create the invoice
             var period = DateTime.Parse(date);
-            var result = BillSubscription(subscription, period, service, true, false);
+            var result = BillSubscription(subscription, period, true, false);
 
             this.Audit(subscription, "manually sent invoice for {0}/{1}", period.Day, period.Month);
             return Ok(result);
@@ -310,10 +801,6 @@ namespace RackPeople.BillingAPI.Controllers
             // Get a copy of all active subscription
             var subscriptions = db.Subscriptions.Include("Products").Where(x => x.Deleted == null);
 
-            // Connect to the server
-            var service = new SalesInvoice_Service_Service();
-            service.Credentials = this.GetNetworkCredentials();
-
             // Build up a result list
             var result = new List<String>();
 
@@ -323,7 +810,7 @@ namespace RackPeople.BillingAPI.Controllers
                 {
                     // Create the invoice
                     var period = DateTime.Parse(date);
-                    var entry = BillSubscription(s, period, service, true, false);
+                    var entry = BillSubscription(s, period, true, false);
                     result.Add(entry["message"].ToString());
 
                     // test for just one subscription
@@ -341,14 +828,10 @@ namespace RackPeople.BillingAPI.Controllers
             // Get a copy of all active subscription
             var subscriptions = db.Subscriptions.Include("Products").Where(x => x.Deleted == null);
 
-            // Connect to the server
-            var service = new SalesInvoice_Service_Service();
-            service.Credentials = this.GetNetworkCredentials();
-
             // Build up a result list
             var result = new List<String>();
             if (dryRun) {
-                result.Add("This is just a dry run. Nothing gets changed.");
+                result.Add("This is just a dry run. Nothing will change.");
             }
 
             foreach (var s in subscriptions) {
@@ -363,16 +846,18 @@ namespace RackPeople.BillingAPI.Controllers
                         ));
 
                         // update billing cycle now
+                        /* TESTENV
                         s.NextInvoice = s.InvoiceDate;
                         db.Entry(s).State = System.Data.Entity.EntityState.Modified;
-
+                        */
                     }
                     continue;
                 }
 
-                var entry = BillSubscription(s, s.BillingPeriod, service, false, dryRun);
+                var entry = BillSubscription(s, s.BillingPeriod, false, dryRun);
 
                 // save next invoice date
+                /* TESTENV
                 int offset = 30;
                 if (s.PaymentTerms != null)
                 {
@@ -383,15 +868,18 @@ namespace RackPeople.BillingAPI.Controllers
                 s.NextInvoice = NID.AddMonths(iBC);
                 s.NextInvoice = s.NextInvoice.AddDays(-Math.Abs(offset));
                 db.Entry(s).State = System.Data.Entity.EntityState.Modified;
+                */
 
                 result.Add(entry["message"].ToString());
             }
 
             // Save changes made to the database
             try {
-                //if (!dryRun) { 
+                /* TESTENV
+                if (!dryRun) { 
                     db.SaveChanges();
-                //}
+                }
+                */
             }
             catch (Exception) {
                 result.Add("De overstående aftaler kunne ikke gemmes i den lokale database, og deres 'First Invoice' skal opdateres manuelt.");
@@ -401,6 +889,7 @@ namespace RackPeople.BillingAPI.Controllers
             }
 
             // Send the result email
+            /* TESTENV
             try {
                 if (recipients == "") {
                     recipients = "bogholderi@rackpeople.dk";
@@ -413,7 +902,8 @@ namespace RackPeople.BillingAPI.Controllers
             catch (Exception) {
                 result.Add(String.Format("Failed to send an email to '{0}'", recipients));
             }
-            
+            */
+
             // Render
             return Ok(result);
         }
