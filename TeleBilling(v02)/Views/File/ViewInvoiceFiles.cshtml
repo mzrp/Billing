@@ -3,8 +3,8 @@
 @{
     ViewBag.Title = "InvoiceFiles";
 
-    //string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=ZMILAN11\\SQLEXPRESS;Integrated Security=SSPI;";
-    string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=mssql01;Integrated Security=SSPI;";
+    string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=DESKTOP-UTFJPDF\\SQLEXPRESS;Integrated Security=SSPI;";
+    //string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=mssql01;Integrated Security=SSPI;";
     System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
     dbConn.Open();
 
