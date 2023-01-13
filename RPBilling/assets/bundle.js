@@ -2973,10 +2973,6 @@ if (document.getElementById('subinfodiv1')) {
                         text: "Harvest",
                         icon: "list",
                         to: "/harvest"						
-                    }), c["default"].createElement(y, {
-                        text: "Timelog",
-                        icon: "list",
-                        to: "/timelog"						
                     }), c["default"].createElement(x, {
                         text: "HitBilling"
                     }), c["default"].createElement(y, {

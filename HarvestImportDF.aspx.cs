@@ -764,7 +764,7 @@ namespace RPNAVConnect
                                 try
                                 {
                                     string sNewGuid = Guid.NewGuid().ToString();
-                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers") as HttpWebRequest;
+                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers") as HttpWebRequest;
                                     if (webRequestAUTH != null)
                                     {
                                         webRequestAUTH.Method = "POST";
@@ -919,7 +919,7 @@ namespace RPNAVConnect
 
                                                             System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
                                                             if (webRequestAUTH != null)
                                                             {
                                                                 webRequestAUTH.Method = "POST";
@@ -1028,7 +1028,7 @@ namespace RPNAVConnect
 
                                                         System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                                                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
                                                         if (webRequestAUTH != null)
                                                         {
                                                             webRequestAUTH.Method = "POST";
@@ -1167,11 +1167,11 @@ namespace RPNAVConnect
                                                             {
                                                                 PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                extraLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                extraLine.itemId = "";
                                                                 extraLine.lineType = "Item";
                                                                 extraLine.Document_No = "";
 
-                                                                extraLine.lineObjectNumber = "100";
+                                                                extraLine.lineObjectNumber = "";
 
                                                                 // quantity and price
                                                                 extraLine.quantity = 0;
@@ -1264,11 +1264,11 @@ namespace RPNAVConnect
                                                                     {
                                                                         PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                        extraLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                        extraLine.itemId = "";
                                                                         extraLine.lineType = "Item";
                                                                         extraLine.Document_No = "";
 
-                                                                        extraLine.lineObjectNumber = "100";
+                                                                        extraLine.lineObjectNumber = "";
 
                                                                         // quantity and price
                                                                         extraLine.quantity = 0;
@@ -1300,11 +1300,11 @@ namespace RPNAVConnect
                                                                     {
                                                                         PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                        extraLine.itemId = "b99339f1-4380-ed11-9989-000d3adb3941";
+                                                                        extraLine.itemId = "";
                                                                         extraLine.lineType = "Item";
                                                                         extraLine.Document_No = "";
 
-                                                                        extraLine.lineObjectNumber = "100";
+                                                                        extraLine.lineObjectNumber = "";
 
                                                                         // quantity and price
                                                                         extraLine.quantity = 0;
@@ -1364,7 +1364,7 @@ namespace RPNAVConnect
 
                                                                     System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                                                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
                                                                     if (webRequestAUTH != null)
                                                                     {
                                                                         webRequestAUTH.Method = "POST";
@@ -1376,6 +1376,11 @@ namespace RPNAVConnect
                                                                         webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
 
                                                                         string sParams = "{\"itemId\": \"" + ord.itemId + "\", \"lineType\": \"" + ord.lineType + "\", \"lineObjectNumber\": \"" + ord.lineObjectNumber + "\", \"description\": \"" + ord.description + "\", \"unitPrice\": " + ord.unitPrice + ", \"quantity\": " + ord.quantity + "}";
+                                                                        if (ord.itemId == "")
+                                                                        {
+                                                                            sParams = "{\"description\": \"" + ord.description + "\"}";
+                                                                        }
+                                                                        
                                                                         var data = Encoding.UTF8.GetBytes(sParams);
                                                                         webRequestAUTH.ContentLength = data.Length;
 
@@ -1545,7 +1550,7 @@ namespace RPNAVConnect
 
                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
                 if (webRequestAUTH != null)
                 {
                     webRequestAUTH.Method = "GET";

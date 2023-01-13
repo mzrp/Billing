@@ -1046,7 +1046,8 @@ namespace RPNAVConnect
             DateTime dtStartDate = new DateTime(dtCurrent.Year, dtCurrent.Month, 1);
             DateTime dtEndDate = dtStartDate.AddMonths(1).AddDays(-1);
 
-            string sItem310Id = ""; 
+            string sItem310Id = "";
+            string sItem315Id = "";
 
             int iYear = -1;
             int iMonth = -1;
@@ -1449,14 +1450,9 @@ namespace RPNAVConnect
                                                         {
                                                             PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
                                                             
-                                                            commentLine.lineType = "Item";
-                                                            commentLine.lineObjectNumber = "2050.015"; // 310
-                                                            commentLine.itemId = sItem310Id;
-                                                            if (sItem310Id == "")
-                                                            {
-                                                                sItem310Id = GetItemId("2050.015");
-                                                                commentLine.itemId = sItem310Id;
-                                                            }
+                                                            commentLine.lineType = "";
+                                                            commentLine.lineObjectNumber = "";
+                                                            commentLine.itemId = "";
                                                             commentLine.Document_No = "";
 
                                                             // quantity and price
@@ -1718,14 +1714,9 @@ namespace RPNAVConnect
                                                                         {
                                                                             PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
 
-                                                                            commentLine.lineType = "Item";
-                                                                            commentLine.lineObjectNumber = "2050.015"; // 310
-                                                                            commentLine.itemId = sItem310Id;
-                                                                            if (sItem310Id == "")
-                                                                            {
-                                                                                sItem310Id = GetItemId("2050.015");
-                                                                                commentLine.itemId = sItem310Id;
-                                                                            }
+                                                                            commentLine.lineType = "";
+                                                                            commentLine.lineObjectNumber = "";
+                                                                            commentLine.itemId = "";
                                                                             commentLine.Document_No = "";
 
                                                                             // quantity and price
@@ -1767,14 +1758,9 @@ namespace RPNAVConnect
                                                                         {
                                                                             PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
 
-                                                                            commentLine.lineType = "Item";
-                                                                            commentLine.lineObjectNumber = "2050.015"; // 310
-                                                                            commentLine.itemId = sItem310Id;
-                                                                            if (sItem310Id == "")
-                                                                            {
-                                                                                sItem310Id = GetItemId("2050.015");
-                                                                                commentLine.itemId = sItem310Id;
-                                                                            }
+                                                                            commentLine.lineType = "";
+                                                                            commentLine.lineObjectNumber = ""; 
+                                                                            commentLine.itemId = "";
                                                                             commentLine.Document_No = "";
 
                                                                             // quantity and price
@@ -2348,14 +2334,9 @@ namespace RPNAVConnect
                                                                                                 {
                                                                                                     PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                                                    extraLine.lineType = "Item";
-                                                                                                    extraLine.lineObjectNumber = "2050.015"; // 310
-                                                                                                    extraLine.itemId = sItem310Id;
-                                                                                                    if (sItem310Id == "")
-                                                                                                    {
-                                                                                                        sItem310Id = GetItemId("2050.015");
-                                                                                                        extraLine.itemId = sItem310Id;
-                                                                                                    }
+                                                                                                    extraLine.lineType = "";
+                                                                                                    extraLine.lineObjectNumber = "";
+                                                                                                    extraLine.itemId = "";
 
                                                                                                     // quantity and price
                                                                                                     extraLine.quantity = 0;
@@ -2389,14 +2370,9 @@ namespace RPNAVConnect
 
                                                                                             PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                                                            extraLine.lineType = "Item";
-                                                                                            extraLine.lineObjectNumber = "2050.015"; // 310
-                                                                                            extraLine.itemId = sItem310Id;
-                                                                                            if (sItem310Id == "")
-                                                                                            {
-                                                                                                sItem310Id = GetItemId("2050.015");
-                                                                                                extraLine.itemId = sItem310Id;
-                                                                                            }
+                                                                                            extraLine.lineType = "";
+                                                                                            extraLine.lineObjectNumber = ""; 
+                                                                                            extraLine.itemId = "";
 
                                                                                             // quantity and price
                                                                                             extraLine.quantity = 0;
@@ -2423,14 +2399,9 @@ namespace RPNAVConnect
                                                                                     {
                                                                                         PostSalesInvoiceLine extraemptyLine = new PostSalesInvoiceLine();
 
-                                                                                        extraemptyLine.lineType = "Item";
-                                                                                        extraemptyLine.lineObjectNumber = "2050.015"; // 310
-                                                                                        extraemptyLine.itemId = sItem310Id;
-                                                                                        if (sItem310Id == "")
-                                                                                        {
-                                                                                            sItem310Id = GetItemId("2050.015");
-                                                                                            extraemptyLine.itemId = sItem310Id;
-                                                                                        }
+                                                                                        extraemptyLine.lineType = "";
+                                                                                        extraemptyLine.lineObjectNumber = "";
+                                                                                        extraemptyLine.itemId = "";
                                                                                         extraemptyLine.Document_No = "";
 
                                                                                         // quantity and price
@@ -2749,7 +2720,7 @@ namespace RPNAVConnect
 
                                                                     System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                                                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
                                                                     if (webRequestAUTH != null)
                                                                     {
                                                                         webRequestAUTH.Method = "POST";
@@ -2830,19 +2801,19 @@ namespace RPNAVConnect
                                                                         }
                                                                     }
 
-                                                                    if (sItem310Id == "")
+                                                                    if (sItem315Id == "")
                                                                     {
-                                                                        sItem310Id = GetItemId("2050.015");
+                                                                        sItem315Id = GetItemId("2050.020");
                                                                     }
 
                                                                     // item
-                                                                    order.SalesLines[iOrderLinesCount].itemId = sItem310Id;
+                                                                    order.SalesLines[iOrderLinesCount].itemId = sItem315Id;
 
                                                                     // hardcoded
                                                                     order.SalesLines[iOrderLinesCount].lineType = "Item";
 
                                                                     // 310
-                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "2050.015"; // 310
+                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "2050.020"; // 315
 
                                                                     // quantity
                                                                     order.SalesLines[iOrderLinesCount].quantity = 1;
@@ -2855,36 +2826,36 @@ namespace RPNAVConnect
                                                                     iOrderLinesCount++;
 
                                                                     // add comment zero
-                                                                    order.SalesLines[iOrderLinesCount].itemId = sItem310Id;
-                                                                    order.SalesLines[iOrderLinesCount].lineType = "Item";
-                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "2050.015"; // 310
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
                                                                     order.SalesLines[iOrderLinesCount].unitPrice = 0;
                                                                     order.SalesLines[iOrderLinesCount].description = "";
                                                                     iOrderLinesCount++;
 
                                                                     // add comment one
-                                                                    order.SalesLines[iOrderLinesCount].itemId = sItem310Id;
-                                                                    order.SalesLines[iOrderLinesCount].lineType = "Item";
-                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "2050.015"; // 310
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
                                                                     order.SalesLines[iOrderLinesCount].unitPrice = 0;
                                                                     order.SalesLines[iOrderLinesCount].description = "Azure consumption is now summarized.";
                                                                     iOrderLinesCount++;
 
                                                                     // add comment two
-                                                                    order.SalesLines[iOrderLinesCount].itemId = sItem310Id;
-                                                                    order.SalesLines[iOrderLinesCount].lineType = "Item";
-                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "2050.015"; // 310
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
                                                                     order.SalesLines[iOrderLinesCount].unitPrice = 0;
                                                                     order.SalesLines[iOrderLinesCount].description = "Please find you data in customer portal:";
                                                                     iOrderLinesCount++;
 
                                                                     // add comment three
-                                                                    order.SalesLines[iOrderLinesCount].itemId = sItem310Id;
-                                                                    order.SalesLines[iOrderLinesCount].lineType = "Item";
-                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "2050.015"; // 310
+                                                                    order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                    order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
                                                                     order.SalesLines[iOrderLinesCount].quantity = 0;
                                                                     order.SalesLines[iOrderLinesCount].unitPrice = 0;
                                                                     order.SalesLines[iOrderLinesCount].description = "https://portal.rackpeople.com";
@@ -2909,7 +2880,7 @@ namespace RPNAVConnect
 
                                                                             System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                                                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
                                                                             if (webRequestAUTH != null)
                                                                             {
                                                                                 webRequestAUTH.Method = "POST";
@@ -2921,6 +2892,11 @@ namespace RPNAVConnect
                                                                                 webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
 
                                                                                 string sParams = "{\"itemId\": \"" + ord.itemId + "\", \"lineType\": \"" + ord.lineType + "\", \"lineObjectNumber\": \"" + ord.lineObjectNumber + "\", \"description\": \"" + ord.description + "\", \"unitPrice\": " + ord.unitPrice + ", \"quantity\": " + ord.quantity + "}";
+                                                                                if (ord.itemId == "")
+                                                                                {
+                                                                                    sParams = "{\"description\": \"" + ord.description + "\"}";
+                                                                                }
+                                                                                
                                                                                 var data = Encoding.ASCII.GetBytes(sParams);
                                                                                 webRequestAUTH.ContentLength = data.Length;
 
@@ -3095,7 +3071,7 @@ namespace RPNAVConnect
 
                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/ODataV4/Company('CRONUS Danmark A/S')/CustomerDetails?$filter=Microsoft_CSP_ID eq '" + filter + "'") as HttpWebRequest;
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/ODataV4/Company('RackPeople ApS')/CustomerDetails?$filter=Microsoft_CSP_ID eq '" + filter + "'") as HttpWebRequest;
                 if (webRequestAUTH != null)
                 {
                     webRequestAUTH.Method = "GET";
@@ -3147,7 +3123,7 @@ namespace RPNAVConnect
 
                     System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/ODataV4/Company('CRONUS Danmark A/S')/CustomerDetails?$filter=Microsoft_CSP_ID2 eq '" + filter + "'") as HttpWebRequest;
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/ODataV4/Company('RackPeople ApS')/CustomerDetails?$filter=Microsoft_CSP_ID2 eq '" + filter + "'") as HttpWebRequest;
                     if (webRequestAUTH != null)
                     {
                         webRequestAUTH.Method = "GET";
@@ -3200,7 +3176,7 @@ namespace RPNAVConnect
 
                     System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=number eq '" + sCustomerNo + "'") as HttpWebRequest;
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + sCustomerNo + "'") as HttpWebRequest;
                     if (webRequestAUTH != null)
                     {
                         webRequestAUTH.Method = "GET";

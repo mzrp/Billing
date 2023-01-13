@@ -738,7 +738,7 @@ namespace TeleBilling_v02_.Controllers
                             sInfoMsg = "";
                             foreach (var singleab in appliedAgreements)
                             {
-                                sInfoMsg += "Customer NavId: " + singleab.CVR + " pushed to NAV.\n";
+                                sInfoMsg += "Customer NavId: " + singleab.CVR + " pushed to BC.\n";
                             }                            
                         }
                         else

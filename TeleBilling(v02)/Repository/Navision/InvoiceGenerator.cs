@@ -11,6 +11,7 @@ using System.Web;
 using TeleBilling_v02_.Models;
 using TeleBilling_v02_.Models.Navision;
 using TeleBilling_v02_.NAVSalesInvoice;
+using System.Globalization;
 
 namespace TeleBilling_v02_.Repository.Navision
 {
@@ -233,7 +234,7 @@ namespace TeleBilling_v02_.Repository.Navision
 
                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
                 if (webRequestAUTH != null)
                 {
                     webRequestAUTH.Method = "GET";
@@ -377,6 +378,8 @@ namespace TeleBilling_v02_.Repository.Navision
 
         public static List<string> BillDidww(IEnumerable<InvoiceModel> billableList)
         {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
             List<string> errorMsg = new List<string>();
             string msg = string.Empty;
 
@@ -433,7 +436,7 @@ namespace TeleBilling_v02_.Repository.Navision
 
                         System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
                         if (webRequestAUTH != null)
                         {
                             webRequestAUTH.Method = "POST";
@@ -557,7 +560,7 @@ namespace TeleBilling_v02_.Repository.Navision
 
                                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
                                 if (webRequestAUTH != null)
                                 {
                                     webRequestAUTH.Method = "POST";
@@ -619,6 +622,8 @@ namespace TeleBilling_v02_.Repository.Navision
 
         public static List<string> Bill(IEnumerable<InvoiceModel> billableList)
         {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+
             List<string> errorMsg = new List<string>();
             string msg = string.Empty;
 
@@ -675,7 +680,7 @@ namespace TeleBilling_v02_.Repository.Navision
 
                         System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices") as HttpWebRequest;
+                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
                         if (webRequestAUTH != null)
                         {
                             webRequestAUTH.Method = "POST";
@@ -960,7 +965,7 @@ namespace TeleBilling_v02_.Repository.Navision
 
                                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(2af24b6d-a627-ed11-9db8-000d3a21e61f)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
                                 if (webRequestAUTH != null)
                                 {
                                     webRequestAUTH.Method = "POST";
