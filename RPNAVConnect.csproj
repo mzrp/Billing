@@ -489,7 +489,6 @@
     </Compile>
     <Compile Include="RPBillingLoginSuccess.aspx.cs">
       <DependentUpon>RPBillingLoginSuccess.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="RPBillingLoginSuccess.aspx.designer.cs">
       <DependentUpon>RPBillingLoginSuccess.aspx</DependentUpon>

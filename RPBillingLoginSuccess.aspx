@@ -46,6 +46,10 @@
             });
         }
     </script>
+    <style>
+        tr:nth-child(even) {background: #DDD}
+        tr:nth-child(odd) {background: #FFF}
+    </style>
 </head>
 <body>
     <form id="RPNAVConnectForm" runat="server">
@@ -60,6 +64,10 @@
                     <br />
                     <asp:Label ID="InfoDataL" runat="server" Text=""></asp:Label>
                     <asp:Button ID="GetTokenBtn" runat="server" Text="Authenticate RP Billing" Visible="true" OnClientClick="invokeLoader();" Height="58px" Width="286px" OnClick="GetTokenBtn_Click" /> 
+
+                    <br />
+                    <br />
+                    <asp:Label ID="SubscriptionsDueL" runat="server" Text=""></asp:Label>
                 </div>
             </div>
 

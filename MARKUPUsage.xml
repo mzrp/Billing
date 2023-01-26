@@ -205,21 +205,21 @@
     <Name>PrimeAssurance A/S</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="0859e20e-ac4b-48e1-9cd6-a689d47cf655" Markup="0">
+  <Customer Id="0859e20e-ac4b-48e1-9cd6-a689d47cf655" Markup="0.00">
     <Name>Rackpeople</Name>
-    <Markup>0</Markup>
+    <Markup>0.00</Markup>
   </Customer>
   <Customer Id="80b9d8b0-f820-4fb2-bcd0-36e7b52e7784" Markup="0.0">
     <Name>Rackpeople ApS</Name>
     <Markup>0.0</Markup>
   </Customer>
-  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0">
+  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0.00">
     <Name>RackPeople ApS</Name>
-    <Markup>0</Markup>
+    <Markup>0.00</Markup>
   </Customer>
-  <Customer Id="3f19aad6-a204-4a42-b614-74d0a77ea620" Markup="0">
+  <Customer Id="3f19aad6-a204-4a42-b614-74d0a77ea620" Markup="0.00">
     <Name>RackpeopleTest</Name>
-    <Markup>0</Markup>
+    <Markup>0.00</Markup>
   </Customer>
   <Customer Id="6b623733-dd22-411a-a3d4-d8b92bdd545a">
     <Name>RIP Bogføring</Name>
@@ -237,9 +237,9 @@
     <Name>SBC-Teams GoWingu</Name>
     <Markup>0.0</Markup>
   </Customer>
-  <Customer Id="b9d2f243-b20e-44ca-aaba-b179b9963fe2" Markup="0.0">
+  <Customer Id="b9d2f243-b20e-44ca-aaba-b179b9963fe2" Markup="0.00">
     <Name>Skypecall.me</Name>
-    <Markup>0.0</Markup>
+    <Markup>0.00</Markup>
   </Customer>
   <Customer Id="8663db16-6e34-4afd-87de-a5424d0875f7">
     <Name>Solrød Vandværk a.m.b.a.</Name>
@@ -509,8 +509,16 @@
     <Name>Norli Liv og Pension</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd">
+  <Customer Id="f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd" Markup="0">
     <Name>New Co</Name>
+    <Markup>0</Markup>
+  </Customer>
+  <Customer Id="3cbc57fe-362f-4193-b77c-fe40f42e30bd">
+    <Name>ECO-LOCAXION IVS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="8e57e763-b195-499b-92e8-c0d4cf41c5aa">
+    <Name>ITChimp</Name>
     <Markup>25.0</Markup>
   </Customer>
 </CustomerMarkups>

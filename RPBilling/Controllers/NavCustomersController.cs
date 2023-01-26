@@ -75,7 +75,7 @@ namespace RackPeople.BillingAPI.Controllers
 
                     System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers") as HttpWebRequest;
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers") as HttpWebRequest;
                     if (webRequestAUTH != null)
                     {
                         webRequestAUTH.Method = "GET";

@@ -13,6 +13,7 @@ using RackPeople.BillingAPI.Services;
 using System.Web.Configuration;
 using System.Security.Cryptography;
 using System.Globalization;
+using System.Collections;
 
 namespace RackPeople.BillingAPI.Controllers
 {
@@ -333,10 +334,10 @@ namespace RackPeople.BillingAPI.Controllers
             }
 
             // additional recepients
-            msg.To.Add("sa@rackpeople.dk");
-            msg.To.Add("aop@rackpeople.dk");
+            //msg.To.Add("sa@rackpeople.dk");
+            //msg.To.Add("aop@rackpeople.dk");
 
-            msg.Subject = "New invoices are pending in Navision";
+            msg.Subject = "New invoices are pending in RPBilling";
             msg.IsBodyHtml = true;
             msg.Body = String.Join("<br />", result);
 
@@ -362,7 +363,7 @@ namespace RackPeople.BillingAPI.Controllers
 
                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
                 if (webRequestAUTH != null)
                 {
                     webRequestAUTH.Method = "GET";
@@ -450,7 +451,7 @@ namespace RackPeople.BillingAPI.Controllers
 
                         System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
+                        var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices") as HttpWebRequest;
                         if (webRequestAUTH != null)
                         {
                             webRequestAUTH.Method = "POST";
@@ -544,7 +545,7 @@ namespace RackPeople.BillingAPI.Controllers
 
                                 System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/items?$filter=number eq '" + line.no + "'") as HttpWebRequest;
+                                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/items?$filter=number eq '" + line.no + "'") as HttpWebRequest;
                                 if (webRequestAUTH != null)
                                 {
                                     webRequestAUTH.Method = "GET";
@@ -597,7 +598,7 @@ namespace RackPeople.BillingAPI.Controllers
 
                             System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
 
-                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Test/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
+                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/salesInvoices(" + sNewInvoiceId + ")/salesInvoiceLines") as HttpWebRequest;
                             if (webRequestAUTH != null)
                             {
                                 webRequestAUTH.Method = "POST";
@@ -668,7 +669,8 @@ namespace RackPeople.BillingAPI.Controllers
                 string sResultLog = sYourRef;
                 string sLog = sYourRef;
 
-                if (!dryRun) {
+                if (!dryRun) 
+                {
                     
                     DateTime dtBCPostInvoice = DateTime.Now;                    
                     if (onPickedDate)
@@ -824,29 +826,35 @@ namespace RackPeople.BillingAPI.Controllers
 
         [HttpGet]
         [Route("api/nav/push")]
-        public IHttpActionResult Push(string recipients = "", bool dryRun = false) {
+        public IHttpActionResult Push(bool sendemail = false, bool dryRun = false) {
             // Get a copy of all active subscription
             var subscriptions = db.Subscriptions.Include("Products").Where(x => x.Deleted == null);
 
             // Build up a result list
             var result = new List<String>();
             if (dryRun) {
-                result.Add("This is just a dry run. Nothing will change.");
+                result.Add("               This is just a dry run. Nothing will change.");
             }
+
+            result.Add("               BCName,BCNo,Id,Description,FirstInvoice,BillingPeriod,InvoiceDate,NextInvoice,BillingCycle");
 
             foreach (var s in subscriptions) {
                 if (!s.IsDue()) {
                     if (dryRun) {
                         result.Add(String.Format(
-                            "description: {0}, first period: {1}, billing period: {2}, billing date: {3}",
-                            s.Description,
-                            s.FirstInvoice.ToString("dd/MM"),
-                            s.BillingPeriod.ToString("dd/MM"),
-                            s.InvoiceDate.ToString("dd/MM")
+                            "               {0},{1},{2},{3},{4},{5},{6},{7},{8}",
+                            s.NavCustomerName.Replace(",", ";"),
+                            s.NavCustomerId.Replace(",", ";"),
+                            s.Id,
+                            s.Description.Replace(",", ";"),
+                            s.FirstInvoice.ToString("dd/MM/yyyy"),
+                            s.BillingPeriod.ToString("dd/MM/yyyy"),
+                            s.InvoiceDate.ToString("dd/MM/yyyy"),
+                            s.NextInvoice.ToString("dd/MM/yyyy"),
+                            s.BillingCycle
                         ));
 
-                        // update billing cycle now
-                        /* TESTENV
+                        /*
                         s.NextInvoice = s.InvoiceDate;
                         db.Entry(s).State = System.Data.Entity.EntityState.Modified;
                         */
@@ -855,31 +863,51 @@ namespace RackPeople.BillingAPI.Controllers
                 }
 
                 var entry = BillSubscription(s, s.BillingPeriod, false, dryRun);
+                if (entry["message"].ToString().IndexOf("New invoice to") != -1)
+                {
+                    result.Add(String.Format(
+                        "NEW_INVOICE    {0},{1},{2},{3},{4},{5},{6},{7},{8}",
+                        s.NavCustomerName.Replace(",", ";"),
+                        s.NavCustomerId.Replace(",", ";"),
+                        s.Id,
+                        s.Description.Replace(",", ";"),
+                        s.FirstInvoice.ToString("dd/MM/yyyy"),
+                        s.BillingPeriod.ToString("dd/MM/yyyy"),
+                        s.InvoiceDate.ToString("dd/MM/yyyy"),
+                        s.NextInvoice.ToString("dd/MM/yyyy"),
+                        s.BillingCycle
+                    ));
+                }
 
                 // save next invoice date
-                /* TESTENV
-                int offset = 30;
-                if (s.PaymentTerms != null)
+                if (!dryRun)
                 {
-                    offset = s.PaymentTerms.Value;
-                }
-                DateTime NID = s.InvoiceDate.AddDays(Math.Abs(offset));
-                int iBC = MonthsInBillingCycleDetail(s.BillingCycle);
-                s.NextInvoice = NID.AddMonths(iBC);
-                s.NextInvoice = s.NextInvoice.AddDays(-Math.Abs(offset));
-                db.Entry(s).State = System.Data.Entity.EntityState.Modified;
-                */
+                    // update billing cycle now
+                    s.NextInvoice = s.InvoiceDate;
+                    db.Entry(s).State = System.Data.Entity.EntityState.Modified;
 
-                result.Add(entry["message"].ToString());
+                    /*
+                    int offset = 30;
+                    if (s.PaymentTerms != null)
+                    {
+                        offset = s.PaymentTerms.Value;
+                    }
+                    DateTime NID = s.InvoiceDate.AddDays(Math.Abs(offset));
+                    int iBC = MonthsInBillingCycleDetail(s.BillingCycle);
+                    s.NextInvoice = NID.AddMonths(iBC);
+                    s.NextInvoice = s.NextInvoice.AddDays(-Math.Abs(offset));
+                    db.Entry(s).State = System.Data.Entity.EntityState.Modified;
+                    */
+                }
+                
             }
 
             // Save changes made to the database
             try {
-                /* TESTENV
-                if (!dryRun) { 
+                if (!dryRun)
+                {
                     db.SaveChanges();
                 }
-                */
             }
             catch (Exception) {
                 result.Add("De overstående aftaler kunne ikke gemmes i den lokale database, og deres 'First Invoice' skal opdateres manuelt.");
@@ -889,22 +917,25 @@ namespace RackPeople.BillingAPI.Controllers
             }
 
             // Send the result email
-            /* TESTENV
-            try {
-                if (recipients == "") {
-                    recipients = "bogholderi@rackpeople.dk";
+            if (dryRun)
+            {
+                //string recipients = "finance@rackpeople.com,bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk";
+                string recipients = "mz@rackpeople.dk;zivic.milan@gmail.com";
+                try
+                {
+                    if (sendemail == true)
+                    {
+                        this.SendResultEmail(result, recipients);
+                    }
                 }
-
-                if (!dryRun) { 
-                    this.SendResultEmail(result, recipients);
+                catch (Exception)
+                {
+                    result.Add(String.Format("Failed to send an email to '{0}'", recipients));
                 }
             }
-            catch (Exception) {
-                result.Add(String.Format("Failed to send an email to '{0}'", recipients));
-            }
-            */
 
             // Render
+
             return Ok(result);
         }
     }

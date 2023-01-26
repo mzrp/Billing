@@ -84,7 +84,19 @@ namespace RackPeople.BillingAPI.Models
         /// <returns></returns>
         public bool IsDue() {
             var today = DateTime.Today.Date;
-            return today.Date.Equals(this.InvoiceDate.Date); // TODAY (2020-03-05) : DUE
+            bool bResult = today.Date.Equals(this.InvoiceDate.Date);
+            if (bResult == false)
+            {
+                if (this.InvoiceDate >= this.NextInvoice)
+                {
+                    if (today >= this.NextInvoice)
+                    {
+                        bResult = true;
+                    }
+                }
+            }
+
+            return bResult; // TODAY (2020-03-05) : DUE
         }
 
         /// <summary>

@@ -629,4 +629,19 @@
     <Comment>
     </Comment>
   </Customer>
+  <Customer Id="3cbc57fe-362f-4193-b77c-fe40f42e30bd">
+    <Name>ECO-LOCAXION IVS</Name>
+    <Comment>
+    </Comment>
+  </Customer>
+  <Customer Id="8e57e763-b195-499b-92e8-c0d4cf41c5aa">
+    <Name>ITChimp</Name>
+    <Comment>
+    </Comment>
+  </Customer>
+  <Customer Id="f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd">
+    <Name>New Co</Name>
+    <Comment>
+    </Comment>
+  </Customer>
 </CustomerComments>

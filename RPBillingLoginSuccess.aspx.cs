@@ -1,4 +1,5 @@
-﻿using Newtonsoft.Json;
+﻿using Microsoft.Graph;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -6,12 +7,18 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Net;
+using System.Security.Cryptography;
 using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
 namespace RPNAVConnect
 {
+    public class SubsDues
+    {
+        public List<string> data { get; set; }
+    }
+
     public partial class RPBillingLoginSuccess : System.Web.UI.Page
     {
         //Get value from cokkie    
@@ -32,7 +39,7 @@ namespace RPNAVConnect
             long lExpiresIn = -1;
             DateTime dExpiresAt = DateTime.MinValue;
             bool bTokenExpired = false;
-
+            
             string dbPath = ConfigurationManager.AppSettings["dbpath"].ToString();
             System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
             dbConn.Open();
@@ -81,6 +88,84 @@ namespace RPNAVConnect
                 InfoDataL.Text += "Token expires in:<br />" + lExpiresIn.ToString() + "<br />";
                 InfoDataL.Text += "Token expires at:<br />" + dExpiresAt.ToString() + "<br /><br />";
             }
+            
+            // get subscriptions dues
+            SubscriptionsDueL.Text = "<b>SUBSCRIPTIONS DUE TODAY</b><br /><br />";
+            SubscriptionsDueL.Text += "<table cellspacing='2' cellpadding='2' width='100%'>";
+            SubscriptionsDueL.Text += "<tr>";
+            SubscriptionsDueL.Text += "  <th>BCName</th><th>BCNo</th><th>Id</th><th>Description</th><th>FirstInvoice</th><th>BillingPeriod</th><th>InvoiceDate</th><th>NextInvoice</th><th>BillingCycle</th>";
+            SubscriptionsDueL.Text += "</tr>";
+            try
+            {
+                //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                       | SecurityProtocolType.Tls11
+                       | SecurityProtocolType.Tls12
+                       | SecurityProtocolType.Ssl3;
+
+                System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                var webRequestAUTH = WebRequest.Create("https://billing.gowingu.net/RPBilling/api/nav/push?dryRun=true") as HttpWebRequest;
+                if (webRequestAUTH != null)
+                {
+                    webRequestAUTH.Method = "GET";
+
+                    using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                    {
+                        using (var srW = new StreamReader(rW))
+                        {
+                            var sExportAsJson = srW.ReadToEnd().Replace("[\r\n", "").Replace("\r\n]", "");
+
+                            string[] duesubs = sExportAsJson.Split(new string[] { ",\r\n" }, StringSplitOptions.None);
+
+                            bool bNewInvoicesExist = false;
+                            foreach (string sData in duesubs)
+                            {
+                                if (sData.IndexOf("NEW_INVOICE    ") != -1)
+                                {
+                                    bNewInvoicesExist = true;
+                                    break;
+                                }
+                            }
+
+                            foreach (string sData in duesubs)
+                            {
+                                if (sData.IndexOf("NEW_INVOICE    ") != -1)
+                                {
+                                    SubscriptionsDueL.Text += "<tr>";
+
+                                    string sDataSub = sData.Replace("NEW_INVOICE    ", "");
+                                    // "01234567"
+                                    if (sDataSub[0] == '\"')
+                                    {
+                                        sDataSub = sDataSub.Substring(1);
+                                    }
+                                    if (sDataSub[sDataSub.Length - 1] == '\"')
+                                    {
+                                        sDataSub = sDataSub.Substring(0, sDataSub.Length - 1);
+                                    }
+
+                                    string[] sDataArray = sDataSub.Split(',');
+                                    foreach (string sDataCol in sDataArray)
+                                    {
+                                        SubscriptionsDueL.Text += "<td>" + sDataCol + "</td>";
+                                    }
+                                    SubscriptionsDueL.Text += "</tr>";
+                                }
+                            }
+                        }
+                    }
+
+                    webRequestAUTH = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
+            SubscriptionsDueL.Text += "</table>";
         }
 
         protected void GetTokenBtn_Click(object sender, EventArgs e)

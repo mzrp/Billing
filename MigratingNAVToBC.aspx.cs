@@ -43,9 +43,9 @@ namespace RPNAVConnect
         public string Name_2 { get; set; }
         public string Search_Name { get; set; }
         public string IC_Partner_Code { get; set; }
-        public int Balance_LCY { get; set; }
+        public double Balance_LCY { get; set; }
         public int BalanceAsVendor { get; set; }
-        public int Balance_Due_LCY { get; set; }
+        public double Balance_Due_LCY { get; set; }
         public int Credit_Limit_LCY { get; set; }
         public string Blocked { get; set; }
         public bool Privacy_Blocked { get; set; }
@@ -53,10 +53,10 @@ namespace RPNAVConnect
         public string Responsibility_Center { get; set; }
         public string Service_Zone_Code { get; set; }
         public string Document_Sending_Profile { get; set; }
-        public int TotalSales2 { get; set; }
+        public double TotalSales2 { get; set; }
         public int CustSalesLCY_CustProfit_AdjmtCostLCY { get; set; }
-        public int AdjCustProfit { get; set; }
-        public int AdjProfitPct { get; set; }
+        public double AdjCustProfit { get; set; }
+        public double AdjProfitPct { get; set; }
         public string Last_Date_Modified { get; set; }
         public bool Disable_Search_by_Name { get; set; }
         public string Address { get; set; }

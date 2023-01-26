@@ -1,5 +1,29 @@
 Customer,CustomerNo,Description,Quantity,Unit Price
-Rackepeople Consulting ApS,00000010,Tables - Tables - LRS - new ,0.13,0.00
-Rackepeople Consulting ApS,00000010,Blob Storage - Blob Storage - Hot LRS - EU North - ,4840.29,673.57
-Rackepeople Consulting ApS,00000010,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.00,0.00
-Rackepeople Consulting ApS,00000010,Tables - Tables - LRS - new ,0.00,0.00
+RackPeople ApS,00000010,Azure App Service Premium v2 Plan - Azure App ,720.00,910.86
+RackPeople ApS,00000010,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.51,0.00
+RackPeople ApS,00000010,SQL Database Single Basic - SQL Database Single ,60.00,61.10
+RackPeople ApS,00000010,Functions - Functions - new ,400000.00,0.00
+RackPeople ApS,00000010,General Block Blob - General Block Blob - LRS - ,0.47,0.00
+RackPeople ApS,00000010,Files - Files - LRS - new ,0.14,0.05
+RackPeople ApS,00000010,General Block Blob - General Block Blob - LRS - ,2.94,0.01
+RackPeople ApS,00000010,Azure App Service Standard Plan - Azure App ,1440.00,910.86
+RackPeople ApS,00000010,Files - Files - LRS - new ,85.23,0.81
+RackPeople ApS,00000010,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+RackPeople ApS,00000010,Azure App Service Free Plan - Azure App Service ,10.00,0.00
+RackPeople ApS,00000010,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.38,93.97
+RackPeople ApS,00000010,Azure App Service Free Plan - Azure App Service ,1.39,0.00
+RackPeople ApS,00000010,Tables - Tables - LRS - new ,1.34,0.00
+RackPeople ApS,00000010,Files - Files - LRS - new ,69.69,0.66
+RackPeople ApS,00000010,Files - Files - LRS - new ,58.51,5.55
+RackPeople ApS,00000010,Service Bus - Service Bus - Standard - new ,0.00,0.00
+RackPeople ApS,00000010,General Block Blob - General Block Blob - LRS - ,0.14,0.02
+RackPeople ApS,00000010,Functions - Functions - new ,220921.94,22.36
+RackPeople ApS,00000010,Service Bus - Service Bus - Hybrid Connections - ,1438.39,121.92
+RackPeople ApS,00000010,Tables - Tables - LRS - new ,13.10,3.73
+RackPeople ApS,00000010,Functions - Functions - new ,66883.00,0.00
+RackPeople ApS,00000010,General Block Blob - General Block Blob - LRS - ,162.21,0.37
+RackPeople ApS,00000010,Tables - Tables - LRS - new ,8.08,0.02
+RackPeople ApS,00000010,SQL Database Single Standard - SQL Database Single ,30.00,91.83
+RackPeople ApS,00000010,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.03,0.00
+RackPeople ApS,00000010,Tables - Tables - LRS - new ,25.85,0.06
+RackPeople ApS,00000010,Service Bus - Service Bus - Hybrid Connections - ,0.22,0.00
