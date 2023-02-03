@@ -15,6 +15,7 @@ using TeleBilling_v02_.Models.Navision;
 using TeleBilling_v02_.Models.DisplayModels;
 using System.Text;
 using System.Web.Routing;
+using System.Net.Mail;
 
 namespace TeleBilling_v02_.Controllers
 {
@@ -744,18 +745,41 @@ namespace TeleBilling_v02_.Controllers
                     List<InvoiceRecords> notSavedInDB = new List<InvoiceRecords>();
                     using (var db = new DBModelsContainer())
                     {
+                        List<string> emailResult = new List<string>();
+                        emailResult.Add("Invoices pushed to BC.");
+                        emailResult.Add("");
                         foreach (var invoice in recordList)
                         {
+                            try
+                            {
+                                emailResult.Add("Id." + invoice.Id + " Subscriber: " + invoice.Subscriber + " (" + invoice.Subscriber_cvr + "), Volume: " + invoice.Volume_time_secs + ", Price: " + invoice.Price + " (" + invoice.ZoneName + "/" + invoice.Destination + ")");
+                            }
+                            catch
+                            {
+                            }
+
                             try
                             {
                                 var result = db.InvoiceRecordsSet.Where(x => x.Id == invoice.Id).FirstOrDefault();
                                 result.RPBilled = "Yes";
                                 db.SaveChanges();
                             }
-                            catch
+                            catch (Exception ex)
                             {
                                 notSavedInDB.Add(invoice);
+                                emailResult.Add("Invoice sent to BC but not updated in db: " + ex.Message.ToString());
                             }
+                        }
+
+                        // send email now
+                        try
+                        {
+                            string recipients = "finance@rackpeople.com;bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk;ltp@rackpeople.dk;mz@rackpeople.dk";
+                            SendResultEmail(emailResult, recipients);
+                        }
+                        catch (Exception ex)
+                        {
+                            ex.ToString();
                         }
 
                         if (notSavedInDB.Count > 0)
@@ -772,7 +796,7 @@ namespace TeleBilling_v02_.Controllers
                             if (notSupplierPriceMachedList.Count > 0)
                             {
                                 //return the error page
-                                string error = "CSV file records are pushed to NAV. Prices that doesn't match criteria found.<br />";
+                                string error = "CSV file records are pushed to BC. Prices that doesn't match criteria found.<br />";
                                 error += "Price does not match with the supplier price for the following subscribers:<br /><br />";
                                 int i = 1;
                                 foreach (string errorMsgPrice in notSupplierPriceMachedList)
@@ -785,7 +809,7 @@ namespace TeleBilling_v02_.Controllers
                             }
                             else
                             {
-                                msg = recordList.Count + "item is successfully invoiced to the Navision. and database is updated.";
+                                msg = recordList.Count + "item is successfully invoiced to the BC. and database is updated.";
                                 return RedirectToAction("ViewInvoiceFiles", new RouteValueDictionary(new { controller = "File", action = "ViewInvoiceFiles", msg = msg }));
                             }
                         }
@@ -806,7 +830,36 @@ namespace TeleBilling_v02_.Controllers
             return View("Error");
         }
 
-        
+        protected void SendResultEmail(List<string> result, string recipients)
+        {
+            // If there aren't any lines in the result array, we assume 
+            // nothing has been submitted.
+            if (result.Count == 0)
+            {
+                return;
+            }
+
+            // Compose the result message
+            MailMessage msg = new MailMessage();
+            msg.From = new MailAddress("billing@rackpeople.dk", "RackPeople NAV Hub");
+            foreach (var adr in recipients.Split(';'))
+            {
+                msg.To.Add(adr);
+            }
+
+            // additional recepients
+            //msg.To.Add("sa@rackpeople.dk");
+            //msg.To.Add("aop@rackpeople.dk");
+
+            msg.Subject = "New invoices are pending in RPBilling";
+            msg.IsBodyHtml = true;
+            msg.Body = String.Join("<br />", result);
+
+            // Send the message through RP relay
+            SmtpClient client = new SmtpClient("relay.rackpeople.com", 25);
+            client.UseDefaultCredentials = true;
+            client.Send(msg);
+        }
 
         Dictionary<InvoiceRecords, string> notVerifiedList = new Dictionary<InvoiceRecords, string>();        
         List<string> notSupplierPriceMachedList = new List<string>();

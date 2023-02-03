@@ -425,7 +425,7 @@ namespace RPNAVConnect
                 sUserId = "n/a";
             }
 
-            sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
+            //sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
             //sUserId = "7a6e0a8f-d6b4-428d-8f6d-9287fa64642a";
 
             if (sUserId != "n/a")

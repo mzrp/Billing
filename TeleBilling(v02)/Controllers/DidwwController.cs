@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
+using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
 using TeleBilling_v02_.Models;
@@ -15,6 +16,7 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Text;
 using System.Web.Routing;
+using System.Net.Mail;
 
 namespace TeleBilling_v02_.Controllers
 {
@@ -735,11 +737,36 @@ namespace TeleBilling_v02_.Controllers
 
                         if (errorMsg.Count == 0)
                         {
+                            List<string> emailResult = new List<string>();
                             sInfoMsg = "";
                             foreach (var singleab in appliedAgreements)
                             {
-                                sInfoMsg += "Customer NavId: " + singleab.CVR + " pushed to BC.\n";
-                            }                            
+                                sInfoMsg += "Customer NavId: " + singleab.CVR + " pushed to BC. It is now ready to be sent to the customer.\n";
+                                emailResult.Add(sInfoMsg);
+                                emailResult.Add("");
+                                emailResult.Add("Details:");
+                                emailResult.Add("");
+                            }
+
+                            // send email now
+                            try
+                            {
+                                emailResult.Add("#, TimeStart, Source, Destination, BillingDuration, BillingDuration, DisconnectCode, CDRType, Prefix, RackpeopleCharge");
+                                foreach (var item in alldids.alldidwws)
+                                {
+                                    if ((item.Counter != "#") && (item.Counter != ""))
+                                    {
+                                        emailResult.Add(item.Counter.PadLeft(3, '0') + ". " + item.TimeStart + ", " + item.Source + ", " + item.Destination + ", " + item.BillingDuration + ", " + item.BillingDuration + ", " + item.DisconnectCode + ", " + item.CDRType + ", " + item.Prefix + ", " + item.RackpeopleCharge);
+                                    }
+                                }
+
+                                string recipients = "finance@rackpeople.com;bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk;ltp@rackpeople.dk;mz@rackpeople.dk";
+                                SendResultEmail(emailResult, recipients);
+                            }
+                            catch (Exception ex)
+                            {
+                                ex.ToString();
+                            }
                         }
                         else
                         {
@@ -758,6 +785,37 @@ namespace TeleBilling_v02_.Controllers
 
             return View(alldids);
             //return RedirectToAction("ViewDidww", new RouteValueDictionary(new { controller = "Didww", action = "ViewDidww", msg = msg }));
+        }
+
+        protected void SendResultEmail(List<string> result, string recipients)
+        {
+            // If there aren't any lines in the result array, we assume 
+            // nothing has been submitted.
+            if (result.Count == 0)
+            {
+                return;
+            }
+
+            // Compose the result message
+            MailMessage msg = new MailMessage();
+            msg.From = new MailAddress("billing@rackpeople.dk", "RackPeople NAV Hub");
+            foreach (var adr in recipients.Split(';'))
+            {
+                msg.To.Add(adr);
+            }
+
+            // additional recepients
+            //msg.To.Add("sa@rackpeople.dk");
+            //msg.To.Add("aop@rackpeople.dk");
+
+            msg.Subject = "New invoices are pending in RPBilling";
+            msg.IsBodyHtml = true;
+            msg.Body = String.Join("<br />", result);
+
+            // Send the message through RP relay
+            SmtpClient client = new SmtpClient("relay.rackpeople.com", 25);
+            client.UseDefaultCredentials = true;
+            client.Send(msg);
         }
 
         public List<InvoiceModel> Accumulate(List<InvoiceModel> billableList)

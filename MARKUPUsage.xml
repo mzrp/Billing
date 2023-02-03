@@ -521,4 +521,8 @@
     <Name>ITChimp</Name>
     <Markup>25.0</Markup>
   </Customer>
+  <Customer Id="a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3">
+    <Name>Eco-Locaxion</Name>
+    <Markup>25.0</Markup>
+  </Customer>
 </CustomerMarkups>

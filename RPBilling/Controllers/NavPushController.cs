@@ -205,15 +205,20 @@ namespace RackPeople.BillingAPI.Controllers
     {
         private BillingEntities db = new BillingEntities();
 
-        protected List<PostSalesInvoiceLineDB> GetInvoiceLines(Subscription s, DateTime billingPeriode) {
+        protected List<PostSalesInvoiceLineDB> GetInvoiceLines(Subscription s, DateTime billingPeriode, DateTime billingPeriodeInvDate) {
 
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
             var lines = new List<PostSalesInvoiceLineDB>();
 
             // Add subscription period as first line
-            var starts = billingPeriode.AddDays(0);
-            DateTime ends = billingPeriode.AddDays(0);
+            //var starts = billingPeriode.AddDays(0);
+            //DateTime ends = billingPeriode.AddDays(0);
+
+            DateTime starts = new DateTime(billingPeriodeInvDate.Year, billingPeriodeInvDate.Month, 1);
+            starts = starts.AddMonths(1);
+
+            DateTime ends = starts;
 
             switch (s.BillingCycle) {
                 case "Monthly":
@@ -658,7 +663,7 @@ namespace RackPeople.BillingAPI.Controllers
             return sLog + "ш" + sResult;
         }
 
-        protected Dictionary<string, object> BillSubscription(Subscription s, DateTime period, bool onPickedDate, bool dryRun) {
+        protected Dictionary<string, object> BillSubscription(Subscription s, DateTime period, DateTime periodinvdate, bool onPickedDate, bool dryRun) {
             try {
                 // Create a new sales invoice
                 // Based on Milans code, it seems the invoice needs to be created, before we can start adding info
@@ -683,7 +688,7 @@ namespace RackPeople.BillingAPI.Controllers
                     }
 
                     // Create each sales line now
-                    var lines = this.GetInvoiceLines(s, period);
+                    var lines = this.GetInvoiceLines(s, period, periodinvdate);
 
                     // cretae invoice now
                     sLog = BCCreateInvoice(s.NavCustomerId, dtBCPostInvoice, lines);
@@ -729,7 +734,7 @@ namespace RackPeople.BillingAPI.Controllers
 
             // Create the invoice
             var period = DateTime.Parse(date);
-            var result = BillSubscription(subscription, period, true, false);
+            var result = BillSubscription(subscription, period, period, true, false);
 
             this.Audit(subscription, "manually sent invoice for {0}/{1}", period.Day, period.Month);
             return Ok(result);
@@ -812,7 +817,7 @@ namespace RackPeople.BillingAPI.Controllers
                 {
                     // Create the invoice
                     var period = DateTime.Parse(date);
-                    var entry = BillSubscription(s, period, true, false);
+                    var entry = BillSubscription(s, period, period, true, false);
                     result.Add(entry["message"].ToString());
 
                     // test for just one subscription
@@ -829,9 +834,12 @@ namespace RackPeople.BillingAPI.Controllers
         public IHttpActionResult Push(bool sendemail = false, bool dryRun = false) {
             // Get a copy of all active subscription
             var subscriptions = db.Subscriptions.Include("Products").Where(x => x.Deleted == null);
+            bool bNewInvoicesExists = false;
 
             // Build up a result list
             var result = new List<String>();
+            var resultnew = new List<String>();
+
             if (dryRun) {
                 result.Add("               This is just a dry run. Nothing will change.");
             }
@@ -839,6 +847,28 @@ namespace RackPeople.BillingAPI.Controllers
             result.Add("               BCName,BCNo,Id,Description,FirstInvoice,BillingPeriod,InvoiceDate,NextInvoice,BillingCycle");
 
             foreach (var s in subscriptions) {
+
+                DateTime billingstarts = new DateTime(s.InvoiceDate.Year, s.InvoiceDate.Month, 1);
+                billingstarts = billingstarts.AddMonths(1);
+                DateTime billingends = billingstarts;
+
+                switch (s.BillingCycle)
+                {
+                    case "Monthly":
+                        billingends = billingstarts.AddMonths(1);
+                        break;
+                    case "Quaterly":
+                        billingends = billingstarts.AddMonths(3);
+                        break;
+                    case "Biannually":
+                        billingends = billingstarts.AddMonths(6);
+                        break;
+                    case "Annually":
+                        billingends = billingstarts.AddMonths(12);
+                        break;
+                }
+                billingends = billingends.AddDays(-1);
+
                 if (!s.IsDue()) {
                     if (dryRun) {
                         result.Add(String.Format(
@@ -848,7 +878,7 @@ namespace RackPeople.BillingAPI.Controllers
                             s.Id,
                             s.Description.Replace(",", ";"),
                             s.FirstInvoice.ToString("dd/MM/yyyy"),
-                            s.BillingPeriod.ToString("dd/MM/yyyy"),
+                            billingstarts.ToString("dd/MM/yyyy") + "--" + billingends.ToString("dd/MM/yyyy"),
                             s.InvoiceDate.ToString("dd/MM/yyyy"),
                             s.NextInvoice.ToString("dd/MM/yyyy"),
                             s.BillingCycle
@@ -862,7 +892,8 @@ namespace RackPeople.BillingAPI.Controllers
                     continue;
                 }
 
-                var entry = BillSubscription(s, s.BillingPeriod, false, dryRun);
+                var entry = BillSubscription(s, s.BillingPeriod, s.InvoiceDate, false, dryRun);
+
                 if (entry["message"].ToString().IndexOf("New invoice to") != -1)
                 {
                     result.Add(String.Format(
@@ -872,11 +903,26 @@ namespace RackPeople.BillingAPI.Controllers
                         s.Id,
                         s.Description.Replace(",", ";"),
                         s.FirstInvoice.ToString("dd/MM/yyyy"),
-                        s.BillingPeriod.ToString("dd/MM/yyyy"),
+                        billingstarts.ToString("dd/MM/yyyy") + "--" + billingends.ToString("dd/MM/yyyy"),
                         s.InvoiceDate.ToString("dd/MM/yyyy"),
                         s.NextInvoice.ToString("dd/MM/yyyy"),
                         s.BillingCycle
                     ));
+
+                    resultnew.Add(String.Format(
+                        "NEW_INVOICE    {0},{1},{2},{3},{4},{5},{6},{7},{8}",
+                        s.NavCustomerName.Replace(",", ";"),
+                        s.NavCustomerId.Replace(",", ";"),
+                        s.Id,
+                        s.Description.Replace(",", ";"),
+                        s.FirstInvoice.ToString("dd/MM/yyyy"),
+                        billingstarts.ToString("dd/MM/yyyy") + "--" + billingends.ToString("dd/MM/yyyy"),
+                        s.InvoiceDate.ToString("dd/MM/yyyy"),
+                        s.NextInvoice.ToString("dd/MM/yyyy"),
+                        s.BillingCycle
+                    ));
+
+                    bNewInvoicesExists = true;
                 }
 
                 // save next invoice date
@@ -919,13 +965,16 @@ namespace RackPeople.BillingAPI.Controllers
             // Send the result email
             if (dryRun)
             {
-                //string recipients = "finance@rackpeople.com,bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk";
-                string recipients = "mz@rackpeople.dk;zivic.milan@gmail.com";
+                string recipients = "finance@rackpeople.com;bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk;ltp@rackpeople.dk;mz@rackpeople.dk";
+                //string recipients = "mz@rackpeople.dk;zivic.milan@gmail.com";
                 try
                 {
                     if (sendemail == true)
                     {
-                        this.SendResultEmail(result, recipients);
+                        if (bNewInvoicesExists == true)
+                        {
+                            this.SendResultEmail(resultnew, recipients);
+                        }
                     }
                 }
                 catch (Exception)

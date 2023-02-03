@@ -8,7 +8,11 @@
 
 <h2>Didww Calls Invoicer</h2>
 
-@using (Html.BeginForm("ViewDidww", "Didww", FormMethod.Post, new { enctype = "multipart/form-data" }))
+<div id="loadinggif" style="position: absolute; display: none; left: 50%; margin-left: -250px; width: 500px; ">
+    <img id="loading-image" style="width: 500px;" src="~/Content/Ajax_loader_metal_512.gif" alt="Loading..." />
+</div>
+
+@using (Html.BeginForm("ViewDidww", "Didww", FormMethod.Post, new { enctype = "multipart/form-data", onsubmit = "document.body.scrollTop = 0; document.documentElement.scrollTop = 0; document.getElementById('loadinggif').style.display = 'block';" }))
 {
 
     <table class="table" id="tblDids">
@@ -169,5 +173,14 @@
         }
     }
 }
+
+<script>
+    window.onload = function (e) {
+        document.getElementById("loadinggif").style.display = "none";
+        const scrollingElement = (document.scrollingElement || document.body);
+        scrollingElement.scrollTop = scrollingElement.scrollHeight;
+    }
+</script>
+
 
 

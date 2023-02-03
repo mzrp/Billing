@@ -169,6 +169,7 @@
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </Content>
     <Content Include="TimeLogImportDF.aspx" />
+    <Content Include="UserIdentity.aspx" />
     <Content Include="Web References\MachPanelWebService\ActiveDirectoryUser.datasource">
       <DependentUpon>Reference.map</DependentUpon>
     </Content>
@@ -528,6 +529,13 @@
     </Compile>
     <Compile Include="TimeLogImportDF.aspx.designer.cs">
       <DependentUpon>TimeLogImportDF.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserIdentity.aspx.cs">
+      <DependentUpon>UserIdentity.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserIdentity.aspx.designer.cs">
+      <DependentUpon>UserIdentity.aspx</DependentUpon>
     </Compile>
     <Compile Include="Web References\MachPanelWebService\Reference.cs">
       <AutoGen>True</AutoGen>

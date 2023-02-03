@@ -235,6 +235,33 @@ namespace RPNAVConnect
                                     {
                                         ex.ToString();
                                     }
+
+                                    try
+                                    {
+                                        System.Web.HttpContext.Current.Session.Add("UserDisplayName", sDisplayName);
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        ex.ToString();
+                                    }
+
+                                    try
+                                    {
+                                        System.Web.HttpContext.Current.Session.Add("UserAuthToken", sAuthToken);
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        ex.ToString();
+                                    }
+
+                                    try
+                                    {
+                                        System.Web.HttpContext.Current.Session.Add("UserExpirationDateTime", sExpirationDateTime);
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        ex.ToString();
+                                    }
                                 }
                             }
 

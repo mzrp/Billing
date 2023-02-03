@@ -3,8 +3,8 @@
 @{
     ViewBag.Title = "InvoiceFiles";
 
-    string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=DESKTOP-UTFJPDF\\SQLEXPRESS;Integrated Security=SSPI;";
-    //string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=mssql01;Integrated Security=SSPI;";
+    //string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=DESKTOP-UTFJPDF\\SQLEXPRESS;Integrated Security=SSPI;";
+    string dbPath = "Provider=SQLOLEDB;Initial Catalog=TeleBillingDB;Data Source=mssql01;Integrated Security=SSPI;";
     System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
     dbConn.Open();
 
@@ -66,6 +66,11 @@
 
 @*@if (Model != null)
     {*@
+
+<div id="loadinggif" style="position: absolute; display: none; left: 50%; margin-left: -250px; width: 500px; ">
+    <img id="loading-image" style="width: 500px;" src="~/Content/Ajax_loader_metal_512.gif" alt="Loading..." />
+</div>
+
 <table class="table">
     <tr>
         <th>
@@ -137,22 +142,22 @@
 
                 @if (bItemRPBilledNo == true)
                 {
-                    <a href="@Url.Action("BillCsvFile", "File", new { fileId = item.Id })" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-export "></i> Fakturere</a>
+                    <a OnClick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0; document.getElementById('loadinggif').style.display = 'block';" href="@Url.Action("BillCsvFile", "File", new { fileId = item.Id })" class="btn btn-warning btn-sm"><i class="glyphicon glyphicon-export "></i> Fakturere</a>
                 }
 
                 @if (bItemRPBilledNo == true)
                 {
-                    <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFile" })" class="btn btn-warning btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                    <a OnClick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0; document.getElementById('loadinggif').style.display = 'block';" href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFile" })" class="btn btn-warning btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
                 }
 
                 @if (bItemRPBilledYes == true)
                 {
-                    <a href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFileAlreadyDone" })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
+                    <a OnClick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0; document.getElementById('loadinggif').style.display = 'block';" href="@Url.Action("ViewFilesDetails", "File", new { fileId = item.Id, fileName = item.Name, fileDate = item.Date, fileSupplierName = item.Supplier.Name, fileType = "InvoiceFileAlreadyDone" })" class="btn btn-info btn-sm">Details <i class="glyphicon glyphicon-eye-close "></i></a>
                 }
 
                 @if (bItemRPBilledNo == true)
                 {
-                    <a href="@Url.Action("DeleteCsvFile", "File", new { fileId = item.Id, fileType = "InvoiceFile" })" class="btn btn-danger btn-sm">Delete <i class="glyphicon glyphicon-trash"></i></a>
+                    <a OnClick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0; document.getElementById('loadinggif').style.display = 'block';" href="@Url.Action("DeleteCsvFile", "File", new { fileId = item.Id, fileType = "InvoiceFile" })" class="btn btn-danger btn-sm">Delete <i class="glyphicon glyphicon-trash"></i></a>
                 }
 
                 @*@Html.ActionLink("Fakturere", "BillCsvFile", new { fileId = item.Id })
@@ -185,4 +190,10 @@
         </script>
     }
 
-
+<script>
+    window.onload = function (e) {
+        document.getElementById("loadinggif").style.display = "none";
+        const scrollingElement = (document.scrollingElement || document.body);
+        scrollingElement.scrollTop = scrollingElement.scrollHeight;
+    }
+</script>

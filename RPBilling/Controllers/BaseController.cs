@@ -5,6 +5,8 @@ using System.Web;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.IO;
+using System.Threading;
 
 namespace RackPeople.BillingAPI.Controllers
 {
@@ -38,15 +40,41 @@ namespace RackPeople.BillingAPI.Controllers
         /// <param name="format"></param>
         /// <param name="args"></param>
         protected void Audit(Models.BillingEntities db, Models.Auditable record, string format, params object[] args) {
-            String userName = this.User.Identity.Name;
-            if (String.IsNullOrEmpty(userName)) {
-                userName = "Guest";
+
+            String userName = "";
+
+            try
+            {
+                //userName = this.User.Identity.Name;
+
+                WebClient webclient = new WebClient();
+                //webclient.Credentials = new NetworkCredential("navhub@gowingu.net", "128Kisdn");
+                Stream myStream = webclient.OpenRead(@"https://billing.gowingu.net/UserIdentity.aspx");
+                StreamReader sr = new StreamReader(myStream);
+                string sUserIdentity = sr.ReadToEnd();
+                myStream.Close();
+
+                // f43f4edb-7436-4561-89a0-d08c543767c0#$#Milan Zivic#$#<token>#$#2023-02-02 13:40:28
+                string[] sUserIdentityArray = sUserIdentity.Split(new string[] { "#$#" }, StringSplitOptions.None);
+                userName = sUserIdentityArray[1];
+
+            }
+            catch(Exception ex)
+            {
+                ex.ToString();
+                userName = "";
+            }
+
+            string sDesc = format;
+            if (userName == "")
+            {
+                sDesc = char.ToUpper(format[0]) + format.Substring(1);
             }
 
             var audit = new Models.Audit();
             audit.ObjectId = record.AuditRecordId;
             audit.ObjectType = record.AuditRecordType;
-            audit.Description = String.Format(String.Format("{0} {1}", userName, format), args); ;
+            audit.Description = String.Format(String.Format("{0} {1}", userName, sDesc), args); ;
             audit.Created = DateTime.Now;
             db.Audits.Add(audit);
         }
