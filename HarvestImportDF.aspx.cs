@@ -430,8 +430,8 @@ namespace RPNAVConnect
                                                 {
                                                     try
                                                     {
-                                                        sKind1 = sResultInvoiceLine.kind.Substring(0, sResultInvoiceLine.kind.IndexOf('-'));
-                                                        sKind2 = sResultInvoiceLine.kind.Substring(sResultInvoiceLine.kind.IndexOf('-') + 1);
+                                                        sKind1 = sResultInvoiceLine.kind.Substring(0, sResultInvoiceLine.kind.IndexOf('-')).Trim();
+                                                        sKind2 = sResultInvoiceLine.kind.Substring(sResultInvoiceLine.kind.IndexOf('-') + 1).Trim();
                                                     }
                                                     catch (Exception ex)
                                                     {
@@ -1102,34 +1102,135 @@ namespace RPNAVConnect
                                                             string sKind2 = sResultInvoiceLine.kind;
                                                             if (sResultInvoiceLine.kind != "")
                                                             {
-                                                                sKind1 = sResultInvoiceLine.kind.Substring(0, sResultInvoiceLine.kind.IndexOf('-'));
-                                                                sKind2 = sResultInvoiceLine.kind.Substring(sResultInvoiceLine.kind.IndexOf('-') + 1);
+                                                                sKind1 = sResultInvoiceLine.kind.Substring(0, sResultInvoiceLine.kind.IndexOf('-')).Trim();
+                                                                sKind2 = sResultInvoiceLine.kind.Substring(sResultInvoiceLine.kind.IndexOf('-') + 1).Trim();
                                                             }
 
                                                             string sProductNo = "";
                                                             try
                                                             {
                                                                 sProductNo = sKind1.ToLower();
+
+                                                                if (sProductNo == "1010.000")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1010.000"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1010.000");
+                                                                }
+
+                                                                if (sProductNo == "1010.005")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1010.005"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1010.005");
+                                                                }
+
+                                                                if (sProductNo == "1010.010")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1010.010"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1010.010");
+                                                                }
+
+                                                                if (sProductNo == "1010.015")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1010.015"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1010.015");
+                                                                }
+
+                                                                if (sProductNo == "1010.020")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1010.020"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1010.020");
+                                                                }
+
+                                                                if (sProductNo == "1010.025")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1010.025"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1010.025");
+                                                                }
+
+                                                                if (sProductNo == "1030.000")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.000"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.000");
+                                                                }
+
+                                                                if (sProductNo == "1030.005")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.005"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.005");
+                                                                }
+
+                                                                if (sProductNo == "1030.020")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.020"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.020");
+                                                                }
+
+                                                                if (sProductNo == "1030.025")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.025"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.025");
+                                                                }
+
+                                                                if (sProductNo == "1030.030")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.030"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.030");
+                                                                }
+
+                                                                if (sProductNo == "1030.035")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.035"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.035");
+                                                                }
+
+                                                                if (sProductNo == "1030.040")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.040"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.040");
+                                                                }
+
+                                                                if (sProductNo == "1030.045")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1030.045"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1030.045");
+                                                                }
+
                                                                 if (sProductNo == "1040.000")
                                                                 {
                                                                     invoiceLine.lineObjectNumber = "1040.000"; // 150
                                                                     invoiceLine.itemId = GetItemId("1040.000");
                                                                 }
+
+                                                                if (sProductNo == "1050.000")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1050.000"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1050.000");
+                                                                }
+
+                                                                if (sProductNo == "1050.005")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1050.005"; // 150
+                                                                    invoiceLine.itemId = GetItemId("1050.005");
+                                                                }
+
                                                                 if (sProductNo == "1050.030")
                                                                 {
                                                                     invoiceLine.lineObjectNumber = "1050.030"; // 600
                                                                     invoiceLine.itemId = GetItemId("1050.030");
                                                                 }
+
+                                                                if (sProductNo == "1050.035")
+                                                                {
+                                                                    invoiceLine.lineObjectNumber = "1050.035"; // 600
+                                                                    invoiceLine.itemId = GetItemId("1050.035");
+                                                                }
+
                                                                 if (sProductNo == "1050.040")
                                                                 {
                                                                     invoiceLine.lineObjectNumber = "1050.040"; // 605
                                                                     invoiceLine.itemId = GetItemId("1050.040");
                                                                 }
-                                                                if (sProductNo == "1050.035")
-                                                                {
-                                                                    invoiceLine.lineObjectNumber = "1050.035"; // 610
-                                                                    invoiceLine.itemId = GetItemId("1050.035");
-                                                                }
+
                                                             }
                                                             catch (Exception ex)
                                                             {

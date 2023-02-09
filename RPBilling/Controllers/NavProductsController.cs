@@ -33,10 +33,10 @@ namespace RackPeople.BillingAPI.Controllers
         public string itemCategoryCode { get; set; }
         public bool blocked { get; set; }
         public string gtin { get; set; }
-        public int inventory { get; set; }
+        public double inventory { get; set; }
         public int unitPrice { get; set; }
         public bool priceIncludesTax { get; set; }
-        public int unitCost { get; set; }
+        public double unitCost { get; set; }
         public string taxGroupId { get; set; }
         public string taxGroupCode { get; set; }
         public string baseUnitOfMeasureId { get; set; }
@@ -46,6 +46,7 @@ namespace RackPeople.BillingAPI.Controllers
         public string inventoryPostingGroupId { get; set; }
         public string inventoryPostingGroupCode { get; set; }
         public DateTime lastModifiedDateTime { get; set; }
+
     }
     public class NavProductsController : BaseController
     {
@@ -120,7 +121,7 @@ namespace RackPeople.BillingAPI.Controllers
                     {
                         entity.Number = p.number.Replace(".", "");
                         entity.Name = p.displayName;
-                        entity.UnitPrice = p.unitCost;
+                        entity.UnitPrice = (decimal)p.unitCost;
                         entity.UnitType = p.baseUnitOfMeasureCode;
                         entities.Add(entity);
                     }
@@ -160,15 +161,15 @@ namespace RackPeople.BillingAPI.Controllers
                             if (subproduct.NavProductNumber == p.number)
                             {
                                 bProductFound = true;
-                                if (subproduct.NavPrice != p.unitCost)
+                                if (subproduct.NavPrice != (decimal)p.unitCost)
                                 {
                                     decimal oldPrice = subproduct.NavPrice;
                                     var src = subscription.Products.First(pid => pid.Id == subproduct.Id);
-                                    src.NavPrice = p.unitCost;
+                                    src.NavPrice = (decimal)p.unitCost;
 
                                     if (src.UnitPrice == oldPrice)
                                     {
-                                        src.UnitPrice = p.unitCost;
+                                        src.UnitPrice = (decimal)p.unitCost;
                                     }
 
                                     db.Entry(src).State = System.Data.Entity.EntityState.Modified;

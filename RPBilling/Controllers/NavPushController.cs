@@ -324,7 +324,7 @@ namespace RackPeople.BillingAPI.Controllers
             return result.ToArray();
         } 
 
-        protected void SendResultEmail(List<string> result, string recipients) {
+        protected void SendResultEmail(List<string> result, string recipients, string sEmailMessageToday, string sEmailMessagePassed, string sEmailMessageUrgent) {
             // If there aren't any lines in the result array, we assume 
             // nothing has been submitted.
             if (result.Count == 0) {
@@ -344,7 +344,7 @@ namespace RackPeople.BillingAPI.Controllers
 
             msg.Subject = "New invoices are pending in RPBilling";
             msg.IsBodyHtml = true;
-            msg.Body = String.Join("<br />", result);
+            msg.Body = sEmailMessageToday + sEmailMessagePassed + sEmailMessageUrgent + String.Join("<br />", result);
 
             // Send the message through RP relay
             SmtpClient client = new SmtpClient("relay.rackpeople.com", 25);
@@ -835,6 +835,10 @@ namespace RackPeople.BillingAPI.Controllers
             // Get a copy of all active subscription
             var subscriptions = db.Subscriptions.Include("Products").Where(x => x.Deleted == null);
             bool bNewInvoicesExists = false;
+            bool bSendEmailNow = false;
+            string sEmailMessageToday = "";
+            string sEmailMessagePassed = "";
+            string sEmailMessageUrgent = "";
 
             // Build up a result list
             var result = new List<String>();
@@ -845,6 +849,7 @@ namespace RackPeople.BillingAPI.Controllers
             }
 
             result.Add("               BCName,BCNo,Id,Description,FirstInvoice,BillingPeriod,InvoiceDate,NextInvoice,BillingCycle");
+
 
             foreach (var s in subscriptions) {
 
@@ -922,7 +927,29 @@ namespace RackPeople.BillingAPI.Controllers
                         s.BillingCycle
                     ));
 
+                    // should I send email?
                     bNewInvoicesExists = true;
+                    TimeSpan ts = DateTime.Now.Subtract(s.NextInvoice);
+                    if (ts.TotalDays == 0)
+                    {
+                        bSendEmailNow = true;
+                        sEmailMessageToday = "Invoices exist that are due to invoicing today.<br />";
+                    }
+
+                    if (DateTime.Now.Day > s.NextInvoice.Day)
+                    {
+                        int iDaysPasssed = DateTime.Now.Day - s.NextInvoice.Day;
+                        if (iDaysPasssed % 3 == 0)
+                        {
+                            bSendEmailNow = true;
+                            sEmailMessagePassed = "Invoices exist that were due to invocing in past 12 days.<br />";
+                        }
+                        if (iDaysPasssed >= 12)
+                        {
+                            bSendEmailNow = true;
+                            sEmailMessageUrgent = "Invoices exist that were due to invocing 12+ days ago. URGENT ACTION REQUIRED.<br />";
+                        }
+                    }
                 }
 
                 // save next invoice date
@@ -948,8 +975,14 @@ namespace RackPeople.BillingAPI.Controllers
                 
             }
 
+            result.Add("");
+            result.Add(sEmailMessageToday.Replace("<br />", ""));
+            result.Add(sEmailMessagePassed.Replace("<br />", ""));
+            result.Add(sEmailMessageUrgent.Replace("<br />", ""));
+
             // Save changes made to the database
-            try {
+            try
+            {
                 if (!dryRun)
                 {
                     db.SaveChanges();
@@ -965,7 +998,7 @@ namespace RackPeople.BillingAPI.Controllers
             // Send the result email
             if (dryRun)
             {
-                string recipients = "finance@rackpeople.com;bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk;ltp@rackpeople.dk;mz@rackpeople.dk";
+                string recipients = "finance@rackpeople.com;mz@rackpeople.dk";
                 //string recipients = "mz@rackpeople.dk;zivic.milan@gmail.com";
                 try
                 {
@@ -973,7 +1006,10 @@ namespace RackPeople.BillingAPI.Controllers
                     {
                         if (bNewInvoicesExists == true)
                         {
-                            this.SendResultEmail(resultnew, recipients);
+                            if (bSendEmailNow == true)
+                            {
+                                this.SendResultEmail(resultnew, recipients, sEmailMessageToday, sEmailMessagePassed, sEmailMessageUrgent);
+                            }
                         }
                     }
                 }
