@@ -277,6 +277,8 @@ namespace TeleBilling_v02_.Controllers
                                             sChargeLine = matchingvalues.First();
                                             string[] sChargeLineArray = sChargeLine.Split(',');
 
+                                            sDestinationNetwork = sChargeLineArray[0] + "-" + sChargeLineArray[1];
+
                                             //string sDuration = parts[5].Replace("\"", "");
                                             string sDuration = parts[7].Replace("\"", "");
 

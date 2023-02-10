@@ -95,6 +95,11 @@ namespace RackPeople.BillingAPI.Controllers
             // Add each of the new products
             foreach(var product in subscription.Products.Where(p => p.Id == 0)) {
                 product.NavProductNumber = product.NavProductNumber.Substring(0,4) + "." + product.NavProductNumber.Substring(4);
+                if (product.UnitType.Length == 7)
+                {
+                    // 1010010 -> 1010.010
+                    product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                }
                 org.Products.Add(product);
                 this.Audit(db, org, "added product '{0}: {1}'.", product.NavProductNumber, product.Description);
             }
@@ -116,6 +121,13 @@ namespace RackPeople.BillingAPI.Controllers
                 src.NavPrice = product.NavPrice;
                 src.NavProductNumber = product.NavProductNumber;
                 src.UnitAmount = product.UnitAmount;
+
+                if (product.UnitType.Length == 7)
+                {
+                    // 1010010 -> 1010.010
+                    product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                }
+
                 src.UnitPrice = product.UnitPrice;
                 src.UnitType = product.UnitType;
                 db.Entry(src).State = EntityState.Modified;

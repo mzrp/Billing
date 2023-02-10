@@ -975,10 +975,13 @@ namespace RackPeople.BillingAPI.Controllers
                 
             }
 
-            result.Add("");
-            result.Add(sEmailMessageToday.Replace("<br />", ""));
-            result.Add(sEmailMessagePassed.Replace("<br />", ""));
-            result.Add(sEmailMessageUrgent.Replace("<br />", ""));
+            if (dryRun)
+            {
+                result.Add("");
+                result.Add(sEmailMessageToday.Replace("<br />", ""));
+                result.Add(sEmailMessagePassed.Replace("<br />", ""));
+                result.Add(sEmailMessageUrgent.Replace("<br />", ""));
+            }
 
             // Save changes made to the database
             try

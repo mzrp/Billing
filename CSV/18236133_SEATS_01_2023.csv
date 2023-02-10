@@ -1,0 +1,8 @@
+Customer,CustomerNo,Description,Quantity,Unit Price
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Enterprise Mobility + Security E3 - cycleCharge  1/28/2023-2/27/2023  January   ,41.00,2590.18
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Exchange Online (Plan 1) - cycleCharge  1/28/2023-2/27/2023  January   ,4.00,95.75
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - addQuantity  1/13/2023-1/27/2023  January   ,42.00,2828.18
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - removeQuantity  1/13/2023-1/27/2023  January   ,41.00,2760.84
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - cycleCharge  1/28/2023-2/27/2023  January   ,41.00,5706.18
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - removeQuantity  1/13/2023-1/27/2023  January   ,42.00,-2828.18
+Bendix Transport,18236133,Microsoft 365 New Commerce Promotional Offer Annual - Office 365 E3 - addQuantity  1/13/2023-1/27/2023  January   ,41.00,-2760.84
