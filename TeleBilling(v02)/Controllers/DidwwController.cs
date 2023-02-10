@@ -872,7 +872,7 @@ namespace TeleBilling_v02_.Controllers
             }
 
             List<DidwwDisplay> alldids = new List<DidwwDisplay>();
-            string API_KEY = "m5wv5bhvsagpqwwctgzkjef6oojsd1c5";
+            string API_KEY = "SOME_KEY";
 
             var webRequestDIDS = WebRequest.Create("https://api.didww.com/v3/dids") as HttpWebRequest;
             if (webRequestDIDS != null)
