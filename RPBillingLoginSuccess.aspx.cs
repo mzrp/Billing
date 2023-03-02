@@ -166,6 +166,74 @@ namespace RPNAVConnect
                 ex.ToString();
             }
             SubscriptionsDueL.Text += "</table>";
+
+            // set parent vars
+            string sUserIdCache = "n/a";
+            try
+            {
+                if (System.Web.HttpContext.Current.Session["UserId"] != null)
+                {
+                    sUserIdCache = System.Web.HttpContext.Current.Session["UserId"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sUserIdCache = "n/a";
+            }
+
+            string sUserDisplayNameCache = "n/a";
+            try
+            {
+                if (System.Web.HttpContext.Current.Session["UserDisplayName"] != null)
+                {
+                    sUserDisplayNameCache = System.Web.HttpContext.Current.Session["UserDisplayName"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sUserDisplayNameCache = "n/a";
+            }
+
+            string sUserExpirationDateTimeCache = "n/a";
+            try
+            {
+                if (System.Web.HttpContext.Current.Session["UserExpirationDateTime"] != null)
+                {
+                    sUserExpirationDateTimeCache = System.Web.HttpContext.Current.Session["UserExpirationDateTime"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sUserExpirationDateTimeCache = "n/a";
+            }
+
+            string sUserAuthTokenCache = "n/a";
+            try
+            {
+                if (System.Web.HttpContext.Current.Session["UserAuthToken"] != null)
+                {
+                    sUserAuthTokenCache = System.Web.HttpContext.Current.Session["UserAuthToken"].ToString();
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sUserAuthTokenCache = "n/a";
+            }
+
+            // set parent vars
+            string sJavaScriptToRun = "";
+            sJavaScriptToRun += "parent.document.getElementById('userid').value = '" + sUserIdCache + "'; ";
+            sJavaScriptToRun += "parent.document.getElementById('username').value = '" + sUserDisplayNameCache + "'; ";
+            sJavaScriptToRun += "parent.document.getElementById('usertoken').value = '" + sUserAuthTokenCache + "'; ";
+            sJavaScriptToRun += "parent.document.getElementById('userdate').value = '" + sUserExpirationDateTimeCache + "'; ";
+
+            //sJavaScriptToRun += "alert(parent.document.getElementById('username').value); ";
+
+            lastscriptdiv.InnerHtml = "<script>" + sJavaScriptToRun + "</script>";
         }
 
         protected void GetTokenBtn_Click(object sender, EventArgs e)

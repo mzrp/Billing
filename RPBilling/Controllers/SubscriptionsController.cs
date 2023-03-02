@@ -74,7 +74,8 @@ namespace RackPeople.BillingAPI.Controllers
 
         // PUT: api/Subscriptions/5
         [ResponseType(typeof(void))]
-        public IHttpActionResult PutSubscription(int id, Subscription subscription) {
+        public IHttpActionResult PutSubscription(int id, Subscription subscription, string username = "n/a") {
+            
             if (!ModelState.IsValid) {
                 return BadRequest(ModelState);
             }
@@ -84,87 +85,121 @@ namespace RackPeople.BillingAPI.Controllers
             }
 
             // log save button
-            this.Audit(db, subscription, "saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
+            this.Audit(db, subscription, username + " saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
 
             // Find the original entry, and ensure only a few fields can be changed
             var org = db.Subscriptions.FirstOrDefault(e => e.Id == subscription.Id);
-            if (org == null) {
+            if (org == null)
+            {
                 return NotFound();
             }
 
-            // Add each of the new products
-            foreach(var product in subscription.Products.Where(p => p.Id == 0)) {
-                product.NavProductNumber = product.NavProductNumber.Substring(0,4) + "." + product.NavProductNumber.Substring(4);
-                if (product.UnitType.Length == 7)
+            string sResult = "";
+            sResult += "0";
+
+            try
+            {
+
+                sResult += "1";
+
+                // Add each of the new products
+                foreach (var product in subscription.Products.Where(p => p.Id == 0))
                 {
-                    // 1010010 -> 1010.010
-                    product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                    product.NavProductNumber = product.NavProductNumber.Substring(0, 4) + "." + product.NavProductNumber.Substring(4);
+                    if (product.UnitType.Length == 7)
+                    {
+                        // 1010010 -> 1010.010
+                        product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                    }
+                    org.Products.Add(product);
+                    this.Audit(db, org, username + " added product '{0}: {1}'.", product.NavProductNumber, product.Description);
                 }
-                org.Products.Add(product);
-                this.Audit(db, org, "added product '{0}: {1}'.", product.NavProductNumber, product.Description);
-            }
-            db.SaveChanges();
+                db.SaveChanges();
 
-            // Delete products no longer wanted
-            var ids = subscription.Products.Select(e => e.Id);
-            var obsolete = org.Products.Where(p => !ids.Contains(p.Id)).ToArray();
-            foreach(var product in obsolete) {
-                db.Products.Remove(product);
-                this.Audit(db, org, "removed product '{0}: {1}'.", product.NavProductNumber, product.Description);
-            }
-            db.SaveChanges();
+                sResult += "2";
 
-            // Update modified projects
-            foreach (var product in subscription.Products.Where(p => p.Id != 0)) {
-                var src = org.Products.First(p => p.Id == product.Id);
-                src.Description = product.Description;
-                src.NavPrice = product.NavPrice;
-                src.NavProductNumber = product.NavProductNumber;
-                src.UnitAmount = product.UnitAmount;
-
-                if (product.UnitType.Length == 7)
+                // Delete products no longer wanted
+                var ids = subscription.Products.Select(e => e.Id);
+                var obsolete = org.Products.Where(p => !ids.Contains(p.Id)).ToArray();
+                foreach (var product in obsolete)
                 {
-                    // 1010010 -> 1010.010
-                    product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                    db.Products.Remove(product);
+                    this.Audit(db, org, username + " removed product '{0}: {1}'.", product.NavProductNumber, product.Description);
+                }
+                db.SaveChanges();
+
+                sResult += "3";
+
+                // Update modified projects
+                foreach (var product in subscription.Products.Where(p => p.Id != 0))
+                {
+                    var src = org.Products.First(p => p.Id == product.Id);
+                    src.Description = product.Description;
+                    src.NavPrice = product.NavPrice;
+                    src.NavProductNumber = product.NavProductNumber;
+                    src.UnitAmount = product.UnitAmount;
+
+                    if (product.UnitType.Length == 7)
+                    {
+                        // 1010010 -> 1010.010
+                        product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                    }
+
+                    src.UnitPrice = product.UnitPrice;
+                    src.UnitType = product.UnitType;
+                    db.Entry(src).State = EntityState.Modified;
+                }
+                db.SaveChanges();
+
+                sResult += "4";
+
+                // Save the changes made to the subscription, and detach 
+                // it from the data context.
+                db.Entry(org).State = EntityState.Modified;
+                if (subscription.NavCustomerName != org.NavCustomerName)
+                {
+                    this.Audit(db, subscription, username + " changed customer from '{0}' to '{1}'.", org.NavCustomerName, subscription.NavCustomerName);
+                }
+                if (subscription.BillingCycle != org.BillingCycle)
+                {
+                    this.Audit(db, subscription, username + " changed billing cycle from '{0}' to '{1}'.", org.BillingCycle, subscription.BillingCycle);
                 }
 
-                src.UnitPrice = product.UnitPrice;
-                src.UnitType = product.UnitType;
-                db.Entry(src).State = EntityState.Modified;
+                if (subscription.PaymentTerms != org.PaymentTerms)
+                {
+                    this.Audit(db, subscription, username + " changed payment terms from '{0}' to '{1}'.", org.PaymentTerms, subscription.PaymentTerms);
+                }
+
+                if (subscription.Description != org.Description)
+                {
+                    this.Audit(db, subscription, username + " changed description terms from '{0}' to '{1}'.", org.Description, subscription.Description);
+                }
+
+                sResult += "5";
+
+                org.NavCustomerName = subscription.NavCustomerName;
+                org.NavCustomerId = subscription.NavCustomerId;
+                org.BillingCycle = subscription.BillingCycle;
+                org.FirstInvoice = subscription.FirstInvoice;
+                org.NextInvoice = subscription.NextInvoice;
+                org.PaymentTerms = subscription.PaymentTerms;
+                org.Description = subscription.Description;
+                org.AdditionalText = subscription.AdditionalText;
+                org.AdditionalRPText = subscription.AdditionalRPText;
+
+                db.SaveChanges();
+
+                sResult += "6";
+
+                // log save button
+                this.Audit(db, subscription, username + " saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
+
+                sResult += "7";
             }
-            db.SaveChanges();
-
-            // Save the changes made to the subscription, and detach 
-            // it from the data context.
-            db.Entry(org).State = EntityState.Modified;
-            if (subscription.NavCustomerName != org.NavCustomerName) {
-                this.Audit(db, subscription, "changed customer from '{0}' to '{1}'.", org.NavCustomerName, subscription.NavCustomerName);
+            catch (Exception ex)
+            {
+                sResult += ex.Message.ToString();
             }
-            if (subscription.BillingCycle != org.BillingCycle) {
-                this.Audit(db, subscription, "changed billing cycle from '{0}' to '{1}'.", org.BillingCycle, subscription.BillingCycle);
-            }
-
-            if (subscription.PaymentTerms != org.PaymentTerms) {
-                this.Audit(db, subscription, "changed payment terms from '{0}' to '{1}'.", org.PaymentTerms, subscription.PaymentTerms);
-            }
-
-            if (subscription.Description != org.Description) {
-                this.Audit(db, subscription, "changed description terms from '{0}' to '{1}'.", org.Description, subscription.Description);
-            }
-
-            org.NavCustomerName = subscription.NavCustomerName;
-            org.NavCustomerId = subscription.NavCustomerId; 
-            org.BillingCycle = subscription.BillingCycle;
-            org.FirstInvoice = subscription.FirstInvoice;
-            org.NextInvoice = subscription.NextInvoice;
-            org.PaymentTerms = subscription.PaymentTerms;
-            org.Description = subscription.Description;
-            org.AdditionalText = subscription.AdditionalText;
-
-            db.SaveChanges();
-
-            // log save button
-            this.Audit(db, subscription, "saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
 
             // Serve the changed subscription 
             db.Entry(org).Reload();

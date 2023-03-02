@@ -43,12 +43,12 @@ namespace RackPeople.BillingAPI.Controllers
 
             String userName = "";
 
+            /*
             try
             {
                 //userName = this.User.Identity.Name;
 
                 WebClient webclient = new WebClient();
-                //webclient.Credentials = new NetworkCredential("navhub@gowingu.net", "128Kisdn");
                 Stream myStream = webclient.OpenRead(@"https://billing.gowingu.net/UserIdentity.aspx");
                 StreamReader sr = new StreamReader(myStream);
                 string sUserIdentity = sr.ReadToEnd();
@@ -70,6 +70,9 @@ namespace RackPeople.BillingAPI.Controllers
             {
                 sDesc = char.ToUpper(format[0]) + format.Substring(1);
             }
+            */
+
+            string sDesc = format;
 
             var audit = new Models.Audit();
             audit.ObjectId = record.AuditRecordId;

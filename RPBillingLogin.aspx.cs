@@ -20,6 +20,7 @@ using Newtonsoft.Json;
 
 using System.Security.Cryptography.X509Certificates;
 using System.Net.Security;
+using System.Security.Cryptography;
 
 namespace RPNAVConnect
 {
@@ -39,6 +40,9 @@ namespace RPNAVConnect
             string sGraphAuthToken = "n/a";
             string sGraphTokenType = "n/a";
             long lGraphExpiresIn = -1;
+
+            string sDisplayName = "n/a";
+            string sId = "n/a";
 
             string sMSCode = "n/a";
             try
@@ -216,8 +220,8 @@ namespace RPNAVConnect
                                     var sExport = JsonConvert.DeserializeObject<GraphUserMe>(sExportAsJson);
 
                                     string sMail = sExport.mail;
-                                    string sDisplayName = sExport.displayName;
-                                    string sId = sExport.id;
+                                    sDisplayName = sExport.displayName;
+                                    sId = sExport.id;
 
                                     string sSql = "INSERT INTO [RPNAVConnect].[dbo].[BCLoginLog] ([Token], [TokenType], [TokenExpiresIn], [TokenExpiresAt], [TokeRefresh], [UserName], [UserMail], [UserId]) ";
                                     sSql += "VALUES ('" + sAuthToken + "', '" + sTokenType + "', " + lExpiresIn.ToString() + ", '" + sExpirationDateTime + "', '" + sRefreshToken + "', '" + sDisplayName + "', '" + sMail + "', '" + sId + "')";

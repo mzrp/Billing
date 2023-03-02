@@ -579,7 +579,7 @@
         }
 
         function a(t) {
-            var e = (0, x["default"])(t, ["id", "description", "products", "billingCycle", "auditHistory", "nextInvoice", "nextPeriod", "firstInvoice", "paymentTerms", "navCustomerId", "navCustomerName", "additionalText"]);
+            var e = (0, x["default"])(t, ["id", "description", "products", "billingCycle", "auditHistory", "nextInvoice", "nextPeriod", "firstInvoice", "paymentTerms", "navCustomerId", "navCustomerName", "additionalText", "additionalRPText"]);
             return (0, k["default"])(e, function(t, o) {
                 "string" == typeof t && (e[o] = t.trim())
             }), e.firstInvoice ? e.firstInvoice = (0, O["default"])(t.firstInvoice.substring(0, 19)) : e.firstInvoice = (0, O["default"])(), e.nextInvoice ? e.nextInvoice = (0, O["default"])(t.nextInvoice.substring(0, 19)) : e.nextInvoice = (0, O["default"])(), e
@@ -605,10 +605,11 @@
         }
 
         function l(t, e) {
-            return function(o) {
+            return function (o) {
+                var vUserName = document.getElementById("username").value;
                 o({
                     type: h["default"].HOSTING_SUBSCRIPTION_PERSIST
-                }), E["default"].put(h["default"].API_HOST + "/api/subscriptions/" + t, e).then(function(t) {
+                }), E["default"].put(h["default"].API_HOST + "/api/subscriptions/" + t + "?username=" + vUserName, e).then(function(t) {
                     o({
                         type: h["default"].HOSTING_SUBSCRIPTION_PERSIST_SUCCESS,
                         subscription: a(t.data)
@@ -618,10 +619,11 @@
         }
 
         function s(t) {
-            return function(e) {
+            return function (e) {
+                var vUserName = document.getElementById("username").value;
                 e({
                     type: h["default"].HOSTING_SUBSCRIPTION_CANCEL
-                }), E["default"]["delete"](h["default"].API_HOST + "/api/subscriptions/" + t).then(function() {
+                }), E["default"]["delete"](h["default"].API_HOST + "/api/subscriptions/" + t + "?username=" + vUserName).then(function() {
                     e({
                         type: h["default"].HOSTING_SUBSCRIPTION_CANCEL_SUCCESS,
                         id: t
@@ -672,7 +674,9 @@
         }
 
         function m(t, e) {
-            return E["default"].post(h["default"].API_HOST + "/api/subscriptions/" + t + "/bill/" + e.format("YYYY-MM-DD")).then(function(t) {
+            var vUserName = document.getElementById("username").value;
+            var vUserToken = document.getElementById("usertoken").value;
+            return E["default"].get(h["default"].API_HOST + "/api/subscriptions/bill?id=" + t + "&date=" + e.format("YYYY-MM-DD") + "&username=" + vUserName + "&usertoken=" + vUserToken).then(function(t) {
                 return 200 !== t.status ? Promise.rejected(t.data) : Promise.resolve(t.data)
             })
         }
@@ -1931,7 +1935,25 @@ if (document.getElementById('subinfodiv1')) {
                             column: 7
                         }, t))), p["default"].createElement(R["default"], s({}, t, {
                             products: this.props.products
-                        })), p["default"].createElement(E["default"], {
+                        }))
+
+                            , p["default"].createElement(E["default"], {
+                                title: "Rackpeople Note"
+                            }, p["default"].createElement("div", {
+                                className: "block-content"
+                            }, p["default"].createElement("p", null, p["default"].createElement("textarea", {
+                                className: "form-control",
+                                rows: "3",
+                                name: "additionalRPText",
+                                value: this.props.fields.additionalRPText || "",
+                                onChange: this.handleOnChange
+                            }
+
+                            )), p["default"].createElement("p", null, p["default"].createElement("small", null, "Internal notice"))
+
+                            ))
+
+                            , p["default"].createElement(E["default"], {
                             title: "Additonal Info"
                         }, p["default"].createElement("div", {
                             className: "block-content"
@@ -1941,7 +1963,11 @@ if (document.getElementById('subinfodiv1')) {
                             name: "additionalText",
                             value: this.props.fields.additionalText || "",
                             onChange: this.handleOnChange
-                        })), p["default"].createElement("p", null, p["default"].createElement("small", null, "Appears at the bottom of every invoice")))), p["default"].createElement(A["default"], {
+                        }
+
+                        )), p["default"].createElement("p", null, p["default"].createElement("small", null, "Appears at the bottom of every invoice"))
+
+                        )), p["default"].createElement(A["default"], {
                             disabled: this.props.isPosting,
                             onSubmit: this.props.onSubmit,
                             onReset: this.props.onReset
@@ -2631,7 +2657,7 @@ if (document.getElementById('subinfodiv1')) {
         }
 
         function a(t) {
-            var e = c["default"].pick(t, ["id", "description", "products", "billingCycle", "auditHistory", "firstInvoice", "nextInvoice", "nextPeriod", "paymentTerms", "navCustomerId", "navCustomerName", "additionalText"]);
+            var e = c["default"].pick(t, ["id", "description", "products", "billingCycle", "auditHistory", "firstInvoice", "nextInvoice", "nextPeriod", "paymentTerms", "navCustomerId", "navCustomerName", "additionalText", "additionalRPText"]);
             return c["default"].each(e, function(t, o) {
                 "string" == typeof t && (e[o] = t.trim())
             }), e.firstInvoice = (0, f["default"])(e.firstInvoice), e.nextInvoice = (0, f["default"])(e.nextInvoice), e
@@ -3330,7 +3356,7 @@ if (document.getElementById('subinfodiv1')) {
                         products: s
                     });
                 case l["default"].HOSTING_SUBSCRIPTION_EDIT:
-                    var p = (0, d.Map)((0, c["default"])(e.subscription, ["id", "billingCycle", "description", "firstInvoice", "nextInvoice", "paymentTerms", "navCustomerId", "navCustomerName", "additionalText"])),
+                    var p = (0, d.Map)((0, c["default"])(e.subscription, ["id", "billingCycle", "description", "firstInvoice", "nextInvoice", "paymentTerms", "navCustomerId", "navCustomerName", "additionalText", "additionalRPText"])),
                         u = (0, d.List)(e.subscription.products);
                     return n({}, t, {
                         fields: p,
@@ -3381,7 +3407,8 @@ if (document.getElementById('subinfodiv1')) {
                     nextInvoice: (0, u["default"])(),
                     nextPeriod: (0, u["default"])().add(1, "month"),
                     paymentTerms: 30,
-                    additionalText: ""
+                    additionalText: "",
+                    additionalRPText: ""
                 }),
                 products: (0, d.List)()
             })

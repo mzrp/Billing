@@ -483,29 +483,50 @@ namespace TeleBilling_v02_.Repository.Navision
 
                     // order lines
                     List<PostSalesInvoiceLine> orderlines = new List<PostSalesInvoiceLine>();
-                    PostSalesInvoiceLine orderline = new PostSalesInvoiceLine(); 
+                    bool bPeriodAdded = false;
 
                     foreach (InvoiceLineCollectionModel line in invoice.LineCollections)
                     {
                         // Time period line
-                        orderline.itemId = "";
-                        orderline.lineType = "";
-                        orderline.lineObjectNumber = "";
-                        orderline.description = "Periode " + line.StartDate.ToString("dd/MM/yyyy") + " til " + line.EndDate.ToString("dd/MM/yyyy");
-                        orderline.unitPrice = 0;
-                        orderline.quantity = 0;
+                        if (bPeriodAdded == false)
+                        {
+                            PostSalesInvoiceLine orderlinePeriod = new PostSalesInvoiceLine();
+                            orderlinePeriod.itemId = "";
+                            orderlinePeriod.lineType = "";
+                            orderlinePeriod.lineObjectNumber = "";
 
-                        orderlines.Add(orderline);
+                            DateTime dtMonthStart = new DateTime(line.StartDate.Year, line.StartDate.Month, 1);
+                            DateTime dtMonthEnd = dtMonthStart.AddMonths(1).AddDays(-1);
+
+                            orderlinePeriod.description = "Periode " + dtMonthStart.ToString("dd/MM/yyyy") + " til " + dtMonthEnd.ToString("dd/MM/yyyy");
+                            orderlinePeriod.unitPrice = 0;
+                            orderlinePeriod.quantity = 0;
+
+                            orderlines.Add(orderlinePeriod);
+
+                            // Filler line
+                            PostSalesInvoiceLine fillerLinePerdiod = new PostSalesInvoiceLine();
+                            fillerLinePerdiod.itemId = "";
+                            fillerLinePerdiod.lineType = "";
+                            fillerLinePerdiod.lineObjectNumber = "";
+                            fillerLinePerdiod.description = "   ";
+                            fillerLinePerdiod.unitPrice = 0;
+                            fillerLinePerdiod.quantity = 0;
+                            orderlines.Add(fillerLinePerdiod);
+
+                            bPeriodAdded = true;
+                        }
 
                         // Subscriber range line
-                        orderline.itemId = "";
-                        orderline.lineType = "";
-                        orderline.lineObjectNumber = "";
-                        orderline.description = "Nummerserie " + line.Subscriber_Range_Start + " - " + line.Subscriber_Range_End;
-                        orderline.unitPrice = 0;
-                        orderline.quantity = 0;
+                        PostSalesInvoiceLine orderlineNummerSerie = new PostSalesInvoiceLine();
+                        orderlineNummerSerie.itemId = "";
+                        orderlineNummerSerie.lineType = "";
+                        orderlineNummerSerie.lineObjectNumber = "";
+                        orderlineNummerSerie.description = "Nummerserie " + line.Subscriber_Range_Start + " - " + line.Subscriber_Range_End;
+                        orderlineNummerSerie.unitPrice = 0;
+                        orderlineNummerSerie.quantity = 0;
 
-                        orderlines.Add(orderline);
+                        orderlines.Add(orderlineNummerSerie);
 
                         foreach (AccumulatedModel zoneLines in line.Accumulated)
                         {
@@ -531,7 +552,7 @@ namespace TeleBilling_v02_.Repository.Navision
                             }
                         }
 
-                        //Filler line
+                        // Filler line
                         PostSalesInvoiceLine fillerLine = new PostSalesInvoiceLine();
                         fillerLine.itemId = "";
                         fillerLine.lineType = "";
@@ -727,43 +748,67 @@ namespace TeleBilling_v02_.Repository.Navision
 
                     // order lines
                     List<PostSalesInvoiceLine> orderlines = new List<PostSalesInvoiceLine>();
-                    PostSalesInvoiceLine orderline = new PostSalesInvoiceLine();
+
+                    bool bPeriodAdded = false;
 
                     foreach (InvoiceLineCollectionModel line in invoice.LineCollections)
                     {
                         // Time period line
-                        orderline.itemId = "";
-                        orderline.lineType = "";
-                        orderline.lineObjectNumber = "";
-                        orderline.description = "Periode " + line.StartDate.ToString("dd/MM/yyyy") + " til " + line.EndDate.ToString("dd/MM/yyyy");
-                        orderline.unitPrice = 0;
-                        orderline.quantity = 0;
+                        if (bPeriodAdded == false)
+                        {
+                            PostSalesInvoiceLine orderlinePeriod = new PostSalesInvoiceLine();
+                            orderlinePeriod.itemId = "";
+                            orderlinePeriod.lineType = "";
+                            orderlinePeriod.lineObjectNumber = "";
 
-                        orderlines.Add(orderline);
+                            DateTime dtMonthStart = new DateTime(line.StartDate.Year, line.StartDate.Month, 1);
+                            DateTime dtMonthEnd = dtMonthStart.AddMonths(1).AddDays(-1);
+
+                            orderlinePeriod.description = "Periode " + dtMonthStart.ToString("dd/MM/yyyy") + " til " + dtMonthEnd.ToString("dd/MM/yyyy");
+                            orderlinePeriod.unitPrice = 0;
+                            orderlinePeriod.quantity = 0;
+
+                            orderlines.Add(orderlinePeriod);
+
+                            // Filler line
+                            PostSalesInvoiceLine fillerLinePerdiod = new PostSalesInvoiceLine();
+                            fillerLinePerdiod.itemId = "";
+                            fillerLinePerdiod.lineType = "";
+                            fillerLinePerdiod.lineObjectNumber = "";
+                            fillerLinePerdiod.description = "   ";
+                            fillerLinePerdiod.unitPrice = 0;
+                            fillerLinePerdiod.quantity = 0;
+                            orderlines.Add(fillerLinePerdiod);
+
+                            bPeriodAdded = true;
+                        }
 
                         // Subscriber range line
-                        orderline.itemId = "";
-                        orderline.lineType = "";
-                        orderline.lineObjectNumber = "";
-                        orderline.description = "Nummerserie " + line.Subscriber_Range_Start + " - " + line.Subscriber_Range_End;
-                        orderline.unitPrice = 0;
-                        orderline.quantity = 0;
+                        PostSalesInvoiceLine orderlineNummerSerie = new PostSalesInvoiceLine();
+                        orderlineNummerSerie.itemId = "";
+                        orderlineNummerSerie.lineType = "";
+                        orderlineNummerSerie.lineObjectNumber = "";
+                        orderlineNummerSerie.description = "Nummerserie " + line.Subscriber_Range_Start + " - " + line.Subscriber_Range_End;
+                        orderlineNummerSerie.unitPrice = 0;
+                        orderlineNummerSerie.quantity = 0;
 
-                        orderlines.Add(orderline);
+                        orderlines.Add(orderlineNummerSerie);
 
                         // Agreement description line(s)
                         if (line.Agreement_Description.Length > 0)
                         {
                             if (line.Agreement_Description.Length < 51)
                             {
-                                orderline.itemId = "";
-                                orderline.lineType = "";
-                                orderline.lineObjectNumber = "";
-                                orderline.description = line.Agreement_Description;
-                                orderline.unitPrice = 0;
-                                orderline.quantity = 0;
+                                PostSalesInvoiceLine orderlineNummerAgr = new PostSalesInvoiceLine();
 
-                                orderlines.Add(orderline);
+                                orderlineNummerAgr.itemId = "";
+                                orderlineNummerAgr.lineType = "";
+                                orderlineNummerAgr.lineObjectNumber = "";
+                                orderlineNummerAgr.description = line.Agreement_Description;
+                                orderlineNummerAgr.unitPrice = 0;
+                                orderlineNummerAgr.quantity = 0;
+
+                                orderlines.Add(orderlineNummerAgr);
                             }
                             else
                             {
@@ -775,14 +820,16 @@ namespace TeleBilling_v02_.Repository.Navision
                                     {
                                         break;
                                     }
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = line.Agreement_Description.Substring((intRunTimesAgreementDescription * 50), (((double)intRemainingChars / 50) >= 1 ? 50 : intRemainingChars % 50));
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
 
-                                    orderlines.Add(orderline);
+                                    PostSalesInvoiceLine orderlineNummerAgrLD = new PostSalesInvoiceLine();
+                                    orderlineNummerAgrLD.itemId = "";
+                                    orderlineNummerAgrLD.lineType = "";
+                                    orderlineNummerAgrLD.lineObjectNumber = "";
+                                    orderlineNummerAgrLD.description = line.Agreement_Description.Substring((intRunTimesAgreementDescription * 50), (((double)intRemainingChars / 50) >= 1 ? 50 : intRemainingChars % 50));
+                                    orderlineNummerAgrLD.unitPrice = 0;
+                                    orderlineNummerAgrLD.quantity = 0;
+
+                                    orderlines.Add(orderlineNummerAgrLD);
                                     intRunTimesAgreementDescription++;
                                 }
                             }
@@ -795,34 +842,40 @@ namespace TeleBilling_v02_.Repository.Navision
                                 string strNewDescription = "Ingen minuttakst for " + zoneLines.ZoneName;
                                 if (strNewDescription.Length < 51)
                                 {
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = "Ingen minuttakst for " + zoneLines.ZoneName;
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    PostSalesInvoiceLine orderline1 = new PostSalesInvoiceLine();
 
-                                    orderlines.Add(orderline);
+                                    orderline1.itemId = "";
+                                    orderline1.lineType = "";
+                                    orderline1.lineObjectNumber = "";
+                                    orderline1.description = "Ingen minuttakst for " + zoneLines.ZoneName;
+                                    orderline1.unitPrice = 0;
+                                    orderline1.quantity = 0;
+
+                                    orderlines.Add(orderline1);
                                 }
                                 else
                                 {
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = "Ingen minuttakst for ";
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    PostSalesInvoiceLine orderline2 = new PostSalesInvoiceLine();
 
-                                    orderlines.Add(orderline);
+                                    orderline2.itemId = "";
+                                    orderline2.lineType = "";
+                                    orderline2.lineObjectNumber = "";
+                                    orderline2.description = "Ingen minuttakst for ";
+                                    orderline2.unitPrice = 0;
+                                    orderline2.quantity = 0;
 
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = zoneLines.ZoneName;
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    orderlines.Add(orderline2);
 
-                                    orderlines.Add(orderline);
+                                    PostSalesInvoiceLine orderline3 = new PostSalesInvoiceLine();
+
+                                    orderline3.itemId = "";
+                                    orderline3.lineType = "";
+                                    orderline3.lineObjectNumber = "";
+                                    orderline3.description = zoneLines.ZoneName;
+                                    orderline3.unitPrice = 0;
+                                    orderline3.quantity = 0;
+
+                                    orderlines.Add(orderline3);
                                 }
                             }
                             else if (zoneLines.Seconds > 0)
@@ -848,34 +901,40 @@ namespace TeleBilling_v02_.Repository.Navision
                                 string strNewDescription = "0 minutter for opkald til " + zoneLines.ZoneName;
                                 if (strNewDescription.Length < 51)
                                 {
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = "0 minutter for opkald til " + zoneLines.ZoneName;
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    PostSalesInvoiceLine orderline4 = new PostSalesInvoiceLine();
 
-                                    orderlines.Add(orderline);
+                                    orderline4.itemId = "";
+                                    orderline4.lineType = "";
+                                    orderline4.lineObjectNumber = "";
+                                    orderline4.description = "0 minutter for opkald til " + zoneLines.ZoneName;
+                                    orderline4.unitPrice = 0;
+                                    orderline4.quantity = 0;
+
+                                    orderlines.Add(orderline4);
                                 }
                                 else
                                 {
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = "0 minutter for opkald til ";
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    PostSalesInvoiceLine orderline5 = new PostSalesInvoiceLine();
 
-                                    orderlines.Add(orderline);
+                                    orderline5.itemId = "";
+                                    orderline5.lineType = "";
+                                    orderline5.lineObjectNumber = "";
+                                    orderline5.description = "0 minutter for opkald til ";
+                                    orderline5.unitPrice = 0;
+                                    orderline5.quantity = 0;
 
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = zoneLines.ZoneName;
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    orderlines.Add(orderline5);
 
-                                    orderlines.Add(orderline);
+                                    PostSalesInvoiceLine orderline6 = new PostSalesInvoiceLine();
+
+                                    orderline6.itemId = "";
+                                    orderline6.lineType = "";
+                                    orderline6.lineObjectNumber = "";
+                                    orderline6.description = zoneLines.ZoneName;
+                                    orderline6.unitPrice = 0;
+                                    orderline6.quantity = 0;
+
+                                    orderlines.Add(orderline6);
                                 }
                             }
 
@@ -885,34 +944,40 @@ namespace TeleBilling_v02_.Repository.Navision
                                 string strNewDescription = "Ingen opkaldsafgift for " + zoneLines.ZoneName;
                                 if (strNewDescription.Length < 51)
                                 {
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = "Ingen opkaldsafgift for " + zoneLines.ZoneName;
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    PostSalesInvoiceLine orderline7 = new PostSalesInvoiceLine();
 
-                                    orderlines.Add(orderline);
+                                    orderline7.itemId = "";
+                                    orderline7.lineType = "";
+                                    orderline7.lineObjectNumber = "";
+                                    orderline7.description = "Ingen opkaldsafgift for " + zoneLines.ZoneName;
+                                    orderline7.unitPrice = 0;
+                                    orderline7.quantity = 0;
+
+                                    orderlines.Add(orderline7);
                                 }
                                 else
                                 {
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = "Ingen opkaldsafgift for ";
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    PostSalesInvoiceLine orderline8 = new PostSalesInvoiceLine();
 
-                                    orderlines.Add(orderline);
+                                    orderline8.itemId = "";
+                                    orderline8.lineType = "";
+                                    orderline8.lineObjectNumber = "";
+                                    orderline8.description = "Ingen opkaldsafgift for ";
+                                    orderline8.unitPrice = 0;
+                                    orderline8.quantity = 0;
 
-                                    orderline.itemId = "";
-                                    orderline.lineType = "";
-                                    orderline.lineObjectNumber = "";
-                                    orderline.description = zoneLines.ZoneName;
-                                    orderline.unitPrice = 0;
-                                    orderline.quantity = 0;
+                                    orderlines.Add(orderline8);
 
-                                    orderlines.Add(orderline);
+                                    PostSalesInvoiceLine orderline9 = new PostSalesInvoiceLine();
+
+                                    orderline9.itemId = "";
+                                    orderline9.lineType = "";
+                                    orderline9.lineObjectNumber = "";
+                                    orderline9.description = zoneLines.ZoneName;
+                                    orderline9.unitPrice = 0;
+                                    orderline9.quantity = 0;
+
+                                    orderlines.Add(orderline9);
                                 }
                             }
                             else
@@ -937,14 +1002,16 @@ namespace TeleBilling_v02_.Repository.Navision
                         }
 
                         // Filler line
-                        orderline.itemId = "";
-                        orderline.lineType = "";
-                        orderline.lineObjectNumber = "";
-                        orderline.description = "******";
-                        orderline.unitPrice = 0;
-                        orderline.quantity = 0;
+                        PostSalesInvoiceLine orderlineFL = new PostSalesInvoiceLine();
 
-                        orderlines.Add(orderline);
+                        orderlineFL.itemId = "";
+                        orderlineFL.lineType = "";
+                        orderlineFL.lineObjectNumber = "";
+                        orderlineFL.description = "******";
+                        orderlineFL.unitPrice = 0;
+                        orderlineFL.quantity = 0;
+
+                        orderlines.Add(orderlineFL);
                     }
 
                     // push item lines

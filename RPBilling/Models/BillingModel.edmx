@@ -42,6 +42,7 @@
           <Property Name="Deleted" Type="datetime2" Precision="7" />
           <Property Name="PaymentTerms" Type="int" />
           <Property Name="AdditionalText" Type="text" />
+		  <Property Name="AdditionalRPText" Type="text" />
         </EntityType>
         <EntityType Name="TeleAgreements">
           <Key>
@@ -180,6 +181,7 @@
           <Property Name="Deleted" Type="DateTime" Precision="7" />
           <Property Name="PaymentTerms" Type="Int32" />
           <Property Name="AdditionalText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
+		  <Property Name="AdditionalRPText" Type="String" MaxLength="Max" FixedLength="false" Unicode="false" />
         </EntityType>
         <EntityContainer Name="BillingEntities" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="Products" EntityType="BillingModel.Product" />
@@ -323,7 +325,8 @@
           <EntitySetMapping Name="Subscriptions">
             <EntityTypeMapping TypeName="BillingModel.Subscription">
               <MappingFragment StoreEntitySet="BillingSubscriptions">
-                <ScalarProperty Name="AdditionalText" ColumnName="AdditionalText" />
+                <ScalarProperty Name="AdditionalRPText" ColumnName="AdditionalRPText" />
+				<ScalarProperty Name="AdditionalText" ColumnName="AdditionalText" />
                 <ScalarProperty Name="PaymentTerms" ColumnName="PaymentTerms" />
                 <ScalarProperty Name="Deleted" ColumnName="Deleted" />
                 <ScalarProperty Name="Id" ColumnName="Id" />

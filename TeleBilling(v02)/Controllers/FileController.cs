@@ -774,7 +774,7 @@ namespace TeleBilling_v02_.Controllers
                         // send email now
                         try
                         {
-                            string recipients = "finance@rackpeople.com;bogholderi@rackpeople.dk;sa@rackpeople.dk;aop@rackpeople.dk;ltp@rackpeople.dk;mz@rackpeople.dk";
+                            string recipients = "finance@rackpeople.com;sa@rackpeople.dk;mz@rackpeople.dk";
                             SendResultEmail(emailResult, recipients);
                         }
                         catch (Exception ex)

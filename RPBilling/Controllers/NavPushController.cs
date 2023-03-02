@@ -205,7 +205,7 @@ namespace RackPeople.BillingAPI.Controllers
     {
         private BillingEntities db = new BillingEntities();
 
-        protected List<PostSalesInvoiceLineDB> GetInvoiceLines(Subscription s, DateTime billingPeriode, DateTime billingPeriodeInvDate) {
+        protected List<PostSalesInvoiceLineDB> GetInvoiceLines(Subscription s, DateTime billingPeriode, DateTime billingPeriodeInvDate, bool onPickedDate) {
 
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
@@ -216,7 +216,15 @@ namespace RackPeople.BillingAPI.Controllers
             //DateTime ends = billingPeriode.AddDays(0);
 
             DateTime starts = new DateTime(billingPeriodeInvDate.Year, billingPeriodeInvDate.Month, 1);
-            starts = starts.AddMonths(1);
+
+            if (onPickedDate == true)
+            {
+                starts = new DateTime(billingPeriodeInvDate.Year, billingPeriodeInvDate.Month, billingPeriodeInvDate.Day);
+            }
+            else
+            {
+                starts = starts.AddMonths(1);
+            }
 
             DateTime ends = starts;
 
@@ -409,7 +417,7 @@ namespace RackPeople.BillingAPI.Controllers
         }
 
 
-        private string BCCreateInvoice(string sCustomerId, DateTime dtBCPostInvoice, List<PostSalesInvoiceLineDB> lines)
+        private string BCCreateInvoice(string sCustomerId, DateTime dtBCPostInvoice, List<PostSalesInvoiceLineDB> lines, string sUserToken)
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
@@ -421,7 +429,13 @@ namespace RackPeople.BillingAPI.Controllers
 
             BCService bcs = new BCService();
 
-            string sAuthToken = bcs.GetBCToken();
+            string sAuthToken = sUserToken;
+
+            if (sUserToken == "n/a")
+            {
+                sAuthToken = bcs.GetBCToken();
+            }
+
             if (sAuthToken != "n/a")
             {
                 // get customer first
@@ -443,6 +457,8 @@ namespace RackPeople.BillingAPI.Controllers
 
                     order.invoiceDate = dtBCPostInvoice.Year.ToString().PadLeft(4, '0') + "-" + dtBCPostInvoice.Month.ToString().PadLeft(2, '0') + "-" + dtBCPostInvoice.Day.ToString().PadLeft(2, '0');
                     order.postingDate = dtBCPostInvoice.Year.ToString().PadLeft(4, '0') + "-" + dtBCPostInvoice.Month.ToString().PadLeft(2, '0') + "-" + dtBCPostInvoice.Day.ToString().PadLeft(2, '0');
+
+                    string sParams = "";
 
                     try
                     {
@@ -467,7 +483,7 @@ namespace RackPeople.BillingAPI.Controllers
 
                             webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
 
-                            string sParams = "{\"externalDocumentNumber\": \"\", \"invoiceDate\": \"" + order.invoiceDate + "\", \"postingDate\": \"" + order.postingDate + "\", \"customerId\": \"" + order.customerId + "\", \"customerNumber\": \"" + order.customerNumber + "\", \"billToCustomerId\": \"" + order.billToCustomerId + "\", \"billToCustomerNumber\": \"" + order.billToCustomerNumber + "\"}";
+                            sParams = "{\"externalDocumentNumber\": \"\", \"invoiceDate\": \"" + order.invoiceDate + "\", \"postingDate\": \"" + order.postingDate + "\", \"customerId\": \"" + order.customerId + "\", \"customerNumber\": \"" + order.customerNumber + "\", \"billToCustomerId\": \"" + order.billToCustomerId + "\", \"billToCustomerNumber\": \"" + order.billToCustomerNumber + "\"}";
                             var data = Encoding.ASCII.GetBytes(sParams);
                             webRequestAUTH.ContentLength = data.Length;
 
@@ -500,6 +516,7 @@ namespace RackPeople.BillingAPI.Controllers
                         ex.ToString();
                         sNewInvoiceId = "n/a";
                         sLog += "NIErr:" + ex.ToString() + ";";
+                        sLog += "NIParams:" + sParams + ";";
                         sResult = "NOTOK";
                     }
                 }
@@ -663,7 +680,7 @@ namespace RackPeople.BillingAPI.Controllers
             return sLog + "ш" + sResult;
         }
 
-        protected Dictionary<string, object> BillSubscription(Subscription s, DateTime period, DateTime periodinvdate, bool onPickedDate, bool dryRun) {
+        protected Dictionary<string, object> BillSubscription(Subscription s, DateTime period, DateTime periodinvdate, bool onPickedDate, bool dryRun, string sUserToken) {
             try {
                 // Create a new sales invoice
                 // Based on Milans code, it seems the invoice needs to be created, before we can start adding info
@@ -688,10 +705,10 @@ namespace RackPeople.BillingAPI.Controllers
                     }
 
                     // Create each sales line now
-                    var lines = this.GetInvoiceLines(s, period, periodinvdate);
+                    var lines = this.GetInvoiceLines(s, period, periodinvdate, onPickedDate);
 
                     // cretae invoice now
-                    sLog = BCCreateInvoice(s.NavCustomerId, dtBCPostInvoice, lines);
+                    sLog = BCCreateInvoice(s.NavCustomerId, dtBCPostInvoice, lines, sUserToken);
                     string[] sLogArray = sLog.Split('ш');
                     if (sLogArray[1] == "OK")
                     {
@@ -725,8 +742,10 @@ namespace RackPeople.BillingAPI.Controllers
         }
 
         // POST: api/Subscription/5/bill
-        [Route("api/subscriptions/{id}/bill/{date}")]
-        public IHttpActionResult BillSubscription(int id, string date) {
+        //[Route("api/subscriptions/{id}/bill/{date}")]
+        [HttpGet]
+        [Route("api/subscriptions/bill")]
+        public IHttpActionResult BillSubscription(int id = -1, string date = "n/a", string username = "n/a", string usertoken = "n/a") {
             Subscription subscription = db.Subscriptions.Where(x => x.Id == id).FirstOrDefault();
             if (subscription == null) {
                 return NotFound();
@@ -734,9 +753,9 @@ namespace RackPeople.BillingAPI.Controllers
 
             // Create the invoice
             var period = DateTime.Parse(date);
-            var result = BillSubscription(subscription, period, period, true, false);
+            var result = BillSubscription(subscription, period, period, true, false, usertoken);
 
-            this.Audit(subscription, "manually sent invoice for {0}/{1}", period.Day, period.Month);
+            this.Audit(subscription, username + " manually sent invoice for {0}/{1}", period.Day, period.Month);
             return Ok(result);
         }
 
@@ -817,7 +836,7 @@ namespace RackPeople.BillingAPI.Controllers
                 {
                     // Create the invoice
                     var period = DateTime.Parse(date);
-                    var entry = BillSubscription(s, period, period, true, false);
+                    var entry = BillSubscription(s, period, period, true, false, "n/a");
                     result.Add(entry["message"].ToString());
 
                     // test for just one subscription
@@ -853,7 +872,7 @@ namespace RackPeople.BillingAPI.Controllers
 
             foreach (var s in subscriptions) {
 
-                DateTime billingstarts = new DateTime(s.InvoiceDate.Year, s.InvoiceDate.Month, 1);
+                DateTime billingstarts = new DateTime(s.NextInvoice.Year, s.NextInvoice.Month, 1);
                 billingstarts = billingstarts.AddMonths(1);
                 DateTime billingends = billingstarts;
 
@@ -897,7 +916,7 @@ namespace RackPeople.BillingAPI.Controllers
                     continue;
                 }
 
-                var entry = BillSubscription(s, s.BillingPeriod, s.InvoiceDate, false, dryRun);
+                var entry = BillSubscription(s, s.BillingPeriod, s.NextInvoice, false, dryRun, "n/a");
 
                 if (entry["message"].ToString().IndexOf("New invoice to") != -1)
                 {
