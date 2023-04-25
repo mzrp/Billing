@@ -24,6 +24,24 @@ namespace RPNAVConnect
         protected global::System.Web.UI.HtmlControls.HtmlForm RPNAVConnectForm;
 
         /// <summary>
+        /// UpdateVersionDataL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label UpdateVersionDataL;
+
+        /// <summary>
+        /// OwnerDataL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label OwnerDataL;
+
+        /// <summary>
         /// InfoDataL control.
         /// </summary>
         /// <remarks>

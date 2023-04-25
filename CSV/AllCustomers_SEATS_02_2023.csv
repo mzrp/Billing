@@ -1,0 +1,48 @@
+Customer,CustomerNo,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+RackPeople ApS,99999003,Dynamics 365 Business Central Team Members (36 mo) ,147.7,21.1,n/a,7.00,0.00,21.10,147.70,147.70
+RackPeople ApS,99999003,Dynamics 365 Business Central Essentials SMB ,740.4,123.4,n/a,6.00,0.00,123.40,740.40,740.40
+RackPeople ApS,99999003,Dynamics 365 Business Central Essentials SMB ,477.68,119.42,n/a,4.00,0.00,119.42,477.68,477.68
+RackPeople ApS,99999003,Dynamics 365 Business Central Essentials SMB ,23.88,3.98,n/a,6.00,0.00,3.98,23.88,23.88
+RackPeople ApS,99999003,Dynamics 365 Business Central Essentials SMB ,-493.6,-123.4,n/a,4.00,0.00,-123.40,-493.60,-493.60
+RackPeople ApS,99999003,Microsoft Teams Rooms Standard - Monthly - ,377.6,94.4,n/a,4.00,0.00,94.40,377.60,377.60
+NextM2M A/S,32880053,Microsoft 365 Business Voice (uden ,302,60.4,n/a,5.00,25.00,75.50,377.50,377.50
+NextM2M A/S,32880053,Microsoft 365 Business Premium - Monthly - ,775.6,110.8,n/a,7.00,25.00,138.50,969.50,969.50
+NextM2M A/S,32880053,Microsoft 365 Phone System - Virtual User - ,0,0,n/a,2.00,25.00,0.00,0.00,0.00
+NextM2M A/S,32880053,Visio Plan 2 - Monthly - Visio Plan 2 - Cycle fee ,75.5,75.5,n/a,1.00,25.00,94.38,94.38,94.38
+NextM2M A/S,32880053,Microsoft 365 Business Voice (uden ,60.4,60.4,n/a,1.00,25.00,75.50,75.50,75.50
+NextM2M A/S,32880053,Microsoft 365 Business Basic - Monthly - Microsoft ,302,30.2,n/a,10.00,25.00,37.75,377.50,377.50
+Hoimes advisory,352 621 555 178,Exchange Online (Plan 1) - Annually - Exchange ,241.2,241.2,n/a,1.00,25.00,301.50,301.50,301.50
+Hi3G Denmark ApS,26123445,Dynamics 365 Sales Professional - Monthly - ,306.8,306.8,n/a,1.00,15.00,352.82,352.82,352.82
+Hi3G Denmark ApS,26123445,Microsoft 365 Phone System - Virtual User - ,0,0,n/a,25.00,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,26123445,Microsoft 365 Business Basic - Monthly - Microsoft ,181.2,30.2,n/a,6.00,15.00,34.73,208.38,208.38
+Hi3G Denmark ApS,26123445,Microsoft 365 Business Voice (without calling ,241.6,60.4,n/a,4.00,15.00,69.46,277.84,277.84
+MARTINE LIE Interior Concepts ApS,36973382,Exchange Online (plan 1) - Monthly - Exchange ,20.1,20.1,n/a,1.00,25.00,25.13,25.13,25.13
+MARTINE LIE Interior Concepts ApS,36973382,Microsoft 365 Business Premium - Monthly - ,664.8,110.8,n/a,6.00,25.00,138.50,831.00,831.00
+Plustid ApS,31249767,Office 365 Business Premium - Monthly - Microsoft ,-66.96,-22.32,n/a,3.00,25.00,-27.90,-83.70,-83.70
+Wohlert Arkitekter,26928877,Exchange Online (plan 1) - Monthly - Exchange ,40.2,20.1,n/a,2.00,25.00,25.13,50.25,50.25
+Wohlert Arkitekter,26928877,Office 365 Business Premium - Monthly - Microsoft ,125.8,62.9,n/a,2.00,25.00,78.63,157.25,157.25
+Wohlert Arkitekter,26928877,Exchange Online (plan 1) - Monthly - Exchange ,-40.2,-20.1,n/a,2.00,25.00,-25.13,-50.25,-50.25
+Wohlert Arkitekter,26928877,Office 365 Business Premium - Monthly - Microsoft ,-125.8,-62.9,n/a,2.00,25.00,-78.63,-157.25,-157.25
+CANEA ApS,30365577,Office 365 Business Premium - Monthly - Microsoft ,105.51,52.75,n/a,2.00,25.00,65.94,131.89,131.89
+CANEA ApS,30365577,Office 365 Business Premium - Monthly - Microsoft ,10.15,10.15,n/a,1.00,25.00,12.69,12.69,12.69
+CANEA ApS,30365577,Office 365 Business Premium - Monthly - Microsoft ,-125.8,-62.9,n/a,2.00,25.00,-78.63,-157.25,-157.25
+CANEA ApS,30365577,Office 365 Business Premium - Monthly - Microsoft ,62.9,62.9,n/a,1.00,25.00,78.63,78.63,78.63
+CANEA ApS,30365577,Exchange Online (plan 1) - Monthly - Exchange ,269.73,16.85,n/a,16.00,25.00,21.07,337.16,337.16
+CANEA ApS,30365577,Exchange Online (plan 1) - Monthly - Exchange ,9.08,0.64,n/a,14.00,25.00,0.81,11.35,11.35
+CANEA ApS,30365577,Exchange Online (plan 1) - Monthly - Exchange ,41.5,2.59,n/a,16.00,25.00,3.24,51.88,51.88
+CANEA ApS,30365577,Exchange Online (plan 1) - Monthly - Exchange ,-321.6,-20.1,n/a,16.00,25.00,-25.13,-402.00,-402.00
+CANEA ApS,30365577,Exchange Online (plan 1) - Monthly - Exchange ,321.6,20.1,n/a,16.00,25.00,25.13,402.00,402.00
+Kiltin,15000848,Office 365 Business - Monthly - Microsoft 365 Apps ,368.2,52.6,n/a,7.00,25.00,65.75,460.25,460.25
+NORDIC Shipping & Logistics,31605725,OneDrive for Business (Plan 1) - Monthly - ,25.2,25.2,n/a,1.00,25.00,31.50,31.50,31.50
+NORDIC Shipping & Logistics,31605725,Office 365 Business Premium - Monthly - Microsoft ,377.4,62.9,n/a,6.00,25.00,78.63,471.75,471.75
+NORDIC Shipping & Logistics,31605725,Exchange Online (plan 1) - Monthly - Exchange ,60.3,20.1,n/a,3.00,25.00,25.13,75.38,75.38
+Safe Online ApS,38589962,Office 365 Enterprise E1 - Monthly - Office 365 E1 ,955.7,50.3,n/a,19.00,25.00,62.88,1194.63,1194.63
+Safe Online ApS,38589962,Office 365 Enterprise E3 - Monthly - Office 365 E3 ,404.1,134.7,n/a,3.00,25.00,168.38,505.13,505.13
+Safe Online ApS,38589962,Exchange Online (plan 1) - Monthly - Exchange ,20.1,20.1,n/a,1.00,25.00,25.13,25.13,25.13
+Safe Online ApS,38589962,Visio Plan 1 - Monthly - Visio Plan 1 - Cycle fee ,25.2,25.2,n/a,1.00,25.00,31.50,31.50,31.50
+INTERN A/S,20284072,Exchange Online (plan 1) - Monthly - Exchange ,301.5,20.1,n/a,15.00,25.00,25.13,376.88,376.88
+Petitlilo ApS,31190290,Exchange Online (plan 1) - Monthly - Exchange ,20.1,20.1,n/a,1.00,0.00,20.10,20.10,20.10
+Nordic Bioscience,30799968,Microsoft Cloud App Security - Monthly - Microsoft ,17.6,17.6,n/a,1.00,11.00,19.54,19.54,19.54
+Buck-Arentsen Holding ApS,25189981,Exchange Online (plan 2) - Monthly - Exchange ,40.3,40.3,n/a,1.00,25.00,50.38,50.38,50.38
+Buck-Arentsen Holding ApS,25189981,Office 365 Business Premium - Monthly - Microsoft ,125.8,62.9,n/a,2.00,25.00,78.63,157.25,157.25
+Amgros,14479880,Microsoft Defender Advanced Threat Protection - ,5240,26.2,n/a,200.00,12.50,29.48,5895.00,5895.00

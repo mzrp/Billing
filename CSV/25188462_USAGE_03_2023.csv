@@ -1,0 +1,80 @@
+Customer,CustomerNo,Description,Quantity,Unit Price
+CTGlobal,25188462,Logic Apps - Logic Apps - Consumption - new ,11.00,0.00
+CTGlobal,25188462,Traffic Manager - Traffic Manager - Azure Endpoint ,0.08,0.27
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot GRS - EU West - ,0.00,0.00
+CTGlobal,25188462,SQL Database Single Standard - SQL Database Single ,31.00,972.35
+CTGlobal,25188462,Tables - Tables - LRS - new ,0.00,0.00
+CTGlobal,25188462,Virtual Machines Ebdsv5 Series - Virtual Machines ,6.50,15.76
+CTGlobal,25188462,Network Watcher - Network Watcher - new ,2.00,0.00
+CTGlobal,25188462,Microsoft Defender for SQL - Microsoft Defender ,1.00,97.24
+CTGlobal,25188462,Premium SSD Managed Disks - Premium SSD Managed ,0.00,0.14
+CTGlobal,25188462,SQL Database - LTR Backup Storage - SQL Database - ,69.48,26.80
+CTGlobal,25188462,Process Automation - Process Automation - Basic - ,84.38,0.00
+CTGlobal,25188462,Traffic Manager - Traffic Manager - Traffic View - ,0.07,0.92
+CTGlobal,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.52,0.00
+CTGlobal,25188462,Standard HDD Managed Disks - Standard HDD Managed ,1.00,38.17
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.85,0.02
+CTGlobal,25188462,Virtual Machines BS Series - Virtual Machines BS ,0.48,0.14
+CTGlobal,25188462,Files - Files - LRS - new ,0.02,0.00
+CTGlobal,25188462,Queues - Queues - LRS - new ,0.00,0.00
+CTGlobal,25188462,Tables - Tables - LRS - new ,207.22,60.45
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.03,0.00
+CTGlobal,25188462,Standard HDD Managed Disks - Standard HDD Managed ,1.00,9.96
+CTGlobal,25188462,IP Addresses - IP Addresses - Basic IPv4 - new ,528.47,12.33
+CTGlobal,25188462,Rtn Preference: MGN - Rtn Preference: MGN - new ,100.00,0.00
+CTGlobal,25188462,SignalR - SignalR - new ,62.00,0.00
+CTGlobal,25188462,Azure App Service Shared Plan - Azure App Service ,744.00,62.70
+CTGlobal,25188462,General Block Blob - General Block Blob - LRS - ,22.42,0.05
+CTGlobal,25188462,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,25188462,Virtual Machines Ev3 Series - Virtual Machines Ev3 ,2.37,2.16
+CTGlobal,25188462,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,25188462,Azure Repos and Boards (Basic) - Azure Repos and ,1.06,41.40
+CTGlobal,25188462,Azure Monitor - Azure Monitor - Alerts - new ,8.44,5.47
+CTGlobal,25188462,Azure Monitor - Azure Monitor - Alerts - new ,10.00,0.00
+CTGlobal,25188462,Traffic Manager - Traffic Manager - Azure Endpoint ,2.00,4.67
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.08,0.03
+CTGlobal,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,20.73,0.07
+CTGlobal,25188462,Tables - Tables - LRS - new ,3.06,0.01
+CTGlobal,25188462,Azure App Service Standard Plan - Azure App ,2232.00,1446.86
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,25.34,3.22
+CTGlobal,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+CTGlobal,25188462,Standard HDD Managed Disks - Standard HDD Managed ,1.00,265.50
+CTGlobal,25188462,Azure App Service Free Plan - Azure App Service ,10.00,0.00
+CTGlobal,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,85.26,24.87
+CTGlobal,25188462,Tables - Tables - RA-GRS - new ,0.01,0.00
+CTGlobal,25188462,Files - Files - LRS - new ,0.01,0.00
+CTGlobal,25188462,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.00,0.00
+CTGlobal,25188462,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.05,0.01
+CTGlobal,25188462,Tables - Tables - LRS - new ,0.00,0.00
+CTGlobal,25188462,General Block Blob - General Block Blob - LRS - ,0.04,0.01
+CTGlobal,25188462,Azure App Service Free Plan - Azure App Service ,23.00,0.00
+CTGlobal,25188462,Files - Files - LRS - new ,0.00,0.00
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+CTGlobal,25188462,Virtual Machines Dsv4 Series - Virtual Machines ,4.90,6.80
+CTGlobal,25188462,IP Addresses - IP Addresses - Basic IPv4 - new ,4.91,0.13
+CTGlobal,25188462,Queues v2 - Queues v2 - LRS - EU North - new ,0.00,0.00
+CTGlobal,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,30.19,585.23
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,1.13,0.03
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+CTGlobal,25188462,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+CTGlobal,25188462,Storage - Bandwidth - Storage - Bandwidth - ,0.05,0.00
+CTGlobal,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,107.90,0.35
+CTGlobal,25188462,SQL Database Single Standard - SQL Database Single ,62.00,972.61
+CTGlobal,25188462,Files - Files - LRS - new ,0.01,0.00
+CTGlobal,25188462,Azure Pipelines - Azure Pipelines - ,3.00,777.88
+CTGlobal,25188462,SignalR - SignalR - new ,93.00,970.60
+CTGlobal,25188462,Virtual Machines Dv2 Series - Virtual Machines Dv2 ,2.62,2.24
+CTGlobal,25188462,Key Vault - Key Vault - Premium - new ,0.02,0.00
+CTGlobal,25188462,Files - Files - LRS - new ,5.00,1.94
+CTGlobal,25188462,Rtn Preference: MGN - Rtn Preference: MGN - new ,226.51,127.74
+CTGlobal,25188462,Azure Monitor - Azure Monitor - Emails - new ,6.00,0.00
+CTGlobal,25188462,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.00,0.00
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.08,0.00
+CTGlobal,25188462,Azure App Service Premium v2 Plan - Azure App ,2976.00,15433.22
+CTGlobal,25188462,Logic Apps - Logic Apps - Consumption - new ,0.31,0.24
+CTGlobal,25188462,SQL Database Single Standard - SQL Database Single ,93.00,291.72
+CTGlobal,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.01,0.00
+CTGlobal,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,97.31,0.32
+CTGlobal,25188462,Tables - Tables - GRS - new ,0.90,0.00
+CTGlobal,25188462,Azure DNS - Azure DNS - Public - new ,3.00,9.72
+CTGlobal,25188462,Logic Apps - Logic Apps - Consumption - new ,44398.00,35.98

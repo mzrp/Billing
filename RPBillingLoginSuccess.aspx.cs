@@ -226,12 +226,14 @@ namespace RPNAVConnect
 
             // set parent vars
             string sJavaScriptToRun = "";
+            sJavaScriptToRun += "parent.document.getElementById('billingupdate').value = 'Friday, March 3, 2023 - 10:39 AM'; ";
             sJavaScriptToRun += "parent.document.getElementById('userid').value = '" + sUserIdCache + "'; ";
             sJavaScriptToRun += "parent.document.getElementById('username').value = '" + sUserDisplayNameCache + "'; ";
             sJavaScriptToRun += "parent.document.getElementById('usertoken').value = '" + sUserAuthTokenCache + "'; ";
             sJavaScriptToRun += "parent.document.getElementById('userdate').value = '" + sUserExpirationDateTimeCache + "'; ";
 
-            //sJavaScriptToRun += "alert(parent.document.getElementById('username').value); ";
+            sJavaScriptToRun += "document.getElementById('UpdateVersionDataL').innerHTML = parent.document.getElementById('billingupdate').value; ";
+            sJavaScriptToRun += "document.getElementById('OwnerDataL').innerHTML = parent.document.getElementById('username').value; ";
 
             lastscriptdiv.InnerHtml = "<script>" + sJavaScriptToRun + "</script>";
         }

@@ -14,6 +14,7 @@ namespace TeleBilling_v02_.Models.DisplayModels
         public decimal Minute_price_Supplier { get; set; }
         public decimal Call_price_RP { get; set; }
         public decimal Minute_price_RP { get; set; }
-        
+        public string Customer_name { get; set; }
+        public string Customer_cvr { get; set; }
     }
 }

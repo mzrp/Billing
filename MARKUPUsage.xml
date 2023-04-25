@@ -69,9 +69,9 @@
     <Name>CANEA ApS</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="b6909603-e5a8-497d-8fdb-7f10240fdc13" Markup="7">
+  <Customer Id="b6909603-e5a8-497d-8fdb-7f10240fdc13" Markup="8">
     <Name>CTGlobal Cloud Services ApS</Name>
-    <Markup>7</Markup>
+    <Markup>8</Markup>
   </Customer>
   <Customer Id="5e99bbca-61d9-4f9f-98b3-dce52b85a576">
     <Name>Dansk Arbejdsskadeforsikring Agentur ApS</Name>
@@ -523,6 +523,10 @@
   </Customer>
   <Customer Id="a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3">
     <Name>Eco-Locaxion</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="ae68dbf3-77c3-4268-833a-83e9240d5689">
+    <Name>Tal Digitalt</Name>
     <Markup>25.0</Markup>
   </Customer>
 </CustomerMarkups>

@@ -696,6 +696,7 @@ namespace TeleBilling_v02_.Controllers
         
         public ActionResult BillCsvFile(int fileId)
         {
+            var fileRecordDetails = fileRepository.GetFileById(fileId);
             var recordList = fileRepository.GetFileInvoiceDetails(fileId).Where(x => x.RPBilled == "No").ToList();
             var sId = recordList.FirstOrDefault().CSVFile.SupplierId;
             var typeId = fileRepository.GetType("PriceFile").Id;
@@ -739,7 +740,7 @@ namespace TeleBilling_v02_.Controllers
             {
                 var ab = Accumulate(billableList);
                 string msg = string.Empty;
-                List<string> errorMsg = InvoiceGenerator.Bill(ab);
+                List<string> errorMsg = InvoiceGenerator.Bill(ab, fileRecordDetails.Name);
                 if (errorMsg.Count == 0)
                 {
                     List<InvoiceRecords> notSavedInDB = new List<InvoiceRecords>();

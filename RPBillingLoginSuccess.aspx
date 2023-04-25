@@ -61,7 +61,11 @@
                 <div style="margin:10px; padding:10px; border-style: solid; border-width: 0px;">   
                     <b>RACKPEOPLE BILLING, Business Central</b>
                     <br />
+                    <br />                    
+                    Current Software Update: <b><asp:Label ID="UpdateVersionDataL" runat="server" Text=""></asp:Label></b>
                     <br />
+                    Logged User: <b><asp:Label ID="OwnerDataL" runat="server" Text=""></asp:Label></b>
+                    <br /><br />
                     <asp:Label ID="InfoDataL" runat="server" Text=""></asp:Label>
                     <asp:Button ID="GetTokenBtn" runat="server" Text="Authenticate RP Billing" Visible="true" OnClientClick="invokeLoader();" Height="58px" Width="286px" OnClick="GetTokenBtn_Click" /> 
 

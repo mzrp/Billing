@@ -309,9 +309,9 @@
     <Name>Jysk Energi Teknik AS</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="80ed74fa-8f44-4a36-9520-c03e719ed98a" Markup="9.00">
+  <Customer Id="80ed74fa-8f44-4a36-9520-c03e719ed98a" Markup="11">
     <Name>Nordic Bioscience</Name>
-    <Markup>9.00</Markup>
+    <Markup>11</Markup>
   </Customer>
   <Customer Id="f6aba9a9-08c9-40e4-a47a-357dea793664" Markup="0">
     <Name>S4B.dk</Name>
@@ -511,6 +511,22 @@
   </Customer>
   <Customer Id="de34bd08-db28-470e-87de-c5a5a40f06e8">
     <Name>Norli Liv og Pension</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="ae68dbf3-77c3-4268-833a-83e9240d5689">
+    <Name>Tal Digitalt</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3">
+    <Name>Eco-Locaxion</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="3cbc57fe-362f-4193-b77c-fe40f42e30bd">
+    <Name>ECO-LOCAXION IVS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd">
+    <Name>New Co</Name>
     <Markup>25.0</Markup>
   </Customer>
 </CustomerMarkups>

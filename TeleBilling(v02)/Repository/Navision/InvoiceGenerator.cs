@@ -376,7 +376,7 @@ namespace TeleBilling_v02_.Repository.Navision
             return sResult;
         }
 
-        public static List<string> BillDidww(IEnumerable<InvoiceModel> billableList)
+        public static List<string> BillDidww(IEnumerable<InvoiceModel> billableList, string filename)
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
@@ -498,7 +498,8 @@ namespace TeleBilling_v02_.Repository.Navision
                             DateTime dtMonthStart = new DateTime(line.StartDate.Year, line.StartDate.Month, 1);
                             DateTime dtMonthEnd = dtMonthStart.AddMonths(1).AddDays(-1);
 
-                            orderlinePeriod.description = "Periode " + dtMonthStart.ToString("dd/MM/yyyy") + " til " + dtMonthEnd.ToString("dd/MM/yyyy");
+                            //orderlinePeriod.description = "Periode " + dtMonthStart.ToString("dd/MM/yyyy") + " til " + dtMonthEnd.ToString("dd/MM/yyyy");
+                            orderlinePeriod.description = filename;
                             orderlinePeriod.unitPrice = 0;
                             orderlinePeriod.quantity = 0;
 
@@ -641,7 +642,7 @@ namespace TeleBilling_v02_.Repository.Navision
             return errorMsg;
         }
 
-        public static List<string> Bill(IEnumerable<InvoiceModel> billableList)
+        public static List<string> Bill(IEnumerable<InvoiceModel> billableList, string csvfilename)
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
@@ -764,7 +765,8 @@ namespace TeleBilling_v02_.Repository.Navision
                             DateTime dtMonthStart = new DateTime(line.StartDate.Year, line.StartDate.Month, 1);
                             DateTime dtMonthEnd = dtMonthStart.AddMonths(1).AddDays(-1);
 
-                            orderlinePeriod.description = "Periode " + dtMonthStart.ToString("dd/MM/yyyy") + " til " + dtMonthEnd.ToString("dd/MM/yyyy");
+                            //orderlinePeriod.description = "Periode " + dtMonthStart.ToString("dd/MM/yyyy") + " til " + dtMonthEnd.ToString("dd/MM/yyyy");
+                            orderlinePeriod.description = csvfilename;
                             orderlinePeriod.unitPrice = 0;
                             orderlinePeriod.quantity = 0;
 

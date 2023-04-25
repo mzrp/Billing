@@ -128,7 +128,7 @@ namespace RPNAVConnect
         public int TotalMoneyOwed { get; set; }
         public int CalcCreditLimitLCYExpendedPct { get; set; }
         public int Balance_Due { get; set; }
-        public int Payments_LCY { get; set; }
+        public double Payments_LCY { get; set; }
         public int CustomerMgt_AvgDaysToPay_No { get; set; }
         public int DaysPaidPastDueDate { get; set; }
         public int AmountOnPostedInvoices { get; set; }

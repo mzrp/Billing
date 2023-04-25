@@ -340,6 +340,8 @@ namespace TeleBilling_v02_.Controllers
                     d.Call_price_Supplier = zone.Call_price;
                     d.Minute_price_RP = az.Minute_price;
                     d.Call_price_RP = az.Call_price;
+                    d.Customer_name = agreement.Customer_name;
+                    d.Customer_cvr = agreement.Customer_cvr;
 
                     display.ZoneRecords.Add(d);
                 }

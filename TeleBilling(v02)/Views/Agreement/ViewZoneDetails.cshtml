@@ -20,6 +20,11 @@
         agreementId = Convert.ToInt32(System.Web.HttpContext.Current.Session["sesAgreementId"]);
     }
 
+    string sToday = DateTime.Now.Day.ToString().PadLeft(2, '0') + DateTime.Now.Month.ToString().PadLeft(2, '0') + DateTime.Now.Year.ToString().PadLeft(4, '0');
+    string sHtmlToPdf = "<span style='font-size:24px;'><b>" + Model.ElementAt(0).Customer_name + "</b></span><br />pricelist date: " + sToday + "<br />&nbsp;</p>";
+    sHtmlToPdf += "<table width='500px' style='page-break-inside: avoid;'><tr><td><b>Country code</b></td><td><b>Name</b></td><td><b>Call price</b></td><td><b>Min price</b></td></tr>";
+    string sPDFFilePath = AppDomain.CurrentDomain.BaseDirectory + "upload\\" + Model.ElementAt(0).Customer_cvr + "_Pricelist_" + sToday + ".pdf";
+    string sPDFFileName = Model.ElementAt(0).Customer_cvr + "_Pricelist_" + sToday + ".pdf";
 }
 
     <table class="table">
@@ -93,29 +98,50 @@
 
         @foreach (var item in Model)
         {
+            sHtmlToPdf += "<tr><td>" + item.Country_code + "</td><td>" + item.Name + "</td><td>" + item.Call_price_RP + "</td><td>" + item.Minute_price_RP + "</td></tr>";
             <tr>
-                <td>
+                <td style="page-break-inside: avoid;">
                     @Html.DisplayFor(modelItem => item.Country_code)
                 </td>
-                <td>
+                <td style="page-break-inside: avoid;">
                     @Html.DisplayFor(modelItem => item.Name)
                 </td>
-                <td>
+                <td style="page-break-inside: avoid;">
                     @Html.DisplayFor(modelItem => item.Call_price_Supplier)
                 </td>
-                <td>
+                <td style="page-break-inside: avoid;">
                     @Html.DisplayFor(modelItem => item.Minute_price_Supplier)
                 </td>
-                <td>
+                <td style="page-break-inside: avoid;">
                     @Html.EditorFor(modelItem => item.Call_price_RP, new { htmlAttributes = new { @class = "form-control" } })
                 </td>
-                <td>
+                <td style="page-break-inside: avoid;">
                     @Html.EditorFor(modelItem => item.Minute_price_RP, new { htmlAttributes = new { @class = "form-control" } })
                 </td>
-                <td>
+                <td style="page-break-inside: avoid;">
                     <a href="@Url.Action("ViewDetails", "Agreement", new { itemid = item.Id, agreementId = agreementId })" class="btn btn-info btn-sm">Update <i class="glyphicon glyphicon-edit "></i></a>
                 </td>
             </tr>
         }
 
+        <tr>
+            <td colspan="7"  style="page-break-inside: avoid;">
+                <a href="https://billing.gowingu.net/TeleBilling(v02)/upload/@sPDFFileName" target="_blank">download pricelist</a>
+            </td>
+        </tr>
+
     </table>
+
+@{ 
+    try
+    {
+        sHtmlToPdf += "</table>";
+
+        PdfSharp.Pdf.PdfDocument pdf = TheArtOfDev.HtmlRenderer.PdfSharp.PdfGenerator.GeneratePdf(sHtmlToPdf, PdfSharp.PageSize.A4);
+        pdf.Save(sPDFFilePath);
+    }
+    catch (Exception ex)
+    {
+        ex.ToString();
+    }
+}

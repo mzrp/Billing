@@ -1436,6 +1436,27 @@ namespace RPNAVConnect
                                                             order.postingDate = DateTime.Now.Year.ToString().PadLeft(4, '0') + "-" + DateTime.Now.Month.ToString().PadLeft(2, '0') + "-" + DateTime.Now.Day.ToString().PadLeft(2, '0');
                                                         }
 
+                                                        // add month line
+                                                        PostSalesInvoiceLine commentmonthLine = new PostSalesInvoiceLine();
+
+                                                        commentmonthLine.lineType = "";
+                                                        commentmonthLine.lineObjectNumber = "";
+                                                        commentmonthLine.itemId = "";
+                                                        commentmonthLine.Document_No = "";
+
+                                                        // quantity and price
+                                                        commentmonthLine.quantity = 0;
+                                                        commentmonthLine.unitPrice = 0;
+
+                                                        // extra line
+                                                        commentmonthLine.description = sMonthName + " " + iYear.ToString();
+
+                                                        // add extra line
+                                                        InvoiceLinesList.Add(commentmonthLine);
+
+                                                        // count added lines
+                                                        iInvoiceLinesCount++;
+
                                                         // invoice comment - all customers
                                                         string sCommentFile = "MARKUPSeats.xml";
                                                         if (rbtnSeats.Checked == true)

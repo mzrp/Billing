@@ -735,7 +735,7 @@ namespace TeleBilling_v02_.Controllers
                     if (appliedAgreements.Count > 0)
                     {
                         var ab = Accumulate(appliedAgreements);
-                        List<string> errorMsg = InvoiceGenerator.BillDidww(ab);
+                        List<string> errorMsg = InvoiceGenerator.BillDidww(ab, filename);
 
                         if (errorMsg.Count == 0)
                         {
