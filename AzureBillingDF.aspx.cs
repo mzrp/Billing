@@ -1192,7 +1192,7 @@ namespace RPNAVConnect
                                                     {
                                                         string sCustomerVATNo = "n/a";
                                                         string sCustomerVATId = "n/a";
-                                                        if (sAllInvoiceCustomers.IndexOf(sCustomerName + "ђ") == -1)
+                                                        if (sAllInvoiceCustomers.IndexOf(sCustomerName + "ђ" + sCustomerId) == -1)
                                                         {
                                                             string sBCCuromerData = DoesCustomerExists(sCustomerId);
                                                             if (sBCCuromerData == "n/a")
@@ -1201,7 +1201,7 @@ namespace RPNAVConnect
                                                             }
                                                             sCustomerVATNo = sBCCuromerData.Split('ђ')[0];
                                                             sCustomerVATId = sBCCuromerData.Split('ђ')[1];
-                                                            sAllInvoiceCustomers += sCustomerName + "ђ" + sCustomerVATNo + "ђ" + sCustomerVATId + "ш";
+                                                            sAllInvoiceCustomers += sCustomerName + "ђ" + sCustomerId + "ђ" + sCustomerVATNo + "ђ" + sCustomerVATId + "ш";
                                                         }
                                                     }
                                                 }
@@ -1216,10 +1216,11 @@ namespace RPNAVConnect
                                                 if (sInvoiceCustomer != "")
                                                 {
                                                     string sCust = sInvoiceCustomer.Split('ђ')[0];
-                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[1];
-                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustId = sInvoiceCustomer.Split('ђ')[1];
+                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
 
-                                                    if (sCustVatNo == "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ш";
+                                                    if (sCustVatNo == "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ш";
                                                 }
                                             }
                                             foreach (string sInvoiceCustomer in sAllInvoiceCustomersArrayFirst)
@@ -1227,10 +1228,11 @@ namespace RPNAVConnect
                                                 if (sInvoiceCustomer != "")
                                                 {
                                                     string sCust = sInvoiceCustomer.Split('ђ')[0];
-                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[1];
-                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustId = sInvoiceCustomer.Split('ђ')[1];
+                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
 
-                                                    if (sCustVatNo != "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ш";
+                                                    if (sCustVatNo != "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ш";
                                                 }
                                             }
 
@@ -1253,10 +1255,11 @@ namespace RPNAVConnect
 
                                             string[] sAllInvoiceCustomersArray = sAllInvoiceCustomersSorted.Split('ш');
 
-                                            AzureBillingDataL.Text += "<table class='table table-bordered table-striped' style='width: 900px; '>";
+                                            AzureBillingDataL.Text += "<table class='table table-bordered table-striped' style='width: 1250px; '>";
                                             AzureBillingDataL.Text += "<tr class='bg-danger text-white'>";
-                                            AzureBillingDataL.Text += "<th><b>Customer</b></th>";
-                                            AzureBillingDataL.Text += "<th><b>VAT</b></th>";
+                                            AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Customer</b></th>";
+                                            AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>CSP Id</b></th>";
+                                            AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>VAT</b></th>";
                                             if (invoiceDetail.BillingProvider == BillingProvider.Office)
                                             {
                                                 /*
@@ -1268,19 +1271,19 @@ namespace RPNAVConnect
                                                 AzureBillingDataL.Text += "<th><b>Markup %</b></th>";
                                                 */
 
-                                                AzureBillingDataL.Text += "<th><b>Tot. MS price</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;' style='vertical-align: middle;'><b>Tot. MS price</b></th>";
                                                 //AzureBillingDataL.Text += "<th><b>Tot. MS price exc. Tax</b></th>";
                                                 AzureBillingDataL.Text += "<th><b>Tot. RP price exc. Tax</b></th>";
-                                                AzureBillingDataL.Text += "<th><b>Tot. Db (MarkUp)</b></th>";
-                                                AzureBillingDataL.Text += "<th><b>Comment</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Tot. Db (MarkUp)</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Comment</b></th>";
                                             }
                                             else
                                             {
-                                                AzureBillingDataL.Text += "<th><b>Tot. MS price</b></th>";
-                                                AzureBillingDataL.Text += "<th><b>Tot. MS price exc. Tax</b></th>";
-                                                AzureBillingDataL.Text += "<th><b>Tot. RP price exc. Tax</b></th>";
-                                                AzureBillingDataL.Text += "<th><b>Tot. Db (MarkUp)</b></th>";
-                                                AzureBillingDataL.Text += "<th><b>Comment</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Tot. MS price</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Tot. MS price exc. Tax</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Tot. RP price exc. Tax</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Tot. Db (MarkUp)</b></th>";
+                                                AzureBillingDataL.Text += "<th style='vertical-align: middle;'><b>Comment</b></th>";
                                             }
                                             AzureBillingDataL.Text += "<th>&nbsp;</th>";
                                             AzureBillingDataL.Text += "</tr>";
@@ -1290,8 +1293,9 @@ namespace RPNAVConnect
                                                 if (sInvoiceCustomer != "")
                                                 {
                                                     string sCust = sInvoiceCustomer.Split('ђ')[0];
-                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[1];
-                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustId = sInvoiceCustomer.Split('ђ')[1];
+                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
 
                                                     string sWarning1 = "";
                                                     string sWarning2 = "";
@@ -1302,8 +1306,9 @@ namespace RPNAVConnect
                                                     }
 
                                                     AzureBillingDataL.Text += "<tr>";
-                                                    AzureBillingDataL.Text += "<td>" + sWarning1 + sCust + sWarning2 + "</td>";
-                                                    AzureBillingDataL.Text += "<td>" + sWarning1 + sCustVatNo + sWarning2 + "</td>";
+                                                    AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCust + sWarning2 + "</td>";
+                                                    AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustId + sWarning2 + "</td>";
+                                                    AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustVatNo + sWarning2 + "</td>";
 
                                                     if (invoiceDetail.BillingProvider == BillingProvider.Office)
                                                     {
@@ -1316,17 +1321,17 @@ namespace RPNAVConnect
                                                         AzureBillingDataL.Text += "<td>" + sWarning1 + "#M" + sCust + "#" + sWarning2 + "</td>";
                                                         */
 
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TM" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TM" + sCust + "#" + sWarning2 + "</td>";
                                                         //AzureBillingDataL.Text += "<td>" + sWarning1 + "#TMET" + sCust + "#" + sWarning2 + "</td>";
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TC" + sCust + "#" + sWarning2 + "</td>";
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TD" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TC" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TD" + sCust + "#" + sWarning2 + "</td>";
                                                     }
                                                     else
                                                     {
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TM" + sCust + "#" + sWarning2 + "</td>";
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TMET" + sCust + "#" + sWarning2 + "</td>";
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TC" + sCust + "#" + sWarning2 + "</td>";
-                                                        AzureBillingDataL.Text += "<td>" + sWarning1 + "#TD" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TM" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TMET" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TC" + sCust + "#" + sWarning2 + "</td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + "#TD" + sCust + "#" + sWarning2 + "</td>";
                                                     }
                                                     
                                                     if (sCustVatNo == "n/a")
@@ -1337,15 +1342,15 @@ namespace RPNAVConnect
                                                     else
                                                     {
                                                         string sButtonId = sCustVatNo;
-                                                        AzureBillingDataL.Text += "<td><input id=\"txtCommentCustomer_" + sCustVatNo + "\" type=\"text\" name=\"txtCommentCustomer_" + sCustVatNo + "\" value=\"\" /></td>";
-                                                        AzureBillingDataL.Text += "<td><input id=\"butPushCustomer_" + sCustVatNo + "\" type=\"button\" name=\"butPushCustomer_" + sCustVatNo + "\" value=\"Push to BC\" onclick=\"invokeLoader();__doPostBack('butPushCustomer_" + sCustVatNo + "','')\" /></td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'><input id=\"txtCommentCustomer_" + sCustVatNo + "\" type=\"text\" name=\"txtCommentCustomer_" + sCustVatNo + "\" value=\"\" /></td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'><input id=\"butPushCustomer_" + sCustVatNo + "\" type=\"button\" name=\"butPushCustomer_" + sCustVatNo + "\" value=\"Push to BC\" onclick=\"invokeLoader();__doPostBack('butPushCustomer_" + sCustVatNo + "','')\" /></td>";
                                                     }
                                                     AzureBillingDataL.Text += "</tr>";
                                                 }
                                             }
                                             AzureBillingDataL.Text += "<tr class='bg-danger text-white'>";
-                                            AzureBillingDataL.Text += "<td></td>";
-                                            AzureBillingDataL.Text += "<td align='right'>Sum:</td>";
+                                            AzureBillingDataL.Text += "<td></td><td></td>";
+                                            AzureBillingDataL.Text += "<td style='vertical-align: middle;' align='right'>Sum:</td>";
                                             if (invoiceDetail.BillingProvider == BillingProvider.Office)
                                             {
                                                 /*
@@ -1357,17 +1362,17 @@ namespace RPNAVConnect
                                                 AzureBillingDataL.Text += "<td><b>#SUMM#</b></td>";
                                                 */
 
-                                                AzureBillingDataL.Text += "<td><b>#SUMTM#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTM#</b></td>";
                                                 //AzureBillingDataL.Text += "<td><b>#SUMTMET#</b></td>";
-                                                AzureBillingDataL.Text += "<td><b>#SUMTC#</b></td>";
-                                                AzureBillingDataL.Text += "<td><b>#SUMTD#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTC#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTD#</b></td>";
                                             }
                                             else
                                             {
-                                                AzureBillingDataL.Text += "<td><b>#SUMTM#</b></td>";
-                                                AzureBillingDataL.Text += "<td><b>#SUMTMET#</b></td>";
-                                                AzureBillingDataL.Text += "<td><b>#SUMTC#</b></td>";
-                                                AzureBillingDataL.Text += "<td><b>#SUMTD#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTM#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTMET#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTC#</b></td>";
+                                                AzureBillingDataL.Text += "<td style='vertical-align: middle;'><b>#SUMTD#</b></td>";
                                             }
                                             AzureBillingDataL.Text += "</tbody>";
                                             AzureBillingDataL.Text += "</table>";
@@ -1391,7 +1396,7 @@ namespace RPNAVConnect
 
                                             // csv file all customers
                                             List<string> sCSVFile = new List<string>();
-                                            string sCSVLine = "Customer,CustomerNo,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff";
+                                            string sCSVLine = "Customer,CustomerId,CustomerNo,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff";
                                             sCSVFile.Add(sCSVLine);
 
                                             // csv file single customer
@@ -1405,15 +1410,16 @@ namespace RPNAVConnect
                                                 if (sInvoiceCustomer != "")
                                                 {
                                                     string sCust = sInvoiceCustomer.Split('ђ')[0];
-                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[1];
-                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustId = sInvoiceCustomer.Split('ђ')[1];
+                                                    string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
+                                                    string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
 
                                                     if ((sCustVatNo != "n/a") || (sAction == "Data"))
                                                     {
                                                         // csv file all customers
                                                         sCustomerCSVUsageFile.Clear();
                                                         sCustomerCSVSeatsFile.Clear();
-                                                        sCustomerCSVLine = "Customer,CustomerNo,Description,Quantity,Unit Price";
+                                                        sCustomerCSVLine = "Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price";
                                                         sCustomerCSVUsageFile.Add(sCustomerCSVLine);
                                                         sCustomerCSVSeatsFile.Add(sCustomerCSVLine);
 
@@ -1695,7 +1701,7 @@ namespace RPNAVConnect
                                                                     sLine2 = sLine2.Substring(0, sLine2.Length - 2);
                                                                 }
 
-                                                                if (sCust == sCustomerName)
+                                                                if ((sCust.ToLower() == sCustomerName.ToLower()) && (sCustId.ToLower() == sCustomerId.ToLower()))
                                                                 {
                                                                     if (iCount == 1)
                                                                     {
@@ -2452,10 +2458,12 @@ namespace RPNAVConnect
 
                                                                     sCSVLine = "";
                                                                     sCSVLine += sCustomerName.Replace(",", ";") + ",";
+                                                                    sCSVLine += sCustId.Replace(",", ";") + ",";
                                                                     sCSVLine += sCustVatNo.Replace(",", ";") + ",";
 
                                                                     sCustomerCSVLine = "";
                                                                     sCustomerCSVLine += sCustomerName.Replace(",", ";") + ",";
+                                                                    sCustomerCSVLine += sCustId.Replace(",", ";") + ",";
                                                                     sCustomerCSVLine += sCustVatNo.Replace(",", ";") + ",";
 
                                                                     sCustomerCSVName = sCustomerName;
@@ -2715,11 +2723,11 @@ namespace RPNAVConnect
                                                                         }
                                                                     }
 
-                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount - iAzureInvoiceLinesCount + 5;
+                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount - iAzureInvoiceLinesCount + 7;
                                                                 }
                                                                 else
                                                                 {
-                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount;
+                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount + 2;
                                                                 }
 
                                                                 order.SalesLines = new PostSalesInvoiceLine[iCompleteInvoiceLinesCount];
@@ -2788,6 +2796,24 @@ namespace RPNAVConnect
                                                                 }
 
                                                                 int iOrderLinesCount = 0;
+
+                                                                // add comment zero zero
+                                                                order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
+                                                                order.SalesLines[iOrderLinesCount].quantity = 0;
+                                                                order.SalesLines[iOrderLinesCount].unitPrice = 0;
+                                                                order.SalesLines[iOrderLinesCount].description = "CSP Id: " + sCustId;
+                                                                iOrderLinesCount++;
+
+                                                                order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
+                                                                order.SalesLines[iOrderLinesCount].quantity = 0;
+                                                                order.SalesLines[iOrderLinesCount].unitPrice = 0;
+                                                                order.SalesLines[iOrderLinesCount].description = "";
+                                                                iOrderLinesCount++;
+
                                                                 foreach (PostSalesInvoiceLine sil in InvoiceLinesList)
                                                                 {
                                                                     bool bProcessLine = true;

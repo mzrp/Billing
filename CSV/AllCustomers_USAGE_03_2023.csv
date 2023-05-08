@@ -9,7 +9,7 @@ Nordic Bioscience,30799968,Visio Plan 2 - Visio Plan 2 - cycleCharge 3/28/2023-4
 Nordic Bioscience,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  3/24/2023-3/27/2023  March   ,-265.66,40.24,1,37.00,25.00,-7.19,-265.94,-53.19
 Nordic Bioscience,30799968,Microsoft 365 E5 - Microsoft 365 E5 - cycleCharge 3/28/2023-4/27/2023  March   ,802.2,320.88,1,2.00,25.00,401.10,802.20,160.44
 Nordic Bioscience,30799968,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - cycleCharge  3/28/2023-4/27/2023  March   ,0,0,1,5.00,25.00,0.00,0.00,0.00
-Nordic Bioscience,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  3/28/2023-4/27/2023  March   ,1911.4,40.24,1,38.00,25.00,50.30,1911.40,382.28
+Nordic Bioscience,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  3/28/2023-4/27/2023  March   ,1911.4,40.24,1,38.00,11,44.67,1697.32,168.20
 Nordic Bioscience,30799968,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  3/28/2023-4/27/2023  March   ,1688.4,10.08,1,134.00,25.00,12.60,1688.40,337.68
 Nordic Bioscience,30799968,Microsoft Teams Rooms Pro - Microsoft Teams Rooms Pro - convert  3/1/2023-3/31/2023  March   ,2013.6,201.36,1,8.00,25.00,251.70,2013.60,402.72
 Nordic Bioscience,30799968,Microsoft Teams Rooms Pro - Microsoft Teams Rooms Pro - convert  3/1/2023-3/27/2023  March   ,-2330,241.63,1,8.00,25.00,-291.25,-2330.00,-466.00
@@ -20,13 +20,13 @@ Nordic Bioscience,30799968,Enterprise Mobility + Security E5 - Enterprise Mobili
 Nordic Bioscience,30799968,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  3/28/2023-4/27/2023  March   ,150.9,40.24,1,3.00,25.00,50.30,150.90,30.18
 Nordic Bioscience,30799968,Power BI Pro - Power BI Pro - addQuantity 3/14/2023-3/27/2023  March   ,283.05,50.32,1,9.00,25.00,31.45,283.05,56.61
 Nordic Bioscience,30799968,Microsoft Teams Shared Devices - Microsoft Teams Shared Devices - cycleCharge  3/28/2023-4/27/2023  March   ,704.2,40.24,1,14.00,25.00,50.30,704.20,140.84
-Nordic Bioscience,30799968,Azure Active Directory Premium P1 - Azure Active Directory Premium P1 - renew  3/3/2023-4/2/2023  March   ,45.36,36.29,1,1.00,25.00,45.36,45.36,9.07
+Nordic Bioscience,30799968,Azure Active Directory Premium P1 - Azure Active Directory Premium P1 - renew  3/3/2023-4/2/2023  March   ,45.36,36.29,1,1.00,11,40.28,40.28,3.99
 Nordic Bioscience,30799968,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  3/28/2023-4/27/2023  March   ,11772.5,110.8,1,85.00,25.00,138.50,11772.50,2354.50
 Nordic Bioscience,30799968,Power BI Pro - Power BI Pro - cycleCharge 3/28/2023-4/27/2023  March   ,566.1,50.32,1,9.00,25.00,62.90,566.10,113.22
 Nordic Bioscience,30799968,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  3/28/2023-4/27/2023  March   ,126,20.16,1,5.00,25.00,25.20,126.00,25.20
 Nordic Bioscience,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  3/3/2023-3/27/2023  March   ,1661.67,40.24,1,37.00,25.00,44.91,1661.76,332.35
-Nordic Bioscience,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  3/24/2023-3/27/2023  March   ,273.22,40.24,1,38.00,25.00,7.19,273.13,54.63
-BLS Capital Management,31179580,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  3/16/2023-3/27/2023  March   ,-603.68,40.24,1,28.00,25.0,-21.56,-603.75,-120.75
+Nordic Bioscience,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  3/24/2023-3/27/2023  March   ,273.22,40.24,1,38.00,11,6.38,242.54,24.04
+BLS Capital Management,31179580,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  3/16/2023-3/27/2023  March   ,-603.68,40.24,1,28.00,25.00,-21.56,-603.75,-120.75
 BLS Capital Management,31179580,Storage - Bandwidth - Storage - Bandwidth - ,0,0,7.0614,0.06,55.00,0.00,0.00,0.00
 BLS Capital Management,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,0.7,0.075,7.0614,1.38,55.00,0.70,0.97,0.41
 BLS Capital Management,31179580,Backup - Backup - Standard - EU West - new ,144.84,0.0448,7.0614,431.15,55.00,0.42,179.70,63.83
@@ -458,12 +458,12 @@ GOSH Copenhagen,89885019,Exchange Online (Plan 1) - Exchange Online (Plan 1) - r
 GOSH Copenhagen,89885019,Microsoft 365 Audio Conferencing - Microsoft 365 Audio Conferencing - cycleCharge  3/28/2023-4/27/2023  March   ,1393.73,15.7,1,71.00,25.00,19.63,1393.38,278.68
 GOSH Copenhagen,89885019,Exchange Online (Plan 2) - Exchange Online (Plan 2) - new  3/15/2023-4/14/2023  March   ,60.36,48.29,1,1.00,25.00,60.36,60.36,12.07
 GOSH Copenhagen,89885019,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  3/28/2023-4/27/2023  March   ,181.08,48.29,1,3.00,25.00,60.36,181.09,36.22
-ECO-LOCAXION IVS,39993775,Office 365 E3 - Office 365 E3 - addQuantity 3/23/2023-3/31/2023  March   ,146.67,134.72,1,3.00,n/a,39.11,117.33,0.00
+ECO-LOCAXION IVS,39993775,Office 365 E3 - Office 365 E3 - addQuantity 3/23/2023-3/31/2023  March   ,146.67,134.72,1,3.00,25.0,48.89,146.66,29.33
 ECO-LOCAXION IVS,39993775,Project Plan 3 - Project Plan 3 - addQuantity 3/23/2023-3/31/2023  March   ,-54.81,151.04,1,1.00,25.00,-54.81,-54.81,-10.96
 ECO-LOCAXION IVS,39993775,Office 365 E3 - Office 365 E3 - cycleCharge 3/1/2023-3/31/2023  March   ,336.8,134.72,1,2.00,25.00,168.40,336.80,67.36
-ECO-LOCAXION IVS,39993775,Project Plan 3 - Project Plan 3 - addQuantity 3/23/2023-3/31/2023  March   ,109.62,151.04,1,2.00,n/a,43.85,87.70,0.00
+ECO-LOCAXION IVS,39993775,Project Plan 3 - Project Plan 3 - addQuantity 3/23/2023-3/31/2023  March   ,109.62,151.04,1,2.00,25.0,54.81,109.63,21.93
 ECO-LOCAXION IVS,39993775,Project Plan 3 - Project Plan 3 - cycleCharge 3/1/2023-3/31/2023  March   ,188.8,151.04,1,1.00,25.00,188.80,188.80,37.76
-ECO-LOCAXION IVS,39993775,Visio Plan 2 - Visio Plan 2 - addQuantity 3/23/2023-3/31/2023  March   ,54.82,75.52,1,2.00,n/a,21.93,43.86,0.00
+ECO-LOCAXION IVS,39993775,Visio Plan 2 - Visio Plan 2 - addQuantity 3/23/2023-3/31/2023  March   ,54.82,75.52,1,2.00,25.0,27.41,54.83,10.97
 ECO-LOCAXION IVS,39993775,Office 365 E3 - Office 365 E3 - addQuantity 3/23/2023-3/31/2023  March   ,-97.78,134.72,1,2.00,25.00,-48.89,-97.78,-19.56
 ECO-LOCAXION IVS,39993775,Office 365 E1 - Office 365 E1 - new 3/27/2023-4/26/2023  March   ,75.48,60.38,1,1.00,25.00,75.48,75.48,15.10
 ECO-LOCAXION IVS,39993775,Visio Plan 2 - Visio Plan 2 - cycleCharge 3/1/2023-3/31/2023  March   ,94.4,75.52,1,1.00,25.00,94.40,94.40,18.88
