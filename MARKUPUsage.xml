@@ -529,4 +529,12 @@
     <Name>Tal Digitalt</Name>
     <Markup>25.0</Markup>
   </Customer>
+  <Customer Id="7cde4873-22a6-4ef9-89ff-f58345b74303" Markup="18.75">
+    <Name>ossmo</Name>
+    <Markup>18.75</Markup>
+  </Customer>
+  <Customer Id="c6422be6-55a5-4560-9c4a-8727648c29f4" Markup="18.75">
+    <Name>Asmussen IT</Name>
+    <Markup>18.75</Markup>
+  </Customer>
 </CustomerMarkups>

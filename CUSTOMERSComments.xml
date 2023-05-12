@@ -654,4 +654,14 @@
     <Comment>
     </Comment>
   </Customer>
+  <Customer Id="7cde4873-22a6-4ef9-89ff-f58345b74303">
+    <Name>ossmo</Name>
+    <Comment>
+    </Comment>
+  </Customer>
+  <Customer Id="c6422be6-55a5-4560-9c4a-8727648c29f4">
+    <Name>Asmussen IT</Name>
+    <Comment>
+    </Comment>
+  </Customer>
 </CustomerComments>

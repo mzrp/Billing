@@ -477,8 +477,8 @@ namespace RPNAVConnect
                         // UpdateBtn Button is pressed
                         if (eventTarget.IndexOf("butPushCustomer_") == 0)
                         {
-                            string sCustVatNo = eventTarget.Substring(eventTarget.IndexOf("butPushCustomer_") + 16);
-                            PushSingleCustomer(sCustVatNo);
+                            string sCustVatId = eventTarget.Substring(eventTarget.IndexOf("butPushCustomer_") + 16);
+                            PushSingleCustomer(sCustVatId);
                         }
                     }
                 }
@@ -561,16 +561,16 @@ namespace RPNAVConnect
             }
         }
 
-        public async void PushSingleCustomer(string sCustomerVAT)
+        public async void PushSingleCustomer(string sCustomerVATId)
         {
             if (rbtnSeats.Checked == true)
             {
-                await GetInvoiceData("Seats", "BC", sCustomerVAT);
+                await GetInvoiceData("Seats", "BC", sCustomerVATId);
             }
 
             if (rtbnUsage.Checked == true)
             {
-                await GetInvoiceData("Usage", "BC", sCustomerVAT);
+                await GetInvoiceData("Usage", "BC", sCustomerVATId);
             }
         }
 
@@ -998,7 +998,7 @@ namespace RPNAVConnect
         }
 
 
-        public async Task GetInvoiceData(string sRPBillingType, string sAction, string sCustomerVAT)
+        public async Task GetInvoiceData(string sRPBillingType, string sAction, string sCustomerVATIdSingle)
         {
 
             string sRPInvoiceType = "Recurring";
@@ -1192,16 +1192,20 @@ namespace RPNAVConnect
                                                     {
                                                         string sCustomerVATNo = "n/a";
                                                         string sCustomerVATId = "n/a";
+                                                        string sCustomerVATName = "n/a";
+                                                        string sCustomerCSP2 = "n/a";
                                                         if (sAllInvoiceCustomers.IndexOf(sCustomerName + "ђ" + sCustomerId) == -1)
                                                         {
                                                             string sBCCuromerData = DoesCustomerExists(sCustomerId);
                                                             if (sBCCuromerData == "n/a")
                                                             {
-                                                                sBCCuromerData = "n/aђn/a";
+                                                                sBCCuromerData = "n/aђn/aђn/aђn/a";
                                                             }
                                                             sCustomerVATNo = sBCCuromerData.Split('ђ')[0];
                                                             sCustomerVATId = sBCCuromerData.Split('ђ')[1];
-                                                            sAllInvoiceCustomers += sCustomerName + "ђ" + sCustomerId + "ђ" + sCustomerVATNo + "ђ" + sCustomerVATId + "ш";
+                                                            sCustomerVATName = sBCCuromerData.Split('ђ')[2];
+                                                            sCustomerCSP2 = sBCCuromerData.Split('ђ')[3];
+                                                            sAllInvoiceCustomers += sCustomerName + "ђ" + sCustomerId + "ђ" + sCustomerVATNo + "ђ" + sCustomerVATId + "ђ" + sCustomerVATName + "ђ" + sCustomerCSP2 + "ш";
                                                         }
                                                     }
                                                 }
@@ -1219,8 +1223,10 @@ namespace RPNAVConnect
                                                     string sCustId = sInvoiceCustomer.Split('ђ')[1];
                                                     string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
+                                                    string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
+                                                    string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
 
-                                                    if (sCustVatNo == "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ш";
+                                                    if (sCustVatNo == "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ђ" + sCustVatName + "ђ" + sCustCSP2 + "ш";
                                                 }
                                             }
                                             foreach (string sInvoiceCustomer in sAllInvoiceCustomersArrayFirst)
@@ -1231,8 +1237,10 @@ namespace RPNAVConnect
                                                     string sCustId = sInvoiceCustomer.Split('ђ')[1];
                                                     string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
+                                                    string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
+                                                    string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
 
-                                                    if (sCustVatNo != "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ш";
+                                                    if (sCustVatNo != "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ђ" + sCustVatName + "ђ" + sCustCSP2 + "ш";
                                                 }
                                             }
 
@@ -1296,17 +1304,29 @@ namespace RPNAVConnect
                                                     string sCustId = sInvoiceCustomer.Split('ђ')[1];
                                                     string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
+                                                    string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
+                                                    string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
 
                                                     string sWarning1 = "";
                                                     string sWarning2 = "";
                                                     if (sCustVatNo == "n/a")
                                                     {
                                                         sWarning1 = "<font color='red'>";
+                                                        sWarning1 = "<font color='red'>";
                                                         sWarning2 = "</font>";
                                                     }
 
                                                     AzureBillingDataL.Text += "<tr>";
-                                                    AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCust + sWarning2 + "</td>";
+
+                                                    if (sCustCSP2 == "yes")
+                                                    {
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustVatName + " (" + sCust + ")" + sWarning2 + "</td>";
+                                                    }
+                                                    else
+                                                    {
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustVatName + sWarning2 + "</td>";
+                                                    }
+
                                                     AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustId + sWarning2 + "</td>";
                                                     AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustVatNo + sWarning2 + "</td>";
 
@@ -1342,8 +1362,8 @@ namespace RPNAVConnect
                                                     else
                                                     {
                                                         string sButtonId = sCustVatNo;
-                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'><input id=\"txtCommentCustomer_" + sCustVatNo + "\" type=\"text\" name=\"txtCommentCustomer_" + sCustVatNo + "\" value=\"\" /></td>";
-                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'><input id=\"butPushCustomer_" + sCustVatNo + "\" type=\"button\" name=\"butPushCustomer_" + sCustVatNo + "\" value=\"Push to BC\" onclick=\"invokeLoader();__doPostBack('butPushCustomer_" + sCustVatNo + "','')\" /></td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'><input id=\"txtCommentCustomer_" + sCustId + "\" type=\"text\" name=\"txtCommentCustomer_" + sCustId + "\" value=\"\" /></td>";
+                                                        AzureBillingDataL.Text += "<td style='vertical-align: middle;'><input id=\"butPushCustomer_" + sCustId + "\" type=\"button\" name=\"butPushCustomer_" + sCustId + "\" value=\"Push to BC\" onclick=\"invokeLoader();__doPostBack('butPushCustomer_" + sCustId + "','')\" /></td>";
                                                     }
                                                     AzureBillingDataL.Text += "</tr>";
                                                 }
@@ -1413,6 +1433,8 @@ namespace RPNAVConnect
                                                     string sCustId = sInvoiceCustomer.Split('ђ')[1];
                                                     string sCustVatNo = sInvoiceCustomer.Split('ђ')[2];
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
+                                                    string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
+                                                    string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
 
                                                     if ((sCustVatNo != "n/a") || (sAction == "Data"))
                                                     {
@@ -1432,7 +1454,7 @@ namespace RPNAVConnect
                                                         List<PostSalesInvoiceLine> InvoiceLinesList = new List<PostSalesInvoiceLine>();
                                                         int iInvoiceLinesCount = 0;
 
-                                                        if ((sAction == "BC") && ((sCustomerVAT == "ALL") || (sCustomerVAT == sCustVatNo)))
+                                                        if ((sAction == "BC") && ((sCustomerVATIdSingle == "ALL") || (sCustomerVATIdSingle == sCustId)))
                                                         {
                                                             order.customerNumber = sCustVatNo;
                                                             order.billToCustomerNumber = sCustVatNo;
@@ -1769,10 +1791,10 @@ namespace RPNAVConnect
                                                                             {
                                                                                 try
                                                                                 {
-                                                                                    sCustComment = Request.Form["txtCommentCustomer_" + sCustVatNo].ToString();
+                                                                                    sCustComment = Request.Form["txtCommentCustomer_" + sCustId].ToString();
                                                                                     if (sCustComment != "")
                                                                                     {
-                                                                                        lastscriptdiv.InnerHtml += "document.getElementById(\"txtCommentCustomer_" + sCustVatNo + "\").value = \"" + sCustComment.Replace("\"", "'") + "\";";
+                                                                                        lastscriptdiv.InnerHtml += "document.getElementById(\"txtCommentCustomer_" + sCustId + "\").value = \"" + sCustComment.Replace("\"", "'") + "\";";
                                                                                     }
                                                                                 }
                                                                                 catch (Exception ex)
@@ -2693,20 +2715,20 @@ namespace RPNAVConnect
                                                                 PushingDataL.Text = "";
                                                             }
 
-                                                            if ((sAction == "BC") && ((sCustomerVAT == "ALL") || (sCustomerVAT == sCustVatNo)))
+                                                            if ((sAction == "BC") && ((sCustomerVATIdSingle == "ALL") || (sCustomerVATIdSingle == sCustId)))
                                                             {
                                                                 PushDataToNavB.Enabled = false;
                                                                 PushDataToNavB.Visible = false;
                                                                 PushingDataL.Text = "Data pushed to BC.";
 
-                                                                if (sCustomerVAT == sCustVatNo)
+                                                                if (sCustomerVATIdSingle == sCustId)
                                                                 {
                                                                     PushingDataL.Text = "Customer " + sCust + " (" + sCustVatNo + ") pushed to BC.";
                                                                 }
                                                             }
                                                         }
 
-                                                        if ((sAction == "BC") && ((sCustomerVAT == "ALL") || (sCustomerVAT == sCustVatNo)))
+                                                        if ((sAction == "BC") && ((sCustomerVATIdSingle == "ALL") || (sCustomerVATIdSingle == sCustId)))
                                                         {
                                                             if (iInvoiceLinesCount > 0)
                                                             {
@@ -2723,11 +2745,11 @@ namespace RPNAVConnect
                                                                         }
                                                                     }
 
-                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount - iAzureInvoiceLinesCount + 7;
+                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount - iAzureInvoiceLinesCount + 8;
                                                                 }
                                                                 else
                                                                 {
-                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount + 2;
+                                                                    iCompleteInvoiceLinesCount = iInvoiceLinesCount + 3;
                                                                 }
 
                                                                 order.SalesLines = new PostSalesInvoiceLine[iCompleteInvoiceLinesCount];
@@ -2798,6 +2820,14 @@ namespace RPNAVConnect
                                                                 int iOrderLinesCount = 0;
 
                                                                 // add comment zero zero
+                                                                order.SalesLines[iOrderLinesCount].itemId = "";
+                                                                order.SalesLines[iOrderLinesCount].lineType = "";
+                                                                order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
+                                                                order.SalesLines[iOrderLinesCount].quantity = 0;
+                                                                order.SalesLines[iOrderLinesCount].unitPrice = 0;
+                                                                order.SalesLines[iOrderLinesCount].description = "Name: " + sCust;
+                                                                iOrderLinesCount++;
+
                                                                 order.SalesLines[iOrderLinesCount].itemId = "";
                                                                 order.SalesLines[iOrderLinesCount].lineType = "";
                                                                 order.SalesLines[iOrderLinesCount].lineObjectNumber = "";
@@ -2985,7 +3015,7 @@ namespace RPNAVConnect
                                                         // save customer csv file
                                                         if (sAction == "BC")                                                        
                                                         {
-                                                            if (((sCustomerVAT == "ALL") || (sCustomerVAT == sCustVatNo)))
+                                                            if (((sCustomerVATIdSingle == "ALL") || (sCustomerVATIdSingle == sCustId)))
                                                             {
                                                                 // save usage
                                                                 try
@@ -3106,6 +3136,7 @@ namespace RPNAVConnect
         {
             string sResult = "n/a";
             string sCustomerNo = "n/a";
+            string sCustomerCSP2 = "n/a";
 
             try
             {
@@ -3157,7 +3188,7 @@ namespace RPNAVConnect
                 sResult = "n/a";
             }
 
-            if (sCustomerNo != "n/a")
+            if (sCustomerNo == "n/a")
             {
                 try
                 {
@@ -3193,6 +3224,7 @@ namespace RPNAVConnect
                                 foreach (var cust in sExport.value)
                                 {
                                     sCustomerNo = cust.No;
+                                    sCustomerCSP2 = "yes";
                                     break;
 
                                 }
@@ -3245,7 +3277,7 @@ namespace RPNAVConnect
                                 int iCount = 1;
                                 foreach (var cust in sExport.value)
                                 {
-                                    sResult = cust.number + "ђ" + cust.id;
+                                    sResult = cust.number + "ђ" + cust.id + "ђ" + cust.displayName + "ђ" + sCustomerCSP2;
                                     break;
 
                                 }

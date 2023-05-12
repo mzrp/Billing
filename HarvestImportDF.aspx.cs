@@ -761,69 +761,75 @@ namespace RPNAVConnect
                         {
                             if (DoesCustomerExists(sResultCustomer.address.PadLeft(8, '0')) == "n/a")
                             {
-                                try
+                                if (sResultCustomer.address != "")
                                 {
-                                    string sNewGuid = Guid.NewGuid().ToString();
-                                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v1.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers") as HttpWebRequest;
-                                    if (webRequestAUTH != null)
+                                    if (sResultCustomer.address.Length > 5)
                                     {
-                                        webRequestAUTH.Method = "POST";
-                                        webRequestAUTH.Host = "api.businesscentral.dynamics.com";
-                                        webRequestAUTH.ContentType = "application/json";
-                                        webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
-                                        //webRequestAUTH.Headers["If-Match"] = "*";
-
-                                        // NAV restriction for 50 chars max
-                                        string sCustName = sResultCustomer.name;
-                                        if (sResultCustomer.name.Length > 50)
+                                        try
                                         {
-                                            sCustName = sResultCustomer.name.Substring(0, 50);
-                                        }
-
-                                        string jsonToSend = "{";
-                                        jsonToSend += "\"displayName\": \"" + sCustName + "\",";
-                                        jsonToSend += "\"number\": \"" + sResultCustomer.address.PadLeft(8, '0') + "\",";
-                                        jsonToSend += "\"type\": \"Company\",";
-                                        jsonToSend += "\"addressLine1\": \"" + sResultCustomer.address.PadLeft(8, '0') + "\",";
-                                        jsonToSend += "\"addressLine2\": \"\",";
-                                        jsonToSend += "\"city\": \"\",";
-                                        jsonToSend += "\"state\": \"\",";
-                                        jsonToSend += "\"country\": \"\",";
-                                        jsonToSend += "\"postalCode\": \"\",";
-                                        jsonToSend += "\"phoneNumber\": \"\",";
-                                        jsonToSend += "\"email\": \"\",";
-                                        jsonToSend += "\"website\": \"\",";
-                                        jsonToSend += "\"taxLiable\": true,";
-                                        jsonToSend += "\"blocked\": \" \"";
-                                        jsonToSend += "}";
-
-                                        byte[] bytes = Encoding.UTF8.GetBytes(jsonToSend);
-                                        webRequestAUTH.ContentLength = bytes.Length;
-
-                                        Stream requestStream = webRequestAUTH.GetRequestStream();
-                                        requestStream.Write(bytes, 0, bytes.Length);
-                                        requestStream.Close();
-
-                                        using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
-                                        {
-                                            using (var srW = new StreamReader(rW))
+                                            string sNewGuid = Guid.NewGuid().ToString();
+                                            var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers") as HttpWebRequest;
+                                            if (webRequestAUTH != null)
                                             {
-                                                var sExportAsJson = srW.ReadToEnd();
-                                                var sExport = JsonConvert.DeserializeObject<BCCustomer>(sExportAsJson);
+                                                webRequestAUTH.Method = "POST";
+                                                webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                                                webRequestAUTH.ContentType = "application/json";
+                                                webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
+                                                webRequestAUTH.Headers["If-Match"] = "*";
 
-                                                string sNewCusotmerId = sExport.id;
-                                                string sNewCusotmerName = sExport.displayName;
-                                                string sNewCusotmerNumber = sExport.number;
+                                                // NAV restriction for 50 chars max
+                                                string sCustName = sResultCustomer.name;
+                                                if (sResultCustomer.name.Length > 50)
+                                                {
+                                                    sCustName = sResultCustomer.name.Substring(0, 50);
+                                                }
+
+                                                string jsonToSend = "{";
+                                                jsonToSend += "\"displayName\": \"" + sCustName + "\",";
+                                                jsonToSend += "\"number\": \"" + sResultCustomer.address.PadLeft(8, '0') + "\",";
+                                                jsonToSend += "\"type\": \"Company\",";
+                                                jsonToSend += "\"addressLine1\": \"" + sResultCustomer.address.PadLeft(8, '0') + "\",";
+                                                jsonToSend += "\"addressLine2\": \"\",";
+                                                jsonToSend += "\"city\": \"\",";
+                                                jsonToSend += "\"state\": \"\",";
+                                                jsonToSend += "\"country\": \"\",";
+                                                jsonToSend += "\"postalCode\": \"\",";
+                                                jsonToSend += "\"phoneNumber\": \"\",";
+                                                jsonToSend += "\"email\": \"\",";
+                                                jsonToSend += "\"website\": \"\",";
+                                                jsonToSend += "\"taxLiable\": true,";
+                                                jsonToSend += "\"blocked\": \" \"";
+                                                jsonToSend += "}";
+
+                                                byte[] bytes = Encoding.UTF8.GetBytes(jsonToSend);
+                                                webRequestAUTH.ContentLength = bytes.Length;
+
+                                                Stream requestStream = webRequestAUTH.GetRequestStream();
+                                                requestStream.Write(bytes, 0, bytes.Length);
+                                                requestStream.Close();
+
+                                                using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                                                {
+                                                    using (var srW = new StreamReader(rW))
+                                                    {
+                                                        var sExportAsJson = srW.ReadToEnd();
+                                                        var sExport = JsonConvert.DeserializeObject<BCCustomer>(sExportAsJson);
+
+                                                        string sNewCusotmerId = sExport.id;
+                                                        string sNewCusotmerName = sExport.displayName;
+                                                        string sNewCusotmerNumber = sExport.number;
+                                                    }
+                                                }
+
+                                                webRequestAUTH = null;
                                             }
                                         }
-
-                                        webRequestAUTH = null;
+                                        catch (Exception ex)
+                                        {
+                                            ex.ToString();
+                                            bCustomerCreatedInNav = false;
+                                        }
                                     }
-                                }
-                                catch (Exception ex)
-                                {
-                                    ex.ToString();
-                                    bCustomerCreatedInNav = false;
                                 }
                             }
                         }
