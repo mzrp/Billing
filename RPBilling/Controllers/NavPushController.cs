@@ -185,7 +185,7 @@ namespace RackPeople.BillingAPI.Controllers
         public string itemCategoryCode { get; set; }
         public bool blocked { get; set; }
         public string gtin { get; set; }
-        public int inventory { get; set; }
+        public double inventory { get; set; }
         public int unitPrice { get; set; }
         public bool priceIncludesTax { get; set; }
         public int unitCost { get; set; }
