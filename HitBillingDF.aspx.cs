@@ -95,7 +95,7 @@ namespace RPNAVConnect
                 HitBillingDataL.Text += "<tr class=\"bg-danger text-white\">";
                 HitBillingDataL.Text += "<th>Name</th>";
                 HitBillingDataL.Text += "<th>Azure Group</th>";
-                HitBillingDataL.Text += "<th>Navision Id</th>";
+                HitBillingDataL.Text += "<th>BC No</th>";
                 HitBillingDataL.Text += "<th>Users #</th>";
                 HitBillingDataL.Text += "<th></th>";
                 HitBillingDataL.Text += "<th></th>";
@@ -170,7 +170,8 @@ namespace RPNAVConnect
         private string GetExcelData(int sUL, int sUB, int sUE, CustomerData cd)
         {
             string sResult = "";
-            string filePath = ConfigurationManager.AppSettings["excelpath"].ToString();
+            //string filePath = ConfigurationManager.AppSettings["excelpath"].ToString();
+            string filePath = "C:\\Windows\\System32\\config\\systemprofile\\Desktop\\HIT prisberegner v2-macro.xlsm";
 
             string dbPath = ConfigurationManager.AppSettings["dbpath"].ToString();
             System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);

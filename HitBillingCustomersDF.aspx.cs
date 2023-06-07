@@ -627,7 +627,7 @@ namespace RPNAVConnect
                 HitBillingDataL.Text += "<tr class=\"bg-danger text-white\">";
                 HitBillingDataL.Text += "<th width=\"200px\">Name</th>";
                 HitBillingDataL.Text += "<th width=\"200px\">Azure Group</th>";
-                HitBillingDataL.Text += "<th>Navision Id</th>";
+                HitBillingDataL.Text += "<th>BC No</th>";
                 HitBillingDataL.Text += "<th>Users #</th>";
                 HitBillingDataL.Text += "</tr>";
 
