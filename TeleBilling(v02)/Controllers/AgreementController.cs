@@ -1,12 +1,15 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
+using System.Configuration;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Web;
 using System.Web.Mvc;
+using System.Web.Services.Description;
 using TeleBilling_v02_.Models;
 using TeleBilling_v02_.Models.DisplayModels;
-using TeleBilling_v02_.NavCustomerInfo;
 using TeleBilling_v02_.Repository;
 using TeleBilling_v02_.Repository.Navision;
 
@@ -22,9 +25,9 @@ namespace TeleBilling_v02_.Controllers
             this.agreementRepository = new AgreementRepository(new DBModelsContainer());
             this.fileRepository = new FileRepository(new DBModelsContainer());
 
-            CustomerInfo2_Service service = new CustomerInfo2_Service();
-            service.Credentials= new NetworkCredential("rpnavapi", "Telefon1", "Gowingu");
-            this.customerInfo2Repository = new CustomerInfo2Repository(service);
+            //CustomerInfo2_Service service = new CustomerInfo2_Service();
+            //service.Credentials= new NetworkCredential("rpnavapi", "Telefon1", "Gowingu");
+            //this.customerInfo2Repository = new CustomerInfo2Repository(service);
         }
         public AgreementController(IAgreementRepository agreementRepository, IFileRepository fileRepository, ICustomerInfo2Repository customerInfo2Repository)
         {
@@ -350,6 +353,108 @@ namespace TeleBilling_v02_.Controllers
             return View(display);
         }
 
+        public string GetBCToken()
+        {
+            string sResult = "n/a";
+
+            try
+            {
+                string dbPath = ConfigurationManager.AppSettings["dbpath"].ToString();
+                System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
+                dbConn.Open();
+
+                string sDate = DateTime.Now.Year.ToString().PadLeft(4, '0') + "-";
+                sDate += DateTime.Now.Month.ToString().PadLeft(2, '0') + "-";
+                sDate += DateTime.Now.Day.ToString().PadLeft(2, '0') + " ";
+                sDate += DateTime.Now.AddMinutes(10).Hour.ToString().PadLeft(2, '0') + ":";
+                sDate += DateTime.Now.AddMinutes(10).Minute.ToString().PadLeft(2, '0') + ":";
+                sDate += DateTime.Now.AddMinutes(10).Second.ToString().PadLeft(2, '0') + ".000";
+
+                string strSqlQuery = "SELECT TOP 1 * FROM [RPNAVConnect].[dbo].[BCLoginLog] WHERE [TokenExpiresAt] > '" + sDate + "' ORDER BY Id DESC";
+                System.Data.OleDb.OleDbDataReader oleReader;
+                System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(strSqlQuery, dbConn);
+                oleReader = cmd.ExecuteReader();
+                if (oleReader.Read())
+                {
+                    if (!oleReader.IsDBNull(1))
+                    {
+                        string sAuthToken = oleReader.GetString(1);
+                        string sTokenType = oleReader.GetString(2);
+                        int lExpiresIn = oleReader.GetInt32(3);
+                        DateTime dExpiresAt = oleReader.GetDateTime(4);
+
+                        if (DateTime.Now.AddMinutes(15) < dExpiresAt)
+                        {
+                            sResult = sAuthToken;
+                        }
+                    }
+                }
+                oleReader.Close();
+
+                dbConn.Close();
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+                sResult = "n/a";
+            }
+
+            return sResult;
+        }
+
+        private BCCustomers GetAllCustomers()
+        {
+            BCCustomers AllBCCustomers = new BCCustomers();
+
+            string sAuthToken = GetBCToken();
+
+            if (sAuthToken != "n/a")
+            {
+                try
+                {
+                    //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                    ServicePointManager.Expect100Continue = true;
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                           | SecurityProtocolType.Tls11
+                           | SecurityProtocolType.Tls12
+                           | SecurityProtocolType.Ssl3;
+
+                    System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers") as HttpWebRequest;
+                    if (webRequestAUTH != null)
+                    {
+                        webRequestAUTH.Method = "GET";
+                        webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                        webRequestAUTH.ContentType = "application/json";
+                        webRequestAUTH.MediaType = "application/json";
+                        webRequestAUTH.Accept = "application/json";
+
+                        webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
+
+                        using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                        {
+                            using (var srW = new StreamReader(rW))
+                            {
+                                var sExportAsJson = srW.ReadToEnd();
+                                AllBCCustomers = JsonConvert.DeserializeObject<BCCustomers>(sExportAsJson);
+                            }
+                        }
+
+                        webRequestAUTH = null;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ex.ToString();
+                }
+            }
+
+            return AllBCCustomers;
+        }
+
+
         public ActionResult CreateAgreement()
         {
             Agreement agreement = new Agreement();
@@ -376,8 +481,12 @@ namespace TeleBilling_v02_.Controllers
             }
 
             ViewBag.FileList = new SelectList(fileList, "Id", "Name");
-            List<CustomerInfo2> customerList = customerInfo2Repository.GetCustomers();
-            ViewBag.CustomerList = new SelectList(customerList, "No", "Name");
+
+            //List<CustomerInfo2> customerList = customerInfo2Repository.GetCustomers();
+            //ViewBag.CustomerList = new SelectList(customerList, "No", "Name");
+
+            BCCustomers AllBCCustomers = GetAllCustomers();
+            ViewBag.CustomerList = new SelectList(AllBCCustomers.value, "number", "displayName");
 
             string username = Session["UserName"].ToString();
 
@@ -407,7 +516,7 @@ namespace TeleBilling_v02_.Controllers
         public ActionResult Create(Agreement model)
         {
             
-            model.Customer_name = customerInfo2Repository.GetCustomer(model.Customer_cvr).Name;
+            //model.Customer_name = customerInfo2Repository.GetCustomer(model.Customer_cvr).Name;
             zoneReords= fileRepository.GetFileZoneDetails(model.CSVFileId).ToList();
 
             bool existed = agreementRepository.GetAgreements().ToList().Any(x=> Convert.ToInt64(x.Subscriber_range_start) <= Convert.ToInt64(model.Subscriber_range_start)

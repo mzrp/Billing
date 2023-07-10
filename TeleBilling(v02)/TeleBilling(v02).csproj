@@ -316,26 +316,6 @@
     <Compile Include="Repository\Navision\InvoiceGeneratorTest.cs" />
     <Compile Include="Repository\UserRepository.cs" />
     <Compile Include="Utilities\Utilities.cs" />
-    <Compile Include="Web References\NavCustomerInfo\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\NAVSalesInvoice\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\TestNavCustomerInfo\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
-    <Compile Include="Web References\TestNAVSalesInvoice\Reference.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Reference.map</DependentUpon>
-    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="ClassDiagram1.cd" />
@@ -451,43 +431,11 @@
     <Content Include="Views\File\ViewZonesDetails.cshtml" />
     <Content Include="Views\Agreement\ViewAgreementDetails.cshtml" />
     <Content Include="Views\Agreement\ViewAgreementFileZoneDetails.cshtml" />
-    <Content Include="Web References\NavCustomerInfo\CustomerInfo2.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
     <Content Include="Views\File\UploadPriceFile.cshtml" />
     <Content Include="Views\File\ViewPriceFiles.cshtml" />
     <Content Include="Views\Agreement\ViewDetails.cshtml" />
     <Content Include="Views\Agreement\ViewZoneDetails.cshtml" />
     <Content Include="Views\Didww\ViewDidww.cshtml" />
-    <None Include="Web References\NavCustomerInfo\CustomerInfo2.wsdl" />
-    <Content Include="Web References\NavCustomerInfo\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <Content Include="Web References\TestNavCustomerInfo\CustomerInfo2.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <Content Include="Web References\NAVSalesInvoice\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <Content Include="Web References\NAVSalesInvoice\SalesInvoice_Service.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <None Include="Web References\NAVSalesInvoice\SalesInvoice_Service.wsdl" />
-    <None Include="Web References\TestNavCustomerInfo\CustomerInfo2.wsdl" />
-    <Content Include="Web References\TestNavCustomerInfo\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <Content Include="Web References\TestNAVSalesInvoice\Reference.map">
-      <Generator>MSDiscoCodeGenerator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </Content>
-    <Content Include="Web References\TestNAVSalesInvoice\SalesInvoice_Service.datasource">
-      <DependentUpon>Reference.map</DependentUpon>
-    </Content>
-    <None Include="Web References\TestNAVSalesInvoice\SalesInvoice_Service.wsdl" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -515,52 +463,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <WebReferenceUrl Include="https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Consulting%2520ApS/Page/CustomerInfo2%3ftenant=rackpeople">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\NavCustomerInfo\</RelPath>
-      <UpdateFromURL>https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Consulting%2520ApS/Page/CustomerInfo2%3ftenant=rackpeople</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>TeleBilling_v02__NavCustomerInfo_CustomerInfo2_Service</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Consulting%2520ApS/Page/SalesInvoice_Service%3ftenant=rackpeople">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\NAVSalesInvoice\</RelPath>
-      <UpdateFromURL>https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Consulting%2520ApS/Page/SalesInvoice_Service%3ftenant=rackpeople</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>TeleBilling_v02__NAVSalesInvoice_SalesInvoice_Service_Service</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Test%2520System/Page/CustomerInfo2%3ftenant=rackpeople">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\TestNavCustomerInfo\</RelPath>
-      <UpdateFromURL>https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Test%2520System/Page/CustomerInfo2%3ftenant=rackpeople</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>TeleBilling_v02__TestNavCustomerInfo_CustomerInfo2_Service</CachedSettingsPropName>
-    </WebReferenceUrl>
-    <WebReferenceUrl Include="https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Test%2520System/Page/SalesInvoice_Service%3ftenant=rackpeople">
-      <UrlBehavior>Dynamic</UrlBehavior>
-      <RelPath>Web References\TestNAVSalesInvoice\</RelPath>
-      <UpdateFromURL>https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%2520Test%2520System/Page/SalesInvoice_Service%3ftenant=rackpeople</UpdateFromURL>
-      <ServiceLocationURL>
-      </ServiceLocationURL>
-      <CachedDynamicPropName>
-      </CachedDynamicPropName>
-      <CachedAppSettingsObjectName>Settings</CachedAppSettingsObjectName>
-      <CachedSettingsPropName>TeleBilling_v02__TestNAVSalesInvoice_SalesInvoice_Service_Service</CachedSettingsPropName>
-    </WebReferenceUrl>
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="Properties\Resources.resx">

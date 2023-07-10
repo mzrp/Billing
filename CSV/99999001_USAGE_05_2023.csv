@@ -1,0 +1,26 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Virtual Machines BS Series - Reserved VM Instance; ,1.00,89.03
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,SQL Database Single Standard - SQL Database Single ,62.00,172.13
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure App Service Premium v2 Plan - Azure App ,744.00,853.73
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure Database for MySQL Single Server - Backup ,33.13,20.91
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.02,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure App Service Free Plan - Azure App Service ,11.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,0.02,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Standard HDD Managed Disks - Standard HDD Managed ,487.48,1.40
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Tables - Tables - LRS - new ,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,2.15,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Tables - Tables - LRS - new ,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.02,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure Database for MySQL Single Server Basic - ,10.00,6.31
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,SQL Database - LTR Backup Storage - SQL Database - ,0.60,0.19
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.64,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure Database for MySQL Single Server Basic - ,744.00,155.38
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Rtn Preference: MGN - Rtn Preference: MGN - new ,49.68,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,IP Addresses - IP Addresses - Standard IPv4 - new ,744.00,21.34
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,939.73,129.40
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Standard HDD Managed Disks - Standard HDD Managed ,1.00,33.78
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Tables - Tables - LRS - new ,0.45,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Virtual Machines RI - Virtual Machines RI - new ,743.98,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Windows Server Burst - Windows Server Burst - 2 ,743.98,34.15
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure App Service Free Plan - Azure App Service ,10.00,0.00

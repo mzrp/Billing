@@ -5,10 +5,10 @@ using System.Net;
 using System.Web;
 using TeleBilling_v02_.Models;
 using TeleBilling_v02_.Models.Navision;
-using TeleBilling_v02_.TestNAVSalesInvoice;
 
 namespace TeleBilling_v02_.Repository.Navision
 {
+    /*
     public class InvoiceGeneratorTest
     {
         static SalesInvoice_Service_Service salesInvoiceService= null;
@@ -331,4 +331,5 @@ namespace TeleBilling_v02_.Repository.Navision
             return errorMsg;
         }
     }
+    */
 }

@@ -7,7 +7,6 @@ using System.Web;
 using System.Web.Mvc;
 using TeleBilling_v02_.Models;
 using TeleBilling_v02_.Models.DisplayModels;
-using TeleBilling_v02_.NavCustomerInfo;
 using TeleBilling_v02_.Repository;
 using TeleBilling_v02_.Repository.Navision;
 using TeleBilling_v02_.Models.Navision;

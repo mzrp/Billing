@@ -1,0 +1,33 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot LRS - EU North - new ,0.10,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Storage - Blob Storage - Hot GRS - EU North - ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,4.16,0.04
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,General Block Blob v2 Hierarchical Namespace - ,0.01,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,18907.03,1887.05
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - GRS - new ,0.08,0.02
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Queues v2 - Queues v2 - GRS - EU North - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Storage - Bandwidth - Storage - Bandwidth - ,0.01,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot GRS - EU North - new ,0.15,0.13
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - new ,0.21,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - RA-GRS - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - GRS - new ,0.22,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot LRS - EU North - new ,0.18,0.01
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,38.60,0.39
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Storage - Bandwidth - Storage - Bandwidth - ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Rtn Preference: MGN - Rtn Preference: MGN - new ,2812.01,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - GRS - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Rtn Preference: MGN - Rtn Preference: MGN - new ,24.88,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,0.06,0.01
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Storage - Blob Storage - Hot GRS - EU North - ,0.03,0.02
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Features - Blob Features - SSH File Transfer ,353.00,704.64
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot LRS - EU North - new ,0.01,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,1031.84,411.94
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot GRS - EU North - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Queues v2 - Queues v2 - LRS - EU North - new ,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.05,0.00

@@ -22,49 +22,5 @@ namespace TeleBilling_v02_.Properties {
                 return defaultInstance;
             }
         }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/" +
-            "Page/CustomerInfo2?tenant=rackpeople")]
-        public string TeleBilling_v02__NavCustomerInfo_CustomerInfo2_Service {
-            get {
-                return ((string)(this["TeleBilling_v02__NavCustomerInfo_CustomerInfo2_Service"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Test%20System/Pag" +
-            "e/CustomerInfo2?tenant=rackpeople")]
-        public string TeleBilling_v02__TestNavCustomerInfo_CustomerInfo2_Service {
-            get {
-                return ((string)(this["TeleBilling_v02__TestNavCustomerInfo_CustomerInfo2_Service"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Consulting%20ApS/" +
-            "Page/SalesInvoice_Service?tenant=rackpeople")]
-        public string TeleBilling_v02__NAVSalesInvoice_SalesInvoice_Service_Service {
-            get {
-                return ((string)(this["TeleBilling_v02__NAVSalesInvoice_SalesInvoice_Service_Service"]));
-            }
-        }
-        
-        [global::System.Configuration.ApplicationScopedSettingAttribute()]
-        [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
-        [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.WebServiceUrl)]
-        [global::System.Configuration.DefaultSettingValueAttribute("https://navsrv02.gowingu.net:7047/DynamicsNAV90/WS/Rackpeople%20Test%20System/Pag" +
-            "e/SalesInvoice_Service?tenant=rackpeople")]
-        public string TeleBilling_v02__TestNAVSalesInvoice_SalesInvoice_Service_Service {
-            get {
-                return ((string)(this["TeleBilling_v02__TestNAVSalesInvoice_SalesInvoice_Service_Service"]));
-            }
-        }
     }
 }

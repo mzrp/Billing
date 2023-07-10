@@ -1,0 +1,37 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,SQL Database Single/Elastic Pool General Purpose - ,14.81,14.98
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Functions - Functions - new ,30393.00,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Tables - Tables - LRS - new ,15.79,0.04
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Azure Cosmos DB - Azure Cosmos DB - RUs - EU West ,3.34,6.18
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,SQL Database Single General Purpose - Serverless - ,113.46,481.42
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Blob Storage - Blob Storage - Hot LRS - EU West - ,110.95,3.53
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Functions - Functions - new ,10081.75,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Files - Files - LRS - new ,63.76,7.07
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,API Management - API Management - Developer - new ,162.00,78.81
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Azure Cosmos DB serverless - Azure Cosmos DB ,1.04,2.35
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Blob Storage - Blob Storage - Hot LRS - EU West - ,4.04,1.61
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Blob Storage - Blob Storage - Hot LRS - EU West - ,7.04,1.02
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Tables - Tables - LRS - new ,16.19,0.04
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Queues v2 - Queues v2 - LRS - EU West - new ,210.05,6.21
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,SQL Database Single Basic - SQL Database Single ,27.00,32.14
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Azure App Service Basic Plan - Azure App Service ,162.00,89.83
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Blob Storage - Blob Storage - Hot LRS - EU West - ,36.20,14.45
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Tables - Tables - LRS - new ,17.87,0.05
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Files - Files - LRS - new ,0.31,0.14
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Event Grid - Event Grid - new ,0.54,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Queues v2 - Queues v2 - LRS - EU West - new ,84.45,2.50
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Log Analytics - Log Analytics - Pay-as-you-go - EU ,1.90,41.98
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.02,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Azure App Service Free Plan - Azure App Service ,1.73,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Blob Storage - Blob Storage - Hot LRS - EU West - ,239.97,7.63
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Files - Files - LRS - new ,68.37,0.76
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Files - Files - LRS - new ,0.00,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Azure App Service Free Plan - Linux - Azure App ,0.22,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Service Bus - Service Bus - Basic - new ,0.73,0.27
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Queues v2 - Queues v2 - LRS - EU West - new ,0.00,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,App Configuration - App Configuration - Standard - ,7.00,62.10
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Files - Files - LRS - new ,36.73,0.41
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Tables - Tables - LRS - new ,1.60,0.53
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.01,0.00
+Safe Online ApS,a990ff53-e52e-4c97-b96e-966512b99dfa,38589962,Azure App Service Basic Plan - Linux - Azure App ,163.00,21.69

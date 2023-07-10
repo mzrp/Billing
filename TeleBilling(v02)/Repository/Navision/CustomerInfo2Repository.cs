@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Net;
 using System.Web;
-using TeleBilling_v02_.NavCustomerInfo;
 
 namespace TeleBilling_v02_.Repository.Navision
 {
     public interface ICustomerInfo2Repository:IDisposable
     {
         //CustomerInfo2_Service GetService(string username, string password, string domain);
-        List<CustomerInfo2> GetCustomers();
-        CustomerInfo2 GetCustomer(string customerCvr);
+        //List<CustomerInfo2> GetCustomers();
+        //CustomerInfo2 GetCustomer(string customerCvr);
     }
+
+    /*
     public class CustomerInfo2Repository: ICustomerInfo2Repository,IDisposable
     {
         private CustomerInfo2_Service service;
@@ -56,4 +57,6 @@ namespace TeleBilling_v02_.Repository.Navision
         }
         #endregion
     }
+    */
+
 }
