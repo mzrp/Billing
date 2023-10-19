@@ -4491,7 +4491,7 @@ if (document.getElementById('subinfodiv1')) {
                             l = n.nextInvoice,
                             s = i.format("YYYY-MM-DD"),
                             c = l.format("YYYY-MM-DD");
-                        return "Next period is " + s + ", and will be sent out " + c
+                        return "Next period is " + s + ", and is due after " + c
                     }, i = o, n(r, i)
                 }
                 return i(e, t), l(e, [{

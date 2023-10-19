@@ -1,0 +1,5 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  7/1/2023-7/31/2023  July   ,2.00,83.80
+RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Standard - Microsoft 365 Business Standard - addQuantity  7/25/2023-7/31/2023  July   ,1.00,-19.71
+RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Standard - Microsoft 365 Business Standard - addQuantity  7/25/2023-7/31/2023  July   ,2.00,39.43
+RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  7/1/2023-7/31/2023  July   ,1.00,87.30

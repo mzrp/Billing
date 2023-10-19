@@ -454,6 +454,64 @@ namespace TeleBilling_v02_.Controllers
             return AllBCCustomers;
         }
 
+        private string GetCustomerName(string filter)
+        {
+            string sResult = "n/a";
+
+            string sAuthToken = GetBCToken();
+
+            try
+            {
+                //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                       | SecurityProtocolType.Tls11
+                       | SecurityProtocolType.Tls12
+                       | SecurityProtocolType.Ssl3;
+
+                System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/api/v2.0/companies(9453c722-de43-ed11-946f-000d3ad96c72)/customers?$filter=number eq '" + filter + "'") as HttpWebRequest;
+                if (webRequestAUTH != null)
+                {
+                    webRequestAUTH.Method = "GET";
+                    webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                    webRequestAUTH.ContentType = "application/json";
+                    webRequestAUTH.MediaType = "application/json";
+                    webRequestAUTH.Accept = "application/json";
+
+                    webRequestAUTH.Headers["Authorization"] = "Bearer " + sAuthToken;
+
+                    using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                    {
+                        using (var srW = new StreamReader(rW))
+                        {
+                            var sExportAsJson = srW.ReadToEnd();
+                            var sExport = JsonConvert.DeserializeObject<BCCustomers>(sExportAsJson);
+
+                            int iCount = 1;
+                            foreach (var cust in sExport.value)
+                            {
+                                sResult = cust.displayName;
+                                break;
+
+                            }
+                        }
+                    }
+
+                    webRequestAUTH = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
+
+            return sResult;
+        }
+
+
 
         public ActionResult CreateAgreement()
         {
@@ -515,8 +573,8 @@ namespace TeleBilling_v02_.Controllers
         [HttpPost]
         public ActionResult Create(Agreement model)
         {
-            
-            //model.Customer_name = customerInfo2Repository.GetCustomer(model.Customer_cvr).Name;
+
+            model.Customer_name = GetCustomerName(model.Customer_cvr);
             zoneReords= fileRepository.GetFileZoneDetails(model.CSVFileId).ToList();
 
             bool existed = agreementRepository.GetAgreements().ToList().Any(x=> Convert.ToInt64(x.Subscriber_range_start) <= Convert.ToInt64(model.Subscriber_range_start)

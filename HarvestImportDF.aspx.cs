@@ -56,13 +56,13 @@ namespace RPNAVConnect
         public string number { get; set; }
         public string purchase_order { get; set; }
         public double amount { get; set; }
-        public double due_amount { get; set; }
+        public double? due_amount { get; set; }
         public object tax { get; set; }
-        public double tax_amount { get; set; }
+        public double? tax_amount { get; set; }
         public object tax2 { get; set; }
-        public double tax2_amount { get; set; }
+        public double? tax2_amount { get; set; }
         public object discount { get; set; }
-        public double discount_amount { get; set; }
+        public double? discount_amount { get; set; }
         public string subject { get; set; }
         public string notes { get; set; }
         public string state { get; set; }

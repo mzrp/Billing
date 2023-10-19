@@ -85,7 +85,7 @@ namespace RackPeople.BillingAPI.Controllers
             }
 
             // log save button
-            this.Audit(db, subscription, username + " saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
+            //this.Audit(db, subscription, username + " saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
 
             // Find the original entry, and ensure only a few fields can be changed
             var org = db.Subscriptions.FirstOrDefault(e => e.Id == subscription.Id);
@@ -180,19 +180,48 @@ namespace RackPeople.BillingAPI.Controllers
                 org.NavCustomerName = subscription.NavCustomerName;
                 org.NavCustomerId = subscription.NavCustomerId;
                 org.BillingCycle = subscription.BillingCycle;
-                org.FirstInvoice = subscription.FirstInvoice;
-                org.NextInvoice = subscription.NextInvoice;
+
+                bool bFirstInvoiceIsChanged = true;
+                TimeSpan tsFirstInvoice = org.FirstInvoice.Subtract(subscription.FirstInvoice);
+                if (org.FirstInvoice < subscription.FirstInvoice)
+                {
+                    tsFirstInvoice = subscription.FirstInvoice.Subtract(org.FirstInvoice);
+                }
+                if ((tsFirstInvoice.Days == 0) && (tsFirstInvoice.Hours <= 2))
+                {
+                    bFirstInvoiceIsChanged = false;
+                }
+                if (bFirstInvoiceIsChanged == true)
+                {
+                    org.FirstInvoice = subscription.FirstInvoice;
+                }
+
+                bool bNextInvoiceIsChanged = true;
+                TimeSpan tsNextInvoice = org.NextInvoice.Subtract(subscription.NextInvoice);
+                if (org.NextInvoice < subscription.NextInvoice)
+                {
+                    tsNextInvoice = subscription.NextInvoice.Subtract(org.NextInvoice);
+                }
+                if ((tsNextInvoice.Days == 0) && (tsNextInvoice.Hours <= 2))
+                {
+                    bNextInvoiceIsChanged = false;
+                }
+                if (bNextInvoiceIsChanged == true)
+                {
+                    org.NextInvoice = subscription.NextInvoice;
+                }
+
                 org.PaymentTerms = subscription.PaymentTerms;
                 org.Description = subscription.Description;
                 org.AdditionalText = subscription.AdditionalText;
                 org.AdditionalRPText = subscription.AdditionalRPText;
 
+                // log save button
+                this.Audit(db, subscription, username + " saved subscription - FID: '{0}' NID: '{1}'.", org.FirstInvoice.ToString(), org.NextInvoice.ToString());
+
                 db.SaveChanges();
 
                 sResult += "6";
-
-                // log save button
-                this.Audit(db, subscription, username + " saved subscription - FID: '{0}' NID: '{1}'.", subscription.FirstInvoice.ToString(), subscription.NextInvoice.ToString());
 
                 sResult += "7";
             }

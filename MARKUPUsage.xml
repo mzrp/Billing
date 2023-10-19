@@ -537,4 +537,24 @@
     <Name>Asmussen IT</Name>
     <Markup>18.75</Markup>
   </Customer>
+  <Customer Id="ab38ac1f-5a5b-41ef-a2a9-1f55ab8e8855">
+    <Name>Bluebird Medical AB</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="d9543cd0-0055-4986-bac9-3fe82fea6334">
+    <Name>Meetincph</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="3724caf6-cade-4c40-abc8-5a29387c6e00">
+    <Name>RAQA</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="e358c163-e76b-4e36-b57e-0b399670f7e2">
+    <Name>AL Copenhagen</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="997fc863-2b5e-4b88-b311-ce0b4d704e75">
+    <Name>Eco-Locaxion Holding ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
 </CustomerMarkups>

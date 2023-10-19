@@ -2612,11 +2612,13 @@ namespace RPNAVConnect
                                                                         sCustomerCSVSeatsFile.Add(sCustomerCSVLine);
                                                                     }
 
+                                                                    /*
                                                                     AzureBillingDataL.Text += "<br /><b>Total_Amount_Incl_VATSpecified:</b> FALSE<br />";
                                                                     AzureBillingDataL.Text += "<b>Total_Amount_Excl_VATSpecified:</b> FALSE<br />";
                                                                     AzureBillingDataL.Text += "<b>Total_VAT_AmountSpecified:</b> FALSE<br />";
                                                                     AzureBillingDataL.Text += "<b>Allow_Invoice_Disc:</b> TRUE<br />";
                                                                     AzureBillingDataL.Text += "<b>Allow_Item_Charge_Assignment:</b> TRUE<br />";
+                                                                    */
 
                                                                     AzureBillingDataL.Text += "<br />";
                                                                     iCount++;
