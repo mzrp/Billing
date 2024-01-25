@@ -689,4 +689,9 @@
     <Comment>
     </Comment>
   </Customer>
+  <Customer Id="9d0c7ba5-31c4-408f-8d87-1221c9ff7823">
+    <Name>Hjorth Snedker og Tømrer ApS</Name>
+    <Comment>
+    </Comment>
+  </Customer>
 </CustomerComments>

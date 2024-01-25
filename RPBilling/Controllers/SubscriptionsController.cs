@@ -105,7 +105,12 @@ namespace RackPeople.BillingAPI.Controllers
                 // Add each of the new products
                 foreach (var product in subscription.Products.Where(p => p.Id == 0))
                 {
-                    product.NavProductNumber = product.NavProductNumber.Substring(0, 4) + "." + product.NavProductNumber.Substring(4);
+                    if (product.NavProductNumber.Length == 7)
+                    {
+                        // 1010010 -> 1010.010
+                        product.NavProductNumber = product.NavProductNumber.Substring(0, 4) + "." + product.NavProductNumber.Substring(4);
+                    }
+
                     if (product.UnitType.Length == 7)
                     {
                         // 1010010 -> 1010.010
@@ -136,8 +141,13 @@ namespace RackPeople.BillingAPI.Controllers
                     var src = org.Products.First(p => p.Id == product.Id);
                     src.Description = product.Description;
                     src.NavPrice = product.NavPrice;
-                    src.NavProductNumber = product.NavProductNumber;
                     src.UnitAmount = product.UnitAmount;
+
+                    if (product.NavProductNumber.Length == 7)
+                    {
+                        // 1010010 -> 1010.010
+                        product.NavProductNumber = product.NavProductNumber.Substring(0, 4) + "." + product.NavProductNumber.Substring(4);
+                    }
 
                     if (product.UnitType.Length == 7)
                     {
@@ -145,8 +155,11 @@ namespace RackPeople.BillingAPI.Controllers
                         product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
                     }
 
+                    src.NavProductNumber = product.NavProductNumber;
+
                     src.UnitPrice = product.UnitPrice;
                     src.UnitType = product.UnitType;
+
                     db.Entry(src).State = EntityState.Modified;
                 }
                 db.SaveChanges();
@@ -260,7 +273,45 @@ namespace RackPeople.BillingAPI.Controllers
                     throw;
                 }
             }
-            
+
+            // Fix projects
+            try
+            {
+                var org = db.Subscriptions.FirstOrDefault(e => e.Id == subscription.Id);
+
+                foreach (var product in subscription.Products)
+                {
+                    var src = org.Products.First(p => p.Id == product.Id);
+                    src.Description = product.Description;
+                    src.NavPrice = product.NavPrice;
+                    src.UnitAmount = product.UnitAmount;
+
+                    if (product.NavProductNumber.Length == 7)
+                    {
+                        // 1010010 -> 1010.010
+                        product.NavProductNumber = product.NavProductNumber.Substring(0, 4) + "." + product.NavProductNumber.Substring(4);
+                    }
+
+                    if (product.UnitType.Length == 7)
+                    {
+                        // 1010010 -> 1010.010
+                        product.UnitType = product.UnitType.Substring(0, 4) + "." + product.UnitType.Substring(4);
+                    }
+
+                    src.NavProductNumber = product.NavProductNumber;
+
+                    src.UnitPrice = product.UnitPrice;
+                    src.UnitType = product.UnitType;
+
+                    db.Entry(src).State = EntityState.Modified;
+                }
+                db.SaveChanges();
+            }
+            catch( Exception ex)
+            {
+                ex.ToString();
+            }
+
             return CreatedAtRoute("DefaultApi", new { id = subscription.Id }, subscription);
         }
 

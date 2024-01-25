@@ -1,0 +1,24 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,1.14,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - US East - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.34,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Basic Plan - Linux - Azure App ,744.00,77.29
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Geographic Numbers - Geographic Numbers - DK - US ,7.00,33.13
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,General Block Blob - General Block Blob - LRS - ,0.02,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Free Plan - Azure App Service ,6.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,1488.00,1333.41
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.06,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,1488.00,858.53
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Service Bus - Service Bus - Standard - new ,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0.52,0.04
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,41.60,30.37
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.17,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Standard Plan - Azure App ,2232.00,1288.23
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,10.01,3.47
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Free Plan - Linux - Azure App ,1.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Service Bus - Service Bus - Hybrid Connections - ,741.24,57.33
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0.21,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Tables - Tables - LRS - new ,3.62,0.01

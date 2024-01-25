@@ -58,6 +58,8 @@ namespace RPNAVConnect
                 sUserId = "n/a";
             }
 
+            //sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
+
             string strSqlQuery = "SELECT TOP 1 * FROM [RPNAVConnect].[dbo].[BCLoginLog] WHERE [UserId] = '" + sUserId + "' ORDER BY Id DESC";
             System.Data.OleDb.OleDbDataReader oleReader;
             System.Data.OleDb.OleDbCommand cmd = new System.Data.OleDb.OleDbCommand(strSqlQuery, dbConn);

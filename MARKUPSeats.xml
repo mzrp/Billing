@@ -213,13 +213,13 @@
     <Name>Rackpeople ApS</Name>
     <Markup>0.0</Markup>
   </Customer>
-  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0.00">
+  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0.0">
     <Name>RackPeople ApS</Name>
-    <Markup>0.00</Markup>
+    <Markup>0.0</Markup>
   </Customer>
-  <Customer Id="3f19aad6-a204-4a42-b614-74d0a77ea620" Markup="0.00">
+  <Customer Id="3f19aad6-a204-4a42-b614-74d0a77ea620" Markup="0.0">
     <Name>RackpeopleTest</Name>
-    <Markup>0.00</Markup>
+    <Markup>0.0</Markup>
   </Customer>
   <Customer Id="6b623733-dd22-411a-a3d4-d8b92bdd545a">
     <Name>RIP Bogføring</Name>
@@ -555,6 +555,10 @@
   </Customer>
   <Customer Id="997fc863-2b5e-4b88-b311-ce0b4d704e75">
     <Name>Eco-Locaxion Holding ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="9d0c7ba5-31c4-408f-8d87-1221c9ff7823">
+    <Name>Hjorth Snedker og Tømrer ApS</Name>
     <Markup>25.0</Markup>
   </Customer>
 </CustomerMarkups>

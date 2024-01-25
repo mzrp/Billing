@@ -1194,18 +1194,20 @@ namespace RPNAVConnect
                                                         string sCustomerVATId = "n/a";
                                                         string sCustomerVATName = "n/a";
                                                         string sCustomerCSP2 = "n/a";
+                                                        string sCustomerCSP3 = "n/a";
                                                         if (sAllInvoiceCustomers.IndexOf(sCustomerName + "ђ" + sCustomerId) == -1)
                                                         {
                                                             string sBCCuromerData = DoesCustomerExists(sCustomerId);
                                                             if (sBCCuromerData == "n/a")
                                                             {
-                                                                sBCCuromerData = "n/aђn/aђn/aђn/a";
+                                                                sBCCuromerData = "n/aђn/aђn/aђn/aђn/a";
                                                             }
                                                             sCustomerVATNo = sBCCuromerData.Split('ђ')[0];
                                                             sCustomerVATId = sBCCuromerData.Split('ђ')[1];
                                                             sCustomerVATName = sBCCuromerData.Split('ђ')[2];
                                                             sCustomerCSP2 = sBCCuromerData.Split('ђ')[3];
-                                                            sAllInvoiceCustomers += sCustomerName + "ђ" + sCustomerId + "ђ" + sCustomerVATNo + "ђ" + sCustomerVATId + "ђ" + sCustomerVATName + "ђ" + sCustomerCSP2 + "ш";
+                                                            sCustomerCSP3 = sBCCuromerData.Split('ђ')[4];
+                                                            sAllInvoiceCustomers += sCustomerName + "ђ" + sCustomerId + "ђ" + sCustomerVATNo + "ђ" + sCustomerVATId + "ђ" + sCustomerVATName + "ђ" + sCustomerCSP2 + "ђ" + sCustomerCSP3 + "ш";
                                                         }
                                                     }
                                                 }
@@ -1225,8 +1227,9 @@ namespace RPNAVConnect
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
                                                     string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
                                                     string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
+                                                    string sCustCSP3 = sInvoiceCustomer.Split('ђ')[6];
 
-                                                    if (sCustVatNo == "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ђ" + sCustVatName + "ђ" + sCustCSP2 + "ш";
+                                                    if (sCustVatNo == "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ђ" + sCustVatName + "ђ" + sCustCSP2 + "ђ" + sCustCSP3 + "ш";
                                                 }
                                             }
                                             foreach (string sInvoiceCustomer in sAllInvoiceCustomersArrayFirst)
@@ -1239,8 +1242,9 @@ namespace RPNAVConnect
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
                                                     string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
                                                     string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
+                                                    string sCustCSP3 = sInvoiceCustomer.Split('ђ')[6];
 
-                                                    if (sCustVatNo != "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ђ" + sCustVatName + "ђ" + sCustCSP2 + "ш";
+                                                    if (sCustVatNo != "n/a") sAllInvoiceCustomersSorted += sCust + "ђ" + sCustId + "ђ" + sCustVatNo + "ђ" + sCustVatId + "ђ" + sCustVatName + "ђ" + sCustCSP2 + "ђ" + sCustCSP3 + "ш";
                                                 }
                                             }
 
@@ -1306,6 +1310,7 @@ namespace RPNAVConnect
                                                     string sCustVatId = sInvoiceCustomer.Split('ђ')[3];
                                                     string sCustVatName = sInvoiceCustomer.Split('ђ')[4];
                                                     string sCustCSP2 = sInvoiceCustomer.Split('ђ')[5];
+                                                    string sCustCSP3 = sInvoiceCustomer.Split('ђ')[6];
 
                                                     string sWarning1 = "";
                                                     string sWarning2 = "";
@@ -1318,7 +1323,7 @@ namespace RPNAVConnect
 
                                                     AzureBillingDataL.Text += "<tr>";
 
-                                                    if (sCustCSP2 == "yes")
+                                                    if ((sCustCSP2 == "yes") || (sCustCSP3 == "yes"))
                                                     {
                                                         AzureBillingDataL.Text += "<td style='vertical-align: middle;'>" + sWarning1 + sCustVatName + " (" + sCust + ")" + sWarning2 + "</td>";
                                                     }
@@ -3139,6 +3144,7 @@ namespace RPNAVConnect
             string sResult = "n/a";
             string sCustomerNo = "n/a";
             string sCustomerCSP2 = "n/a";
+            string sCustomerCSP3 = "n/a";
 
             try
             {
@@ -3244,9 +3250,63 @@ namespace RPNAVConnect
                 }
             }
 
+            if (sCustomerNo == "n/a")
+            {
+                try
+                {
+                    //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                    ServicePointManager.Expect100Continue = true;
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                           | SecurityProtocolType.Tls11
+                           | SecurityProtocolType.Tls12
+                           | SecurityProtocolType.Ssl3;
+
+                    System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                    var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/ODataV4/Company('RackPeople ApS')/CustomerDetails?$filter=Microsoft_CSP_ID3 eq '" + filter + "'") as HttpWebRequest;
+                    if (webRequestAUTH != null)
+                    {
+                        webRequestAUTH.Method = "GET";
+                        webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                        webRequestAUTH.ContentType = "application/json";
+                        webRequestAUTH.MediaType = "application/json";
+                        webRequestAUTH.Accept = "application/json";
+
+                        webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
+
+                        using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                        {
+                            using (var srW = new StreamReader(rW))
+                            {
+                                var sExportAsJson = srW.ReadToEnd();
+                                var sExport = JsonConvert.DeserializeObject<ODataV4Customers>(sExportAsJson);
+
+                                int iCount = 1;
+                                foreach (var cust in sExport.value)
+                                {
+                                    sCustomerNo = cust.No;
+                                    sCustomerCSP3 = "yes";
+                                    break;
+
+                                }
+                            }
+                        }
+
+                        webRequestAUTH = null;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    ex.ToString();
+                    sCustomerNo = "n/a";
+                    sResult = "n/a";
+                }
+            }
+
             if (sCustomerNo != "n/a")
             {
-            try
+                try
                 {
                     //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
 
@@ -3279,7 +3339,7 @@ namespace RPNAVConnect
                                 int iCount = 1;
                                 foreach (var cust in sExport.value)
                                 {
-                                    sResult = cust.number + "ђ" + cust.id + "ђ" + cust.displayName + "ђ" + sCustomerCSP2;
+                                    sResult = cust.number + "ђ" + cust.id + "ђ" + cust.displayName + "ђ" + sCustomerCSP2 + "ђ" + sCustomerCSP3;
                                     break;
 
                                 }

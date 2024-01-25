@@ -1,0 +1,523 @@
+Customer,CustomerId,CustomerNo,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single Standard - SQL Database Single ,216.43,0.4839,6.79015,62.00,8.00,3.02,187.01,13.87
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single/Elastic Pool General Purpose - ,1797.44,0.167439,6.79015,1488.00,8.00,1.04,1553.04,115.09
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,IP Addresses - IP Addresses - Basic IPv4 - new ,19.26,0.0036,6.79015,744.00,8.00,0.02,16.70,1.29
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.054,6.79015,0.01,8.00,0.34,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Standard Plan - Azure App ,2683.8,0.1,6.79015,3720.00,8.00,0.62,2318.81,171.77
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0,0.024,6.79015,0.05,8.00,0.15,0.01,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,1.26,0.0005,6.79015,368.11,8.00,0.00,1.15,0.14
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,0,0.0005,6.79015,1.04,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,902.75,2.99,6.79015,41.85,8.00,18.64,780.03,57.83
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Traffic Manager - Traffic Manager - Azure Endpoint ,5.18,0.36,6.79015,2.00,8.00,2.24,4.49,0.35
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Key Vault - Key Vault - Premium - new ,0,0.03,6.79015,0.03,8.00,0.19,0.01,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,1.61,0.004,6.79015,58.21,8.00,0.02,1.45,0.16
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure Monitor - Azure Monitor - Alerts - new ,5.85,0.1,6.79015,8.20,8.00,0.62,5.11,0.43
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Traffic Manager - Traffic Manager - Azure Endpoint ,0.25,0.54,6.79015,0.07,8.00,3.37,0.25,0.05
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Microsoft Defender for SQL - Microsoft Defender ,108.21,15,6.79015,1.00,8.00,93.50,93.50,6.93
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database - LTR Backup Storage - SQL Database - ,49.48,0.0595,6.79015,115.28,8.00,0.37,42.76,3.18
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single Standard - SQL Database Single ,1082.09,4.8387,6.79015,31.00,8.00,30.16,935.00,69.33
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single/Elastic Pool General Purpose - ,40.99,0.13685,6.79015,41.60,8.00,0.85,35.49,2.70
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0,6.79015,0.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.05,6.79015,0.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Logic Apps - Logic Apps - Consumption - new ,0.25,0.12,6.79015,0.32,8.00,0.75,0.24,0.04
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - GRS - new ,0,0.00036,6.79015,0.90,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Rtn Preference: MGN - Rtn Preference: MGN - new ,141.74,0.087,6.79015,225.89,8.00,0.54,122.50,9.11
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.99,6.79015,5.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Premium v2 Plan - Azure App ,4294.09,0.2,6.79015,2976.00,8.00,1.25,3710.09,274.82
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,23.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Traffic Manager - Traffic Manager - Traffic View - ,0.93,2,6.79015,0.07,8.00,12.47,0.83,0.09
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.0043,6.79015,0.06,8.00,0.03,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Standard Plan - Azure App ,2147.04,0.2,6.79015,1488.00,8.00,1.25,1855.05,137.42
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,0.41,0.0005,6.79015,131.52,8.00,0.00,0.41,0.08
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure Monitor - Azure Monitor - Alerts - new ,0,0.1,6.79015,10.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Event Grid - Event Grid - US East - new ,214.65,0.04,6.79015,744.00,8.00,0.25,185.50,13.78
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SignalR - SignalR - new ,3240.68,1.61,6.79015,279.00,8.00,10.04,2799.96,207.42
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,10.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,100.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.08,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.0043,6.79015,0.02,8.00,0.03,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure Monitor - Azure Monitor - Emails - new ,0,0.00002,6.79015,28.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,45.91,0.045,6.79015,141.68,8.00,0.28,39.74,3.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,3.81,0.0196,6.79015,27.38,8.00,0.12,3.34,0.29
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Logic Apps - Logic Apps - Consumption - new ,39.8,0.000125,6.79015,44225.00,8.00,0.00,34.46,2.62
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Process Automation - Process Automation - Basic - ,0,0.002,6.79015,81.13,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single/Elastic Pool General Purpose - ,1073.09,0.099966,6.79015,1488.00,8.00,0.62,927.21,68.74
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Virtual Machines Ebdsv5 Series - Virtual Machines ,2007.34,0.374,6.79015,743.97,8.00,2.33,1734.39,128.52
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.02,6.79015,0.01,8.00,0.12,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SignalR - SignalR - new ,0,0,6.79015,31.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.054,6.79015,0.00,8.00,0.34,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,1.53,0.05,6.79015,4.45,8.00,0.31,1.39,0.17
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Storage - Bandwidth - Storage - Bandwidth - ,0,0,6.79015,0.06,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - LRS - new ,0,0.00036,6.79015,2.72,8.00,0.00,0.01,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Logic Apps - Logic Apps - Consumption - new ,0,0.000025,6.79015,10.00,8.00,0.00,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,1.61,0.004,6.79015,57.74,8.00,0.02,1.44,0.15
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0,0.0015,6.79015,1.14,0.00,0.01,0.01,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - US East - ,0,0.004,6.79015,0.04,0.00,0.02,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,0.34,0.00,0.00,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Basic Plan - Linux - Azure App ,96.59,0.018,6.79015,744.00,0.00,0.10,77.29,0.02
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Geographic Numbers - Geographic Numbers - DK - US ,41.33,0.82,6.79015,7.00,0.00,4.73,33.13,0.07
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.02,0.00,0.00,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,6.00,0.00,0.00,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,1666.73,0.155261,6.79015,1488.00,0.00,0.90,1333.41,0.03
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.004,6.79015,0.06,0.00,0.02,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,1073.09,0.099966,6.79015,1488.00,0.00,0.58,858.53,0.06
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Service Bus - Service Bus - Standard - new ,0,0.8,6.79015,0.00,0.00,0.00,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0,0.015,6.79015,0.52,0.00,0.09,0.04,0.04
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,37.94,0.1265,6.79015,41.60,0.00,0.73,30.37,0.02
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.99,6.79015,0.17,0.00,0.00,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Standard Plan - Azure App ,1610.28,0.1,6.79015,2232.00,0.00,0.58,1288.23,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,4.33,0.06,6.79015,10.01,0.00,0.35,3.47,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Free Plan - Linux - Azure App ,0,0,6.79015,1.00,0.00,0.00,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.022,6.79015,0.01,0.00,0.13,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.0043,6.79015,0.04,0.00,0.02,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Service Bus - Service Bus - Hybrid Connections - ,71.63,0.0134,6.79015,741.24,0.00,0.08,57.33,0.03
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0,0.0015,6.79015,0.21,0.00,0.01,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,General Block Blob - General Block Blob - LRS - ,0,0.024,6.79015,0.01,0.00,0.14,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Tables - Tables - LRS - new ,0,0.00036,6.79015,3.62,0.00,0.00,0.01,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  12/21/2023-1/20/2024  December   ,201.24,53.66,1,3.00,25.00,67.08,201.23,40.25
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - renew  12/21/2023-1/20/2024  December   ,0,0,1,25.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,0,0,6.79015,0.85,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps - Logic Apps - Consumption - new ,0.93,0.000125,6.79015,1128.00,25.00,0.00,1.02,0.28
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,2.11,0.06,6.79015,5.01,25.00,0.43,2.17,0.48
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Virtual Machines Dv5 Series Windows - Virtual ,2878.34,0.828,6.79015,481.85,25.00,5.97,2878.40,575.73
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.01,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU North - ,219.23,0.1,6.79015,303.98,25.00,0.72,219.31,43.93
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Rtn Preference: MGN - Rtn Preference: MGN - new ,18.24,0.087,6.79015,29.18,25.00,0.63,18.32,3.73
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Repos and Boards (Basic) - Azure Repos and ,303,6,6.79015,7.00,25.00,43.29,303.01,60.61
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Bandwidth Inter-Region - Bandwidth Inter-Region - ,6.88,0.02,6.79015,47.83,25.00,0.14,6.90,1.40
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,IP Addresses - IP Addresses - Standard IPv4 - new ,214.65,0.005,6.79015,5952.00,25.00,0.04,214.70,42.98
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,4.84,0.015,6.79015,45.00,25.00,0.11,4.87,1.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps Integration Account - Logic Apps ,4328.71,300,6.79015,2.00,25.00,2164.36,4328.72,865.75
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium Functions - Premium Functions - EU West - ,1138.54,0.0121,6.79015,13042.53,25.00,0.09,1138.56,227.73
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,0.16,0.0015,6.79015,22.65,25.00,0.01,0.25,0.12
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,SQL Server Standard - SQL Server Standard - 1-4 ,2146.45,0.4,6.79015,743.80,25.00,2.89,2146.47,429.31
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0,0.045,6.79015,0.01,25.00,0.32,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.004,6.79015,2.16,25.00,0.03,0.06,0.06
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU West - ,0,0.108,6.79015,0.10,25.00,0.78,0.08,0.08
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard SSD Managed Disks - Standard SSD Managed ,69.16,9.6,6.79015,1.00,25.00,69.26,69.26,13.93
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium SSD Managed Disks - Premium SSD Managed ,4290.26,148.68,6.79015,4.00,25.00,1072.66,4290.35,858.14
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - GRS - ,0.25,0.048,6.79015,0.85,25.00,0.35,0.29,0.09
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Process Automation - Process Automation - Basic - ,7.13,0.002,6.79015,495.78,25.00,0.01,7.15,1.45
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Cool LRS - EU West - ,0.08,0.1,6.79015,0.23,25.00,0.72,0.17,0.11
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard Page Blob v2 - Standard Page Blob v2 - ,0.5,0.00054,6.79015,139.48,25.00,0.00,0.54,0.14
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps - Logic Apps - Consumption - new ,0.5,0.12,6.79015,0.60,25.00,0.87,0.52,0.12
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,6.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,100.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,69.94,5.888,6.79015,1.65,25.00,42.48,69.99,14.04
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - GRS - ,0,0.00036,6.79015,0.01,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,App Configuration - App Configuration - Standard - ,536.75,1.2,6.79015,62.00,25.00,8.66,536.76,107.36
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - GRS - new ,0,0.03,6.79015,0.27,25.00,0.22,0.06,0.06
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard Page Blob v2 - Standard Page Blob v2 - ,4.33,0.00054,6.79015,1111.95,25.00,0.00,4.33,0.87
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,166.19,1.536,6.79015,15.00,25.00,11.08,166.21,33.26
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,App Configuration - App Configuration - Free - US ,0,0,6.79015,31.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot RA-GRS - EU West ,0,0.049,6.79015,0.08,25.00,0.35,0.03,0.03
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium SSD Managed Disks - Premium SSD Managed ,603.21,41.811428,6.79015,2.00,25.00,301.65,603.26,120.69
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.01,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,0,0.015,6.79015,0.00,25.00,0.11,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.054,6.79015,0.17,25.00,0.39,0.07,0.07
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Entra Domain Services - Microsoft Entra ,804.88,0.15,6.79015,743.79,25.00,1.08,804.92,161.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot LRS - EU West - new ,0.08,0.00559,6.79015,3.93,25.00,0.04,0.16,0.10
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,134.1,3.008,6.79015,6.18,25.00,21.70,134.17,26.89
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU West - ,0,0.108,6.79015,0.05,25.00,0.78,0.04,0.04
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure App Service Premium v2 Plan - Azure App ,1073.51,0.2,6.79015,744.00,25.00,1.44,1073.52,214.71
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Load Balancer - Load Balancer - new ,134.19,0.025,6.79015,744.00,25.00,0.18,134.19,26.84
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.16,0.004,6.79015,6.55,25.00,0.03,0.19,0.06
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Virtual Machines Dv3 Series Windows - Virtual ,2275.2,0.424,6.79015,743.80,25.00,3.06,2275.26,455.10
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,8.9,0.0043,6.79015,289.26,25.00,0.03,8.97,1.85
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,1.19,0.0196,6.79015,8.93,25.00,0.14,1.26,0.31
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Container Instances - Container Instances - EU ,5526.84,0.0466,6.79015,16439.46,25.00,0.34,5526.90,1105.43
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Event Grid - Event Grid - new ,0,0.06,6.79015,0.01,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,0,0.02,6.79015,0.06,25.00,0.14,0.01,0.01
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot GRS - EU West - new ,175.26,0.0541,6.79015,449.27,25.00,0.39,175.35,35.14
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Bastion - Azure Bastion - Basic - new ,2039.68,0.19,6.79015,1488.00,25.00,1.37,2039.69,407.95
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard Page Blob v2 - Standard Page Blob v2 - ,120.94,0.045,6.79015,372.67,25.00,0.32,120.99,24.24
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Container Instances - Container Instances - EU ,9696.93,0.00511,6.79015,263031.43,25.00,0.04,9696.99,1939.45
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - GRS - new ,0,0.00036,6.79015,7.05,25.00,0.00,0.02,0.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Cool LRS - EU West - ,0,0.01,6.79015,0.00,25.00,0.07,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium SSD Managed Disks - Premium SSD Managed ,156.34,21.68,6.79015,1.00,25.00,156.41,156.40,31.33
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot GRS - EU West - new ,1101.01,0.14,6.79015,1090.15,25.00,1.01,1101.09,220.28
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot RA-GRS - EU ,0.16,0.046,6.79015,0.61,25.00,0.33,0.20,0.07
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - GRS - new ,0,0.00036,6.79015,0.01,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.76,0.0043,6.79015,25.95,25.00,0.03,0.81,0.20
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0,0.00036,6.79015,5.01,25.00,0.00,0.01,0.01
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Process Automation - Process Automation - Basic - ,0,0.002,6.79015,500.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,IP Addresses - IP Addresses - Basic IPv4 - new ,51.09,0.0036,6.79015,1969.00,25.00,0.03,51.14,10.27
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard SSD Managed Disks - Standard SSD Managed ,14.25,0.002,6.79015,988.72,25.00,0.01,14.27,2.87
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,7.38,0.0005,6.79015,2061.39,25.00,0.00,7.44,1.54
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,0.5,0.0015,6.79015,49.70,25.00,0.01,0.54,0.14
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - LRS - ,0.16,0.00036,6.79015,89.95,25.00,0.00,0.23,0.10
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.05,6.79015,0.32,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0,6.79015,286.24,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,6.19,0.02,6.79015,43.28,25.00,0.14,6.25,1.30
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Virtual Machines BS Series Windows - Virtual ,1919.65,0.416,6.79015,639.63,25.00,3.00,1919.70,383.98
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU North - ,0,0.1,6.79015,0.07,25.00,0.72,0.05,0.05
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Load Balancer - Load Balancer - new ,0.5,0.005,6.79015,14.82,25.00,0.04,0.53,0.13
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - GRS - new ,0,0.06,6.79015,0.01,25.00,0.43,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot LRS - EU West - new ,1.19,0.0056,6.79015,30.99,25.00,0.04,1.25,0.30
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,SQL Server Developer Edition - SQL Server ,0,0,6.79015,872.52,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot GRS - EU West - new ,0,0.056,6.79015,0.00,25.00,0.40,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps - Logic Apps - Consumption - new ,1.95,0.000025,6.79015,11240.00,25.00,0.00,2.03,0.47
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.054,6.79015,0.01,25.00,0.39,0.01,0.01
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,VPN Gateway - VPN Gateway - VpnGw2AZ - new ,3027.3,0.564,6.79015,744.00,25.00,4.07,3027.33,605.49
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.01,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Test Plans - Azure Test Plans - Standard - ,375.06,52,6.79015,1.00,25.00,375.16,375.16,75.11
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium Functions - Premium Functions - EU West - ,4543.45,0.169,6.79015,3726.44,25.00,1.22,4543.48,908.72
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - Account Encrypted - RA-GRS - EU ,1.19,0.195,6.79015,0.90,25.00,1.41,1.27,0.32
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard Page Blob v2 - Standard Page Blob v2 - ,0.16,0.00054,6.79015,56.19,25.00,0.00,0.22,0.09
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,0,0,6.79015,0.07,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Cool LRS - EU West - ,0,0.01,6.79015,0.23,25.00,0.07,0.02,0.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Visio Plan 2 - Visio Plan 2 - renew 12/1/2023-12/31/2023  December   ,377.28,100.61,1,3.00,25.00,125.76,377.29,75.46
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Power BI Pro - Power BI Pro - cycleCharge 12/1/2023-12/31/2023  December   ,279.6,55.92,1,4.00,25.00,69.90,279.60,55.92
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Windows 365 Enterprise - Windows 365 Enterprise 4 vCPU; 16 GB; 512 GB - cycleCharge  12/12/2023-1/11/2024  December   ,2185.68,582.85,1,3.00,25.00,728.56,2185.69,437.14
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/10/2023-1/9/2024  December   ,362.7,22.32,1,13.00,25.00,27.90,362.70,72.54
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  12/28/2023-1/27/2024  December   ,2750.28,53.66,1,41.00,25.00,67.08,2750.08,550.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - cycleCharge  12/28/2023-1/27/2024  December   ,0,0,1,50.00,25.00,0.00,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Defender for Cloud Apps - Microsoft Defender for Cloud Apps - renew  12/4/2023-1/3/2024  December   ,29.28,23.42,1,1.00,25.00,29.28,29.28,5.86
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  12/1/2023-12/31/2023  December   ,2198,11.2,1,157.00,25.00,14.00,2198.00,439.60
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Teams Rooms Pro - Microsoft Teams Rooms Pro - cycleCharge  12/1/2023-12/31/2023  December   ,1117.6,223.52,1,4.00,25.00,279.40,1117.60,223.52
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Power BI Premium Per User - Power BI Premium Per User - cycleCharge  12/12/2023-1/11/2024  December   ,139.7,111.76,1,1.00,25.00,139.70,139.70,27.94
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft 365 F3 - Microsoft 365 F3 - cycleCharge 12/1/2023-12/31/2023  December   ,335.4,44.72,1,6.00,25.00,55.90,335.40,67.08
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/12/2023-1/11/2024  December   ,39635.1,224.88,1,141.00,25.00,281.10,39635.10,7927.02
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,2.29,0.06,6.79015,5.31,22.00,0.42,2.25,0.42
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,0,0.015,6.79015,0.01,22.00,0.11,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,0,0,6.79015,0.00,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Standard -Det vestlige Europa - ,579.79,0.0448,6.79015,1793.92,22.00,0.32,565.90,102.07
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Azure VM -Det nordlige Europa - ,72.05,10,6.79015,1.00,22.00,70.41,70.41,12.77
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Blob Storage - Blob Storage - Varm LRS - Det ,0,0.0043,6.79015,0.02,22.00,0.03,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Standard -Det nordlige Europa - ,18.24,0.0448,6.79015,56.71,22.00,0.32,17.89,3.30
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,10.51,0.015,6.79015,97.52,22.00,0.11,10.30,1.89
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,VPN Gateway - VPN Gateway-VpnGw1  - new ,1019.79,0.19,6.79015,744.00,22.00,1.34,995.37,179.54
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Generel blok-blob - Generel blok-blob - LRS - new ,0,0.00036,6.79015,0.02,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Server i det lokale miljø -Det ,72.05,10,6.79015,1.00,22.00,70.41,70.41,12.77
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Tables - Tables - LRS - new ,0,0.00036,6.79015,1.36,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Tables - Tables - GRS - new ,0,0.00036,6.79015,0.89,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Lager – båndbredde - Lager – ,0,0,6.79015,0.06,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Premium-filer - Premium-filer - LRS - Det vestlige ,138.51,0.192,6.79015,100.00,22.00,1.35,135.20,24.39
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,0.93,0.0015,6.79015,93.45,22.00,0.01,0.99,0.25
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Files v2 - Files v2 - Varm LRS - Det nordlige ,0,0.0314,6.79015,0.01,22.00,0.22,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Båndbredde mellem områder - Båndbredde mellem ,0,0.02,6.79015,0.00,22.00,0.14,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,1.26,0.0015,6.79015,117.77,22.00,0.01,1.24,0.23
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Blob Storage - Blob Storage - Varm LRS - Det ,0,0.004,6.79015,0.04,22.00,0.03,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Azure Files -Det nordlige Europa - ,21.55,5,6.79015,0.60,22.00,35.21,21.12,3.88
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0,6.79015,0.46,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,0.72,22.00,0.00,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Office 365 E3 - Office 365 E3 - cycleCharge 12/28/2023-1/27/2024  December   ,168.4,134.72,1,1.00,25.00,168.40,168.40,33.68
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Microsoft Intune Plan 1 - Microsoft Intune Plan 1 - cycleCharge  12/1/2023-12/31/2023  December   ,55.9,44.72,1,1.00,25.00,55.90,55.90,11.18
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  12/1/2023-12/31/2023  December   ,55.9,44.72,1,1.00,25.00,55.90,55.90,11.18
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,100.8,20.16,1,4.00,25.00,25.20,100.80,20.16
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  12/28/2023-1/27/2024  December   ,184.44,147.55,1,1.00,25.00,184.44,184.44,36.89
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,100.8,20.16,1,4.00,25.00,25.20,100.80,20.16
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,2766.6,122.96,1,18.00,25.00,153.70,2766.60,553.32
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  12/28/2023-1/27/2024  December   ,37.8,30.24,1,1.00,25.00,37.80,37.80,7.56
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,277.2,10.08,1,22.00,25.00,12.60,277.20,55.44
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.05,6.79015,0.04,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,IP Addresses - IP Addresses - Standard IPv4 - new ,53.64,0.005,6.79015,1488.00,55.00,0.04,66.56,23.65
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Virtual Machines BS Series - Virtual Machines BS ,257.6,0.048,6.79015,743.97,55.00,0.43,319.47,113.39
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.91,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Files - Files - LRS - new ,2.11,0.06,6.79015,5.00,55.00,0.54,2.68,0.99
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,6.45,0.054,6.79015,16.74,55.00,0.48,8.08,2.92
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0,6.79015,0.00,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,1.1,0.054,6.79015,2.95,55.00,0.48,1.43,0.55
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,2.45,0.0043,6.79015,80.01,55.00,0.04,3.08,1.12
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,0.40,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Virtual Machines Dv2 Series Windows - Virtual ,2851.69,0.266,6.79015,1486.02,55.00,2.38,3536.19,1254.84
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Premium SSD Managed Disks - Premium SSD Managed ,312.76,21.68,6.79015,2.00,55.00,193.95,387.87,137.66
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Key Vault - Key Vault - Premium - new ,0,0.03,6.79015,0.01,55.00,0.27,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Files - Files - LRS - new ,0,0.0015,6.79015,0.01,55.00,0.01,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.99,6.79015,0.17,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard HDD Managed Disks - Standard HDD Managed ,11.03,1.536,6.79015,1.00,55.00,13.74,13.74,4.92
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Premium SSD Managed Disks - Premium SSD Managed ,80.96,11.2272,6.79015,1.00,55.00,100.44,100.43,35.66
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.08,0.02,6.79015,0.95,55.00,0.18,0.17,0.11
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,0.68,0.075,6.79015,1.38,55.00,0.67,0.93,0.39
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Tables - Tables - GRS - new ,0,0.00036,6.79015,0.90,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Storage - Bandwidth - Storage - Bandwidth - ,0,0,6.79015,0.08,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Backup - Backup - On Premises Server - EU West - ,72.05,10,6.79015,1.00,55.00,89.46,89.46,31.82
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,1.78,0.0196,6.79015,12.78,55.00,0.18,2.24,0.82
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft Entra Domain Services - Microsoft Entra ,804.88,0.15,6.79015,743.79,55.00,1.34,998.10,354.20
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Service Bus - Service Bus - Standard - new ,56.86,0.013441,6.79015,587.00,55.00,0.12,70.58,25.09
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,IP Addresses - IP Addresses - Basic IPv4 - new ,38.61,0.0036,6.79015,1488.00,55.00,0.03,47.92,17.03
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Backup - Backup - Standard - EU West - new ,167.71,0.0448,6.79015,518.98,55.00,0.40,208.00,73.83
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,0,0.00054,6.79015,8.93,55.00,0.00,0.04,0.04
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Files - Files - LRS - new ,0,0.0015,6.79015,0.01,55.00,0.01,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Service Bus - Service Bus - Standard - new ,0,0.8,6.79015,0.00,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard HDD Managed Disks - Standard HDD Managed ,0.5,0.0005,6.79015,163.10,55.00,0.00,0.73,0.33
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.0043,6.79015,0.12,55.00,0.04,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,0,0.00054,6.79015,4.46,55.00,0.00,0.02,0.02
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Storage - Bandwidth - Storage - Bandwidth - ,3.64,0.02,6.79015,25.58,55.00,0.18,4.58,1.67
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Files - Files - LRS - new ,0,0.015,6.79015,0.02,55.00,0.13,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Network Watcher - Network Watcher - new ,0,0.5,6.79015,0.29,55.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/28/2023-1/27/2024  December   ,1609.6,44.72,1,32.00,25.00,50.30,1609.60,321.92
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Power Automate unattended RPA add-on - Power Automate unattended RPA add-on - renew  12/1/2023-12/31/2023  December   ,1178.78,943.02,1,1.00,25.00,1178.78,1178.78,235.76
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft Teams Rooms Pro - Microsoft Teams Rooms Pro - cycleCharge  12/28/2023-1/27/2024  December   ,251.7,201.36,1,1.00,25.00,251.70,251.70,50.34
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/28/2023-1/27/2024  December   ,10544,224.88,1,40.00,25.00,263.60,10544.00,2108.80
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Dynamics 365 Sales Enterprise - Dynamics 365 Sales Enterprise Edition - cycleCharge  12/28/2023-1/27/2024  December   ,560.54,448.43,1,1.00,25.00,560.54,560.54,112.11
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Power Automate Premium - Power Automate Premium - renew  12/1/2023-12/31/2023  December   ,117.9,94.32,1,1.00,25.00,117.90,117.90,23.58
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - cycleCharge  12/28/2023-1/27/2024  December   ,0,0,1,10.00,25.00,0.00,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft 365 E5 Compliance - Microsoft 365 E5 Compliance - cycleCharge  12/28/2023-1/27/2024  December   ,302,60.4,1,4.00,25.00,75.50,302.00,60.40
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft 365 Audio Conferencing - Microsoft 365 Audio Conferencing - cycleCharge  12/28/2023-1/27/2024  December   ,647.79,17.5,1,33.00,25.00,19.63,647.63,129.53
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  12/28/2023-1/27/2024  December   ,704.2,40.24,1,14.00,25.00,50.30,704.20,140.84
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  12/18/2023-1/17/2024  December   ,518,11.2,1,37.00,25.00,14.00,518.00,103.60
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Power Automate per user plan - Power Automate per user plan - renew  12/28/2023-1/27/2024  December   ,117.9,94.32,1,1.00,25.00,117.90,117.90,23.58
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.99,6.79015,0.17,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0,6.79015,0.03,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.05,6.79015,0.00,0.00,0.29,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.00,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,SQL Database Single/Elastic Pool General Purpose - ,24.61,0.155261,6.79015,22.00,0.00,0.90,19.71,0.02
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,SQL Database Single/Elastic Pool General Purpose - ,0.5,0.1265,6.79015,0.62,0.00,0.73,0.45,0.05
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.004,6.79015,0.43,0.00,0.02,0.01,0.01
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.05,6.79015,0.00,0.00,0.29,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Voice and Video Calling - Voice and Video Calling ,0,0.004,6.79015,2.85,0.00,0.02,0.07,0.07
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.76,6.79015,0.19,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Azure App Service Standard Plan - Azure App ,536.75,0.1,6.79015,744.00,0.00,0.58,429.41,0.01
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Tables - Tables - LRS - new ,0,0.00036,6.79015,1.36,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.01,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.022,6.79015,0.01,0.00,0.13,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,0.08,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Files - Files - LRS - new ,0,0.0015,6.79015,0.00,0.00,0.01,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Azure App Service Free Plan - Linux - Azure App ,0,0,6.79015,3.00,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.00,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,SQL Database Single/Elastic Pool General Purpose - ,15.78,0.099966,6.79015,22.00,0.00,0.58,12.69,0.07
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,1.00,0.00,0.00,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Blob Storage - Blob Storage - Hot LRS - EU North - ,0,0.004,6.79015,0.07,0.00,0.02,0.00,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Azure App Service Standard Plan - Linux - Azure ,509.85,0.095,6.79015,744.00,0.00,0.55,407.94,0.06
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Microsoft Defender for SQL - Microsoft Defender ,108.21,15,6.79015,1.00,0.00,86.57,86.57,0.00
+Skypecall.me,b9d2f243-b20e-44ca-aaba-b179b9963fe2,99999004,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  12/1/2023-11/30/2024  December   ,6708,536.64,1,10.00,25.00,670.80,6708.00,1341.60
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,10.00,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,SQL Database - LTR Backup Storage - SQL Database - ,0.16,0.055,6.79015,0.62,0.00,0.32,0.20,0.07
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.45,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure App Service Premium v2 Plan - Azure App ,1073.51,0.2,6.79015,744.00,0.00,1.15,858.82,0.01
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure Database for MySQL Single Server - Backup ,26.73,0.11,6.79015,33.74,0.00,0.63,21.42,0.04
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,SQL Database Single Standard - SQL Database Single ,216.43,0.4839,6.79015,62.00,0.00,2.79,173.16,0.02
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,15.48,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,14.85,0.024,6.79015,87.72,0.00,0.14,11.95,0.07
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,IP Addresses - IP Addresses - Standard IPv4 - new ,26.81,0.005,6.79015,744.00,0.00,0.03,21.47,0.02
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.01,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Virtual Machines RI - Virtual Machines RI - new ,0,0,6.79015,743.97,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,11.00,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.02,6.79015,0.02,0.00,0.12,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.76,6.79015,0.45,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Service Bus - Service Bus - Standard - new ,0,0.8,6.79015,0.00,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure Database for MySQL Single Server Basic - ,195.3,0.0364,6.79015,744.00,0.00,0.21,156.30,0.06
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,2.10,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Standard HDD Managed Disks - Standard HDD Managed ,1.69,0.0005,6.79015,478.35,0.00,0.00,1.38,0.03
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Azure Database for MySQL Single Server Basic - ,7.89,0.11,6.79015,10.00,0.00,0.63,6.35,0.04
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,177.21,0.024,6.79015,1024.00,0.00,0.14,141.84,0.07
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.02,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.05,6.79015,0.02,0.00,0.00,0.00,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Windows Server Burst - Windows Server Burst - 2 ,42.86,0.008,6.79015,743.97,0.00,0.05,34.35,0.06
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Standard HDD Managed Disks - Standard HDD Managed ,42.44,5.888,6.79015,1.00,0.00,33.98,33.98,0.03
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Virtual Machines BS Series - Reserved VM Instance; ,111.95,13.19,6.79015,1.00,0.00,89.56,89.56,0.00
+GoWingu ApS,7b62b477-c11e-48fa-a1a1-f50dd448ad9c,99999001,Microsoft Entra ID P1 - Microsoft Entra ID P1 - renew  12/15/2023-1/14/2024  December   ,50.28,40.22,1,1.00,25.00,50.28,50.28,10.06
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot LRS - EU North - new ,0,0.0314,6.79015,0.01,25.00,0.23,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,General Block Blob v2 Hierarchical Namespace - ,0,0.005,6.79015,0.02,25.00,0.04,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.45,25.00,0.00,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Features - Blob Features - SSH File Transfer ,1610.28,0.3,6.79015,744.00,25.00,2.16,1610.28,322.06
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - new ,1205.33,0.06,6.79015,2784.65,25.00,0.43,1205.40,241.14
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Office 365 F3 - Office 365 F3 - cycleCharge 12/28/2023-1/27/2024  December   ,25.2,20.16,1,1.00,25.00,25.20,25.20,5.04
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,176.4,20.16,1,7.00,25.00,25.20,176.40,35.28
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Apps for business - Microsoft 365 Apps for business - cycleCharge  12/28/2023-1/27/2024  December   ,65.8,52.64,1,1.00,25.00,65.80,65.80,13.16
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/28/2023-1/27/2024  December   ,704.2,40.24,1,14.00,25.00,50.30,704.20,140.84
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  12/28/2023-1/27/2024  December   ,368.88,147.55,1,2.00,25.00,184.44,368.88,73.78
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Audio Conferencing - Microsoft 365 Audio Conferencing - cycleCharge  12/29/2023-1/28/2024  December   ,328.2,17.5,1,15.00,25.00,21.88,328.13,65.63
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,2354.5,122.96,1,17.00,25.00,138.50,2354.50,470.90
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  12/28/2023-1/27/2024  December   ,37.8,30.24,1,1.00,25.00,37.80,37.80,7.56
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines BS Series - Virtual Machines BS ,128.75,0.024,6.79015,743.70,0.00,0.14,103.02,0.02
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,3.81,0.0005,6.79015,1066.38,0.00,0.00,3.08,0.03
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,VPN Gateway - VPN Gateway - Basic - new ,193.18,0.036,6.79015,744.00,0.00,0.21,154.59,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Premium SSD Managed Disks - Premium SSD Managed ,580.98,80.54,6.79015,1.00,0.00,464.85,464.82,0.04
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,65.51,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines Dv2 Series - Virtual Machines Dv2 ,547.03,0.0679,6.79015,1116.82,0.00,0.39,437.67,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,2.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,IP Addresses - IP Addresses - Standard IPv4 - new ,402.56,0.005,6.79015,11160.00,0.00,0.03,322.06,0.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard SSD Managed Disks - Standard SSD Managed ,34.54,4.8,6.79015,1.00,0.00,27.70,27.70,0.07
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard SSD Managed Disks - Standard SSD Managed ,51.85,2.4,6.79015,3.00,0.00,13.85,41.55,0.07
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Tables - Tables - LRS - new ,0,0.00036,6.79015,3.63,0.00,0.00,0.01,0.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,IP Addresses - IP Addresses - Basic IPv4 - new ,42.86,0.004,6.79015,1488.00,0.00,0.02,34.35,0.06
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,65.01,3.008,6.79015,3.00,0.00,17.36,52.08,0.07
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,2.54,0.05,6.79015,7.14,0.00,0.29,2.06,0.03
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Load Balancer - Load Balancer - new ,3.48,0.005,6.79015,97.09,0.00,0.03,2.80,0.02
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Backup - Backup - Standard - EU West - new ,1.26,0.0448,6.79015,4.09,0.00,0.26,1.06,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines RI - Virtual Machines RI - new ,0,0,6.79015,3254.35,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Bandwidth Inter-Region - Bandwidth Inter-Region - ,4.24,0.02,6.79015,29.86,0.00,0.12,3.45,0.06
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines Dv2 Series - Virtual Machines Dv2 ,181.29,0.272,6.79015,92.40,0.00,1.57,145.06,0.03
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0,6.79015,0.07,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard Page Blob - Standard Page Blob - LRS - ,0.08,0.00036,6.79015,53.86,0.00,0.00,0.11,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Backup - Backup - Azure VM - EU West - new ,35.99,10,6.79015,0.50,0.00,57.72,28.86,0.07
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard SSD Managed Disks - Standard SSD Managed ,24.86,0.002,6.79015,1726.92,0.00,0.01,19.93,0.04
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Bandwidth Inter-Region - Bandwidth Inter-Region - ,2.8,0.05,6.79015,7.78,0.00,0.29,2.25,0.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Microsoft Entra Domain Services - Microsoft Entra ,804.88,0.15,6.79015,743.79,0.00,0.87,643.93,0.03
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,IP Addresses - IP Addresses - Basic IPv4 - new ,57.88,0.0036,6.79015,2232.00,0.00,0.02,46.38,0.08
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Windows Server - Windows Server - 1 vCPU VM - new ,246.81,0.046,6.79015,743.97,0.00,0.27,197.52,0.07
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Premium SSD Managed Disks - Premium SSD Managed ,125.61,5.8072,6.79015,3.00,0.00,33.52,100.54,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,0.5,0.05,6.79015,1.55,0.00,0.29,0.45,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.01,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Load Balancer - Load Balancer - new ,590.4,0.01,6.79015,8184.00,0.00,0.06,472.35,0.03
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.05,6.79015,5.00,0.00,0.00,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,General Block Blob - General Block Blob - LRS - ,1.19,0.00036,6.79015,478.08,0.00,0.00,0.99,0.04
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard Page Blob - Standard Page Blob - LRS - ,0,0.045,6.79015,0.04,0.00,0.26,0.01,0.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Load Balancer - Load Balancer - new ,268.38,0.025,6.79015,1488.00,0.00,0.14,214.70,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard Page Blob - Standard Page Blob - LRS - ,0,0.00036,6.79015,26.87,0.00,0.00,0.06,0.06
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,66.45,1.536,6.79015,6.00,0.00,8.87,53.19,0.03
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Tables - Tables - LRS - new ,0,0.045,6.79015,0.01,0.00,0.26,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines DSv2 Series - Reserved VM ,2655.24,78.21,6.79015,4.00,0.00,531.06,2124.23,0.03
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - new ,0,0.00036,6.79015,24.33,0.00,0.00,0.05,0.05
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Premium v2 Plan - Azure App ,1073.51,0.2,6.79015,744.00,0.00,1.15,858.82,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,IP Addresses - IP Addresses - Standard IPv4 - new ,68.75,0.005,6.79015,1906.69,0.00,0.03,55.02,0.02
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.02,6.79015,0.00,0.00,0.12,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,0.25,0.00036,6.79015,115.61,0.00,0.00,0.24,0.04
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Standard SSD Managed Disks - Standard SSD Managed ,69.16,9.6,6.79015,1.00,0.00,55.41,55.40,0.07
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Virtual Machines BS Series Windows - Virtual ,169.49,0.056,6.79015,419.68,0.00,0.32,135.65,0.06
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,5.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Rtn Preference: MGN - Rtn Preference: MGN - new ,0,0.087,6.79015,3.75,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Network Watcher - Network Watcher - new ,0,0.001,6.79015,2.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Virtual Machines BS Series - Virtual Machines BS ,257.6,0.048,6.79015,743.97,0.00,0.28,206.11,0.03
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Standard Plan - Azure App ,2147.04,0.1,6.79015,2976.00,0.00,0.58,1717.64,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - new ,3.23,0.015,6.79015,30.36,0.00,0.09,2.63,0.05
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Premium SSD Managed Disks - Premium SSD Managed ,88.01,21.68,6.79015,0.56,0.00,125.13,70.46,0.05
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Functions - Functions - new ,0,0.000002,6.79015,72966.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Service Bus - Service Bus - Hybrid Connections - ,143.35,0.0134,6.79015,1483.07,0.00,0.08,114.70,0.02
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,0.16,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,SQL Database Single Standard - SQL Database Single ,108.21,0.4839,6.79015,31.00,0.00,2.79,86.58,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,67.14,2.76,6.79015,3.38,0.00,15.93,53.78,0.07
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.82,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.76,6.79015,5.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - new ,0,0.06,6.79015,0.15,0.00,0.35,0.05,0.05
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,SQL Database Single Basic - SQL Database Single ,71.98,0.161,6.79015,62.00,0.00,0.93,57.61,0.03
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Service Bus - Service Bus - Standard - new ,0,0.8,6.79015,0.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - new ,0,0.00036,6.79015,7.43,0.00,0.00,0.02,0.02
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0,0.05,6.79015,0.02,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Functions - Functions - new ,0,0.000016,6.79015,400000.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - new ,0.25,0.0015,6.79015,27.97,0.00,0.01,0.24,0.04
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0,2.99,6.79015,0.21,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - new ,5.85,0.045,6.79015,18.26,0.00,0.26,4.74,0.06
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,0,0.024,6.79015,0.10,0.00,0.14,0.01,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Premium SSD Managed Disks - Premium SSD Managed ,41.84,5.8072,6.79015,1.00,0.00,33.52,33.51,0.04
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Service Bus - Service Bus - Hybrid Connections - ,0,1,6.79015,0.19,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Functions - Functions - new ,43.2,0.000016,6.79015,374876.07,0.00,0.00,34.62,0.06
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,0,0.00036,6.79015,3.08,0.00,0.00,0.01,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - new ,0.34,0.0015,6.79015,37.34,0.00,0.01,0.32,0.05
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Free Plan - Azure App Service ,0,0,6.79015,10.00,0.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/1/2023-12/31/2023  December   ,894.4,44.72,1,16.00,0.00,44.72,715.52,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Windows 365 Business - Windows 365 Business 2 vCPU; 4 GB; 64 GB - cycleCharge  12/10/2023-1/9/2024  December   ,230.84,184.67,1,1.00,25.00,230.84,230.84,46.17
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Power BI Premium Per User - Power BI Premium Per User - cycleCharge  12/24/2023-1/23/2024  December   ,139.7,111.76,1,1.00,0.00,111.76,111.76,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Microsoft Teams Rooms Pro - Microsoft Teams Rooms Pro - cycleCharge  12/1/2023-12/31/2023  December   ,1397,223.52,1,5.00,0.00,223.52,1117.60,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Dynamics 365 Business Central External Accountant - Dynamics 365 Business Central External Accountant - renew  12/13/2023-1/12/2024  December   ,0,0,1,3.00,25.00,0.00,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,RADIUS Server - FreeRADIUS and daloRADIUS - Cloud ,334.78,0.36,1,743.97,0.00,0.36,267.83,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,RADIUS 2019 Server - Wireless Authentication NPS - ,127.36,0.2428,1,419.68,0.00,0.24,101.90,0.01
+Fonden af 28. maj 1948,952f40a3-a17b-4c00-9881-5d9e4a7eb39c,50861015,Blob Storage - Blob Storage - Hot LRS - EU West - ,0,0.0043,6.79015,0.01,25.00,0.03,0.00,0.00
+Fonden af 28. maj 1948,952f40a3-a17b-4c00-9881-5d9e4a7eb39c,50861015,Tables - Tables - LRS - new ,0,0.00036,6.79015,0.45,25.00,0.00,0.00,0.00
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Service Bus - Service Bus - Standard - new ,0,0.8,6.79015,5.34,25.00,0.00,0.00,0.00
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Office 365 E3 - Office 365 E3 - cycleCharge 12/28/2023-1/27/2024  December   ,168.4,134.72,1,1.00,25.00,168.40,168.40,33.68
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,27007.5,110.8,1,195.00,25.00,138.50,27007.50,5401.50
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/28/2023-1/27/2024  December   ,4376.1,40.24,1,87.00,25.00,50.30,4376.10,875.22
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online Kiosk - Exchange Online Kiosk - cycleCharge  12/28/2023-1/27/2024  December   ,12.6,10.08,1,1.00,25.00,12.60,12.60,2.52
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - cycleCharge 12/28/2023-1/27/2024  December   ,1761.2,55.92,1,28.00,25.00,62.90,1761.20,352.24
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  12/28/2023-1/27/2024  December   ,50.3,40.24,1,1.00,25.00,50.30,50.30,10.06
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 F1 - Microsoft 365 F1 - cycleCharge 12/28/2023-1/27/2024  December   ,14.2,11.36,1,1.00,25.00,14.20,14.20,2.84
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Visio Plan 2 - Visio Plan 2 (Non-Profit Pricing) - cycleCharge  12/28/2023-1/27/2024  December   ,566.4,75.52,1,6.00,25.00,94.40,566.40,113.28
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Rooms Standard - Microsoft Teams Rooms Standard - cycleCharge  12/28/2023-1/27/2024  December   ,118,94.4,1,1.00,25.00,118.00,118.00,23.60
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - renew  12/10/2023-12/9/2024  December   ,0,0,1,32.00,25.0,0.00,0.00,0.00
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  12/28/2023-1/27/2024  December   ,737.76,147.55,1,4.00,25.00,184.44,737.75,147.55
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Exchange Online (Plan 2) - Exchange Online (Plan 2) - renew  12/15/2023-1/14/2024  December   ,67.08,53.66,1,1.00,25.00,67.08,67.08,13.42
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  12/28/2023-1/27/2024  December   ,201.24,53.66,1,3.00,25.00,67.08,201.23,40.25
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft 365 Audio Conferencing - Microsoft 365 Audio Conferencing - cycleCharge  12/28/2023-1/27/2024  December   ,1393.73,15.7,1,71.00,25.00,19.63,1393.38,278.68
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/28/2023-1/27/2024  December   ,708.3,62.96,1,9.00,25.00,78.70,708.30,141.66
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,6648,122.96,1,48.00,25.00,138.50,6648.00,1329.60
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/28/2023-1/27/2024  December   ,2313.8,40.24,1,46.00,25.00,50.30,2313.80,462.76
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  12/12/2023-1/11/2024  December   ,33.48,26.78,1,1.00,25.00,33.48,33.48,6.70
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft 365 Business Basic - Microsoft 365 Business Basic - renew  12/28/2023-1/27/2024  December   ,100.56,40.22,1,2.00,25.00,50.28,100.55,20.11
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  12/28/2023-1/27/2024  December   ,453.6,30.24,1,12.00,25.00,37.80,453.60,90.72
+GOSH Copenhagen,744b84ac-4eae-4885-9f59-9217b999f8b4,89885019,Power BI Pro - Power BI Pro - cycleCharge 12/28/2023-1/27/2024  December   ,817.7,50.32,1,13.00,25.00,62.90,817.70,163.54
+cbgJensen.dk,3cbc57fe-362f-4193-b77c-fe40f42e30bd,39993775,Visio Plan 2 - Visio Plan 2 - renew 12/1/2023-12/31/2023  December   ,209.6,83.84,1,2.00,25.00,104.80,209.60,41.92
+cbgJensen.dk,3cbc57fe-362f-4193-b77c-fe40f42e30bd,39993775,Project Plan 3 - Project Plan 3 - renew 12/1/2023-12/31/2023  December   ,419.2,167.68,1,2.00,25.00,209.60,419.20,83.84
+cbgJensen.dk,3cbc57fe-362f-4193-b77c-fe40f42e30bd,39993775,Office 365 E3 - Office 365 E3 - renew 12/1/2023-12/31/2023  December   ,560.7,149.52,1,3.00,25.00,186.90,560.70,112.14
+cbgJensen.dk,3cbc57fe-362f-4193-b77c-fe40f42e30bd,39993775,Microsoft 365 E5 - Microsoft 365 E5 - renew 12/1/2023-12/31/2023  December   ,534.13,427.3,1,1.00,25.00,534.13,534.13,106.83
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Visio Plan 2 - Visio Plan 2 (Non-Profit Pricing) - renew  12/28/2023-1/27/2024  December   ,377.28,100.61,1,3.00,25.00,125.76,377.29,75.46
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Microsoft 365 E5 - Microsoft 365 E5 - renew 12/28/2023-1/27/2024  December   ,1602.39,427.3,1,3.00,25.00,534.13,1602.38,320.48
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Microsoft Teams Shared Devices - Microsoft Teams Shared Devices - cycleCharge  12/28/2023-1/27/2024  December   ,559,44.72,1,10.00,25.00,55.90,559.00,111.80
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Microsoft Teams Shared Devices - Microsoft Teams Shared Devices - addQuantity  12/21/2023-12/27/2023  December   ,130.4,44.72,1,10.00,25.00,13.04,130.38,26.08
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,50.4,20.16,1,2.00,25.00,25.20,50.40,10.08
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Visio Plan 2 - Visio Plan 2 (Non-Profit Pricing) - cycleCharge  12/28/2023-1/27/2024  December   ,1132.8,75.52,1,12.00,25.00,94.40,1132.80,226.56
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Microsoft 365 E5 - Microsoft 365 E5 - cycleCharge 12/28/2023-1/27/2024  December   ,5615.4,320.88,1,14.00,25.00,401.10,5615.40,1123.08
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - renew  12/21/2023-1/20/2024  December   ,0,0,1,5.00,25.00,0.00,0.00,0.00
+Atcom Aps,b2ac3632-43cf-4480-bd28-0bff4090cae1,26097282,Microsoft Teams Shared Devices - Microsoft Teams Shared Devices - addQuantity  12/21/2023-12/27/2023  December   ,-13.04,44.72,1,1.00,25.00,-13.04,-13.04,-2.61
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Teams Rooms Pro - Microsoft Teams Rooms Pro - cycleCharge  12/1/2023-12/31/2023  December   ,2013.6,201.36,1,8.00,25.00,251.70,2013.60,402.72
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft 365 Audio Conferencing - Microsoft 365 Audio Conferencing - cycleCharge  12/28/2023-1/27/2024  December   ,588.9,15.7,1,30.00,25.00,19.63,588.75,117.75
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,1814.4,11.2,1,144.00,25.00,12.60,1814.40,362.88
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Enterprise Mobility + Security E5 - Enterprise Mobility + Security E5 - cycleCharge  12/28/2023-1/27/2024  December   ,207,82.8,1,2.00,25.00,103.50,207.00,41.40
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Teams Shared Devices - Microsoft Teams Shared Devices - cycleCharge  12/28/2023-1/27/2024  December   ,704.2,40.24,1,14.00,25.00,50.30,704.20,140.84
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft 365 E5 - Microsoft 365 E5 - cycleCharge 12/28/2023-1/27/2024  December   ,802.2,320.88,1,2.00,25.00,401.10,802.20,160.44
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/28/2023-1/27/2024  December   ,2012,44.72,1,40.00,25.00,50.30,2012.00,402.40
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/28/2023-1/27/2024  December   ,10939.3,62.96,1,139.00,25.00,78.70,10939.30,2187.86
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,12049.5,122.96,1,87.00,25.00,138.50,12049.50,2409.90
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Project Online Essentials - Project Online Essentials - cycleCharge  12/28/2023-1/27/2024  December   ,44.1,35.28,1,1.00,25.00,44.10,44.10,8.82
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,151.2,22.32,1,6.00,25.00,25.20,151.20,30.24
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/28/2023-1/27/2024  December   ,2636,210.88,1,10.00,25.00,263.60,2636.00,527.20
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Entra ID P1 - Microsoft Entra ID P1 - renew  12/3/2023-1/2/2024  December   ,150.84,40.22,1,3.00,25.00,50.28,150.83,30.17
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Project Plan 5 - Project Plan 5 - new 12/19/2023-1/18/2024  December   ,384.2,307.36,1,1.00,25.00,384.20,384.20,76.84
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Power BI Pro - Power BI Pro - cycleCharge 12/28/2023-1/27/2024  December   ,1069.3,55.92,1,17.00,25.00,62.90,1069.30,213.86
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Visio Plan 2 - Visio Plan 2 (Non-Profit Pricing) - cycleCharge  12/28/2023-1/27/2024  December   ,1510.4,75.52,1,16.00,25.00,94.40,1510.40,302.08
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  12/28/2023-1/27/2024  December   ,150.9,40.24,1,3.00,25.00,50.30,150.90,30.18
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - cycleCharge  12/28/2023-1/27/2024  December   ,0,0,1,5.00,25.00,0.00,0.00,0.00
+ZINCKTWICE S.M.B.A.,2f0bf2d0-d980-410d-a9fe-2429988a454d,32365361,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/1/2023-12/31/2023  December   ,436.5,69.84,1,5.00,25.00,87.30,436.50,87.30
+ZINCKTWICE S.M.B.A.,2f0bf2d0-d980-410d-a9fe-2429988a454d,32365361,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/30/2023-1/29/2024  December   ,83.7,22.32,1,3.00,25.00,27.90,83.70,16.74
+Tal Digital,ae68dbf3-77c3-4268-833a-83e9240d5689,43630962,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/19/2023-1/18/2024  December   ,87.3,69.84,1,1.00,25.00,87.30,87.30,17.46
+Tal Digital,ae68dbf3-77c3-4268-833a-83e9240d5689,43630962,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/1/2023-12/31/2023  December   ,138.5,110.8,1,1.00,25.00,138.50,138.50,27.70
+Langvad Arkitekter,83bb7a7b-662b-49a4-8d39-f536f1c3b792,77213813,Project Plan 3 - Project Plan 3 - cycleCharge 12/28/2023-1/27/2024  December   ,188.8,151.04,1,1.00,25.00,188.80,188.80,37.76
+Langvad Arkitekter,83bb7a7b-662b-49a4-8d39-f536f1c3b792,77213813,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,50.4,20.16,1,2.00,25.00,25.20,50.40,10.08
+Langvad Arkitekter,83bb7a7b-662b-49a4-8d39-f536f1c3b792,77213813,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/1/2023-12/31/2023  December   ,277,122.96,1,2.00,25.00,138.50,277.00,55.40
+adapterdevelopment,a51785b0-f24d-4ebb-a939-949227bb8661,31590639,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  12/6/2023-1/5/2024  December   ,55.9,44.72,1,1.00,25.00,55.90,55.90,11.18
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Power BI Pro - Power BI Pro - cycleCharge 12/28/2023-1/27/2024  December   ,754.8,50.32,1,12.00,25.00,62.90,754.80,150.96
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,75.6,20.16,1,3.00,25.00,25.20,75.60,15.12
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft Teams Rooms Standard - Microsoft Teams Rooms Standard - cycleCharge  12/28/2023-1/27/2024  December   ,236,104.8,1,2.00,25.00,118.00,236.00,47.20
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Office 365 E1 - Office 365 E1 - cycleCharge 12/28/2023-1/27/2024  December   ,62.9,50.32,1,1.00,25.00,62.90,62.90,12.58
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/28/2023-1/27/2024  December   ,6590,210.88,1,25.00,25.00,263.60,6590.00,1318.00
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Project Plan 5 - Project Plan 5 - renew 12/28/2023-1/27/2024  December   ,3227.28,368.83,1,7.00,25.00,461.04,3227.26,645.45
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/30/2023-1/29/2024  December   ,790.8,224.88,1,3.00,25.00,263.60,790.80,158.16
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Microsoft Defender for Office 365 (Plan 1) - Microsoft Defender for Office 365 (Plan 1) - cycleCharge  12/30/2023-1/29/2024  December   ,12.6,10.08,1,1.00,25.00,12.60,12.60,2.52
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/1/2023-12/31/2023  December   ,1229.6,122.96,1,8.00,25.00,153.70,1229.60,245.92
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Visio Plan 2 - Visio Plan 2 (Non-Profit Pricing) - renew  12/28/2023-1/27/2024  December   ,880.32,100.61,1,7.00,25.00,125.76,880.34,176.07
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Project Plan 5 - Project Plan 5 - addQuantity 12/1/2023-12/27/2023  December   ,2904.58,368.83,1,7.00,25.00,414.94,2904.56,580.91
+Eco-Locaxion Management,a53bbbd7-d23a-4ac8-a47d-aeb5b1d097f3,43676911,Project Plan 5 - Project Plan 5 - addQuantity 12/1/2023-12/27/2023  December   ,-2074.7,368.83,1,5.00,25.00,-414.94,-2074.69,-414.94
+Bendix Transport,64c66837-fd23-4792-8b26-0b8a12ed5239,18236133,Enterprise Mobility + Security E3 - Enterprise Mobility + Security E3 - cycleCharge  12/28/2023-1/27/2024  December   ,2859.5,59.04,1,43.00,25.00,66.50,2859.50,571.90
+Bendix Transport,64c66837-fd23-4792-8b26-0b8a12ed5239,18236133,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,126,22.32,1,5.00,25.00,25.20,126.00,25.20
+Bendix Transport,64c66837-fd23-4792-8b26-0b8a12ed5239,18236133,Office 365 E3 - Office 365 E3 - cycleCharge 12/28/2023-1/27/2024  December   ,7072.8,149.52,1,42.00,25.00,168.40,7072.80,1414.56
+Hjorth Snedker og Tømrer ApS,9d0c7ba5-31c4-408f-8d87-1221c9ff7823,43273558,Microsoft 365 Business Standard - Microsoft 365 Business Standard - new  12/1/2023-12/31/2023  December   ,0,0,1,25.00,25.00,0.00,0.00,0.00
+Kiltin,4ff5fd63-d494-42c9-91dd-f2905f6dcd98,15000848,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/21/2023-1/20/2024  December   ,1998.1,122.96,1,13.00,25.00,153.70,1998.10,399.62
+Meetincph,d9543cd0-0055-4986-bac9-3fe82fea6334,42946648,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  12/6/2023-1/5/2024  December   ,33.48,26.78,1,1.00,25.00,33.48,33.48,6.70
+Meetincph,d9543cd0-0055-4986-bac9-3fe82fea6334,42946648,Microsoft 365 Business Standard - Microsoft 365 Business Standard - renew  12/6/2023-1/5/2024  December   ,104.76,83.81,1,1.00,25.00,104.76,104.76,20.95
+Mads & Vitus,a980a661-6969-4f10-8dd3-e57bbffcc853,28689942,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/23/2023-1/22/2024  December   ,393.5,62.96,1,5.00,25.00,78.70,393.50,78.70
+Mads & Vitus,a980a661-6969-4f10-8dd3-e57bbffcc853,28689942,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/23/2023-1/22/2024  December   ,201.2,40.24,1,4.00,25.00,50.30,201.20,40.24
+Nord Tech Industrisystemer,4d2f8663-043f-4798-8507-84849bbedfda,18175509,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/17/2023-1/16/2024  December   ,4293.5,122.96,1,31.00,25.00,138.50,4293.50,858.70
+Nord Tech Industrisystemer,4d2f8663-043f-4798-8507-84849bbedfda,18175509,Dynamics 365 Business Central Essentials - Dynamics 365 Business Central Essentials - cycleCharge  12/1/2023-12/31/2023  December   ,385.44,308.35,1,1.00,25.00,385.44,385.44,77.09
+Nord Tech Industrisystemer,4d2f8663-043f-4798-8507-84849bbedfda,18175509,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  12/17/2023-1/16/2024  December   ,50.3,40.24,1,1.00,25.00,50.30,50.30,10.06
+Nord Tech Industrisystemer,4d2f8663-043f-4798-8507-84849bbedfda,18175509,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  12/17/2023-1/16/2024  December   ,151.2,33.52,1,4.00,25.00,37.80,151.20,30.24
+Nord Tech Industrisystemer,4d2f8663-043f-4798-8507-84849bbedfda,18175509,Visio Plan 2 - Visio Plan 2 - cycleCharge 12/17/2023-1/16/2024  December   ,94.4,75.52,1,1.00,25.00,94.40,94.40,18.88
+Nord Tech Industrisystemer,4d2f8663-043f-4798-8507-84849bbedfda,18175509,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  12/12/2023-1/11/2024  December   ,1207.2,44.72,1,24.00,25.00,50.30,1207.20,241.44
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,1939,110.8,1,14.00,25.00,138.50,1939.00,387.80
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/28/2023-1/27/2024  December   ,25.2,20.16,1,1.00,25.00,25.20,25.20,5.04
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Project Plan 3 - Project Plan 3 - cycleCharge 12/28/2023-1/27/2024  December   ,1510.4,151.04,1,8.00,25.00,188.80,1510.40,302.08
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Microsoft 365 Business Basic - Microsoft 365 Business Basic - renew  12/1/2023-12/31/2023  December   ,150.84,40.22,1,3.00,25.00,50.28,150.83,30.17
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Office 365 F3 - Office 365 F3 - cycleCharge 12/28/2023-1/27/2024  December   ,277.2,20.16,1,11.00,25.00,25.20,277.20,55.44
+Eco-Locaxion Holding ApS,997fc863-2b5e-4b88-b311-ce0b4d704e75,39993775,Microsoft 365 Business Standard - Microsoft 365 Business Standard - renew  12/1/2023-12/31/2023  December   ,209.52,83.81,1,2.00,25.00,104.76,209.53,41.91
+Eco-Locaxion Holding ApS,997fc863-2b5e-4b88-b311-ce0b4d704e75,39993775,Microsoft Entra ID P1 - Microsoft Entra ID P1 - renew  12/8/2023-1/7/2024  December   ,50.28,40.22,1,1.00,25.00,50.28,50.28,10.06
+Eco-Locaxion Holding ApS,997fc863-2b5e-4b88-b311-ce0b4d704e75,39993775,Microsoft 365 Business Basic - Microsoft 365 Business Basic - renew  12/29/2023-1/28/2024  December   ,50.28,40.22,1,1.00,25.00,50.28,50.28,10.06
+Delfi Technologies A/S,c959cf6c-f015-49bc-8a35-b9a1084f6bd6,12552688,Microsoft 365 E5 Security - Microsoft 365 E5 Security - cycleCharge  12/24/2023-1/23/2024  December   ,13072.8,67.04,1,156.00,6.25,71.23,11111.88,653.64
+Delfi Technologies A/S,c959cf6c-f015-49bc-8a35-b9a1084f6bd6,12552688,Microsoft 365 E3 - Microsoft 365 E3 - renew 12/23/2023-1/22/2024  December   ,3373.3,269.86,1,10.00,25.00,337.33,3373.25,674.65
+Delfi Technologies A/S,c959cf6c-f015-49bc-8a35-b9a1084f6bd6,12552688,Power BI Pro - Power BI Pro - cycleCharge 12/23/2023-1/22/2024  December   ,314.5,50.32,1,5.00,6.25,53.47,267.33,15.73
+Delfi Technologies A/S,c959cf6c-f015-49bc-8a35-b9a1084f6bd6,12552688,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/24/2023-1/23/2024  December   ,39354,224.88,1,140.00,6.25,238.94,33450.90,1967.70
+Delfi Technologies A/S,c959cf6c-f015-49bc-8a35-b9a1084f6bd6,12552688,Microsoft 365 E3 - Microsoft 365 E3 - cycleCharge 12/23/2023-1/22/2024  December   ,1581.6,210.88,1,6.00,6.25,224.06,1344.36,79.08
+Delfi Technologies A/S,c959cf6c-f015-49bc-8a35-b9a1084f6bd6,12552688,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  12/23/2023-1/22/2024  December   ,25.2,20.16,1,1.00,6.25,21.42,21.42,1.26
+PrimeAssurance AS,1fd69719-63cd-4aa4-96e3-3bf70301c149,35513930,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,692.5,110.8,1,5.00,25.00,138.50,692.50,138.50
+PrimeAssurance AS,1fd69719-63cd-4aa4-96e3-3bf70301c149,35513930,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/28/2023-1/27/2024  December   ,78.7,62.96,1,1.00,25.00,78.70,78.70,15.74
+Tresor Invest ApS,f75c827c-8b10-4924-972a-443612c21f4d,33377436,Microsoft Teams Phone Resource Account - Microsoft Teams Phone Resource Account - renew  12/7/2023-12/6/2024  December   ,0,0,1,1.00,25.00,0.00,0.00,0.00
+viks,c341c459-eb96-4bfb-a096-6020f5598ce8,27260551,Microsoft 365 Business Standard - Microsoft 365 Business Standard - renew  12/25/2023-1/24/2024  December   ,209.52,83.81,1,2.00,25.00,104.76,209.53,41.91
+RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  12/1/2023-12/31/2023  December   ,83.8,33.52,1,2.00,25.00,41.90,83.80,16.76
+RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  12/1/2023-12/31/2023  December   ,174.6,69.84,1,2.00,25.00,87.30,174.60,34.92
+make Rehab A/S,62ae78e2-041d-45c1-b485-3e073d3cb1d4,42102806,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  12/28/2023-1/27/2024  December   ,692.5,110.8,1,5.00,25.00,138.50,692.50,138.50

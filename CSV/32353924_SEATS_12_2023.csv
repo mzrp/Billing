@@ -1,0 +1,6 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+CANEA ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Office 365 Business Premium - Monthly - Microsoft ,1.00,78.63
+CANEA ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Exchange Online (plan 1) - Monthly - Exchange ,19.00,477.38
+CANEA ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Exchange Online (plan 1) - Monthly - Exchange ,17.00,28.48
+CANEA ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Exchange Online (plan 1) - Monthly - Exchange ,19.00,445.55
+CANEA ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Exchange Online (plan 1) - Monthly - Exchange ,17.00,-427.13

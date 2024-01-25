@@ -222,29 +222,58 @@ namespace TeleBilling_v02_.Controllers
 
                             */
 
+                            // old format
                             // Date/Time Start(UTC),Date/Time Connect(UTC),Date/Time End(UTC),Source,CLI,Destination,Duration,Billing Duration,
                             // Disconnect Code,Disconnect Reason, Rate, Charged, CDR Type,Country Name, Network Name,Trunk Name
+
+                            // new format
+                            // Date/Time Start (UTC),Date/Time Connect (UTC),Date/Time End (UTC),Source,CLI,Status,Destination Number,
+                            // Call / Billing Duration (sec),Response,Voice OUT Trunk,Destination Country,Network,Call Type,Rate (USD),Charged (USD)
+
                             item.TimeStart = parts[0].Replace("\"", "");
-                            item.Source = parts[3].Replace("\"", "");
-                            item.CLI = parts[4].Replace("\"", "");
-                            item.Destination = parts[5].Replace("\"", "");
-                            item.Duration = parts[6].Replace("\"", "");
+                            item.Source = parts[4].Replace("\"", "");
+                            item.CLI = parts[5].Replace("\"", "");
+
+                            item.Destination = parts[6].Replace("\"", "");
+                            item.Duration = parts[7].Replace("\"", "");
                             item.BillingDuration = parts[7].Replace("\"", "");
-                            item.DisconnectCode = parts[8].Replace("\"", "");
-                            item.DisconnectReason = parts[9].Replace("\"", "");
-                            item.Rate = parts[10].Replace("\"", "");
-                            item.Charged = parts[11].Replace("\"", "");
+
+                            item.DisconnectCode = "Disconnect Code";
+                            item.DisconnectReason = "Disconnect Reason";
+                            if (iCounter > 0)
+                            {
+                                // "200 Bye"
+                                // "487 Request terminated (Cancel)"
+                                string sCodeReason = parts[8].Replace("\"", "");
+                                int iFirstSpace = sCodeReason.IndexOf(" ");
+                                if (iFirstSpace != -1)
+                                {
+                                    item.DisconnectCode = sCodeReason.Substring(0, iFirstSpace);
+                                    item.DisconnectReason = sCodeReason.Substring(iFirstSpace + 1);
+                                }
+                                else
+                                {
+                                    item.DisconnectCode = "";
+                                    item.DisconnectReason = "";
+                                }
+                            }
+
+                            item.Rate = parts[13].Replace("\"", "");
+                            item.Charged = parts[14].Replace("\"", "");
+
                             item.CDRType = parts[12].Replace("\"", "");
-                            item.CountryName = parts[13].Replace("\"", "");
-                            item.NetworkName = parts[14].Replace("\"", "");
-                            item.TrunkName = parts[15].Replace("\"", "");
+
+                            item.CountryName = parts[10].Replace("\"", "");
+                            item.NetworkName = parts[11].Replace("\"", "");
+
+                            item.TrunkName = parts[9].Replace("\"", "");
                             item.MinutePrice = "";
                             item.SecondPrice = "";
                             item.FinalChargeK = "";
                             item.FinalChargeO = "";
 
                             // calculate charges
-                            string sDestination = parts[5].Replace("\"", "");
+                            string sDestination = parts[6].Replace("\"", "");
 
                             string sPrefix = "";
                             string sChargeLine = "";

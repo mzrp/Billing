@@ -955,7 +955,7 @@ namespace RackPeople.BillingAPI.Controllers
                         sEmailMessageToday = "Invoices exist that are due to invoicing today.<br />";
                     }
 
-                    if (DateTime.Now.Day > s.NextInvoice.Day)
+                    if (DateTime.Now.Day >= s.NextInvoice.Day)
                     {
                         int iDaysPasssed = DateTime.Now.Day - s.NextInvoice.Day;
                         if (iDaysPasssed % 3 == 0)

@@ -1,0 +1,4 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Kiltin,4ff5fd63-d494-42c9-91dd-f2905f6dcd98,15000848,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  10/21/2023-11/20/2023  October   ,12.00,1844.40
+Kiltin,4ff5fd63-d494-42c9-91dd-f2905f6dcd98,15000848,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  10/26/2023-11/20/2023  October   ,13.00,1675.86
+Kiltin,4ff5fd63-d494-42c9-91dd-f2905f6dcd98,15000848,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  10/26/2023-11/20/2023  October   ,12.00,-1546.95
