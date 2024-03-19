@@ -694,4 +694,19 @@
     <Comment>
     </Comment>
   </Customer>
+  <Customer Id="da5a8adf-7c7c-4c9a-b078-4eef17d64a4c">
+    <Name>CMA consult</Name>
+    <Comment>
+    </Comment>
+  </Customer>
+  <Customer Id="1798f74a-bc9e-4920-a1cc-8930f455a158">
+    <Name>Humangartner</Name>
+    <Comment>
+    </Comment>
+  </Customer>
+  <Customer Id="c00e6a96-6ffc-4fae-a00e-e6483a1954b5">
+    <Name>KL og partners</Name>
+    <Comment>
+    </Comment>
+  </Customer>
 </CustomerComments>

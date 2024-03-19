@@ -5244,8 +5244,8 @@ if (document.getElementById('subinfodiv1')) {
 		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/RPBillingSubscriptions.csv'>Download subscriptions</a>";
 
 		subsinfo += " <br />&nbsp;&nbsp;Actions: ";
-		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/api/nav/push?dryRun=true' target='_blank'>Run DRY</a> |";
-		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/api/nav/push?dryRun=false' target='_blank'>Run REAL</a> |";
+		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/api/nav/push?dryRun=true' target='_blank'>Inspect Next Invoice Dates</a> |";
+		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/api/nav/push?dryRun=false' target='_blank'>Push All Subscriptions</a> |";
 		
 		var TodayDT = new Date();
 		var FirstDayOfNextMonth = new Date(TodayDT.getFullYear(), TodayDT.getMonth() + 1, 1);
@@ -5262,8 +5262,8 @@ if (document.getElementById('subinfodiv1')) {
 		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/api/nav/pushnow?date=" + sTodayDT + "&billcycle=Biannually' target='_blank'>Push All Biannually</a> |";
 		subsinfo += " <a href='https://billing.gowingu.net/RPBilling/api/nav/pushnow?date=" + sTodayDT + "&billcycle=Annually' target='_blank'>Push All Annually</a>";
 		
-		subsinfo += " <br />&nbsp;&nbsp;<font size='1'>The pushing links are taking the first day of the next month, but if you would like to use a different date you can manually call it with:";
-		subsinfo += " https://billing.gowingu.net/RPBilling/api/nav/pushnow?date=YYYY-MM-DD&billcycle=Monthly|Quaterly|Biannually|Annually</font>";		        
+		//subsinfo += " <br />&nbsp;&nbsp;<font size='1'>The pushing links are taking the first day of the next month, but if you would like to use a different date you can manually call it with:";
+		//subsinfo += " https://billing.gowingu.net/RPBilling/api/nav/pushnow?date=YYYY-MM-DD&billcycle=Monthly|Quaterly|Biannually|Annually</font>";		        
 
         var l = function() {
                 function t(t, e) {

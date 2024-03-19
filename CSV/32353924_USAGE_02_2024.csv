@@ -1,0 +1,33 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Rtn Preference: MGN - Rtn Preference: MGN - new ,637.88,407.04
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Tables - Tables - LRS - new ,0.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard SSD Managed Disks - Standard SSD Managed ,3126.62,45.87
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Backup - Backup - Azure VM - EU West - new ,1.97,144.72
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard Page Blob v2 - Standard Page Blob v2 - ,0.02,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Tables - Tables - LRS - new ,0.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.14,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard Page Blob v2 - Standard Page Blob v2 - ,0.29,0.10
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Tables - Tables - LRS - new ,0.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard Page Blob v2 - Standard Page Blob v2 - ,7.59,0.90
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard HDD Managed Disks - Standard HDD Managed ,238.76,0.88
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard Page Blob v2 - Standard Page Blob v2 - ,0.01,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Rtn Preference: MGN - Rtn Preference: MGN - new ,100.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Premium SSD Managed Disks - Premium SSD Managed ,0.88,960.61
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Virtual Machines Bsv2 Series Windows - Virtual ,566.47,1749.19
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Network Watcher - Network Watcher - new ,2.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Bandwidth Inter-Region - Bandwidth Inter-Region - ,3.90,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard HDD Managed Disks - Standard HDD Managed ,328.12,120.33
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,IP Addresses - IP Addresses - Standard IPv4 - new ,1837.48,67.39
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard SSD Managed Disks - Standard SSD Managed ,0.88,62.03
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard SSD Managed Disks - Standard SSD Managed ,1.76,248.10
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Backup - Backup - Standard - EU West - new ,369.04,121.26
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Virtual Machines Bsv2 Series Windows - Virtual ,709.28,1092.49
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Files - Files - LRS - new ,0.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.17,0.01
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Rtn Preference: MGN - Rtn Preference: MGN - new ,148.19,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Premium SSD Managed Disks - Premium SSD Managed ,0.88,520.37
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard Page Blob v2 - Standard Page Blob v2 - ,113.79,2.09
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Bandwidth Inter-Region - Bandwidth Inter-Region - ,1.22,0.18
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,IP Addresses - IP Addresses - Basic IPv4 - new ,0.50,0.01
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,IP Addresses - IP Addresses - Basic IPv4 - new ,1.69,0.04
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00

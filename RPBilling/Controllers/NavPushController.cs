@@ -841,11 +841,65 @@ namespace RackPeople.BillingAPI.Controllers
 
                     // test for just one subscription
                     //break;
+
+                    // update billing cycle now
+                    s.NextInvoice = s.InvoiceDate;
+                    db.Entry(s).State = System.Data.Entity.EntityState.Modified;
                 }
+            }
+
+            // Save changes made to the database
+            try
+            {
+                db.SaveChanges();
+            }
+            catch (Exception)
+            {
+                result.Add("De overstående aftaler kunne ikke gemmes i den lokale database, og deres 'First Invoice' skal opdateres manuelt.");
             }
 
             // Render
             return Ok(result);
+        }
+
+        public string AllSubsinfosums()
+        {
+            var vResult = "";
+
+            try
+            {
+                var allSubs = db.Subscriptions.Include("Products").Where(x => x.Deleted == null);
+                db.Configuration.ProxyCreationEnabled = false;
+
+                decimal dAnnually = 0;
+                decimal dBiannually = 0;
+                decimal dQuaterly = 0;
+                decimal dMonthly = 0;
+                decimal dAll = 0;
+
+                foreach (var singleSub in allSubs)
+                {
+                    decimal dProdValue = 0;
+                    foreach (var singleProd in singleSub.Products)
+                    {
+                        dProdValue += singleProd.UnitAmount * singleProd.UnitPrice;
+                    }
+
+                    if (singleSub.BillingCycle == "Annually") dAnnually += dProdValue;
+                    if (singleSub.BillingCycle == "Biannually") dBiannually += dProdValue;
+                    if (singleSub.BillingCycle == "Quaterly") dQuaterly += dProdValue;
+                    if (singleSub.BillingCycle == "Monthly") dMonthly += dProdValue;
+                    dAll += dProdValue;
+                }
+
+                vResult = "All: " + dAll.ToString("N") + " Annually: " + dAnnually.ToString("N") + " Biannually: " + dBiannually.ToString("N") + " Quaterly: " + dQuaterly.ToString("N") + " Monthly: " + dMonthly.ToString("N");
+            }
+            catch (Exception ex)
+            {
+                vResult = ex.ToString();
+            }
+
+            return vResult;
         }
 
         [HttpGet]
@@ -864,11 +918,15 @@ namespace RackPeople.BillingAPI.Controllers
             var resultnew = new List<String>();
 
             if (dryRun) {
-                result.Add("               This is just a dry run. Nothing will change.");
+                result.Add("               Following is the list of subscriptions, prices and invoice dates.");
+                result.Add("");
             }
 
-            result.Add("               BCName,BCNo,Id,Description,FirstInvoice,BillingPeriod,InvoiceDate,NextInvoice,BillingCycle");
+            result.Add("               " + AllSubsinfosums());
+            result.Add("");
 
+            result.Add("               BCName,BCNo,Id,Description,FirstInvoice,BillingPeriod,InvoiceDate,NextInvoice,BillingCycle");
+            result.Add("");
 
             foreach (var s in subscriptions) {
 

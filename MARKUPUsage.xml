@@ -113,9 +113,9 @@
     <Name>GoWingu ApS</Name>
     <Markup>0.0</Markup>
   </Customer>
-  <Customer Id="a82c3173-ccc6-452e-b1ea-b073caf1ea9d">
+  <Customer Id="a82c3173-ccc6-452e-b1ea-b073caf1ea9d" Markup="3.75">
     <Name>Grønbech &amp; Sønner</Name>
-    <Markup>25.0</Markup>
+    <Markup>3.75</Markup>
   </Customer>
   <Customer Id="8bec2ba7-852d-47ab-a79e-7adc2f0fc8ca">
     <Name>Hoimes advisory</Name>
@@ -309,9 +309,9 @@
     <Name>Jysk Energi Teknik AS</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="80ed74fa-8f44-4a36-9520-c03e719ed98a" Markup="9.00">
+  <Customer Id="80ed74fa-8f44-4a36-9520-c03e719ed98a" Markup="9">
     <Name>Nordic Bioscience</Name>
-    <Markup>9.00</Markup>
+    <Markup>9</Markup>
   </Customer>
   <Customer Id="f6aba9a9-08c9-40e4-a47a-357dea793664" Markup="0">
     <Name>S4B.dk</Name>
@@ -555,6 +555,22 @@
   </Customer>
   <Customer Id="997fc863-2b5e-4b88-b311-ce0b4d704e75">
     <Name>Eco-Locaxion Holding ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="da5a8adf-7c7c-4c9a-b078-4eef17d64a4c">
+    <Name>CMA consult</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="9d0c7ba5-31c4-408f-8d87-1221c9ff7823">
+    <Name>Hjorth Snedker og Tømrer ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="1798f74a-bc9e-4920-a1cc-8930f455a158">
+    <Name>Humangartner</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="c00e6a96-6ffc-4fae-a00e-e6483a1954b5">
+    <Name>KL og partners</Name>
     <Markup>25.0</Markup>
   </Customer>
 </CustomerMarkups>

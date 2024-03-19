@@ -1,0 +1,25 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Service Bus - Service Bus - Hybrid Connections - ,694.78,54.63
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0.47,0.04
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,0.19,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.15,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,38.92,28.89
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Basic Plan - Linux - Azure App ,696.00,73.51
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Standard Plan - Azure App ,2088.00,1225.18
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,10.01,3.52
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,1392.00,816.51
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,SQL Database Single/Elastic Pool General Purpose - ,1392.00,1268.15
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,General Block Blob - General Block Blob - LRS - ,0.02,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Event Grid - Event Grid - new ,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Tables - Tables - LRS - new ,3.39,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.05,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - US East - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Geographic Numbers - Geographic Numbers - DK - US ,7.00,33.68
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Free Plan - Linux - Azure App ,0.94,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.31,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Files - Files - LRS - new ,1.04,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Azure App Service Free Plan - Azure App Service ,5.61,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,99999002,Service Bus - Service Bus - Standard - new ,0.00,0.00

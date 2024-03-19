@@ -1,0 +1,13 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 Business Standard - Microsoft 365 Business Standard - new  2/28/2024-2/29/2024  February   ,1.00,6.03
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 Business Premium - Microsoft 365 Business Premium - new  2/28/2024-2/29/2024  February   ,21.00,267.23
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Power BI Pro - Power BI Pro - removeQuantity 2/28/2024-3/27/2024  February   ,11.00,768.90
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  2/28/2024-3/27/2024  February   ,3.00,83.70
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Exchange Online (Plan 2) - Exchange Online (Plan 2) - new  2/28/2024-3/27/2024  February   ,1.00,67.08
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 Business Premium - Microsoft 365 Business Premium - convert  2/28/2024-3/27/2024  February   ,21.00,3227.70
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft Teams Rooms Standard - Microsoft Teams Rooms Standard - renew  2/28/2024-3/27/2024  February   ,2.00,262.00
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 Business Premium - Microsoft 365 Business Premium - convert  2/28/2024-2/29/2024  February   ,21.00,-267.23
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 E3 - Microsoft 365 E3 - renew 2/28/2024-3/27/2024  February   ,25.00,7027.50
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Power BI Pro - Power BI Pro - removeQuantity 2/28/2024-3/27/2024  February   ,12.00,-838.80
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Microsoft 365 E3 - Microsoft 365 E3 - cancelImmediate  2/28/2024-3/27/2024  February   ,25.00,-7027.50
+CO:PLAY Advokatpartnerselskab,6e240344-7abc-4189-8dac-d7335a12a5e7,41110546,Power BI Pro - Power BI Pro - renew 2/28/2024-3/27/2024  February   ,12.00,838.80

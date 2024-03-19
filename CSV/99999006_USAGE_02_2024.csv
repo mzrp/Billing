@@ -1,0 +1,41 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard Page Blob - Standard Page Blob - LRS - ,25.16,0.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,7.14,2.09
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Bandwidth Inter-Region - Bandwidth Inter-Region - ,7.68,2.25
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Bandwidth Inter-Region - Bandwidth Inter-Region - ,5.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Backup - Backup - Azure VM - EU West - new ,0.47,27.45
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,6.00,54.09
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Load Balancer - Load Balancer - new ,1392.00,204.20
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.00,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines Dv2 Series - Virtual Machines Dv2 ,1074.38,428.05
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,General Block Blob - General Block Blob - LRS - ,447.15,0.94
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Backup - Backup - Standard - EU West - new ,3.83,1.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Microsoft Entra Domain Services - Microsoft Entra ,695.81,612.42
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Premium SSD Managed Disks - Premium SSD Managed ,3.00,102.24
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,1066.63,3.13
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines RI - Virtual Machines RI - new ,3022.12,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,3.00,52.96
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Azure App Service Free Plan - Azure App Service ,1.87,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard HDD Managed Disks - Standard HDD Managed ,1.55,0.46
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,IP Addresses - IP Addresses - Basic IPv4 - new ,1392.00,32.67
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard Page Blob - Standard Page Blob - LRS - ,0.04,0.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines Dv2 Series - Virtual Machines Dv2 ,79.18,126.36
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Tables - Tables - LRS - new ,0.01,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard SSD Managed Disks - Standard SSD Managed ,1641.87,19.27
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Tables - Tables - LRS - new ,3.39,0.01
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,VPN Gateway - VPN Gateway - Basic - new ,696.00,147.02
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard SSD Managed Disks - Standard SSD Managed ,1.00,28.17
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Premium SSD Managed Disks - Premium SSD Managed ,1.00,472.66
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,IP Addresses - IP Addresses - Basic IPv4 - new ,2088.00,44.11
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard SSD Managed Disks - Standard SSD Managed ,3.00,42.25
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Windows Server - Windows Server - 1 vCPU VM - new ,695.97,187.85
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Rtn Preference: MGN - Rtn Preference: MGN - new ,87.03,0.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,IP Addresses - IP Addresses - Standard IPv4 - new ,10440.00,306.29
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Load Balancer - Load Balancer - new ,7656.00,449.23
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Load Balancer - Load Balancer - new ,101.45,2.98
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Standard Page Blob - Standard Page Blob - LRS - ,50.44,0.11
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Bandwidth Inter-Region - Bandwidth Inter-Region - ,41.36,4.85
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines BS Series - Virtual Machines BS ,695.90,98.00
+SBC-Teams GoWingu,0b409563-744e-405d-802d-401e1ad470ef,99999006,Virtual Machines DSv2 Series - Reserved VM ,4.00,2159.60

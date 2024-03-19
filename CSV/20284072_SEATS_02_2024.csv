@@ -1,0 +1,14 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Microsoft 365 Business Premium - Microsoft 365 Business Premium - removeQuantity  2/28/2024-3/27/2024  February   ,11.00,1690.70
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Exchange Online (Plan 1) - Exchange Online (Plan 1) - removeQuantity  2/27/2024-3/20/2024  February   ,15.00,-331.88
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Microsoft 365 Business Premium - Microsoft 365 Business Premium - removeQuantity  2/28/2024-3/27/2024  February   ,14.00,-2151.80
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Exchange Online (Plan 1) - Exchange Online (Plan 1) - new  2/21/2024-3/20/2024  February   ,15.00,418.50
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Exchange Online (Plan 1) - Exchange Online (Plan 1) - removeQuantity  2/27/2024-3/20/2024  February   ,1.00,22.13
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  2/28/2024-3/27/2024  February   ,1.00,27.90
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  2/28/2024-3/27/2024  February   ,14.00,2151.80
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Project Plan 3 - Project Plan 3 - removeQuantity 2/28/2024-3/27/2024  February   ,6.00,1257.60
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Office 365 F3 - Office 365 F3 - new 2/28/2024-1/31/2025  February   ,1.00,310.10
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cancelImmediate  2/27/2024-3/20/2024  February   ,1.00,-22.13
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Project Plan 3 - Project Plan 3 - removeQuantity 2/28/2024-3/27/2024  February   ,8.00,-1676.80
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Project Plan 3 - Project Plan 3 - renew 2/28/2024-3/27/2024  February   ,8.00,1676.80
+INTERN A/S,e27c3fbf-0c10-40dc-a2fa-2bc482a803e2,20284072,Microsoft 365 Business Basic - Microsoft 365 Business Basic - renew  2/1/2024-2/29/2024  February   ,3.00,150.83

@@ -1,0 +1,4 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Exchange Online (Plan 1) - Exchange Online (Plan 1) - new  2/19/2024-3/18/2024  February   ,19.00,530.10
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Azure plan - Azure plan - new 2/2/2024-12/31/9999  February   ,1.00,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Microsoft 365 Business Standard - Microsoft 365 Business Standard - new  2/19/2024-3/18/2024  February   ,1.00,87.30
