@@ -58,7 +58,15 @@
 
             <asp:Label ID="HarvestInfoLabel" runat="server" Text="Harvest Web Service Information"></asp:Label> 
             <br />
+            <br />
+
+            <asp:Button ID="GetBCCustomersB" runat="server" Text="Get New BC Customers" OnClientClick="invokeLoader();" Height="58px" Width="286px" OnClick="GetBCCustomersB_Click" />
             
+            <br />
+            <asp:Label ID="GetBCCustomersL" runat="server" Text=""></asp:Label>
+
+            <br />
+
             <!--
             Please select CVR and date period<br />  <br />      
             

@@ -20,6 +20,7 @@ using System.Globalization;
 using System.IO;
 using Newtonsoft.Json;
 using System.Security.Cryptography;
+using Microsoft.Office.Interop.Excel;
 
 namespace RPNAVConnect
 {
@@ -185,6 +186,139 @@ namespace RPNAVConnect
                 EndMonthTB.Text = DateTime.Now.AddMonths(-1).Month.ToString();
                 EndYearTB.Text = DateTime.Now.AddMonths(-1).Year.ToString();
             }
+        }
+
+        protected void GetBCCustomersB_Click(object sender, EventArgs e)
+        {
+            System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
+            GetBCCustomersL.Text = "";
+
+            List<Client> sAllClients = new List<Client>();
+
+            // get Harvest customers
+            try
+            {
+                var url = "https://api.harvestapp.com/v2/clients";
+
+                bool bHasMore = true;
+                while (bHasMore == true)
+                {
+                    //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                    ServicePointManager.Expect100Continue = true;
+                    ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                           | SecurityProtocolType.Tls11
+                           | SecurityProtocolType.Tls12
+                           | SecurityProtocolType.Ssl3;
+
+                    var httpRequest = (System.Net.HttpWebRequest)System.Net.WebRequest.Create(url);
+
+                    httpRequest.Method = "GET";
+                    httpRequest.Host = "api.harvestapp.com";
+                    httpRequest.Headers["Harvest-Account-ID"] = "1475424";
+                    httpRequest.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                    httpRequest.UserAgent = "Harvest API Example";
+
+                    var httpResponse = (System.Net.HttpWebResponse)httpRequest.GetResponse();
+                    using (var streamReader = new System.IO.StreamReader(httpResponse.GetResponseStream()))
+                    {
+                        var sResultJson = streamReader.ReadToEnd();
+
+                        // Root myDeserializedClass = JsonConvert.DeserializeObject<Root>(myJsonResponse);
+                        HarvestClients allHarvestClients = Newtonsoft.Json.JsonConvert.DeserializeObject<HarvestClients>(sResultJson);
+
+                        foreach (var cli in allHarvestClients.clients)
+                        {
+                            sAllClients.Add(cli);
+                        }
+
+                        if (allHarvestClients.next_page != null)
+                        {
+                            url = allHarvestClients.links.next.ToString();
+                            bHasMore = true;
+                        }
+                        else
+                        {
+                            bHasMore = false;
+                        }
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
+
+            // get BC customers
+            try
+            {
+                //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                ServicePointManager.Expect100Continue = true;
+                ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                       | SecurityProtocolType.Tls11
+                       | SecurityProtocolType.Tls12
+                       | SecurityProtocolType.Ssl3;
+
+                System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                var webRequestAUTH = WebRequest.Create("https://api.businesscentral.dynamics.com/v2.0/74df0893-eb0e-4e6e-a68a-c5ddf3001c1f/RP-Production/ODataV4/Company('RackPeople ApS')/CustomerDetails") as HttpWebRequest;
+                if (webRequestAUTH != null)
+                {
+                    webRequestAUTH.Method = "GET";
+                    webRequestAUTH.Host = "api.businesscentral.dynamics.com";
+                    webRequestAUTH.ContentType = "application/json";
+                    webRequestAUTH.MediaType = "application/json";
+                    webRequestAUTH.Accept = "application/json";
+
+                    webRequestAUTH.Headers["Authorization"] = "Bearer " + sBCToken;
+
+                    using (var rW = webRequestAUTH.GetResponse().GetResponseStream())
+                    {
+                        using (var srW = new StreamReader(rW))
+                        {
+                            var sExportAsJson = srW.ReadToEnd();
+                            var sExport = JsonConvert.DeserializeObject<ODataV4Customers>(sExportAsJson);
+
+                            int iCount = 1;
+                            GetBCCustomersL.Text = "<br />";
+                            foreach (var cust in sExport.value)
+                            {
+                                bool bHarvestClientExists = false;
+                                foreach (Client sResultCustomer in sAllClients)
+                                {
+                                    if (sResultCustomer != null)
+                                    {
+                                        if (sResultCustomer.address == cust.No)
+                                        {
+                                            bHarvestClientExists = true;
+                                            break;
+                                        }
+                                    }
+                                }
+
+                                if (bHarvestClientExists == false)
+                                {
+                                    GetBCCustomersL.Text += iCount.ToString().PadLeft(3, '0') + ". " + cust.Name + " (" + cust.No + ")<br />";
+                                    iCount++;
+                                }
+                            }
+
+                            if (GetBCCustomersL.Text == "<br />")
+                            {
+                                GetBCCustomersL.Text = "No new customers exist in BC.";
+                            }
+                        }
+                    }
+
+                    webRequestAUTH = null;
+                }
+            }
+            catch (Exception ex)
+            {
+                GetBCCustomersL.Text += ex.ToString();
+            }
+
         }
 
         protected void HarvestDataB_Click(object sender, EventArgs e)
@@ -1700,5 +1834,6 @@ namespace RPNAVConnect
         {
 
         }
+
     }
 }

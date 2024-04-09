@@ -1,0 +1,89 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Cool LRS - EU West - ,0.23,0.17
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Test Plans - Azure Test Plans - Standard - ,1.00,379.64
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Virtual Machines Dv5 Series Windows - Virtual ,395.88,2393.11
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,0.02,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Event Grid - Event Grid - new ,0.01,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.29,0.11
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Process Automation - Process Automation - Basic - ,500.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot RA-GRS - EU ,0.69,0.23
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot GRS - EU West - new ,1091.17,1115.29
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot GRS - EU West - new ,531.77,210.03
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Rtn Preference: MGN - Rtn Preference: MGN - new ,100.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium Functions - Premium Functions - EU West - ,3720.00,4589.81
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Cool LRS - EU West - ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Container Instances - Container Instances - EU ,2727.63,927.97
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.03,0.01
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot LRS - EU West - new ,34.01,1.39
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,22.37,0.24
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium Functions - Premium Functions - EU West - ,13020.00,1150.17
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - Account Encrypted - RA-GRS - EU ,0.90,1.28
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps - Logic Apps - Consumption - new ,906.00,0.83
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps - Logic Apps - Consumption - new ,9958.00,1.82
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,App Configuration - App Configuration - Standard - ,62.00,543.17
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot RA-GRS - EU West ,0.12,0.04
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,49.24,0.54
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Load Balancer - Load Balancer - new ,14.45,0.53
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Repos and Boards (Basic) - Azure Repos and ,10.00,438.04
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Process Automation - Process Automation - Basic - ,558.45,8.15
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU North - ,367.57,268.35
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard Page Blob v2 - Standard Page Blob v2 - ,228.56,75.09
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot GRS - EU West - new ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard Page Blob v2 - Standard Page Blob v2 - ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,9.00,197.63
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Bastion - Azure Bastion - Basic - new ,0.94,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure Bastion - Azure Bastion - Basic - new ,1488.00,2064.05
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU North - ,0.02,0.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,15.00,168.20
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,5.01,2.20
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0.01,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU North - ,4.06,0.12
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.07,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,VPN Gateway - VPN Gateway - VpnGw2AZ - new ,744.00,3063.49
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,0.46,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - GRS - new ,6.51,0.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure App Service Premium v2 Plan - Azure App ,744.00,1086.34
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU North - ,1.33,0.04
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - GRS - new ,0.01,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium SSD Managed Disks - Premium SSD Managed ,1.00,305.23
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,0.07,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Rtn Preference: MGN - Rtn Preference: MGN - new ,119.00,75.58
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,2795.06,10.20
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0.01,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Microsoft Entra Domain Services - Microsoft Entra ,743.79,814.53
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0.01,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,App Configuration - App Configuration - Free - US ,31.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0.01,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,IP Addresses - IP Addresses - Standard IPv4 - new ,5208.00,190.11
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - GRS - new ,0.18,0.04
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,SQL Server Developer Edition - SQL Server ,395.88,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - GRS - ,0.73,0.26
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium SSD Managed Disks - Premium SSD Managed ,1.00,158.27
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Virtual Machines BS Series Windows - Virtual ,39.12,118.80
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,General Block Blob - General Block Blob - LRS - ,89.35,0.23
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Bandwidth Inter-Region - Bandwidth Inter-Region - ,51.98,7.59
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,46.79,1.47
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Cool LRS - EU West - ,0.23,0.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.41,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,IP Addresses - IP Addresses - Basic IPv4 - new ,1653.00,43.45
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU West - ,0.08,0.06
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot LRS - EU West - ,19.43,2.78
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Rtn Preference: MGN - Rtn Preference: MGN - new ,48.74,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Load Balancer - Load Balancer - new ,744.00,135.79
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps Integration Account - Logic Apps ,2.00,4380.42
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - LRS - new ,5.47,0.01
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Azure App Service Free Plan - Azure App Service ,6.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Storage - Bandwidth - Storage - Bandwidth - ,43.27,6.32
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Standard HDD Managed Disks - Standard HDD Managed ,2.00,85.97
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files - Files - LRS - new ,44.66,4.89
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Files v2 - Files v2 - Hot LRS - EU West - new ,3.69,0.15
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Blob Storage - Blob Storage - Hot GRS - EU West - ,0.03,0.02
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - RA-GRS - new ,0.00,0.00
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Container Instances - Container Instances - EU ,43642.10,1628.14
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Logic Apps - Logic Apps - Consumption - new ,0.72,0.63
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Premium SSD Managed Disks - Premium SSD Managed ,2.00,2170.80
+Norli Liv og Pension Livsforsikring A/S,de34bd08-db28-470e-87de-c5a5a40f06e8,64145711,Tables - Tables - GRS - new ,0.01,0.00

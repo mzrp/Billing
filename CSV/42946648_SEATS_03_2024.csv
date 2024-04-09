@@ -1,0 +1,5 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Meetincph,d9543cd0-0055-4986-bac9-3fe82fea6334,42946648,Exchange Online (Plan 1) - Exchange Online (Plan 1) - renew  3/6/2024-4/5/2024  March   ,1.00,33.48
+Meetincph,d9543cd0-0055-4986-bac9-3fe82fea6334,42946648,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cancelImmediate  3/11/2024-4/5/2024  March   ,1.00,-28.08
+Meetincph,d9543cd0-0055-4986-bac9-3fe82fea6334,42946648,Microsoft 365 Business Standard - Microsoft 365 Business Standard - renew  3/6/2024-4/5/2024  March   ,1.00,104.76
+Meetincph,d9543cd0-0055-4986-bac9-3fe82fea6334,42946648,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cancelImmediate  3/11/2024-4/5/2024  March   ,1.00,-87.86

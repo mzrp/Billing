@@ -33,6 +33,24 @@ namespace RPNAVConnect
         protected global::System.Web.UI.WebControls.Label HarvestInfoLabel;
 
         /// <summary>
+        /// GetBCCustomersB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button GetBCCustomersB;
+
+        /// <summary>
+        /// GetBCCustomersL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label GetBCCustomersL;
+
+        /// <summary>
         /// VATNoL control.
         /// </summary>
         /// <remarks>
