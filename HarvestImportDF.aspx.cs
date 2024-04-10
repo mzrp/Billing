@@ -21,9 +21,59 @@ using System.IO;
 using Newtonsoft.Json;
 using System.Security.Cryptography;
 using Microsoft.Office.Interop.Excel;
+using Microsoft.Store.PartnerCenter.Models.Orders;
+using System.Xml.Linq;
+using Microsoft.Store.PartnerCenter.Models;
 
 namespace RPNAVConnect
 {
+    public class HarvestClientPost
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public bool is_active { get; set; }
+        public object address { get; set; }
+        public string statement_key { get; set; }
+        public DateTime created_at { get; set; }
+        public DateTime updated_at { get; set; }
+        public string currency { get; set; }
+    }
+
+    public class HarvestClient
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public string currency { get; set; }
+    }
+
+    public class HarvestProjectPost
+    {
+        public int id { get; set; }
+        public string name { get; set; }
+        public object code { get; set; }
+        public bool is_active { get; set; }
+        public string bill_by { get; set; }
+        public double budget { get; set; }
+        public string budget_by { get; set; }
+        public bool budget_is_monthly { get; set; }
+        public bool notify_when_over_budget { get; set; }
+        public double over_budget_notification_percentage { get; set; }
+        public object over_budget_notification_date { get; set; }
+        public bool show_budget_to_all { get; set; }
+        public DateTime created_at { get; set; }
+        public DateTime updated_at { get; set; }
+        public object starts_on { get; set; }
+        public object ends_on { get; set; }
+        public bool is_billable { get; set; }
+        public bool is_fixed_fee { get; set; }
+        public string notes { get; set; }
+        public HarvestClient client { get; set; }
+        public object cost_budget { get; set; }
+        public bool cost_budget_include_expenses { get; set; }
+        public double hourly_rate { get; set; }
+        public object fee { get; set; }
+    }
+
     public class Creator
     {
         public int id { get; set; }
@@ -282,6 +332,7 @@ namespace RPNAVConnect
 
                             int iCount = 1;
                             GetBCCustomersL.Text = "<br />";
+
                             foreach (var cust in sExport.value)
                             {
                                 bool bHarvestClientExists = false;
@@ -299,7 +350,93 @@ namespace RPNAVConnect
 
                                 if (bHarvestClientExists == false)
                                 {
-                                    GetBCCustomersL.Text += iCount.ToString().PadLeft(3, '0') + ". " + cust.Name + " (" + cust.No + ")<br />";
+                                    string sNewCustId = "n/a";
+
+                                    // do only one - developer test
+                                    if (iCount == 1)
+                                    {
+                                        // Create Harvest client
+                                        try
+                                        {
+                                            //System.Net.ServicePointManager.SecurityProtocol = (System.Net.SecurityProtocolType)3072;
+
+                                            ServicePointManager.Expect100Continue = true;
+                                            ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls
+                                                   | SecurityProtocolType.Tls11
+                                                   | SecurityProtocolType.Tls12
+                                                   | SecurityProtocolType.Ssl3;
+
+                                            System.Net.ServicePointManager.ServerCertificateValidationCallback = delegate { return true; };
+
+                                            var webRequestCUST = WebRequest.Create("https://api.harvestapp.com/v2/clients") as HttpWebRequest;
+                                            if (webRequestCUST != null)
+                                            {
+                                                webRequestCUST.Method = "POST";
+                                                webRequestCUST.Host = "api.harvestapp.com";
+                                                webRequestCUST.Headers["Harvest-Account-ID"] = "1475424";
+                                                webRequestCUST.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                webRequestCUST.UserAgent = "Harvest API Example";
+
+                                                string sParams = "{\"name\":\"" + cust.Name + "\",\"address\":\"" + cust.No + "\"}";
+                                                var data = Encoding.UTF8.GetBytes(sParams);
+                                                webRequestCUST.ContentLength = data.Length;
+                                                using (var sW = webRequestCUST.GetRequestStream())
+                                                {
+                                                    sW.Write(data, 0, data.Length);
+                                                }
+                                                using (var rWCUST = webRequestCUST.GetResponse().GetResponseStream())
+                                                {
+                                                    using (var srWCUST = new StreamReader(rWCUST))
+                                                    {
+                                                        var sExportAsJsonCUST = srWCUST.ReadToEnd();
+                                                        var sExportCUST = JsonConvert.DeserializeObject<HarvestClientPost>(sExportAsJsonCUST);
+                                                        if (sExportCUST.address != null)
+                                                        {
+                                                            if (sExportCUST.address.ToString() == cust.No)
+                                                            {
+                                                                sNewCustId = sExportCUST.id.ToString();
+
+                                                                // create project for this new client
+                                                                var webRequestPROJECT = WebRequest.Create("https://api.harvestapp.com/v2/projects") as HttpWebRequest;
+                                                                if (webRequestPROJECT != null)
+                                                                {
+                                                                    webRequestPROJECT.Method = "POST";
+                                                                    webRequestPROJECT.Host = "api.harvestapp.com";
+                                                                    webRequestPROJECT.Headers["Harvest-Account-ID"] = "1475424";
+                                                                    webRequestPROJECT.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                    webRequestPROJECT.UserAgent = "Harvest API Example";
+
+                                                                    string sParamsPROJECT = "{\"client_id\":" + sNewCustId + ",\"name\":\"[" + cust.Name + "] - Løbende timer\",\"is_billable\":true,\"bill_by\":\"Project\",\"hourly_rate\":100.0,\"budget_by\":\"project\"}";
+                                                                    var dataPROJECT = Encoding.UTF8.GetBytes(sParamsPROJECT);
+                                                                    webRequestPROJECT.ContentLength = dataPROJECT.Length;
+                                                                    using (var sW = webRequestPROJECT.GetRequestStream())
+                                                                    {
+                                                                        sW.Write(dataPROJECT, 0, dataPROJECT.Length);
+                                                                    }
+                                                                    using (var rWPROJECT = webRequestPROJECT.GetResponse().GetResponseStream())
+                                                                    {
+                                                                        using (var srWPROJECT = new StreamReader(rWPROJECT))
+                                                                        {
+                                                                            var sExportAsJsonPROJECT = srWPROJECT.ReadToEnd();
+                                                                            var sExportPROJECT = JsonConvert.DeserializeObject<HarvestProjectPost>(sExportAsJsonPROJECT);
+                                                                        }
+                                                                    }
+                                                                }
+                                                            }
+                                                        }
+                                                    }
+                                                }
+                                                webRequestCUST = null;
+                                            }
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            ex.ToString();
+
+                                        }
+                                    }
+
+                                    GetBCCustomersL.Text += iCount.ToString().PadLeft(3, '0') + ". " + cust.Name + " (" + cust.No + ") Harvest client/project created: " + sNewCustId + " <br />";
                                     iCount++;
                                 }
                             }
