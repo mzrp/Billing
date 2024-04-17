@@ -421,7 +421,7 @@ namespace RPNAVConnect
                                                                                     webRequestPROJECT.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
                                                                                     webRequestPROJECT.UserAgent = "Harvest API Example";
 
-                                                                                    string sParamsPROJECT = "{\"client_id\":" + sNewCustId + ",\"name\":\"[" + cust.Name + "] - Løbende timer\",\"is_billable\":true,\"bill_by\":\"Project\",\"hourly_rate\":100.0,\"budget_by\":\"project\"}";
+                                                                                    string sParamsPROJECT = "{\"client_id\":" + sNewCustId + ",\"name\":\"" + cust.Name + " - Løbende timer\",\"is_billable\":true,\"bill_by\":\"Project\",\"hourly_rate\":100.0,\"budget_by\":\"project\"}";
                                                                                     
                                                                                     byte[] bytesPROJECT = Encoding.UTF8.GetBytes(sParamsPROJECT);
                                                                                     webRequestPROJECT.ContentLength = bytesPROJECT.Length;
@@ -456,13 +456,19 @@ namespace RPNAVConnect
                                                         }
                                                         catch (Exception ex)
                                                         {
-                                                            GetBCCustomersL.Text += "<br /><br />" + ex.ToString() + "<br /><br />";
-
+                                                            if (ex.ToString().IndexOf("The remote server returned an error: (422) unknown.") != -1)
+                                                            {
+                                                                sNewCustId = "422";
+                                                            }
+                                                            //GetBCCustomersL.Text += "<br /><br />" + ex.ToString() + "<br /><br />";
                                                         }
                                                     }
 
-                                                    GetBCCustomersL.Text += iCount.ToString().PadLeft(3, '0') + ". " + cust.Name + " (" + cust.No + ") Harvest client/project created: " + sNewCustId + " <br />";
-                                                    iCount++;
+                                                    if (sNewCustId != "422")
+                                                    {
+                                                        GetBCCustomersL.Text += iCount.ToString().PadLeft(3, '0') + ". " + cust.Name + " (" + cust.No + ") Harvest client/project id: " + sNewCustId + " <br />";
+                                                        iCount++;
+                                                    }
                                                 }
 
                                             }
@@ -473,7 +479,7 @@ namespace RPNAVConnect
 
                             if (GetBCCustomersL.Text == "<br />")
                             {
-                                GetBCCustomersL.Text = "No new customers exist in BC.";
+                                GetBCCustomersL.Text = "<br />No new customers exist in BC.";
                             }
                         }
                     }
