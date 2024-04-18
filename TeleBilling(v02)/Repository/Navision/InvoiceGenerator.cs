@@ -523,6 +523,15 @@ namespace TeleBilling_v02_.Repository.Navision
                         orderlineNummerSerie.lineType = "";
                         orderlineNummerSerie.lineObjectNumber = "";
                         orderlineNummerSerie.description = "Nummerserie " + line.Subscriber_Range_Start + " - " + line.Subscriber_Range_End;
+
+                        if (line.Agreement_Description != null)
+                        {
+                            if (line.Agreement_Description != "")
+                            {
+                                orderlineNummerSerie.description = orderlineNummerSerie.description + " " + line.Agreement_Description.Replace("\"", "");
+                            }
+                        }
+
                         orderlineNummerSerie.unitPrice = 0;
                         orderlineNummerSerie.quantity = 0;
 
@@ -790,6 +799,15 @@ namespace TeleBilling_v02_.Repository.Navision
                         orderlineNummerSerie.lineType = "";
                         orderlineNummerSerie.lineObjectNumber = "";
                         orderlineNummerSerie.description = "Nummerserie " + line.Subscriber_Range_Start + " - " + line.Subscriber_Range_End;
+
+                        if (line.Agreement_Description != null)
+                        {
+                            if (line.Agreement_Description != "")
+                            {
+                                orderlineNummerSerie.description = orderlineNummerSerie.description + " " + line.Agreement_Description.Replace("\"", "");
+                            }
+                        }
+
                         orderlineNummerSerie.unitPrice = 0;
                         orderlineNummerSerie.quantity = 0;
 
