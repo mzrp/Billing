@@ -439,6 +439,230 @@ namespace RPNAVConnect
                                                                                             try
                                                                                             {
                                                                                                 var sExportPROJECT = JsonConvert.DeserializeObject<HarvestProjectPost>(sExportAsJsonPROJECT);
+
+                                                                                                if (sExportPROJECT.id != null)
+                                                                                                {
+                                                                                                    string sNewProjectId = sExportPROJECT.id.ToString();
+
+                                                                                                    // create Kørsel
+                                                                                                    var webRequestTASK1 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK1 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK1.Method = "POST";
+                                                                                                        webRequestTASK1.ContentType = "application/json";
+
+                                                                                                        webRequestTASK1.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK1.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK1.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK1.UserAgent = "Harvest API Example";
+
+                                                                                                        // Kørsel
+                                                                                                        string sParamsTASK1 = "{\"task_id\":18363546,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK1 = Encoding.UTF8.GetBytes(sParamsTASK1);
+                                                                                                        webRequestTASK1.ContentLength = bytesTASK1.Length;
+
+                                                                                                        Stream requestStreamTASK1 = webRequestTASK1.GetRequestStream();
+                                                                                                        requestStreamTASK1.Write(bytesTASK1, 0, bytesTASK1.Length);
+                                                                                                        requestStreamTASK1.Close();
+
+                                                                                                        using (var rWTASK1 = webRequestTASK1.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK1 = new StreamReader(rWTASK1))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK1 = srTASK1.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // create Løbende Timer - N1
+                                                                                                    var webRequestTASK2 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK2 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK2.Method = "POST";
+                                                                                                        webRequestTASK2.ContentType = "application/json";
+
+                                                                                                        webRequestTASK2.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK2.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK2.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK2.UserAgent = "Harvest API Example";
+
+                                                                                                        // Løbende Timer - N1
+                                                                                                        string sParamsTASK2 = "{\"task_id\":18326258,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK2 = Encoding.UTF8.GetBytes(sParamsTASK2);
+                                                                                                        webRequestTASK2.ContentLength = bytesTASK2.Length;
+
+                                                                                                        Stream requestStreamTASK2 = webRequestTASK2.GetRequestStream();
+                                                                                                        requestStreamTASK2.Write(bytesTASK2, 0, bytesTASK2.Length);
+                                                                                                        requestStreamTASK2.Close();
+
+                                                                                                        using (var rWTASK2 = webRequestTASK2.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK2 = new StreamReader(rWTASK2))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK2 = srTASK2.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // create Løbende Timer - N2
+                                                                                                    var webRequestTASK3 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK3 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK3.Method = "POST";
+                                                                                                        webRequestTASK3.ContentType = "application/json";
+
+                                                                                                        webRequestTASK3.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK3.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK3.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK3.UserAgent = "Harvest API Example";
+
+                                                                                                        // Løbende Timer - N2
+                                                                                                        string sParamsTASK3 = "{\"task_id\":18363537,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK3 = Encoding.UTF8.GetBytes(sParamsTASK3);
+                                                                                                        webRequestTASK3.ContentLength = bytesTASK3.Length;
+
+                                                                                                        Stream requestStreamTASK3 = webRequestTASK3.GetRequestStream();
+                                                                                                        requestStreamTASK3.Write(bytesTASK3, 0, bytesTASK3.Length);
+                                                                                                        requestStreamTASK3.Close();
+
+                                                                                                        using (var rWTASK3 = webRequestTASK3.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK3 = new StreamReader(rWTASK3))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK3 = srTASK3.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // create Løbende Timer - N3
+                                                                                                    var webRequestTASK4 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK4 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK4.Method = "POST";
+                                                                                                        webRequestTASK4.ContentType = "application/json";
+
+                                                                                                        webRequestTASK4.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK4.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK4.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK4.UserAgent = "Harvest API Example";
+
+                                                                                                        // Løbende Timer - N3
+                                                                                                        string sParamsTASK4 = "{\"task_id\":18363538,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK4 = Encoding.UTF8.GetBytes(sParamsTASK4);
+                                                                                                        webRequestTASK4.ContentLength = bytesTASK4.Length;
+
+                                                                                                        Stream requestStreamTASK4 = webRequestTASK4.GetRequestStream();
+                                                                                                        requestStreamTASK4.Write(bytesTASK4, 0, bytesTASK4.Length);
+                                                                                                        requestStreamTASK4.Close();
+
+                                                                                                        using (var rWTASK4 = webRequestTASK4.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK4 = new StreamReader(rWTASK4))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK4 = srTASK4.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // create Projektledelse
+                                                                                                    var webRequestTASK5 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK5 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK5.Method = "POST";
+                                                                                                        webRequestTASK5.ContentType = "application/json";
+
+                                                                                                        webRequestTASK5.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK5.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK5.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK5.UserAgent = "Harvest API Example";
+
+                                                                                                        // Projektledelse
+                                                                                                        string sParamsTASK5 = "{\"task_id\":17019086,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK5 = Encoding.UTF8.GetBytes(sParamsTASK5);
+                                                                                                        webRequestTASK5.ContentLength = bytesTASK5.Length;
+
+                                                                                                        Stream requestStreamTASK5 = webRequestTASK5.GetRequestStream();
+                                                                                                        requestStreamTASK5.Write(bytesTASK5, 0, bytesTASK5.Length);
+                                                                                                        requestStreamTASK5.Close();
+
+                                                                                                        using (var rWTASK5 = webRequestTASK5.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK5 = new StreamReader(rWTASK5))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK5 = srTASK5.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // create Support
+                                                                                                    var webRequestTASK6 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK6 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK6.Method = "POST";
+                                                                                                        webRequestTASK6.ContentType = "application/json";
+
+                                                                                                        webRequestTASK6.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK6.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK6.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK6.UserAgent = "Harvest API Example";
+
+                                                                                                        // Support
+                                                                                                        string sParamsTASK6 = "{\"task_id\":18497644,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK6 = Encoding.UTF8.GetBytes(sParamsTASK6);
+                                                                                                        webRequestTASK6.ContentLength = bytesTASK6.Length;
+
+                                                                                                        Stream requestStreamTASK6 = webRequestTASK6.GetRequestStream();
+                                                                                                        requestStreamTASK6.Write(bytesTASK6, 0, bytesTASK6.Length);
+                                                                                                        requestStreamTASK6.Close();
+
+                                                                                                        using (var rWTASK6 = webRequestTASK6.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK6 = new StreamReader(rWTASK6))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK6 = srTASK6.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // create Timer uden beregning
+                                                                                                    var webRequestTASK7 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
+                                                                                                    if (webRequestTASK7 != null)
+                                                                                                    {
+                                                                                                        webRequestTASK7.Method = "POST";
+                                                                                                        webRequestTASK7.ContentType = "application/json";
+
+                                                                                                        webRequestTASK7.Host = "api.harvestapp.com";
+                                                                                                        webRequestTASK7.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestTASK7.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestTASK7.UserAgent = "Harvest API Example";
+
+                                                                                                        // Timer uden beregning
+                                                                                                        string sParamsTASK7 = "{\"task_id\":18498616,\"is_active\":true,\"billable\":true}";
+
+                                                                                                        byte[] bytesTASK7 = Encoding.UTF8.GetBytes(sParamsTASK7);
+                                                                                                        webRequestTASK7.ContentLength = bytesTASK7.Length;
+
+                                                                                                        Stream requestStreamTASK7 = webRequestTASK7.GetRequestStream();
+                                                                                                        requestStreamTASK7.Write(bytesTASK7, 0, bytesTASK7.Length);
+                                                                                                        requestStreamTASK7.Close();
+
+                                                                                                        using (var rWTASK7 = webRequestTASK7.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srTASK7 = new StreamReader(rWTASK7))
+                                                                                                            {
+                                                                                                                var sExportAsJsonTASK7 = srTASK7.ReadToEnd();
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                }
+
                                                                                             }
                                                                                             catch (Exception ex)
                                                                                             {
