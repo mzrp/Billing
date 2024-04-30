@@ -27,6 +27,52 @@ using Microsoft.Store.PartnerCenter.Models;
 
 namespace RPNAVConnect
 {
+
+    public class HarvestLinks
+    {
+        public string first { get; set; }
+        public object next { get; set; }
+        public object previous { get; set; }
+        public string last { get; set; }
+    }
+
+    public class HarvestUsers
+    {
+        public List<HarvestUser> users { get; set; }
+        public int per_page { get; set; }
+        public int total_pages { get; set; }
+        public int total_entries { get; set; }
+        public object next_page { get; set; }
+        public object previous_page { get; set; }
+        public int page { get; set; }
+        public HarvestLinks links { get; set; }
+    }
+
+    public class HarvestUser
+    {
+        public int id { get; set; }
+        public string first_name { get; set; }
+        public string last_name { get; set; }
+        public string email { get; set; }
+        public string telephone { get; set; }
+        public string timezone { get; set; }
+        public int weekly_capacity { get; set; }
+        public bool has_access_to_all_future_projects { get; set; }
+        public bool is_contractor { get; set; }
+        public bool is_active { get; set; }
+        public bool calendar_integration_enabled { get; set; }
+        public string calendar_integration_source { get; set; }
+        public DateTime created_at { get; set; }
+        public DateTime updated_at { get; set; }
+        public bool can_create_projects { get; set; }
+        public double? default_hourly_rate { get; set; }
+        public double? cost_rate { get; set; }
+        public List<string> roles { get; set; }
+        public List<string> access_roles { get; set; }
+        public List<string> permissions_claims { get; set; }
+        public string avatar_url { get; set; }
+    }
+
     public class HarvestClientPost
     {
         public int id { get; set; }
@@ -443,6 +489,75 @@ namespace RPNAVConnect
                                                                                                 if (sExportPROJECT.id != null)
                                                                                                 {
                                                                                                     string sNewProjectId = sExportPROJECT.id.ToString();
+
+                                                                                                    // get all users
+                                                                                                    List<string> allUsers = new List<string>();
+
+                                                                                                    var webRequestUSRS = WebRequest.Create("https://api.harvestapp.com/v2/users") as HttpWebRequest;
+                                                                                                    if (webRequestUSRS != null)
+                                                                                                    {
+                                                                                                        webRequestUSRS.Method = "GET";
+                                                                                                        webRequestUSRS.ContentType = "application/json";
+
+                                                                                                        webRequestUSRS.Host = "api.harvestapp.com";
+                                                                                                        webRequestUSRS.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                        webRequestUSRS.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                        webRequestUSRS.UserAgent = "Harvest API Example";
+
+                                                                                                        webRequestUSRS.Headers["Authorization"] = "Bearer " + sBCToken;
+
+                                                                                                        using (var rU = webRequestUSRS.GetResponse().GetResponseStream())
+                                                                                                        {
+                                                                                                            using (var srU = new StreamReader(rW))
+                                                                                                            {
+                                                                                                                var sExportAsJsonUSRS = srU.ReadToEnd();
+                                                                                                                var sExportUSRS = JsonConvert.DeserializeObject<HarvestUsers>(sExportAsJsonUSRS);
+
+                                                                                                                foreach(var usr in sExportUSRS.users)
+                                                                                                                {
+                                                                                                                    if (usr.email != null)
+                                                                                                                    {
+                                                                                                                        allUsers.Add(usr.id.ToString());
+                                                                                                                    }
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
+
+                                                                                                    // add  users to project
+                                                                                                    foreach(var usr in allUsers)
+                                                                                                    {
+                                                                                                        // create Kørsel
+                                                                                                        var webRequestADDUSR = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/user_assignments") as HttpWebRequest;
+                                                                                                        if (webRequestADDUSR != null)
+                                                                                                        {
+                                                                                                            webRequestADDUSR.Method = "POST";
+                                                                                                            webRequestADDUSR.ContentType = "application/json";
+
+                                                                                                            webRequestADDUSR.Host = "api.harvestapp.com";
+                                                                                                            webRequestADDUSR.Headers["Harvest-Account-ID"] = "1475424";
+                                                                                                            webRequestADDUSR.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
+                                                                                                            webRequestADDUSR.UserAgent = "Harvest API Example";
+
+                                                                                                            // Kørsel
+                                                                                                            string sParamsADDUSR = "{\"user_id\":" + usr + "}";
+
+                                                                                                            byte[] bytesADDUSR = Encoding.UTF8.GetBytes(sParamsADDUSR);
+                                                                                                            webRequestADDUSR.ContentLength = bytesADDUSR.Length;
+
+                                                                                                            Stream requestStreamADDUSR = webRequestADDUSR.GetRequestStream();
+                                                                                                            requestStreamADDUSR.Write(bytesADDUSR, 0, bytesADDUSR.Length);
+                                                                                                            requestStreamADDUSR.Close();
+
+                                                                                                            using (var rWADDUSR = webRequestADDUSR.GetResponse().GetResponseStream())
+                                                                                                            {
+                                                                                                                using (var srADDUSR = new StreamReader(rWADDUSR))
+                                                                                                                {
+                                                                                                                    var sExportAsJsonADDUSR = srADDUSR.ReadToEnd();
+                                                                                                                }
+                                                                                                            }
+                                                                                                        }
+                                                                                                    }
 
                                                                                                     // create Kørsel
                                                                                                     var webRequestTASK1 = WebRequest.Create("https://api.harvestapp.com/v2/projects/" + sNewProjectId + "/task_assignments") as HttpWebRequest;
