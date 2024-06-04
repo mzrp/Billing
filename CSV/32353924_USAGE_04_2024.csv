@@ -1,0 +1,16 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard HDD Managed Disks - Standard HDD Managed ,367.98,134.67
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.03,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Backup - Backup - Standard - EU West - new ,448.94,147.21
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Virtual Machines Bsv2 Series Windows - Virtual ,719.83,1106.45
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard SSD Managed Disks - Standard SSD Managed ,1791.33,26.22
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard SSD Managed Disks - Standard SSD Managed ,2.00,281.09
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Virtual Machines Bsv2 Series Windows - Virtual ,720.00,2218.67
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Backup - Backup - Azure VM - EU West - new ,2.42,177.08
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Premium SSD Managed Disks - Premium SSD Managed ,1.00,1088.34
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Rtn Preference: MGN - Rtn Preference: MGN - new ,6.30,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.02,0.00
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard HDD Managed Disks - Standard HDD Managed ,253.28,0.93
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Premium SSD Managed Disks - Premium SSD Managed ,1.00,589.56
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,Standard SSD Managed Disks - Standard SSD Managed ,1.00,70.27
+KIMING ApS,39a6bac8-2eb8-4d1a-ac31-a295a7c21a97,32353924,IP Addresses - IP Addresses - Standard IPv4 - new ,2160.00,79.05

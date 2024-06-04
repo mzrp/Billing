@@ -1007,13 +1007,13 @@ namespace RackPeople.BillingAPI.Controllers
                     // should I send email?
                     bNewInvoicesExists = true;
                     TimeSpan ts = DateTime.Now.Subtract(s.NextInvoice);
-                    if (ts.TotalDays == 0)
+                    if (ts.TotalDays == 1)
                     {
                         bSendEmailNow = true;
                         sEmailMessageToday = "Invoices exist that are due to invoicing today.<br />";
                     }
 
-                    if (DateTime.Now.Day >= s.NextInvoice.Day)
+                    if (DateTime.Now.Day > s.NextInvoice.Day)
                     {
                         int iDaysPasssed = DateTime.Now.Day - s.NextInvoice.Day;
                         if (iDaysPasssed % 3 == 0)

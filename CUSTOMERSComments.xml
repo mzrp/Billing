@@ -709,4 +709,9 @@
     <Comment>
     </Comment>
   </Customer>
+  <Customer Id="0c9e92ef-0cbc-443b-a5f7-fb6729cb286c">
+    <Name>Leif Koch A/S</Name>
+    <Comment>
+    </Comment>
+  </Customer>
 </CustomerComments>
