@@ -1,0 +1,36 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  5/16/2024-5/28/2024  May   ,75.00,-4975.33
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - addQuantity 5/7/2024-5/27/2024  May   ,29.00,-1177.62
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  5/30/2024-6/27/2024  May   ,58.00,2517.12
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  5/28/2024-6/27/2024  May   ,57.00,2644.63
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online (Plan 2) - Exchange Online (Plan 2) - cycleCharge  5/28/2024-6/27/2024  May   ,1.00,46.40
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - renew  5/29/2024-6/28/2024  May   ,32.00,1781.51
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - cycleCharge 5/28/2024-6/27/2024  May   ,31.00,1798.53
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - addQuantity 5/7/2024-5/27/2024  May   ,30.00,1218.23
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Visio Plan 2 - Visio Plan 2 - renew 5/29/2024-6/28/2024  May   ,3.00,313.15
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online (Plan 2) - Exchange Online (Plan 2) - addQuantity  5/31/2024-6/27/2024  May   ,2.00,83.81
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Visio Plan 2 - Visio Plan 2 - addQuantity 5/31/2024-6/27/2024  May   ,6.00,471.42
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online Kiosk - Exchange Online Kiosk - cycleCharge  5/28/2024-6/27/2024  May   ,1.00,11.62
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online (Plan 2) - Exchange Online (Plan 2) - removeQuantity  5/31/2024-6/27/2024  May   ,1.00,41.90
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online (Plan 2) - Exchange Online (Plan 2) - addQuantity  5/31/2024-6/27/2024  May   ,1.00,-41.90
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  5/31/2024-6/27/2024  May   ,183.00,21086.13
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - renew 5/1/2024-5/31/2024  May   ,2.00,139.23
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - addQuantity 5/31/2024-6/27/2024  May   ,31.00,-1624.53
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Visio Plan 2 - Visio Plan 2 - cancelImmediate 5/31/2024-6/28/2024  May   ,3.00,-292.95
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  5/31/2024-6/27/2024  May   ,58.00,-2430.47
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - addQuantity 5/31/2024-6/27/2024  May   ,33.00,1729.34
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  5/29/2024-6/28/2024  May   ,76.00,11634.32
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  5/30/2024-6/27/2024  May   ,57.00,-2473.72
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cancelImmediate  5/31/2024-6/28/2024  May   ,76.00,-11258.99
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Visio Plan 2 - Visio Plan 2 - addQuantity 5/31/2024-6/27/2024  May   ,3.00,-235.71
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 F1 - Microsoft 365 F1 - renew 5/4/2024-6/3/2024  May   ,1.00,15.64
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Visio Plan 2 - Visio Plan 2 - cycleCharge 5/28/2024-6/27/2024  May   ,3.00,260.95
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - addQuantity  5/31/2024-6/27/2024  May   ,90.00,3771.42
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - addQuantity 5/16/2024-5/27/2024  May   ,30.00,-696.27
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  5/16/2024-5/28/2024  May   ,76.00,5041.67
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Power BI Pro - Power BI Pro - addQuantity 5/16/2024-5/27/2024  May   ,31.00,719.48
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Office 365 E3 - Office 365 E3 EEA (no Teams) - renew  5/4/2024-6/3/2024  May   ,1.00,171.42
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Exchange Online (Plan 2) - Exchange Online (Plan 2) - removeQuantity  5/31/2024-6/27/2024  May   ,2.00,-83.81
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  5/28/2024-6/27/2024  May   ,107.00,13650.10
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cancelImmediate  5/31/2024-6/28/2024  May   ,32.00,-1724.08
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Microsoft 365 Business Premium - Microsoft 365 Business Premium - addQuantity  5/31/2024-6/27/2024  May   ,107.00,-12329.05

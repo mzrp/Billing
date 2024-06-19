@@ -504,13 +504,11 @@ namespace RPNAVConnect
                                                                                                         webRequestUSRS.Headers["Authorization"] = "Bearer 2986822.pt.yW1hq4HFMNZa1WSgSr-PHVe5lhROrpNLVhhZbI6k_iVqRc2jJSMes_-Kw_8cH5jjQLCqamoWFCqxOxt-0q-iaw";
                                                                                                         webRequestUSRS.UserAgent = "Harvest API Example";
 
-                                                                                                        webRequestUSRS.Headers["Authorization"] = "Bearer " + sBCToken;
-
-                                                                                                        using (var rU = webRequestUSRS.GetResponse().GetResponseStream())
+                                                                                                        using (var rUSRS = webRequestUSRS.GetResponse().GetResponseStream())
                                                                                                         {
-                                                                                                            using (var srU = new StreamReader(rW))
+                                                                                                            using (var srUSRS = new StreamReader(rUSRS))
                                                                                                             {
-                                                                                                                var sExportAsJsonUSRS = srU.ReadToEnd();
+                                                                                                                var sExportAsJsonUSRS = srUSRS.ReadToEnd();
                                                                                                                 var sExportUSRS = JsonConvert.DeserializeObject<HarvestUsers>(sExportAsJsonUSRS);
 
                                                                                                                 foreach(var usr in sExportUSRS.users)

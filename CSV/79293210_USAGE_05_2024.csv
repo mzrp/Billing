@@ -1,0 +1,26 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Blob Storage - Blob Storage - Varm LRS - Det ,0.02,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Server i det lokale miljø -Det ,1.00,72.41
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Blob Storage - Blob Storage - Varm LRS - Det ,0.04,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,101.68,11.04
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,0.01,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Azure VM -Det nordlige Europa - ,1.00,72.41
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,VPN Gateway - VPN Gateway-VpnGw1  - new ,744.00,1023.59
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,5.31,2.31
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,111.76,1.21
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Tables - Tables - LRS - new ,0.83,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Generel blok-blob - Generel blok-blob - LRS - new ,0.02,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Azure Files -Det nordlige Europa - ,0.60,21.72
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.69,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Tables - Tables - LRS - new ,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Båndbredde mellem områder - Båndbredde mellem ,0.00,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Tables - Tables - GRS - new ,0.70,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Filer - Filer - LRS - new ,94.60,1.03
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Files v2 - Files v2 - Varm LRS - Det nordlige ,0.01,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Standard -Det nordlige Europa - ,56.71,18.40
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Backup - Backup-Standard -Det vestlige Europa - ,1864.24,604.75
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Lager – båndbredde - Lager – ,0.05,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Premium-filer - Premium-filer - LRS - Det vestlige ,100.00,139.03
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.44,0.00
+AVS Danmark,34d6ec56-89ce-45f6-8bc8-01424de6a4c7,79293210,IP-adresser - IP-adresser-Basic IPv4  - new ,744.00,21.55
