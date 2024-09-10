@@ -211,6 +211,24 @@ namespace RackPeople.BillingAPI.Controllers
 
             var lines = new List<PostSalesInvoiceLineDB>();
 
+            // add description line
+            try
+            {
+                if (s.Description != null)
+                {
+                    if (s.Description != "")
+                    {
+                        var descLine = new PostSalesInvoiceLineDB();
+                        descLine.description = s.Description;
+                        lines.Add(descLine);
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                ex.ToString();
+            }
+
             // Add subscription period as first line
             //var starts = billingPeriode.AddDays(0);
             //DateTime ends = billingPeriode.AddDays(0);

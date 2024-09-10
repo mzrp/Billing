@@ -1,0 +1,15 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - Power BI - EU ,5.36,7.18
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - Compute Pool - ,695.52,930.99
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - Data Warehouse ,6.76,9.05
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - Spark Memory ,106.17,142.12
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake Write ,1.46,1.96
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Key Vault - Key Vault - Premium - new ,0.00,0.00
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake Other ,5.59,7.48
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake Read ,0.16,0.21
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake Read ,0.12,0.16
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,OneLake - OneLake - OneLake Storage - EU West - ,3.49,0.51
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake Write ,2.52,3.38
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake Other ,0.10,0.13
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Fabric Capacity - Fabric Capacity - OneLake ,15.79,21.14
+Grønbech & Sønner,a82c3173-ccc6-452e-b1ea-b073caf1ea9d,12069502,Service Bus - Service Bus - Standard - new ,5.34,0.00

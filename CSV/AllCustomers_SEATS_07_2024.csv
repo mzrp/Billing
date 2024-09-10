@@ -1,0 +1,17 @@
+Customer,CustomerId,CustomerNo,Description,Total_Amount_Excl_VAT,Unit_Price,PCToBCExchangeRate,Quantity,Rackpeople Markup,Rackpeople Markup Unit Price,Rackpeople Markup Total Price,Rackpeople Markup Diff
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Dynamics 365 Business Central Team Members (36 mo) ,189.9,21.1,n/a,9.00,0.00,21.10,189.90,189.90
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Dynamics 365 Business Central Essentials SMB ,1095.2,136.9,n/a,8.00,0.00,136.90,1095.20,1095.20
+NextM2M A/S,0b90961b-156b-4552-b0ce-8d0d58d793cf,32880053,Microsoft 365 Business Voice (uden ,335.5,67.1,n/a,5.00,25.00,83.88,419.38,419.38
+NextM2M A/S,0b90961b-156b-4552-b0ce-8d0d58d793cf,32880053,Microsoft 365 Phone System - Virtual User - ,0,0,n/a,2.00,25.00,0.00,0.00,0.00
+NextM2M A/S,0b90961b-156b-4552-b0ce-8d0d58d793cf,32880053,Microsoft 365 Business Premium - Monthly - ,860.3,122.9,n/a,7.00,25.00,153.63,1075.38,1075.38
+NextM2M A/S,0b90961b-156b-4552-b0ce-8d0d58d793cf,32880053,Microsoft 365 Business Voice (uden ,67.1,67.1,n/a,1.00,25.00,83.88,83.88,83.88
+NextM2M A/S,0b90961b-156b-4552-b0ce-8d0d58d793cf,32880053,Microsoft 365 Business Basic - Monthly - Microsoft ,335,33.5,n/a,10.00,25.00,41.88,418.75,418.75
+MARTINE LIE Interior Concepts ApS,9da00977-f4db-4b65-a9c5-1484661a71ee,36973382,Exchange Online (plan 1) - Monthly - Exchange ,67.2,22.4,n/a,3.00,25.00,28.00,84.00,84.00
+MARTINE LIE Interior Concepts ApS,9da00977-f4db-4b65-a9c5-1484661a71ee,36973382,Microsoft 365 Business Premium - Monthly - ,983.2,122.9,n/a,8.00,25.00,153.63,1229.00,1229.00
+Petitlilo ApS,6ee15348-56c6-4ae4-97f5-b4b5f3ada5fa,31190290,Exchange Online (plan 1) - Monthly - Exchange ,22.4,22.4,n/a,1.00,0.00,22.40,22.40,22.40
+Hi3G Denmark ApS,2d535a89-0fcc-43a0-96c9-8f132da2377a,26123445,Microsoft 365 Business Basic - Monthly - Microsoft ,201,33.5,n/a,6.00,15.00,38.53,231.15,231.15
+Hi3G Denmark ApS,2d535a89-0fcc-43a0-96c9-8f132da2377a,26123445,Microsoft 365 Phone System - Virtual User - ,0,0,n/a,25.00,15.00,0.00,0.00,0.00
+Hi3G Denmark ApS,2d535a89-0fcc-43a0-96c9-8f132da2377a,26123445,Microsoft 365 Business Voice (without calling ,268.4,67.1,n/a,4.00,15.00,77.17,308.66,308.66
+Buck-Arentsen Holding ApS,38d98bff-e355-4f4b-bf6d-e8aaad720835,25189981,Exchange Online (plan 2) - Monthly - Exchange ,44.7,44.7,n/a,1.00,25.00,55.88,55.88,55.88
+Buck-Arentsen Holding ApS,38d98bff-e355-4f4b-bf6d-e8aaad720835,25189981,Office 365 Business Premium - Monthly - Microsoft ,139.8,69.9,n/a,2.00,25.00,87.38,174.75,174.75
+Nordic Bioscience,80ed74fa-8f44-4a36-9520-c03e719ed98a,30799968,Microsoft Cloud App Security - Monthly - Microsoft ,19.6,19.6,n/a,1.00,9.00,21.36,21.36,21.36

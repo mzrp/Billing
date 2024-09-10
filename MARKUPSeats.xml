@@ -577,4 +577,12 @@
     <Name>Leif Koch A/S</Name>
     <Markup>25.0</Markup>
   </Customer>
+  <Customer Id="a97b20eb-bbf0-4ee3-9110-06248fe700da">
+    <Name>DEJEMCO</Name>
+    <Markup>25.0</Markup>
+  </Customer>
+  <Customer Id="3b181c58-e723-4af0-b61c-a214133c575b">
+    <Name>Bacuscph</Name>
+    <Markup>25.0</Markup>
+  </Customer>
 </CustomerMarkups>

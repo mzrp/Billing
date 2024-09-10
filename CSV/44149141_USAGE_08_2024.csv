@@ -1,0 +1,22 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.06,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.17,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,SQL Database Single/Elastic Pool General Purpose - ,41.60,30.86
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Free Plan - Azure App Service ,6.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,SQL Database Single/Elastic Pool General Purpose - ,1488.00,1354.85
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Service Bus - Service Bus - Hybrid Connections - ,743.35,58.42
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Geographic Numbers - Geographic Numbers - DK - US ,7.00,33.66
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - US East - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Basic Plan - Linux - Azure App ,744.00,78.54
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Tables - Tables - LRS - new ,3.63,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Free Plan - Linux - Azure App ,1.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Files - Files - LRS - new ,10.01,3.52
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,General Block Blob - General Block Blob - LRS - ,0.02,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Event Grid - Event Grid - new ,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Rtn Preference: MGN - Rtn Preference: MGN - new ,0.90,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Service Bus - Service Bus - Standard - new ,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,SQL Database Single/Elastic Pool General Purpose - ,1488.00,872.33
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Standard Plan - Azure App ,2232.00,1308.94

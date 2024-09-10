@@ -836,6 +836,10 @@ namespace RPNAVConnect
             System.Data.OleDb.OleDbConnection dbConn = new System.Data.OleDb.OleDbConnection(dbPath);
             dbConn.Open();
 
+            PushingDataL.Visible = true;
+            PushingDataL.Enabled = true;
+            PushingDataL.Text = "Start updating customers.";
+
             DateTime dtStart = DateTime.Now;
 
             foreach (var customer in customersPage.Items)
@@ -843,12 +847,16 @@ namespace RPNAVConnect
                 string sCustomerId = customer.Id;
                 string sCustomerName = customer.CompanyProfile.CompanyName;
 
+                PushingDataL.Text += "Checking customer: " + sCustomerName + " (" + sCustomerId + ")";
+
                 if ((sCustomerId != "") && (sCustomerName != ""))
                 {
                     // update customers if there's new
                     if (CheckXml(sCustomerId, sMarkupFile) == false)
                     {
                         WriteXml(sCustomerId, sCustomerName, "25.0", sMarkupFile);
+
+                        PushingDataL.Text += "Added customer: " + sCustomerName + " (" + sCustomerId + ") (" + sMarkupFile+ ")";
                     }
 
                     // update customers if there's new
@@ -866,6 +874,9 @@ namespace RPNAVConnect
 
                         foreach (var customerSubscription in customerSubscriptions.Items)
                         {
+
+                            PushingDataL.Text += "    Product: " + customerSubscription.OfferId + " (" + customerSubscription.OfferName + ") (" + customerSubscription.IsMicrosoftProduct.ToString() + ")";
+
                             if (customerSubscription.IsMicrosoftProduct == true)
                             {
                                 string sProductId = customerSubscription.OfferId;
@@ -881,6 +892,10 @@ namespace RPNAVConnect
                                     {
                                         PushingDataL.Text += sDBResult + " <br />";
                                     }
+                                    else
+                                    {
+                                        PushingDataL.Text += "    Added Product (SEATS): " + customerSubscription.OfferId + " (" + customerSubscription.OfferName + ") (" + customerSubscription.IsMicrosoftProduct.ToString() + ")";
+                                    }
                                 }
 
                                 // Usage
@@ -893,13 +908,18 @@ namespace RPNAVConnect
                                     {
                                         PushingDataL.Text += sDBResult + " <br />";
                                     }
+                                    else
+                                    {
+                                        PushingDataL.Text += "    Added Product (USAGE): " + customerSubscription.OfferId + " (" + customerSubscription.OfferName + ") (" + customerSubscription.IsMicrosoftProduct.ToString() + ")";
+                                    }
+
                                 }
                             }
                         }
                     }
                     catch (Exception ex)
                     {
-                        ex.ToString();
+                        PushingDataL.Text += ex.ToString();
                     }
                 }
             }
