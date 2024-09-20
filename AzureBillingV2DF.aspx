@@ -103,9 +103,9 @@
             
                     Please select billing type:<br /><br />
 
-                    <asp:RadioButton ID="rbtnSeats" runat="server" GroupName="BillingType" Text="" Checked="true" AutoPostBack="True" OnCheckedChanged="rbtnSeats_CheckedChanged" /> Charges for Office 365 and Microsoft Azure subscriptions
+                    <asp:RadioButton ID="rbtnSeats" runat="server" GroupName="BillingType" Text="" Checked="false" Disabled AutoPostBack="True" OnCheckedChanged="rbtnSeats_CheckedChanged" /> ? (formerly 'Charges for Office 365 and Microsoft Azure subscriptions')
                     <br />
-                    <asp:RadioButton ID="rtbnUsage" runat="server" GroupName="BillingType" Text="" AutoPostBack="True" OnCheckedChanged="rtbnUsage_CheckedChanged" /> Charges for Azure plan, Azure reservations, Software and Marketplace products
+                    <asp:RadioButton ID="rtbnUsage" runat="server" GroupName="BillingType" Text="" Checked="true" AutoPostBack="True" OnCheckedChanged="rtbnUsage_CheckedChanged" /> MPC billing - One Time - Invoice Line Items
                     <br /><br />
 
                     Invoice top comment - all customers (50 chars max):<br />
@@ -113,9 +113,19 @@
                     <br /><br />
 
                         <asp:Label ID="LBFileInfo" Visible="false" runat="server" Text="License-based pricing: <b>April-2020-Cloud-Reseller-Pricelist</b><br /><br />"></asp:Label>                        
-                        Please select date period (leave blank for current month):<br />  <br />   
+                        Please fill the date period (for invoice header/comment):<br />  <br />   
 
-                        <asp:Label ID="InvoiceIdL" runat="server" Text="Invoice Id:"></asp:Label>
+                        <asp:Label ID="MonthL" runat="server" Text="Month (MM):"></asp:Label>
+                        &nbsp;
+                        <asp:TextBox ID="MonthTB" runat="server" Width="100px"></asp:TextBox>
+                        &nbsp;&nbsp;
+                        <asp:Label ID="YearL" runat="server" Text="Year (YYYY):"></asp:Label>
+                        &nbsp;
+                        <asp:TextBox ID="YearTB" runat="server" Width="100px"></asp:TextBox>
+                        <br />
+                        <br />
+
+                        <asp:Label ID="InvoiceIdL" runat="server" Text="Invoice Id (as found in Partner Center):"></asp:Label>
                         &nbsp;
                         <asp:TextBox ID="InvoiceIdTB" runat="server" Width="100px"></asp:TextBox>
                         <br />

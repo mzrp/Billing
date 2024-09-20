@@ -3008,9 +3008,13 @@ if (document.getElementById('subinfodiv1')) {
                     }), c["default"].createElement(x, {
                         text: "MPC Billing"
                     }), c["default"].createElement(y, {
-                        text: "import",
+                        text: "Import API v1",
                         icon: "list",
                         to: "/mpcbilling"
+                    }), c["default"].createElement(y, {
+                        text: "Import API v2",
+                        icon: "list",
+                        to: "/mpcbilling2"
                     }), c["default"].createElement(x, {
                         text: "Competella Billing"
                     }), c["default"].createElement(y, {
@@ -3142,7 +3146,8 @@ if (document.getElementById('subinfodiv1')) {
             M5 = (0, z["default"])("https://billing.gowingu.net/RPBillingLoginSuccess.aspx"),
             D = (0, z["default"])("https://billing.gowingu.net/WHMCSImportDF.aspx"),
             D2 = (0, z["default"])("https://billing.gowingu.net/HitBillingDF.aspx"),
-	    D3 = (0, z["default"])("https://billing.gowingu.net/AzureBillingDF.aspx"),
+            D3 = (0, z["default"])("https://billing.gowingu.net/AzureBillingDF.aspx"),
+            D3b = (0, z["default"])("https://billing.gowingu.net/AzureBillingV2DF.aspx"),
 	    D4 = (0, z["default"])("https://billing.gowingu.net/CompetellaBillingDF.aspx"),
 	    D5 = (0, z["default"])("https://billing.gowingu.net/RPBilling/api/nav/customernames"),
 	    D6 = (0, z["default"])("https://billing.gowingu.net/RPBilling/api/nav/productprices");
@@ -3208,6 +3213,9 @@ if (document.getElementById('subinfodiv1')) {
         }), n["default"].createElement(s.Route, {
             path: l["default"].BASEURL + "mpcbilling",
             component: D3
+        }), n["default"].createElement(s.Route, {
+            path: l["default"].BASEURL + "mpcbilling2",
+            component: D3b
         }), n["default"].createElement(s.Route, {
             path: l["default"].BASEURL + "compbilling",
             component: D4

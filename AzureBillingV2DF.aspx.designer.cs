@@ -87,6 +87,42 @@ namespace RPNAVConnect
         protected global::System.Web.UI.WebControls.Label LBFileInfo;
 
         /// <summary>
+        /// MonthL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label MonthL;
+
+        /// <summary>
+        /// MonthTB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox MonthTB;
+
+        /// <summary>
+        /// YearL control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label YearL;
+
+        /// <summary>
+        /// YearTB control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox YearTB;
+
+        /// <summary>
         /// InvoiceIdL control.
         /// </summary>
         /// <remarks>

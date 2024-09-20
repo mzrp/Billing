@@ -517,7 +517,7 @@ namespace RPNAVConnect
         }
 
 
-        private async Task<List<MPCData>> GetMPCData(string sInvoiceId, string sFileType)
+        private async Task<List<MPCData>> GetMPCData(string sInvoiceId)
         {
             List<MPCData> sResult = new List<MPCData>();
 
@@ -532,7 +532,7 @@ namespace RPNAVConnect
             string sNewLocation = "n/a";
 
             // get operatrion location
-            string url = "https://graph.microsoft.com/v1.0/reports/partners/billing/" + sFileType + "/billed/export";
+            string url = "https://graph.microsoft.com/v1.0/reports/partners/billing/reconciliation/billed/export";
             string sContent = "{  \"invoiceId\" : \"" + sInvoiceId + "\",  \"attributeSet\" : \"full\" }";
             var clientId = Guid.NewGuid().ToString();
             var client = new HttpClient();
@@ -661,7 +661,7 @@ namespace RPNAVConnect
                 sUserId = "n/a";
             }
 
-            sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
+            //sUserId = "f43f4edb-7436-4561-89a0-d08c543767c0";
             //sUserId = "7a6e0a8f-d6b4-428d-8f6d-9287fa64642a";
 
             if (sUserId != "n/a")
@@ -1261,7 +1261,7 @@ namespace RPNAVConnect
             if (sRPBillingType == "Usage") sRPInvoiceType = "reconciliation";
 
             string sInvoiceId = InvoiceIdTB.Text;
-            List<MPCData> mPCDatas = await GetMPCData(sInvoiceId, sRPInvoiceType);
+            List<MPCData> mPCDatas = await GetMPCData(sInvoiceId);
 
             // Get distinct customers
             string sCustomerDistinctList = "";
@@ -1557,7 +1557,7 @@ namespace RPNAVConnect
                         commentmonthLine.unitPrice = 0;
 
                         // extra line
-                        commentmonthLine.description = sInvoiceId; // should be month/year
+                        commentmonthLine.description = sInvoiceId + MonthTB.Text + "/" + YearTB.Text; 
 
                         // add extra line
                         InvoiceLinesList.Add(commentmonthLine);
@@ -1615,298 +1615,331 @@ namespace RPNAVConnect
                         decimal dCustRPUDiffAmount = 0;
                         decimal dCustRPUDiffAmountSeats = 0;
 
-                        foreach (var mpcItem in mPCDatas)
+                        // select list to customer only
+                        List<MPCData> selectedList = mPCDatas.Where(lst => lst.CustomerId == sCustId).ToList();
+                        foreach (var mpcItem in selectedList)
                         {
-                            if (mpcItem.CustomerId.ToLower() == sCustId.ToLower())
+                            string sCustomerId = mpcItem.CustomerId;
+                            string sCustomerName = mpcItem.CustomerName;
+                            string sProductNo = "2050.015"; // hardcoded 310
+                            string sDescription = mpcItem.ProductName + " - " + mpcItem.SkuName + " - " + mpcItem.SubscriptionDescription;
+                            string sQuantity = mpcItem.Quantity.ToString();
+                            string sBillableQuantity = mpcItem.BillableQuantity.ToString(); ;
+                            string sSubTotal = mpcItem.Subtotal.ToString();
+                            string sTaxTotal = mpcItem.TaxTotal.ToString();
+                            string sUnitType = mpcItem.UnitType;
+                            string sLineAmount = "n/a";
+                            string sTotalAmount = mpcItem.Total.ToString();
+                            
+                            
+                            string sUnitPrice = mpcItem.UnitPrice.ToString();
+
+                            string sEffectiveUnitPrice = mpcItem.EffectiveUnitPrice.ToString();
+                            
+                            string sDollarPrice = mpcItem.PCToBCExchangeRate.ToString();
+                            string sOfferId = "n/a";
+                            string sOfferName = "n/a";
+
+                            string sProductIdUsage = mpcItem.ProductId;
+                            string sSkuIdUsage = mpcItem.SkuId;
+                            string sAvailabilityIdUsage = mpcItem.AvailabilityId;
+
+                            string sLine2 = "";
+
+                            if (rbtnSeats.Checked == true)
                             {
-                                string sCustomerId = mpcItem.CustomerId;
-                                string sCustomerName = mpcItem.CustomerName;
-                                string sProductNo = "2050.015"; // hardcoded 310
-                                string sDescription = mpcItem.ProductName + " - " + mpcItem.SkuName + " - " + mpcItem.SubscriptionDescription;
-                                string sQuantity = mpcItem.Quantity.ToString();
-                                string sBillableQuantity = mpcItem.BillableQuantity.ToString(); ;
-                                string sSubTotal = mpcItem.Subtotal.ToString();
-                                string sTaxTotal = mpcItem.TaxTotal.ToString();
-                                string sUnitType = mpcItem.UnitType;
-                                string sLineAmount = "n/a";
-                                string sTotalAmount = mpcItem.Total.ToString();
-                                string sUnitPrice = mpcItem.UnitPrice.ToString();
-                                string sEffectiveUnitPrice = mpcItem.EffectiveUnitPrice.ToString();
-                                string sDollarPrice = mpcItem.PCToBCExchangeRate.ToString();
-                                string sOfferId = "n/a";
-                                string sOfferName = "n/a";
+                                try
+                                {
+                                    sLine2 += mpcItem.PartnerId.ToString() + ", ";
+                                    sLine2 += mpcItem.PartnerName.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerId.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerName.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerDomainName.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerCountry.ToString() + ", ";
+                                    sLine2 += mpcItem.MpnId.ToString() + ", ";
+                                    sLine2 += mpcItem.InvoiceNumber.ToString() + ", ";
+                                    sLine2 += mpcItem.ProductId.ToString() + ", ";
+                                    sLine2 += mpcItem.SkuId.ToString() + ", ";
+                                    sLine2 += mpcItem.AvailabilityId.ToString() + ", ";
+                                    sLine2 += mpcItem.SkuName.ToString() + ", ";
+                                    sLine2 += mpcItem.ProductName.ToString() + ", ";
+                                    sLine2 += mpcItem.PublisherName.ToString() + ", ";
+                                    sLine2 += mpcItem.PublisherId.ToString() + ", ";
+                                    sLine2 += mpcItem.SubscriptionDescription.ToString() + ", ";
+                                    sLine2 += mpcItem.SubscriptionId.ToString() + ", ";
+                                    sLine2 += mpcItem.ChargeStartDate.ToString() + ", ";
+                                    sLine2 += mpcItem.ChargeEndDate.ToString() + ", ";
+                                    sLine2 += mpcItem.UsageDate.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterType.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterCategory.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterId.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterSubCategory.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterName.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterRegion.ToString() + ", ";
+                                    sLine2 += mpcItem.Unit.ToString() + ", ";
+                                    sLine2 += mpcItem.ResourceLocation.ToString() + ", ";
+                                    sLine2 += mpcItem.ConsumedService.ToString() + ", ";
+                                    sLine2 += mpcItem.ResourceGroup.ToString() + ", ";
+                                    sLine2 += mpcItem.ResourceURI.ToString() + ", ";
+                                    sLine2 += mpcItem.ChargeType.ToString() + ", ";
+                                    sLine2 += mpcItem.UnitPrice.ToString() + ", ";
+                                    sLine2 += mpcItem.Quantity.ToString() + ", ";
+                                    sLine2 += mpcItem.UnitType.ToString() + ", ";
+                                    sLine2 += mpcItem.BillingPreTaxTotal.ToString() + ", ";
+                                    sLine2 += mpcItem.BillingCurrency.ToString() + ", ";
+                                    sLine2 += mpcItem.PricingPreTaxTotal.ToString() + ", ";
+                                    sLine2 += mpcItem.PricingCurrency.ToString() + ", ";
+                                    sLine2 += mpcItem.ServiceInfo1.ToString() + ", ";
+                                    sLine2 += mpcItem.ServiceInfo2.ToString() + ", ";
+                                    sLine2 += mpcItem.Tags.ToString() + ", ";
+                                    sLine2 += mpcItem.AdditionalInfo.ToString() + ", ";
+                                    sLine2 += mpcItem.EffectiveUnitPrice.ToString() + ", ";
+                                    sLine2 += mpcItem.PCToBCExchangeRate.ToString() + ", ";
+                                    sLine2 += mpcItem.PCToBCExchangeRateDate.ToString() + ", ";
+                                    sLine2 += mpcItem.EntitlementId.ToString() + ", ";
+                                    sLine2 += mpcItem.EntitlementDescription.ToString() + ", ";
+                                    sLine2 += mpcItem.PartnerEarnedCreditPercentage.ToString() + ", ";
+                                    sLine2 += mpcItem.CreditPercentage.ToString() + ", ";
+                                    sLine2 += mpcItem.CreditType.ToString() + ", ";
+                                    sLine2 += mpcItem.BenefitOrderId.ToString() + ", ";
+                                    sLine2 += mpcItem.BenefitId.ToString() + ", ";
+                                    sLine2 += mpcItem.BenefitType.ToString();
+                                }
+                                catch (Exception ex)
+                                {
+                                    ex.ToString();
+                                }
+                            }
 
-                                string sProductIdUsage = mpcItem.ProductId;
-                                string sSkuIdUsage = mpcItem.SkuId;
-                                string sAvailabilityIdUsage = mpcItem.AvailabilityId;
+                            if (rtbnUsage.Checked == true)
+                            {
+                                try
+                                {
+                                    sLine2 += mpcItem.PartnerId.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerId.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerName.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerDomainName.ToString() + ", ";
+                                    sLine2 += mpcItem.CustomerCountry.ToString() + ", ";
+                                    sLine2 += mpcItem.InvoiceNumber.ToString() + ", ";
+                                    sLine2 += mpcItem.MpnId.ToString() + ", ";
+                                    sLine2 += mpcItem.OrderId.ToString() + ", ";
+                                    sLine2 += mpcItem.OrderDate.ToString() + ", ";
+                                    sLine2 += mpcItem.ProductId.ToString() + ", ";
+                                    sLine2 += mpcItem.SkuId.ToString() + ", ";
+                                    sLine2 += mpcItem.AvailabilityId.ToString() + ", ";
+                                    sLine2 += mpcItem.SkuName.ToString() + ", ";
+                                    sLine2 += mpcItem.ProductName.ToString() + ", ";
+                                    sLine2 += mpcItem.ChargeType.ToString() + ", ";
+                                    sLine2 += mpcItem.UnitPrice.ToString() + ", ";
+                                    sLine2 += mpcItem.Quantity.ToString() + ", ";
+                                    sLine2 += mpcItem.Subtotal.ToString() + ", ";
+                                    sLine2 += mpcItem.TaxTotal.ToString() + ", ";
+                                    sLine2 += mpcItem.Total.ToString() + ", ";
+                                    sLine2 += mpcItem.Currency.ToString() + ", ";
+                                    sLine2 += mpcItem.PriceAdjustmentDescription.ToString() + ", ";
+                                    sLine2 += mpcItem.PublisherName.ToString() + ", ";
+                                    sLine2 += mpcItem.PublisherId.ToString() + ", ";
+                                    sLine2 += mpcItem.SubscriptionDescription.ToString() + ", ";
+                                    sLine2 += mpcItem.SubscriptionId.ToString() + ", ";
+                                    sLine2 += mpcItem.ChargeStartDate.ToString() + ", ";
+                                    sLine2 += mpcItem.ChargeEndDate.ToString() + ", ";
+                                    sLine2 += mpcItem.TermAndBillingCycle.ToString() + ", ";
+                                    sLine2 += mpcItem.EffectiveUnitPrice.ToString() + ", ";
+                                    sLine2 += mpcItem.UnitType.ToString() + ", ";
+                                    sLine2 += mpcItem.AlternateId.ToString() + ", ";
+                                    sLine2 += mpcItem.BillableQuantity.ToString() + ", ";
+                                    sLine2 += mpcItem.BillingFrequency.ToString() + ", ";
+                                    sLine2 += mpcItem.PricingCurrency.ToString() + ", ";
+                                    sLine2 += mpcItem.PCToBCExchangeRate.ToString() + ", ";
+                                    sLine2 += mpcItem.PCToBCExchangeRateDate.ToString() + ", ";
+                                    sLine2 += mpcItem.MeterDescription.ToString() + ", ";
+                                    sLine2 += mpcItem.ReservationOrderId.ToString() + ", ";
+                                    sLine2 += mpcItem.CreditReasonCode.ToString() + ", ";
+                                    sLine2 += mpcItem.SubscriptionStartDate.ToString() + ", ";
+                                    sLine2 += mpcItem.SubscriptionEndDate.ToString() + ", ";
+                                    sLine2 += mpcItem.ReferenceId.ToString() + ", ";
+                                    sLine2 += mpcItem.ProductQualifiers.ToString() + ", ";
+                                    sLine2 += mpcItem.PromotionId.ToString();
+                                }
+                                catch (Exception ex)
+                                {
+                                    ex.ToString();
+                                }
+                            }
 
-                                string sLine2 = "";
+                            string sTransactionDatePeriod = mpcItem.ChargeStartDate.ToString() + " - " + mpcItem.ChargeEndDate.ToString();
+                            sTransactionDatePeriod += "ђ " + sInvoiceId;
+
+                            string sChargeType = mpcItem.ChargeType;
+
+                            sDescription += sChargeType + "ђ" + sTransactionDatePeriod;
+
+                            if (iCount == 1)
+                            {
+                                string sLine1 = "";
 
                                 if (rbtnSeats.Checked == true)
                                 {
-                                    try
-                                    {
-                                        sLine2 += mpcItem.PartnerId.ToString() + ", ";
-                                        sLine2 += mpcItem.PartnerName.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerId.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerName.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerDomainName.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerCountry.ToString() + ", ";
-                                        sLine2 += mpcItem.MpnId.ToString() + ", ";
-                                        sLine2 += mpcItem.InvoiceNumber.ToString() + ", ";
-                                        sLine2 += mpcItem.ProductId.ToString() + ", ";
-                                        sLine2 += mpcItem.SkuId.ToString() + ", ";
-                                        sLine2 += mpcItem.AvailabilityId.ToString() + ", ";
-                                        sLine2 += mpcItem.SkuName.ToString() + ", ";
-                                        sLine2 += mpcItem.ProductName.ToString() + ", ";
-                                        sLine2 += mpcItem.PublisherName.ToString() + ", ";
-                                        sLine2 += mpcItem.PublisherId.ToString() + ", ";
-                                        sLine2 += mpcItem.SubscriptionDescription.ToString() + ", ";
-                                        sLine2 += mpcItem.SubscriptionId.ToString() + ", ";
-                                        sLine2 += mpcItem.ChargeStartDate.ToString() + ", ";
-                                        sLine2 += mpcItem.ChargeEndDate.ToString() + ", ";
-                                        sLine2 += mpcItem.UsageDate.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterType.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterCategory.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterId.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterSubCategory.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterName.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterRegion.ToString() + ", ";
-                                        sLine2 += mpcItem.Unit.ToString() + ", ";
-                                        sLine2 += mpcItem.ResourceLocation.ToString() + ", ";
-                                        sLine2 += mpcItem.ConsumedService.ToString() + ", ";
-                                        sLine2 += mpcItem.ResourceGroup.ToString() + ", ";
-                                        sLine2 += mpcItem.ResourceURI.ToString() + ", ";
-                                        sLine2 += mpcItem.ChargeType.ToString() + ", ";
-                                        sLine2 += mpcItem.UnitPrice.ToString() + ", ";
-                                        sLine2 += mpcItem.Quantity.ToString() + ", ";
-                                        sLine2 += mpcItem.UnitType.ToString() + ", ";
-                                        sLine2 += mpcItem.BillingPreTaxTotal.ToString() + ", ";
-                                        sLine2 += mpcItem.BillingCurrency.ToString() + ", ";
-                                        sLine2 += mpcItem.PricingPreTaxTotal.ToString() + ", ";
-                                        sLine2 += mpcItem.PricingCurrency.ToString() + ", ";
-                                        sLine2 += mpcItem.ServiceInfo1.ToString() + ", ";
-                                        sLine2 += mpcItem.ServiceInfo2.ToString() + ", ";
-                                        sLine2 += mpcItem.Tags.ToString() + ", ";
-                                        sLine2 += mpcItem.AdditionalInfo.ToString() + ", ";
-                                        sLine2 += mpcItem.EffectiveUnitPrice.ToString() + ", ";
-                                        sLine2 += mpcItem.PCToBCExchangeRate.ToString() + ", ";
-                                        sLine2 += mpcItem.PCToBCExchangeRateDate.ToString() + ", ";
-                                        sLine2 += mpcItem.EntitlementId.ToString() + ", ";
-                                        sLine2 += mpcItem.EntitlementDescription.ToString() + ", ";
-                                        sLine2 += mpcItem.PartnerEarnedCreditPercentage.ToString() + ", ";
-                                        sLine2 += mpcItem.CreditPercentage.ToString() + ", ";
-                                        sLine2 += mpcItem.CreditType.ToString() + ", ";
-                                        sLine2 += mpcItem.BenefitOrderId.ToString() + ", ";
-                                        sLine2 += mpcItem.BenefitId.ToString() + ", ";
-                                        sLine2 += mpcItem.BenefitType.ToString();
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        ex.ToString();
-                                    }
+                                    sLine1 = "PartnerId, PartnerName, CustomerId, CustomerName, CustomerDomainName, CustomerCountry, MpnId, InvoiceNumber, ProductId, SkuId, AvailabilityId, SkuName, ProductName, PublisherName, PublisherId, SubscriptionDescription, SubscriptionId, ChargeStartDate, ChargeEndDate, UsageDate, MeterType, MeterCategory, MeterId, MeterSubCategory, MeterName, MeterRegion, Unit, ResourceLocation, ConsumedService, ResourceGroup, ResourceURI, ChargeType, UnitPrice, Quantity, UnitType, BillingPreTaxTotal, BillingCurrency, PricingPreTaxTotal, PricingCurrency, ServiceInfo1, ServiceInfo2, Tags, AdditionalInfo, EffectiveUnitPrice, PCToBCExchangeRate, PCToBCExchangeRateDate, EntitlementId, EntitlementDescription, PartnerEarnedCreditPercentage, CreditPercentage, CreditType, BenefitOrderId, BenefitId, BenefitType";
                                 }
 
                                 if (rtbnUsage.Checked == true)
                                 {
-                                    try
-                                    {
-                                        sLine2 += mpcItem.PartnerId.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerId.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerName.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerDomainName.ToString() + ", ";
-                                        sLine2 += mpcItem.CustomerCountry.ToString() + ", ";
-                                        sLine2 += mpcItem.InvoiceNumber.ToString() + ", ";
-                                        sLine2 += mpcItem.MpnId.ToString() + ", ";
-                                        sLine2 += mpcItem.OrderId.ToString() + ", ";
-                                        sLine2 += mpcItem.OrderDate.ToString() + ", ";
-                                        sLine2 += mpcItem.ProductId.ToString() + ", ";
-                                        sLine2 += mpcItem.SkuId.ToString() + ", ";
-                                        sLine2 += mpcItem.AvailabilityId.ToString() + ", ";
-                                        sLine2 += mpcItem.SkuName.ToString() + ", ";
-                                        sLine2 += mpcItem.ProductName.ToString() + ", ";
-                                        sLine2 += mpcItem.ChargeType.ToString() + ", ";
-                                        sLine2 += mpcItem.UnitPrice.ToString() + ", ";
-                                        sLine2 += mpcItem.Quantity.ToString() + ", ";
-                                        sLine2 += mpcItem.Subtotal.ToString() + ", ";
-                                        sLine2 += mpcItem.TaxTotal.ToString() + ", ";
-                                        sLine2 += mpcItem.Total.ToString() + ", ";
-                                        sLine2 += mpcItem.Currency.ToString() + ", ";
-                                        sLine2 += mpcItem.PriceAdjustmentDescription.ToString() + ", ";
-                                        sLine2 += mpcItem.PublisherName.ToString() + ", ";
-                                        sLine2 += mpcItem.PublisherId.ToString() + ", ";
-                                        sLine2 += mpcItem.SubscriptionDescription.ToString() + ", ";
-                                        sLine2 += mpcItem.SubscriptionId.ToString() + ", ";
-                                        sLine2 += mpcItem.ChargeStartDate.ToString() + ", ";
-                                        sLine2 += mpcItem.ChargeEndDate.ToString() + ", ";
-                                        sLine2 += mpcItem.TermAndBillingCycle.ToString() + ", ";
-                                        sLine2 += mpcItem.EffectiveUnitPrice.ToString() + ", ";
-                                        sLine2 += mpcItem.UnitType.ToString() + ", ";
-                                        sLine2 += mpcItem.AlternateId.ToString() + ", ";
-                                        sLine2 += mpcItem.BillableQuantity.ToString() + ", ";
-                                        sLine2 += mpcItem.BillingFrequency.ToString() + ", ";
-                                        sLine2 += mpcItem.PricingCurrency.ToString() + ", ";
-                                        sLine2 += mpcItem.PCToBCExchangeRate.ToString() + ", ";
-                                        sLine2 += mpcItem.PCToBCExchangeRateDate.ToString() + ", ";
-                                        sLine2 += mpcItem.MeterDescription.ToString() + ", ";
-                                        sLine2 += mpcItem.ReservationOrderId.ToString() + ", ";
-                                        sLine2 += mpcItem.CreditReasonCode.ToString() + ", ";
-                                        sLine2 += mpcItem.SubscriptionStartDate.ToString() + ", ";
-                                        sLine2 += mpcItem.SubscriptionEndDate.ToString() + ", ";
-                                        sLine2 += mpcItem.ReferenceId.ToString() + ", ";
-                                        sLine2 += mpcItem.ProductQualifiers.ToString() + ", ";
-                                        sLine2 += mpcItem.PromotionId.ToString();
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        ex.ToString();
-                                    }
+                                    sLine1 = "PartnerId, CustomerId, CustomerName, CustomerDomainName, CustomerCountry, InvoiceNumber, MpnId, OrderId, OrderDate, ProductId, SkuId, AvailabilityId, SkuName, ProductName, ChargeType, UnitPrice, Quantity, Subtotal, TaxTotal, Total, Currency, PriceAdjustmentDescription, PublisherName, PublisherId, SubscriptionDescription, SubscriptionId, ChargeStartDate, ChargeEndDate, TermAndBillingCycle, EffectiveUnitPrice, UnitType, AlternateId, BillableQuantity, BillingFrequency, PricingCurrency, PCToBCExchangeRate, PCToBCExchangeRateDate, MeterDescription, ReservationOrderId, CreditReasonCode, SubscriptionStartDate, SubscriptionEndDate, ReferenceId, ProductQualifiers, PromotionId";
                                 }
-                                                                
-                                string sTransactionDatePeriod = mpcItem.ChargeStartDate.ToString() + " - " + mpcItem.ChargeEndDate.ToString();
-                                sTransactionDatePeriod += "ђ " + sInvoiceId;
 
-                                string sChargeType = mpcItem.ChargeType;
+                                if (bFistCustomer == false) AzureBillingDataL.Text += "<hr />";
+                                bFistCustomer = false;
 
-                                sDescription += sChargeType + "ђ" + sTransactionDatePeriod;
+                                AzureBillingDataL.Text += "<font size='4'><b>" + sCustomerName + "</b></font><br />";
 
-                                if ((sCust.ToLower() == sCustomerName.ToLower()) && (sCustId.ToLower() == sCustomerId.ToLower()))
+                                AzureBillingDataL.Text += "Markup: <b>#CUSTMARKUP#%</b>; Number of lines: <b>#LINESNUM#</b>; Total Amount: <b>#TOTALMS#</b>; Reseller Total Amount: <b>#TOTALRP#</b>; Reseller Total Diff.: <b>#TOTALRPDIFF#</b>";
+                                AzureBillingDataL.Text += "<br /><br />";
+
+                                AzureBillingDataL.Text += "<b><i>";
+                                AzureBillingDataL.Text += sLine1;
+                                AzureBillingDataL.Text += "</i></b>";
+                                AzureBillingDataL.Text += "<br /><br />";
+
+                                // customer comment
+                                string sCustomerPermCommentFile = "CUSTOMERSComments.xml";
+                                string sCustomerPermComment = ReadCustomerXml(sCustomerId, sCustomerPermCommentFile);
+                                if ((sCustomerPermComment != "") && (sCustomerPermComment != "n/a"))
                                 {
-                                    if (iCount == 1)
+                                    PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
+
+                                    commentLine.lineType = "";
+                                    commentLine.lineObjectNumber = "";
+                                    commentLine.itemId = "";
+                                    commentLine.Document_No = "";
+
+                                    // quantity and price
+                                    commentLine.quantity = 0;
+                                    commentLine.unitPrice = 0;
+
+                                    // extra line
+                                    commentLine.description = sCustomerPermComment.Split(';')[1];
+
+                                    // add extra line
+                                    InvoiceLinesList.Add(commentLine);
+
+                                    // count added lines
+                                    iInvoiceLinesCount++;
+                                }
+
+                                // customer comment - temporary - after data acquision
+                                string sCustComment = "";
+                                if (sCustVatNo != null)
+                                {
+                                    if (sCustVatNo != "")
                                     {
-                                        string sLine1 = "PartnerId,CustomerId,CustomerName,CustomerDomainName,CustomerCountry,InvoiceNumber,MpnId,OrderId,OrderDate,ProductId,SkuId,AvailabilityId,SkuName,ProductName,ChargeType,UnitPrice,Quantity,Subtotal,TaxTotal,Total,Currency,PriceAdjustmentDescription,PublisherName,PublisherId,SubscriptionDescription,SubscriptionId,ChargeStartDate,ChargeEndDate,TermAndBillingCycle,EffectiveUnitPrice,UnitType,AlternateId,BillableQuantity,BillingFrequency,PricingCurrency,PCToBCExchangeRate,PCToBCExchangeRateDate,MeterDescription,ReservationOrderId,CreditReasonCode,SubscriptionStartDate,SubscriptionEndDate,ReferenceId,ProductQualifiers,PromotionId,PartnerName,ProductName,UsageDate,MeterType,MeterCategory,MeterId,MeterSubCategory,MeterName,MeterRegion,Unit,ResourceLocation,ConsumedService,ResourceGroup,ResourceURI,BillingPreTaxTotal,BillingCurrency,PricingPreTaxTotal,ServiceInfo1,ServiceInfo2,Tags,AdditionalInfo,EntitlementId,EntitlementDescription,PartnerEarnedCreditPercentage,CreditPercentage,CreditType,BenefitOrderId,BenefitId,BenefitType";
-
-                                        if (bFistCustomer == false) AzureBillingDataL.Text += "<hr />";
-                                        bFistCustomer = false;
-
-                                        AzureBillingDataL.Text += "<font size='4'><b>" + sCustomerName + "</b></font><br />";
-
-                                        AzureBillingDataL.Text += "Markup: <b>#CUSTMARKUP#%</b>; Number of lines: <b>#LINESNUM#</b>; Total Amount: <b>#TOTALMS#</b>; Reseller Total Amount: <b>#TOTALRP#</b>; Reseller Total Diff.: <b>#TOTALRPDIFF#</b>";
-                                        AzureBillingDataL.Text += "<br /><br />";
-
-                                        AzureBillingDataL.Text += "<b><i>";
-                                        AzureBillingDataL.Text += sLine1;
-                                        AzureBillingDataL.Text += "</i></b>";
-                                        AzureBillingDataL.Text += "<br /><br />";
-
-                                        // customer comment
-                                        string sCustomerPermCommentFile = "CUSTOMERSComments.xml";
-                                        string sCustomerPermComment = ReadCustomerXml(sCustomerId, sCustomerPermCommentFile);
-                                        if ((sCustomerPermComment != "") && (sCustomerPermComment != "n/a"))
+                                        try
                                         {
-                                            PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
-
-                                            commentLine.lineType = "";
-                                            commentLine.lineObjectNumber = "";
-                                            commentLine.itemId = "";
-                                            commentLine.Document_No = "";
-
-                                            // quantity and price
-                                            commentLine.quantity = 0;
-                                            commentLine.unitPrice = 0;
-
-                                            // extra line
-                                            commentLine.description = sCustomerPermComment.Split(';')[1];
-
-                                            // add extra line
-                                            InvoiceLinesList.Add(commentLine);
-
-                                            // count added lines
-                                            iInvoiceLinesCount++;
-                                        }
-
-                                        // customer comment - temporary - after data acquision
-                                        string sCustComment = "";
-                                        if (sCustVatNo != null)
-                                        {
-                                            if (sCustVatNo != "")
+                                            sCustComment = Request.Form["txtCommentCustomer_" + sCustId].ToString();
+                                            if (sCustComment != "")
                                             {
-                                                try
-                                                {
-                                                    sCustComment = Request.Form["txtCommentCustomer_" + sCustId].ToString();
-                                                    if (sCustComment != "")
-                                                    {
-                                                        lastscriptdiv.InnerHtml += "document.getElementById(\"txtCommentCustomer_" + sCustId + "\").value = \"" + sCustComment.Replace("\"", "'") + "\";";
-                                                    }
-                                                }
-                                                catch (Exception ex)
-                                                {
-                                                    ex.ToString();
-                                                    sCustComment = "";
-                                                }
+                                                lastscriptdiv.InnerHtml += "document.getElementById(\"txtCommentCustomer_" + sCustId + "\").value = \"" + sCustComment.Replace("\"", "'") + "\";";
                                             }
                                         }
-                                        if (sCustComment != "")
+                                        catch (Exception ex)
                                         {
-                                            PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
-
-                                            commentLine.lineType = "";
-                                            commentLine.lineObjectNumber = "";
-                                            commentLine.itemId = "";
-                                            commentLine.Document_No = "";
-
-                                            // quantity and price
-                                            commentLine.quantity = 0;
-                                            commentLine.unitPrice = 0;
-
-                                            // extra line
-                                            commentLine.description = sCustComment;
-
-                                            // add extra line
-                                            InvoiceLinesList.Add(commentLine);
-
-                                            // count added lines
-                                            iInvoiceLinesCount++;
+                                            ex.ToString();
+                                            sCustComment = "";
                                         }
                                     }
+                                }
+                                if (sCustComment != "")
+                                {
+                                    PostSalesInvoiceLine commentLine = new PostSalesInvoiceLine();
 
-                                    AzureBillingDataL.Text += iCount.ToString();
-                                    AzureBillingDataL.Text += "<br />";
+                                    commentLine.lineType = "";
+                                    commentLine.lineObjectNumber = "";
+                                    commentLine.itemId = "";
+                                    commentLine.Document_No = "";
 
-                                    AzureBillingDataL.Text += sLine2;
-                                    AzureBillingDataL.Text += "<br /><br />";
+                                    // quantity and price
+                                    commentLine.quantity = 0;
+                                    commentLine.unitPrice = 0;
 
-                                    string sMarkupFile = "MARKUPSeats.xml";
-                                    string sMarkupType = "MARKUPSeats";
-                                    if (rbtnSeats.Checked == true)
+                                    // extra line
+                                    commentLine.description = sCustComment;
+
+                                    // add extra line
+                                    InvoiceLinesList.Add(commentLine);
+
+                                    // count added lines
+                                    iInvoiceLinesCount++;
+                                }
+                            }
+
+                            AzureBillingDataL.Text += iCount.ToString();
+                            AzureBillingDataL.Text += "<br />";
+
+                            AzureBillingDataL.Text += sLine2;
+                            AzureBillingDataL.Text += "<br /><br />";
+
+                            string sMarkupFile = "MARKUPSeats.xml";
+                            string sMarkupType = "MARKUPSeats";
+                            if (rbtnSeats.Checked == true)
+                            {
+                                sMarkupFile = "MARKUPSeats.xml";
+                                MarkupType.Text = "SEATS Type: MARKUP";
+                                sMarkupType = "MARKUPSeats";
+
+                                /*
+                                MarkupType.Text = "SEATS Type: MARKUP";
+                                sMarkupFile = "MARKUPUsage.xml";
+                                sMarkupType = "MARKUPUsage";
+                                */
+                            }
+                            if (rtbnUsage.Checked == true)
+                            {
+                                if (sUnitType != "")
+                                {
+                                    MarkupType.Text = "USAGE Type: MARKUP";
+                                    sMarkupFile = "MARKUPUsage.xml";
+                                    sMarkupType = "MARKUPUsage";
+                                }
+                                else
+                                {
+                                    sMarkupFile = "MARKUPSeats.xml";
+                                    MarkupType.Text = "USAGE Type: MARKUP";
+                                    sMarkupType = "MARKUPSeats";
+                                }
+                            }
+
+                            // RP Billing
+                            string sMarkupData = ReadXml(sCustomerId, sMarkupFile);
+
+                            string sMarkup = "n/a";
+                            if (sMarkupData != "n/a")
+                            {
+                                sMarkup = sMarkupData.Split(';')[1];
+                            }
+
+                            // check if subscription is in the DB
+                            if (sOfferId != "n/a")
+                            {
+                                string sMarkupDataDB = GetMarkupData(sOfferId.ToUpper(), sCustomerId.ToUpper(), sMarkupType);
+                                if (sMarkupDataDB != "n/a")
+                                {
+                                    sMarkup = sMarkupDataDB;
+                                }
+                            }
+                            else
+                            {
+                                if (sUnitType != "")
+                                {
+                                    string sMarkupDataDB = GetMarkupDataProductName("Azure plan", sCustomerId.ToUpper(), sMarkupType);
+                                    if (sMarkupDataDB != "n/a")
                                     {
-                                        sMarkupFile = "MARKUPSeats.xml";
-                                        MarkupType.Text = "SEATS Type: MARKUP";
-                                        sMarkupType = "MARKUPSeats";
-
-                                        /*
-                                        MarkupType.Text = "SEATS Type: MARKUP";
-                                        sMarkupFile = "MARKUPUsage.xml";
-                                        sMarkupType = "MARKUPUsage";
-                                        */
+                                        sMarkup = sMarkupDataDB;
                                     }
-                                    if (rtbnUsage.Checked == true)
-                                    {
-                                        if (sUnitType != "")
-                                        {
-                                            MarkupType.Text = "USAGE Type: MARKUP";
-                                            sMarkupFile = "MARKUPUsage.xml";
-                                            sMarkupType = "MARKUPUsage";
-                                        }
-                                        else
-                                        {
-                                            sMarkupFile = "MARKUPSeats.xml";
-                                            MarkupType.Text = "USAGE Type: MARKUP";
-                                            sMarkupType = "MARKUPSeats";
-                                        }
-                                    }
-
-                                    // RP Billing
-                                    string sMarkupData = ReadXml(sCustomerId, sMarkupFile);
-
-                                    string sMarkup = "n/a";
-                                    if (sMarkupData != "n/a")
-                                    {
-                                        sMarkup = sMarkupData.Split(';')[1];
-                                    }
-
-                                    // check if subscription is in the DB
-                                    if (sOfferId != "n/a")
+                                }
+                                else
+                                {
+                                    sOfferId = sProductIdUsage + ":" + sSkuIdUsage + ":" + sAvailabilityIdUsage;
+                                    if (sOfferId.IndexOf("n/a") == -1)
                                     {
                                         string sMarkupDataDB = GetMarkupData(sOfferId.ToUpper(), sCustomerId.ToUpper(), sMarkupType);
                                         if (sMarkupDataDB != "n/a")
@@ -1914,321 +1947,395 @@ namespace RPNAVConnect
                                             sMarkup = sMarkupDataDB;
                                         }
                                     }
-                                    else
+                                }
+                            }
+
+                            AzureBillingDataL.Text = AzureBillingDataL.Text.Replace("#CUSTMARKUP#", sMarkup);
+
+                            string sOfferNameToDisplay = "n/a";
+                            string sOfferIdToDisplay = "n/a";
+                            string sListPrice = "n/a";
+                            string sERPPrice = "n/a";
+                            decimal dListPrice = 0;
+                            decimal dERPPrice = 0;
+
+                            string sRPCP = "";
+                            decimal dRPCP = 0;
+                            decimal dRPCPDiff = 0;
+                            string sRPCPDiff = "";
+                            decimal dRPCPDiffSeats = 0;
+                            string sRPCPDiffSeats = "";
+                            string sRPCPPerUP = "";
+                            decimal dRPCPPerUP = 0;
+                            decimal dDollar = 1;
+                            decimal dUnitPrice = 0;
+                            decimal dEffectiveUnitPrice = 0;
+                            decimal dMarkup = 0;
+                            decimal dTotalAmount = 0;
+
+                            try
+                            {
+                                dUnitPrice = 1;
+
+                                if (mpcItem.UnitPrice != null)
+                                {
+                                    dUnitPrice = (decimal)mpcItem.UnitPrice;
+                                }
+                                else
+                                {
+                                    if (sUnitPrice != "n/a")
                                     {
+                                        dUnitPrice = Convert.ToDecimal(sUnitPrice);
+                                    }
+                                }
+                                sUnitPrice = dUnitPrice.ToString("N");
+                            }
+                            catch (Exception ex)
+                            {
+                                dUnitPrice = 1;
+                                ex.ToString();
+                            }
+
+                            try
+                            {
+                                dEffectiveUnitPrice = 1;
+
+                                if (mpcItem.EffectiveUnitPrice != null)
+                                {
+                                    dEffectiveUnitPrice = (decimal)mpcItem.EffectiveUnitPrice;
+                                }
+                                else
+                                {
+                                    if (sEffectiveUnitPrice != "n/a")
+                                    {
+                                        dEffectiveUnitPrice = Convert.ToDecimal(sEffectiveUnitPrice);
+                                    }
+                                }
+                                sEffectiveUnitPrice = dEffectiveUnitPrice.ToString("N");
+                            }
+                            catch (Exception ex)
+                            {
+                                dEffectiveUnitPrice = 1;
+                                ex.ToString();
+                            }
+
+                            dUnitPrice = dEffectiveUnitPrice;
+
+                            try
+                            {
+                                dDollar = 1;
+                                if (sDollarPrice != "n/a") dDollar = Convert.ToDecimal(sDollarPrice);
+                            }
+                            catch (Exception ex)
+                            {
+                                dDollar = 1;
+                                ex.ToString();
+                            }
+
+                            try
+                            {
+                                dMarkup = 0;
+                                if (sMarkup != "n/a") dMarkup = Convert.ToDecimal(sMarkup);
+                                dCustRPUMarkup = dMarkup;
+                                dCustRPRebate = dMarkup;
+                            }
+                            catch (Exception ex)
+                            {
+                                dMarkup = 0;
+                                ex.ToString();
+                            }
+
+                            try
+                            {
+                                dTotalAmount = 0;
+                                if (sTotalAmount != "n/a") dTotalAmount = Convert.ToDecimal(sTotalAmount);
+                            }
+                            catch (Exception ex)
+                            {
+                                dTotalAmount = 0;
+                                ex.ToString();
+                            }
+
+                            // calculations
+                            try
+                            {
+                                if (rbtnSeats.Checked == true)
+                                {
+                                    // i.e. 250 * ((100 + 25) / 100)
+                                    dRPCP = dTotalAmount * ((100 + dMarkup) / 100);
+                                    sRPCP = dRPCP.ToString("N");
+                                }
+                                else
+                                {
+                                    // i.e. 250 * ((100 + 25) / 100)
+                                    //dRPCP = dTotalAmount * ((100 + dMarkup) / 100);
+                                    //sRPCP = dRPCP.ToString("N");
+
+                                    // first calculate unit price
+                                    try
+                                    {
+                                        dRPCPPerUP = (dUnitPrice * dDollar) * ((100 + dMarkup) / 100);
+                                        sRPCPPerUP = dRPCPPerUP.ToString("N");
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        ex.ToString();
+                                        dRPCPPerUP = 0;
+                                        sRPCPPerUP = "";
+                                    }
+                                }
+                            }
+                            catch (Exception ex)
+                            {
+                                ex.ToString();
+                                sRPCP = "";
+                                dRPCP = 0;
+                                sRPCPPerUP = "";
+                                dRPCPPerUP = 0;
+                            }
+
+                            string sQuantityToShow = "";
+                            string sBillableQuantityToShow = "";
+                            decimal dQuantity = 0;
+                            decimal dSubTotal = 0;
+                            decimal dBillableQuantity = 0;
+                            if (rbtnSeats.Checked == true)
+                            {
+
+                                /*
+                                    sQuantityToShow = sQuantity;
+                                    try
+                                    {
+                                        dQuantity = Convert.ToDecimal(sQuantity);
+                                        sQuantityToShow = dQuantity.ToString("N");
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        ex.ToString();
+                                        sQuantityToShow = "0.00";
+                                        dQuantity = 0;
+                                    }
+                                */
+
+                                try
+                                {
+                                    dQuantity = dRPCP / (dUnitPrice * dDollar);
+                                    sQuantityToShow = dQuantity.ToString("N");
+                                }
+                                catch (Exception ex)
+                                {
+                                    ex.ToString();
+                                    sQuantityToShow = "0.00";
+                                    dQuantity = 0;
+                                }
+
+                                try
+                                {
+                                    //dRPCPPerUP = dUnitPrice * dDollar;                                                                                
+                                    dRPCPPerUP = dRPCP / dQuantity;
+                                    sRPCPPerUP = dRPCPPerUP.ToString("N");
+                                }
+                                catch (Exception ex)
+                                {
+                                    ex.ToString();
+                                    dRPCPPerUP = 0;
+                                    sRPCPPerUP = "";
+                                }
+                            }
+                            else
+                            {
+                                try
+                                {
+                                    dSubTotal = 0;
+                                    if (sSubTotal != "")
+                                    {
+                                        dSubTotal = Convert.ToDecimal(sSubTotal);
+                                    }
+                                    sSubTotal = dSubTotal.ToString("N");
+
+                                    dBillableQuantity = 1;
+                                    if (sBillableQuantity != "")
+                                    {
+                                        dBillableQuantity = Convert.ToDecimal(sBillableQuantity);
+                                    }
+                                    sBillableQuantityToShow = dQuantity.ToString("N");
+
+                                    dQuantity = 0;
+                                    if (sQuantity != "")
+                                    {
+                                        dQuantity = Convert.ToDecimal(sQuantity);
                                         if (sUnitType != "")
                                         {
-                                            string sMarkupDataDB = GetMarkupDataProductName("Azure plan", sCustomerId.ToUpper(), sMarkupType);
-                                            if (sMarkupDataDB != "n/a")
+                                            if (dBillableQuantity > 0)
                                             {
-                                                sMarkup = sMarkupDataDB;
-                                            }
-                                        }
-                                        else
-                                        {
-                                            sOfferId = sProductIdUsage + ":" + sSkuIdUsage + ":" + sAvailabilityIdUsage;
-                                            if (sOfferId.IndexOf("n/a") == -1)
-                                            {
-                                                string sMarkupDataDB = GetMarkupData(sOfferId.ToUpper(), sCustomerId.ToUpper(), sMarkupType);
-                                                if (sMarkupDataDB != "n/a")
-                                                {
-                                                    sMarkup = sMarkupDataDB;
-                                                }
-                                            }
-                                        }
-                                    }
-
-                                    AzureBillingDataL.Text = AzureBillingDataL.Text.Replace("#CUSTMARKUP#", sMarkup);
-
-                                    string sOfferNameToDisplay = "n/a";
-                                    string sOfferIdToDisplay = "n/a";
-                                    string sListPrice = "n/a";
-                                    string sERPPrice = "n/a";
-                                    decimal dListPrice = 0;
-                                    decimal dERPPrice = 0;
-
-                                    string sRPCP = "";
-                                    decimal dRPCP = 0;
-                                    decimal dRPCPDiff = 0;
-                                    string sRPCPDiff = "";
-                                    decimal dRPCPDiffSeats = 0;
-                                    string sRPCPDiffSeats = "";
-                                    string sRPCPPerUP = "";
-                                    decimal dRPCPPerUP = 0;
-                                    decimal dDollar = 1;
-                                    decimal dUnitPrice = 0;
-                                    decimal dEffectiveUnitPrice = 0;
-                                    decimal dMarkup = 0;
-                                    decimal dTotalAmount = 0;
-
-                                    try
-                                    {
-                                        dUnitPrice = 1;
-                                        if (sUnitPrice != "n/a") dUnitPrice = Convert.ToDecimal(sUnitPrice);
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        dUnitPrice = 1;
-                                        ex.ToString();
-                                    }
-
-                                    try
-                                    {
-                                        dEffectiveUnitPrice = 1;
-                                        if (sEffectiveUnitPrice != "n/a") dEffectiveUnitPrice = Convert.ToDecimal(sEffectiveUnitPrice);
-                                        sEffectiveUnitPrice = dEffectiveUnitPrice.ToString("N");
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        dEffectiveUnitPrice = 1;
-                                        ex.ToString();
-                                    }
-
-                                    dUnitPrice = dEffectiveUnitPrice;
-
-                                    try
-                                    {
-                                        dDollar = 1;
-                                        if (sDollarPrice != "n/a") dDollar = Convert.ToDecimal(sDollarPrice);
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        dDollar = 1;
-                                        ex.ToString();
-                                    }
-
-                                    try
-                                    {
-                                        dMarkup = 0;
-                                        if (sMarkup != "n/a") dMarkup = Convert.ToDecimal(sMarkup);
-                                        dCustRPUMarkup = dMarkup;
-                                        dCustRPRebate = dMarkup;
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        dMarkup = 0;
-                                        ex.ToString();
-                                    }
-
-                                    try
-                                    {
-                                        dTotalAmount = 0;
-                                        if (sTotalAmount != "n/a") dTotalAmount = Convert.ToDecimal(sTotalAmount);
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        dTotalAmount = 0;
-                                        ex.ToString();
-                                    }
-
-                                    // calculations
-                                    try
-                                    {
-                                        if (rbtnSeats.Checked == true)
-                                        {
-                                            // i.e. 250 * ((100 + 25) / 100)
-                                            dRPCP = dTotalAmount * ((100 + dMarkup) / 100);
-                                            sRPCP = dRPCP.ToString("N");
-                                        }
-                                        else
-                                        {
-                                            // i.e. 250 * ((100 + 25) / 100)
-                                            //dRPCP = dTotalAmount * ((100 + dMarkup) / 100);
-                                            //sRPCP = dRPCP.ToString("N");
-
-                                            // first calculate unit price
-                                            try
-                                            {
-                                                dRPCPPerUP = (dUnitPrice * dDollar) * ((100 + dMarkup) / 100);
-                                                sRPCPPerUP = dRPCPPerUP.ToString("N");
-                                            }
-                                            catch (Exception ex)
-                                            {
-                                                ex.ToString();
-                                                dRPCPPerUP = 0;
-                                                sRPCPPerUP = "";
-                                            }
-                                        }
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        ex.ToString();
-                                        sRPCP = "";
-                                        dRPCP = 0;
-                                        sRPCPPerUP = "";
-                                        dRPCPPerUP = 0;
-                                    }
-
-                                    string sQuantityToShow = "";
-                                    string sBillableQuantityToShow = "";
-                                    decimal dQuantity = 0;
-                                    decimal dSubTotal = 0;
-                                    decimal dBillableQuantity = 0;
-                                    if (rbtnSeats.Checked == true)
-                                    {
-
-                                        /*
-                                            sQuantityToShow = sQuantity;
-                                            try
-                                            {
-                                                dQuantity = Convert.ToDecimal(sQuantity);
+                                                dQuantity = dBillableQuantity;
                                                 sQuantityToShow = dQuantity.ToString("N");
                                             }
-                                            catch (Exception ex)
+                                            else
                                             {
-                                                ex.ToString();
-                                                sQuantityToShow = "0.00";
-                                                dQuantity = 0;
+                                                sQuantityToShow = dQuantity.ToString("N");
                                             }
-                                        */
-
-                                        try
+                                        }
+                                        else
                                         {
-                                            dQuantity = dRPCP / (dUnitPrice * dDollar);
                                             sQuantityToShow = dQuantity.ToString("N");
                                         }
-                                        catch (Exception ex)
-                                        {
-                                            ex.ToString();
-                                            sQuantityToShow = "0.00";
-                                            dQuantity = 0;
-                                        }
-
-                                        try
-                                        {
-                                            //dRPCPPerUP = dUnitPrice * dDollar;                                                                                
-                                            dRPCPPerUP = dRPCP / dQuantity;
-                                            sRPCPPerUP = dRPCPPerUP.ToString("N");
-                                        }
-                                        catch (Exception ex)
-                                        {
-                                            ex.ToString();
-                                            dRPCPPerUP = 0;
-                                            sRPCPPerUP = "";
-                                        }
                                     }
-                                    else
+
+                                }
+                                catch (Exception ex)
+                                {
+                                    ex.ToString();
+                                    dQuantity = 0;
+                                    sQuantityToShow = "0.00";
+                                }
+
+                                try
+                                {
+                                    //dQuantity = dRPCP / (dUnitPrice * dDollar);
+                                    //sQuantityToShow = dQuantity.ToString("N");
+
+                                    // backwards calc
+                                    //dRPCP = dTotalAmount * ((100 + dMarkup) / 100);
+                                    //sRPCP = dRPCP.ToString("N");
+
+                                    dRPCP = dRPCPPerUP * dQuantity;
+                                    sRPCP = dRPCP.ToString("N");
+
+                                }
+                                catch (Exception ex)
+                                {
+                                    ex.ToString();
+                                    //sQuantityToShow = "0.00";
+                                    //dQuantity = 0;
+
+                                    dRPCP = 0;
+                                    sRPCP = "0.00";
+                                }
+                            }
+
+                            dRPCPDiff = dRPCP - dSubTotal;
+                            sRPCPDiff = dRPCPDiff.ToString("N");
+                            dCustRPUDiffAmount += dRPCPDiff;
+
+                            dRPCPDiffSeats = dRPCP - dTotalAmount;
+                            sRPCPDiffSeats = dRPCPDiffSeats.ToString("N");
+                            dCustRPUDiffAmountSeats += dRPCPDiffSeats;
+
+                            dCustMSListAmount += (dListPrice * dQuantity);
+                            dCustERPAmount += (dERPPrice * dQuantity);
+                            dCustRPTotalAmount += dRPCP;
+
+                            dCustMSUTotalAmount += dTotalAmount;
+                            dCustMSUTotalAmountExcTax += dSubTotal;
+                            dCustRPUTotalAmount += dRPCP;
+
+                            // description
+                            int iNavDescStart = -1;
+                            if (sCustVatNo != "n/a")
+                            {
+                                if (true) // if (dRPCP != 0) - restrict invoice line to be pushed to nav
+                                {
+                                    if (true) // if (dQuantity != 0) - restrict invoice line to be pushed to nav
                                     {
-                                        try
+                                        // create invoice line
+                                        PostSalesInvoiceLine invoiceLine = new PostSalesInvoiceLine();
+
+                                        invoiceLine.lineType = "Item";
+                                        invoiceLine.lineObjectNumber = "2050.015"; // 310
+                                        invoiceLine.itemId = sItem310Id;
+                                        if (sItem310Id == "")
                                         {
-                                            dSubTotal = 0;
-                                            if (sSubTotal != "")
-                                            {
-                                                dSubTotal = Convert.ToDecimal(sSubTotal);
-                                            }
-                                            sSubTotal = dSubTotal.ToString("N");
+                                            sItem310Id = GetItemId("2050.015");
+                                            invoiceLine.itemId = sItem310Id;
+                                        }
 
-                                            dBillableQuantity = 1;
-                                            if (sBillableQuantity != "")
-                                            {
-                                                dBillableQuantity = Convert.ToDecimal(sBillableQuantity);
-                                            }
-                                            sBillableQuantityToShow = dQuantity.ToString("N");
+                                        // quantity and price
+                                        invoiceLine.quantity = dQuantity;
+                                        invoiceLine.unitPrice = dRPCPPerUP;
 
-                                            dQuantity = 0;
-                                            if (sQuantity != "")
+                                        // unit type
+                                        invoiceLine.Document_No = sUnitType;
+
+                                        // description
+                                        string[] sLineDescriptionArray = sDescription.Split('ђ');
+                                        string sLineDescription = sLineDescriptionArray[0];
+                                        iNavDescStart = iInvoiceLinesCount;
+                                        if (sLineDescription.Length <= 50)
+                                        {
+                                            invoiceLine.description = sLineDescription;
+
+                                            // add invoice line
+                                            InvoiceLinesList.Add(invoiceLine);
+
+                                            // count added lines
+                                            iInvoiceLinesCount++;
+                                        }
+                                        else
+                                        {
+                                            // remove multiple spaces & odd empty chars
+                                            RegexOptions options = RegexOptions.None;
+                                            Regex regex = new Regex(@"[ ]{2,}", options);
+                                            sLineDescription = regex.Replace(sLineDescription, @" ");
+                                            sLineDescription = Regex.Replace(sLineDescription, @"\p{Z}", " ");
+
+                                            // create as many new lines as needed to fit comment length
+                                            int partLength = 50;
+
+                                            string sLineDescriptionFriendlyChars2 = sLineDescription.Replace(" ", "≡");
+                                            string[] sLineDescriptionWords2 = sLineDescriptionFriendlyChars2.Split('≡');
+
+                                            // check if there are words nigger than 50 chars
+                                            string sLineDescriptionFriendlyChars = "";
+                                            foreach (var sLineDescriptionWord in sLineDescriptionWords2)
                                             {
-                                                dQuantity = Convert.ToDecimal(sQuantity);
-                                                if (sUnitType != "")
+                                                if (sLineDescriptionWord.Length < partLength)
                                                 {
-                                                    if (dBillableQuantity > 0)
-                                                    {
-                                                        dQuantity = dBillableQuantity;
-                                                        sQuantityToShow = dQuantity.ToString("N");
-                                                    }
-                                                    else
-                                                    {
-                                                        sQuantityToShow = dQuantity.ToString("N");
-                                                    }
+                                                    sLineDescriptionFriendlyChars += sLineDescriptionWord + "≡";
                                                 }
                                                 else
                                                 {
-                                                    sQuantityToShow = dQuantity.ToString("N");
+                                                    sLineDescriptionFriendlyChars += sLineDescriptionWord.Substring(0, partLength) + "≡";
+                                                    string sTmp = sLineDescriptionWord.Substring(partLength);
+                                                    if (sTmp.Length < partLength)
+                                                    {
+                                                        sLineDescriptionFriendlyChars += sTmp + "≡";
+                                                    }
+                                                    else
+                                                    {
+                                                        sLineDescriptionFriendlyChars += sTmp.Substring(0, partLength) + "≡";
+                                                        sTmp = sTmp.Substring(partLength);
+                                                        sLineDescriptionFriendlyChars += sTmp.Substring(partLength) + "≡";
+                                                    }
                                                 }
                                             }
+                                            string[] sLineDescriptionWords = sLineDescriptionFriendlyChars.Split('≡');
 
-                                        }
-                                        catch (Exception ex)
-                                        {
-                                            ex.ToString();
-                                            dQuantity = 0;
-                                            sQuantityToShow = "0.00";
-                                        }
-
-                                        try
-                                        {
-                                            //dQuantity = dRPCP / (dUnitPrice * dDollar);
-                                            //sQuantityToShow = dQuantity.ToString("N");
-
-                                            // backwards calc
-                                            //dRPCP = dTotalAmount * ((100 + dMarkup) / 100);
-                                            //sRPCP = dRPCP.ToString("N");
-
-                                            dRPCP = dRPCPPerUP * dQuantity;
-                                            sRPCP = dRPCP.ToString("N");
-
-                                        }
-                                        catch (Exception ex)
-                                        {
-                                            ex.ToString();
-                                            //sQuantityToShow = "0.00";
-                                            //dQuantity = 0;
-
-                                            dRPCP = 0;
-                                            sRPCP = "0.00";
-                                        }
-                                    }
-
-                                    dRPCPDiff = dRPCP - dSubTotal;
-                                    sRPCPDiff = dRPCPDiff.ToString("N");
-                                    dCustRPUDiffAmount += dRPCPDiff;
-
-                                    dRPCPDiffSeats = dRPCP - dTotalAmount;
-                                    sRPCPDiffSeats = dRPCPDiffSeats.ToString("N");
-                                    dCustRPUDiffAmountSeats += dRPCPDiffSeats;
-
-                                    dCustMSListAmount += (dListPrice * dQuantity);
-                                    dCustERPAmount += (dERPPrice * dQuantity);
-                                    dCustRPTotalAmount += dRPCP;
-
-                                    dCustMSUTotalAmount += dTotalAmount;
-                                    dCustMSUTotalAmountExcTax += dSubTotal;
-                                    dCustRPUTotalAmount += dRPCP;
-
-                                    // description
-                                    int iNavDescStart = -1;
-                                    if (sCustVatNo != "n/a")
-                                    {
-                                        if (true) // if (dRPCP != 0) - restrict invoice line to be pushed to nav
-                                        {
-                                            if (true) // if (dQuantity != 0) - restrict invoice line to be pushed to nav
+                                            var parts = new Dictionary<int, string>();
+                                            string part = string.Empty;
+                                            int partCounter = 0;
+                                            foreach (var sLineDescriptionWord in sLineDescriptionWords)
                                             {
-                                                // create invoice line
-                                                PostSalesInvoiceLine invoiceLine = new PostSalesInvoiceLine();
-
-                                                invoiceLine.lineType = "Item";
-                                                invoiceLine.lineObjectNumber = "2050.015"; // 310
-                                                invoiceLine.itemId = sItem310Id;
-                                                if (sItem310Id == "")
+                                                if (part.Length + sLineDescriptionWord.Length < partLength)
                                                 {
-                                                    sItem310Id = GetItemId("2050.015");
-                                                    invoiceLine.itemId = sItem310Id;
+                                                    part += string.IsNullOrEmpty(part) ? sLineDescriptionWord : " " + sLineDescriptionWord;
                                                 }
-
-                                                // quantity and price
-                                                invoiceLine.quantity = dQuantity;
-                                                invoiceLine.unitPrice = dRPCPPerUP;
-
-                                                // unit type
-                                                invoiceLine.Document_No = sUnitType;
-
-                                                // description
-                                                string[] sLineDescriptionArray = sDescription.Split('ђ');
-                                                string sLineDescription = sLineDescriptionArray[0];
-                                                iNavDescStart = iInvoiceLinesCount;
-                                                if (sLineDescription.Length <= 50)
+                                                else
                                                 {
-                                                    invoiceLine.description = sLineDescription;
+                                                    parts.Add(partCounter, part);
+                                                    part = sLineDescriptionWord;
+                                                    partCounter++;
+                                                }
+                                            }
+                                            parts.Add(partCounter, part);
+
+                                            int iPartsCount = 0;
+                                            foreach (var item in parts)
+                                            {
+                                                if (iPartsCount == 0)
+                                                {
+                                                    // include first 50 chars in the current line
+                                                    invoiceLine.description = item.Value;
 
                                                     // add invoice line
                                                     InvoiceLinesList.Add(invoiceLine);
@@ -2238,118 +2345,10 @@ namespace RPNAVConnect
                                                 }
                                                 else
                                                 {
-                                                    // remove multiple spaces & odd empty chars
-                                                    RegexOptions options = RegexOptions.None;
-                                                    Regex regex = new Regex(@"[ ]{2,}", options);
-                                                    sLineDescription = regex.Replace(sLineDescription, @" ");
-                                                    sLineDescription = Regex.Replace(sLineDescription, @"\p{Z}", " ");
-
-                                                    // create as many new lines as needed to fit comment length
-                                                    int partLength = 50;
-
-                                                    string sLineDescriptionFriendlyChars2 = sLineDescription.Replace(" ", "≡");
-                                                    string[] sLineDescriptionWords2 = sLineDescriptionFriendlyChars2.Split('≡');
-
-                                                    // check if there are words nigger than 50 chars
-                                                    string sLineDescriptionFriendlyChars = "";
-                                                    foreach (var sLineDescriptionWord in sLineDescriptionWords2)
+                                                    if (rtbnUsage.Checked == true)
                                                     {
-                                                        if (sLineDescriptionWord.Length < partLength)
+                                                        if (sUnitType == "")
                                                         {
-                                                            sLineDescriptionFriendlyChars += sLineDescriptionWord + "≡";
-                                                        }
-                                                        else
-                                                        {
-                                                            sLineDescriptionFriendlyChars += sLineDescriptionWord.Substring(0, partLength) + "≡";
-                                                            string sTmp = sLineDescriptionWord.Substring(partLength);
-                                                            if (sTmp.Length < partLength)
-                                                            {
-                                                                sLineDescriptionFriendlyChars += sTmp + "≡";
-                                                            }
-                                                            else
-                                                            {
-                                                                sLineDescriptionFriendlyChars += sTmp.Substring(0, partLength) + "≡";
-                                                                sTmp = sTmp.Substring(partLength);
-                                                                sLineDescriptionFriendlyChars += sTmp.Substring(partLength) + "≡";
-                                                            }
-                                                        }
-                                                    }
-                                                    string[] sLineDescriptionWords = sLineDescriptionFriendlyChars.Split('≡');
-
-                                                    var parts = new Dictionary<int, string>();
-                                                    string part = string.Empty;
-                                                    int partCounter = 0;
-                                                    foreach (var sLineDescriptionWord in sLineDescriptionWords)
-                                                    {
-                                                        if (part.Length + sLineDescriptionWord.Length < partLength)
-                                                        {
-                                                            part += string.IsNullOrEmpty(part) ? sLineDescriptionWord : " " + sLineDescriptionWord;
-                                                        }
-                                                        else
-                                                        {
-                                                            parts.Add(partCounter, part);
-                                                            part = sLineDescriptionWord;
-                                                            partCounter++;
-                                                        }
-                                                    }
-                                                    parts.Add(partCounter, part);
-
-                                                    int iPartsCount = 0;
-                                                    foreach (var item in parts)
-                                                    {
-                                                        if (iPartsCount == 0)
-                                                        {
-                                                            // include first 50 chars in the current line
-                                                            invoiceLine.description = item.Value;
-
-                                                            // add invoice line
-                                                            InvoiceLinesList.Add(invoiceLine);
-
-                                                            // count added lines
-                                                            iInvoiceLinesCount++;
-                                                        }
-                                                        else
-                                                        {
-                                                            if (rtbnUsage.Checked == true)
-                                                            {
-                                                                if (sUnitType == "")
-                                                                {
-                                                                    PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
-
-                                                                    extraLine.lineType = "";
-                                                                    extraLine.lineObjectNumber = "";
-                                                                    extraLine.itemId = "";
-
-                                                                    // quantity and price
-                                                                    extraLine.quantity = 0;
-                                                                    extraLine.unitPrice = 0;
-
-                                                                    extraLine.Document_No = "";
-
-                                                                    // extra line
-                                                                    extraLine.description = item.Value;
-
-                                                                    // add extra line
-                                                                    InvoiceLinesList.Add(extraLine);
-
-                                                                    // count added lines
-                                                                    iInvoiceLinesCount++;
-                                                                }
-                                                            }
-                                                        }
-                                                        iPartsCount++;
-                                                    }
-                                                }
-
-                                                // date + month
-                                                if (rtbnUsage.Checked == true)
-                                                {
-                                                    if (sUnitType == "")
-                                                    {
-                                                        for (int i = 1; i <= 2; i++)
-                                                        {
-                                                            string sLineDescriptionDateMonth = sLineDescriptionArray[i];
-
                                                             PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
                                                             extraLine.lineType = "";
@@ -2363,7 +2362,7 @@ namespace RPNAVConnect
                                                             extraLine.Document_No = "";
 
                                                             // extra line
-                                                            extraLine.description = sLineDescriptionDateMonth;
+                                                            extraLine.description = item.Value;
 
                                                             // add extra line
                                                             InvoiceLinesList.Add(extraLine);
@@ -2373,159 +2372,195 @@ namespace RPNAVConnect
                                                         }
                                                     }
                                                 }
+                                                iPartsCount++;
+                                            }
+                                        }
 
-                                                // extra empty line - exclude azure consumptions
-                                                if (rtbnUsage.Checked == true)
+                                        // date + month
+                                        if (rtbnUsage.Checked == true)
+                                        {
+                                            if (sUnitType == "")
+                                            {
+                                                for (int i = 1; i <= 2; i++)
                                                 {
-                                                    if (sUnitType == "")
-                                                    {
-                                                        PostSalesInvoiceLine extraemptyLine = new PostSalesInvoiceLine();
+                                                    string sLineDescriptionDateMonth = sLineDescriptionArray[i];
 
-                                                        extraemptyLine.lineType = "";
-                                                        extraemptyLine.lineObjectNumber = "";
-                                                        extraemptyLine.itemId = "";
-                                                        extraemptyLine.Document_No = "";
+                                                    PostSalesInvoiceLine extraLine = new PostSalesInvoiceLine();
 
-                                                        // quantity and price
-                                                        extraemptyLine.quantity = 0;
-                                                        extraemptyLine.unitPrice = 0;
+                                                    extraLine.lineType = "";
+                                                    extraLine.lineObjectNumber = "";
+                                                    extraLine.itemId = "";
 
-                                                        // extra line
-                                                        extraemptyLine.description = " ";
+                                                    // quantity and price
+                                                    extraLine.quantity = 0;
+                                                    extraLine.unitPrice = 0;
 
-                                                        // add extra line
-                                                        InvoiceLinesList.Add(extraemptyLine);
+                                                    extraLine.Document_No = "";
 
-                                                        // count added lines
-                                                        iInvoiceLinesCount++;
-                                                    }
+                                                    // extra line
+                                                    extraLine.description = sLineDescriptionDateMonth;
+
+                                                    // add extra line
+                                                    InvoiceLinesList.Add(extraLine);
+
+                                                    // count added lines
+                                                    iInvoiceLinesCount++;
                                                 }
                                             }
                                         }
-                                    }
 
-                                    string sCustomerNavDetails = "<font color='red'>Customer doesn't exist in NAV!</font>";
-                                    if (sCustVatNo != "n/a")
-                                    {
-                                        sCustomerNavDetails = "<font color='green'>No (VAT): " + sCustVatNo + "</font>";
-                                    }
-
-                                    sCSVLine = "";
-                                    sCSVLine += sCustomerName.Replace(",", ";") + ",";
-                                    sCSVLine += sCustId.Replace(",", ";") + ",";
-                                    sCSVLine += sCustVatNo.Replace(",", ";") + ",";
-
-                                    sCustomerCSVLine = "";
-                                    sCustomerCSVLine += sCustomerName.Replace(",", ";") + ",";
-                                    sCustomerCSVLine += sCustId.Replace(",", ";") + ",";
-                                    sCustomerCSVLine += sCustVatNo.Replace(",", ";") + ",";
-
-                                    sCustomerCSVName = sCustomerName;
-                                    sCustomerCSVId = sCustomerId;
-
-                                    string sDescriptionNavLines = "";
-                                    if (iNavDescStart != -1)
-                                    {
-                                        for (int iD = iNavDescStart; iD < iInvoiceLinesCount; iD++)
+                                        // extra empty line - exclude azure consumptions
+                                        if (rtbnUsage.Checked == true)
                                         {
-                                            sDescriptionNavLines += InvoiceLinesList[iD].description + "<br />";
-                                            sCSVLine += InvoiceLinesList[iD].description.Replace(",", ";") + " ";
-                                            sCustomerCSVLine += InvoiceLinesList[iD].description.Replace(",", ";") + " ";
+                                            if (sUnitType == "")
+                                            {
+                                                PostSalesInvoiceLine extraemptyLine = new PostSalesInvoiceLine();
+
+                                                extraemptyLine.lineType = "";
+                                                extraemptyLine.lineObjectNumber = "";
+                                                extraemptyLine.itemId = "";
+                                                extraemptyLine.Document_No = "";
+
+                                                // quantity and price
+                                                extraemptyLine.quantity = 0;
+                                                extraemptyLine.unitPrice = 0;
+
+                                                // extra line
+                                                extraemptyLine.description = " ";
+
+                                                // add extra line
+                                                InvoiceLinesList.Add(extraemptyLine);
+
+                                                // count added lines
+                                                iInvoiceLinesCount++;
+                                            }
                                         }
                                     }
-                                    sCSVLine += ",";
-                                    sCustomerCSVLine += ",";
-
-                                    AzureBillingDataL.Text += "<b>BC mapping:</b><br /><br />";
-                                    AzureBillingDataL.Text += "<b>Sell_to_Customer_No:</b> " + sCustomerId + " - " + sCustomerNavDetails + "<br />";
-                                    AzureBillingDataL.Text += "<b>Customer_Name:</b> " + sCustomerName + "<br />";
-                                    AzureBillingDataL.Text += "<b>Type:</b> ITEM<br />";
-                                    AzureBillingDataL.Text += "<b>No:</b> " + sProductNo + "<br />";
-                                    //AzureBillingDataL.Text += "<br /><b>Description:</b> " + sDescription.Replace("ђ", " ") + "<br />";
-                                    AzureBillingDataL.Text += "<br /><b>Description:</b><br />";
-                                    AzureBillingDataL.Text += sDescriptionNavLines;
-                                    AzureBillingDataL.Text += "<b>Unit Type:</b> " + sUnitType + "<br />";
-                                    AzureBillingDataL.Text += "<b>Quantity:</b> " + sQuantity + "<br />";
-                                    if (sUnitType != "")
-                                    {
-                                        AzureBillingDataL.Text += "<b>Billable Quantity:</b> " + sBillableQuantity + "<br />";
-                                    }
-                                    AzureBillingDataL.Text += "<b>Unit_Price:</b> " + sUnitPrice + "<br />";
-                                    AzureBillingDataL.Text += "<b>Effective_Unit_Price:</b> " + sEffectiveUnitPrice + "<br />";
-                                    AzureBillingDataL.Text += "<b>SubTotal:</b> " + sSubTotal + "<br />";
-                                    AzureBillingDataL.Text += "<b>Tax_Total:</b> " + sTaxTotal + "<br />";
-                                    AzureBillingDataL.Text += "<b>Total_Amount_VAT:</b> " + sTotalAmount + "<br />";
-
-                                    sCSVLine += sTotalAmount.Replace(",", "") + ",";
-                                    sCSVLine += sUnitPrice.Replace(",", "") + ",";
-
-                                    /*
-                                    if (ilItem is LicenseBasedLineItem)
-                                    {
-                                        AzureBillingDataL.Text += "<b>Offer Name:</b> " + sOfferNameToDisplay + "<br />";
-                                        AzureBillingDataL.Text += "<b>Offer Id:</b> " + sOfferIdToDisplay + "<br />";
-                                        AzureBillingDataL.Text += "<b>List Price:</b> " + dListPrice.ToString("N") + "<br />";
-                                        AzureBillingDataL.Text += "<b>ERP Price:</b> " + dERPPrice.ToString("N") + "<br />";
-                                    }
-                                    */
-
-                                    if (sDollarPrice != "n/a")
-                                    {
-                                        AzureBillingDataL.Text += "<b>PCToBCExchangeRate:</b> " + sDollarPrice + "<br />";
-                                    }
-                                    AzureBillingDataL.Text += "<br />";
-
-                                    sCSVLine += sDollarPrice.Replace(",", "") + ",";
-
-                                    AzureBillingDataL.Text += "<font color='#DF0000'><b>Quantity:</b></font> " + sQuantityToShow + "<br />";
-                                    AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup:</b></font> " + sMarkup + "%<br />";
-                                    AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup Unit Price:</b></font> " + sRPCPPerUP + " DKK<br />";
-                                    AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup Total Price:</b></font> " + sRPCP + " DKK<br />";
-                                    AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup Diff:</b></font> " + sRPCPDiff + " DKK<br />";
-
-
-                                    sCSVLine += sQuantityToShow.Replace(",", "") + ",";
-                                    sCSVLine += sMarkup.Replace(",", "") + ",";
-                                    sCSVLine += sRPCPPerUP.Replace(",", "") + ",";
-                                    sCSVLine += sRPCP.Replace(",", "") + ",";
-                                    sCSVLine += sRPCPDiff.Replace(",", "");
-                                    sCSVFile.Add(sCSVLine);
-
-                                    sCustomerCSVLine += sQuantityToShow.Replace(",", "") + ",";
-                                    sCustomerCSVLine += sRPCP.Replace(",", "");
-
-                                    string sCSVTypeFile = "";
-                                    if (rbtnSeats.Checked == true)
-                                    {
-                                        sCSVTypeFile = "SEATS";
-                                        //sCSVTypeFile = "USAGE";
-                                    }
-                                    if (rtbnUsage.Checked == true)
-                                    {
-                                        if (sUnitType != "")
-                                        {
-                                            sCSVTypeFile = "USAGE";
-                                        }
-                                        else
-                                        {
-                                            sCSVTypeFile = "SEATS";
-                                        }
-                                    }
-
-                                    if (sCSVTypeFile == "USAGE")
-                                    {
-                                        sCustomerCSVUsageFile.Add(sCustomerCSVLine);
-                                    }
-                                    if (sCSVTypeFile == "SEATS")
-                                    {
-                                        sCustomerCSVSeatsFile.Add(sCustomerCSVLine);
-                                    }
-
-
-                                    AzureBillingDataL.Text += "<br />";
-                                    iCount++;
                                 }
                             }
+
+                            string sCustomerNavDetails = "<font color='red'>Customer doesn't exist in NAV!</font>";
+                            if (sCustVatNo != "n/a")
+                            {
+                                sCustomerNavDetails = "<font color='green'>No (VAT): " + sCustVatNo + "</font>";
+                            }
+
+                            sCSVLine = "";
+                            sCSVLine += sCustomerName.Replace(",", ";") + ",";
+                            sCSVLine += sCustId.Replace(",", ";") + ",";
+                            sCSVLine += sCustVatNo.Replace(",", ";") + ",";
+
+                            sCustomerCSVLine = "";
+                            sCustomerCSVLine += sCustomerName.Replace(",", ";") + ",";
+                            sCustomerCSVLine += sCustId.Replace(",", ";") + ",";
+                            sCustomerCSVLine += sCustVatNo.Replace(",", ";") + ",";
+
+                            sCustomerCSVName = sCustomerName;
+                            sCustomerCSVId = sCustomerId;
+
+                            string sDescriptionNavLines = "";
+                            if (iNavDescStart != -1)
+                            {
+                                for (int iD = iNavDescStart; iD < iInvoiceLinesCount; iD++)
+                                {
+                                    sDescriptionNavLines += InvoiceLinesList[iD].description + "<br />";
+                                    sCSVLine += InvoiceLinesList[iD].description.Replace(",", ";") + " ";
+                                    sCustomerCSVLine += InvoiceLinesList[iD].description.Replace(",", ";") + " ";
+                                }
+                            }
+                            sCSVLine += ",";
+                            sCustomerCSVLine += ",";
+
+                            AzureBillingDataL.Text += "<b>BC mapping:</b><br /><br />";
+                            AzureBillingDataL.Text += "<b>Sell_to_Customer_No:</b> " + sCustomerId + " - " + sCustomerNavDetails + "<br />";
+                            AzureBillingDataL.Text += "<b>Customer_Name:</b> " + sCustomerName + "<br />";
+                            AzureBillingDataL.Text += "<b>Type:</b> ITEM<br />";
+                            AzureBillingDataL.Text += "<b>No:</b> " + sProductNo + "<br />";
+                            //AzureBillingDataL.Text += "<br /><b>Description:</b> " + sDescription.Replace("ђ", " ") + "<br />";
+                            AzureBillingDataL.Text += "<br /><b>Description:</b><br />";
+                            AzureBillingDataL.Text += sDescriptionNavLines;
+                            AzureBillingDataL.Text += "<b>Unit Type:</b> " + sUnitType + "<br />";
+                            AzureBillingDataL.Text += "<b>Quantity:</b> " + sQuantity + "<br />";
+                            if (sUnitType != "")
+                            {
+                                AzureBillingDataL.Text += "<b>Billable Quantity:</b> " + sBillableQuantity + "<br />";
+                            }
+                            AzureBillingDataL.Text += "<b>Unit_Price:</b> " + sUnitPrice + "<br />";
+                            AzureBillingDataL.Text += "<b>Effective_Unit_Price:</b> " + sEffectiveUnitPrice + "<br />";
+                            AzureBillingDataL.Text += "<b>SubTotal:</b> " + sSubTotal + "<br />";
+                            AzureBillingDataL.Text += "<b>Tax_Total:</b> " + sTaxTotal + "<br />";
+                            AzureBillingDataL.Text += "<b>Total_Amount_VAT:</b> " + sTotalAmount + "<br />";
+
+                            sCSVLine += sTotalAmount.Replace(",", "") + ",";
+                            sCSVLine += sUnitPrice.Replace(",", "") + ",";
+
+                            /*
+                            if (ilItem is LicenseBasedLineItem)
+                            {
+                                AzureBillingDataL.Text += "<b>Offer Name:</b> " + sOfferNameToDisplay + "<br />";
+                                AzureBillingDataL.Text += "<b>Offer Id:</b> " + sOfferIdToDisplay + "<br />";
+                                AzureBillingDataL.Text += "<b>List Price:</b> " + dListPrice.ToString("N") + "<br />";
+                                AzureBillingDataL.Text += "<b>ERP Price:</b> " + dERPPrice.ToString("N") + "<br />";
+                            }
+                            */
+
+                            if (sDollarPrice != "n/a")
+                            {
+                                AzureBillingDataL.Text += "<b>PCToBCExchangeRate:</b> " + sDollarPrice + "<br />";
+                            }
+                            AzureBillingDataL.Text += "<br />";
+
+                            sCSVLine += sDollarPrice.Replace(",", "") + ",";
+
+                            AzureBillingDataL.Text += "<font color='#DF0000'><b>Quantity:</b></font> " + sQuantityToShow + "<br />";
+                            AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup:</b></font> " + sMarkup + "%<br />";
+                            AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup Unit Price:</b></font> " + sRPCPPerUP + " DKK<br />";
+                            AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup Total Price:</b></font> " + sRPCP + " DKK<br />";
+                            AzureBillingDataL.Text += "<font color='#DF0000'><b>Rackpeople Markup Diff:</b></font> " + sRPCPDiff + " DKK<br />";
+
+
+                            sCSVLine += sQuantityToShow.Replace(",", "") + ",";
+                            sCSVLine += sMarkup.Replace(",", "") + ",";
+                            sCSVLine += sRPCPPerUP.Replace(",", "") + ",";
+                            sCSVLine += sRPCP.Replace(",", "") + ",";
+                            sCSVLine += sRPCPDiff.Replace(",", "");
+                            sCSVFile.Add(sCSVLine);
+
+                            sCustomerCSVLine += sQuantityToShow.Replace(",", "") + ",";
+                            sCustomerCSVLine += sRPCP.Replace(",", "");
+
+                            string sCSVTypeFile = "";
+                            if (rbtnSeats.Checked == true)
+                            {
+                                sCSVTypeFile = "SEATS";
+                                //sCSVTypeFile = "USAGE";
+                            }
+                            if (rtbnUsage.Checked == true)
+                            {
+                                if (sUnitType != "")
+                                {
+                                    sCSVTypeFile = "USAGE";
+                                }
+                                else
+                                {
+                                    sCSVTypeFile = "SEATS";
+                                }
+                            }
+
+                            if (sCSVTypeFile == "USAGE")
+                            {
+                                sCustomerCSVUsageFile.Add(sCustomerCSVLine);
+                            }
+                            if (sCSVTypeFile == "SEATS")
+                            {
+                                sCustomerCSVSeatsFile.Add(sCustomerCSVLine);
+                            }
+
+
+                            AzureBillingDataL.Text += "<br />";
+                            iCount++;
+
+
                         }
 
                         if (sRPInvoiceType == "usage")
@@ -2954,7 +2989,7 @@ namespace RPNAVConnect
                 {
                     ex.ToString();
                 }
-            }        
+            }
 
             if (sRPInvoiceType == "usage")
             {
