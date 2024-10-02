@@ -724,4 +724,9 @@
     <Comment>
     </Comment>
   </Customer>
+  <Customer Id="2ddcf4bf-3b6c-421f-aa40-11e96b03d928">
+    <Name>Nova Salus ApS</Name>
+    <Comment>
+    </Comment>
+  </Customer>
 </CustomerComments>

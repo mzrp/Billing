@@ -1,15 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using RackPeople.BillingAPI.Models;
+using System;
 using System.Data;
 using System.Data.Entity;
 using System.Data.Entity.Infrastructure;
+using System.Globalization;
 using System.Linq;
-using System.Net;
-using System.Net.Http;
 using System.Web.Http;
 using System.Web.Http.Description;
-using RackPeople.BillingAPI.Models;
-using System.Web.Http.Cors;
 
 namespace RackPeople.BillingAPI.Controllers
 {
@@ -29,25 +26,27 @@ namespace RackPeople.BillingAPI.Controllers
             db.Configuration.ProxyCreationEnabled = false;
 
             // dave csv file now
-            string sCSVData = "NavCustomerName,NavCustomerId,Description,BillingCycle,UnitAmount,NavPrice,UnitPrice\n";
+            string sCSVData = "NavCustomerName,NavCustomerId,Description,BillingCycle,ProductDescription,UnitAmount,NavPrice,UnitPrice\n";
             foreach(var singlesub in this.activeSubscriptions)
             {
                 foreach (var subproduct in singlesub.Products) {
-                    sCSVData += "\"" + singlesub.NavCustomerName + "\",";
-                    sCSVData += "\"" + singlesub.NavCustomerId + "\",";
-                    sCSVData += "\"" + singlesub.Description + "\",";
-                    sCSVData += "\"" + singlesub.BillingCycle + "\",";
+                    sCSVData += "\"" + singlesub.NavCustomerName.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
+                    sCSVData += "\"" + singlesub.NavCustomerId.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
+                    sCSVData += "\"" + singlesub.Description.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
+                    sCSVData += "\"" + singlesub.BillingCycle.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
 
-                    sCSVData += "\"" + subproduct.UnitAmount.ToString() + "\",";
-                    sCSVData += "\"" + subproduct.NavPrice.ToString() + "\",";
-                    sCSVData += "\"" + subproduct.UnitPrice.ToString() + "\"\n";
+                    sCSVData += "\"" + subproduct.Description.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
+                    sCSVData += subproduct.UnitAmount.ToString("G", CultureInfo.CreateSpecificCulture("en-US")) + ",";
+                    sCSVData += subproduct.NavPrice.ToString("G", CultureInfo.CreateSpecificCulture("en-US")) + ",";
+                    sCSVData += subproduct.UnitPrice.ToString("G", CultureInfo.CreateSpecificCulture("en-US")) + "\n";
                 }
             }
             
             try
             {
                 string sCSVFilePath = System.Web.HttpContext.Current.Server.MapPath("~") + "\\RPBillingSubscriptions.csv";
-                System.IO.File.WriteAllText(sCSVFilePath, sCSVData);
+                //System.IO.File.WriteAllText(sCSVFilePath, sCSVData);
+                System.IO.File.WriteAllText(sCSVFilePath, sCSVData, System.Text.Encoding.Unicode);
             }
             catch (Exception ex)
             {

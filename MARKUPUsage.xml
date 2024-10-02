@@ -585,4 +585,8 @@
     <Name>Leif Koch A/S</Name>
     <Markup>25.0</Markup>
   </Customer>
+  <Customer Id="2ddcf4bf-3b6c-421f-aa40-11e96b03d928">
+    <Name>Nova Salus ApS</Name>
+    <Markup>25.0</Markup>
+  </Customer>
 </CustomerMarkups>
