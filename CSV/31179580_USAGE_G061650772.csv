@@ -1,0 +1,35 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Service Bus - Service Bus - Standard - SQL ,0.00,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,2.88,1.37
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,IP Addresses - IP Addresses - Standard IPv4 - SQL ,2880.00,127.14
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,8.64,0.04
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Rtn Preference: MGN - Rtn Preference: MGN - SQL ,0.31,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.03,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,77.33,2.94
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Process Automation - Process Automation - Basic - ,0.38,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Network Watcher - Network Watcher - SQL ,0.34,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.16,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Premium SSD Managed Disks - Premium SSD Managed ,1.00,99.13
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Service Bus - Service Bus - Standard - SQL ,720.00,85.44
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Storage - Bandwidth - Storage - Bandwidth - ,0.08,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard HDD Managed Disks - Standard HDD Managed ,1.00,13.56
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Load Balancer - Load Balancer - SQL databasenew ,720.00,158.92
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Tables - Tables - GRS - SQL databasenew ,0.87,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.60,0.11
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Premium SSD Managed Disks - Premium SSD Managed ,3.00,574.28
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Files - Files - LRS - SQL databasenew ,5.00,2.65
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.09,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Virtual Machines BS Series - Virtual Machines BS ,719.95,305.11
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Key Vault - Key Vault - Premium - SQL databasenew ,0.01,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,IP Addresses - IP Addresses - Basic IPv4 - SQL ,720.00,22.88
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard HDD Managed Disks - Standard HDD Managed ,168.70,0.74
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,17.57,8.37
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,4.32,0.02
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Microsoft Entra Domain Services - Microsoft Entra ,719.80,953.26
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Tables - Tables - LRS - SQL databasenew ,0.88,0.00
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Blob Storage - Blob Storage - Hot LRS - EU West - ,16.94,2.93
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Load Balancer - Load Balancer - SQL databasenew ,16.51,0.73
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Virtual Machines BS Series Windows - Virtual ,719.97,355.96
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Storage - Bandwidth - Storage - Bandwidth - ,24.76,4.37
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Standard Page Blob v2 - Standard Page Blob v2 - ,1.38,0.92
+BLS Capital Management,b795875d-7e10-4816-8dbb-c215a70201d0,31179580,Virtual Machines Dv2 Series Windows - Virtual ,1439.93,3381.66

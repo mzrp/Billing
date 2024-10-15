@@ -1,0 +1,54 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,14.26,242.81
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - Azure plan - RackPeople ,5.26,1.80
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Blob Storage - Blob Storage - Hot LRS - EU West - ,617.32,15.12
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,155.11,0.32
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Key Vault - Key Vault - Premium - Azure plan - ,9.54,1.63
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,SQL Database Single Basic - SQL Database Single ,150.00,137.56
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Queues - Queues - LRS - Azure plan - RackPeople ,5.48,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Process Automation - Process Automation - Basic - ,1.48,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Functions - Functions - Azure plan - RackPeople ,400000.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Functions - Functions - Azure plan - RackPeople ,373520.88,34.04
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - Azure plan - RackPeople ,51.68,0.44
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - Azure plan - RackPeople ,1.10,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.02,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,21.41,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Sentinel - Sentinel - Pay-as-you-go - EU West - ,2.37,75.32
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Service Bus - Service Bus - Standard - Azure plan ,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,RADIUS 2019 Server - Wireless Authentication NPS - ,719.95,174.80
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Queues v2 - Queues v2 - LRS - EU West - Azure plan ,0.10,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Service Bus - Service Bus - Hybrid Connections - ,2153.79,164.39
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Premium SSD Managed Disks - Premium SSD Managed ,1.00,33.08
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - Azure plan - RackPeople ,29.88,0.26
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,IP Addresses - IP Addresses - Standard IPv4 - ,2160.00,61.52
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Queues v2 - Queues v2 - LRS - EU West - Azure plan ,69.28,1.58
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Virtual Machines BS Series Windows - Virtual ,719.95,229.65
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Free Plan - Azure App Service ,16.88,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Sentinel - Sentinel - Free Benefit - M365 Defender ,1.20,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Blob Storage - Blob Storage - Hot LRS - EU West - ,309.43,7.58
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Premium v2 Plan - Azure App ,720.00,820.23
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Service Bus - Service Bus - Hybrid Connections - ,0.57,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,5.80,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Files - Files - LRS - Azure plan - RackPeople ,44.79,3.83
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - Azure plan - RackPeople ,20.82,5.34
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Blob Storage - Blob Storage - Hot LRS - EU West - ,77.38,23.80
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - Azure plan - RackPeople ,8.11,0.02
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - Azure plan - RackPeople ,26.80,0.05
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Free Plan - Azure App Service ,10.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Tables - Tables - LRS - Azure plan - RackPeople ,0.85,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Standard SSD Managed Disks - Standard SSD Managed ,1.00,54.69
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Virtual Machines BS Series - Virtual Machines BS ,719.98,196.85
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,SQL Database Single Standard - SQL Database Single ,30.00,82.69
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Premium SSD Managed Disks - Premium SSD Managed ,1.00,123.50
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Standard Plan - Azure App ,4320.00,2460.70
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.02,0.01
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,RADIUS Server - FreeRADIUS and daloRADIUS - Cloud ,719.98,259.19
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,1020.97,2.09
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,General Block Blob - General Block Blob - LRS - ,0.50,0.07
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Log Analytics - Log Analytics - Pay-as-you-go - EU ,2.46,38.60
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Functions - Functions - Azure plan - RackPeople ,66872.00,0.00
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Azure App Service Basic Plan - Azure App Service ,720.00,307.59
+RackPeople ApS,74df0893-eb0e-4e6e-a68a-c5ddf3001c1f,99999003,Queues - Queues - LRS - Azure plan - RackPeople ,76.77,0.16

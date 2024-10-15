@@ -1,0 +1,61 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.11,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard SSD Managed Disks - Standard SSD Managed ,633.03,7.79
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Key Vault - Key Vault - Standard - Azure plannew ,0.01,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.03,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,52.56,0.12
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Files - Files - LRS - Azure plannew ,1.33,0.12
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Standard Plan - Azure App ,2160.00,1328.78
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Free Plan - Azure App Service ,10.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - LRS - Azure plannew ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,12.91,0.32
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,504.56,1.55
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Logic Apps - Logic Apps - Consumption - Azure ,0.33,0.24
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,27.61,3.33
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,100.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Virtual Machines Ebdsv5 Series - Virtual Machines ,719.98,1656.50
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.08,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Virtual Machines Dsv5 Series Windows - Virtual ,489.40,623.21
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single Standard - SQL Database Single ,30.00,892.99
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Logic Apps - Logic Apps - Consumption - Azure ,42981.00,33.05
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Standard Plan - Azure App ,1440.00,1771.70
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - LRS - Azure plannew ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Bandwidth Inter-Region - Bandwidth Inter-Region - ,0.05,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Premium v2 Plan - Azure App ,3600.00,4429.26
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Process Automation - Process Automation - Basic - ,68.72,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,56.36,1.39
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Functions - Functions - Azure plannew ,16.25,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - GRS - Azure plannew ,0.88,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Key Vault - Key Vault - Premium - Azure plannew ,0.02,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,86.15,0.26
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Network Watcher - Network Watcher - Azure plannew ,1.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Premium SSD Managed Disks - Premium SSD Managed ,0.68,621.24
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,189.57,101.46
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database - LTR Backup Storage - SQL Database - ,186.82,68.38
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Azure App Service Free Plan - Azure App Service ,2.58,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,IP Addresses - IP Addresses - Basic IPv4 - Azure ,488.40,12.02
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,62.61,0.19
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0.05,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SQL Database Single Standard - SQL Database Single ,60.00,178.61
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,SignalR - SignalR - Azure plannew ,180.00,1782.78
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Microsoft Defender for SQL - Microsoft Defender ,0.97,89.30
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob - Standard Page Blob - LRS - ,5.86,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob v2 - Standard Page Blob v2 - ,131.04,36.28
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard Page Blob - Standard Page Blob - LRS - ,2.93,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Standard SSD Managed Disks - Standard SSD Managed ,0.68,40.11
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,73.42,1350.40
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,IP Addresses - IP Addresses - Basic IPv4 - Azure ,720.00,15.95
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Log Analytics - Log Analytics - Pay-as-you-go - EU ,5.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Files - Files - LRS - Azure plannew ,0.05,0.02
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Files - Files - LRS - Azure plannew ,2.89,0.03
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Storage - Bandwidth - Storage - Bandwidth - ,0.06,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - LRS - Azure plannew ,3.40,0.01
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Tables - Tables - LRS - Azure plannew ,0.01,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Blob Storage - Blob Storage - Hot LRS - EU North - ,4.26,1.31
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,General Block Blob - General Block Blob - LRS - ,0.00,0.00
+twoday CTGlobal,b6909603-e5a8-497d-8fdb-7f10240fdc13,25188462,Files - Files - LRS - Azure plannew ,0.33,0.00

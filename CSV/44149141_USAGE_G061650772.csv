@@ -1,0 +1,22 @@
+Customer,CustomerId,CustomerNo,Description,Quantity,Unit Price
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Service Bus - Service Bus - Hybrid Connections - ,717.36,54.75
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,General Block Blob - General Block Blob - LRS - ,0.02,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU West - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,SQL Database Single/Elastic Pool General Purpose - ,1440.00,819.95
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,General Block Blob - General Block Blob - LRS - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.06,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Basic Plan - Linux - Azure App ,720.00,73.82
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - EU North - ,0.01,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Geographic Numbers - Geographic Numbers - DK - US ,7.00,32.70
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Tables - Tables - LRS - Azure plannew ,3.53,0.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Files - Files - LRS - Azure plannew ,10.01,3.42
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Free Plan - Linux - Azure App ,0.97,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Standard Plan - Azure App ,2160.00,1230.35
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Service Bus - Service Bus - Standard - Azure ,0.00,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Log Analytics - Log Analytics - Pay-as-you-go - EU ,0.16,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,SQL Database Single/Elastic Pool General Purpose - ,40.26,29.01
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,0.22,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,SQL Database Single/Elastic Pool General Purpose - ,1440.00,1273.50
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Blob Storage - Blob Storage - Hot LRS - US East - ,0.04,0.00
+New Co,f0d423c7-fdfd-46d5-99a1-b1fb85b47cdd,44149141,Azure App Service Free Plan - Azure App Service ,5.81,0.00

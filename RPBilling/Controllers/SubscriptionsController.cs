@@ -26,7 +26,7 @@ namespace RackPeople.BillingAPI.Controllers
             db.Configuration.ProxyCreationEnabled = false;
 
             // dave csv file now
-            string sCSVData = "NavCustomerName,NavCustomerId,Description,BillingCycle,ProductDescription,UnitAmount,NavPrice,UnitPrice\n";
+            string sCSVData = "NavCustomerName,NavCustomerId,Description,BillingCycle,ProductDescription,ProductNumber,UnitAmount,NavPrice,UnitPrice\n";
             foreach(var singlesub in this.activeSubscriptions)
             {
                 foreach (var subproduct in singlesub.Products) {
@@ -36,6 +36,7 @@ namespace RackPeople.BillingAPI.Controllers
                     sCSVData += "\"" + singlesub.BillingCycle.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
 
                     sCSVData += "\"" + subproduct.Description.Replace("\"", "'").ToString(CultureInfo.CreateSpecificCulture("da-DK")) + "\",";
+                    sCSVData += "\"" + subproduct.NavProductNumber.Replace("\"", "'") + "\",";
                     sCSVData += subproduct.UnitAmount.ToString("G", CultureInfo.CreateSpecificCulture("en-US")) + ",";
                     sCSVData += subproduct.NavPrice.ToString("G", CultureInfo.CreateSpecificCulture("en-US")) + ",";
                     sCSVData += subproduct.UnitPrice.ToString("G", CultureInfo.CreateSpecificCulture("en-US")) + "\n";
