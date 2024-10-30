@@ -646,6 +646,8 @@ namespace RPNAVConnect
         {
             System.Threading.Thread.CurrentThread.CurrentCulture = new CultureInfo("en-US");
 
+            rbtnSeats.Visible = false;
+
             // get bc token
             string sUserId = "n/a";
             try
@@ -1566,7 +1568,7 @@ namespace RPNAVConnect
                         iInvoiceLinesCount++;
 
                         // invoice comment - all customers
-                        string sCommentFile = "MARKUPSeats.xml";
+                        string sCommentFile = "MARKUPUsage.xml";
                         if (rbtnSeats.Checked == true)
                         {
                             sCommentFile = "MARKUPSeats.xml";
@@ -1878,22 +1880,32 @@ namespace RPNAVConnect
                             AzureBillingDataL.Text += sLine2;
                             AzureBillingDataL.Text += "<br /><br />";
 
-                            string sMarkupFile = "MARKUPSeats.xml";
-                            string sMarkupType = "MARKUPSeats";
+                            MarkupType.Text = "USAGE Type: MARKUP";
+                            string sMarkupFile = "MARKUPUsage.xml";
+                            string sMarkupType = "MARKUPUsage";
+
+                            /*
                             if (rbtnSeats.Checked == true)
                             {
                                 sMarkupFile = "MARKUPSeats.xml";
                                 MarkupType.Text = "SEATS Type: MARKUP";
                                 sMarkupType = "MARKUPSeats";
 
-                                /*
-                                MarkupType.Text = "SEATS Type: MARKUP";
-                                sMarkupFile = "MARKUPUsage.xml";
-                                sMarkupType = "MARKUPUsage";
-                                */
+                                //MarkupType.Text = "SEATS Type: MARKUP";
+                                //sMarkupFile = "MARKUPUsage.xml";
+                                //sMarkupType = "MARKUPUsage";
+
                             }
+                            */
+
                             if (rtbnUsage.Checked == true)
                             {
+
+                                MarkupType.Text = "USAGE Type: MARKUP";
+                                sMarkupFile = "MARKUPUsage.xml";
+                                sMarkupType = "MARKUPUsage";
+
+                                /*
                                 if (sUnitType != "")
                                 {
                                     MarkupType.Text = "USAGE Type: MARKUP";
@@ -1906,6 +1918,7 @@ namespace RPNAVConnect
                                     MarkupType.Text = "USAGE Type: MARKUP";
                                     sMarkupType = "MARKUPSeats";
                                 }
+                                */
                             }
 
                             // RP Billing
@@ -2153,10 +2166,17 @@ namespace RPNAVConnect
                                     }
                                     sSubTotal = dSubTotal.ToString("N");
 
-                                    dBillableQuantity = 1;
+                                    dBillableQuantity = 0; // was dBillableQuantity = 1; ???
                                     if (sBillableQuantity != "")
                                     {
-                                        dBillableQuantity = Convert.ToDecimal(sBillableQuantity);
+                                        try
+                                        {
+                                            dBillableQuantity = Convert.ToDecimal(sBillableQuantity);
+                                        }
+                                        catch (Exception ex)
+                                        {
+                                            dBillableQuantity = 0;
+                                        }
                                     }
                                     sBillableQuantityToShow = dQuantity.ToString("N");
 
@@ -2164,6 +2184,7 @@ namespace RPNAVConnect
                                     if (sQuantity != "")
                                     {
                                         dQuantity = Convert.ToDecimal(sQuantity);
+                                        
                                         if (sUnitType != "")
                                         {
                                             if (dBillableQuantity > 0)
@@ -2179,7 +2200,7 @@ namespace RPNAVConnect
                                         else
                                         {
                                             sQuantityToShow = dQuantity.ToString("N");
-                                        }
+                                        }                                        
                                     }
 
                                 }
@@ -2537,6 +2558,9 @@ namespace RPNAVConnect
                             }
                             if (rtbnUsage.Checked == true)
                             {
+                                sCSVTypeFile = "USAGE";
+
+                                /*
                                 if (sUnitType != "")
                                 {
                                     sCSVTypeFile = "USAGE";
@@ -2545,6 +2569,7 @@ namespace RPNAVConnect
                                 {
                                     sCSVTypeFile = "SEATS";
                                 }
+                                */
                             }
 
                             if (sCSVTypeFile == "USAGE")

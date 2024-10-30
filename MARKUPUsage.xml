@@ -109,9 +109,9 @@
     <Name>Gladsaxe Bladet</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="7b62b477-c11e-48fa-a1a1-f50dd448ad9c" Markup="0.0">
+  <Customer Id="7b62b477-c11e-48fa-a1a1-f50dd448ad9c" Markup="0">
     <Name>GoWingu ApS</Name>
-    <Markup>0.0</Markup>
+    <Markup>0</Markup>
   </Customer>
   <Customer Id="a82c3173-ccc6-452e-b1ea-b073caf1ea9d" Markup="3.75">
     <Name>Grønbech &amp; Sønner</Name>
@@ -213,9 +213,9 @@
     <Name>Rackpeople ApS</Name>
     <Markup>0.0</Markup>
   </Customer>
-  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0.00">
+  <Customer Id="74df0893-eb0e-4e6e-a68a-c5ddf3001c1f" Markup="0">
     <Name>RackPeople ApS</Name>
-    <Markup>0.00</Markup>
+    <Markup>0</Markup>
   </Customer>
   <Customer Id="3f19aad6-a204-4a42-b614-74d0a77ea620" Markup="0.00">
     <Name>RackpeopleTest</Name>
@@ -233,9 +233,9 @@
     <Name>Safe Online ApS</Name>
     <Markup>25</Markup>
   </Customer>
-  <Customer Id="0b409563-744e-405d-802d-401e1ad470ef" Markup="0.0">
+  <Customer Id="0b409563-744e-405d-802d-401e1ad470ef" Markup="0">
     <Name>SBC-Teams GoWingu</Name>
-    <Markup>0.0</Markup>
+    <Markup>0</Markup>
   </Customer>
   <Customer Id="b9d2f243-b20e-44ca-aaba-b179b9963fe2" Markup="0.00">
     <Name>Skypecall.me</Name>
@@ -297,9 +297,9 @@
     <Name>Lolland Forsyning a/s</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="7ba0ecb0-4dca-4b80-82de-7e32b6b61695" Markup="25">
+  <Customer Id="7ba0ecb0-4dca-4b80-82de-7e32b6b61695" Markup="12.5">
     <Name>Amgros</Name>
-    <Markup>25</Markup>
+    <Markup>12.5</Markup>
   </Customer>
   <Customer Id="dafc63d5-a0f2-4e9d-b31e-fae3a2899dd4">
     <Name>Jørn Andersen Service</Name>
@@ -381,9 +381,9 @@
     <Name>Buck-Arentsen Holding ApS</Name>
     <Markup>25.0</Markup>
   </Customer>
-  <Customer Id="a980a661-6969-4f10-8dd3-e57bbffcc853" Markup="12.50">
+  <Customer Id="a980a661-6969-4f10-8dd3-e57bbffcc853" Markup="12.5">
     <Name>Mads &amp; Vitus</Name>
-    <Markup>12.50</Markup>
+    <Markup>12.5</Markup>
   </Customer>
   <Customer Id="1dd91b75-6067-4249-802a-33bb55f62e86">
     <Name>Nyborg Kommune</Name>

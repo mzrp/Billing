@@ -99,11 +99,10 @@
                     <br />
                     <asp:Button ID="GetCustSubs" runat="server" Text="Update Customers & Subscriptions" Visible="true" OnClientClick="invokeLoader();" Height="58px" Width="286px" OnClick="GetCustSubs_Click" /> 
                     <br />
-                    <br />
             
-                    Please select billing type:<br /><br />
+                    <!--Please select billing type:<br /><br />-->
 
-                    <asp:RadioButton ID="rbtnSeats" runat="server" GroupName="BillingType" Text="" Checked="false" Disabled AutoPostBack="True" OnCheckedChanged="rbtnSeats_CheckedChanged" /> ? (formerly 'Charges for Office 365 and Microsoft Azure subscriptions')
+                    <asp:RadioButton ID="rbtnSeats" runat="server" GroupName="BillingType" Text="" Checked="false" Disabled AutoPostBack="True" OnCheckedChanged="rbtnSeats_CheckedChanged" /> 
                     <br />
                     <asp:RadioButton ID="rtbnUsage" runat="server" GroupName="BillingType" Text="" Checked="true" AutoPostBack="True" OnCheckedChanged="rtbnUsage_CheckedChanged" /> MPC billing - One Time - Invoice Line Items
                     <br /><br />

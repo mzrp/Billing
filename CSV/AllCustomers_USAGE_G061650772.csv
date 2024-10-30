@@ -512,23 +512,23 @@ Mads & Vitus,a980a661-6969-4f10-8dd3-e57bbffcc853,28689942,Microsoft Teams Phone
 NORDIC Shipping & Logistics,da072080-e4aa-4c80-845b-b4bd760ee5f6,31605725,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  9/21/2024 12:00:00 AM - 10/20/2024 12:00:00 AM  G061650772   ,523.8,69.84,1,6.00,25.00,87.30,523.80,104.76
 NORDIC Shipping & Logistics,da072080-e4aa-4c80-845b-b4bd760ee5f6,31605725,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  9/21/2024 12:00:00 AM - 10/20/2024 12:00:00 AM  G061650772   ,83.7,22.32,1,3.00,25.00,27.90,83.70,16.74
 NORDIC Shipping & Logistics,da072080-e4aa-4c80-845b-b4bd760ee5f6,31605725,OneDrive for business (Plan 1) - OneDrive for business (Plan 1) - cycleCharge  9/21/2024 12:00:00 AM - 10/20/2024 12:00:00 AM  G061650772   ,34.9,27.92,1,1.00,25.00,34.90,34.90,6.98
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,0,0.00,6.70125,0.48,25.00,0.01,0.01,0.01
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,0,0.00,6.70125,0.48,12.50,0.01,0.00,0.00
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Audio Conferencing - Microsoft 365 Audio Conferencing - cycleCharge  9/29/2024 12:00:00 AM - 10/28/2024 12:00:00 AM  G061650772   ,328.2,17.50,1,15.00,25.00,21.88,328.13,65.63
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,General Block Blob v2 Hierarchical Namespace - ,0,0.01,6.70125,0.02,25.00,0.04,0.00,0.00
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,0,0.02,6.70125,0.37,25.00,0.11,0.04,0.04
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Features - Blob Features - SSH File Transfer ,1537.93,0.30,6.70125,720.00,25.00,2.14,1537.94,307.60
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - Azure plannew ,0,0.00,6.70125,0.44,25.00,0.00,0.00,0.00
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,0,0.00,6.70125,0.00,25.00,0.00,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,General Block Blob v2 Hierarchical Namespace - ,0,0.01,6.70125,0.02,12.50,0.03,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,0,0.02,6.70125,0.37,12.50,0.10,0.04,0.04
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Blob Features - Blob Features - SSH File Transfer ,1537.93,0.30,6.70125,720.00,12.50,1.92,1384.14,153.80
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Tables - Tables - LRS - Azure plannew ,0,0.00,6.70125,0.44,12.50,0.00,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,0,0.00,6.70125,0.00,12.50,0.00,0.00,0.00
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,41.9,33.52,1,1.00,25.00,41.90,41.90,8.38
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,1189.55,0.06,6.70125,2784.65,25.00,0.43,1189.62,237.98
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,1189.55,0.06,6.70125,2784.65,12.50,0.38,1070.65,119.01
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft Teams Phone Standard - Microsoft Teams Phone Standard - cycleCharge  9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,782.6,44.72,1,14.00,25.00,55.90,782.60,156.52
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot LRS - EU North - Azure ,0,0.03,6.70125,0.01,25.00,0.22,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files v2 - Files v2 - Hot LRS - EU North - Azure ,0,0.03,6.70125,0.01,12.50,0.20,0.00,0.00
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Office 365 F3 - Office 365 F3 - cycleCharge 9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,27.9,22.32,1,1.00,25.00,27.90,27.90,5.58
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Business Premium - Microsoft 365 Business Premium - cycleCharge  9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,2612.9,122.96,1,17.00,25.00,153.70,2612.90,522.58
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Business Premium - Microsoft 365 Business Premium - renew  9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,368.88,147.55,1,2.00,25.00,184.44,368.88,73.78
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Exchange Online (Plan 1) - Exchange Online (Plan 1) - cycleCharge  9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,251.1,22.32,1,9.00,25.00,27.90,251.10,50.22
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,0,0.09,6.70125,0.02,25.00,0.00,0.00,0.00
-Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,0,0.00,6.70125,0.29,25.00,0.01,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Rtn Preference: MGN - Rtn Preference: MGN - Azure ,0,0.09,6.70125,0.02,12.50,0.00,0.00,0.00
+Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Files - Files - LRS - Azure plannew ,0,0.00,6.70125,0.29,12.50,0.01,0.00,0.00
 Gammelbys,0f341d83-baf4-42ed-acfa-2749495cfdea,29687765,Microsoft 365 Apps for business - Microsoft 365 Apps for business - cycleCharge  9/28/2024 12:00:00 AM - 10/27/2024 12:00:00 AM  G061650772   ,73,58.40,1,1.00,25.00,73.00,73.00,14.60
 RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Standard - Microsoft 365 Business Standard - cycleCharge  9/1/2024 12:00:00 AM - 9/30/2024 12:00:00 AM  G061650772   ,174.6,69.84,1,2.00,25.00,87.30,174.60,34.92
 RAQA,3724caf6-cade-4c40-abc8-5a29387c6e00,41202726,Microsoft 365 Business Basic - Microsoft 365 Business Basic - cycleCharge  9/1/2024 12:00:00 AM - 9/30/2024 12:00:00 AM  G061650772   ,41.9,33.52,1,1.00,25.00,41.90,41.90,8.38
